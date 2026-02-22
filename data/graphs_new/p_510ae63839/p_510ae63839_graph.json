@@ -1,0 +1,360 @@
+{
+  "protocol_id": "p_510ae63839",
+  "nodes": [
+    {
+      "id": "diagnosis_anogenital_borodavki",
+      "type": "diagnosis",
+      "label": "Аногенитальные (венерические) бородавки",
+      "icd_code": "A63.0"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_parestezii",
+      "type": "symptom",
+      "label": "парестезии"
+    },
+    {
+      "id": "symptom_boleznennost_polovih_kontaktov",
+      "type": "symptom",
+      "label": "болезненность при половых контактах (диспареуния)"
+    },
+    {
+      "id": "symptom_zhzhenie_pri_mocheispuskanii",
+      "type": "symptom",
+      "label": "жжение при мочеиспускании"
+    },
+    {
+      "id": "symptom_dizuriya",
+      "type": "symptom",
+      "label": "дизурия (болезненное мочеиспускание)"
+    },
+    {
+      "id": "symptom_zatrudnennoe_mocheispuskanie",
+      "type": "symptom",
+      "label": "затрудненное мочеиспускание"
+    },
+    {
+      "id": "symptom_boleznennye_treshiny",
+      "type": "symptom",
+      "label": "болезненные трещины"
+    },
+    {
+      "id": "symptom_krovotochivost",
+      "type": "symptom",
+      "label": "кровоточивость кожных покровов и слизистых оболочек"
+    },
+    {
+      "id": "symptom_pokrasnenie",
+      "type": "symptom",
+      "label": "покраснение"
+    },
+    {
+      "id": "symptom_razdrazhenie",
+      "type": "symptom",
+      "label": "раздражение"
+    },
+    {
+      "id": "symptom_upolnenie",
+      "type": "symptom",
+      "label": "уплотнение"
+    },
+    {
+      "id": "symptom_izyazvlenie",
+      "type": "symptom",
+      "label": "изъязвление"
+    },
+    {
+      "id": "symptom_erozia",
+      "type": "symptom",
+      "label": "эрозия"
+    },
+    {
+      "id": "symptom_obrazovanie_puzyrkov",
+      "type": "symptom",
+      "label": "образование пузырьков"
+    },
+    {
+      "id": "symptom_gipopigmentatsiya",
+      "type": "symptom",
+      "label": "гипопигментация"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... в области поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parestezii",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парестезии в области поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_polovih_kontaktov",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность во время половых контактов (диспареуния)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie_pri_mocheispuskanii",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение ... при мочеиспускании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дизурия (болезненное мочеиспускание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_mocheispuskanie",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennye_treshiny",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненные трещины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost",
+      "target": "diagnosis_anogenital_borodavki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоточивость кожных покровов и слизистых оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_parestezii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "зуд и парестезии в области поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_zhzhenie_pri_mocheispuskanii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "зуд, жжение, болезненность при мочеиспускании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_dizuriya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "зуд, жжение, болезненность при мочеиспускании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie_pri_mocheispuskanii",
+      "target": "symptom_dizuriya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жжение, болезненность при мочеиспускании (дизурия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennye_treshiny",
+      "target": "symptom_krovotochivost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненные трещины и кровоточивость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasnenie",
+      "target": "symptom_razdrazhenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, раздражение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasnenie",
+      "target": "symptom_upolnenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, ... уплотнение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasnenie",
+      "target": "symptom_izyazvlenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, ... изъязвление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasnenie",
+      "target": "symptom_erozia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, ... эрозия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasnenie",
+      "target": "symptom_obrazovanie_puzyrkov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, ... образование пузырьков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasnenie",
+      "target": "symptom_gipopigmentatsiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, ... гипопигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhenie",
+      "target": "symptom_upolnenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "раздражение, уплотнение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhenie",
+      "target": "symptom_izyazvlenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "раздражение, изъязвление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhenie",
+      "target": "symptom_erozia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "раздражение, эрозия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhenie",
+      "target": "symptom_obrazovanie_puzyrkov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "раздражение, образование пузырьков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhenie",
+      "target": "symptom_gipopigmentatsiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "раздражение, гипопигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie",
+      "target": "symptom_izyazvlenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уплотнение, изъязвление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie",
+      "target": "symptom_erozia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уплотнение, эрозия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie",
+      "target": "symptom_obrazovanie_puzyrkov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уплотнение, образование пузырьков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie",
+      "target": "symptom_gipopigmentatsiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уплотнение, гипопигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izyazvlenie",
+      "target": "symptom_erozia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изъязвление, эрозия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izyazvlenie",
+      "target": "symptom_obrazovanie_puzyrkov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изъязвление, образование пузырьков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izyazvlenie",
+      "target": "symptom_gipopigmentatsiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изъязвление, гипопигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erozia",
+      "target": "symptom_obrazovanie_puzyrkov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эрозия, образование пузырьков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erozia",
+      "target": "symptom_gipopigmentatsiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эрозия, гипопигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obrazovanie_puzyrkov",
+      "target": "symptom_gipopigmentatsiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "образование пузырьков, гипопигментация",
+      "properties": {}
+    }
+  ]
+}

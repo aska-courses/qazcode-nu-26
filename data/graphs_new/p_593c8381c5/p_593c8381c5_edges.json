@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_osteomyelitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "diagnosis_osteomyelitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ноющая (пульсирующая, распирающая) боль в области поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_function_impairment",
+    "target": "diagnosis_osteomyelitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение функций конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_wound",
+    "target": "diagnosis_osteomyelitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие свищевых ран",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_fistula_purulent",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "один или несколько длительно незаживающих свищей с гнойным отделяемым",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_deformation",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "костная деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_old_scar",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие старых рубцов в области пораженного сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_hyperemia",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемию кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_temperature_increase",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение местной температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек в области поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis_left_shift",
+    "target": "diagnosis_osteomyelitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз со сдвигом влево",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_osteomyelitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ускорение СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_increase",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль усиливается",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_increase",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышается температура тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia_around_focus",
+    "target": "diagnosis_chronic_osteomyelitis_drained_sinus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "развивается гиперемия вокруг очага",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела, ноющая (пульсирующая, распирающая) боль в области поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_limb_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела, нарушение функций конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_fistula_wound",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела, наличие свищевых ран",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "symptom_limb_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ноющая (пульсирующая, распирающая) боль в области поражения, нарушение функций конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_fistula_purulent",
+    "target": "symptom_bone_deformation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "один или несколько длительно незаживающих свищей с гнойным отделяемым; - костная деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_fistula_purulent",
+    "target": "symptom_old_scar",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "один или несколько длительно незаживающих свищей с гнойным отделяемым; - наличие старых рубцов в области пораженного сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_fistula_purulent",
+    "target": "symptom_skin_hyperemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "один или несколько длительно незаживающих свищей с гнойным отделяемым; - гиперемию кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_fistula_purulent",
+    "target": "symptom_local_temperature_increase",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "один или несколько длительно незаживающих свищей с гнойным отделяемым; - повышение местной температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_fistula_purulent",
+    "target": "symptom_edema",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "один или несколько длительно незаживающих свищей с гнойным отделяемым; - отек в области поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_increase",
+    "target": "symptom_fever_increase",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При обострении – боль усиливается, повышается температура тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_increase",
+    "target": "symptom_hyperemia_around_focus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При обострении – боль усиливается, развивается гиперемия вокруг очага",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_increase",
+    "target": "symptom_hyperemia_around_focus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышается температура тела, развивается гиперемия вокруг очага",
+    "properties": {}
+  }
+]

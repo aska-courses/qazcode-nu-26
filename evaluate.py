@@ -56,7 +56,7 @@ async def evaluate_single(
             )
 
         start_time = time.perf_counter()
-        response = await client.post(endpoint, json={"symptoms": query})
+        response = await client.post(endpoint, json={"query": query})
         latency_s = time.perf_counter() - start_time
 
         response.raise_for_status()

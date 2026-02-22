@@ -1,0 +1,346 @@
+{
+  "protocol_id": "p_c9b2fe85bd",
+  "nodes": [
+    {
+      "id": "symptom_absence_or_decreased_vision",
+      "type": "symptom",
+      "label": "Отсутствие или снижение зрения"
+    },
+    {
+      "id": "symptom_blurred_vision",
+      "type": "symptom",
+      "label": "Затуманивание зрения"
+    },
+    {
+      "id": "symptom_scotoma",
+      "type": "symptom",
+      "label": "«Пятно» перед глазом (скотома)"
+    },
+    {
+      "id": "symptom_visual_field_loss",
+      "type": "symptom",
+      "label": "Выпадение полей зрения или ограничение периферического зрения"
+    },
+    {
+      "id": "symptom_color_vision_loss",
+      "type": "symptom",
+      "label": "Снижение цветоощущения"
+    },
+    {
+      "id": "symptom_eye_movement_pain",
+      "type": "symptom",
+      "label": "Боли при движении глаз"
+    },
+    {
+      "id": "symptom_exophthalmos",
+      "type": "symptom",
+      "label": "Экзофтальм"
+    },
+    {
+      "id": "symptom_limited_ocular_mobility",
+      "type": "symptom",
+      "label": "Ограничение подвижности глазного яблока"
+    },
+    {
+      "id": "symptom_nystagmus",
+      "type": "symptom",
+      "label": "Нистагм"
+    },
+    {
+      "id": "symptom_facial_nerve_palsy",
+      "type": "symptom",
+      "label": "Симптомы поражения лицевого нерва"
+    },
+    {
+      "id": "symptom_optic_disc_edema",
+      "type": "symptom",
+      "label": "Отёк диска зрительного нерва"
+    },
+    {
+      "id": "symptom_optic_disc_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия диска зрительного нерва"
+    },
+    {
+      "id": "symptom_blurred_disc_margins",
+      "type": "symptom",
+      "label": "Смутные границы диска зрительного нерва"
+    },
+    {
+      "id": "symptom_vitreous_haze",
+      "type": "symptom",
+      "label": "Проминенция в стекловидном теле"
+    },
+    {
+      "id": "symptom_exudate_in_optic_cup",
+      "type": "symptom",
+      "label": "Заполнение экссудатом сосудистой воронки"
+    },
+    {
+      "id": "symptom_disc_hemorrhage",
+      "type": "symptom",
+      "label": "Геморрагия на диске зрительного нерва"
+    },
+    {
+      "id": "symptom_vascular_dilation",
+      "type": "symptom",
+      "label": "Расширение артерий и вен в области диска"
+    },
+    {
+      "id": "symptom_increased_intraocular_pressure",
+      "type": "symptom",
+      "label": "Повышение внутриглазного давления"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_decreased_visual_acuity",
+      "type": "symptom",
+      "label": "Снижение остроты зрения"
+    },
+    {
+      "id": "symptom_blindness",
+      "type": "symptom",
+      "label": "Слепота"
+    },
+    {
+      "id": "symptom_concentric_field_constriction",
+      "type": "symptom",
+      "label": "Концентрическое сужение поля зрения"
+    },
+    {
+      "id": "symptom_paracentral_scotoma",
+      "type": "symptom",
+      "label": "Парацентральные скотомы"
+    },
+    {
+      "id": "diagnosis_optic_nerve_neuritis",
+      "type": "diagnosis",
+      "label": "Неврит зрительного нерва",
+      "icd_code": "N46"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_absence_or_decreased_vision",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии Жалобы на: отсутствие или снижение зрения (затуманивание, «пятно» перед глазом)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blurred_vision",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии Жалобы на: отсутствие или снижение зрения (затуманивание, «пятно» перед глазом)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scotoma",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кинетическая периметрия – с целью выявления центральных и парацентральных скотом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paracentral_scotoma",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кинетическая периметрия – с целью выявления центральных и парацентральных скотом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_field_loss",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии Жалобы на: выпадение полей зрения или ограничение периферического зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_concentric_field_constriction",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "концентрическое сужение поля зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_color_vision_loss",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии Жалобы на: снижение цветоощущения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_movement_pain",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии Жалобы на: боли при движении глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exophthalmos",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При ретробульбарном неврите возможен экзофтальм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limited_ocular_mobility",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При ретробульбарном неврите возможен ... ограничение подвижности глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nystagmus",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При ретробульбарном неврите возможен ... нистагм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_nerve_palsy",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При ретробульбарном неврите возможен ... симптомы поражения лицевого нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_disc_edema",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Интрабульбарный неврит может проявиться отеком ... диска зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_disc_hyperemia",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Интрабульбарный неврит может проявиться ... гиперемией диска зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blurred_disc_margins",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Интрабульбарный неврит может проявиться ... стушеванностью его границ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vitreous_haze",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Интрабульбарный неврит может проявиться ... проминенцией в стекловидном теле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exudate_in_optic_cup",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Возможно заполнение экссудатом сосудистой воронки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disc_hemorrhage",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Геморрагии на диске зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vascular_dilation",
+      "target": "diagnosis_optic_nerve_neuritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Расширение артерий и вен в области диска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absence_or_decreased_vision",
+      "target": "symptom_blurred_vision",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отсутствие или снижение зрения (затуманивание, «пятно» перед глазом)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_field_loss",
+      "target": "symptom_concentric_field_constriction",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "концентрическое сужение поля зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exophthalmos",
+      "target": "symptom_limited_ocular_mobility",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "может наблюдаться экзофтальм, ограничение подвижности глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_disc_edema",
+      "target": "symptom_optic_disc_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отеком, гиперемией диска зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_disc_edema",
+      "target": "symptom_blurred_disc_margins",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отеком, ... стушеванностью его границ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disc_hemorrhage",
+      "target": "symptom_vascular_dilation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "расширение артерий и вен ... геморрагии на диске зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paracentral_scotoma",
+      "target": "symptom_scotoma",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "парацентральные скотомы",
+      "properties": {}
+    }
+  ]
+}

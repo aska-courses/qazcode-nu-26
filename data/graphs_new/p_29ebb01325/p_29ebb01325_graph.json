@@ -1,0 +1,303 @@
+{
+  "protocol_id": "p_29ebb01325",
+  "nodes": [
+    {
+      "id": "diagnosis_vpr",
+      "type": "diagnosis",
+      "label": "Врожденный пузырно-мочеточниково-почечный рефлюкс",
+      "icd_code": "Q62.7"
+    },
+    {
+      "id": "symptom_chastoje_mocheispuskaniye",
+      "type": "symptom",
+      "label": "Частое мочеиспускание"
+    },
+    {
+      "id": "symptom_redkoje_mocheispuskaniye",
+      "type": "symptom",
+      "label": "Редкое мочеиспускание"
+    },
+    {
+      "id": "symptom_nochnoe_nedderzhanie_mochi",
+      "type": "symptom",
+      "label": "Ночное недержание мочи"
+    },
+    {
+      "id": "symptom_povtorjajushchiesja_podemy_temperatury",
+      "type": "symptom",
+      "label": "Повторяющиеся подъемы температуры"
+    },
+    {
+      "id": "symptom_bol_v_pjasnicnoj_oblasti_pri_mocheispuskanii",
+      "type": "symptom",
+      "label": "Боль в поясничной области при мочеиспускании"
+    },
+    {
+      "id": "symptom_bol_v_pjasnicnoj_oblasti_i_zhivote",
+      "type": "symptom",
+      "label": "Боль в поясничной области и животе"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_epizody_mochevoj_infekcii",
+      "type": "symptom",
+      "label": "Эпизоды мочевой инфекции"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_pochek_pri_mikcii",
+      "type": "symptom",
+      "label": "Боль в области почек при микции"
+    },
+    {
+      "id": "symptom_leykotsitoz",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_uskorennaya_soe",
+      "type": "symptom",
+      "label": "Ускоренная СОЭ"
+    },
+    {
+      "id": "symptom_bakteriuriya",
+      "type": "symptom",
+      "label": "Бактериурия"
+    },
+    {
+      "id": "symptom_leykotsuriya",
+      "type": "symptom",
+      "label": "Лейкоцитурия"
+    },
+    {
+      "id": "symptom_eritrotsuriya",
+      "type": "symptom",
+      "label": "Эритроцитурия"
+    },
+    {
+      "id": "symptom_proteinuriya",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "symptom_povyshennyi_kreatinin",
+      "type": "symptom",
+      "label": "Повышенный креатинин"
+    },
+    {
+      "id": "symptom_povyshennaya_mochevina",
+      "type": "symptom",
+      "label": "Повышенная мочевина"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_redkoje_mocheispuskaniye",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "редкое или частое мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastoje_mocheispuskaniye",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "редкое или частое мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnoe_nedderzhanie_mochi",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ночное недержание мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povtorjajushchiesja_podemy_temperatury",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повторяющиеся «беспричинные» подъемы температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pjasnicnoj_oblasti_i_zhivote",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в поясничной области в животе связанные с актом мочеиспускания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_pochek_pri_mikcii",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в области почек во время микции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsitoz",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК: лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uskorennaya_soe",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК: ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАМ: бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsuriya",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАМ: лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritrotsuriya",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАМ: эритроцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuriya",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАМ: протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennyi_kreatinin",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный креатинин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_mochevina",
+      "target": "diagnosis_vpr",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная мочевина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redkoje_mocheispuskaniye",
+      "target": "symptom_chastoje_mocheispuskaniye",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "редкое или частое мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pjasnicnoj_oblasti_i_zhivote",
+      "target": "symptom_bol_v_oblasti_pochek_pri_mikcii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в поясничной области в животе связанные с актом мочеиспускания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsitoz",
+      "target": "symptom_uskorennaya_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАК: лейкоцитоз, ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "symptom_leykotsuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАМ: бактериурия, лейкоцитурия, эритроцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "symptom_eritrotsuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАМ: бактериурия, лейкоцитурия, эритроцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАМ: бактериурия, лейкоцитурия, эритроцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsuriya",
+      "target": "symptom_eritrotsuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАМ: бактериурия, лейкоцитурия, эритроцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsuriya",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАМ: бактериурия, лейкоцитурия, эритроцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritrotsuriya",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАМ: бактериурия, лейкоцитурия, эритроцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennyi_kreatinin",
+      "target": "symptom_povyshennaya_mochevina",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышенный креатинин, мочевина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "с/без тошноты, рвоты",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_fistula_location",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на наличие свища в околоушной или поднижнечелюстной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saliva_discharge_meals",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделяется слюна, усиление выделения происходит во время приема пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_redness",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "покраснение кожи вокруг свища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_history_trauma_or_surgery",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "появление свища связано с травмой слюнной железы или после оперативного вмешательства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pinpoint_opening",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "имеется точечное отверстие, из которого ... выделяется слюна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_maceration",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожа мацерирована",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_irritation",
+    "target": "diagnosis_salivary_gland_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожа ... раздражена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_location",
+    "target": "symptom_saliva_discharge_meals",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на наличие свища в околоушной или поднижнечелюстной областях, через который выделяется слюна, усиление выделения происходит во время приема пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_location",
+    "target": "symptom_skin_redness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на наличие свища ...; покраснение кожи вокруг свища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_location",
+    "target": "symptom_cosmetic_defect",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на наличие свища ...; косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_location",
+    "target": "symptom_history_trauma_or_surgery",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на наличие свища ...; появление свища связано с травмой ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saliva_discharge_meals",
+    "target": "symptom_skin_redness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выделяется слюна ...; покраснение кожи вокруг свища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pinpoint_opening",
+    "target": "symptom_skin_maceration",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "имеется точечное отверстие ...; кожа мацерирована",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pinpoint_opening",
+    "target": "symptom_skin_irritation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "имеется точечное отверстие ...; кожа ... раздражена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_maceration",
+    "target": "symptom_skin_irritation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожа мацерирована, раздражена",
+    "properties": {}
+  }
+]

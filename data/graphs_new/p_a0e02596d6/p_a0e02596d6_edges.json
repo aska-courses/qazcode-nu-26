@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_unilateral_tonic_facial_contractions",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "односторонними тоническими ... сокращениями лицевой мускулатуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unilateral_clonic_facial_contractions",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "односторонними ... клоническими сокращениями лицевой мускулатуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_muscle_spasm",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "спазм мышц лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressive_spread_from_circular_eye_muscle",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "начинается с редких сокращений круговой мышцы глаза, затем, постепенно прогрессируя, приступ спазма затрагивает всю половину лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inability_to_see_affected_eye",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "достигать такой степени, что пациент не может видеть глазом пораженной стороны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_persists_during_sleep",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "могут сохраняться даже во время сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_triggered_by_fatigue",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "провоцируются переутомлением",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_triggered_by_stress",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "провоцируются ... стрессом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_triggered_by_anxiety",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "провоцируются ... тревожным состоянием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_disturbances",
+    "target": "diagnosis_hemifacial_spasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Консультация офтальмолога – при зрительных нарушениях.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unilateral_tonic_facial_contractions",
+    "target": "symptom_unilateral_clonic_facial_contractions",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "односторонними тоническими ... или клоническими сокращениями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_muscle_spasm",
+    "target": "symptom_unilateral_tonic_facial_contractions",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "спазм мышц лица ... односторонними тоническими ... сокращениями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_muscle_spasm",
+    "target": "symptom_unilateral_clonic_facial_contractions",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "спазм мышц лица ... односторонними ... клоническими сокращениями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressive_spread_from_circular_eye_muscle",
+    "target": "symptom_inability_to_see_affected_eye",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "прогрессируя, приступ спазма затрагивает всю половину лица ... не может видеть глазом пораженной стороны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_persists_during_sleep",
+    "target": "symptom_spasm_triggered_by_fatigue",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "могут сохраняться даже во время сна ... провоцируются переутомлением",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_triggered_by_stress",
+    "target": "symptom_spasm_triggered_by_anxiety",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "провоцируются ... стрессом, тревожным состоянием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasm_triggered_by_fatigue",
+    "target": "symptom_spasm_triggered_by_stress",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "провоцируются переутомлением, стрессом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_disturbances",
+    "target": "symptom_inability_to_see_affected_eye",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "зрительных нарушениях ... не может видеть глазом пораженной стороны",
+    "properties": {}
+  }
+]

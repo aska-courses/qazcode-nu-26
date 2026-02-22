@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_krovotechenie",
+    "target": "diagnosis_q28_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение частоты кровотечений и судорог",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_q28_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение частоты кровотечений и судорог",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolev_sindrom",
+    "target": "diagnosis_c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "купирование болевых синдромов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvigat_ras",
+    "target": "diagnosis_g20",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уменьшение нарушения двигательных расстройств",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_mozga",
+    "target": "diagnosis_d32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при высоких рисках ... отека мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c71",
+    "target": "diagnosis_q28_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c71",
+    "target": "diagnosis_i77_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c71",
+    "target": "diagnosis_g50_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c71",
+    "target": "diagnosis_g20",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q28_2",
+    "target": "diagnosis_i77_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q28_2",
+    "target": "diagnosis_g50_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q28_2",
+    "target": "diagnosis_g20",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "опухоли центральной нервной системы (ЦНС), АВМ, ДАВФ размером не более 3-3,5см, невралгия тройничного нерва, двигательные расстройства",
+    "properties": {}
+  }
+]

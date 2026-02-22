@@ -1,0 +1,458 @@
+[
+  {
+    "source": "symptom_nervoznost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: нервозность;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_potlivost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: потливость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_serdcobienie",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: сердцебиение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_u tomlivaemost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: повышенную утомляемость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_appetit",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: повышенный аппетит и, несмотря на это, похудание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pohudenie",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: ... похудание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obshaya_slabost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: общую слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emocionalnaya_labilnost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: эмоциональную лабильность;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: одышку;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: нарушение сна, иногда бессонницу;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bessonnitsa",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: ... иногда бессонницу;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoleranciya_k_zhare",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: плохую переносимость повышенной температуры окружающей среды;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diaria",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: диарею;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oglavnyy_bol_v_glaznyh_yablokah",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: дискомфорт со стороны глаз - неприятные ощущения в области глазных яблок, дрожь век;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_drozh_vek",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: ... дрожь век;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrualnye_narusheniya",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на: нарушения менструального цикла.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ugolshenie_razmera_shz",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: увеличение размеров ЩЖ;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardi",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечной деятельности (тахикардия, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gromkie_tony_serdca",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечной деятельности (... громкие тоны сердца, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sistolicheskiy_shum",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечной деятельности (... иногда систолический шум на верхушке, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_sistolicheskogo_ar",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечной деятельности (... повышение систолического ... артериального давления, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_diastolicheskogo_ar",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечной деятельности (... снижение диастолического артериального давления, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mercatelnaya_aritm",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечной деятельности (... приступы мерцательной аритмии);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tremor",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения центральной и симпатической нервной системы (тремор пальцев рук, языка, всего туловища, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razdrazhitelnost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения центральной и симпатической нервной системы (... раздражительность, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chuvstvo_bespokoystva",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения центральной и симпатической нервной системы (... чувство беспокойства и страха, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperrefleksiya",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения центральной и симпатической нервной системы (... гиперрефлексия);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neperenosimost_zhary",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения обмена веществ (непереносимость жары, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_vesa",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения обмена веществ (... потеря веса, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhazda",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения обмена веществ (... жажда, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhidkiy_stul",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения со стороны желудочно-кишечного тракта (жидкий стул, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_v_zhivote",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения со стороны желудочно-кишечного тракта (... боли в животе, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_usilennaya_peristaltika",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения со стороны желудочно-кишечного тракта (... усиленная перистальтика);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ekzoftalm",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глазные симптомы (широкое раскрытие глазных щелей, экзофтальм, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nechetchnost_zreniya",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глазные симптомы (... нечеткость зрения, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvoenie",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глазные симптомы (... двоение, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_verhnego_veka",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глазные симптомы (... отставание верхнего века при взгляде вниз, ...);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_nizhnego_veka",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глазные симптомы (... отставание нижнего века при взгляде вверх);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_retrobulyarnaya_bol",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП характеризуется ... ретробульбарной боли, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_pri_dvizhenii_glaz",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... боль при движениях глазами, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eritema_vek",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... эритема век, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_vek",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... отек или припухлость век, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_konjunktivy",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... гиперемия конъюнктивы, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_khemoragiya",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... хеморрагия (кровотечение) конъюнктивы, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proptoz",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... проптоз, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_podvizhnosti_glaz",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... ограничение подвижности глазодвигательных мышц, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neuropatiya_zritelnogo_nerva",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... нейропатия зрительного нерва, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_keratopatiya",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... кератопатия с образованием бельма, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perforaciya_rogovitsy",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... перфорация роговицы, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ofthaloplegiya",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... офтальмоплегия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopiia",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... диплопия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myshechnaya_slabost",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... мышечная слабость, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atrofia_mysht",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... атрофия мышц, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myastenia",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... миастения, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periodicheskiy_paralich",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭОП ... периодический паралич, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e05_0",
+    "target": "diagnosis_e05",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Тиреотоксикоз с диффузным зобом (диффузный токсический зоб, болезнь Грейвса, Базедова) представляет собой аутоиммунное заболевание...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e06_2",
+    "target": "diagnosis_e05",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Хронический тиреоидит с преходящим тиреотоксозом относится к формам тиреотоксикоза.",
+    "properties": {}
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "protocol_id": "p_bb1c986e3c",
+  "nodes": [
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_frequent_respiratory_infections",
+      "type": "symptom",
+      "label": "Частые простудные заболевания"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_poor_weight_gain",
+      "type": "symptom",
+      "label": "Плохая прибавка в весе"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_systolic_murmur",
+      "type": "symptom",
+      "label": "Систолический шум"
+    },
+    {
+      "id": "symptom_systolic_vibration",
+      "type": "symptom",
+      "label": "Систолическое дрожание"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_frequent_respiratory_infections",
+      "target": "symptom_cyanosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Частые простудные заболевания, Цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poor_weight_gain",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плохая прибавка в весе, одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poor_weight_gain",
+      "target": "symptom_sweating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плохая прибавка в весе, ... потливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_sweating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плохая прибавка в весе, одышка, потливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "(тахикардия, одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "symptom_hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "(тахикардия, ... гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "(... одышка, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_murmur",
+      "target": "symptom_systolic_vibration",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Систолическое дрожание ... систолический шум",
+      "properties": {}
+    }
+  ]
+}

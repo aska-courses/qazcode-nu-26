@@ -1,0 +1,393 @@
+{
+  "protocol_id": "p_447684b631",
+  "nodes": [
+    {
+      "id": "symptom_zhgucha_bol",
+      "type": "symptom",
+      "label": "жгучая боль"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura",
+      "type": "symptom",
+      "label": "повышенная температура"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_trudnosti_ddyhaniya",
+      "type": "symptom",
+      "label": "трудности дыхания"
+    },
+    {
+      "id": "symptom_osiplost_golosa",
+      "type": "symptom",
+      "label": "осиплость голоса"
+    },
+    {
+      "id": "symptom_kashl_kopota_v_mokrote",
+      "type": "symptom",
+      "label": "кашель с копотой в мокроте"
+    },
+    {
+      "id": "symptom_disfonia",
+      "type": "symptom",
+      "label": "дисфония"
+    },
+    {
+      "id": "symptom_stridor",
+      "type": "symptom",
+      "label": "стридор"
+    },
+    {
+      "id": "symptom_tachypnoe",
+      "type": "symptom",
+      "label": "учащенное дыхание (тахипноэ)"
+    },
+    {
+      "id": "symptom_tachikardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_giperemiya_kozhi",
+      "type": "symptom",
+      "label": "гиперемия кожи"
+    },
+    {
+      "id": "symptom_oteok_tkanei",
+      "type": "symptom",
+      "label": "отёк тканей"
+    },
+    {
+      "id": "symptom_sukhoy_strup",
+      "type": "symptom",
+      "label": "сухой струп"
+    },
+    {
+      "id": "symptom_vlazhnyy_strup",
+      "type": "symptom",
+      "label": "влажный струп"
+    },
+    {
+      "id": "symptom_poteria_soznaniya",
+      "type": "symptom",
+      "label": "потеря сознания"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_ikota",
+      "type": "symptom",
+      "label": "икота"
+    },
+    {
+      "id": "symptom_giperkalemiya",
+      "type": "symptom",
+      "label": "гиперкалиемия"
+    },
+    {
+      "id": "symptom_gipovolemiya",
+      "type": "symptom",
+      "label": "гиповолемия"
+    },
+    {
+      "id": "symptom_gemokoncentraciya",
+      "type": "symptom",
+      "label": "гемоконцентрация"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия (низкий гемоглобин)"
+    },
+    {
+      "id": "symptom_oliguriya",
+      "type": "symptom",
+      "label": "олигурия (уменьшенный диурез)"
+    },
+    {
+      "id": "symptom_polioorgan_nedostatochnost",
+      "type": "symptom",
+      "label": "полиорганная недостаточность"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "сепсис"
+    },
+    {
+      "id": "symptom_infekciya_rany",
+      "type": "symptom",
+      "label": "инфекция раны"
+    },
+    {
+      "id": "symptom_mikrobnaya_kontaminaciya",
+      "type": "symptom",
+      "label": "микробная контаминация"
+    },
+    {
+      "id": "symptom_giperemiya_slizistoy",
+      "type": "symptom",
+      "label": "гиперемия слизистой"
+    },
+    {
+      "id": "symptom_oteok_legkikh",
+      "type": "symptom",
+      "label": "отёк лёгких"
+    },
+    {
+      "id": "diagnosis_termi_og",
+      "type": "diagnosis",
+      "label": "Термический ожог",
+      "icd_code": "86.20"
+    },
+    {
+      "id": "diagnosis_phoor",
+      "type": "diagnosis",
+      "label": "ПХООР",
+      "icd_code": "86.22"
+    },
+    {
+      "id": "diagnosis_adp",
+      "type": "diagnosis",
+      "label": "АДП",
+      "icd_code": "86.60"
+    },
+    {
+      "id": "diagnosis_allodermoplastika",
+      "type": "diagnosis",
+      "label": "Аллодермопластика",
+      "icd_code": "86.65"
+    },
+    {
+      "id": "diagnosis_nekrektomiya_odnomomentnaya",
+      "type": "diagnosis",
+      "label": "Некрэктомия с одномоментной",
+      "icd_code": "86.66"
+    },
+    {
+      "id": "diagnosis_autodermoplastika_ksenotransplantaciya",
+      "type": "diagnosis",
+      "label": "Аутодермопластика, ксенотрансплантация",
+      "icd_code": "86.91"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zhgucha_bol",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "На жгучие боли в области воздействия термического агента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osiplost_golosa",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "осиплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl_kopota_v_mokrote",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кашель с копотой в мокроте – в 22,6% случаев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stridor",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Стридор (шумное дыхание) – в 6,9% случаев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachikardia",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тахикардия до 90… до 110",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkalemiya",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Нарастает гиперкалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipovolemiya",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ОШ относится к гиповолемическому типу гемодинамических нарушений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemokoncentraciya",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Стойкая гемоконцентрация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемия (низкий гемоглобин)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguriya",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "олигурия (уменьшенный диурез)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сепсис",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infekciya_rany",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекция раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikrobnaya_kontaminaciya",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "микробная контаминация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперемия слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteok_legkikh",
+      "target": "diagnosis_termi_og",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк лёгких",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_phoor",
+      "target": "diagnosis_termi_og",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "ПХОР – первичная хирургическая обработка ожоговой раны",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_adp",
+      "target": "diagnosis_termi_og",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "АДП – аутодермопластика, основной операции при глубоких ожогах",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_allodermoplastika",
+      "target": "diagnosis_termi_og",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Аллодермопластика – используется в лечении ожогов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_nekrektomiya_odnomomentnaya",
+      "target": "diagnosis_termi_og",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Некрэктомия с одномоментной – при ожогах",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_autodermoplastika_ksenotransplantaciya",
+      "target": "diagnosis_termi_og",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Аутодермопластика, ксенотрансплантация – при ожогах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhgucha_bol",
+      "target": "symptom_zhzhenie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: На жгучие боли …, жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachikardia",
+      "target": "symptom_giperkalemiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тахикардия… Нарастает гиперкалиемия при тяжёлом ОШ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_stridor",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Признаки термоингаляционной травмы: одышка, стридор",
+      "properties": {}
+    }
+  ]
+}

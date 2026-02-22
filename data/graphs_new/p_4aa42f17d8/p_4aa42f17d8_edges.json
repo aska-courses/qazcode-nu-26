@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_regulyarnye_skhvatki",
+    "target": "diagnosis_samoproizvolnye_rody_zatilochnoe_predlezhanie",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "наличие регулярной родовой деятельности (не менее 2 схваток за 10 минут)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skhvatkoobraznye_boli_nizu_zhivota",
+    "target": "diagnosis_samoproizvolnye_rody_zatilochnoe_predlezhanie",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "схваткообразные боли внизу живота (не менее 2 схваток за 10 минут)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydele_iz_polovyh_putey",
+    "target": "symptom_golovnye_boli",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появление кровянистых выделений из половых путей; появление головных болей, головокружения, боли в эпигастрии, тошноты, рвоты, мелькании мушек перед глазами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydele_iz_polovyh_putey",
+    "target": "symptom_golovokruzhenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появление кровянистых выделений из половых путей; появление головных болей, головокружения, боли в эпигастрии, тошноты, рвоты, мелькании мушек перед глазами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydele_iz_polovyh_putey",
+    "target": "symptom_bol_v_epigastrii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появление кровянистых выделений из половых путей; появление головных болей, головокружения, боли в эпигастрии, тошноты, рвоты, мелькании мушек перед глазами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydele_iz_polovyh_putey",
+    "target": "symptom_toshnota",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появление кровянистых выделений из половых путей; появление головных болей, головокружения, боли в эпигастрии, тошноты, рвоты, мелькании мушек перед глазами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydele_iz_polovyh_putey",
+    "target": "symptom_rvoa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появление кровянистых выделений из половых путей; появление головных болей, головокружения, боли в эпигастрии, тошноты, рвоты, мелькании мушек перед глазами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydele_iz_polovyh_putey",
+    "target": "symptom_melkaniye_mushek_pered_glazami",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появление кровянистых выделений из половых путей; появление головных болей, головокружения, боли в эпигастрии, тошноты, рвоты, мелькании мушек перед глазами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zelenye_okoloplodnye_vody",
+    "target": "symptom_gemoragicheskie_okoloplodnye_vody",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "изменение характера околоплодных вод – зеленые, геморрагические",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardiya_ploda",
+    "target": "symptom_bradikardiya_ploda",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тахикардия плода выше 160 ударов в минуту и брадикардия ниже 110 ударов в минуту",
+    "properties": {}
+  }
+]

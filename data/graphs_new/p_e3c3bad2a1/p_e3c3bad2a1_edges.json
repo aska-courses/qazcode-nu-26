@@ -1,0 +1,386 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение температуры до 38-40°C ... характерно для болезни, вызванной вирусом Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение температуры до 38-40°C ... характерно для болезни, вызванной вирусом Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение температуры до 38-40°C ... характерно для желтой лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение температуры до 38-40°C ... характерно для лихорадки денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сильная головная боль ... характерна для болезни, вызванной вирусом Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сильная головная боль ... характерна для болезни, вызванной вирусом Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сильная головная боль ... характерна для желтой лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сильная головная боль ... характерна для лихорадки денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "артралгия ... характерна для классической лихорадки денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "миалгия ... характерна для классической лихорадки денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "высыпания на коже (иногда с зудом) ... характерны для лихорадки денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pruritus",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высыпания на коже (иногда с зудом) ... зуд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleed",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечения из носа ... характерны для геморрагического синдрома при болезни, вызванной вирусом Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleed",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечения из носа ... характерны для геморрагического синдрома при болезни, вызванной вирусом Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleed",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровотечения из носа ... могут наблюдаться при желтой лихорадке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleed",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровотечения из носа ... могут наблюдаться при геморрагической форме денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехии ... характерны для геморрагического синдрома при болезни, вызванной вирусом Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехии ... характерны для геморрагического синдрома при болезни, вызванной вирусом Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "петехии ... могут наблюдаться при желтой лихорадке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехии ... характерны для геморрагической формы денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "желтушность кожи ... характерна для желтой лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "желтушность кожи ... может наблюдаться при тяжёлой форме болезни Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотония ... входит в осложнения (гиповолемический шок, инфекционно‑токсический шок)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотония ... входит в осложнения (гиповолемический шок, инфекционно‑токсический шок)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотония ... может возникать при тяжёлой форме желтой лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотония ... характерна для геморрагической/шоковой формы денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_DIC",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "синдром диссеминированного внутрисосудистого свертывания ... характерен для тяжёлой формы болезни Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_DIC",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "синдром диссеминированного внутрисосудистого свертывания ... характерен для тяжёлой формы болезни Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_DIC",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "синдром диссеминированного внутрисосудистого свертывания ... характерен для геморрагической формы денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_kidney_injury",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острая почечная недостаточность ... может развиваться при болезни, вызванной вирусом Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_kidney_injury",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острая почечная недостаточность ... может развиваться при болезни, вызванной вирусом Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_kidney_injury",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острая почечная недостаточность ... может развиваться при тяжёлой форме денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_conjunctivitis",
+    "target": "diagnosis_ebola",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "геморрагический конъюнктивит ... входит в геморрагический синдром при болезни, вызванной вирусом Эбола",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_conjunctivitis",
+    "target": "diagnosis_marburg",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "геморрагический конъюнктивит ... входит в геморрагический синдром при болезни, вызванной вирусом Марбург",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_conjunctivitis",
+    "target": "diagnosis_yellow_fever",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "геморрагический конъюнктивит ... может наблюдаться при желтой лихорадке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_conjunctivitis",
+    "target": "diagnosis_dengue",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "геморрагический конъюнктивит ... может наблюдаться при геморрагической форме денге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Повышение температуры ... сильная головная боль ... перечислены вместе в клинической картине",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Повышение температуры ... резкая слабость ... перечислены вместе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_skin_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Повышение температуры ... высыпания на коже (иногда с зудом) ... перечислены в одном абзаце",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleed",
+    "target": "symptom_petechiae",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровотечения из носа ... петихии ... оба упомянуты как проявления геморрагического синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_myalgia",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "артралгия, миалгия ... перечислены вместе в описании клинической картины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_conjunctivitis",
+    "target": "symptom_petechiae",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "геморрагический конъюнктивит ... петихии ... оба входят в геморрагический синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ebola",
+    "target": "diagnosis_marburg",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "БВВЭ, БВВМ – обе относятся к группе вирусных геморрагических лихорадок",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ebola",
+    "target": "diagnosis_yellow_fever",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "В разделе классификации указаны БВВЭ, ЖЛ как вирусные геморрагические лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ebola",
+    "target": "diagnosis_dengue",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Все четыре заболевания (Эбола, Марбург, ЖЛ, ДНГ) объединены в протоколе как вирусные геморрагические лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_marburg",
+    "target": "diagnosis_yellow_fever",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Все четыре заболевания (Эбола, Марбург, ЖЛ, ДНГ) объединены в протоколе как вирусные геморрагические лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_marburg",
+    "target": "diagnosis_dengue",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Все четыре заболевания (Эбола, Марбург, ЖЛ, ДНГ) объединены в протоколе как вирусные геморрагические лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_yellow_fever",
+    "target": "diagnosis_dengue",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Все четыре заболевания (Эбола, Марбург, ЖЛ, ДНГ) объединены в протоколе как вирусные геморрагические лихорадки",
+    "properties": {}
+  }
+]

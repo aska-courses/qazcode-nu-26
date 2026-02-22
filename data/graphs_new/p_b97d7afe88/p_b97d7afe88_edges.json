@@ -1,0 +1,258 @@
+[
+  {
+    "source": "symptom_swistjashchie_hriopy",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashl",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stesnenie_v_grudi",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nochnye_probuzeniia",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ночные пробуждения ... из‑за астмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dnevnie_simptomy",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Дневные симптомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_fizicheskoi_aktivnosti",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ограничение физической активности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_obostreniya",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Частые обострения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_funkcii_legkih",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение функции легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_ofv1",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение ОФВ1 учитывается как фактор риска обострений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_psv",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение ПСВ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksemia",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "астматический статус определяется как ... гипоксемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkapniia",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "астматический статус определяется как ... гиперкапнии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tsiianoz",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жизнеугрожающее ... Цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahipnoe",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тахипноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradikardia",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotenzia",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_komа",
+    "target": "diagnosis_asmaticheskiy_status",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_asmaticheskiy_status",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Астматический статус определяется как не купирующийся приступ бронхиальной астмы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_asma_s_preobladeniem_allergicheskogo_komponenta",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 ... J45.0 Астма с преобладанием аллергического компонента",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_neallergicheskaya_asma",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 ... J45.1 Неаллергическая астма",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_smeshannaya_asma",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 ... J45.8 Смешанная астма",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_asma_neutochnennaya",
+    "target": "diagnosis_bronkhialnaya_astma",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 ... J45.9 Астма неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swistjashchie_hriopy",
+    "target": "symptom_odyshka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swistjashchie_hriopy",
+    "target": "symptom_kashl",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swistjashchie_hriopy",
+    "target": "symptom_stesnenie_v_grudi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_kashl",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_stesnenie_v_grudi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashl",
+    "target": "symptom_stesnenie_v_grudi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерные респираторные симптомы БА: хрипы, одышка, кашель, стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_ofv1",
+    "target": "symptom_snizhenie_psv",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Снижение ОФВ1 ... Снижение ПСВ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksemia",
+    "target": "symptom_giperkapniia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жизнеугрожающее ... гипоксемии и гиперкапнии",
+    "properties": {}
+  }
+]

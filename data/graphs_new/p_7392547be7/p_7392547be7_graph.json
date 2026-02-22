@@ -1,0 +1,1409 @@
+{
+  "protocol_id": "p_7392547be7",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_proximal_muscle_weakness",
+      "type": "symptom",
+      "label": "слабость проксимальных мышц"
+    },
+    {
+      "id": "symptom_muscle_pain",
+      "type": "symptom",
+      "label": "боль в мышцах"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "боль в суставах"
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "боль в спине"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "затрудненное глотание"
+    },
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "общая слабость"
+    },
+    {
+      "id": "symptom_skin_erythema",
+      "type": "symptom",
+      "label": "изменения кожного покрова (эритема)"
+    },
+    {
+      "id": "symptom_periorbital_edema",
+      "type": "symptom",
+      "label": "периорбитальный отек (дерматомиозитные очки)"
+    },
+    {
+      "id": "symptom_capillaritis_palms",
+      "type": "symptom",
+      "label": "капилляриты ладоней"
+    },
+    {
+      "id": "symptom_facial_edema",
+      "type": "symptom",
+      "label": "отек лица"
+    },
+    {
+      "id": "symptom_hand_edema",
+      "type": "symptom",
+      "label": "отек кистей"
+    },
+    {
+      "id": "symptom_foot_edema",
+      "type": "symptom",
+      "label": "отек стоп"
+    },
+    {
+      "id": "symptom_lower_leg_edema",
+      "type": "symptom",
+      "label": "отек голеней"
+    },
+    {
+      "id": "symptom_torso_edema",
+      "type": "symptom",
+      "label": "отек туловища"
+    },
+    {
+      "id": "symptom_myosclerosis",
+      "type": "symptom",
+      "label": "миосклероз"
+    },
+    {
+      "id": "symptom_contractures",
+      "type": "symptom",
+      "label": "контрактуры"
+    },
+    {
+      "id": "symptom_muscle_atrophy",
+      "type": "symptom",
+      "label": "атрофия мышц"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_dysphonia",
+      "type": "symptom",
+      "label": "дисфония"
+    },
+    {
+      "id": "symptom_hair_loss",
+      "type": "symptom",
+      "label": "выпадение волос"
+    },
+    {
+      "id": "diagnosis_dermatomyositis",
+      "type": "diagnosis",
+      "label": "Дерматомиозит",
+      "icd_code": "M33"
+    },
+    {
+      "id": "diagnosis_juvenile_dermatomyositis",
+      "type": "diagnosis",
+      "label": "Юношеский дерматомиозит",
+      "icd_code": "M33.0"
+    },
+    {
+      "id": "diagnosis_other_dermatomyositis",
+      "type": "diagnosis",
+      "label": "Другие дерматомиозиты",
+      "icd_code": "M33.1"
+    },
+    {
+      "id": "diagnosis_polymyositis",
+      "type": "diagnosis",
+      "label": "Полимиозит",
+      "icd_code": "M33.2"
+    },
+    {
+      "id": "diagnosis_dermatomyositis_neoplasms",
+      "type": "diagnosis",
+      "label": "Дерматомиозит при новообразованиях",
+      "icd_code": "M33.6"
+    },
+    {
+      "id": "diagnosis_dermatomyositis_unspecified",
+      "type": "diagnosis",
+      "label": "Дерматомиозит/полимиозит неуточненный",
+      "icd_code": "M33.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела (озноб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела (озноб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела (озноб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела (озноб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела (озноб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела (озноб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения кожного покрова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения кожного покрова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения кожного покрова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения кожного покрова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения кожного покрова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения кожного покрова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параорбитальным отеком - «дерматомиозитовые очки»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параорбитальным отеком - «дерматомиозитовые очки»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параорбитальным отеком - «дерматомиозитовые очки»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параорбитальным отеком - «дерматомиозитовые очки»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параорбитальным отеком - «дерматомиозитовые очки»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параорбитальным отеком - «дерматомиозитовые очки»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillaritis_palms",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляриты ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillaritis_palms",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляриты ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillaritis_palms",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляриты ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillaritis_palms",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляриты ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillaritis_palms",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляриты ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillaritis_palms",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляриты ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_edema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_edema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_edema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_edema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_edema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_edema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foot_edema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foot_edema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foot_edema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foot_edema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foot_edema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foot_edema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_leg_edema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_leg_edema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_leg_edema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_leg_edema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_leg_edema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_leg_edema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_torso_edema",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_torso_edema",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_torso_edema",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_torso_edema",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_torso_edema",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_torso_edema",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное глотание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное глотание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное глотание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное глотание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное глотание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное глотание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость (недомогание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость (недомогание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость (недомогание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость (недомогание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость (недомогание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость (недомогание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphonia",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphonia",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphonia",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphonia",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphonia",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphonia",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myosclerosis",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миосклероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myosclerosis",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миосклероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myosclerosis",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миосклероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myosclerosis",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миосклероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myosclerosis",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миосклероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myosclerosis",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миосклероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractures",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрактуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractures",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрактуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractures",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрактуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractures",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрактуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractures",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрактуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractures",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрактуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_polymyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proximal_muscle_weakness",
+      "target": "symptom_muscle_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "слабость проксимальных мышц;  боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_back_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в суставах, в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "symptom_hand_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица, кистей, реже стоп, голеней, туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "symptom_foot_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица, кистей, реже стоп, голеней, туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "symptom_lower_leg_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица, кистей, реже стоп, голеней, туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "symptom_torso_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плотный/тестоватый отек лица, кистей, реже стоп, голеней, туловища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_erythema",
+      "target": "symptom_periorbital_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эритема верхнего века с лиловым оттенком в сочетании с параорбитальным отеком",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_dysphagia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка, ... дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_dysphonia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка, ... дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "symptom_dysphonia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дисфагия, дисфония",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_dermatomyositis",
+      "target": "diagnosis_polymyositis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, юношеский дерматомиозит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_dermatomyositis",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, юношеский дерматомиозит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_dermatomyositis",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, юношеский дерматомиозит, другие дерматомиозиты",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_dermatomyositis",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, юношеский дерматомиозит, дерматомиозит при новообразованиях",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_dermatomyositis",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, юношеский дерматомиозит, дерматомиозит/полимиозит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_polymyositis",
+      "target": "diagnosis_juvenile_dermatomyositis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, юношеский дерматомиозит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_polymyositis",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит, полимиозит, другие дерматомиозиты",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_polymyositis",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... полимиозит, дерматомиозит при новообразованиях",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_polymyositis",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... полимиозит, дерматомиозит/полимиозит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_juvenile_dermatomyositis",
+      "target": "diagnosis_other_dermatomyositis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... юношеский дерматомиозит, другие дерматомиозиты",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_juvenile_dermatomyositis",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... юношеский дерматомиозит, дерматомиозит при новообразованиях",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_juvenile_dermatomyositis",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... юношеский дерматомиозит, дерматомиозит/полимиозит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_other_dermatomyositis",
+      "target": "diagnosis_dermatomyositis_neoplasms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... другие дерматомиозиты, дерматомиозит при новообразованиях",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_other_dermatomyositis",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... другие дерматомиозиты, дерматомиозит/полимиозит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_dermatomyositis_neoplasms",
+      "target": "diagnosis_dermatomyositis_unspecified",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Клиническая классификация: ... дерматомиозит при новообразованиях, дерматомиозит/полимиозит неуточненный",
+      "properties": {}
+    }
+  ]
+}

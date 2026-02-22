@@ -1,0 +1,786 @@
+[
+  {
+    "source": "symptom_recurrent_respiratory_infections",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пациенты с ХСА ... склонны к появлению рецидивирующих инфекций, как в верхних, так и в нижних дыхательных путях.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_respiratory_infections",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пациенты с ХСА ... склонны к появлению рецидивирующих инфекций, как в верхних, так и в нижних дыхательных путях.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_septic_arthritis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые случаи септического артрита ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_septic_arthritis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые случаи септического артрита ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые случаи ... энцефалита ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые случаи ... энцефалита ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_tumors",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "развития злокачественных опухолей (лимфома, рак желудка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_tumors",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "развития злокачественных опухолей (лимфома, рак желудка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulomatous_interstitial_lung_disease",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гранулематозной интерстициальной болезни легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulomatous_interstitial_lung_disease",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гранулематозной интерстициальной болезни легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crohns_disease",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "поражения кишечника в виде болезни Крона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crohns_disease",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "поражения кишечника в виде болезни Крона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nonspecific_ulcerative_colitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "неспецифического язвенного колита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nonspecific_ulcerative_colitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "неспецифического язвенного колита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulomatous_hepatitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "развитием гранулематозного гепатита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulomatous_hepatitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "развитием гранулематозного гепатита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_autoimmune_thrombocytopenia",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "аутоиммунной тромбоцитопении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_autoimmune_thrombocytopenia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "аутоиммунной тромбоцитопении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_autoimmune_hemolytic_anemia",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "аутоиммунной гемолитической анемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_autoimmune_hemolytic_anemia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "аутоиммунной гемолитической анемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_ear_discharge",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гнойное отделяемое из наружного слухового прохода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_ear_discharge",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гнойное отделяемое из наружного слухового прохода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_coating",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "появление налета на слизистой полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_coating",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "появление налета на слизистой полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_liquid_stools",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частый жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_liquid_stools",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частый жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolonged_cough",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "длительный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolonged_cough",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "длительный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "длительное повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "длительное повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отставание ребенка ... в весе и росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отставание ребенка ... в весе и росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postvaccinal_complications",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "поствакцинальные осложнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postvaccinal_complications",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "поствакцинальные осложнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "менингит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "менингит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cellulitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "целлюлит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cellulitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "целлюлит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_purulent_otitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые гнойные отиты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_purulent_otitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые гнойные отиты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_candidiasis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "упорная молочница",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_candidiasis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "упорная молочница",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_skin_infections",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "грибковые поражения кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_skin_infections",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "грибковые поражения кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sinusitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гнойное воспаление придаточных пазух носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sinusitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гнойное воспаление придаточных пазух носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_skin_abscesses",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие гнойные поражения кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_skin_abscesses",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие гнойные поражения кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_bacterial_respiratory_infections",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие типичные бактериальные инфекции дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_bacterial_respiratory_infections",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие типичные бактериальные инфекции дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opportunistic_infections",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "оппортунистические инфекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opportunistic_infections",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "оппортунистические инфекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_viral_infections",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "персистирующие вирусные инфекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_viral_infections",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "персистирующие вирусные инфекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_diarrhea",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие диареи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_diarrhea",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие диареи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teleangiectasia",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "телеангиэктазия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teleangiectasia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "телеангиэктазия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличенные лимфатические узлы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличенные лимфатические узлы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличенная селезенка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличенная селезенка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atopic_dermatitis",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "атопический дерматит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atopic_dermatitis",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "атопический дерматит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_syndrome",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "геморрагический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_syndrome",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "геморрагический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ecchymoses",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "экхимозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ecchymoses",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "экхимозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гематурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гематурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleeds",
+    "target": "diagnosis_hereditary_hypogammaglobulinemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleeds",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_ear_discharge",
+    "target": "symptom_oral_coating",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гнойное отделяемое из наружного слухового прохода, появление налета на слизистой полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение аппетита, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_liquid_stools",
+    "target": "symptom_prolonged_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "частый жидкий стул, длительный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_prolonged_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "длительное повышение температуры, длительный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "symptom_teleangiectasia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие атаксии и телеангиэктазии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "symptom_hepatosplenomegaly",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличенные лимфатические узлы и селезенка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "symptom_anemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение количества тромбоцитов ... снижение количества эритроцитов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "symptom_ecchymoses",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "петехии ... экхимозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_nosebleeds",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гематурия, упорные носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hereditary_hypogammaglobulinemia",
+    "target": "diagnosis_general_variable_immunodeficiency",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Х-сцепленная агаммаглобулинемия (ХСА) и общий вариабельный иммунодефицит (ОВИН) характеризуются ...",
+    "properties": {}
+  }
+]

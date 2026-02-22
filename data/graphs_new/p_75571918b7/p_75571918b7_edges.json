@@ -1,0 +1,66 @@
+[
+  {
+    "source": "narushenie_mozgovogo_krovobrascheniya",
+    "target": "tserebrovaskulyarnye_bolezni",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при нарушении мозгового кровообращения вследствие инсульта и других цереброваскулярных патологиях",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_pamyati",
+    "target": "bolezn_alzhegamera",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при болезни Альцгеймера и других формах слабоумия (старческое слабоумие, деменция, нарушение памяти)",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_perfuzii_glavnogomozga",
+    "target": "bolezn_alzhegamera",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушений перфузии при нейродегенеративных заболеваниях",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_mozgovogo_krovobrascheniya",
+    "target": "narushenie_perfuzii_glavnogomozga",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушения перфузии при нейродегенеративных заболеваниях; при нарушении мозгового кровообращения вследствие инсульта",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_perfuzii_glavnogomozga",
+    "target": "narushenie_krovosnabzheniya_struktur_glavnogomozga",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выявить нарушение кровоснабжения структур головного мозга на уровне микроциркуляции; нарушения перфузии",
+    "properties": {}
+  },
+  {
+    "source": "esencionalnaya_gipertenziya",
+    "target": "vtorichnaya_gipertenziya",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "при гипертонической болезни",
+    "properties": {}
+  },
+  {
+    "source": "epilepsiya",
+    "target": "epilepticheskiy_status",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "G4–G41.9 Эпилепсия; Эпилептический статус",
+    "properties": {}
+  },
+  {
+    "source": "organicheskie_psihicheskie_rasstroystva",
+    "target": "shizofreniya",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "F00-F03 Органические, включая симптоматические, психические расстройства; F20-F20.9 Шизофрения, шизофренические и бредовые расстройства",
+    "properties": {}
+  }
+]

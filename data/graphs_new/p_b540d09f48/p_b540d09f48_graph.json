@@ -1,0 +1,154 @@
+{
+  "protocol_id": "p_b540d09f48",
+  "nodes": [
+    {
+      "id": "symptom_tearing",
+      "type": "symptom",
+      "label": "Слезотечение"
+    },
+    {
+      "id": "symptom_photophobia",
+      "type": "symptom",
+      "label": "Светобоязнь"
+    },
+    {
+      "id": "symptom_foreign_body_sensation",
+      "type": "symptom",
+      "label": "Чувство инородного тела"
+    },
+    {
+      "id": "symptom_visual_acuity_decrease",
+      "type": "symptom",
+      "label": "Снижение зрения"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_corneal_edema",
+      "type": "symptom",
+      "label": "Отек роговицы"
+    },
+    {
+      "id": "symptom_corneal_infiltrate",
+      "type": "symptom",
+      "label": "Инфильтрация роговицы"
+    },
+    {
+      "id": "symptom_neovascularization",
+      "type": "symptom",
+      "label": "Новообразованные сосуды"
+    },
+    {
+      "id": "symptom_intraocular_pressure_elevated",
+      "type": "symptom",
+      "label": "Повышенное внутриглазное давление"
+    },
+    {
+      "id": "diagnosis_keratitis",
+      "type": "diagnosis",
+      "label": "Кератит",
+      "icd_code": "16.0"
+    },
+    {
+      "id": "diagnosis_other_surface",
+      "type": "diagnosis",
+      "label": "Другие поверхностные кератиты",
+      "icd_code": "16.1"
+    },
+    {
+      "id": "diagnosis_interstitial_deep",
+      "type": "diagnosis",
+      "label": "Интерстициальный и глубокий кератит",
+      "icd_code": "16.3"
+    },
+    {
+      "id": "diagnosis_other_forms",
+      "type": "diagnosis",
+      "label": "Другие формы кератита",
+      "icd_code": "16.8"
+    },
+    {
+      "id": "diagnosis_unspecified",
+      "type": "diagnosis",
+      "label": "Кератит неуточненный",
+      "icd_code": "16.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_tearing",
+      "target": "diagnosis_keratitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слезотечение;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "diagnosis_keratitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • светобоязнь;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foreign_body_sensation",
+      "target": "diagnosis_keratitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • чувство инородного тела;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_acuity_decrease",
+      "target": "diagnosis_keratitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение зрения;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_keratitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • болевой синдром.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "symptom_photophobia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слезотечение; • светобоязнь;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "symptom_foreign_body_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слезотечение; • чувство инородного тела;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "symptom_foreign_body_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • светобоязнь; • чувство инородного тела;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_acuity_decrease",
+      "target": "symptom_pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение зрения; • болевой синдром.",
+      "properties": {}
+    }
+  ]
+}

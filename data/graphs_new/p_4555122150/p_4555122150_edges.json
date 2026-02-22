@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_boli_za_grudinoy",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • боли за грудиной; • синдром верхней полой вены ...; • одышка при физической нагрузке; • осиплость голоса; • слабость; • потливость по ночам; • субфебрильная температура; • похудание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sindrom_verhney_poloi_veny",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • боли за грудиной; • синдром верхней полой вены (расширение, набухание вен шеи, отёчность лица, шеи или верхнего плечевого пояса);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka_pri_fizicheskoj_nagruzke",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • одышка при физической нагрузке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osiplost_golosa",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • осиплость голоса;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_potlivost_po_nocham",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • потливость по ночам;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrilnaya_temperatura",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • субфебрильная температура;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokhudenie",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • похудание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetrichnost_grudnoj_kletki",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • ассиметричность грудной клетки;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • цианоз или полнокровие лица (плетора);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polnokrovie_lica",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • цианоз или полнокровие лица (плетора);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnoe",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • тахипное.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashel",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При сдавлении трахеи и крупных бронхов возникает кашель и одышка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfagiya",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Сдавление пищевода может вызвать дисфагию.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sdavlenie_ven",
+    "target": "diagnosis_c38",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Проявлением компрессионного синдрома является и сдавление крупных венозных стволов и, в первую очередь, верхней полой вены (синдром верхней полой вены).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_za_grudinoy",
+    "target": "symptom_sindrom_verhney_poloi_veny",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ...: • боли за грудиной; • синдром верхней полой вены (расширение, набухание вен шеи, отёчность лица, шеи или верхнего плечевого пояса);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka_pri_fizicheskoj_nagruzke",
+    "target": "symptom_kashel",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При сдавлении трахеи и крупных бронхов возникает кашель и одышка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osiplost_golosa",
+    "target": "symptom_sdavlenie_ven",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поражение возвратного гортанного нерва проявляется осиплостью голоса, ... сдавление крупных венозных стволов ... (синдром верхней полой вены).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_polnokrovie_lica",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • цианоз или полнокровие лица (плетора);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnoe",
+    "target": "symptom_kashel",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При сдавлении трахеи и крупных бронхов возникает кашель и одышка (тахипное дыхание).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c38_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C38 Злокачественные новообразования сердца, средостения и плевры; C38.0 Сердца.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c38_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C38.1 Переднего средостения.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c38_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C38.2 Заднего средостения.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c38_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C38.3 Средостения неуточненной части.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c38_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C38.4 Плевры.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c38_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C38.8 Поражение сердца, средостения и плевры, выходящее за пределы одной и более вышеуказанных локализаций.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c37",
+    "target": "diagnosis_c38",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C37 Злокачественные новообразования вилочковой железы; C38 Злокачественные новообразования сердца, средостения и плевры.",
+    "properties": {}
+  }
+]

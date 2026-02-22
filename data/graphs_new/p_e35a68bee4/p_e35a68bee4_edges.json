@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_bol_kol_sustav",
+    "target": "symptom_narushenie_dvig_funkcii_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на боли в области коленного сустава, нарушение двигательной функции в коленном суставе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_nizhney_konechnosti",
+    "target": "symptom_otek_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "1) вынужденное положение нижней конечности; 2) отек в области коленного сустава;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_nizhney_konechnosti",
+    "target": "symptom_krovoizliyanie_okruzhayushchie_tkanki_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "1) вынужденное положение нижней конечности; 2) отек в области коленного сустава; 3) кровоизлияние в окружающие ткани в области коленного сустава;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_kol_sustav",
+    "target": "symptom_krovoizliyanie_okruzhayushchie_tkanki_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "2) отек в области коленного сустава; 3) кровоизлияние в окружающие ткани в области коленного сустава;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_kol_sustav",
+    "target": "symptom_boleznennost_pri_oschei_nagruzke_i_dvizheniyah_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "1) боль в области коленного сустава; 2) болезненность, усиливающая при осевой нагрузке и движениях, в области коленного сустава;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_kol_sustav",
+    "target": "symptom_grubaya_patologicheskaya_podvizhimost_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "1) боль в области коленного сустава; 3) грубая патологическая подвижность в области коленного сустава.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_pri_oschei_nagruzke_i_dvizheniyah_kol_sustav",
+    "target": "symptom_grubaya_patologicheskaya_podvizhimost_kol_sustav",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "2) болезненность, усиливающая при осевой нагрузке и движениях, в области коленного сустава; 3) грубая патологическая подвижность в области коленного сустава.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_usib_kol_sustava",
+    "target": "diagnosis_razryv_meniska_svezhiy",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) по МКБ-10: S80.0 Ушиб коленного сустава S83.2 Разрыв мениска свежий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_usib_kol_sustava",
+    "target": "diagnosis_povrezhdenie_hriusha_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S80.0 Ушиб коленного сустава S83.3 Повреждение суставного хряща коленного сустава свежее",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_usib_kol_sustava",
+    "target": "diagnosis_rastyazhenie_razryv_vnutrenney_naruzhney_bokovoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S80.0 Ушиб коленного сустава S83.4 Растяжение и разрыв (внутренней) (наружной) боковой связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_usib_kol_sustava",
+    "target": "diagnosis_rastyazhenie_razryv_zadney_peredney_krestoobraznoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S80.0 Ушиб коленного сустава S83.5 Растяжение и разрыв (задней) (передней) крестообразной связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_usib_kol_sustava",
+    "target": "diagnosis_rastyazhenie_razryv_drugikh_neutochnennyh_elementov",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S80.0 Ушиб коленного сустава S83.6 Растяжение и разрыв других и неуточненных элементов коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_usib_kol_sustava",
+    "target": "diagnosis_travma_neskolkih_struktur_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S80.0 Ушиб коленного сустава S83.7 Травма нескольких структур коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_razryv_meniska_svezhiy",
+    "target": "diagnosis_povrezhdenie_hriusha_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.2 Разрыв мениска свежий S83.3 Повреждение суставного хряща коленного сустава свежее",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_razryv_meniska_svezhiy",
+    "target": "diagnosis_rastyazhenie_razryv_vnutrenney_naruzhney_bokovoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.2 Разрыв мениска свежий S83.4 Растяжение и разрыв (внутренней) (наружной) боковой связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_razryv_meniska_svezhiy",
+    "target": "diagnosis_rastyazhenie_razryv_zadney_peredney_krestoobraznoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.2 Разрыв мениска свежий S83.5 Растяжение и разрыв (задней) (передней) крестообразной связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_razryv_meniska_svezhiy",
+    "target": "diagnosis_rastyazhenie_razryv_drugikh_neutochnennyh_elementov",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.2 Разрыв мениска свежий S83.6 Растяжение и разрыв других и неуточненных элементов коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_razryv_meniska_svezhiy",
+    "target": "diagnosis_travma_neskolkih_struktur_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.2 Разрыв мениска свежий S83.7 Травма нескольких структур коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_povrezhdenie_hriusha_kol_sustava",
+    "target": "diagnosis_rastyazhenie_razryv_vnutrenney_naruzhney_bokovoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.3 Повреждение суставного хряща коленного сустава свежее S83.4 Растяжение и разрыв (внутренней) (наружной) боковой связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_povrezhdenie_hriusha_kol_sustava",
+    "target": "diagnosis_rastyazhenie_razryv_zadney_peredney_krestoobraznoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.3 Повреждение суставного хряща коленного сустава свежее S83.5 Растяжение и разрыв (задней) (передней) крестообразной связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_povrezhdenie_hriusha_kol_sustava",
+    "target": "diagnosis_rastyazhenie_razryv_drugikh_neutochnennyh_elementov",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.3 Повреждение суставного хряща коленного сустава свежее S83.6 Растяжение и разрыв других и неуточненных элементов коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_povrezhdenie_hriusha_kol_sustava",
+    "target": "diagnosis_travma_neskolkih_struktur_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.3 Повреждение суставного хряща коленного сустава свежее S83.7 Травма нескольких структур коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rastyazhenie_razryv_vnutrenney_naruzhney_bokovoy_svyazki",
+    "target": "diagnosis_rastyazhenie_razryv_zadney_peredney_krestoobraznoy_svyazki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.4 Растяжение и разрыв (внутренней) (наружной) боковой связки коленного сустава S83.5 Растяжение и разрыв (задней) (передней) крестообразной связки коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rastyazhenie_razryv_vnutrenney_naruzhney_bokovoy_svyazki",
+    "target": "diagnosis_rastyazhenie_razryv_drugikh_neutochnennyh_elementov",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.4 Растяжение и разрыв (внутренней) (наружной) боковой связки коленного сустава S83.6 Растяжение и разрыв других и неуточненных элементов коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rastyazhenie_razryv_vnutrenney_naruzhney_bokovoy_svyazki",
+    "target": "diagnosis_travma_neskolkih_struktur_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.4 Растяжение и разрыв (внутренней) (наружной) боковой связки коленного сустава S83.7 Травма нескольких структур коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rastyazhenie_razryv_zadney_peredney_krestoobraznoy_svyazki",
+    "target": "diagnosis_rastyazhenie_razryv_drugikh_neutochnennyh_elementov",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.5 Растяжение и разрыв (задней) (передней) крестообразной связки коленного сустава S83.6 Растяжение и разрыв других и неуточненных элементов коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rastyazhenie_razryv_zadney_peredney_krestoobraznoy_svyazki",
+    "target": "diagnosis_travma_neskolkih_struktur_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.5 Растяжение и разрыв (задней) (передней) крестообразной связки коленного сустава S83.7 Травма нескольких структур коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rastyazhenie_razryv_drugikh_neutochnennyh_elementov",
+    "target": "diagnosis_travma_neskolkih_struktur_kol_sustava",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S83.6 Растяжение и разрыв других и неуточненных элементов коленного сустава S83.7 Травма нескольких структур коленного сустава",
+    "properties": {}
+  }
+]

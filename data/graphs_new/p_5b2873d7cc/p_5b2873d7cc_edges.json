@@ -1,0 +1,34 @@
+[
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_false_contractions",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на болезненные тянущие боли внизу живота ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_back_pain",
+    "target": "diagnosis_false_contractions",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на болезненные тянущие боли ... в пояснице",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irregular_contractions",
+    "target": "diagnosis_false_contractions",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "прекращение нерегулярных схваткообразных болей внизу живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_back_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на болезненные тянущие боли внизу живота и пояснице",
+    "properties": {}
+  }
+]

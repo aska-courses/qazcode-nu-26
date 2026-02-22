@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_acute_diarrhea_onset",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острое начало диареи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_stool",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жидкий стул более 3 раз в сутки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blood_in_stool",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно наличие крови в кале",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication_syndrome",
+    "target": "diagnosis_a02_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикационный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenescence",
+    "target": "diagnosis_a03",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тенезмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_false_urge_to_defecate",
+    "target": "diagnosis_a03",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ложные позывы к дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_diarrhea_onset",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острое начало диареи; лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_stool",
+    "target": "symptom_blood_in_stool",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "жидкий стул более 3 раз в сутки; возможно наличие крови в кале",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenescence",
+    "target": "symptom_false_urge_to_defecate",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тенезмы, ложные позывы к дефекации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a02_0",
+    "target": "diagnosis_a03",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Сальмонеллез ... Шигеллез ... (раздел дифференциальной диагностики)",
+    "properties": {}
+  }
+]

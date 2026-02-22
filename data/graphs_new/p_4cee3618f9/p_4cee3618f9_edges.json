@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_tics",
+    "target": "diagnosis_f95_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Тики – синдромы, включающие в себя непроизвольное, быстрое, повторяющееся, неритмичное движение ... или голосовой звук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tics",
+    "target": "diagnosis_f95_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Тики – синдромы, включающие в себя непроизвольное, быстрое, повторяющееся, неритмичное движение ... или голосовой звук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tics",
+    "target": "diagnosis_f95_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Тики – синдромы, включающие в себя непроизвольное, быстрое, повторяющееся, неритмичное движение ... или голосовой звук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_involuntary_movement",
+    "target": "diagnosis_f95_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тики – синдромы, включающие в себя непроизвольное, быстрое, повторяющееся, неритмичное движение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_involuntary_movement",
+    "target": "diagnosis_f95_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Хронические моторные тики или вокализмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_involuntary_movement",
+    "target": "diagnosis_f95_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "множественные моторные тики ... при синдроме де ла Туретта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vocal_sound",
+    "target": "diagnosis_f95_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тики – синдромы, включающие ... голосовой звук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vocal_sound",
+    "target": "diagnosis_f95_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Хронические моторные тики или вокализмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vocal_sound",
+    "target": "diagnosis_f95_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "один или более вокальных тиков ... при синдроме де ла Туретта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tics",
+    "target": "symptom_involuntary_movement",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тики – синдромы, включающие в себя непроизвольное ... движение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tics",
+    "target": "symptom_vocal_sound",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тики – синдромы, включающие ... голосовой звук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_involuntary_movement",
+    "target": "symptom_vocal_sound",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тики – синдромы, включающие в себя непроизвольное ... движение ... или голосовой звук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychopathology",
+    "target": "diagnosis_f95_0",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "психопатологические расстройства с десоциализирующими проявлениями ... при тиках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychopathology",
+    "target": "diagnosis_f95_1",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "психопатологические расстройства с десоциализирующими проявлениями ... при тиках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychopathology",
+    "target": "diagnosis_f95_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "психопатологические расстройства с десоциализирующими проявлениями ... при тиках",
+    "properties": {}
+  }
+]

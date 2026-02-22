@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symptom_arterial_hypertension",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "КЗП с артериальной гипертензией, и/или с анемией, ИМС, снижением СКФ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "КЗП с артериальной гипертензией, и/или с анемией, ИМС, снижением СКФ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_creatinine",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение креатинина и нарушение функций почек (падение СКФ менее 90 мл/мин).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_gfr",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижением СКФ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_kidneys",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Пальпаторно: определение больших почек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_cysts",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кисты печени у 50% больных (чаще девочки).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_portal_hypertension",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_fibrosis",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macroscopic_hematuria",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_hypoplasia",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "АРТ ... гипоплазия легких, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_deformities",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "АРТ ... деформации конечностей ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perinatal_respiratory_failure",
+    "target": "diagnosis_cystic_kidney_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "АРТ ... перинатальная дыхательная недостаточность.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_proteinuria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_leukocyturia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macroscopic_hematuria",
+    "target": "symptom_proteinuria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macroscopic_hematuria",
+    "target": "symptom_leukocyturia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "symptom_leukocyturia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – выраженная гематурия или макрогематурия, протеинурия, лейкоцитурия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_cysts",
+    "target": "symptom_hepatosplenomegaly",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_cysts",
+    "target": "symptom_portal_hypertension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_cysts",
+    "target": "symptom_liver_fibrosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "symptom_portal_hypertension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "symptom_liver_fibrosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_portal_hypertension",
+    "target": "symptom_liver_fibrosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поздние проявления ... гепатоспленомегалия, портальная гипертензия, фиброз печени.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_congenital_unilateral_kidney_cyst",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.0 Врожденная одиночная киста почки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_autosomal_dominant_polycystic_kidney_disease_child",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.1 Поликистоз почки, детский тип",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_polcystic_kidney_unspecified",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.3 Поликистоз почки неуточненный",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_kidney_dysplasia",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.4 Дисплазия почки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_medullary_kidney_cyst",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.5 Медуллярный кистоз почки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_other_cystic_kidney_diseases",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.8 Другие кистозные болезни почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystic_kidney_disease",
+    "target": "diagnosis_unspecified_cystic_kidney_disease",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код протокола: Q61.9 Кистозная болезнь почек неуточненная",
+    "properties": {}
+  }
+]

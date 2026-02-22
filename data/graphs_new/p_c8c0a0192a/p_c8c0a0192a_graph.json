@@ -1,0 +1,928 @@
+{
+  "protocol_id": "p_c8c0a0192a",
+  "nodes": [
+    {
+      "id": "diagnosis_q32_2",
+      "type": "diagnosis",
+      "label": "Врожденная бронхомаляция",
+      "icd_code": "Q32.2"
+    },
+    {
+      "id": "diagnosis_q33",
+      "type": "diagnosis",
+      "label": "Врожденные аномалии (пороки развития) легкого",
+      "icd_code": "Q33"
+    },
+    {
+      "id": "diagnosis_q33_4",
+      "type": "diagnosis",
+      "label": "Врожденная бронхоэктазия",
+      "icd_code": "Q33.4"
+    },
+    {
+      "id": "diagnosis_q33_6",
+      "type": "diagnosis",
+      "label": "Гипоплазия и дисплазия легкого",
+      "icd_code": "Q33.6"
+    },
+    {
+      "id": "diagnosis_q34_8",
+      "type": "diagnosis",
+      "label": "Другие уточненные врожденные аномалии органов дыхания",
+      "icd_code": "Q34.8"
+    },
+    {
+      "id": "symptom_chastiy_dlitelnyy_kashl",
+      "type": "symptom",
+      "label": "Частый длительный кашель"
+    },
+    {
+      "id": "symptom_pristupobraznyy_kashl",
+      "type": "symptom",
+      "label": "Приступообразный кашель"
+    },
+    {
+      "id": "symptom_ezhednevnyy_kashl",
+      "type": "symptom",
+      "label": "Ежедневный кашель"
+    },
+    {
+      "id": "symptom_postoyannoe_vydele_nie_mokroty",
+      "type": "symptom",
+      "label": "Постоянное выделение мокроты"
+    },
+    {
+      "id": "symptom_odishka_progressiruyushchaya",
+      "type": "symptom",
+      "label": "Прогрессирующая одышка"
+    },
+    {
+      "id": "symptom_odishka_pri_fizicheskoy_nagruzke",
+      "type": "symptom",
+      "label": "Одышка при физической нагрузке"
+    },
+    {
+      "id": "symptom_odishka_pri_orvi",
+      "type": "symptom",
+      "label": "Одышка при ОРВИ"
+    },
+    {
+      "id": "symptom_tyazhelaya_dyhatelnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "Тяжелая дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_shumnoye_dyhanie",
+      "type": "symptom",
+      "label": "Шумное дыхание"
+    },
+    {
+      "id": "symptom_svistjashchie_hriopy",
+      "type": "symptom",
+      "label": "Свистящие хрипы"
+    },
+    {
+      "id": "symptom_vlazhnie_hriopy",
+      "type": "symptom",
+      "label": "Влажные хрипы"
+    },
+    {
+      "id": "symptom_sukhie_hriopy",
+      "type": "symptom",
+      "label": "Сухие хрипы"
+    },
+    {
+      "id": "symptom_tsianoz",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_otstavanie_fizicheskogo_razvitiya",
+      "type": "symptom",
+      "label": "Отставание в физическом развитии"
+    },
+    {
+      "id": "symptom_pristupy_udushya",
+      "type": "symptom",
+      "label": "Приступы удушья"
+    },
+    {
+      "id": "symptom_sukhoy_layushchiy_kashl",
+      "type": "symptom",
+      "label": "Сухой лающий кашель"
+    },
+    {
+      "id": "symptom_nochnye_pristupy_kashlya",
+      "type": "symptom",
+      "label": "Ночные приступы кашля"
+    },
+    {
+      "id": "symptom_utrennie_pristupy_kashlya",
+      "type": "symptom",
+      "label": "Утренние приступы кашля"
+    },
+    {
+      "id": "symptom_gipoelektrolitemiya",
+      "type": "symptom",
+      "label": "Гипоэлектролитемия"
+    },
+    {
+      "id": "symptom_giproteinemiya",
+      "type": "symptom",
+      "label": "Гипопротеинемия"
+    },
+    {
+      "id": "symptom_neutrofiliz",
+      "type": "symptom",
+      "label": "Нейтрофилез"
+    },
+    {
+      "id": "symptom_leukotsitoz",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_uvelichenie_soe",
+      "type": "symptom",
+      "label": "Ускорение СОЭ"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznyy_kashl",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступообразный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznyy_kashl",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступообразный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznyy_kashl",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступообразный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznyy_kashl",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступообразный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznyy_kashl",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приступообразный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ezhednevnyy_kashl",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ежедневный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ezhednevnyy_kashl",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ежедневный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ezhednevnyy_kashl",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ежедневный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ezhednevnyy_kashl",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ежедневный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ezhednevnyy_kashl",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ежедневный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannoe_vydele_nie_mokroty",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "постоянного выделения мокроты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannoe_vydele_nie_mokroty",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "постоянного выделения мокроты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannoe_vydele_nie_mokroty",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "постоянного выделения мокроты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannoe_vydele_nie_mokroty",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "постоянного выделения мокроты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannoe_vydele_nie_mokroty",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "постоянного выделения мокроты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka_progressiruyushchaya",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующая одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka_progressiruyushchaya",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующая одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka_progressiruyushchaya",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующая одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka_progressiruyushchaya",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующая одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka_progressiruyushchaya",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующая одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoye_dyhanie",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoye_dyhanie",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoye_dyhanie",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoye_dyhanie",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoye_dyhanie",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svistjashchie_hriopy",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "свистящие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svistjashchie_hriopy",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "свистящие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svistjashchie_hriopy",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "свистящие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svistjashchie_hriopy",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "свистящие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svistjashchie_hriopy",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "свистящие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_layushchiy_kashl",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой лающий кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_layushchiy_kashl",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой лающий кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_layushchiy_kashl",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой лающий кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_layushchiy_kashl",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой лающий кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_layushchiy_kashl",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой лающий кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnye_pristupy_kashlya",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ночные приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnye_pristupy_kashlya",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ночные приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnye_pristupy_kashlya",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ночные приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnye_pristupy_kashlya",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ночные приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnye_pristupy_kashlya",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ночные приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennie_pristupy_kashlya",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утренние приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennie_pristupy_kashlya",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утренние приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennie_pristupy_kashlya",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утренние приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennie_pristupy_kashlya",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утренние приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennie_pristupy_kashlya",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утренние приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupy_udushya",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Приступы удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupy_udushya",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Приступы удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupy_udushya",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Приступы удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupy_udushya",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Приступы удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupy_udushya",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Приступы удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tsianoz",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tsianoz",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tsianoz",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tsianoz",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tsianoz",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_fizicheskogo_razvitiya",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание в физическом развитии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_fizicheskogo_razvitiya",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание в физическом развитии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_fizicheskogo_razvitiya",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание в физическом развитии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_fizicheskogo_razvitiya",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание в физическом развитии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_fizicheskogo_razvitiya",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание в физическом развитии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrofiliz",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrofiliz",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrofiliz",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrofiliz",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrofiliz",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsitoz",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsitoz",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsitoz",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsitoz",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsitoz",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_q32_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_q33",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_q33_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_q33_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_q34_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "symptom_pristupobraznyy_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель (приступообразный ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "symptom_ezhednevnyy_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель (приступообразный или ежедневный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "symptom_postoyannoe_vydele_nie_mokroty",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частый, длительный кашель ... на присутствие постоянного выделения мокроты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastiy_dlitelnyy_kashl",
+      "target": "symptom_odishka_progressiruyushchaya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "частый, длительный кашель ... на одышку (прогрессирующая ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoye_dyhanie",
+      "target": "symptom_svistjashchie_hriopy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "шумное дыхание, свистящие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_layushchiy_kashl",
+      "target": "symptom_nochnye_pristupy_kashlya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухой лающий кашель ... Ночные приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnye_pristupy_kashlya",
+      "target": "symptom_utrennie_pristupy_kashlya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Ночные приступы кашля ... Утренние приступы кашля",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q32_2",
+      "target": "diagnosis_q33",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q32_2",
+      "target": "diagnosis_q33_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q32_2",
+      "target": "diagnosis_q33_6",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q32_2",
+      "target": "diagnosis_q34_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q33",
+      "target": "diagnosis_q33_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q33",
+      "target": "diagnosis_q33_6",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q33",
+      "target": "diagnosis_q34_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q33_4",
+      "target": "diagnosis_q33_6",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q33_4",
+      "target": "diagnosis_q34_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q33_6",
+      "target": "diagnosis_q34_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код по МКБ -10: Q32.2 ... Q33 ... Q33.4 ... Q33.6 ... Q34.8",
+      "properties": {}
+    }
+  ]
+}

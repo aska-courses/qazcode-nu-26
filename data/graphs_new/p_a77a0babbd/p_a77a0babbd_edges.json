@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_cognitive_disorders",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "клиническая картина ХИМ характеризуется сочетанием нарушений:  когнитивные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emotional_disorders",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эмоциональные расстройства: преобладание депрессии, утрата интереса к происходящему, сужение круга интересов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo_atactic_syndrome",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вестибулярно-атактический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akinetic_rigid_syndrome",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "акинетико-ригидный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pseudobulbar_syndrome",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "псевдобульбарный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pyramidal_syndrome",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пирамидный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oculomotor_disorders",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глазодвигательные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sensory_disturbances",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сенсорные нарушения (зрительные, слуховые и пр.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure_syndrome",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судорожный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychoorganic_syndrome",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психоорганический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "несистемное головокружение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_memory_impairment",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ухудшение памяти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemiparesis",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гемипарезы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aphasia",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "афазия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cognitive_disorders",
+    "target": "symptom_emotional_disorders",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клиническая картина ХИМ характеризуется сочетанием нарушений:  когнитивные расстройства … эмоциональные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gait_disturbance",
+    "target": "symptom_limb_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение походки, слабость в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "symptom_tinnitus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головокружение, шум в голове",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure_syndrome",
+    "target": "symptom_clonic_tonic_seizures",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "судорожный синдром … клоно-тонические судороги",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_other_cerebrovascular_diseases",
+    "target": "diagnosis_cerebral_atherosclerosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I 67 Другие цереброваскулярные болезни I 67.2 Церебральный атеросклероз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cerebral_atherosclerosis",
+    "target": "diagnosis_hypertensive_encephalopathy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I 67.2 Церебральный атеросклероз I 67.4 Гипертензивная энцефалопатия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypertensive_encephalopathy",
+    "target": "diagnosis_cerebral_arteritis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I 67.4 Гипертензивная энцефалопатия I 67.7 Церебральный артериит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cerebral_arteritis",
+    "target": "diagnosis_chronic_brain_ischemia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I 67.7 Церебральный артериит I 67.8 Ишемия мозга (хроническая)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_brain_ischemia",
+    "target": "diagnosis_unspecified_cerebrovascular_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I 67.8 Ишемия мозга (хроническая) I 67.9 Цереброваскулярная болезнь неуточненная",
+    "properties": {}
+  }
+]

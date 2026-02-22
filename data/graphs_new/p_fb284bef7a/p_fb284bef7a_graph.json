@@ -1,0 +1,193 @@
+{
+  "protocol_id": "p_fb284bef7a",
+  "nodes": [
+    {
+      "id": "diagnosis_f43_0",
+      "type": "diagnosis",
+      "label": "Реакция на острый стресс",
+      "icd_code": "F43.0"
+    },
+    {
+      "id": "diagnosis_f43_8",
+      "type": "diagnosis",
+      "label": "Другие реакции на тяжелый стресс",
+      "icd_code": "F43.8"
+    },
+    {
+      "id": "diagnosis_f43_9",
+      "type": "diagnosis",
+      "label": "Неуточненная реакция на тяжелый стресс",
+      "icd_code": "F43.9"
+    },
+    {
+      "id": "diagnosis_f44_0",
+      "type": "diagnosis",
+      "label": "Диссоциативная амнезия",
+      "icd_code": "F44.0"
+    },
+    {
+      "id": "diagnosis_f44_1",
+      "type": "diagnosis",
+      "label": "Диссоциативная фуга",
+      "icd_code": "F44.1"
+    },
+    {
+      "id": "diagnosis_f44_2",
+      "type": "diagnosis",
+      "label": "Диссоциативный ступор",
+      "icd_code": "F44.2"
+    },
+    {
+      "id": "diagnosis_f44_3",
+      "type": "diagnosis",
+      "label": "Транс и одержимость",
+      "icd_code": "F44.3"
+    },
+    {
+      "id": "diagnosis_f44_4",
+      "type": "diagnosis",
+      "label": "Диссоциативные двигательные расстройства",
+      "icd_code": "F44.4"
+    },
+    {
+      "id": "diagnosis_f44_5",
+      "type": "diagnosis",
+      "label": "Диссоциативные конвульсии",
+      "icd_code": "F44.5"
+    },
+    {
+      "id": "diagnosis_f44_6",
+      "type": "diagnosis",
+      "label": "Диссоциативная анестезия",
+      "icd_code": "F44.6"
+    },
+    {
+      "id": "diagnosis_f44_7",
+      "type": "diagnosis",
+      "label": "Смешанные диссоциативные расстройства",
+      "icd_code": "F44.7"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "ухудшение психического состояния"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "тревожные расстройства"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "суицидальная настроенность"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "нарушения биологических ритмов"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "поведенческие нарушения"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "десоциализирующие проявления"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "психопатологические симптомы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_f43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ухудшение психического состояния, возникшие после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_f43_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ухудшение психического состояния, возникшие после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_f43_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ухудшение психического состояния, возникшие после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "психопатологические расстройства ... с десоциализирующими проявлениями",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f43_0",
+      "target": "diagnosis_f43_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: ... F43.0 Реакция на острый стресс F43.8 Другие реакции на тяжелый стресс.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f43_0",
+      "target": "diagnosis_f43_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: ... F43.0 Реакция на острый стресс ... F43.9 Реакция на тяжелый стресс, неуточненная.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f43_8",
+      "target": "diagnosis_f43_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: ... F43.8 Другие реакции на тяжелый стресс. F43.9 Реакция на тяжелый стресс, неуточненная.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f44_0",
+      "target": "diagnosis_f44_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "F44.0 Диссоциaтивнaя aмнезия F44.1 Диссоциaтивнaя фугa",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f44_1",
+      "target": "diagnosis_f44_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "F44.1 Диссоциaтивнaя фугa F44.2 Диссоциaтивный ступор",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f44_2",
+      "target": "diagnosis_f44_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "F44.2 Диссоциaтивный ступор F44.3 Трaнс и одержимость",
+      "properties": {}
+    }
+  ]
+}

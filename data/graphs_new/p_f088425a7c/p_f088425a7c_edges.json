@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_asymptomatic_loosenening",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асептическое расшатывание компонентов эндопротеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_dislocations",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рецидивирующие вывихи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deep_periprosthetic_infection",
+    "target": "diagnosis_implant_infection_T84_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глубокая перипротезная инфекция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyethylene_wear_osteolysis",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "износ полиэтилена с прогрессирующим остеолизом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periprosthetic_fracture_loss_fixation",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перипротезные переломы с потерей фиксации компонентов эндопротеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_implant_breakdown",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разрушение конструкций",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой синдром, обусловленный суставной причиной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_significant_joint_function_impairment",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "значительное нарушение функции сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oncological_disease",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "онкологические заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exacerbation_chronic_somatic",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "обострение/декомпенсация хронических соматических заболеваний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_insufficiency",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hormonal_osteopathy",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гормональная остеопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multiple_revisions_history",
+    "target": "diagnosis_mechanical_complication_T84_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "наличие трех и более ревизий тазобедренного сустава в анамнезе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asymptomatic_loosenening",
+    "target": "symptom_polyethylene_wear_osteolysis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оба указаны в перечне показаний к ревизионному эндопротезированию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deep_periprosthetic_infection",
+    "target": "symptom_implant_breakdown",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оба указаны в перечне показаний к ревизионному эндопротезированию",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mechanical_complication_T84_0",
+    "target": "diagnosis_implant_infection_T84_5",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "в таблице кодов МКБ-10 указаны оба как осложнения эндопротеза",
+    "properties": {}
+  }
+]

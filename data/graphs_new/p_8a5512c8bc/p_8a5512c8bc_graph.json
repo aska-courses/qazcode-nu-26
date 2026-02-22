@@ -1,0 +1,305 @@
+{
+  "protocol_id": "p_8a5512c8bc",
+  "nodes": [
+    {
+      "id": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование сетчатки",
+      "icd_code": "C69.2"
+    },
+    {
+      "id": "symptom_photophobia",
+      "type": "symptom",
+      "label": "свечение в пораженном глазе при попадании света",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_leukocoria",
+      "type": "symptom",
+      "label": "белый зрачковый рефлекс (лейкокория)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cat_eye_sign",
+      "type": "symptom",
+      "label": "симптом кошачьих глаз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_strabismus",
+      "type": "symptom",
+      "label": "косоглазие",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_visual_impairment",
+      "type": "symptom",
+      "label": "ухудшение зрения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_redness",
+      "type": "symptom",
+      "label": "покраснение глаза",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hemorrhage",
+      "type": "symptom",
+      "label": "кровоизлияния в глаз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_color_change",
+      "type": "symptom",
+      "label": "изменение цвета глаза",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "боль в глазу",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_exophthalmos",
+      "type": "symptom",
+      "label": "экзофтальм",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_inflammation",
+      "type": "symptom",
+      "label": "воспаление глаза",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_retinal_detachment",
+      "type": "symptom",
+      "label": "отслойка сетчатки",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_subretinal_fluid",
+      "type": "symptom",
+      "label": "субретинальная жидкость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_subretinal_fluid_distance",
+      "type": "symptom",
+      "label": "субретинальная жидкость на расстоянии 5 мм от основания опухоли",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_photophobia",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на свечение в пораженном глазе при попадании света, часто родители замечают...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocoria",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на свечение в пораженном глазе при попадании света, часто родители замечают... (белый зрачковый рефлекс, лейкокория)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cat_eye_sign",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на свечение в пораженном глазе при попадании света, часто родители замечают... (симптом кошачьих глаз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strabismus",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сходящееся или расходящееся косоглазие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_impairment",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ухудшение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhage",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_color_change",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение цвета глаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль (не является типичным признаком)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exophthalmos",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "есть ли экзофтальм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inflammation",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "воспален ли глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_retinal_detachment",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отслойка сетчатки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subretinal_fluid",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "субретинальная жидкость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subretinal_fluid_distance",
+      "target": "diagnosis_zlokachnoe_novoobrazovanie_setchatki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "субретинальная жидкость на расстоянии 5 мм от основания опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "symptom_leukocoria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на свечение в пораженном глазе при попадании света, часто родители замечают... (белый зрачковый рефлекс, лейкокория)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "symptom_cat_eye_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на свечение в пораженном глазе при попадании света, часто родители замечают... (симптом кошачьих глаз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocoria",
+      "target": "symptom_cat_eye_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на свечение в пораженном глазе при попадании света, часто родители замечают... (лейкокория, «симптом кошачьих глаз»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strabismus",
+      "target": "symptom_visual_impairment",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "косоглазие, ухудшение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness",
+      "target": "symptom_hemorrhage",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, кровоизлияния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness",
+      "target": "symptom_color_change",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, изменение цвета глаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness",
+      "target": "symptom_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "покраснение, ... боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhage",
+      "target": "symptom_color_change",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кровоизлияния, изменение цвета глаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhage",
+      "target": "symptom_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кровоизлияния, ... боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_color_change",
+      "target": "symptom_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменение цвета глаза, боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subretinal_fluid",
+      "target": "symptom_subretinal_fluid_distance",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "субретинальная жидкость ... субретинальная жидкость на расстоянии 5 мм от основания опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exophthalmos",
+      "target": "symptom_inflammation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "есть ли экзофтальм, воспален ли глаз",
+      "properties": {}
+    }
+  ]
+}

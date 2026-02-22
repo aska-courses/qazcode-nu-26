@@ -1,0 +1,138 @@
+[
+  {
+    "source": "acute_kidney_failure",
+    "target": "ischemic_heart_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • острая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "chronic_kidney_failure",
+    "target": "ischemic_heart_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • хроническая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "gastrointestinal_bleeding",
+    "target": "ischemic_heart_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • активное желудочно-кишечное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "fever_of_unknown_origin",
+    "target": "ischemic_heart_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • лихорадка неясного генеза",
+    "properties": {}
+  },
+  {
+    "source": "anemia",
+    "target": "ischemic_heart_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • тяжелая форма анемии",
+    "properties": {}
+  },
+  {
+    "source": "electrolyte_imbalance",
+    "target": "ischemic_heart_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • тяжелый симптоматический электролитный дисбаланс",
+    "properties": {}
+  },
+  {
+    "source": "myocardial_infarction",
+    "target": "rhythm_disturbances",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Осложнения при катетеризации полостей сердца и ангиографии ... Инфаркт миокарда ... Нарушения ритма ...",
+    "properties": {}
+  },
+  {
+    "source": "myocardial_infarction",
+    "target": "vascular_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Осложнения при катетеризации полостей сердца и ангиографии ... Инфаркт миокарда ... Сосудистые осложнения ...",
+    "properties": {}
+  },
+  {
+    "source": "rhythm_disturbances",
+    "target": "vascular_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Осложнения при катетеризации полостей сердца и ангиографии ... Нарушения ритма ... Сосудистые осложнения ...",
+    "properties": {}
+  },
+  {
+    "source": "contrast_reaction",
+    "target": "hemodynamic_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Осложнения при катетеризации полостей сердца и ангиографии ... Реакция на введение контрастного вещества ... Гемодинамические осложнения ...",
+    "properties": {}
+  },
+  {
+    "source": "cardiac_perforation",
+    "target": "other_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Осложнения при катетеризации полостей сердца и ангиографии ... Перфорации полостей сердца ... Другие осложнения ...",
+    "properties": {}
+  },
+  {
+    "source": "acute_kidney_failure",
+    "target": "chronic_kidney_failure",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • острая почечная недостаточность; • хроническая почечная недостаточность;",
+    "properties": {}
+  },
+  {
+    "source": "acute_kidney_failure",
+    "target": "gastrointestinal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • острая почечная недостаточность; • активное желудочно-кишечное кровотечение;",
+    "properties": {}
+  },
+  {
+    "source": "chronic_kidney_failure",
+    "target": "gastrointestinal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • хроническая почечная недостаточность; • активное желудочно-кишечное кровотечение;",
+    "properties": {}
+  },
+  {
+    "source": "anemia",
+    "target": "electrolyte_imbalance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • тяжелая форма анемии; • тяжелый симптоматический электролитный дисбаланс;",
+    "properties": {}
+  },
+  {
+    "source": "anemia",
+    "target": "fever_of_unknown_origin",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • лихорадка неясного генеза; • тяжелая форма анемии;",
+    "properties": {}
+  },
+  {
+    "source": "electrolyte_imbalance",
+    "target": "fever_of_unknown_origin",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные противопоказания к коронарографии • лихорадка неясного генеза; • тяжелый симптоматический электролитный дисбаланс;",
+    "properties": {}
+  }
+]

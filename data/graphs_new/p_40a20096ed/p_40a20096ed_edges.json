@@ -1,0 +1,58 @@
+[
+  {
+    "source": "symptom_photopsia",
+    "target": "diagnosis_peripheral_chorioretinal_degeneration",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на появление молний, вспышек, внезапного появления большего или меньшего количества плавающих мушек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flashes",
+    "target": "diagnosis_peripheral_chorioretinal_degeneration",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на появление молний, вспышек, внезапного появления большего или меньшего количества плавающих мушек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_floaters",
+    "target": "diagnosis_peripheral_chorioretinal_degeneration",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на появление молний, вспышек, внезапного появления большего или меньшего количества плавающих мушек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_acuity_decrease",
+    "target": "diagnosis_peripheral_chorioretinal_degeneration",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "визометрия: снижение остроты зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photopsia",
+    "target": "symptom_flashes",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на появление молний, вспышек, внезапного появления большего или меньшего количества плавающих мушек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photopsia",
+    "target": "symptom_floaters",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на появление молний, вспышек, внезапного появления большего или меньшего количества плавающих мушек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flashes",
+    "target": "symptom_floaters",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на появление молний, вспышек, внезапного появления большего или меньшего количества плавающих мушек",
+    "properties": {}
+  }
+]

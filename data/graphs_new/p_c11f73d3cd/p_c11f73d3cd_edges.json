@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_acyclic_bloody_discharge",
+    "target": "diagnosis_c51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ациклические кровянистые ... выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_discharge",
+    "target": "diagnosis_c51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... водянистые ... выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_discharge",
+    "target": "diagnosis_c51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... гноевидные выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menopausal_bleeding",
+    "target": "diagnosis_c51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... кровотечения на фоне менопаузы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vulvar_mass",
+    "target": "diagnosis_c51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... образование в области вульвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acyclic_bloody_discharge",
+    "target": "symptom_watery_discharge",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ациклические кровянистые, водянистые ... выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acyclic_bloody_discharge",
+    "target": "symptom_purulent_discharge",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ациклические кровянистые, гноевидные ... выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acyclic_bloody_discharge",
+    "target": "symptom_menopausal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ациклические кровянистые ... кровотечения на фоне менопаузы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acyclic_bloody_discharge",
+    "target": "symptom_vulvar_mass",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ациклические кровянистые ... образование в области вульвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_discharge",
+    "target": "symptom_purulent_discharge",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... водянистые, гноевидные ... выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_discharge",
+    "target": "symptom_menopausal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... водянистые ... кровотечения на фоне менопаузы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_discharge",
+    "target": "symptom_vulvar_mass",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... водянистые ... образование в области вульвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_discharge",
+    "target": "symptom_menopausal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... гноевидные ... кровотечения на фоне менопаузы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_discharge",
+    "target": "symptom_vulvar_mass",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... гноевидные ... образование в области вульвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menopausal_bleeding",
+    "target": "symptom_vulvar_mass",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... кровотечения на фоне менопаузы, образование в области вульвы",
+    "properties": {}
+  }
+]

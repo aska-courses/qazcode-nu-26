@@ -1,0 +1,501 @@
+{
+  "protocol_id": "p_d4636a8fb1",
+  "nodes": [
+    {
+      "id": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "diagnosis",
+      "label": "Орхит и эпидидимит",
+      "icd_code": "N45"
+    },
+    {
+      "id": "diagnosis_n45_0_orchitis_epididymitis_other",
+      "type": "diagnosis",
+      "label": "Орхит, эпидидимит и другие операции на яичках",
+      "icd_code": "N45.0"
+    },
+    {
+      "id": "diagnosis_n45_9_orchitis_epididymitis",
+      "type": "diagnosis",
+      "label": "Орхит, эпидидимит и ...",
+      "icd_code": "N45.9"
+    },
+    {
+      "id": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "diagnosis",
+      "label": "Воспалительные болезни мужских половых органов",
+      "icd_code": "N49"
+    },
+    {
+      "id": "diagnosis_n49_0_seminal_bladder_inflammation",
+      "type": "diagnosis",
+      "label": "Воспалительные болезни семенного пузырька",
+      "icd_code": "N49.0"
+    },
+    {
+      "id": "diagnosis_n49_1_seminal_duct_inflammation",
+      "type": "diagnosis",
+      "label": "Воспалительные болезни семенного канатика, влагалищной оболочки и семявыносящего протока",
+      "icd_code": "N49.1"
+    },
+    {
+      "id": "diagnosis_n49_2_scrotum_inflammation",
+      "type": "diagnosis",
+      "label": "Воспалительные болезни мошонки",
+      "icd_code": "N49.2"
+    },
+    {
+      "id": "diagnosis_n49_8_other_specified_male_genital_organs_inflammation",
+      "type": "diagnosis",
+      "label": "Воспалительные болезни других уточненных мужских половых органов",
+      "icd_code": "N49.8"
+    },
+    {
+      "id": "diagnosis_n49_9_unspecified_male_genital_organ_inflammation",
+      "type": "diagnosis",
+      "label": "Воспалительные болезни неуточненного мужского полового органа",
+      "icd_code": "N49.9"
+    },
+    {
+      "id": "symptom_scrotal_pain",
+      "type": "symptom",
+      "label": "Боль в области придатка яичка и в самом яичке"
+    },
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_subfebrile_temperature",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_tender_enlarged_epididymis_and_testis",
+      "type": "symptom",
+      "label": "Пальпаторно болезненный и увеличенный в размерах придаток яичка и само яичко"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Увеличение скорости оседания эритроцитов (СОЭ)"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_terminal_leukocyturia",
+      "type": "symptom",
+      "label": "Терминальная лейкоцитурия"
+    },
+    {
+      "id": "symptom_homogeneous_ultrasound_structure",
+      "type": "symptom",
+      "label": "Уплотненный и увеличенный придаток яичка и само яичко с неоднородной эхоструктурой"
+    },
+    {
+      "id": "symptom_fluid_or_pus_in_testicular_membranes",
+      "type": "symptom",
+      "label": "Наличие жидкости или гноя в оболочках яичка"
+    },
+    {
+      "id": "symptom_murky_content_in_testicular_membranes",
+      "type": "symptom",
+      "label": "Наличие мутного содержимого в оболочках яичка (диафаноскопия)"
+    },
+    {
+      "id": "symptom_chronic_scrotal_pain",
+      "type": "symptom",
+      "label": "Хронический болевой синдром в области яичка и придатка"
+    },
+    {
+      "id": "symptom_abnormal_spermogram",
+      "type": "symptom",
+      "label": "Изменения в спермограмме"
+    },
+    {
+      "id": "symptom_hyperthermic_reaction",
+      "type": "symptom",
+      "label": "Гипертермическая реакция"
+    },
+    {
+      "id": "symptom_septic_state",
+      "type": "symptom",
+      "label": "Септическое состояние"
+    },
+    {
+      "id": "symptom_hemodynamic_instability",
+      "type": "symptom",
+      "label": "Нестабильная гемодинамика"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«боли в области придатка яичка и в самом яичке»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«боли в области придатка яичка и в самом яичке»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«общая слабость»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«общая слабость»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«субфебрильная температура»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«субфебрильная температура»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«лихорадка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«лихорадка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tender_enlarged_epididymis_and_testis",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«пальпаторно болезненный и увеличенный в размерах придаток яичка и само яичко»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tender_enlarged_epididymis_and_testis",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«пальпаторно болезненный и увеличенный в размерах придаток яичка и само яичко»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«увеличение СОЭ»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«увеличение СОЭ»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«возможен лейкоцитоз»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«возможен лейкоцитоз»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_terminal_leukocyturia",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«терминальная лейкоцитурия»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_terminal_leukocyturia",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«терминальная лейкоцитурия»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_homogeneous_ultrasound_structure",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«уплотненный и увеличенный придаток яичка и само яичко с неоднородной эхоструктурой»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_homogeneous_ultrasound_structure",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«уплотненный и увеличенный придаток яичка и само яичко с неоднородной эхоструктурой»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fluid_or_pus_in_testicular_membranes",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«возможность наличия жидкости или гноя в оболочках яичка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fluid_or_pus_in_testicular_membranes",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«возможность наличия жидкости или гноя в оболочках яичка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_murky_content_in_testicular_membranes",
+      "target": "diagnosis_n45_orchitis_and_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«наличие жидкости или мутного содержимого в оболочках яичка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_murky_content_in_testicular_membranes",
+      "target": "diagnosis_n49_inflammatory_male_genital_organs",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«наличие жидкости или мутного содержимого в оболочках яичка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_scrotal_pain",
+      "target": "diagnosis_n49_2_scrotum_inflammation",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«хронический болевой синдром в области яичка и придатка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abnormal_spermogram",
+      "target": "diagnosis_n49_2_scrotum_inflammation",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«изменения в спермограмме»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperthermic_reaction",
+      "target": "diagnosis_n45_9_orchitis_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«гипертермическая реакция»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_septic_state",
+      "target": "diagnosis_n45_9_orchitis_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«септическое состояние»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemodynamic_instability",
+      "target": "diagnosis_n45_9_orchitis_epididymitis",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "«нестабильная гемодинамика»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_general_weakness",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке; общая слабость»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_subfebrile_temperature",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке; субфебрильная температура»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке; лихорадка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_tender_enlarged_epididymis_and_testis",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «пальпаторно болезненный и увеличенный в размерах придаток яичка и само яичко»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_elevated_esr",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «увеличение СОЭ»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_leukocytosis",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «возможен лейкоцитоз»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_terminal_leukocyturia",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «терминальная лейкоцитурия»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_homogeneous_ultrasound_structure",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «уплотненный и увеличенный придаток яичка и само яичко с неоднородной эхоструктурой»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_fluid_or_pus_in_testicular_membranes",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «наличие жидкости или гноя в оболочках яичка»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_pain",
+      "target": "symptom_murky_content_in_testicular_membranes",
+      "type": "co-occurs",
+      "weight": 0.7,
+      "evidence": "«боли в области придатка яичка и в самом яичке» и «наличие жидкости или мутного содержимого в оболочках яичка»",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n45_orchitis_and_epididymitis",
+      "target": "diagnosis_n45_0_orchitis_epididymitis_other",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N45 – Орхит и эпидидимит; код N45.0 – Орхит, эпидидимит и другие операции на яичках",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n45_orchitis_and_epididymitis",
+      "target": "diagnosis_n45_9_orchitis_epididymitis",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N45 – Орхит и эпидидимит; код N45.9 – Орхит, эпидидимит и ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n45_0_orchitis_epididymitis_other",
+      "target": "diagnosis_n45_9_orchitis_epididymitis",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N45.0 – Орхит, эпидидимит и другие операции на яичках; код N45.9 – Орхит, эпидидимит и ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n49_inflammatory_male_genital_organs",
+      "target": "diagnosis_n49_0_seminal_bladder_inflammation",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N49 – Воспалительные болезни мужских половых органов; код N49.0 – Воспалительные болезни семенного пузырька",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n49_inflammatory_male_genital_organs",
+      "target": "diagnosis_n49_1_seminal_duct_inflammation",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N49 – Воспалительные болезни мужских половых органов; код N49.1 – Воспалительные болезни семенного канатика, влагалищной оболочки и семявыносящего протока",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n49_inflammatory_male_genital_organs",
+      "target": "diagnosis_n49_2_scrotum_inflammation",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N49 – Воспалительные болезни мужских половых органов; код N49.2 – Воспалительные болезни мошонки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n49_inflammatory_male_genital_organs",
+      "target": "diagnosis_n49_8_other_specified_male_genital_organs_inflammation",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N49 – Воспалительные болезни мужских половых органов; код N49.8 – Воспалительные болезни других уточненных мужских половых органов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n49_inflammatory_male_genital_organs",
+      "target": "diagnosis_n49_9_unspecified_male_genital_organ_inflammation",
+      "type": "appear-with",
+      "weight": 0.8,
+      "evidence": "Код N49 – Воспалительные болезни мужских половых органов; код N49.9 – Воспалительные болезни неуточненного мужского полового органа",
+      "properties": {}
+    }
+  ]
+}

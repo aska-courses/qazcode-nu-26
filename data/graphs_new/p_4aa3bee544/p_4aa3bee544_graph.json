@@ -1,0 +1,391 @@
+{
+  "protocol_id": "p_4aa3bee544",
+  "nodes": [
+    {
+      "id": "idiopathic_aplastic_anemia",
+      "type": "diagnosis",
+      "label": "идиопатическая апластическая анемия",
+      "icd_code": "D61.3"
+    },
+    {
+      "id": "symptom_zheltuha",
+      "type": "symptom",
+      "label": "желтуха"
+    },
+    {
+      "id": "symptom_gepatomegaliya",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_splenomegaliya",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_limfoadenopatiya",
+      "type": "symptom",
+      "label": "лимфоаденопатия"
+    },
+    {
+      "id": "symptom_giper_i_gipotpigmentatsiya_kozhi",
+      "type": "symptom",
+      "label": "гипер- и гипопигментация кожи"
+    },
+    {
+      "id": "symptom_leykoplakiya_rotovoy_polosti",
+      "type": "symptom",
+      "label": "лейкоплакия ротовой полости"
+    },
+    {
+      "id": "symptom_perifericheskaya_limfedema",
+      "type": "symptom",
+      "label": "периферическая лимфедема"
+    },
+    {
+      "id": "symptom_lihoradka",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_golovokruzhenie",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_takhikardiya",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_odushka",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_stenokardia",
+      "type": "symptom",
+      "label": "стенокардия"
+    },
+    {
+      "id": "symptom_synkopa",
+      "type": "symptom",
+      "label": "синкопа"
+    },
+    {
+      "id": "symptom_depressiya",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_povyshenie_temperatury_tela",
+      "type": "symptom",
+      "label": "повышение температуры тела"
+    },
+    {
+      "id": "symptom_kashl",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_poteria_massy_tela",
+      "type": "symptom",
+      "label": "потеря массы тела"
+    },
+    {
+      "id": "symptom_oznok",
+      "type": "symptom",
+      "label": "озноб"
+    },
+    {
+      "id": "symptom_potlivost",
+      "type": "symptom",
+      "label": "потливость"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_pantsitopeniya",
+      "type": "symptom",
+      "label": "панцитопения"
+    },
+    {
+      "id": "symptom_trombocytopeniya",
+      "type": "symptom",
+      "label": "тромбоцитопения"
+    },
+    {
+      "id": "symptom_neutropeniya",
+      "type": "symptom",
+      "label": "нейтропения"
+    },
+    {
+      "id": "symptom_monocytopeniya",
+      "type": "symptom",
+      "label": "моноцитопения"
+    },
+    {
+      "id": "symptom_retikulocytopeniya",
+      "type": "symptom",
+      "label": "ретикулоцитопения"
+    },
+    {
+      "id": "symptom_gipotcelulyarnyi_kostnyj_mozg",
+      "type": "symptom",
+      "label": "гипоцеллюлярный костный мозг"
+    },
+    {
+      "id": "symptom_odnorostkovaya_citopeniya",
+      "type": "symptom",
+      "label": "одноростковая цитопения"
+    },
+    {
+      "id": "symptom_gipokletochniy_kostnyj_mozg",
+      "type": "symptom",
+      "label": "гипоклеточный костный мозг"
+    },
+    {
+      "id": "symptom_gipoplasticheskiy_kostnyj_mozg",
+      "type": "symptom",
+      "label": "гипопластический костный мозг"
+    },
+    {
+      "id": "symptom_limfoidnye_uzelki",
+      "type": "symptom",
+      "label": "лимфоидные узелки"
+    },
+    {
+      "id": "symptom_fibroz_retikulinoi_kollagenovyi",
+      "type": "symptom",
+      "label": "ретикулиновый/коллагеновый фиброз"
+    },
+    {
+      "id": "symptom_dispoez_megakariotsitov",
+      "type": "symptom",
+      "label": "диспоэз мегакариоцитов"
+    },
+    {
+      "id": "symptom_blastemiya",
+      "type": "symptom",
+      "label": "бластемия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zheltuha",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие желтухи в анамнезе возможно при постгепатитной АА и ПНГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "наличие гепатомегалии, спленомегалии и лимфоаденопатии при отсутствии данных за инфекцию обычно исключает АА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "наличие гепатомегалии, спленомегалии и лимфоаденопатии при отсутствии данных за инфекцию обычно исключает АА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limfoadenopatiya",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "наличие гепатомегалии, спленомегалии и лимфоаденопатии при отсутствии данных за инфекцию обычно исключает АА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giper_i_gipotpigmentatsiya_kozhi",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "у молодых пациентов ... гипер- и гипопигментация кожи, лейкоплакия ротовой полости требует исключения врожденный дискератоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykoplakiya_rotovoy_polosti",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "у молодых пациентов ... гипер- и гипопигментация кожи, лейкоплакия ротовой полости требует исключения врожденный дискератоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perifericheskaya_limfedema",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "признаки периферической лимфедемы могут указывать на наличие синдрома Эмбергера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_monocytopeniya",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Наличие моноцитопении требует исключения волосатоклеточного лейкоза или врожденных синдромов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blastemiya",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Наличие бластемии ... исключают АА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispoez_megakariotsit",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Наличие диспоэз мегакариоцитов ... исключают АА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fibroz_retikulinoi_kollagenovyi",
+      "target": "idiopathic_aplastic_anemia",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Наличие ретикулинового/коллагенового фиброза ... исключают АА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_takhikardiya",
+      "target": "symptom_odushka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_takhikardiya",
+      "target": "symptom_stenokardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_takhikardiya",
+      "target": "symptom_synkopa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_takhikardiya",
+      "target": "symptom_depressiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odushka",
+      "target": "symptom_stenokardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odushka",
+      "target": "symptom_synkopa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odushka",
+      "target": "symptom_depressiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stenokardia",
+      "target": "symptom_synkopa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stenokardia",
+      "target": "symptom_depressiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_synkopa",
+      "target": "symptom_depressiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомная анемия (проявляющаяся тахикардией, одышкой, стенокардией, синкопой, депрессией ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "symptom_pantsitopeniya",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Панцитопения, включая нормохромную, нормоцитарную анемию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pantsitopeniya",
+      "target": "symptom_gipotcelulyarnyi_kostnyj_mozg",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "панцитопения с гипоцеллюлярным костным мозгом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pantsitopeniya",
+      "target": "symptom_gipoplasticheskiy_kostnyj_mozg",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "панцитопения с гипоцеллюлярным костным мозгом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pantsitopeniya",
+      "target": "symptom_gipokletochniy_kostnyj_mozg",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "панцитопения с гипоцеллюлярным костным мозгом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutropeniya",
+      "target": "symptom_trombocytopeniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Тяжелая АА ... нейтрофилы менее 0,5×10^9/л Тромбоциты менее 20×10^9/л",
+      "properties": {}
+    }
+  ]
+}

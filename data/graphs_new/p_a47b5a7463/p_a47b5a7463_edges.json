@@ -1,0 +1,386 @@
+[
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы:  одышка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oteki_lyodjek",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: … отеки на лодыжках.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ustalost",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: … усталость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_niz_tolernance_nagruzki",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: … снижение толерантности к нагрузке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ortopnoe",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: … затруднение дыхания в горизонтальном положении;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroks_night_odyshka",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … эпизоды ночного удушья;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_cough",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_whistling_breath",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … свистящее дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeling_bloating",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … ощущение вздутия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_appetite",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … потеря аппетита;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cognitive_impairment",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … затруднение мышления;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpitations",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … учащённое сердцебиение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … головокружение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fainting",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … обморок;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea_bending_forward",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: … затруднение дыхания при наклоне вперёд;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jugular_venous_pressure",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "К характерным признакам СН при физикальном обследовании относятся … повышенное давление в яремных венах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatojugular_reflux",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "К характерным признакам СН … гепато‑югулярный рефлюкс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_third_heart_tone",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "К характерным признакам СН … третий тон сердца (ритм галопа)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lateral_apex_shift",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "К характерным признакам СН … латеральное смещение верхушечного толчка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_gain",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: прибавка массы тела (>2 кг/неделю)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: потеря веса (при тяжёлой форме СН)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cachexia",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: общая атрофия (кахексия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_murmur",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: шумы сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_edema",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: периферические отёки (лодыжки, крестец, мошонка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rales",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: крепитация в лёгких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weak_breath_sounds",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: ослабление дыхания при аускультации лёгких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dullness_percussion",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: притупление при перкуссии (плевральный выпот)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmic_pulse",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: аритмичный пульс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rapid_breathing",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: учащённое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheyne_stokes",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: дыхание Чейна‑Стокса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: гепатомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ascites",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: асцит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cold_extremities",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: холодные конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: олигурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulse_pressure_decrease",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Менее характерные признаки: снижение пульсового давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_confusion",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: спутанность сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depression",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: депрессия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bendopnea",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: Бендопноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Менее характерные признаки: Тахипноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_oteki_lyodjek",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: одышка; … отеки на лодыжках.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_ortopnoe",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: одышка; … затруднение дыхания в горизонтальном положении;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oteki_lyodjek",
+    "target": "symptom_ustalost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Типичные жалобы: отеки на лодыжках; … усталость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_cough",
+    "target": "symptom_whistling_breath",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: ночной кашель; свистящее дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroks_night_odyshka",
+    "target": "symptom_night_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Менее типичные жалобы: эпизоды ночного удушья; ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_heart_failure",
+    "target": "diagnosis_congestive_heart_failure",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код (ы) МКБ-10: I50 Сердечная недостаточность I50.0 Застойная сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_heart_failure",
+    "target": "diagnosis_unspecified_heart_failure",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код (ы) МКБ-10: I50 Сердечная недостаточность I50.9 Сердечная недостаточность неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_congestive_heart_failure",
+    "target": "diagnosis_unspecified_heart_failure",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код (ы) МКБ-10: I50.0 Застойная сердечная недостаточность I50.9 Сердечная недостаточность неуточненная",
+    "properties": {}
+  }
+]

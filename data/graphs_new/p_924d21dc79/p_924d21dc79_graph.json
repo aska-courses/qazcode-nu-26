@@ -1,0 +1,428 @@
+{
+  "protocol_id": "p_924d21dc79",
+  "nodes": [
+    {
+      "id": "diagnosis_g47_0",
+      "type": "diagnosis",
+      "label": "Бессонница",
+      "icd_code": "G47.0"
+    },
+    {
+      "id": "diagnosis_g47_1",
+      "type": "diagnosis",
+      "label": "Гиперсомния",
+      "icd_code": "G47.1"
+    },
+    {
+      "id": "diagnosis_g47_2",
+      "type": "diagnosis",
+      "label": "Нарушения цикличности сна и бодрствования",
+      "icd_code": "G47.2"
+    },
+    {
+      "id": "diagnosis_g47_3",
+      "type": "diagnosis",
+      "label": "Апноэ во сне",
+      "icd_code": "G47.3"
+    },
+    {
+      "id": "diagnosis_g47_4",
+      "type": "diagnosis",
+      "label": "Нарколепсия и катаплексия",
+      "icd_code": "G47.4"
+    },
+    {
+      "id": "diagnosis_g47_8",
+      "type": "diagnosis",
+      "label": "Другие нарушения сна",
+      "icd_code": "G47.8"
+    },
+    {
+      "id": "diagnosis_g47_9",
+      "type": "diagnosis",
+      "label": "Неуточнённое нарушение сна",
+      "icd_code": "G47.9"
+    },
+    {
+      "id": "symptom_apnoe_vo_sne",
+      "type": "symptom",
+      "label": "Апноэ во сне"
+    },
+    {
+      "id": "symptom_zaderzhki_dykhaniya_vo_sne",
+      "type": "symptom",
+      "label": "Остановки дыхания во сне"
+    },
+    {
+      "id": "symptom_neravennoe_dykhanie",
+      "type": "symptom",
+      "label": "Нерегулярное дыхание"
+    },
+    {
+      "id": "symptom_uhudshenie_pamati_intellekta",
+      "type": "symptom",
+      "label": "Ухудшение памяти и интеллекта"
+    },
+    {
+      "id": "symptom_snizhenie_rabotosposobnosti",
+      "type": "symptom",
+      "label": "Снижение работоспособности"
+    },
+    {
+      "id": "symptom_postoyannaya_ustalost",
+      "type": "symptom",
+      "label": "Постоянная усталость"
+    },
+    {
+      "id": "symptom_vialost",
+      "type": "symptom",
+      "label": "Вялость"
+    },
+    {
+      "id": "symptom_chastye_nochnye_probuzenia",
+      "type": "symptom",
+      "label": "Частые ночные пробуждения"
+    },
+    {
+      "id": "symptom_dnevnaia_sonnlivost",
+      "type": "symptom",
+      "label": "Дневная сонливость"
+    },
+    {
+      "id": "symptom_priutsi_vnezapnoe_zasypanie",
+      "type": "symptom",
+      "label": "Приступы внезапного засыпания"
+    },
+    {
+      "id": "symptom_priutsi_kataplexii",
+      "type": "symptom",
+      "label": "Приступы катаплексии"
+    },
+    {
+      "id": "symptom_gipnagogicheskie_gallyutsinatsii",
+      "type": "symptom",
+      "label": "Гипнагогические галлюцинации"
+    },
+    {
+      "id": "symptom_gipnapomicheskie_gallyutsinatsii",
+      "type": "symptom",
+      "label": "Гипнапомпические галлюцинации"
+    },
+    {
+      "id": "symptom_paralizovannost_posle_probuzenia",
+      "type": "symptom",
+      "label": "Кратковременная парализованность после пробуждения"
+    },
+    {
+      "id": "symptom_epizody_cherezmernoi_sonnlivosti",
+      "type": "symptom",
+      "label": "Эпизоды чрезмерной сонливости"
+    },
+    {
+      "id": "symptom_razdrazhitelnost_agressiya",
+      "type": "symptom",
+      "label": "Раздражительность или агрессия"
+    },
+    {
+      "id": "symptom_sputannost_soznaniya",
+      "type": "symptom",
+      "label": "Спутанность сознания, дезориентация"
+    },
+    {
+      "id": "symptom_bespokoystvennyi_son",
+      "type": "symptom",
+      "label": "Беспокойный сон, плач во сне"
+    },
+    {
+      "id": "symptom_golovnye_boli",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_golovnokruglenie",
+      "type": "symptom",
+      "label": "Головокружения"
+    },
+    {
+      "id": "symptom_podavlennost",
+      "type": "symptom",
+      "label": "Подавленность"
+    },
+    {
+      "id": "symptom_oteki_pod_glazami",
+      "type": "symptom",
+      "label": "Отёки под глазами"
+    },
+    {
+      "id": "symptom_giperemiya_skler",
+      "type": "symptom",
+      "label": "Гиперемия склер"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_apnoe_vo_sne",
+      "target": "diagnosis_g47_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "апноэ во сне (прекращение лёгкой вентиляции во время сна более чем на 10 секунд)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhki_dykhaniya_vo_sne",
+      "target": "diagnosis_g47_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "замеченные остановки дыхания во сне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neravennoe_dykhanie",
+      "target": "diagnosis_g47_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нерегулярное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_pamati_intellekta",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ухудшение памяти и интеллекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_rabotosposobnosti",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение работоспособности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannaya_ustalost",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "постоянную усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vialost",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вялость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastye_nochnye_probuzenia",
+      "target": "diagnosis_g47_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые ночные пробуждения с дневной сонливостью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dnevnaia_sonnlivost",
+      "target": "diagnosis_g47_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые ночные пробуждения с дневной сонливостью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priutsi_vnezapnoe_zasypanie",
+      "target": "diagnosis_g47_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "приступами внезапного засыпания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priutsi_kataplexii",
+      "target": "diagnosis_g47_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "приступами катаплексии (внезапной утраты мышечного тонуса при ясном сознании)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipnagogicheskie_gallyutsinatsii",
+      "target": "diagnosis_g47_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "появлениями гипнагогических (при засыпании) ... галлюцинаций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipnapomicheskie_gallyutsinatsii",
+      "target": "diagnosis_g47_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "появлениями ... гипнапомпических (при пробуждении) галлюцинаций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paralizovannost_posle_probuzenia",
+      "target": "diagnosis_g47_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кратковременная парализованность тела сразу после пробуждения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epizody_cherezmernoi_sonnlivosti",
+      "target": "diagnosis_g47_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эпизоды чрезмерной сонливости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost_agressiya",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "состояние раздражительности или агрессии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sputannost_soznaniya",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спутанность сознания, дезориентация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bespokoystvennyi_son",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "беспокойный сон, плач во сне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnokruglenie",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podavlennost",
+      "target": "diagnosis_g47_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подавленность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteki_pod_glazami",
+      "target": "diagnosis_g47_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отеки под глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_skler",
+      "target": "diagnosis_g47_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия склер",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apnoe_vo_sne",
+      "target": "symptom_zaderzhki_dykhaniya_vo_sne",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "апноэ во сне … замеченные остановки дыхания во сне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apnoe_vo_sne",
+      "target": "symptom_neravennoe_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "апноэ во сне … нерегулярное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhki_dykhaniya_vo_sne",
+      "target": "symptom_neravennoe_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "замеченные остановки дыхания во сне, нерегулярное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priutsi_vnezapnoe_zasypanie",
+      "target": "symptom_priutsi_kataplexii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "приступами внезапного засыпания; приступами катаплексии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priutsi_vnezapnoe_zasypanie",
+      "target": "symptom_gipnagogicheskie_gallyutsinatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "приступами внезапного засыпания … гипнагогические галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priutsi_kataplexii",
+      "target": "symptom_gipnagogicheskie_gallyutsinatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "приступами катаплексии … гипнагогические галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipnagogicheskie_gallyutsinatsii",
+      "target": "symptom_gipnapomicheskie_gallyutsinatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипнагогические ... галлюцинации; гипнапомпические ... галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastye_nochnye_probuzenia",
+      "target": "symptom_dnevnaia_sonnlivost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частые ночные пробуждения с дневной сонливостью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "symptom_golovnokruglenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "головные боли, головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost_agressiya",
+      "target": "symptom_sputannost_soznaniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "раздражительность … спутанность сознания",
+      "properties": {}
+    }
+  ]
+}

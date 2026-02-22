@@ -61,14 +61,72 @@ source .venv/bin/activate
 uv sync
 ```
 
+
+
+Got it 👍
+Here is a **clean README** where **backend + frontend start in ONE command**.
+
+---
+
+### 2.2 Run Backend + Frontend (One Command)
+
+#### Requirements
+
+* Docker ≥ 24
+* Docker Compose v2
+
+---
+
+#### ▶️ Start Everything
+
+```bash
+docker compose up --build
+```
+
+That’s it.
+This **starts both backend and frontend together**.
+
+---
+
+#### 🌐 Access URLs
+
+| Service  | URL                                                      |
+| -------- | -------------------------------------------------------- |
+| Backend  | [http://localhost:8080](http://localhost:8080)           |
+| API Docs | [http://localhost:8080/docs](http://localhost:8080/docs) |
+| Frontend | [http://localhost:8501](http://localhost:8501)           |
+
+---
+
+#### 🧠 What Runs Automatically
+
+* **Backend**: FastAPI (`uvicorn`)
+* **Frontend**: Streamlit
+* Shared Docker network
+* Volumes mounted
+* Hot reload enabled
+
+Frontend automatically connects to backend:
+
+```env
+BACKEND_URL=http://backend:8080
+```
+
+
+#### 🔄 Run in Background
+
+```bash
+docker compose up -d
+```
+
 ### 3. Running validation
 You can use `src/mock_server.py` as an example service. (however, it has no web UI, only an endpoint for eval). 
 ```bash
-uv run uvicorn src.mock_server:app --host 127.0.0.1 --port 8000
+uv run uvicorn src.mock_server:app --host 127.0.0.1 --port 8080
 ```
 Then run the validation pipeline in a separate terminal:
 ```bash
-uv run python evaluate.py -e http://127.0.0.1:8000/diagnose -d ./data/test_set -n <your_team_name>
+uv run python evaluate.py -e http://127.0.0.1:8080/diagnose -d ./data/test_set -n <your_team_name>
 ```
 `-e`: endpoint (POST request) that will accept the symptoms
 
@@ -78,17 +136,6 @@ uv run python evaluate.py -e http://127.0.0.1:8000/diagnose -d ./data/test_set -
 
 By default, the evalutaion results will be output to `data/evals`.
 
-### Docker
-We prepared a Dockerfile to run our mock server example.
-```bash
-docker build -t mock-server .
-docker run -p 8000:8000 mock-server
-```
-Then run the validation as shown above.
-
-Feel free to use the mock-server FastAPI template and Dockerfile structure to build your own project around.
-
-Remember to adjust the CMD in Dockerfile for your real Python server instead of `src.mock_server:app` before submission. 
 
 ### Submission Checklist
 

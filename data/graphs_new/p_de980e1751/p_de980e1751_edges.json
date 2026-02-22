@@ -1,0 +1,290 @@
+[
+  {
+    "source": "symptom_erectile_dysfunction",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эректильная дисфункция; … признаки хронической ишемии артерий нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cold_lower_extremities",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cold_sensation",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зябкость нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tingling",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство «мурашек»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intermittent_claudication_stage_i",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптомы перемежающейся хромоты появляются только при прохождении расстояния больше 1 км",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_walking_distance_stage_ii",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при II степени боль появляется при ходьбе на меньшее расстояние. Расстояние 200м принято за условный критерий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rest_pain_stage_iii",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при III степени ишемии конечности появляется боль в покое",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intermittent_claudication_stage_iii",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перемежающаяся хромота при ходьбе меньше чем на 25м",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ulcer_necrotic_changes_stage_iv",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "для IV степени ишемии характерное проявление язвенно-некротических изменений тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_total_cholesterol",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение уровня общего холестерина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_hdl",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "понижение уровня ЛПВП",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_ldl",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение ЛПНП",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_triglycerides",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение ТГД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_atherogenic_index",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенный коэффициент атерогенности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercoagulability",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение свертываемости крови",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterial_wall_thickening",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утолщение стенки артерии, атеросклеротические бляшки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombus_presence",
+    "target": "diagnosis_embolism_thrombosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие тромбов в сосудах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombus_presence",
+    "target": "diagnosis_embolism_thrombosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие тромбов в сосудах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_flow",
+    "target": "diagnosis_embolism_thrombosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие кровотока (окклюзия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_flow",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие кровотока (окклюзия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_collateral_circulation",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "присутствие множества коллатералей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vessel_tortuosity",
+    "target": "diagnosis_atherosclerosis_abdominal_aorta",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "патологическая извитость артерий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_pulse",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие или снижение пульса на бедренной, подколенной, артериях, ПББА, ЗББА",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_sensation",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение/отсутствие чувствительности кожных покровов нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vascular_bruit",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сосудистый шум в проекции артерий нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_hypotrophy",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотрофичность мышц нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_color_change",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение окраски кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hair_loss",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выпадение волос нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atherosclerosis_abdominal_aorta",
+    "target": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "окклюзирующее поражение бифуркации аорты, подвздошных артерий и артерий нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atherosclerosis_abdominal_aorta",
+    "target": "diagnosis_embolism_thrombosis_abdominal_aorta",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I70.0 Атеросклерозаорты … I74.0 Эмболия и тромбоз брюшной аорты",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atherosclerosis_lower_extremity_arteries",
+    "target": "diagnosis_embolism_thrombosis_lower_extremity_arteries",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I70.2 Атеросклероз артерий конечностей … I74.3 Эмболия и тромбоз артерий нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_hypotrophy",
+    "target": "symptom_skin_color_change",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипотрофичность мышц нижних конечностей; изменение окраски кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hair_loss",
+    "target": "symptom_edema",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выпадение волос нижних конечностей; отёк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_vascular_bruit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гиперемия; сосудистый шум в проекции артерий нижних конечностей",
+    "properties": {}
+  }
+]

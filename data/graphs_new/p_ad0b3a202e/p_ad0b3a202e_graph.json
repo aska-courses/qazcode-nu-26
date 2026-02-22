@@ -1,0 +1,453 @@
+{
+  "protocol_id": "p_ad0b3a202e",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_predpleche",
+      "type": "symptom",
+      "label": "Боль в предплечье"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение функции верхней конечности"
+    },
+    {
+      "id": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "type": "symptom",
+      "label": "Вынужденное положение конечности"
+    },
+    {
+      "id": "symptom_otek_v_meste_pereloma",
+      "type": "symptom",
+      "label": "Отёк в месте перелома"
+    },
+    {
+      "id": "symptom_deformatsiya_konechnosti",
+      "type": "symptom",
+      "label": "Деформация конечности"
+    },
+    {
+      "id": "symptom_krovoizliyeniye_v_okruzhayushchie_tkany",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "symptom_ukorocheniye_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение конечности"
+    },
+    {
+      "id": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность при осевой нагрузке"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Патологическая подвижность"
+    },
+    {
+      "id": "symptom_kreptaciya_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация отломков"
+    },
+    {
+      "id": "diagnosis_s52_0",
+      "type": "diagnosis",
+      "label": "Перелом верхнего конца лучевой и локтевой кости (внешнее фиксирующее устройство)",
+      "icd_code": "S52.0"
+    },
+    {
+      "id": "diagnosis_s52_1",
+      "type": "diagnosis",
+      "label": "Закрытая репозиция костных отломков лучевой и локтевой кости без внутренней фиксации",
+      "icd_code": "S52.1"
+    },
+    {
+      "id": "diagnosis_s52_2",
+      "type": "diagnosis",
+      "label": "Закрытая репозиция костных обломков лучевой и локтевой кости с внутренней фиксацией",
+      "icd_code": "S52.2"
+    },
+    {
+      "id": "diagnosis_s52_3",
+      "type": "diagnosis",
+      "label": "Закрытая репозиция костных отломков лучевой и локтевой кости с внутренней фиксацией (блокирующий интра‑экстрамедуллярный остеосинтез)",
+      "icd_code": "S52.3"
+    },
+    {
+      "id": "diagnosis_s52_4",
+      "type": "diagnosis",
+      "label": "Открытая репозиция костных отломков лучевой и локтевой кости с внутренней фиксацией",
+      "icd_code": "S52.4"
+    },
+    {
+      "id": "diagnosis_s52_5",
+      "type": "diagnosis",
+      "label": "Закрытая репозиция обломков эпифиза лучевой и локтевой кости",
+      "icd_code": "S52.5"
+    },
+    {
+      "id": "diagnosis_s52_6",
+      "type": "diagnosis",
+      "label": "Открытая репозиция обломков эпифиза лучевой и локтевой кости",
+      "icd_code": "S52.6"
+    },
+    {
+      "id": "diagnosis_s52_7",
+      "type": "diagnosis",
+      "label": "Открытая репозиция обломков эпифиза (многократные переломы)",
+      "icd_code": "S52.7"
+    },
+    {
+      "id": "diagnosis_s52_8",
+      "type": "diagnosis",
+      "label": "Переломы других частей костей предплечья",
+      "icd_code": "S52.8"
+    },
+    {
+      "id": "diagnosis_s52_9",
+      "type": "diagnosis",
+      "label": "Переломы неуточненной части костей предплечья",
+      "icd_code": "S52.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_6",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_7",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "diagnosis_s52_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_6",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_7",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s52_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_konechnosti",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_s52_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predpleche",
+      "target": "symptom_narushenie_funkcii_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: боли в предплечье; нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "symptom_otek_v_meste_pereloma",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "вынужденное положение конечности; отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_konechnosti",
+      "target": "symptom_krovoizliyeniye_v_okruzhayushchie_tkany",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "деформация конечности; кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "укорочение конечности; болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "symptom_kreptaciya_otlomkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "патологическая подвижность; крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_0",
+      "target": "diagnosis_s52_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.0 и S52.1 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_1",
+      "target": "diagnosis_s52_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.1 и S52.2 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_2",
+      "target": "diagnosis_s52_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.2 и S52.3 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_3",
+      "target": "diagnosis_s52_4",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.3 и S52.4 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_4",
+      "target": "diagnosis_s52_5",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.4 и S52.5 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_5",
+      "target": "diagnosis_s52_6",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.5 и S52.6 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_6",
+      "target": "diagnosis_s52_7",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.6 и S52.7 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_7",
+      "target": "diagnosis_s52_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.7 и S52.8 как варианты переломов предплечья",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s52_8",
+      "target": "diagnosis_s52_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В приложении 3 перечислены коды S52.8 и S52.9 как варианты переломов предплечья",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "protocol_id": "p_c08d05b49c",
+  "nodes": [
+    {
+      "id": "symptom_blood_from_anus",
+      "type": "symptom",
+      "label": "выделение крови из ануса"
+    },
+    {
+      "id": "symptom_rectal_pain",
+      "type": "symptom",
+      "label": "боль в прямой кишке"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "боль в животе"
+    },
+    {
+      "id": "symptom_anal_sphincter_dysfunction",
+      "type": "symptom",
+      "label": "нарушение функции анального сфинктера"
+    },
+    {
+      "id": "symptom_gas_emission_from_wound",
+      "type": "symptom",
+      "label": "выделение кишечных газов из раны"
+    },
+    {
+      "id": "symptom_const_tenescence",
+      "type": "symptom",
+      "label": "постоянные тенезмы"
+    },
+    {
+      "id": "symptom_feces_emission_from_wound",
+      "type": "symptom",
+      "label": "выделение каловых масс из раны"
+    },
+    {
+      "id": "symptom_involuntary_defecation",
+      "type": "symptom",
+      "label": "непроизвольная дефекация"
+    },
+    {
+      "id": "symptom_subcutaneous_emphysema_perianal",
+      "type": "symptom",
+      "label": "подкожная эмфизема перианальной области"
+    },
+    {
+      "id": "diagnosis_trauma_of_rectum",
+      "type": "diagnosis",
+      "label": "Травма прямой кишки",
+      "icd_code": "S36.6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_blood_from_anus",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделение крови из ануса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rectal_pain",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в прямой кишке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anal_sphincter_dysfunction",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функции анального сфинктера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gas_emission_from_wound",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделение кишечных газов из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_const_tenescence",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "постоянные тенезмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feces_emission_from_wound",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделение каловых масс из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_involuntary_defecation",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "непроизвольная дефекация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subcutaneous_emphysema_perianal",
+      "target": "diagnosis_trauma_of_rectum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подкожная эмфизема перианальной области",
+      "properties": {}
+    }
+  ]
+}

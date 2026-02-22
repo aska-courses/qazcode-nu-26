@@ -1,0 +1,555 @@
+{
+  "protocol_id": "p_2de58f514a",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость, снижение трудоспособности"
+    },
+    {
+      "id": "symptom_seizure",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_loss_of_consciousness",
+      "type": "symptom",
+      "label": "Потеря сознания"
+    },
+    {
+      "id": "symptom_somnolence",
+      "type": "symptom",
+      "label": "Сонливость"
+    },
+    {
+      "id": "symptom_neck_stiffness",
+      "type": "symptom",
+      "label": "Ригидность затылочных мышц"
+    },
+    {
+      "id": "symptom_kernig_sign",
+      "type": "symptom",
+      "label": "Симптом Кернига"
+    },
+    {
+      "id": "symptom_brudzinski_sign",
+      "type": "symptom",
+      "label": "Симптом Брудзинского"
+    },
+    {
+      "id": "symptom_bechterev_sign",
+      "type": "symptom",
+      "label": "Симптом Бехтерева"
+    },
+    {
+      "id": "symptom_lesage_sign",
+      "type": "symptom",
+      "label": "Симптом Лессажа"
+    },
+    {
+      "id": "symptom_bogolepov_sign",
+      "type": "symptom",
+      "label": "Симптом Боголепова"
+    },
+    {
+      "id": "symptom_focal_neurological_deficit",
+      "type": "symptom",
+      "label": "Очаговый неврологический синдром"
+    },
+    {
+      "id": "symptom_cranial_nerve_palsy",
+      "type": "symptom",
+      "label": "Поражение черепно-мозговых нервов"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_photophobia",
+      "type": "symptom",
+      "label": "Светобоязнь"
+    },
+    {
+      "id": "symptom_coma",
+      "type": "symptom",
+      "label": "Кома"
+    },
+    {
+      "id": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "diagnosis",
+      "label": "Бактериальный менингит (не классифицированный в других рубриках)",
+      "icd_code": "G00"
+    },
+    {
+      "id": "diagnosis_pneumococcal_meningitis",
+      "type": "diagnosis",
+      "label": "Пневмококковый менингит",
+      "icd_code": "G00.1"
+    },
+    {
+      "id": "diagnosis_streptococcal_meningitis",
+      "type": "diagnosis",
+      "label": "Стрептококковый менингит",
+      "icd_code": "G00.2"
+    },
+    {
+      "id": "diagnosis_staphylococcal_meningitis",
+      "type": "diagnosis",
+      "label": "Стафилококковый менингит",
+      "icd_code": "G00.3"
+    },
+    {
+      "id": "diagnosis_bacterial_meningitis_other_bacteria",
+      "type": "diagnosis",
+      "label": "Менингит, вызванный другими бактериями",
+      "icd_code": "G00.8"
+    },
+    {
+      "id": "diagnosis_bacterial_meningitis_unspecified_2",
+      "type": "diagnosis",
+      "label": "Бактериальный менингит (неуточненный)",
+      "icd_code": "G00.9"
+    },
+    {
+      "id": "diagnosis_meningitis_bacterial_diseases_other_rubrics",
+      "type": "diagnosis",
+      "label": "Менингит при бактериальных болезнях (другие рубрики)",
+      "icd_code": "G01"
+    },
+    {
+      "id": "diagnosis_meningitis_other_infectious_parasitic",
+      "type": "diagnosis",
+      "label": "Менингит при других инфекционных и паразитарных болезнях",
+      "icd_code": "G02"
+    },
+    {
+      "id": "diagnosis_viral_meningitis",
+      "type": "diagnosis",
+      "label": "Менингит при вирусных болезнях",
+      "icd_code": "G02.0"
+    },
+    {
+      "id": "diagnosis_meningitis_mycoses",
+      "type": "diagnosis",
+      "label": "Менингит при микозах",
+      "icd_code": "G02.1"
+    },
+    {
+      "id": "diagnosis_meningitis_other_specified_infectious",
+      "type": "diagnosis",
+      "label": "Менингит при других уточненных инфекционных и паразитарных болезнях",
+      "icd_code": "G02.8"
+    },
+    {
+      "id": "diagnosis_meningitis_other_causes",
+      "type": "diagnosis",
+      "label": "Менингит, обусловленный другими и неуточненными причинами",
+      "icd_code": "G03"
+    },
+    {
+      "id": "diagnosis_nonpyogenic_meningitis",
+      "type": "diagnosis",
+      "label": "Непиогенный менингит",
+      "icd_code": "G03.0"
+    },
+    {
+      "id": "diagnosis_chronic_meningitis",
+      "type": "diagnosis",
+      "label": "Хронический менингит",
+      "icd_code": "G03.1"
+    },
+    {
+      "id": "diagnosis_benign_recurrent_meningitis",
+      "type": "diagnosis",
+      "label": "Доброкачественный рецидивирующий менингит (Молларе)",
+      "icd_code": "G03.2"
+    },
+    {
+      "id": "diagnosis_meningitis_other_specified_pathogens",
+      "type": "diagnosis",
+      "label": "Менингит, вызванный другими уточненными возбудителями",
+      "icd_code": "G03.8"
+    },
+    {
+      "id": "diagnosis_meningitis_unspecified_3",
+      "type": "diagnosis",
+      "label": "Менингит неуточненный",
+      "icd_code": "G03.9"
+    },
+    {
+      "id": "diagnosis_viral_meningitis_general",
+      "type": "diagnosis",
+      "label": "Вирусный менингит",
+      "icd_code": "A87"
+    },
+    {
+      "id": "diagnosis_lymphocytic_choriomeningitis",
+      "type": "diagnosis",
+      "label": "Лимфоцитарный хориоменингит",
+      "icd_code": "A87.2"
+    },
+    {
+      "id": "diagnosis_viral_meningitis_unspecified",
+      "type": "diagnosis",
+      "label": "Вирусный менингит (неуточненный)",
+      "icd_code": "A87.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела до 38 С",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слабость, снижение трудоспособности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потеря сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_somnolence",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_stiffness",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ригидность затылочных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kernig_sign",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симптом Кернига",
+      "properties": {}
+    },
+    {
+      "source": "symptom_brudzinski_sign",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симптом Брудзинского",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bechterev_sign",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симптом Бехтерева",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lesage_sign",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симптом Лессажа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bogolepov_sign",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симптом Боголепова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurological_deficit",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Очаговый неврологический синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cranial_nerve_palsy",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "поражение черепно‑мозговых нервов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "светобоязнь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "diagnosis_bacterial_meningitis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: повышение температуры тела до 38 С; головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... головокружение ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... тошнота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... рвота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... слабость, снижение трудоспособности ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_seizure",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... судороги с потерей сознания ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_somnolence",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... сонливость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: головная боль; головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: головная боль; тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure",
+      "target": "symptom_loss_of_consciousness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "судороги с потерей сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_stiffness",
+      "target": "symptom_kernig_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие менингеальных знаков (ригидность затылочных мышц, симптомы Кернига, Брудзинского ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_stiffness",
+      "target": "symptom_brudzinski_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие менингеальных знаков (ригидность затылочных мышц, симптомы Кернига, Брудзинского ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kernig_sign",
+      "target": "symptom_brudzinski_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом Кернига, Брудзинского",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bechterev_sign",
+      "target": "symptom_lesage_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом Бехтерева, Лессажа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lesage_sign",
+      "target": "symptom_bogolepov_sign",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом Лессажа, Боголепова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurological_deficit",
+      "target": "symptom_cranial_nerve_palsy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Очаговый неврологический синдром: поражение черепно‑мозговых нервов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "головокружение, светобоязнь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Общеинфекционный синдром: повышение температуры тела, озноб",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_bacterial_meningitis_unspecified",
+      "target": "diagnosis_pneumococcal_meningitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Классификация: бактериальные (менингококковый, пневмококковый, стафилококковый, ...)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_viral_meningitis_general",
+      "target": "diagnosis_viral_meningitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Менингит при вирусных болезнях (G02.0) – Вирусный менингит (A87)",
+      "properties": {}
+    }
+  ]
+}

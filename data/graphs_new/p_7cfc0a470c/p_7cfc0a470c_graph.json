@@ -1,0 +1,466 @@
+{
+  "protocol_id": "p_7cfc0a470c",
+  "nodes": [
+    {
+      "id": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "diagnosis",
+      "label": "Киста поджелудочной железы",
+      "icd_code": "K86.2"
+    },
+    {
+      "id": "diagnosis_vrozhdennaya_kista_podzheludochnoy_zheli",
+      "type": "diagnosis",
+      "label": "Врожденная киста поджелудочной железы",
+      "icd_code": "Q45.2"
+    },
+    {
+      "id": "symptom_epigastric_pain",
+      "type": "symptom",
+      "label": "Боли в эпигастральной области"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Постоянные позывы к рвоте"
+    },
+    {
+      "id": "symptom_jaundice_skin",
+      "type": "symptom",
+      "label": "Желтизна кожных покровов"
+    },
+    {
+      "id": "symptom_belching",
+      "type": "symptom",
+      "label": "Отрыжка"
+    },
+    {
+      "id": "symptom_heartburn",
+      "type": "symptom",
+      "label": "Изжога"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Диарея"
+    },
+    {
+      "id": "symptom_abdominal_heaviness",
+      "type": "symptom",
+      "label": "Чувство тяжести в животе"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "Распирание"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_neutrophilia",
+      "type": "symptom",
+      "label": "Нейтрофилез"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Повышенное СОЭ"
+    },
+    {
+      "id": "symptom_elevated_amylase",
+      "type": "symptom",
+      "label": "Повышение амилазы"
+    },
+    {
+      "id": "symptom_elevated_direct_bilirubin",
+      "type": "symptom",
+      "label": "Повышение билирубина прямой фракции"
+    },
+    {
+      "id": "symptom_elevated_transaminases",
+      "type": "symptom",
+      "label": "Повышение трансаминаз"
+    },
+    {
+      "id": "symptom_elevated_alkaline_phosphatase",
+      "type": "symptom",
+      "label": "Повышение щелочной фосфатазы"
+    },
+    {
+      "id": "symptom_decreased_pt",
+      "type": "symptom",
+      "label": "Снижение ПТИ"
+    },
+    {
+      "id": "symptom_decreased_aptt",
+      "type": "symptom",
+      "label": "Снижение АЧТВ"
+    },
+    {
+      "id": "symptom_decreased_fibrinogen",
+      "type": "symptom",
+      "label": "Снижение фибриногена"
+    },
+    {
+      "id": "symptom_elevated_urinary_amylase",
+      "type": "symptom",
+      "label": "Повышение амилазы мочи"
+    },
+    {
+      "id": "symptom_loose_stool",
+      "type": "symptom",
+      "label": "Разжижение стула"
+    },
+    {
+      "id": "symptom_undigested_food",
+      "type": "symptom",
+      "label": "Наличие непереваримой пищи"
+    },
+    {
+      "id": "symptom_neutral_fat_presence",
+      "type": "symptom",
+      "label": "Появление нейтрального жира"
+    },
+    {
+      "id": "symptom_undigested_muscle_fibers",
+      "type": "symptom",
+      "label": "Непереваренные мышечные волокна"
+    },
+    {
+      "id": "symptom_mechanical_jaundice",
+      "type": "symptom",
+      "label": "Механическая желтуха"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_pancreatitis_exacerbation",
+      "type": "symptom",
+      "label": "Обострение панкреатита"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "боли в эпигастральной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "постоянные позывы к рвоте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice_skin",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "желтизна кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belching",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heartburn",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "изжога",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_heaviness",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чувство тяжести в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможен лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrophilia",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможен нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_amylase",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение амилазы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_direct_bilirubin",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение билирубина за счет прямой фракции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_transaminases",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение трансаминаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_alkaline_phosphatase",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение щелочной фосфатазы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_pt",
+      "target": "diagnosis_kista_podzheludochnoy_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение ПТИ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_aptt",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение АЧТВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_fibrinogen",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение фибриногена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_urinary_amylase",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение амилазы мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loose_stool",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "разжижение стула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_undigested_food",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие непереваримой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutral_fat_presence",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появление нейтрального жира",
+      "properties": {}
+    },
+    {
+      "source": "symptom_undigested_muscle_fibers",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "непериваренных мышечных волокон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mechanical_jaundice",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "механическая желтуха у ребёнка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженный болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pancreatitis_exacerbation",
+      "target": "diagnosis_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обострение панкреатита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "diagnosis_vrozhdennaya_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "боли в эпигастральной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_vrozhdennaya_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "постоянные позывы к рвоте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice_skin",
+      "target": "diagnosis_vrozhdennaya_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "желтизна кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mechanical_jaundice",
+      "target": "diagnosis_vrozhdennaya_kista_podzheludochnой_zheli",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "механическая желтуха у ребёнка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в эпигастральной области; постоянные позывы к рвоте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "symptom_jaundice_skin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в эпигастральной области; желтизна кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_jaundice_skin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "постоянные позывы к рвоте; желтизна кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belching",
+      "target": "symptom_heartburn",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отрыжка, изжога",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "symptom_abdominal_heaviness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "диарея, чувство тяжести в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_amylase",
+      "target": "symptom_elevated_direct_bilirubin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение амилазы; повышение билирубина за счет прямой фракции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_neutrophilia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможен лейкоцитоз, нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_pt",
+      "target": "symptom_decreased_aptt",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "снижение ПТИ, снижение АЧТВ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kista_podzheludochnой_zheli",
+      "target": "diagnosis_vrozhdennaya_kista_podzheludochnой_zheli",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Киста поджелудочной железы … может быть врожденного характера",
+      "properties": {}
+    }
+  ]
+}

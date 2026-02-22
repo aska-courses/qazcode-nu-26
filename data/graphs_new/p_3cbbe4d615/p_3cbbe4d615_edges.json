@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_afaziya",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "это заболевание, которое характеризуется нарушением речи, возникающее у детей с ... эпилепсией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepsiya",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "это заболевание, которое характеризуется нарушением речи, возникающее у детей с ... эпилепсией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_generalized_tonic_clonic_seizures",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у 3/4 пациентов ... генерализованные тонико‑клонические (ГТКП)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_focal_motor_seizures",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у 3/4 пациентов ... фокальные моторные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atypical_absences",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у 3/4 пациентов ... атипичные абсансы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atonic_seizures",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у 3/4 пациентов ... атонические приступы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epileptic_status",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у 3/4 пациентов ... эпилептический статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperglycemia",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глюкоза крови – при эпилепсии развивается гипергликемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypomagnesemia",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение внутриклеточной концентрации магния характерно для эпилепсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypokalemia",
+    "target": "diagnosis_landau_kleffner_syndrome",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипомагниемия может провоцировать гипокалиемию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperactivity",
+    "target": "symptom_attention_deficit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поведенческие расстройства включают в себя повышенную двигательную активность и снижение концентрации внимания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperactivity",
+    "target": "symptom_aggression",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поведенческие расстройства включают в себя ... агрессивность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperactivity",
+    "target": "symptom_rage_outbursts",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поведенческие расстройства включают в себя ... приступы ярости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_attention_deficit",
+    "target": "symptom_concentration_decrease",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поведенческие расстройства включают в себя ... снижение концентрации внимания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aggression",
+    "target": "symptom_rage_outbursts",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поведенческие расстройства включают в себя ... агрессивность и приступы ярости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_behavioral_disorders",
+    "target": "symptom_cognitive_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Когнитивные и поведенческие проблемы развиваются более чем в 3/4 случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cognitive_impairment",
+    "target": "symptom_verbal_intelligence_decrease",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Когнитивные нарушения ... снижение вербального интеллекта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_expressive_speech_impairment",
+    "target": "symptom_receptive_speech_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "потеря способности говорить (нарушение экспрессивной речи) ... поражается рецептивная сторона речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_expressive_speech_impairment",
+    "target": "symptom_jargon_aphasia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жаргонофазия ... входит в виды нарушения речи (афазия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_expressive_speech_impairment",
+    "target": "symptom_articulation_deficit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дефицит артикуляции ... относится к нарушениям речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_expressive_speech_impairment",
+    "target": "symptom_speech_fluency_deficit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дефицит плавности речи ... относится к нарушениям речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_receptive_speech_impairment",
+    "target": "symptom_jargon_aphasia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жаргонофазия ... входит в виды нарушения речи (афазия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_receptive_speech_impairment",
+    "target": "symptom_articulation_deficit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дефицит артикуляции ... относится к нарушениям речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_receptive_speech_impairment",
+    "target": "symptom_speech_fluency_deficit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дефицит плавности речи ... относится к нарушениям речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jargon_aphasia",
+    "target": "symptom_mutism",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "почти полная немота – мутизм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_articulation_deficit",
+    "target": "symptom_speech_fluency_deficit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дефицит артикуляции, дефицит плавности речи – оба перечислены среди видов нарушения речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mutism",
+    "target": "symptom_expressive_speech_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мутизм (ребенок не в состоянии ответить даже на невербальные звуки) – крайняя форма нарушения экспрессивной речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_behavioral_disorders",
+    "target": "symptom_emotional_disorders",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поведенческие и эмоциональные расстройства присоединяются в процессе болезни",
+    "properties": {}
+  }
+]

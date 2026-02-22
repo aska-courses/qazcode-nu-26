@@ -1,0 +1,46 @@
+services:
+  backend:
+    build: .
+    container_name: medical_backend
+    # Overriding the command to only run FastAPI
+    command: >
+      sh -c "uv run uvicorn src.server:app --host 0.0.0.0 --port 8080 --reload --reload-dir src"
+    ports:
+      - "8079:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - DEVICE=cpu
+      - GRAPH_DIR=/app/data/graphs_new
+      - CHROMA_DIR=/app/chroma_db
+      - VLLM_120B_URL_5=https://hub.qazcode.ai
+      - API_KEY=sk-BDVloWBwHCr5oltlXwyhtA
+    volumes:
+      - .:/app 
+      - ./data/graphs_new:/app/data/graphs_new
+      - ./chroma_db:/app/chroma_db
+    working_dir: /app
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+              device_ids: ["4"]
+    restart: unless-stopped
+
+  frontend:
+    build: .
+    container_name: medical_frontend
+    volumes:
+      - .:/app 
+    working_dir: /app
+    # Overriding the command to only run Streamlit
+    command: uv run streamlit run src/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      # This tells Streamlit where to find the FastAPI server inside the docker network
+      - BACKEND_URL=http://backend:8080
+    depends_on:
+      - backend
+    restart: unless-stopped

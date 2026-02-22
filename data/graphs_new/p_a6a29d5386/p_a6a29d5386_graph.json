@@ -1,0 +1,811 @@
+{
+  "protocol_id": "p_a6a29d5386",
+  "nodes": [
+    {
+      "id": "diagnosis_d10_0",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование губы",
+      "icd_code": "D10.0"
+    },
+    {
+      "id": "diagnosis_d10_1",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование языка",
+      "icd_code": "D10.1"
+    },
+    {
+      "id": "diagnosis_d10_2",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование дна полости рта",
+      "icd_code": "D10.2"
+    },
+    {
+      "id": "diagnosis_d10_3",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование других и неуточненных частей рта",
+      "icd_code": "D10.3"
+    },
+    {
+      "id": "diagnosis_d17_0",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование жировой ткани кожи и подкожной клетчатки головы, лица и шеи",
+      "icd_code": "D17.0"
+    },
+    {
+      "id": "diagnosis_d22_0",
+      "type": "diagnosis",
+      "label": "меланоформный невус губы",
+      "icd_code": "D22.0"
+    },
+    {
+      "id": "diagnosis_d22_3",
+      "type": "diagnosis",
+      "label": "меланоформный невус других и неуточненных частей лица",
+      "icd_code": "D22.3"
+    },
+    {
+      "id": "diagnosis_d23_3",
+      "type": "diagnosis",
+      "label": "доброкачественные новообразования кожи других и неуточненных частей лица",
+      "icd_code": "D23.3"
+    },
+    {
+      "id": "symptom_nalichie_obrazovaniya",
+      "type": "symptom",
+      "label": "наличие образования на лице и/или в полости рта",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_funkcii_priema_pischi",
+      "type": "symptom",
+      "label": "нарушение функции приема пищи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_funkcii_rechi",
+      "type": "symptom",
+      "label": "нарушение функции речи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_funkcii_dykhaniya",
+      "type": "symptom",
+      "label": "нарушение функции дыхания",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotochivost_pri_travmirovanii",
+      "type": "symptom",
+      "label": "кровоточивость при травмировании",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_medlennyi_bezbolennyi_rost",
+      "type": "symptom",
+      "label": "медленный безболезненный рост",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_obturatsionnaia_assifiksiia",
+      "type": "symptom",
+      "label": "обтурационная асфиксия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_deformatsiia_lica",
+      "type": "symptom",
+      "label": "деформация лица",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_glotaniya",
+      "type": "symptom",
+      "label": "нарушение глотания",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_zhevania",
+      "type": "symptom",
+      "label": "нарушение жевания",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nalichie_obrazovaniya",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniya",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания (при больших размерах); • кровоточивость при травмировании. Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_priema_pischi",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_rechi",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniya",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniya",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniya",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniya",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniya",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniya",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniя",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_dykhaniя",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушение функции приема пищи, речи, дыхания (при больших размерах)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_travmirovanii",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kровotochivost_pri_travmirovanii",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennyi_bezbolennyi_rost",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: • медленный безболезненный рост в течение нескольких месяцев (лет).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_lica",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_lica",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_лица",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_лица",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_лица",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_лица",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_лица",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiia_лица",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_glotaniya",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevania",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функции приема пищи, дыхания.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d17_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d22_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d22_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obturatsionnaia_assifiksiia",
+      "target": "diagnosis_d23_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "symptom_narushenie_funkcii_priema_pischи",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniя",
+      "target": "symptom_narушenie_funkcii_reчи",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на наличие образования на лице и/или в полости рта; • нарушение функции приема пищи, речи, дыхания...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalичие_образования",
+      "target": "symptom_nарушение_функции_дыхания",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на наличие образования...; • нарушение функции приема пищи, речи, дыхания...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalичие_образования",
+      "target": "symptom_kровоточивость_при_травмировании",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на наличие образования...; • кровоточивость при травмировании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalичие_образования",
+      "target": "symptom_медленный_безболезненный_рост",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на наличие образования...; Анамнез: • медленный безболезненный рост...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nарушение_функции_дыхания",
+      "target": "symptom_obтурaционная_асфиксия",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Показания для экстренной госпитализации: • нарушение дыхания за счет обтурационной асфиксии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deформaция_лица",
+      "target": "symptom_nаличие_образования",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие опухоли ... приводящего к деформации лица",
+      "properties": {}
+    }
+  ]
+}

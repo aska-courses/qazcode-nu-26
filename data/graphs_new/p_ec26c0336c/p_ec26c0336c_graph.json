@@ -1,0 +1,511 @@
+{
+  "protocol_id": "p_ec26c0336c",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "боль в животе"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "задержка стула"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "задержка газов"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "тенезмы"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "вздутие живота"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "сухость во рту"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "повышение температуры тела"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "тахипноэ"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "гипотензия"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "гипоперфузия"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "олигоурия"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "гиперлактатацидемия"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "гипотония"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "резистентность к возмещению ОЦК"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "синдром интраабдоминальной гипертензии"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "полиорганная недостаточность"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "синдром системной воспалительной реакции"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "септический шок"
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "инфекционно-токсический шок"
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "положительные симптомы раздражения брюшины"
+    },
+    {
+      "id": "symptom_25",
+      "type": "symptom",
+      "label": "симптом щеткина-блюмберга"
+    },
+    {
+      "id": "symptom_26",
+      "type": "symptom",
+      "label": "симптом раздольского"
+    },
+    {
+      "id": "symptom_27",
+      "type": "symptom",
+      "label": "симптом кулленкампфа"
+    },
+    {
+      "id": "symptom_28",
+      "type": "symptom",
+      "label": "притупление звука при перкуссии"
+    },
+    {
+      "id": "symptom_29",
+      "type": "symptom",
+      "label": "отсутствие перистальтики"
+    },
+    {
+      "id": "symptom_30",
+      "type": "symptom",
+      "label": "ослабленная перистальтика"
+    },
+    {
+      "id": "symptom_31",
+      "type": "symptom",
+      "label": "сухой язык"
+    },
+    {
+      "id": "symptom_32",
+      "type": "symptom",
+      "label": "коричневый налет на языке"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "перитонит",
+      "icd_code": "K65"
+    },
+    {
+      "id": "diagnosis_2",
+      "type": "diagnosis",
+      "label": "острый перитонит",
+      "icd_code": "K65.0"
+    },
+    {
+      "id": "diagnosis_3",
+      "type": "diagnosis",
+      "label": "другие виды перитонита",
+      "icd_code": "K65.8"
+    },
+    {
+      "id": "diagnosis_4",
+      "type": "diagnosis",
+      "label": "перитонит неуточненный",
+      "icd_code": "K65.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боль в животе, тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боль в животе, тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: боль в животе, тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: задержка стула и газов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: задержка стула и газов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: тенезмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: сухость во рту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Отмечаются признаки системной воспалительной реакции: лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Отмечаются признаки системной воспалительной реакции: тахипноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Отмечаются признаки системной воспалительной реакции: тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гипотензия (САД< 90 мм рт. ст.) – признак тяжёлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гипоперфузия – признак тяжёлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Олигоурия – признак тяжёлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гиперлактатацидемия – признак тяжёлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гипотония – признак тяжёлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Резистентность к возмещению ОЦК – признак септического шока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Синдром интраабдоминальной гипертензии (СИАГ) – осложнение перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Полиорганная недостаточность – осложнение тяжёлого перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Синдром системной воспалительной реакции (ССВО) – критерий сепсиса при перитоните",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Септический шок – тяжёлое осложнение перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_23",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Инфекционно‑токсический шок – тяжёлое осложнение перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Положительные симптомы раздражения брюшины: Щеткина‑Блюмберга, Раздольского, Кулленкампфа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_25",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Симптом Щеткина‑Блюмберга – положительный симптом раздражения брюшины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_26",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Симптом Раздольского – положительный симптом раздражения брюшины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_27",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Симптом Кулленкампфа – положительный симптом раздражения брюшины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_28",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Притупление звука при перкуссии – признак перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_29",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Отсутствие перистальтики – признак тяжёлого перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_30",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Ослабленная перистальтика – признак тяжёлого перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_31",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Сухой язык – признак гиповолемии при перитоните",
+      "properties": {}
+    },
+    {
+      "source": "symptom_32",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Коричневый налет на языке – признак гиповолемии при перитоните",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: боль в животе, тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: боль в животе, тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_29",
+      "target": "symptom_30",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "перистальтика ослаблена или отсутствует",
+      "properties": {}
+    },
+    {
+      "source": "symptom_31",
+      "target": "symptom_32",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Язык сухой, ... обложен коричневым налетом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "symptom_22",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При тяжёлом абдоминальном сепсисе развивается гипотония, резистентная к возмещению ОЦК, а также тканевая и органная гипоперфузия (септический шок)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: К 65 – перитонит К 65.0 – острый перитонит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_3",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: К 65.8 – другие виды перитонита",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_4",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: К 65.9 – перитонит неуточненный",
+      "properties": {}
+    }
+  ]
+}

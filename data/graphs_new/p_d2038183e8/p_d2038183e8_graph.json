@@ -1,0 +1,238 @@
+{
+  "protocol_id": "p_d2038183e8",
+  "nodes": [
+    {
+      "id": "diagnosis_cystitis",
+      "type": "diagnosis",
+      "label": "Цистит",
+      "icd_code": "N30"
+    },
+    {
+      "id": "diagnosis_uretritis",
+      "type": "diagnosis",
+      "label": "Уретрит и уретральный синдром",
+      "icd_code": "N34"
+    },
+    {
+      "id": "symptom_nadlobkovaya_bol",
+      "type": "symptom",
+      "label": "Боль в надлобковой области"
+    },
+    {
+      "id": "symptom_uretralnye_vydecheniya",
+      "type": "symptom",
+      "label": "Выделения из уретры"
+    },
+    {
+      "id": "symptom_zud_mocheispuskanii",
+      "type": "symptom",
+      "label": "Зуд при мочеиспускании"
+    },
+    {
+      "id": "symptom_zhgarenie_mocheispuskanii",
+      "type": "symptom",
+      "label": "Жжение при мочеиспускании"
+    },
+    {
+      "id": "symptom_oznob",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_dizuriya",
+      "type": "symptom",
+      "label": "Дизурия"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_intoksikatsiya",
+      "type": "symptom",
+      "label": "Интоксикация"
+    },
+    {
+      "id": "symptom_boleznennost_palpatsii_mochevogo_puzyri",
+      "type": "symptom",
+      "label": "Болезненность при пальпации мочевого пузыря"
+    },
+    {
+      "id": "symptom_vysypaniya_genitalii",
+      "type": "symptom",
+      "label": "Высыпания (шелушения, язвы) в области гениталий"
+    },
+    {
+      "id": "symptom_gipertermicheskaya_reaktsiya",
+      "type": "symptom",
+      "label": "Гипертермическая реакция"
+    },
+    {
+      "id": "symptom_palpiruemyi_boleznennyi_mochevoi_puzyr",
+      "type": "symptom",
+      "label": "Пальпируемый болезненный увеличенный мочевой пузырь"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nadlobkovaya_bol",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в надлобковой области (цистит)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uretralnye_vydecheniya",
+      "target": "diagnosis_uretritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделения из уретры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_mocheispuskanii",
+      "target": "diagnosis_uretritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... при мочеиспускании (уретрит)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhgarenie_mocheispuskanii",
+      "target": "diagnosis_uretritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение при мочеиспускании (уретрит)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii_mochevogo_puzyri",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации мочевого пузыря – цистит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpiruemyi_boleznennyi_mochevoi_puzyr",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пальпируемый болезненный и увеличенный в размерах мочевой пузырь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertermicheskaya_reaktsiya",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипертермическая реакция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoksikatsiya",
+      "target": "diagnosis_cystitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "интоксикация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nadlobkovaya_bol",
+      "target": "symptom_uretralnye_vydecheniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: ... боли в надлобковой области (цистит); ... выделения из уретры; ... зуд и жжение при мочеиспускании (уретрит); ... озноб; ... лихорадка; ... слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nadlobkovaya_bol",
+      "target": "symptom_zud_mocheispuskanii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: ... боли в надлобковой области (цистит); ... зуд и жжение при мочеиспускании (уретрит).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nadlobkovaya_bol",
+      "target": "symptom_zhgarenie_mocheispuskanii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: ... боли в надлобковой области (цистит); ... зуд и жжение при мочеиспускании (уретрит).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uretralnye_vydecheniya",
+      "target": "symptom_zud_mocheispuskanii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: ... выделения из уретры; ... зуд и жжение при мочеиспускании (уретрит).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uretralnye_vydecheniya",
+      "target": "symptom_zhgarenie_mocheispuskanii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: ... выделения из уретры; ... зуд и жжение при мочеиспускании (уретрит).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_mocheispuskanii",
+      "target": "symptom_zhgarenie_mocheispuskanii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "зуд и жжение при мочеиспускании (уретрит)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oznob",
+      "target": "symptom_lihorodka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: ... озноб; ... лихорадка;",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_cystitis",
+      "target": "diagnosis_uretritis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Протокол №24 ... ДИАГНОСТИКИ И ЛЕЧЕНИЯ ЦИСТИТ И УРЕТРИТ",
+      "properties": {}
+    }
+  ]
+}

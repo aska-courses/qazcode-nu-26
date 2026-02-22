@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_ascit",
+    "target": "diagnosis_c00_c97",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие у больного онкологического или соматического заболевания в инкурабельной стадии, сопровождающегося развитием асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_c00_c97",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_i10_i13",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_i25",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_k74",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_n18_n19",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "diagnosis_s72_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты, страдающие хроническими прогрессирующими заболеваниями в инкурабельной стадии, сопровождающимися пролежнями 2,3,4 степени и другими поражениями кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_discomfort",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "купирование боли и дискомфорта, связанных с развитием пролежней",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zapakh",
+    "target": "symptom_exsudat",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Отсутствие запаха и экссудата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eritema",
+    "target": "symptom_yazva",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Эритема кожи, предвестник развития язвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_yazva",
+    "target": "symptom_nekrоz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Утрата ткани... некрозом подкожно-жировой клетчатки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "symptom_eritema",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Степень I. Эритема кожи, предвестник развития язвы. Степень II. Поверхностная язва выглядит как ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "symptom_yazva",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Степень II. Поверхностная язва выглядит как ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "symptom_nekrоz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Степень III. Утрата ткани... некрозом подкожно-жировой клетчатки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "symptom_zapakh",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Отсутствие запаха и экссудата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "symptom_exsudat",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Отсутствие запаха и экссудата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prolzhni_2_4_stepeni",
+    "target": "symptom_infekciya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение риска инфицирования поврежденных участков кожи",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c00_c97",
+    "target": "diagnosis_i10_i13",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код заболеваний по МКБ 10 ... В20 - В24, С00-С97, Е10-Е11, G20, G81-G83, G92-G93, I10-I13, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i10_i13",
+    "target": "diagnosis_i25",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код заболеваний по МКБ 10 ... I10-I13, I25, I27, I50, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i25",
+    "target": "diagnosis_i27",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код заболеваний по МКБ 10 ... I25, I27, I50, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j44",
+    "target": "diagnosis_j90_j91",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код заболеваний по МКБ 10 ... J44, J90-J91, J96, ...",
+    "properties": {}
+  }
+]

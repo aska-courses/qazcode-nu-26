@@ -1,0 +1,329 @@
+{
+  "protocol_id": "p_47e92ff154",
+  "nodes": [
+    {
+      "id": "diagnosis_hirschsprung_disease",
+      "type": "diagnosis",
+      "label": "болезнь Гиршпрунга",
+      "icd_code": "Q43.1"
+    },
+    {
+      "id": "symptom_absence_self_stool",
+      "type": "symptom",
+      "label": "отсутствие самостоятельного стула"
+    },
+    {
+      "id": "symptom_chronic_constipation",
+      "type": "symptom",
+      "label": "хронический запор"
+    },
+    {
+      "id": "symptom_meteorism",
+      "type": "symptom",
+      "label": "метеоризм"
+    },
+    {
+      "id": "symptom_abdominal_circumference_increase",
+      "type": "symptom",
+      "label": "увеличение окружности живота"
+    },
+    {
+      "id": "symptom_frog_abdomen",
+      "type": "symptom",
+      "label": "лягушачий живот"
+    },
+    {
+      "id": "symptom_visible_peristalsis",
+      "type": "symptom",
+      "label": "видимая перистальтика кишечника"
+    },
+    {
+      "id": "symptom_hypotrophy",
+      "type": "symptom",
+      "label": "гипотрофия"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_paradoxical_diarrhea",
+      "type": "symptom",
+      "label": "парадоксальный понос"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "боли в животе"
+    },
+    {
+      "id": "symptom_fecal_stones",
+      "type": "symptom",
+      "label": "каловые камни"
+    },
+    {
+      "id": "symptom_chest_deformation",
+      "type": "symptom",
+      "label": "деформация грудной клетки"
+    },
+    {
+      "id": "symptom_enterocolitis",
+      "type": "symptom",
+      "label": "энтероколит"
+    },
+    {
+      "id": "symptom_intestinal_perforation",
+      "type": "symptom",
+      "label": "перфорация кишечника"
+    },
+    {
+      "id": "symptom_adhesive_disease",
+      "type": "symptom",
+      "label": "спаечная болезнь"
+    },
+    {
+      "id": "symptom_dysbacteriosis",
+      "type": "symptom",
+      "label": "дисбактериоз"
+    },
+    {
+      "id": "symptom_vitamin_b1_deficiency",
+      "type": "symptom",
+      "label": "гиповитаминоз В1"
+    },
+    {
+      "id": "symptom_megacolon",
+      "type": "symptom",
+      "label": "мегаколон"
+    },
+    {
+      "id": "symptom_secondary_megacolon",
+      "type": "symptom",
+      "label": "вторичный мегаколон"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_absence_self_stool",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Основной жалобой у детей с болезнью Гиршпрунга является отсутствие самостоятельного стула (хронический запор).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_constipation",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Основной жалобой у детей с болезнью Гиршпрунга является отсутствие самостоятельного стула (хронический запор).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meteorism",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Постоянным симптомом болезни Гиршпрунга является метеоризм.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_circumference_increase",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "это приводит к увеличению размеров живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_frog_abdomen",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "брюшная стенка ... становится дряблой («лягушачий живот»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visible_peristalsis",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "видимая на глаз перистальтика кишечника",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "У больных развивается ... анемия. (частота 70%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotrophy",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "У больных развивается гипотрофия. (частота 60%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_deformation",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Деформация грудной клетки (частота 50%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fecal_stones",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Каловые камни (частота 21%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Рвота (частота 17%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в животе (частота 14%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paradoxical_diarrhea",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда в результате дисбактериоза ... появляется парадоксальный понос.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysbacteriosis",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда в результате дисбактериоза ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_enterocolitis",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие осложнений (энтероколит, перфорация кишечника)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_perforation",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие осложнений (энтероколит, перфорация кишечника)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adhesive_disease",
+      "target": "diagnosis_hirschsprung_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие поздних послеоперационных осложнений (спаечная болезнь)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_constipation",
+      "target": "symptom_meteorism",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Запор, метеоризм – частые ранние симптомы (100% каждый).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_constipation",
+      "target": "symptom_abdominal_circumference_increase",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Запор, метеоризм, увеличение окружности живота – ранние симптомы (100%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meteorism",
+      "target": "symptom_abdominal_circumference_increase",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Запор, метеоризм, увеличение окружности живота – ранние симптомы (100%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_hypotrophy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Поздние симптомы: анемия 70%, гипотрофия 60%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_chest_deformation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Поздние симптомы: анемия 70%, деформация грудной клетки 50%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotrophy",
+      "target": "symptom_chest_deformation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Поздние симптомы: гипотрофия 60%, деформация грудной клетки 50%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_fecal_stones",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Поздние симптомы: анемия 70%, каловые камни 21%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы осложнений: рвота 17%, боли в животе 14%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_paradoxical_diarrhea",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "Симптомы осложнений: рвота 17%, парадоксальный понос 5%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_paradoxical_diarrhea",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "Симптомы осложнений: боли в животе 14%, парадоксальный понос 5%.",
+      "properties": {}
+    }
+  ]
+}

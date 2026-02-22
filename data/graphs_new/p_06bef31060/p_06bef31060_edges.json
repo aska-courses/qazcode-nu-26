@@ -1,0 +1,122 @@
+[
+  {
+    "source": "sym_adaptation_disorder",
+    "target": "diag_severe_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: нарушение срочной адаптации дыхания и кровообращения новорожденного к условиям внеутробной жизни.",
+    "properties": {}
+  },
+  {
+    "source": "sym_adaptation_disorder",
+    "target": "diag_moderate_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: нарушение срочной адаптации дыхания и кровообращения новорожденного к условиям внеутробной жизни.",
+    "properties": {}
+  },
+  {
+    "source": "sym_adaptation_disorder",
+    "target": "diag_unspecified_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: нарушение срочной адаптации дыхания и кровообращения новорожденного к условиям внеутробной жизни.",
+    "properties": {}
+  },
+  {
+    "source": "sym_absent_breathing",
+    "target": "sym_low_heart_rate",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание не адекватно или отсутствует, мышечный тонус нормальный или сниженный, ЧСС ниже 100 в 1 мин.",
+    "properties": {}
+  },
+  {
+    "source": "sym_absent_breathing",
+    "target": "sym_low_muscle_tone",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание не адекватно или отсутствует, мышечный тонус нормальный или сниженный, ЧСС ниже 100 в 1 мин.",
+    "properties": {}
+  },
+  {
+    "source": "sym_absent_breathing",
+    "target": "sym_pallor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание неадекватно или отсутствует, мышечный тонус низкий, ЧСС низкая или не определяется, часто пониженная перфузия становится причиной бледности.",
+    "properties": {}
+  },
+  {
+    "source": "sym_inadequate_breathing",
+    "target": "sym_low_heart_rate",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание не адекватно или отсутствует, мышечный тонус нормальный или сниженный, ЧСС ниже 100 в 1 мин.",
+    "properties": {}
+  },
+  {
+    "source": "sym_inadequate_breathing",
+    "target": "sym_low_muscle_tone",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание не адекватно или отсутствует, мышечный тонус нормальный или сниженный, ЧСС ниже 100 в 1 мин.",
+    "properties": {}
+  },
+  {
+    "source": "sym_inadequate_breathing",
+    "target": "sym_pallor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание неадекватно или отсутствует, мышечный тонус низкий, ЧСС низкая или не определяется, часто пониженная перфузия становится причиной бледности.",
+    "properties": {}
+  },
+  {
+    "source": "sym_low_heart_rate",
+    "target": "sym_low_muscle_tone",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание не адекватно или отсутствует, мышечный тонус нормальный или сниженный, ЧСС ниже 100 в 1 мин.",
+    "properties": {}
+  },
+  {
+    "source": "sym_low_heart_rate",
+    "target": "sym_pallor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание неадекватно или отсутствует, мышечный тонус низкий, ЧСС низкая или не определяется, часто пониженная перфузия становится причиной бледности.",
+    "properties": {}
+  },
+  {
+    "source": "sym_low_muscle_tone",
+    "target": "sym_pallor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дыхание неадекватно или отсутствует, мышечный тонус низкий, ЧСС низкая или не определяется, часто пониженная перфузия становится причиной бледности.",
+    "properties": {}
+  },
+  {
+    "source": "sym_hypovolemic_shock",
+    "target": "sym_white_spot_sign",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Если у ребенка отмечаются признаки гиповолемического шока (бледность, слабый пульс, положительный симптом «белого пятна»)...",
+    "properties": {}
+  },
+  {
+    "source": "sym_hypovolemic_shock",
+    "target": "sym_weak_pulse",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Если у ребенка отмечаются признаки гиповолемического шока (бледность, слабый пульс, положительный симптом «белого пятна»)...",
+    "properties": {}
+  },
+  {
+    "source": "sym_low_spo2",
+    "target": "sym_low_heart_rate",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В зависимости от показателей ЧСС и SpO2 следует принимать решение о дальнейших действиях при проведении реанимационных мероприятий.",
+    "properties": {}
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "source": "sym_fever",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела чаще до субфебрильных цифр",
+    "properties": {}
+  },
+  {
+    "source": "sym_subfebrile",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела чаще до субфебрильных цифр",
+    "properties": {}
+  },
+  {
+    "source": "sym_migratory_joint_pain",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "мигрирующие боли, симметричного характера в крупных суставах",
+    "properties": {}
+  },
+  {
+    "source": "sym_arthritis",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "артрит",
+    "properties": {}
+  },
+  {
+    "source": "sym_pericardial_pain",
+    "target": "diag_acute_rheumatic_pericarditis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "перикардиальные боли",
+    "properties": {}
+  },
+  {
+    "source": "sym_dyspnea",
+    "target": "diag_acute_rheumatic_pericarditis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "оdyшка при обычной физической нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "sym_tachycardia",
+    "target": "diag_acute_rheumatic_pericarditis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "учащенное сердцебиение",
+    "properties": {}
+  },
+  {
+    "source": "sym_chorea",
+    "target": "diag_rheumatic_chorea",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки хореи (гиперкинезы",
+    "properties": {}
+  },
+  {
+    "source": "sym_erythema_marginatum",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кольцевидная эритема",
+    "properties": {}
+  },
+  {
+    "source": "sym_subcutaneous_nodules",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Подкожные ревматические узелки — характерный, но крайне редкий (1—3% всех случаев ОРЛ) признак",
+    "properties": {}
+  },
+  {
+    "source": "sym_ecg_rr_interval",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Удлинение интервала Р—R на ЭКГ",
+    "properties": {}
+  },
+  {
+    "source": "sym_mitral_regurgitation_sign",
+    "target": "diag_mitral_valve_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки митральной регургитации при эхокардиографии",
+    "properties": {}
+  },
+  {
+    "source": "sym_aortic_regurgitation_sign",
+    "target": "diag_aortic_valve_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки аортальной регургитации при эхокардиографии",
+    "properties": {}
+  },
+  {
+    "source": "sym_increased_esr",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "sym_increased_crp",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенный С-реактивный белок (СРБ)",
+    "properties": {}
+  },
+  {
+    "source": "sym_positive_gas_culture",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Положительная культура БГСА из зева",
+    "properties": {}
+  },
+  {
+    "source": "sym_elevated_aso",
+    "target": "diag_acute_rheumatic_fever",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенные титры антистрептолизина О (АСЛ‑О)",
+    "properties": {}
+  },
+  {
+    "source": "diag_acute_rheumatic_fever",
+    "target": "diag_acute_rheumatic_pericarditis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Кардит; крупные критерии включают кардит, полиартрит, хорея, кольцевидную эритему, подкожные узелки",
+    "properties": {}
+  },
+  {
+    "source": "diag_acute_rheumatic_fever",
+    "target": "diag_acute_rheumatic_endocarditis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Кардит; крупные критерии включают кардит, полиартрит, хорея, кольцевидную эритему, подкожные узелки",
+    "properties": {}
+  },
+  {
+    "source": "diag_acute_rheumatic_fever",
+    "target": "diag_acute_rheumatic_myocarditis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Кардит; крупные критерии включают кардит, полиартрит, хорея, кольцевидную эритему, подкожные узелки",
+    "properties": {}
+  },
+  {
+    "source": "diag_acute_rheumatic_fever",
+    "target": "diag_acute_rheumatic_other_acute_rheumatic_heart_diseases",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Кардит; крупные критерии включают кардит, полиартрит, хорея, кольцевидную эритему, подкожные узелки",
+    "properties": {}
+  },
+  {
+    "source": "diag_acute_rheumatic_fever",
+    "target": "diag_acute_rheumatic_heart_disease_unspecified",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Кардит; крупные критерии включают кардит, полиартрит, хорея, кольцевидную эритему, подкожные узелки",
+    "properties": {}
+  },
+  {
+    "source": "diag_mitral_valve_disease",
+    "target": "diag_aortic_valve_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Поражения нескольких клапанов сердца – сочетанное поражение митрального и аортального клапанов",
+    "properties": {}
+  },
+  {
+    "source": "diag_mitral_valve_disease",
+    "target": "diag_tricuspid_valve_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Поражения нескольких клапанов сердца – сочетанное поражение митрального и трехстворчатого клапанов",
+    "properties": {}
+  },
+  {
+    "source": "diag_aortic_valve_disease",
+    "target": "diag_tricuspid_valve_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Поражения нескольких клапанов сердца – сочетанное поражение митрального и трехстворчатого клапанов",
+    "properties": {}
+  },
+  {
+    "source": "diag_mitral_valve_disease",
+    "target": "diag_multiple_valve_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Поражения нескольких клапанов сердца – Поражения нескольких клапанов сердца",
+    "properties": {}
+  },
+  {
+    "source": "diag_aortic_valve_disease",
+    "target": "diag_multiple_valve_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Поражения нескольких клапанов сердца – Поражения нескольких клапанов сердца",
+    "properties": {}
+  },
+  {
+    "source": "diag_tricuspid_valve_disease",
+    "target": "diag_multiple_valve_disease",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Поражения нескольких клапанов сердца – Поражения нескольких клапанов сердца",
+    "properties": {}
+  }
+]

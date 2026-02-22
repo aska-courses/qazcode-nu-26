@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_acute_lower_abdominal_pain",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на острую боль внизу живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visualized_internal_fundus_in_vagina",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "внутренняя поверхность матки визуализируется во влагалище",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_uterine_fundus_on_palpation",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие дна матки при пальпации передней брюшной стенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vaginal_bleeding",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровотечение из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strong_constant_hypogastric_pain",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Сильная постоянная боль в гипогастральной области в третьем периоде родов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vaginal_bleeding",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровотечение из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_massive_bleeding",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "массивного кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_shock",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Симптомы геморрагического шока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_traumatic_shock",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Симптомы травматического шока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценки тяжести анемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coagulopathy",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диагностики коагулопатии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvs_syndrome",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диагностики ДВС‑синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптомы гиповолемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_massive_bleeding",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "массивного кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_shock",
+    "target": "diagnosis_postpartum_uterine_inversion",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "массивного кровотечения и усугубить геморрагический шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_lower_abdominal_pain",
+    "target": "symptom_vaginal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы на острую боль внизу живота ... кровотечение из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visualized_internal_fundus_in_vagina",
+    "target": "symptom_absent_uterine_fundus_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "внутренняя поверхность матки визуализируется во влагалище, отсутствие дна матки при пальпации передней брюшной стенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strong_constant_hypogastric_pain",
+    "target": "symptom_vaginal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Сильная постоянная боль в гипогастральной области ... Кровотечение из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_coagulopathy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оценки тяжести анемии и диагностики коагулопатии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_massive_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на фоне массивной кровопотери",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coagulopathy",
+    "target": "symptom_dvs_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "диагностики коагулопатии и ДВС‑синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_massive_bleeding",
+    "target": "symptom_hemorrhagic_shock",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "массивного кровотечения ... геморрагический шок",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_postpartum_uterine_inversion",
+    "target": "diagnosis_postpartum_hemorrhage",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Протокол охватывает как послеродовый выворот матки, так и послеродовое кровотечение",
+    "properties": {}
+  }
+]

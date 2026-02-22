@@ -1,0 +1,508 @@
+{
+  "protocol_id": "p_2291afabda",
+  "nodes": [
+    {
+      "id": "cyst_choledochal_protoka",
+      "type": "diagnosis",
+      "label": "Киста желчного протока",
+      "icd_code": "Q44.4"
+    },
+    {
+      "id": "pain_epigastric",
+      "type": "symptom",
+      "label": "Боль в эпигастральной области"
+    },
+    {
+      "id": "sensation_rupture",
+      "type": "symptom",
+      "label": "Чувство распирания"
+    },
+    {
+      "id": "nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "jaundice_paroxysmal",
+      "type": "symptom",
+      "label": "Перемежающаяся желтуха"
+    },
+    {
+      "id": "dark_urine",
+      "type": "symptom",
+      "label": "Темный цвет мочи"
+    },
+    {
+      "id": "pale_stool",
+      "type": "symptom",
+      "label": "Обесцвеченный (бледный) стул"
+    },
+    {
+      "id": "palpable_mass_right_liver",
+      "type": "symptom",
+      "label": "Плотное безболезненное опухолевидное образование в правой области печени"
+    },
+    {
+      "id": "hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "ascites",
+      "type": "symptom",
+      "label": "Асцит"
+    },
+    {
+      "id": "leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "neutrophilia",
+      "type": "symptom",
+      "label": "Нейтрофилез"
+    },
+    {
+      "id": "elevated_esr",
+      "type": "symptom",
+      "label": "Повышенная скорость оседания эритроцитов (СОЭ)"
+    },
+    {
+      "id": "elevated_direct_bilirubin",
+      "type": "symptom",
+      "label": "Повышенный прямой билирубин"
+    },
+    {
+      "id": "elevated_transaminases",
+      "type": "symptom",
+      "label": "Повышенные трансаминазы"
+    },
+    {
+      "id": "elevated_timol_test",
+      "type": "symptom",
+      "label": "Повышенная тимоловая проба"
+    },
+    {
+      "id": "elevated_alkaline_phosphatase",
+      "type": "symptom",
+      "label": "Повышенная щелочная фосфатаза"
+    },
+    {
+      "id": "hypoproteinemia",
+      "type": "symptom",
+      "label": "Гипопротеинемия"
+    },
+    {
+      "id": "decreased_pti",
+      "type": "symptom",
+      "label": "Снижение протромбиновго индекса (ПТИ)"
+    },
+    {
+      "id": "decreased_aPTT",
+      "type": "symptom",
+      "label": "Снижение активированного частичного тромбопластинового времени (АЧТВ)"
+    },
+    {
+      "id": "decreased_fibrinogen",
+      "type": "symptom",
+      "label": "Снижение фибриногена"
+    },
+    {
+      "id": "recurrent_right_subcostal_pain",
+      "type": "symptom",
+      "label": "Рецидивирующие боли в правом подреберье"
+    },
+    {
+      "id": "jaundice_skin",
+      "type": "symptom",
+      "label": "Желтушность кожных покровов"
+    },
+    {
+      "id": "fever",
+      "type": "symptom",
+      "label": "Температурная реакция (лихорадка)"
+    },
+    {
+      "id": "cholangitis_symptoms",
+      "type": "symptom",
+      "label": "Симптомы холангита"
+    },
+    {
+      "id": "anemic_syndrome",
+      "type": "symptom",
+      "label": "Анемический синдром"
+    },
+    {
+      "id": "severe_pain_syndrome",
+      "type": "symptom",
+      "label": "Выраженный болевой синдром"
+    },
+    {
+      "id": "portal_hypertension",
+      "type": "symptom",
+      "label": "Портальная гипертензия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pain_epigastric",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рецидивирующие боли в эпигастральной области, в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "sensation_rupture",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возникает чувство распирания",
+      "properties": {}
+    },
+    {
+      "source": "nausea",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "jaundice_paroxysmal",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "перемежающаяся желтуха",
+      "properties": {}
+    },
+    {
+      "source": "dark_urine",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "более темный цвет мочи",
+      "properties": {}
+    },
+    {
+      "source": "pale_stool",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшение окраски стула",
+      "properties": {}
+    },
+    {
+      "source": "palpable_mass_right_liver",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "плотное безболезненное опухолевидное образование в правой области печени",
+      "properties": {}
+    },
+    {
+      "source": "hepatomegaly",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "ascites",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асцит",
+      "properties": {}
+    },
+    {
+      "source": "leukocytosis",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "neutrophilia",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "elevated_esr",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "elevated_direct_bilirubin",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный прямой билирубин",
+      "properties": {}
+    },
+    {
+      "source": "elevated_transaminases",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенные трансаминазы",
+      "properties": {}
+    },
+    {
+      "source": "elevated_timol_test",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная тимоловая проба",
+      "properties": {}
+    },
+    {
+      "source": "elevated_alkaline_phosphatase",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная щелочная фосфатаза",
+      "properties": {}
+    },
+    {
+      "source": "hypoproteinemia",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипопротеинемия",
+      "properties": {}
+    },
+    {
+      "source": "decreased_pti",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение ПТИ",
+      "properties": {}
+    },
+    {
+      "source": "decreased_aPTT",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение АЧТВ",
+      "properties": {}
+    },
+    {
+      "source": "decreased_fibrinogen",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение фибриногена",
+      "properties": {}
+    },
+    {
+      "source": "recurrent_right_subcostal_pain",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рецидивирующие боли в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "jaundice_skin",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "желтушность кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "fever",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "температурная реакция (лихорадка)",
+      "properties": {}
+    },
+    {
+      "source": "cholangitis_symptoms",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы холангита",
+      "properties": {}
+    },
+    {
+      "source": "anemic_syndrome",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемический синдром",
+      "properties": {}
+    },
+    {
+      "source": "severe_pain_syndrome",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженный болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "portal_hypertension",
+      "target": "cyst_choledochal_protoka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "портальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "pain_epigastric",
+      "target": "sensation_rupture",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли носят приступообразный характер, возникает чувство распирания",
+      "properties": {}
+    },
+    {
+      "source": "pain_epigastric",
+      "target": "nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли носят приступообразный характер, возникает чувство распирания, тошнота",
+      "properties": {}
+    },
+    {
+      "source": "pain_epigastric",
+      "target": "jaundice_paroxysmal",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рецидивирующие боли в эпигастральной области, в правом подреберье; перемежающаяся желтуха",
+      "properties": {}
+    },
+    {
+      "source": "pain_epigastric",
+      "target": "palpable_mass_right_liver",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рецидивирующие боли в эпигастральной области, в правом подреберье; ... наличие опухолевидного образования справа у края печени",
+      "properties": {}
+    },
+    {
+      "source": "jaundice_paroxysmal",
+      "target": "dark_urine",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "более темный цвет мочи",
+      "properties": {}
+    },
+    {
+      "source": "jaundice_paroxysmal",
+      "target": "pale_stool",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "уменьшение окраски стула",
+      "properties": {}
+    },
+    {
+      "source": "leukocytosis",
+      "target": "neutrophilia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз, нейтрофилез",
+      "properties": {}
+    },
+    {
+      "source": "leukocytosis",
+      "target": "elevated_esr",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз, нейтрофилез, повышенное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "elevated_direct_bilirubin",
+      "target": "elevated_transaminases",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение билирубина за счет прямой фракции, повышение трансаминаз",
+      "properties": {}
+    },
+    {
+      "source": "elevated_transaminases",
+      "target": "elevated_alkaline_phosphatase",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение трансаминаз, повышение щелочной фосфатазы",
+      "properties": {}
+    },
+    {
+      "source": "elevated_transaminases",
+      "target": "elevated_timol_test",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение трансаминаз, повышение тимоловой пробы",
+      "properties": {}
+    },
+    {
+      "source": "hypoproteinemia",
+      "target": "decreased_pti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипопротеинемия; ... снижение ПТИ",
+      "properties": {}
+    },
+    {
+      "source": "hypoproteinemia",
+      "target": "decreased_aPTT",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипопротеинемия; ... снижение АЧТВ",
+      "properties": {}
+    },
+    {
+      "source": "hypoproteinemia",
+      "target": "decreased_fibrinogen",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипопротеинемия; ... снижение фибриногена",
+      "properties": {}
+    },
+    {
+      "source": "cholangitis_symptoms",
+      "target": "fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "температурной реакцией (явления холангита)",
+      "properties": {}
+    },
+    {
+      "source": "severe_pain_syndrome",
+      "target": "recurrent_right_subcostal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выраженный болевой синдром; рецидивирующие боли в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "portal_hypertension",
+      "target": "ascites",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "портальная гипертензия ... асцит",
+      "properties": {}
+    },
+    {
+      "source": "portal_hypertension",
+      "target": "hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "портальная гипертензия ... гепатомегалия",
+      "properties": {}
+    }
+  ]
+}

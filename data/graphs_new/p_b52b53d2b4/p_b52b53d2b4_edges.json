@@ -1,0 +1,242 @@
+[
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чувство усталости ... в диагностических критериях постановки диагноза: чувство усталости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одышка ... в диагностических критериях постановки диагноза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отёки ... в диагностических критериях постановки диагноза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Увеличение печени ... в диагностических критериях постановки диагноза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gallop_rhythm",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие ритма галопа ... в физикальном обследовании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_supraventricular_arrhythmia",
+    "target": "diagnosis_i48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наджелудочковые аритмии ... как клиническое проявление острого отторжения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_supraventricular_arrhythmia",
+    "target": "diagnosis_i49",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наджелудочковые аритмии ... относятся к нарушениям сердечного ритма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "diagnosis_i48",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Аритмии ... включают фибрилляцию и трепетание предсердий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "diagnosis_i49",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Аритмии ... включают другие нарушения сердечного ритма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterial_hypertension",
+    "target": "diagnosis_i10",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Артериальная гипертензия ... указана в физикальном обследовании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterial_hypertension",
+    "target": "diagnosis_i13",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Артериальная гипертензия ... может быть частью гипертензивной болезни с поражением сердца и почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_i10",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Гипотензия ... противопоставлена артериальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_i13",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Гипотензия ... в контексте гипертензивной болезни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_complication",
+    "target": "diagnosis_i99",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инфекционные осложнения ... перечислены среди признаков при физикальном обследовании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_renal_dysfunction",
+    "target": "diagnosis_i13",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение функции почек ... указано в физикальном обследовании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_dysfunction",
+    "target": "diagnosis_i51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение функции печени ... указано в физикальном обследовании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "клинические проявления острого отторжения включают чувство усталости, лихорадку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "клинические проявления острого отторжения включают чувство усталости, гипотензию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "клинические проявления острого отторжения включают лихорадку, гипотензию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "symptom_central_venous_pressure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотензию, повышенное центральное венозное давление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_central_venous_pressure",
+    "target": "symptom_pericardial_friction_rub",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышенное центральное венозное давление, шум трения перикарда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pericardial_friction_rub",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "шум трения перикарда, лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_supraventricular_arrhythmia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "лейкоцитоз, наджелудочковые аритмии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_supraventricular_arrhythmia",
+    "target": "symptom_gallop_rhythm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наджелудочковые аритмии, наличие ритма галопа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство усталости; повышение температуры; одышка; отеки; увеличение печени; аритмии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_hepatomegaly",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёки; увеличение печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "symptom_gallop_rhythm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "аритмии, наличие ритма галопа",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i48",
+    "target": "diagnosis_i49",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I48 - Фибрилляция и трепетание предсердий I49 - Другие нарушения сердечного ритма",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i10",
+    "target": "diagnosis_i13",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I10 – Эссенциальная [первичная] гипертензия I13 –Гипертензивная [гипертоническая] болезнь ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i24",
+    "target": "diagnosis_i25",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I24 – Другие формы острой ишемической болезни сердца I25 – Хроническая ишемическая болезнь сердца",
+    "properties": {}
+  }
+]

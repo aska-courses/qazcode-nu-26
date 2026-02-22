@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_severe_hypoxemia",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая гипоксемия РаO2 / FiO2 < 120 мм рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_mean_pulmonary_artery_pressure",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Среднее давление легочной артерии > 30 мм рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_transpulmonary_pressure",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "транспульмональное давление >15 мм рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_lung_vascular_resistance",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЛСС > 400 дин сек/см5.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_right_ventricular_failure_systemic_hypotension",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Правожелудочковая сердечная недостаточность с системной гипотензией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_hypoxemia",
+    "target": "symptom_elevated_mean_pulmonary_artery_pressure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тяжелая гипоксемия ... Среднее давление легочной артерии > 30 мм рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_hypoxemia",
+    "target": "symptom_elevated_transpulmonary_pressure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тяжелая гипоксемия ... транспульмональное давление >15 мм рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_hypoxemia",
+    "target": "symptom_elevated_lung_vascular_resistance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тяжелая гипоксемия ... ЛСС > 400 дин сек/см5.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_hypoxemia",
+    "target": "symptom_right_ventricular_failure_systemic_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тяжелая гипоксемия ... Правожелудочковая сердечная недостаточность с системной гипотензией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_mean_pulmonary_artery_pressure",
+    "target": "symptom_elevated_transpulmonary_pressure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Среднее давление легочной артерии > 30 мм рт. ст. или транспульмональное давление >15 мм рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_mean_pulmonary_artery_pressure",
+    "target": "symptom_elevated_lung_vascular_resistance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Среднее давление легочной артерии > 30 мм рт. ст. ... ЛСС > 400 дин сек/см5.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_mean_pulmonary_artery_pressure",
+    "target": "symptom_right_ventricular_failure_systemic_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Среднее давление легочной артерии > 30 мм рт. ст. ... Правожелудочковая сердечная недостаточность с системной гипотензией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_transpulmonary_pressure",
+    "target": "symptom_elevated_lung_vascular_resistance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "транспульмональное давление >15 мм рт. ст. ... ЛСС > 400 дин сек/см5.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_transpulmonary_pressure",
+    "target": "symptom_right_ventricular_failure_systemic_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "транспульмональное давление >15 мм рт. ст. ... Правожелудочковая сердечная недостаточность с системной гипотензией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_lung_vascular_resistance",
+    "target": "symptom_right_ventricular_failure_systemic_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ЛСС > 400 дин сек/см5. ... Правожелудочковая сердечная недостаточность с системной гипотензией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q21_0",
+    "target": "diagnosis_q21_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Врожденные пороки сердца с легочной гипертензией Q21.0 – Дефект межжелудочковой перегородки Q21.1 – Дефект межпредсердной перегородки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q25_0",
+    "target": "diagnosis_q25_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Врожденные пороки сердца с легочной гипертензией Q25.0 – Открытый артериальный проток Q25.1 – Коарктация аорты",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i05_1",
+    "target": "diagnosis_i05_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Приобретенные пороки сердца с легочной гипертензией I05.1 – Митральная недостаточность I05.0 – Митральный стеноз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i06_0",
+    "target": "diagnosis_i06_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Приобретенные пороки сердца с легочной гипертензией I06.0 – Аортальный стеноз I06.1 – Аортальная недостаточность",
+    "properties": {}
+  }
+]

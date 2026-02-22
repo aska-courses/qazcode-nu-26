@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_obilnye_menstruacii",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обильные менструации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_menstruacii",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые менструации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nerregularnye_menstruacii",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нерегулярные менструации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnye_krovotecheniya",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обильные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_iz_polovyh_putey",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечение из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabyost",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "вызывающее слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poslerodovye_krovotecheniya",
+    "target": "diag_n93",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "послеродовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoizlivaniya_posle_udalenija_zubov",
+    "target": "diag_n93",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровоизлияния после удаления зубов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koagulopaticheskoe_krovotechenie",
+    "target": "diag_n93",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "коагулопатическое кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_kozhnich_pokrovov",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "бледность кожных покровов и слизистых оболочек (признак анемии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_syni",
+    "target": "diag_n93",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "синяки (признаки коагулопатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petehii",
+    "target": "diag_n93",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехии (признаки коагулопатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strii",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "стрии (признаки гормональных нарушений)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_girsutizm",
+    "target": "diag_n92",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гирсутизм (признаки гормональных нарушений)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_syni",
+    "target": "symptom_petehii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "синяки, петехии (признаки коагулопатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strii",
+    "target": "symptom_girsutizm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "стрии, гирсутизм (признаки гормональных нарушений)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_kozhnich_pokrovov",
+    "target": "symptom_anemiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "бледность кожных покровов ... (признак анемии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnye_menstruacii",
+    "target": "symptom_chastye_menstruacii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обильные менструации, частые менструации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnye_menstruacii",
+    "target": "symptom_nerregularnye_menstruacii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обильные менструации, нерегулярные менструации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnye_krovotecheniya",
+    "target": "symptom_obilnye_menstruacii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обильные кровотечения, обильные менструации",
+    "properties": {}
+  },
+  {
+    "source": "diag_n92",
+    "target": "diag_n93",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: N92 ... N93 ... Другие аномальные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "diag_n92",
+    "target": "diag_n92_0",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "N92 – Обильные, частые и нерегулярные менструации; N92.0 – Обильные, частые менструации при регулярном цикле",
+    "properties": {}
+  }
+]

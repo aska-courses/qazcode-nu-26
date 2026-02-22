@@ -1,0 +1,487 @@
+{
+  "protocol_id": "p_57b9183d09",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_oblasti_chelyusti",
+      "type": "symptom",
+      "label": "Боль в области челюсти"
+    },
+    {
+      "id": "symptom_bolevoi_sindrom",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_nalichie_svischa",
+      "type": "symptom",
+      "label": "Наличие свища"
+    },
+    {
+      "id": "symptom_gnoi_iz_svischa",
+      "type": "symptom",
+      "label": "Гнойный выделения из свища"
+    },
+    {
+      "id": "symptom_granulatsii",
+      "type": "symptom",
+      "label": "Грануляции"
+    },
+    {
+      "id": "symptom_podviznost_zubov",
+      "type": "symptom",
+      "label": "Подвижность зубов"
+    },
+    {
+      "id": "symptom_narushenie_priema_pischi",
+      "type": "symptom",
+      "label": "Нарушение приема пищи"
+    },
+    {
+      "id": "symptom_otek_myagkikh_tkanei",
+      "type": "symptom",
+      "label": "Отёк мягких тканей"
+    },
+    {
+      "id": "symptom_uvelichenie_regionarnyh_limb_uzlov",
+      "type": "symptom",
+      "label": "Увеличение регионарных лимфатических узлов"
+    },
+    {
+      "id": "symptom_povyshenie_soe",
+      "type": "symptom",
+      "label": "Повышение скорости оседания эритроцитов (СОЭ)"
+    },
+    {
+      "id": "symptom_leukotsit",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_snizhenie_gemoglobina",
+      "type": "symptom",
+      "label": "Снижение гемоглобина"
+    },
+    {
+      "id": "symptom_snizhenie_eritrotsitov",
+      "type": "symptom",
+      "label": "Снижение количества эритроцитов"
+    },
+    {
+      "id": "symptom_utolshenie_periostalnoi_kosti",
+      "type": "symptom",
+      "label": "Утолщение периостальной кости"
+    },
+    {
+      "id": "symptom_istochnienie_kozhi_nad_kostyu",
+      "type": "symptom",
+      "label": "Истончение кожи над костью"
+    },
+    {
+      "id": "symptom_ogranichenie_otkrytiya_rta",
+      "type": "symptom",
+      "label": "Ограничение открывания рта"
+    },
+    {
+      "id": "symptom_nalichie_sekvestrov",
+      "type": "symptom",
+      "label": "Наличие секвестров"
+    },
+    {
+      "id": "symptom_nekr0z_kosti",
+      "type": "symptom",
+      "label": "Некроз костной ткани"
+    },
+    {
+      "id": "symptom_ottorzhenie_sekvestrov",
+      "type": "symptom",
+      "label": "Отторжение секвестров"
+    },
+    {
+      "id": "symptom_novye_ochagi_destrukcii",
+      "type": "symptom",
+      "label": "Появление новых очагов деструкции"
+    },
+    {
+      "id": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "diagnosis",
+      "label": "Другой хронический остеомиелит",
+      "icd_code": "M86.6"
+    },
+    {
+      "id": "diagnosis_osteomielit_neutochnennyi",
+      "type": "diagnosis",
+      "label": "Остеомиелит неуточненный",
+      "icd_code": "M86.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_chelyusti",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы и анамнез у пациентов с хроническим остеомиелитом челюстей: боли в области пораженной челюсти...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_chelyusti",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы и анамнез у пациентов с хроническим остеомиелитом челюстей: боли в области пораженной челюсти...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoi_sindrom",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы и анамнез у пациентов с хроническим остеомиелитом челюстей: ... болевой синдром ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoi_sindrom",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы и анамнез у пациентов с хроническим остеомиелитом челюстей: ... болевой синдром ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_svischa",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Наличие свища ... гноем, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_svischa",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Наличие свища ... гноем, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoi_iz_svischa",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Наличие свища ... гноем, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoi_iz_svischa",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Наличие свища ... гноем, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_granulatsii",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пышные кровоточащие грануляции ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_granulatsii",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пышные кровоточащие грануляции ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podviznost_zubov",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "подвижность зубов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podviznost_zubov",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "подвижность зубов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_priema_pischi",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нарушение приема пищи ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_priema_pischi",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нарушение приема пищи ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_myagkikh_tkanei",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Отёк мягких тканей ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_myagkikh_tkanei",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Отёк мягких тканей ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_regionarnyh_limb_uzlov",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Регионарные лимфатические узлы увеличены ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_regionarnyh_limb_uzlov",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Регионарные лимфатические узлы увеличены ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_soe",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение СОЭ ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_soe",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение СОЭ ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsit",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "лейкоцитоз ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsit",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "лейкоцитоз ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_gemoglobina",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение гемоглобина ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_gemoglobina",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение гемоглобина ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_eritrotsitov",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение количества эритроцитов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_eritrotsitov",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение количества эритроцитов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_periostalnoi_kosti",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "утолщение периостальной кости ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_periostalnoi_kosti",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "утолщение периостальной кости ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_istochnienie_kozhi_nad_kostyu",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Истончение кожи над костью ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_istochnienie_kozhi_nad_kostyu",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Истончение кожи над костью ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_otkrytiya_rta",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ограничение открывания рта ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_otkrytiya_rta",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ограничение открывания рта ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_sekvestrov",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "наличие секвестров ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_sekvestrov",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "наличие секвестров ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nekr0z_kosti",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "некроз костной ткани ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nekr0z_kosti",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "некроз костной ткани ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ottorzhenie_sekvestrov",
+      "target": "diagnosis_drugoi_hronicheskiy_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отторжение секвестров ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ottorzhenie_sekvestrov",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отторжение секвестров ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_novye_ochagi_destrukcii",
+      "target": "diagnosis_drugoi_hronicheskiй_osteomielit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "появление новых очагов деструкции ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_novye_ochagi_destrukcii",
+      "target": "diagnosis_osteomielit_neutochnennyi",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "появление новых очагов деструкции ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_chelyusti",
+      "target": "symptom_bolevoi_sindrom",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в области пораженной челюсти; болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_svischa",
+      "target": "symptom_gnoi_iz_svischa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Наличие свища ... гноем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podviznost_zubov",
+      "target": "symptom_narushenie_priema_pischi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "подвижность зубов ... нарушение приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_periostalnoi_kosti",
+      "target": "symptom_istochnienie_kozhi_nad_kostyu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "утолщение периостальной кости. Кожа над утолщенной костью несколько истончена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_sekvestrov",
+      "target": "symptom_nekr0z_kosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие секвестров ... некроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_novye_ochagi_destrukcii",
+      "target": "symptom_nalichie_sekvestrov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "появление новых очагов деструкции ... секвестры располагаются рядом",
+      "properties": {}
+    }
+  ]
+}

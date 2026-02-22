@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_progressive_limb_deformities",
+    "target": "diagnosis_valgus_deformation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "прогрессирующие деформации конечностей ... выявление вальгусных или варусных деформаций нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressive_limb_deformities",
+    "target": "diagnosis_varus_deformation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "прогрессирующие деформации конечностей ... выявление вальгусных или варусных деформаций нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_valgus_deformation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "прогрессирующие деформации конечностей, вызывающую косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_varus_deformation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "прогрессирующие деформации конечностей, вызывающую косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychological_status_impairment",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "угнетающую психологический статус пациента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rapid_fatigue",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "быструю утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_pain",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gait_disturbance",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение походки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отставание в росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_respiratory_infections",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "частые респираторные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_deformity",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация грудной клетки (рахитические четки)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_forearm_thickening",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утолщение дистальных отделов предплечий (браслеты)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteoporosis",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "остеопороз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metaphysis_epiphysis_widening",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расширение метафизов и эпифизов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_claw_like_bone_protrusion",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "клювовидный костный выступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edge_fragmentation",
+    "target": "diagnosis_consequences_of_rickets",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "краевая фрагментация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_valgus_varus_deformities",
+    "target": "symptom_progressive_limb_deformities",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "выявление вальгусных или варусных деформаций нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_valgus_deformation",
+    "target": "diagnosis_varus_deformation",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "выявление вальгусных или варусных деформаций нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_phosphate_metabolism_disorder",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита E83.3 Нарушения обмена фосфора",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_renal_tubular_dysfunction",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита N25.8 Другие нарушения, обусловленные дисфункцией почечных канальцев",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_valgus_deformation",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита M21.0 Вальгусная деформация",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_varus_deformation",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита M21.1 Варусная деформация",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_other_acquired_limb_deformations",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита M21.8 Другие уточненные приобретенные деформации конечностей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_unspecified_acquired_limb_deformation",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита M21.9 Приобретенная деформация конечностей неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_consequences_of_rickets",
+    "target": "diagnosis_congenital_musculoskeletal_deformations",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ 10: E64.3 Последствия рахита Q68 Другие врожденные костно-мышечные деформации",
+    "properties": {}
+  }
+]

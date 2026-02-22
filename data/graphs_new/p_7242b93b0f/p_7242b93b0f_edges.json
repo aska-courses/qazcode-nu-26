@@ -1,0 +1,330 @@
+[
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующую абдоминальную боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_discomfort",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дискомфорт в животе (чувство сдавления, распирания, вздутия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeling_of_compression",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чувство сдавления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeling_of_distension",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чувство распирания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bloating",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "вздутие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_change_in_stool_frequency",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частота дефекации менее 3 раз в неделю или более 3 раз в день",
+    "properties": {}
+  },
+  {
+    "source": "symptom_change_in_stool_form",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "шероховатый и твёрдый, либо мягкий и водянистый стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constipation",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "запоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucus_in_stool",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Выделение слизи во время дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urgency_to_defecate",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "императивные позывы к дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_incomplete_evacuations",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ощущение неполного опорожнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_back_pain",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysuria",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дизурию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrual_cycle_disorder",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение менструального цикла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_insomnia",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бессонница",
+    "properties": {}
+  },
+  {
+    "source": "symptom_somnolence",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сонливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stress",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Все перечисленные жалобы могут усиливаться при стрессовых ситуациях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_family_history_gastrointestinal",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наследственность (частые заболевания ЖКТ у родственников)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_early_life_infection",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кишечные инфекции в раннем возрасте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_morning_diarrhea",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "утренней диареи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gas_excess",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обильное выделение газов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss_absent",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Болевой синдром при СРК не сопровождается потерей массы тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_absent",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "не сопровождается лихорадкой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia_absent",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "не сопровождается анемией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr_absent",
+    "target": "diagnosis_syndrome_ibs",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "не сопровождается увеличением СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_abdominal_discomfort",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рецидивирующую абдоминальную боль или дискомфорт в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_discomfort",
+    "target": "symptom_feeling_of_compression",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дискомфорт в животе (чувство сдавления, распирания, вздутия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeling_of_compression",
+    "target": "symptom_feeling_of_distension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство сдавления, распирания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_bloating",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "абдоминальная боль ... вздутие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_morning_diarrhea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "утренней диареи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_mucus_in_stool",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "примесь слизи в кале",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_urgency_to_defecate",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "императивные позывы к дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stress",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Все перечисленные жалобы могут усиливаться при стрессовых ситуациях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stress",
+    "target": "symptom_back_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Все перечисленные жалобы могут усиливаться при стрессовых ситуациях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stress",
+    "target": "symptom_insomnia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Все перечисленные жалобы могут усиливаться при стрессовых ситуациях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gas_excess",
+    "target": "symptom_bloating",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вздутие ... обильное выделение газов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_syndrome_ibs",
+    "target": "diagnosis_syndrome_ibs_diarrhea",
+    "type": "appear-with",
+    "weight": 1.0,
+    "evidence": "Код (ы) по МКБ-10: K58 K58.0 K58.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_syndrome_ibs",
+    "target": "diagnosis_syndrome_ibs_constipation",
+    "type": "appear-with",
+    "weight": 1.0,
+    "evidence": "Код (ы) по МКБ-10: K58 K58.0 K58.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_syndrome_ibs_diarrhea",
+    "target": "diagnosis_syndrome_ibs_constipation",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Клиническая классификация: СРК с преобладанием запора; СРК с преобладанием диареи",
+    "properties": {}
+  }
+]

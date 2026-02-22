@@ -1,0 +1,889 @@
+{
+  "protocol_id": "p_6484893a71",
+  "nodes": [
+    {
+      "id": "diag_g45",
+      "type": "diagnosis",
+      "label": "Цереброваскулярные болезни",
+      "icd_code": "G45"
+    },
+    {
+      "id": "diag_g45_0",
+      "type": "diagnosis",
+      "label": "Синдром вертебробазилярной артериальной системы",
+      "icd_code": "G45.0"
+    },
+    {
+      "id": "diag_g45_1",
+      "type": "diagnosis",
+      "label": "Синдром сонной артерии (полушарный)",
+      "icd_code": "G45.1"
+    },
+    {
+      "id": "diag_g45_2",
+      "type": "diagnosis",
+      "label": "Множественные и двусторонние синдромы церебральных артерий",
+      "icd_code": "G45.2"
+    },
+    {
+      "id": "diag_g45_3",
+      "type": "diagnosis",
+      "label": "Преходящая слепота",
+      "icd_code": "G45.3"
+    },
+    {
+      "id": "diag_g45_4",
+      "type": "diagnosis",
+      "label": "Транзиторная глобальная амнезия",
+      "icd_code": "G45.4"
+    },
+    {
+      "id": "diag_g45_8",
+      "type": "diagnosis",
+      "label": "Другие транзиторные церебральные ишемические атаки и связанные с ними синдромы",
+      "icd_code": "G45.8"
+    },
+    {
+      "id": "diag_g45_9",
+      "type": "diagnosis",
+      "label": "Транзиторная церебральная ишемическая атака неуточненная",
+      "icd_code": "G45.9"
+    },
+    {
+      "id": "diag_g46",
+      "type": "diagnosis",
+      "label": "Сосудистые мозговые синдромы при цереброваскулярных болезнях",
+      "icd_code": "G46"
+    },
+    {
+      "id": "diag_g46_0",
+      "type": "diagnosis",
+      "label": "Синдром средней мозговой артерии",
+      "icd_code": "G46.0"
+    },
+    {
+      "id": "diag_g46_1",
+      "type": "diagnosis",
+      "label": "Синдром передней мозговой артерии",
+      "icd_code": "G46.1"
+    },
+    {
+      "id": "diag_g46_2",
+      "type": "diagnosis",
+      "label": "Синдром задней мозговой артерии",
+      "icd_code": "G46.2"
+    },
+    {
+      "id": "diag_g46_3",
+      "type": "diagnosis",
+      "label": "Синдром инсульта в стволе головного мозга",
+      "icd_code": "G46.3"
+    },
+    {
+      "id": "diag_g46_4",
+      "type": "diagnosis",
+      "label": "Синдром мозжечкового инсульта",
+      "icd_code": "G46.4"
+    },
+    {
+      "id": "diag_g46_5",
+      "type": "diagnosis",
+      "label": "Чисто двигательный лакунарный синдром",
+      "icd_code": "G46.5"
+    },
+    {
+      "id": "diag_g46_6",
+      "type": "diagnosis",
+      "label": "Чисто чувствительный лакунарный синдром",
+      "icd_code": "G46.6"
+    },
+    {
+      "id": "diag_g46_7",
+      "type": "diagnosis",
+      "label": "Другие лакунарные синдромы",
+      "icd_code": "G46.7"
+    },
+    {
+      "id": "diag_g46_8",
+      "type": "diagnosis",
+      "label": "Другие сосудистые синдромы головного мозга при цереброваскулярных болезнях",
+      "icd_code": "G46.8"
+    },
+    {
+      "id": "symptom_reskaya_golovnaya_bol",
+      "type": "symptom",
+      "label": "резкая головная боль"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_golokruzhenie",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_onemenie_yazyka",
+      "type": "symptom",
+      "label": "онемение языка"
+    },
+    {
+      "id": "symptom_slabbost_v_konechnostyah",
+      "type": "symptom",
+      "label": "слабость в конечностях"
+    },
+    {
+      "id": "symptom_nevmozhnost_dvizheniya_v_konechnostyah",
+      "type": "symptom",
+      "label": "невозможность движения в конечностях"
+    },
+    {
+      "id": "symptom_ostroe_narushenie_zreniya",
+      "type": "symptom",
+      "label": "острое нарушение зрения"
+    },
+    {
+      "id": "symptom_sudorogi",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_neravnomernyi_gemiparez",
+      "type": "symptom",
+      "label": "неравномерный гемипарез"
+    },
+    {
+      "id": "symptom_gemigipesteziya",
+      "type": "symptom",
+      "label": "гемигипестезия"
+    },
+    {
+      "id": "symptom_centralnyy_parez_vii_xii",
+      "type": "symptom",
+      "label": "центральный парез VII и XII пар черепно-мозговых нервов"
+    },
+    {
+      "id": "symptom_levostoronnyaya_apraksiya",
+      "type": "symptom",
+      "label": "левосторонняя апраксия"
+    },
+    {
+      "id": "symptom_nedderzhanie_mochi",
+      "type": "symptom",
+      "label": "недержание мочи"
+    },
+    {
+      "id": "symptom_lobnaya_gemiataksiya",
+      "type": "symptom",
+      "label": "лобная гемиатаксия"
+    },
+    {
+      "id": "symptom_izmeneniya_psikhiki_lobnaya_psikhika",
+      "type": "symptom",
+      "label": "изменения психики (лобная психика)"
+    },
+    {
+      "id": "symptom_giperkinezy_lica_i_ruki",
+      "type": "symptom",
+      "label": "гиперкинезы лица и руки"
+    },
+    {
+      "id": "symptom_narushenie_obonaniya",
+      "type": "symptom",
+      "label": "нарушение обоняния"
+    },
+    {
+      "id": "symptom_gemiparez_na_protivopolozhnoi_storone",
+      "type": "symptom",
+      "label": "гемипарез на противоположной стороне от очага"
+    },
+    {
+      "id": "symptom_gemi_anesteziya",
+      "type": "symptom",
+      "label": "гемианестезия"
+    },
+    {
+      "id": "symptom_povorot_golovy_i_vzora_k_ochagu",
+      "type": "symptom",
+      "label": "поворот головы и взгляда в сторону очага"
+    },
+    {
+      "id": "symptom_motornaya_afaziya",
+      "type": "symptom",
+      "label": "моторная афазия"
+    },
+    {
+      "id": "symptom_sensornaya_afaziya",
+      "type": "symptom",
+      "label": "сенсорная афазия"
+    },
+    {
+      "id": "symptom_dvuhstoronnaya_apraksiya",
+      "type": "symptom",
+      "label": "двухсторонняя апраксия"
+    },
+    {
+      "id": "symptom_astereognost",
+      "type": "symptom",
+      "label": "астереогноз"
+    },
+    {
+      "id": "symptom_anozognost",
+      "type": "symptom",
+      "label": "анозогностия"
+    },
+    {
+      "id": "symptom_narushenie_shemy_tela",
+      "type": "symptom",
+      "label": "нарушение схемы тела"
+    },
+    {
+      "id": "symptom_kontralateralnaya_gemi_anopsiya",
+      "type": "symptom",
+      "label": "контралатеральная гемианопсия"
+    },
+    {
+      "id": "symptom_talamicheskiy_sindrom",
+      "type": "symptom",
+      "label": "таламический синдром"
+    },
+    {
+      "id": "symptom_centralnaya_gomoniynaya_gemi_anopsiya",
+      "type": "symptom",
+      "label": "центральная гомонимная гемианопсия"
+    },
+    {
+      "id": "symptom_kvartantnaya_gemi_anopsiya",
+      "type": "symptom",
+      "label": "квадрантная гемианопсия"
+    },
+    {
+      "id": "symptom_zritelnaia_agnosiya",
+      "type": "symptom",
+      "label": "зрительная агнозия"
+    },
+    {
+      "id": "symptom_amnesticheskaya_afaziya",
+      "type": "symptom",
+      "label": "амнестическая афазия"
+    },
+    {
+      "id": "symptom_aleksiya",
+      "type": "symptom",
+      "label": "алексия"
+    },
+    {
+      "id": "symptom_ateoidnye_horeoformnye_giperkinezy",
+      "type": "symptom",
+      "label": "атетоидные хореоформные гиперкинезы"
+    },
+    {
+      "id": "symptom_alterniruyushchie_sindromy_srednego_mozga",
+      "type": "symptom",
+      "label": "альтернирующие синдромы поражения среднего мозга"
+    },
+    {
+      "id": "symptom_perifericheskaya_gemi_anopsiya",
+      "type": "symptom",
+      "label": "периферическая гемианопсия"
+    },
+    {
+      "id": "symptom_paralichi_konechnostey",
+      "type": "symptom",
+      "label": "параличи конечностей"
+    },
+    {
+      "id": "symptom_rasstroystva_chuvstvitelnosti",
+      "type": "symptom",
+      "label": "расстройства чувствительности"
+    },
+    {
+      "id": "symptom_porazhenie_cherepno_mozgovykh_nervov",
+      "type": "symptom",
+      "label": "поражение черепно-мозговых нервов"
+    },
+    {
+      "id": "symptom_gipotoniya_myshchnogo_tonusa",
+      "type": "symptom",
+      "label": "гипотония мышечного тонуса"
+    },
+    {
+      "id": "symptom_gipertoniya_myshchnogo_tonusa",
+      "type": "symptom",
+      "label": "гипертония мышечного тонуса"
+    },
+    {
+      "id": "symptom_deceribratsionnaya_rigidnost",
+      "type": "symptom",
+      "label": "децеребрационная ригидность"
+    },
+    {
+      "id": "symptom_gormetoniya",
+      "type": "symptom",
+      "label": "горметония"
+    },
+    {
+      "id": "symptom_gemiplegiya",
+      "type": "symptom",
+      "label": "гемиплегия"
+    },
+    {
+      "id": "symptom_narushenie_poverhnostnoi_chuvstvitelnosti_na_litse",
+      "type": "symptom",
+      "label": "нарушение поверхностной чувствительности на лице"
+    },
+    {
+      "id": "symptom_simptomy_porazheniya_bulbarnykh_chmn",
+      "type": "symptom",
+      "label": "симптомы поражения бульбарных черепно-мозговых нервов"
+    },
+    {
+      "id": "symptom_alterniruyushchiy_sindrom_vallenberga_zaharchenko",
+      "type": "symptom",
+      "label": "альтернирующий синдром Валленберга-Захарченко"
+    },
+    {
+      "id": "symptom_vestibularnye_narusheniya",
+      "type": "symptom",
+      "label": "вестибулярные нарушения"
+    },
+    {
+      "id": "symptom_narushenie_statiki_i_koordinatsii",
+      "type": "symptom",
+      "label": "нарушение статики и координации"
+    },
+    {
+      "id": "symptom_okluzia_zadney_mozgovoy_arterii",
+      "type": "symptom",
+      "label": "окклюзия задней мозговой артерии"
+    },
+    {
+      "id": "symptom_soputstvuyushchaya_amneziya",
+      "type": "symptom",
+      "label": "сопутствующая амнезия"
+    },
+    {
+      "id": "symptom_disleksiya",
+      "type": "symptom",
+      "label": "дислексия"
+    },
+    {
+      "id": "symptom_kontralateralnye_neproizvolnye_dvizheniya",
+      "type": "symptom",
+      "label": "контрлатеральные непроизвольные движения"
+    },
+    {
+      "id": "symptom_kontralateralnaya_gemiplegiya",
+      "type": "symptom",
+      "label": "контрлатеральная гемиплегия"
+    },
+    {
+      "id": "symptom_ataksiya",
+      "type": "symptom",
+      "label": "атаксия"
+    },
+    {
+      "id": "symptom_narushenie_soznaniya",
+      "type": "symptom",
+      "label": "нарушение сознания"
+    },
+    {
+      "id": "symptom_peremeny_arterialnogo_davleniya",
+      "type": "symptom",
+      "label": "выраженные перепады артериального давления"
+    },
+    {
+      "id": "symptom_otek_opticheskogo_diskov",
+      "type": "symptom",
+      "label": "отёк диска зрительного нерва"
+    },
+    {
+      "id": "symptom_zaderzhka_psihomotornogo_razvitiya",
+      "type": "symptom",
+      "label": "задержка психомоторного развития"
+    },
+    {
+      "id": "symptom_vnutrimozgovoe_krovoizlianie",
+      "type": "symptom",
+      "label": "внутримозговое кровоизлияние"
+    },
+    {
+      "id": "symptom_subarahnoidalnoe_krovoizlianie",
+      "type": "symptom",
+      "label": "субарахноидальное кровоизлияние"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_neravnomernyi_gemiparez",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неравномерный гемипарез и гемигипестезия с преимущественным поражением проекции ноги на противоположной очагу стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemigipesteziya",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неравномерный гемипарез и гемигипестезия с преимущественным поражением проекции ноги на противоположной очагу стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_centralnyy_parez_vii_xii",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "центральный парез VII и XII пар черепно-мозговых нервов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_levostoronnyaya_apraksiya",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "левосторонняя апраксия (нарушение целенаправленных действий)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedderzhanie_mochi",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недержание мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lobnaya_gemiataksiya",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лобная гемиатаксия (пошатывание в одну сторону)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmeneniya_psikhiki_lobnaya_psikhika",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения психики – ―лобная психика‖",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkinezy_lica_i_ruki",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкинезы лица и руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_obonaniya",
+      "target": "diag_g46_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение обоняния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemiparez_na_protivopolozhnoi_storone",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемипарез (слабость мышц) на противоположной очагу стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemigipesteziya",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемигипестезия или гемианестезия (нарушение чусвтительности)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemi_anesteziya",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемигипестезия или гемианестезия (нарушение чусвтительности)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povorot_golovy_i_vzora_k_ochagu",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поворот головы и взора в сторону очага",
+      "properties": {}
+    },
+    {
+      "source": "symptom_motornaya_afaziya",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "моторная афазия (понимание, но невозможность произнести слова)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sensornaya_afaziya",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сенсорная афазия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dvuhstoronnaya_apraksiya",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "двухсторонняя апраксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_astereognost",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "астереогноз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anozognost",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анозогностия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_shemy_tela",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение схемы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontralateralnaya_gemi_anopsiya",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контралатеральная гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_talamicheskiy_sindrom",
+      "target": "diag_g46_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "таламический синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_centralnaya_gomoniynaya_gemi_anopsiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "центральная гомонимная гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kvartantnaya_gemi_anopsiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "квадрантная гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zritelnaia_agnosiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зрительная агнозия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_talamicheskiy_sindrom",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "таламический синдром на противоположной очагу стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amnesticheskaya_afaziya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "амнестическая афазия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aleksiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "алексия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ateoidnye_horeoformnye_giperkinezy",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атетоидные хореоформные гиперкинезы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alterniruyushchie_sindromy_srednego_mozga",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "альтернирующие синдромы поражения среднего мозга",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perifericheskaya_gemi_anopsiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "периферическая гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemiplegiya",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемиплегия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemi_anesteziya",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемианестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_poverhnostnoi_chuvstvitelnosti_na_litse",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение поверхностной чувствительности на лице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptomy_porazheniya_bulbarnykh_chmn",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы поражения бульбарных черепно-мозговых нервов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alterniruyushchiy_sindrom_vallenberga_zaharchenko",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "альтернирующий синдром Валленберга-Захарченко",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vestibularnye_narusheniya",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вестибулярные нарушения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_statiki_i_koordinatsii",
+      "target": "diag_g46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение статики и координации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontralateralnye_neproizvolnye_dvizheniya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрлатеральные непроизвольные движения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontralateralnaya_gemiplegiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрлатеральная гемиплегия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ataksiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атаксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disleksiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дислексия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemiplegiya",
+      "target": "diag_g46_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контрлатеральная гемиплегия или атаксией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemiplegiya",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "параличи конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasstroystva_chuvstvitelnosti",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расстройства чувствительности с одной или с обеих сторон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_porazhenie_cherepno_mozgovykh_nervov",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поражение черепно-мозговых нервов – альтернирующие синдромы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotoniya_myshchnogo_tonusa",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение мышечного тонуса – гипотония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertoniya_myshchnogo_tonusa",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение мышечного тонуса – гипертония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deceribratsionnaya_rigidnost",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "децеребрационная ригидность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gormetoniya",
+      "target": "diag_g46_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "горметония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reskaya_golovnaya_bol",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резкую головную боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golokruzhenie",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_onemenie_yazyka",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "онемение языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabbost_v_konechnostyah",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость в конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevmozhnost_dvizheniya_v_konechnostyah",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "невозможность движения в конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ostroe_narushenie_zreniya",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острое нарушение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sudorogi",
+      "target": "diag_g45",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги",
+      "properties": {}
+    }
+  ]
+}

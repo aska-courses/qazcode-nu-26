@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие лихорадки >39°C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, вялость, отсутствие аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_appetite",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, вялость, отсутствие аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysuria",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль и натуживание при мочеиспускании (дизурия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_urgency",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "императивные позывы к мочеиспусканию (ургентность)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_frequency",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащённое мочеиспускание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_incontinence",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flank_pain",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urine_color_change",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение цвета мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обезвоживание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constipation",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "запоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vulvitis",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вульвит, вульвовагинит у девочек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_phimosis",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "фимоз, баланопостит у мальчиков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication_signs",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптомы интоксикации разной степени выраженности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cloudy_urine",
+    "target": "diagnosis_n39_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мутная моча с неприятным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_kidneys",
+    "target": "diagnosis_n10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пальпируемые почки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела; слабость, вялость, отсутствие аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_dysuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела; боль и натуживание при мочеиспускании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysuria",
+    "target": "symptom_urinary_urgency",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль и натуживание при мочеиспускании, императивные позывы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_frequency",
+    "target": "symptom_urinary_incontinence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "учащённое мочеиспускание; недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flank_pain",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в поясничной области, животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_dehydration",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "рвота, обезвоживание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constipation",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "запоры; боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vulvitis",
+    "target": "symptom_phimosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вульвит, вульвовагинит у девочек; фимоз, баланопостит у мальчиков",
+    "properties": {}
+  }
+]

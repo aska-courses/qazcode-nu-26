@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_opukholovoe_obrazovanie_mjagkih_tkanei",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы: наличие опухолевого образования мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_perifericheskih_limfaticheskih_uzlov",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы: увеличение периферических лимфатических узлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "Физикальный осмотр: определение болезненности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podvizhimost_opukholi",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "Физикальный осмотр: определение подвижности опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plotnost_opukholi",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "Физикальный осмотр: определение плотности опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vovlechennost_sosednih_anatomicheskih_struktur",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "Физикальный осмотр: вовлеченность соседних анатомических структур",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nekr0z_opukholi",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "НО 0 – нет некроза; наличие некроза учитывается при оценке опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mitoticheskij_indeks",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "МИ 0-9 митозов на 10 ПЗР – 1 балл; используется для градации опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_histologicheskaja_stepen_zlokachestvennosti",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Гистологическая степень злокачественности G1‑G3 используется в классификации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otdalennye_metastazy",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "M1 - есть отдаленные метастазы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regionarnye_limfaticheskie_uzly_porazheny",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "N1 - есть метастазы в региональных лимфатических узлах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multifokalnaja_opukholi",
+    "target": "c49",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "Т4a‑Т4c – мультифокальная опухоль (включает более двух узлов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otchetnost_opukholi",
+    "target": "c49",
+    "type": "contradicts",
+    "weight": 0.9,
+    "evidence": "отсутствие опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otchetnost_metastazov",
+    "target": "c49",
+    "type": "contradicts",
+    "weight": 0.9,
+    "evidence": "отсутствие метастазов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otchetnost_nekr0za",
+    "target": "c49",
+    "type": "contradicts",
+    "weight": 0.9,
+    "evidence": "отсутствие некроза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opukholovoe_obrazovanie_mjagkih_tkanei",
+    "target": "symptom_uvelichenie_perifericheskih_limfaticheskih_uzlov",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Жалобы: наличие опухолевого образования мягких тканей, увеличение периферических лимфатических узлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost",
+    "target": "symptom_plotnost_opukholi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальный осмотр: определение болезненности, плотности опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podvizhimost_opukholi",
+    "target": "symptom_vovlechennost_sosednih_anatomicheskih_struktur",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальный осмотр: определение подвижности опухоли, вовлеченность соседних анатомических структур",
+    "properties": {}
+  }
+]

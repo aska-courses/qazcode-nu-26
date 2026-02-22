@@ -1,0 +1,90 @@
+[
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_sepsis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; неконтролируемый бактериальный сепсис;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_hiv_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; ... положительный маркер ВИЧ (anti-HIV, HIVAg, RNA-HIV);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_hbv_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; ... положительный маркер вируса гепатита В (HBsAg, DNA-HBV) ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_hcv_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; ... положительный маркер вируса гепатита С (anti-HCV, RNA-HCV, HCVAg).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_malignant_neoplasm",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; ... любое злокачественное новообразование с метастазами;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_carbon_monoxide_poisoning",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; ... смерть от отравления угарным газом и уровнем карбоксигемоглобина более 20%;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "symptom_carbamylhemoglobin_high",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острые инфекционные и контагиозные заболевания; ... уровень карбоксигемоглобина более 20 %;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hiv_positive",
+    "target": "symptom_hbv_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "положительный маркер ВИЧ (anti-HIV, HIVAg, RNA-HIV); ... положительный маркер вируса гепатита В (HBsAg, DNA-HBV) ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hiv_positive",
+    "target": "symptom_hcv_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "положительный маркер ВИЧ (anti-HIV, HIVAg, RNA-HIV); ... положительный маркер вируса гепатита С (anti-HCV, RNA-HCV, HCVAg).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hbv_positive",
+    "target": "symptom_hcv_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "положительный маркер вируса гепатита В (HBsAg, DNA-HBV) или С (anti-HCV, RNA-HCV, HCVAg).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperchloremia",
+    "target": "symptom_hypernatremia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Избегать гиперхлоремии, гипернатриемии",
+    "properties": {}
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ear_ringing",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шум в ушах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "diagnosis_i65_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness_one_side",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость или онемение какой-либо части тела ... чаще с одной стороны;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_numbness_one_side",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость или онемение какой-либо части тела ... чаще с одной стороны;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vision_disturbance",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение зрения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_disturbance",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расстройство речи.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enhanced_neck_pulse",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "усиленная пульсация сосудов шеи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurological_deficit",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дефицит неврологического статуса (гемипарезы, нарушение речи)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asymmetric_pulse_neck",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асимметричная пульсация сонных, позвоночных и поверхностных височных артерий;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_pulse_sonny_radial",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие или снижение пульса на сонных, лучевых артериях.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bruit_sonny_bifurcation",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сосудистый шум в проекции бифуркации сонной артерии;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bruit_vertebral",
+    "target": "diagnosis_i65_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сосудистый шум в проекции позвоночной артерии;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bruit_subclavian",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сосудистый шум в проекции подключичной артерии;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bp_difference_upper_limbs",
+    "target": "diagnosis_i65_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разница АД с обеих сторон верхних конечностей.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_ear_ringing",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Головная боль; • шум в ушах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_vertigo",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Головная боль; • головокружение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness_one_side",
+    "target": "symptom_numbness_one_side",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слабость или онемение какой-либо части тела ... чаще с одной стороны;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enhanced_neck_pulse",
+    "target": "symptom_asymmetric_pulse_neck",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "усиленная пульсация сосудов шеи; • асимметричная пульсация сонных, позвоночных и поверхностных височных артерий;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bruit_sonny_bifurcation",
+    "target": "symptom_bruit_vertebral",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сосудистый шум в проекции бифуркации сонной артерии; • сосудистый шум в проекции позвоночной артерии;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i65_0",
+    "target": "diagnosis_i65_2",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I65.0 Закупорка и стеноз позвоночной артерии... I65.2 Закупорка и стеноз сонной артерии...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i65_2",
+    "target": "diagnosis_i65_3",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I65.2 Закупорка и стеноз сонной артерии... I65.3 Закупорка и стеноз множественных и двусторонних прецеребральных артерий...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i65_3",
+    "target": "diagnosis_i65_8",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I65.3 Закупорка и стеноз множественных... I65.8 Закупорка и стеноз других (неуточненных) прецеребральных артерий...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i67_2",
+    "target": "diagnosis_i67_7",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I67.2 Церебральный атеросклероз I67.7 Церебральный артериит, не классифицированный в других рубриках",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i72_0",
+    "target": "diagnosis_i72_1",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I72.0 Аневризма сонной артерии I72.1 Аневризма артерии верхних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i74_2",
+    "target": "diagnosis_i74_8",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I74.2 Эмболия и тромбоз артерии верхних конечностей I74.8 Эмболия и тромбоз других артерий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i77_2",
+    "target": "diagnosis_i77_8",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "I77.2 Разрыв артерии I77.8 Другие уточненные изменения артерий и артериол",
+    "properties": {}
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "protocol_id": "p_ca90096fcd",
+  "nodes": [
+    {
+      "id": "diagnosis_glossodiniya",
+      "type": "diagnosis",
+      "label": "Глоссодиния",
+      "icd_code": "К14.6"
+    },
+    {
+      "id": "symptom_nepriyatnye_oshusheniya_v_ortu",
+      "type": "symptom",
+      "label": "неприятные ощущения во рту"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "боль"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_pokalyvanie",
+      "type": "symptom",
+      "label": "покалывание"
+    },
+    {
+      "id": "symptom_sadnenie",
+      "type": "symptom",
+      "label": "саднение"
+    },
+    {
+      "id": "symptom_onemanie",
+      "type": "symptom",
+      "label": "онемение"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_raspiranie",
+      "type": "symptom",
+      "label": "распирание"
+    },
+    {
+      "id": "symptom_zhzhenie_v_yazyke",
+      "type": "symptom",
+      "label": "жжение в языке"
+    },
+    {
+      "id": "symptom_plaksvist",
+      "type": "symptom",
+      "label": "плаксивость"
+    },
+    {
+      "id": "symptom_razdrazhitelnost",
+      "type": "symptom",
+      "label": "раздражительность"
+    },
+    {
+      "id": "symptom_kanserofobiya",
+      "type": "symptom",
+      "label": "канцерофобия"
+    },
+    {
+      "id": "symptom_postoyannoe_rassmatrivanje_yazyka",
+      "type": "symptom",
+      "label": "постоянное рассматривание языка"
+    },
+    {
+      "id": "symptom_gipo_giper_salivatsiya",
+      "type": "symptom",
+      "label": "гипо- или гиперсаливация"
+    },
+    {
+      "id": "symptom_sukhoshch_v_ortu",
+      "type": "symptom",
+      "label": "сухость во рту"
+    },
+    {
+      "id": "symptom_metallichnyy_privkut",
+      "type": "symptom",
+      "label": "металлический привкус"
+    },
+    {
+      "id": "symptom_belyy_nalet",
+      "type": "symptom",
+      "label": "белый налет на слизистой"
+    },
+    {
+      "id": "symptom_paresteziya",
+      "type": "symptom",
+      "label": "парестезия"
+    },
+    {
+      "id": "symptom_povyshennaya_chuvstvitelnost",
+      "type": "symptom",
+      "label": "повышенная чувствительность"
+    },
+    {
+      "id": "symptom_bolevaya_chuvstvitelnost",
+      "type": "symptom",
+      "label": "болевая чувствительность"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nepriyatnye_oshusheniya_v_ortu",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokalyvanie",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sadnenie",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_onemanie",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raspiranie",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie_v_yazyke",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Код К14.6 Глоссодиния – – Жжение в языке Глоссалгия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plaksvist",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "для больного характерна плаксивость, раздражительность, канцерофобия и постоянное рассматривание языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "для больного характерна плаксивость, раздражительность, канцерофобия и постоянное рассматривание языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kanserofobiya",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "для больного характерна плаксивость, раздражительность, канцерофобия и постоянное рассматривание языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannoe_rassmatrivanje_yazyka",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "для больного характерна плаксивость, раздражительность, канцерофобия и постоянное рассматривание языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipo_giper_salivatsiya",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "в некоторых случаях имеются признаки гипо- или гиперсаливации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoshch_v_ortu",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Сухость, жжение, ... в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metallichnyy_privkut",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "привкус ... металлическим ... при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belyy_nalet",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "налет белого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresteziya",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "парестезии возникают в области передних 2/3 языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_chuvstvitelnost",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "повышенная чувствительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevaya_chuvstvitelnost",
+      "target": "diagnosis_glossodiniya",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "болевая чувствительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepriyatnye_oshusheniya_v_ortu",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы на неприятные ощущения, боль, жжение, покалывание, саднение, онемение, зуд, распирание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "symptom_zhzhenie_v_yazyke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жжение ... Жжение в языке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipo_giper_salivatsiya",
+      "target": "symptom_sukhoshch_v_ortu",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "в некоторых случаях имеются признаки гипо- или гиперсаливации; сухость во рту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plaksvist",
+      "target": "symptom_razdrazhitelnost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "плаксивость, раздражительность",
+      "properties": {}
+    }
+  ]
+}

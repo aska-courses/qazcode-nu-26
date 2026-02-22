@@ -1,0 +1,851 @@
+{
+  "protocol_id": "p_31781b3428",
+  "nodes": [
+    {
+      "id": "diagnosis_enterobioz",
+      "type": "diagnosis",
+      "label": "Энтеробиоз",
+      "icd_code": "В80"
+    },
+    {
+      "id": "symptom_zud_v_perianalnoj_oblasti",
+      "type": "symptom",
+      "label": "зуд в перианальной области",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_disp_epsija",
+      "type": "symptom",
+      "label": "диспепсия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_sna",
+      "type": "symptom",
+      "label": "нарушение сна",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_razdrazhitelnost",
+      "type": "symptom",
+      "label": "раздражительность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povishennaya_utomlennost",
+      "type": "symptom",
+      "label": "повышенная утомляемость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nochnoe_nederzhanie_mochi",
+      "type": "symptom",
+      "label": "ночное недержание мочи (энурез)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nikturiya",
+      "type": "symptom",
+      "label": "никтурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_boli_v_zhivote",
+      "type": "symptom",
+      "label": "боли в животе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_urchanie_v_zhivote",
+      "type": "symptom",
+      "label": "урчание в животе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_meteorizm",
+      "type": "symptom",
+      "label": "метеоризм",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_raschei_v_zadnem_prohode",
+      "type": "symptom",
+      "label": "расчесы в заднем проходе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "type": "symptom",
+      "label": "лихенизция кожи с экзематозным дерматитом",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ekzematoznyj_dermatit",
+      "type": "symptom",
+      "label": "экзематозный дерматит",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pioder_miya",
+      "type": "symptom",
+      "label": "пиодермия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_sfinkterit",
+      "type": "symptom",
+      "label": "сфинктерит",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_paraproktil",
+      "type": "symptom",
+      "label": "парапроктит",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_poterja_appetita",
+      "type": "symptom",
+      "label": "потеря аппетита",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_appetita",
+      "type": "symptom",
+      "label": "нарушение аппетита",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "type": "symptom",
+      "label": "кашицеобразный стул со слизью",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zapor",
+      "type": "symptom",
+      "label": "запор",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_syp_na_litse_shche_ne_koltyah_kolenyah",
+      "type": "symptom",
+      "label": "сыпь на лице, шее, локтях, коленях",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_shelushenie_kozhi",
+      "type": "symptom",
+      "label": "шелушение кожи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_korochki_na_koze",
+      "type": "symptom",
+      "label": "корочки на коже",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zud_v_perianalnoj_oblasti",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд в области заднего прохода в вечернее или ночное время",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disp_epsija",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диспепсическими расстройствами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение сна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaya_utomlennost",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnoe_nederzhanie_mochi",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ночное недержание мочи (энурез)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nikturiya",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "никтурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_zhivote",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urchanie_v_zhivote",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meteorizm",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raschei_v_zadnem_prohode",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расчесы в области заднего прохода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихенизция кожи ... с развитием экзематозного дерматита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzematoznyj_dermatit",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "экзематозного дерматита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pioder_miya",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пиодермии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sfinkterit",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сфинктерита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraproktil",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда парапроктита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_appetita",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кашицеобразный стул со слизью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapor",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_syp_na_litse_shche_ne_koltyah_kolenyah",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сыпь на лице, шее, локтях, коленях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shelushenie_kozhi",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шелушение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korochki_na_koze",
+      "target": "diagnosis_enterobioz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "корочки на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_razdrazhitelnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_povishennaya_utomlennost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_nochnoe_nederzhanie_mochi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; ночное недержание мочи (энурез)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_nikturiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; нiktурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_boli_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_urchanie_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение сна; метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "symptom_povishennaya_utomlennost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность; повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razдrazhitelность",
+      "target": "symptom_nochnoe_nederzhanie_mochi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность; ночное недержание мочи (энурез)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razдrazhitelность",
+      "target": "symptom_nikturiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность; нiktурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razдrazhitelность",
+      "target": "symptom_boli_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность; боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razдrazhitelность",
+      "target": "symptom_urchanie_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность; урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razдrazhitelность",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность; метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaya_utomlennost",
+      "target": "symptom_nochnoe_nederzhanie_mochi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышенная утомляемость; ночное недержание мочи (энурез)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaya_utomlennost",
+      "target": "symptom_nikturiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышенная утомляемость; нiktурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaya_utomlennost",
+      "target": "symptom_boli_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышенная утомляемость; боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaya_utomlennost",
+      "target": "symptom_urchanie_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышенная утомляемость; урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaya_utomlennost",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышенная утомляемость; метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnoe_nederzhanie_mochi",
+      "target": "symptom_nikturiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ночное недержание мочи (энурез); нiktурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnoe_nederzhanie_mochi",
+      "target": "symptom_boli_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ночное недержание мочи (энурез); боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnoe_nederzhanie_mochi",
+      "target": "symptom_urchanie_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ночное недержание мочи (энурез); урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnoe_nederzhanie_mochi",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ночное недержание мочи (энурез); метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nikturiya",
+      "target": "symptom_boli_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нiktурия; боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nikturiya",
+      "target": "symptom_urchanie_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нiktурия; урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nikturiya",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нiktурия; метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_zhivote",
+      "target": "symptom_urchanie_v_zhivote",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в животе; урчание в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_zhivote",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в животе; метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urchanie_v_zhivote",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "урчание в животе; метеоризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raschei_v_zadnem_prohode",
+      "target": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "расчесы в области заднего прохода; лихенизция кожи ... с развитием экзематозного дерматита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raschei_v_zadnem_prohode",
+      "target": "symptom_ekzematoznyj_dermatit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "расчесы в области заднего прохода; экзематозного дерматита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raschei_v_zadnem_prohode",
+      "target": "symptom_pioder_miya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "расчесы в области заднего прохода; пiodермии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raschei_v_zadnem_prohode",
+      "target": "symptom_sfinkterit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "расчесы в области заднего прохода; сфинктерита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raschei_v_zadnem_prohode",
+      "target": "symptom_paraproktil",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "расчесы в области заднего прохода; иногда парапроктита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "target": "symptom_ekzematoznyj_dermatit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лихенизция кожи ... с развитием экзематозного дерматита; экзематозного дерматита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "target": "symptom_pioder_miya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лихенизция кожи ... с развитием экзематозного дерматита; пiodермии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "target": "symptom_sfinkterit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лихенизция кожи ... с развитием экзематозного дерматита; сфинктерита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenizaciya_kzhi_s_ekzematoznym_dermatitum",
+      "target": "symptom_paraproktil",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лихенизция кожи ... с развитием экзематозного дерматита; иногда парапроктита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzematoznyj_dermatit",
+      "target": "symptom_pioder_miya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "экзематозного дерматита; пiodермии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzematoznyj_dermatit",
+      "target": "symptom_sfinkterit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "экзематозного дерматита; сфинктерита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzematoznyj_dermatit",
+      "target": "symptom_paraproktil",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "экзематозного дерматита; иногда парапроктита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pioder_miya",
+      "target": "symptom_sfinkterit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пиодермии; сфинктерита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pioder_miya",
+      "target": "symptom_paraproktil",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пиодермии; иногда парапроктита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sfinkterit",
+      "target": "symptom_paraproktil",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сфинктерита; иногда парапроктита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "symptom_narushenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря аппетита; нарушение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря аппетита; тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря аппетита; рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря аппетита; кашицеобразный стул со слизью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "symptom_zapor",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря аппетита; запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_appetita",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение аппетита; тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_appetita",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение аппетита; рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_appetita",
+      "target": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение аппетита; кашицеобразный стул со слизью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_appetita",
+      "target": "symptom_zapor",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение аппетита; запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошноту; рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошноту; кашицеобразный стул со слизью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_zapor",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошноту; запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвоту; кашицеобразный стул со слизью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_zapor",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвоту; запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashiceobraznyj_stul_so_slizyu",
+      "target": "symptom_zapor",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кашицеобразный стул со слизью; запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_syp_na_litse_shche_ne_koltyah_kolenyah",
+      "target": "symptom_shelushenie_kozhi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сыпь на лице, шее, локтях, коленях; шелушение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_syp_na_litse_shche_ne_koltyah_kolenyah",
+      "target": "symptom_korochki_na_koze",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сыпь на лице, шее, локтях, коленях; корочки на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shelushenie_kozhi",
+      "target": "symptom_korochki_na_koze",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "шелушение кожи; корочки на коже",
+      "properties": {}
+    }
+  ]
+}

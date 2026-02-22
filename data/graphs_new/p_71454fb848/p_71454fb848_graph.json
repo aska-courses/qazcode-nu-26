@@ -1,0 +1,602 @@
+{
+  "protocol_id": "p_71454fb848",
+  "nodes": [
+    {
+      "id": "symptom_lumbar_pain",
+      "type": "symptom",
+      "label": "Боль в поясничной области"
+    },
+    {
+      "id": "symptom_gross_hematuria",
+      "type": "symptom",
+      "label": "Макрогематурия"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Гипертермия"
+    },
+    {
+      "id": "symptom_dysuria",
+      "type": "symptom",
+      "label": "Дизурия"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отёки"
+    },
+    {
+      "id": "symptom_urine_analysis_changes",
+      "type": "symptom",
+      "label": "Изменения в анализах мочи (лейкоцитурия, протеинурия, бактериурия)"
+    },
+    {
+      "id": "symptom_renal_colic",
+      "type": "symptom",
+      "label": "Приступы почечной колики"
+    },
+    {
+      "id": "symptom_palpable_epigastric_mass",
+      "type": "symptom",
+      "label": "Пальпируемое образование в подреберье"
+    },
+    {
+      "id": "symptom_tympanic_percussion",
+      "type": "symptom",
+      "label": "Тимпанический звук при перкуссии"
+    },
+    {
+      "id": "symptom_dull_sound",
+      "type": "symptom",
+      "label": "Тупой звук при перкуссии"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Ускорение СОЭ"
+    },
+    {
+      "id": "symptom_low_hemoglobin",
+      "type": "symptom",
+      "label": "Пониженное содержание гемоглобина"
+    },
+    {
+      "id": "symptom_leukocyturia",
+      "type": "symptom",
+      "label": "Лейкоцитурия"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "Гематурия"
+    },
+    {
+      "id": "symptom_hyposthenuria",
+      "type": "symptom",
+      "label": "Гипостенурия"
+    },
+    {
+      "id": "symptom_azotemia",
+      "type": "symptom",
+      "label": "Азотемия"
+    },
+    {
+      "id": "symptom_hypokalemia",
+      "type": "symptom",
+      "label": "Гипокалиемия"
+    },
+    {
+      "id": "symptom_hypocalcemia",
+      "type": "symptom",
+      "label": "Гипокальциемия"
+    },
+    {
+      "id": "diagnosis_n13_0",
+      "type": "diagnosis",
+      "label": "Гидронефроз, обусловленный стриктурой лоханочно‑мочеточникового сегмента",
+      "icd_code": "N13.0"
+    },
+    {
+      "id": "diagnosis_n13",
+      "type": "diagnosis",
+      "label": "Обструктивная уропатия и рефлюкс‑уропатия (гидронефроз)",
+      "icd_code": "N13"
+    },
+    {
+      "id": "diagnosis_q62",
+      "type": "diagnosis",
+      "label": "Врожденный гидронефроз (врожденные нарушения проходимости почечной лоханки и аномалии мочеточника)",
+      "icd_code": "Q62"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • болью в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • болью в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • болью в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gross_hematuria",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • макрогематурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gross_hematuria",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • макрогематурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gross_hematuria",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • макрогематурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • гипертермией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • гипертермией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • гипертермией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • дизурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • дизурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • дизурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела, боли ноющего характера в поясничной области, отеки, изменения в анализах мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела, боли ноющего характера в поясничной области, отеки, изменения в анализах мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела, боли ноющего характера в поясничной области, отеки, изменения в анализах мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общий анализ крови: лейкоцитоз, ... ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общий анализ крови: лейкоцитоз, ... ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общий анализ крови: лейкоцитоз, ... ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия легкой и средней степени тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия легкой и средней степени тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия легкой и средней степени тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_hemoglobin",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пониженное содержание гемоглобина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_hemoglobin",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пониженное содержание гемоглобина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_hemoglobin",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пониженное содержание гемоглобина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyposthenuria",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипостенурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyposthenuria",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипостенурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyposthenuria",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипостенурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_azotemia",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "азотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_azotemia",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "азотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_azotemia",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "азотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypokalemia",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипокалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypokalemia",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипокалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypokalemia",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипокалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypocalcemia",
+      "target": "diagnosis_n13",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypocalcemia",
+      "target": "diagnosis_q62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypocalcemia",
+      "target": "diagnosis_n13_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "symptom_gross_hematuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • болью в поясничной области; • макрогематурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • болью в поясничной области; • гипертермией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее часто проявляется: • гипертермией; • дизурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела, ... отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_elevated_esr",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз, ... ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "symptom_hematuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "протеинурия, ... гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "symptom_proteinuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyposthenuria",
+      "target": "symptom_azotemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипостенурия ... азотемия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n13_0",
+      "target": "diagnosis_n13",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: N13.0 ... N13 Обструктивная уропатия и рефлюкс-уропатия. Гидронефроз.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n13",
+      "target": "diagnosis_q62",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: N13 ... Q62 Врожденные нарушения ... гидронефроз.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n13_0",
+      "target": "diagnosis_q62",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N13.0 ... Q62 Врожденный гидронефроз.",
+      "properties": {}
+    }
+  ]
+}

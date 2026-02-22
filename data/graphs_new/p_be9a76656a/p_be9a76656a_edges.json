@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы и анамнез: снижение слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы и анамнез: ощущение заложенности уха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы и анамнез: шум в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: резкое втяжение мембраны, возможна её деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: возможна её деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: барабанная перепонка утолщена и мутная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: барабанная перепонка утолщена и мутная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: в промежуточных отделах барабанной перепонки фиксируются отложения известкового вида",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: слабая подвижность косточек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: их полная неподвижность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: изменение звуковосприятия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: пробы Вальсальвы положительные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Физикальное обследование: пробы Тойнби положительные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Диагностический критерий: кондуктивная тугоухость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Жалобы и анамнез: снижение слуха; ощущение заложенности уха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Жалобы и анамнез: снижение слуха; шум в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Жалобы и анамнез: ощущение заложенности уха; шум в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Физикальное обследование: резкое втяжение мембраны, возможна её деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Физикальное обследование: барабанная перепонка утолщена и мутная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_9",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Физикальное обследование: отложения известкового вида; слабая подвижность косточек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_10",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Физикальное обследование: слабая подвижность косточек или их полная неподвижность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "symptom_13",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "Физикальное обследование: пробы Вальсальвы, Тойнби положительные",
+    "properties": {}
+  }
+]

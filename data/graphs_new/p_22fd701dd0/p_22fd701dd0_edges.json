@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_neonatal_jaundice_unspecified",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Неонатальная желтуха – появление видимого желтушного окрашивания кожных покровов и слизистых новорожденного",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperbilirubinemia",
+    "target": "diagnosis_neonatal_jaundice_unspecified",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенного уровня общего билирубина в сыворотке крови",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_neonatal_jaundice_liver_cell_damage",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гепатомегалия и/или спленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_neonatal_jaundice_liver_cell_damage",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гепатомегалия и/или спленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pale_stool",
+    "target": "diagnosis_neonatal_jaundice_liver_cell_damage",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обесцвеченный стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dark_urine",
+    "target": "diagnosis_neonatal_jaundice_liver_cell_damage",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "темный цвет мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unfavorable_condition",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "состояние ребенка неудовлетворительное",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_hypertonia",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "мышечный гипертонус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opistotonus",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "опистотонус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_neonatal_jaundice_infection",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "инфекция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brain_cry",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«мозговой» крик",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neonatal_asphyxia",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "неонатальная асфиксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acidosis",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ацидоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипогликемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря веса (> 10 %)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_preterm",
+    "target": "diagnosis_neonatal_jaundice_blood_stains_premature",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "неонатальная желтуха, связанная с преждевременным родоразрешением (гипербилирубинемия недоношенных)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypothyroidism",
+    "target": "diagnosis_neonatal_jaundice_other_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотиреоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "symptom_splenomegaly",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гепатомегалия и/или спленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pale_stool",
+    "target": "symptom_dark_urine",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обесцвеченный стул или темный цвет мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_hypertonia",
+    "target": "symptom_opistotonus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мышечный гипертонус, опистотонус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_hypertonia",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "мышечный гипертонус, ... лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opistotonus",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "опистотонус, ... лихорадка",
+    "properties": {}
+  }
+]

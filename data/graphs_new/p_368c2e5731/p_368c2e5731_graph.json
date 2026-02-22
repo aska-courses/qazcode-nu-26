@@ -1,0 +1,243 @@
+{
+  "protocol_id": "p_368c2e5731",
+  "nodes": [
+    {
+      "id": "m24_0",
+      "type": "diagnosis",
+      "label": "Свободное тело в суставе",
+      "icd_code": "M24.0"
+    },
+    {
+      "id": "m24_1",
+      "type": "diagnosis",
+      "label": "Другие нарушения суставного хряща",
+      "icd_code": "M24.1"
+    },
+    {
+      "id": "m24_2",
+      "type": "diagnosis",
+      "label": "Поражение связок",
+      "icd_code": "M24.2"
+    },
+    {
+      "id": "m24_3",
+      "type": "diagnosis",
+      "label": "Патологическое смещение и подвывих сустава, не классифицированное в других рубриках",
+      "icd_code": "M24.3"
+    },
+    {
+      "id": "m24_4",
+      "type": "diagnosis",
+      "label": "Повторяющиеся вывихи и подвывихи сустава",
+      "icd_code": "M24.4"
+    },
+    {
+      "id": "m24_5",
+      "type": "diagnosis",
+      "label": "Контрактура сустава",
+      "icd_code": "M24.5"
+    },
+    {
+      "id": "m24_6",
+      "type": "diagnosis",
+      "label": "Анкилоз сустава",
+      "icd_code": "M24.6"
+    },
+    {
+      "id": "m24_7",
+      "type": "diagnosis",
+      "label": "Протрузия вертлужной впадины",
+      "icd_code": "M24.7"
+    },
+    {
+      "id": "m24_8",
+      "type": "diagnosis",
+      "label": "Другие уточненные поражения суставов, не классифицированные в других рубриках",
+      "icd_code": "M24.8"
+    },
+    {
+      "id": "m24_9",
+      "type": "diagnosis",
+      "label": "Поражение сустава неуточненное",
+      "icd_code": "M24.9"
+    },
+    {
+      "id": "pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "joint_pain",
+      "type": "symptom",
+      "label": "Боль в суставе"
+    },
+    {
+      "id": "movement_restriction_joint",
+      "type": "symptom",
+      "label": "Ограничение движений в суставе"
+    },
+    {
+      "id": "range_of_motion_restriction",
+      "type": "symptom",
+      "label": "Ограничение объёма движений в суставах"
+    },
+    {
+      "id": "limp",
+      "type": "symptom",
+      "label": "Хромота"
+    },
+    {
+      "id": "gait_disturbance",
+      "type": "symptom",
+      "label": "Нарушение походки"
+    },
+    {
+      "id": "pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "limb_function_impairment",
+      "type": "symptom",
+      "label": "Нарушение функций конечности"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pain",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "joint_pain",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "movement_restriction_joint",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "range_of_motion_restriction",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "limp",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "gait_disturbance",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • нарушение походки; • ограничение движения в суставе.",
+      "properties": {}
+    },
+    {
+      "source": "pain_syndrome",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "limb_function_impairment",
+      "target": "m24_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функций конечности, хромота.",
+      "properties": {}
+    },
+    {
+      "source": "pain",
+      "target": "movement_restriction_joint",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "pain",
+      "target": "limp",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "movement_restriction_joint",
+      "target": "limp",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "pain",
+      "target": "pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "movement_restriction_joint",
+      "target": "pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • ограничение объёма движений в суставе; • болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "pain_syndrome",
+      "target": "limb_function_impairment",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • болевой синдром; • нарушение функций конечности, хромота.",
+      "properties": {}
+    },
+    {
+      "source": "movement_restriction_joint",
+      "target": "limb_function_impairment",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • ограничение объёма движений в суставе; • нарушение функций конечности, хромота.",
+      "properties": {}
+    },
+    {
+      "source": "limp",
+      "target": "limb_function_impairment",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: • нарушение функций конечности, хромота.",
+      "properties": {}
+    },
+    {
+      "source": "gait_disturbance",
+      "target": "movement_restriction_joint",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • нарушение походки; • ограничение движения в суставе.",
+      "properties": {}
+    }
+  ]
+}

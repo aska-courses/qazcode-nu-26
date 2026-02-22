@@ -1,0 +1,279 @@
+{
+  "protocol_id": "p_9718773ef8",
+  "nodes": [
+    {
+      "id": "diagnosis_unsuccessful_miscarriage",
+      "type": "diagnosis",
+      "label": "Несостоявшийся выкидыш",
+      "icd_code": "O02.1"
+    },
+    {
+      "id": "diagnosis_spontaneous_abortion",
+      "type": "diagnosis",
+      "label": "Самопроизвольный аборт",
+      "icd_code": "O03"
+    },
+    {
+      "id": "diagnosis_incomplete_abortion",
+      "type": "diagnosis",
+      "label": "Неполный аборт без осложнений",
+      "icd_code": "O03.4"
+    },
+    {
+      "id": "diagnosis_complete_abortion_infection",
+      "type": "diagnosis",
+      "label": "Полный или неуточненный аборт, осложнившийся инфекцией половых путей и тазовых органов",
+      "icd_code": "O03.5"
+    },
+    {
+      "id": "diagnosis_complete_abortion",
+      "type": "diagnosis",
+      "label": "Полный или неуточненный аборт без осложнений",
+      "icd_code": "O03.9"
+    },
+    {
+      "id": "diagnosis_other_abortion",
+      "type": "diagnosis",
+      "label": "Другие виды аборта",
+      "icd_code": "O05"
+    },
+    {
+      "id": "diagnosis_early_pregnancy_bleeding",
+      "type": "diagnosis",
+      "label": "Кровотечение в ранние сроки беременности",
+      "icd_code": "O20"
+    },
+    {
+      "id": "diagnosis_threatened_abortion",
+      "type": "diagnosis",
+      "label": "Угрожающий аборт",
+      "icd_code": "O20.0"
+    },
+    {
+      "id": "diagnosis_other_early_pregnancy_bleeding",
+      "type": "diagnosis",
+      "label": "Другие кровотечения в ранние сроки беременности",
+      "icd_code": "O20.8"
+    },
+    {
+      "id": "diagnosis_unspecified_early_pregnancy_bleeding",
+      "type": "diagnosis",
+      "label": "Кровотечения в ранние сроки беременности неуточненные",
+      "icd_code": "O20.9"
+    },
+    {
+      "id": "diagnosis_medical_assistance_practice_nevynashivanie",
+      "type": "diagnosis",
+      "label": "Медицинская помощь женщине с привычным невынашиванием беременности",
+      "icd_code": "O26.2"
+    },
+    {
+      "id": "diagnosis_recurrent_miscarriage",
+      "type": "diagnosis",
+      "label": "Привычный выкидыш",
+      "icd_code": "N96"
+    },
+    {
+      "id": "symptom_delay_menstruation",
+      "type": "symptom",
+      "label": "Задержка менструации"
+    },
+    {
+      "id": "symptom_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль внизу живота"
+    },
+    {
+      "id": "symptom_vaginal_bleeding",
+      "type": "symptom",
+      "label": "Кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_periodic_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "Периодические боли внизу живота"
+    },
+    {
+      "id": "symptom_moderate_vaginal_bleeding",
+      "type": "symptom",
+      "label": "Умеренные кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_prolonged_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "Длительная боль в нижних отделах живота"
+    },
+    {
+      "id": "symptom_heavy_vaginal_bleeding",
+      "type": "symptom",
+      "label": "Обильные кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_amniotic_fluid_leakage",
+      "type": "symptom",
+      "label": "Подтекание околоплодных вод"
+    },
+    {
+      "id": "symptom_tugging_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "Тянущая боль в нижних отделах живота"
+    },
+    {
+      "id": "symptom_absent_fetal_heartbeat",
+      "type": "symptom",
+      "label": "Отсутствие сердцебиения плода"
+    },
+    {
+      "id": "symptom_absent_embryo",
+      "type": "symptom",
+      "label": "Отсутствие эмбриона"
+    },
+    {
+      "id": "symptom_subchorionic_hematoma",
+      "type": "symptom",
+      "label": "Субхориальная гематома"
+    },
+    {
+      "id": "symptom_short_cervix",
+      "type": "symptom",
+      "label": "Короткая шейка матки (≤25 мм)"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия (Hb < 100 г/л)"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Гипертензия"
+    },
+    {
+      "id": "symptom_severe_asthma",
+      "type": "symptom",
+      "label": "Тяжелая бронхиальная астма"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_delay_menstruation",
+      "target": "diagnosis_spontaneous_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: • задержка менструации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "diagnosis_spontaneous_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: • появление болевого синдрома внизу живота различной интенсивности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginal_bleeding",
+      "target": "diagnosis_spontaneous_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез: • кровянистые выделения из половых путей различной интенсивности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periodic_lower_abdominal_pain",
+      "target": "diagnosis_threatened_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При угрожающем аборте: • периодические боли различной интенсивности внизу живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_moderate_vaginal_bleeding",
+      "target": "diagnosis_threatened_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При угрожающем аборте: • умеренные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_prolonged_lower_abdominal_pain",
+      "target": "diagnosis_unsuccessful_miscarriage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При аборте в ходу: • длительная боль в нижних отделах живота с усилением в динамике до интенсивной, имеющая схваткообразный характер;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_vaginal_bleeding",
+      "target": "diagnosis_unsuccessful_miscarriage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При аборте в ходу: • обильные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amniotic_fluid_leakage",
+      "target": "diagnosis_unsuccessful_miscarriage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При аборте в ходу: • возможно подтекание околоплодных вод в поздние сроки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tugging_lower_abdominal_pain",
+      "target": "diagnosis_incomplete_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При неполном/полном аборте: • тянущая боль в нижних отделах живота, с усилением в динамике до интенсивной, может иметь схваткообразный характер, периодически уменьшаться;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_vaginal_bleeding",
+      "target": "diagnosis_incomplete_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При неполном/полном аборте: • обильные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tugging_lower_abdominal_pain",
+      "target": "diagnosis_complete_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При неполном/полном аборте: • тянущая боль в нижних отделах живота, с усилением в динамике до интенсивной, может иметь схваткообразный характер, периодически уменьшаться;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_vaginal_bleeding",
+      "target": "diagnosis_complete_abortion",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При неполном/полном аборте: • обильные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginal_bleeding",
+      "target": "diagnosis_recurrent_miscarriage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При привычном выкидыше: • ... может сопровождаться кровянистыми выделениями ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "diagnosis_recurrent_miscarriage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При привычном выкидыше: • ... болевым синдромом различной интенсивности ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amniotic_fluid_leakage",
+      "target": "diagnosis_recurrent_miscarriage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При привычном выкидыше: • ... подтеканием околоплодных вод.",
+      "properties": {}
+    }
+  ]
+}

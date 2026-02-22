@@ -1,0 +1,469 @@
+{
+  "protocol_id": "p_d5e0066406",
+  "nodes": [
+    {
+      "id": "diagnosis_allergic_purpura",
+      "type": "diagnosis",
+      "label": "Аллергическая пурпура",
+      "icd_code": "D69.0"
+    },
+    {
+      "id": "symptom_subfebrile_fever",
+      "type": "symptom",
+      "label": "Субфебрильное повышение температуры"
+    },
+    {
+      "id": "symptom_febrile_fever",
+      "type": "symptom",
+      "label": "Фебрильное повышение температуры"
+    },
+    {
+      "id": "symptom_skin_purpura",
+      "type": "symptom",
+      "label": "Кожная пурпура"
+    },
+    {
+      "id": "symptom_hemorrhagic_rash",
+      "type": "symptom",
+      "label": "Геморрагическая сыпь"
+    },
+    {
+      "id": "symptom_papular_rash",
+      "type": "symptom",
+      "label": "Пятнисто‑папулёзная сыпь"
+    },
+    {
+      "id": "symptom_angioedema",
+      "type": "symptom",
+      "label": "Ангионевротический отёк"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Боль в суставах (артралгия)"
+    },
+    {
+      "id": "symptom_joint_swelling",
+      "type": "symptom",
+      "label": "Отёк суставов"
+    },
+    {
+      "id": "symptom_arthritis",
+      "type": "symptom",
+      "label": "Обратимый артрит"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Неустойчивый стул (диарея)"
+    },
+    {
+      "id": "symptom_gastrointestinal_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение из желудка и кишечника"
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "Гематурия"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "symptom_macroscopic_hematuria",
+      "type": "symptom",
+      "label": "Макрогематурия"
+    },
+    {
+      "id": "symptom_renal_involvement",
+      "type": "symptom",
+      "label": "Поражение почек"
+    },
+    {
+      "id": "symptom_nephritis",
+      "type": "symptom",
+      "label": "Гломерулонефрит (Шенлейна‑Геноха нефрит)"
+    },
+    {
+      "id": "symptom_nephrotic_syndrome",
+      "type": "symptom",
+      "label": "Нефротический синдром"
+    },
+    {
+      "id": "symptom_capillary_toxic_nephritis",
+      "type": "symptom",
+      "label": "Капилляротоксический нефрит"
+    },
+    {
+      "id": "symptom_skin_pigmentation",
+      "type": "symptom",
+      "label": "Пигментация кожи после исчезновения сыпи"
+    },
+    {
+      "id": "symptom_skin_scaling",
+      "type": "symptom",
+      "label": "Шелушение кожи"
+    },
+    {
+      "id": "symptom_perivascular_edema",
+      "type": "symptom",
+      "label": "Периваскулярный отёк"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_subfebrile_fever",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при субфебрильном повышении температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_febrile_fever",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "реже фебрильном повышении температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_purpura",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Кожный синдром (пурпура) встречается у всех больных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_rash",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пятнисто‑папулёзная геморрагическая сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papular_rash",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пятнисто‑папулёзная геморрагическая сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_angioedema",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "иногда в сочетании с ангионевротическими отёками",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Суставной синдром ... болезненность, отёк и изменение формы суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_swelling",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Суставной синдром ... болезненность, отёк и изменение формы суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthritis",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "от артралгий до обратимых артритов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Абдоминальный синдром ... боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ... рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неустойчивый стул (диарея)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastrointestinal_bleeding",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эпизоды кишечного и желудочного кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Он проявляется гематурией различной степени выраженности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сочетающаяся с умеренной протеинурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macroscopic_hematuria",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может возникать макрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_renal_involvement",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "почечный синдром ... поражением почек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nephritis",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гломерулонефрит (Шенлейна‑Геноха нефрит)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nephrotic_syndrome",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна нефротическая форма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillary_toxic_nephritis",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "капилляротоксический нефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pigmentation",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при угасании сыпи остаётся пигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_scaling",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появляется шелушение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perivascular_edema",
+      "target": "diagnosis_allergic_purpura",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "периваскулярный отек с клеточной инфильтрацией нейтрофилами и эритроцитами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_purpura",
+      "target": "symptom_hemorrhagic_rash",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "мелкопятнистая или пятнисто‑папулёзная геморрагическая сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_purpura",
+      "target": "symptom_papular_rash",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "мелкопятнистая или пятнисто‑папулёзная геморрагическая сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_rash",
+      "target": "symptom_papular_rash",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "пятнисто‑папулёзная геморрагическая сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_rash",
+      "target": "symptom_angioedema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "иногда в сочетании с ангионевротическими отёками",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_joint_swelling",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "болезненность, отёк и изменение формы суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_arthritis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "от артралгий до обратимых артритов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_swelling",
+      "target": "symptom_arthritis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "от артралгий до обратимых артритов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "может быть тошнота, рвота, неустойчивый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "может быть тошнота, рвота, неустойчивый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_diarrhea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "может быть тошнота, рвота, неустойчивый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_gastrointestinal_bleeding",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эпизоды кишечного и желудочного кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "symptom_proteinuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сочетающаяся с умеренной протеинурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "symptom_macroscopic_hematuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "может возникать макрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "symptom_nephritis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гломерулонефрит ... сопровождается протеинурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nephritis",
+      "target": "symptom_nephrotic_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "может быть нефротической формы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillary_toxic_nephritis",
+      "target": "symptom_nephritis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "капилляротоксический нефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pigmentation",
+      "target": "symptom_skin_scaling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при частых рецидивах появляется шелушение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perivascular_edema",
+      "target": "symptom_skin_purpura",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "периваскулярный отек ... при кожных проявлениях",
+      "properties": {}
+    }
+  ]
+}

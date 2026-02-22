@@ -1,0 +1,66 @@
+[
+  {
+    "source": "symptom_matrochnye_krovotecheniya",
+    "target": "diagnosis_polip_zhenskikh_polovyh_organov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в основном женщины предъявляют жалобы на маточные кровотечения (межменструальные кровотечения /меноррагия).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mezhmenstrualnye_krovotecheniya",
+    "target": "diagnosis_polip_zhenskikh_polovyh_organov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечение между менструациями;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_iz_vlaganija_posle_menopauzy",
+    "target": "diagnosis_polip_zhenskikh_polovyh_organov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечение из влагалища после менопаузы;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_problemy_s_beremennostyu",
+    "target": "diagnosis_polip_zhenskikh_polovyh_organov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "проблемы с беременностью ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bespodogenie",
+    "target": "diagnosis_polip_zhenskikh_polovyh_organov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "или бесплодие.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dlitelnoe_trazhee_menstrualnoe_krovotechenie",
+    "target": "diagnosis_polip_zhenskikh_polovyh_organov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "длительное или тяжелое менструальное кровотечение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_matrochnye_krovotecheniya",
+    "target": "symptom_mezhmenstrualnye_krovotecheniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "маточные кровотечения (межменструальные кровотечения)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_matrochnye_krovotecheniya",
+    "target": "symptom_dlitelnoe_trazhee_menstrualnoe_krovotechenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "длительное или тяжелое менструальное кровотечение",
+    "properties": {}
+  }
+]

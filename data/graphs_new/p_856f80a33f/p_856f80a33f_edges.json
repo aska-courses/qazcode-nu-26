@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_gematouria",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "выраженной гематурией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptomy_gerb",
+    "target": "diagnosis_k21_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы ГЭРБ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptomy_reflyuks",
+    "target": "diagnosis_k21_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы рефлюкса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zheltuha",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие желтухи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lihorodka",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoy_sindrom",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие болевого синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptomy_gidronefroz",
+    "target": "diagnosis_n13_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптомы гидронефроза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptomy_gidronefroz",
+    "target": "diagnosis_n13",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптомы гидронефроза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptomy_nefroptoz",
+    "target": "diagnosis_n13_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптомы нефроптоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в боку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в боку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в боку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zheltuha",
+    "target": "symptom_lihorodka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие желтухи, лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zheltuha",
+    "target": "symptom_bolevoy_sindrom",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие желтухи, болевого синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lihorodka",
+    "target": "symptom_bolevoy_sindrom",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие лихорадки, болевого синдрома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d29_1",
+    "target": "diagnosis_n40",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: D29.1 Доброкачественное новообразование предстательной железы N40 Гиперплазия предстательной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c64_0",
+    "target": "diagnosis_c64_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: С64.0 Злокачественное образование почки кроме почечной лоханки С64.9 неуточненной локализации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d30_0",
+    "target": "diagnosis_d41_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: D30.0 Доброкачественное новообразование почки D41.0 Новообразование неопределенного или неизвестного характера почки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n13_0",
+    "target": "diagnosis_n13",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: N13.0 Гидронефроз, обусловленный стриктурой лоханочно‑мочеточникового сегмента N13 Обструктивная уропатия и рефлюкс‑уропатия. Гидронефроз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62",
+    "target": "diagnosis_q62_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Q62 Врожденные аномалии мочеточника Q62.2 Врожденное расширение мочеточника Q62.8 Другие врожденные аномалии мочеточника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62",
+    "target": "diagnosis_q62_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Q62 Врожденные аномалии мочеточника Q62.2 Врожденное расширение мочеточника Q62.8 Другие врожденные аномалии мочеточника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62_2",
+    "target": "diagnosis_q62_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Q62 Врожденные аномалии мочеточника Q62.2 Врожденное расширение мочеточника Q62.8 Другие врожденные аномалии мочеточника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n32_3",
+    "target": "diagnosis_q64_6",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: N32.3 Дивертикул мочевого пузыря Q64.6 Врожденный дивертикул мочевого пузыря",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k80_0",
+    "target": "diagnosis_k80_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: K80.0 Камни желчного пузыря с острым холециститом K80.1 Камни желчного пузыря с другим холециститом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k82_0",
+    "target": "diagnosis_k82_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: K82.0 Закупорка желчного пузыря K82.2 Прободение желчного пузыря",
+    "properties": {}
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение двигательной функции в плечевом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вынужденное положение верхней конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уплощение дельтовидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выступание акромиона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "западение мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "удлинение конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоизлияние в окружающие ткани в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль при пальпации в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность, усиливающаяся при осевой нагрузке и движениях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«пружинистое» сопротивление плеча",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение конгруэнтности суставных поверхностей (рентген)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки повреждения капсульно‑связочного аппарата и сухожилий (МРТ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "• боли в области плечевого сустава; • нарушение двигательной функции в плечевом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "symptom_4",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вынужденное положение верхней конечности; деформация плечевого сустава: уплощение дельтовидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "уплощение дельтовидной мышцы, выступание акромиона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "symptom_6",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выступание акромиона, западение мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "западение мягких тканей, удлинение конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_9",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отёк в области плечевого сустава; кровоизлияние в окружающие ткани в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "symptom_11",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль при пальпации в области плечевого сустава; болезненность, усиливающаяся при осевой нагрузке и движениях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "symptom_12",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "болезненность, усиливающаяся при осевой нагрузке и движениях; «пружинистое» сопротивление плеча",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_1",
+    "target": "diagnosis_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: S43.0 Вывих плечевого сустава T92.3 Последствие вывиха, растяжения и деформации верхней конечности",
+    "properties": {}
+  }
+]

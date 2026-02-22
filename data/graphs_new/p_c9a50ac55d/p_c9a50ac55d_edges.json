@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_progressive_myelopathic_syndrome",
+    "target": "diagnosis_spinal_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: • прогрессирующий миелопатический синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressive_myelopathic_syndrome",
+    "target": "diagnosis_cervical_disc_myelopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: • прогрессирующий миелопатический синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiculoischemic_syndrome",
+    "target": "diagnosis_spinal_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: • радикулоишемический синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiculoischemic_syndrome",
+    "target": "diagnosis_cervical_disc_radiculopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: • радикулоишемический синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_root_pain_syndrome",
+    "target": "diagnosis_spinal_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: • корешковый болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_root_pain_syndrome",
+    "target": "diagnosis_cervical_disc_radiculopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/ вмешательству: • корешковый болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressive_myelopathic_syndrome",
+    "target": "symptom_radiculoischemic_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/ вмешательству: • прогрессирующий миелопатический синдром; • радикулоишемический синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressive_myelopathic_syndrome",
+    "target": "symptom_root_pain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/ вмешательству: • прогрессирующий миелопатический синдром; • корешковый болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiculoischemic_syndrome",
+    "target": "symptom_root_pain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/ вмешательству: • радикулоишемический синдром; • корешковый болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinal_stenosis",
+    "target": "diagnosis_ankylosing_hyperostosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.0 Спинальный стеноз. M48.1 Анкилозирующий гиперостоз ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinal_stenosis",
+    "target": "diagnosis_cervical_disc_myelopathy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.0 Спинальный стеноз. M50.0 Поражение межпозвоночных дисков шейного отдела с миелопатией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinal_stenosis",
+    "target": "diagnosis_cervical_disc_radiculopathy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.0 Спинальный стеноз. M50.1 Поражение межпозвоночных дисков шейного отдела с радикулопатией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinal_stenosis",
+    "target": "diagnosis_pagets_other_bone_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.0 Спинальный стеноз. M88.8 Поражение других костей при болезни Педжета.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ankylosing_hyperostosis",
+    "target": "diagnosis_cervical_disc_myelopathy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.1 Анкилозирующий гиперостоз. M50.0 Поражение межпозвоночных дисков шейного отдела с миелопатией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ankylosing_hyperostosis",
+    "target": "diagnosis_cervical_disc_radiculopathy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.1 Анкилозирующий гиперостоз. M50.1 Поражение межпозвоночных дисков шейного отдела с радикулопатией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ankylosing_hyperostosis",
+    "target": "diagnosis_pagets_other_bone_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M48.1 Анкилозирующий гиперостоз. M88.8 Поражение других костей при болезни Педжета.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cervical_disc_myelopathy",
+    "target": "diagnosis_cervical_disc_radiculopathy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M50.0 Поражение межпозвоночных дисков шейного отдела с миелопатией. M50.1 Поражение межпозвоночных дисков шейного отдела с радикулопатией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cervical_disc_myelopathy",
+    "target": "diagnosis_pagets_other_bone_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M50.0 Поражение межпозвоночных дисков шейного отдела с миелопатией. M88.8 Поражение других костей при болезни Педжета.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cervical_disc_radiculopathy",
+    "target": "diagnosis_pagets_other_bone_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 ... M50.1 Поражение межпозвоночных дисков шейного отдела с радикулопатией. M88.8 Поражение других костей при болезни Педжета.",
+    "properties": {}
+  }
+]

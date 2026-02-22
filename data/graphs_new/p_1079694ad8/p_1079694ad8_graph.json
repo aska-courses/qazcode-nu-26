@@ -1,0 +1,611 @@
+{
+  "protocol_id": "p_1079694ad8",
+  "nodes": [
+    {
+      "id": "diagnosis_asthmatic_status",
+      "type": "diagnosis",
+      "label": "Астматический статус",
+      "icd_code": "J46"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "удушье"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_fear_of_death",
+      "type": "symptom",
+      "label": "страх смерти"
+    },
+    {
+      "id": "symptom_bronchodilator_resistance",
+      "type": "symptom",
+      "label": "отсутствие бронхорасширяющего эффекта"
+    },
+    {
+      "id": "symptom_rebound_bronchospasm",
+      "type": "symptom",
+      "label": "синдром рикошета"
+    },
+    {
+      "id": "symptom_hypoxemia",
+      "type": "symptom",
+      "label": "гипоксемия"
+    },
+    {
+      "id": "symptom_hypercapnia",
+      "type": "symptom",
+      "label": "гиперкапния"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "тахипноэ"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "цианоз"
+    },
+    {
+      "id": "symptom_orthopnea",
+      "type": "symptom",
+      "label": "ортопноэ"
+    },
+    {
+      "id": "symptom_barrel_chest",
+      "type": "symptom",
+      "label": "бочкообразная грудная клетка"
+    },
+    {
+      "id": "symptom_accessory_muscle_use",
+      "type": "symptom",
+      "label": "участие вспомогательных мышц дыхания"
+    },
+    {
+      "id": "symptom_prolonged_expiration",
+      "type": "symptom",
+      "label": "удлиненный выдох"
+    },
+    {
+      "id": "symptom_neck_vein_distension",
+      "type": "symptom",
+      "label": "набухание шейных вен"
+    },
+    {
+      "id": "symptom_hyperhidrosis",
+      "type": "symptom",
+      "label": "гипергидроз"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "брадикардия"
+    },
+    {
+      "id": "symptom_paradoxical_pulse",
+      "type": "symptom",
+      "label": "парадоксальный пульс"
+    },
+    {
+      "id": "symptom_box_sound_percussion",
+      "type": "symptom",
+      "label": "коробочный звук при перкуссии"
+    },
+    {
+      "id": "symptom_dry_wheezes",
+      "type": "symptom",
+      "label": "сухие хрипы"
+    },
+    {
+      "id": "symptom_wet_wheezes",
+      "type": "symptom",
+      "label": "влажные хрипы"
+    },
+    {
+      "id": "symptom_weak_vesicular_breathing",
+      "type": "symptom",
+      "label": "ослабленное везикулярное дыхание"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "аритмия"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "повышенное артериальное давление"
+    },
+    {
+      "id": "symptom_normotension",
+      "type": "symptom",
+      "label": "нормальное артериальное давление"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "артериальная гипотензия"
+    },
+    {
+      "id": "symptom_angioedema",
+      "type": "symptom",
+      "label": "отек Квинке"
+    },
+    {
+      "id": "symptom_urticaria",
+      "type": "symptom",
+      "label": "крапивница"
+    },
+    {
+      "id": "symptom_atelectasis",
+      "type": "symptom",
+      "label": "ателектаз"
+    },
+    {
+      "id": "symptom_foreign_body_in_airways",
+      "type": "symptom",
+      "label": "инородное тело в бронхах"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_loss_of_consciousness",
+      "type": "symptom",
+      "label": "потеря сознания"
+    },
+    {
+      "id": "symptom_collapse",
+      "type": "symptom",
+      "label": "коллапс"
+    },
+    {
+      "id": "symptom_dehydration",
+      "type": "symptom",
+      "label": "дегидратация"
+    },
+    {
+      "id": "symptom_hypovolemia",
+      "type": "symptom",
+      "label": "гиповолемия"
+    },
+    {
+      "id": "symptom_hypervolemia",
+      "type": "symptom",
+      "label": "гиперволемия"
+    },
+    {
+      "id": "symptom_hypernatremia",
+      "type": "symptom",
+      "label": "гипернатриемия"
+    },
+    {
+      "id": "symptom_adrenal_insufficiency",
+      "type": "symptom",
+      "label": "снижение функции надпочечников"
+    },
+    {
+      "id": "symptom_metabolic_alkalosis",
+      "type": "symptom",
+      "label": "метаболический алкалоз"
+    },
+    {
+      "id": "symptom_metabolic_acidosis",
+      "type": "symptom",
+      "label": "метаболический ацидоз"
+    },
+    {
+      "id": "symptom_respiratory_acidosis",
+      "type": "symptom",
+      "label": "респираторный ацидоз"
+    },
+    {
+      "id": "symptom_hyperventilation",
+      "type": "symptom",
+      "label": "гипервентиляция"
+    },
+    {
+      "id": "symptom_increased_hematocrit",
+      "type": "symptom",
+      "label": "повышенный гематокрит"
+    },
+    {
+      "id": "symptom_increased_hemoglobin",
+      "type": "symptom",
+      "label": "повышенный гемоглобин"
+    },
+    {
+      "id": "symptom_eosinophilia",
+      "type": "symptom",
+      "label": "эозинофилия"
+    },
+    {
+      "id": "symptom_lymphopenia",
+      "type": "symptom",
+      "label": "лимфопения"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "многочасовое, а иногда и продолжающееся более суток удушье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженная слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fear_of_death",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "страх смерти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronchodilator_resistance",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отсутствие бронхорасширяющего эффекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rebound_bronchospasm",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром рикошета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxemia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипоксемии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypercapnia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперкапнии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахипноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_orthopnea",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ортопноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_barrel_chest",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бочкообразной грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_accessory_muscle_use",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "участие вспомогательных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_prolonged_expiration",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "удлиненного выдоха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_vein_distension",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "набухания шейных вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperhidrosis",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипергидроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "брадикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paradoxical_pulse",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "парадоксальный пульс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_box_sound_percussion",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "коробочный звук",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_wheezes",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сухие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_wet_wheezes",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "влажные хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_vesicular_breathing",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ослабленное везикулярное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "аритмии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артериальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_normotension",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нормальное артериальное давление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_angioedema",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек Квинке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urticaria",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "крапивница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atelectasis",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ателектаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foreign_body_in_airways",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инородное тело в бронхах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потеря сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_collapse",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "коллапс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dehydration",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "дегидратация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypovolemia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиповолемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypervolemia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперволемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypernatremia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипернатриемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adrenal_insufficiency",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение функции надпочечников",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_alkalosis",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "метаболический алкалоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_acidosis",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "метаболический ацидоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_acidosis",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "респираторный ацидоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperventilation",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипервентиляция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_hematocrit",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный гематокрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_hemoglobin",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный гемоглобин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eosinophilia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эозинофилия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphopenia",
+      "target": "diagnosis_asthmatic_status",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лимфопения",
+      "properties": {}
+    }
+  ]
+}

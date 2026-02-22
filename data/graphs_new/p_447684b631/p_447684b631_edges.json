@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_zhgucha_bol",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "На жгучие боли в области воздействия термического агента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhzhenie",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жжение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennaya_temperatura",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osiplost_golosa",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "осиплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashl_kopota_v_mokrote",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кашель с копотой в мокроте – в 22,6% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стридор (шумное дыхание) – в 6,9% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachikardia",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тахикардия до 90… до 110",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkalemiya",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Нарастает гиперкалиемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipovolemiya",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОШ относится к гиповолемическому типу гемодинамических нарушений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemokoncentraciya",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стойкая гемоконцентрация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemiya",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "анемия (низкий гемоглобин)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguriya",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "олигурия (уменьшенный диурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infekciya_rany",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "инфекция раны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mikrobnaya_kontaminaciya",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "микробная контаминация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistoy",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гиперемия слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oteok_legkikh",
+    "target": "diagnosis_termi_og",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отёк лёгких",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_phoor",
+    "target": "diagnosis_termi_og",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "ПХОР – первичная хирургическая обработка ожоговой раны",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_adp",
+    "target": "diagnosis_termi_og",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "АДП – аутодермопластика, основной операции при глубоких ожогах",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_allodermoplastika",
+    "target": "diagnosis_termi_og",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Аллодермопластика – используется в лечении ожогов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_nekrektomiya_odnomomentnaya",
+    "target": "diagnosis_termi_og",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Некрэктомия с одномоментной – при ожогах",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_autodermoplastika_ksenotransplantaciya",
+    "target": "diagnosis_termi_og",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Аутодермопластика, ксенотрансплантация – при ожогах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhgucha_bol",
+    "target": "symptom_zhzhenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: На жгучие боли …, жжение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachikardia",
+    "target": "symptom_giperkalemiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тахикардия… Нарастает гиперкалиемия при тяжёлом ОШ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_stridor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Признаки термоингаляционной травмы: одышка, стридор",
+    "properties": {}
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "protocol_id": "p_863a512820",
+  "nodes": [
+    {
+      "id": "diagnosis_terminal_kidney_disease",
+      "type": "diagnosis",
+      "label": "Терминальная стадия заболевания почек",
+      "icd_code": "N18.0"
+    },
+    {
+      "id": "symptom_decreased_renal_function",
+      "type": "symptom",
+      "label": "Снижение функции почек"
+    },
+    {
+      "id": "symptom_absent_renal_function",
+      "type": "symptom",
+      "label": "Отсутствие функции почек"
+    },
+    {
+      "id": "symptom_shock",
+      "type": "symptom",
+      "label": "Шок"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Гипертензия"
+    },
+    {
+      "id": "symptom_hypothermia",
+      "type": "symptom",
+      "label": "Гипотермия"
+    },
+    {
+      "id": "symptom_acidosis",
+      "type": "symptom",
+      "label": "Ацидоз"
+    },
+    {
+      "id": "symptom_hypokalemia",
+      "type": "symptom",
+      "label": "Гипокалемия"
+    },
+    {
+      "id": "symptom_hyperkalemia",
+      "type": "symptom",
+      "label": "Гиперкалемия"
+    },
+    {
+      "id": "symptom_hypocalcemia",
+      "type": "symptom",
+      "label": "Гипокальцемия"
+    },
+    {
+      "id": "symptom_hypomagnesemia",
+      "type": "symptom",
+      "label": "Гипомагнезия"
+    },
+    {
+      "id": "symptom_polyuria",
+      "type": "symptom",
+      "label": "Полиурия"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Олигоурия"
+    },
+    {
+      "id": "symptom_anuria",
+      "type": "symptom",
+      "label": "Анурия"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение"
+    },
+    {
+      "id": "symptom_thrombotic_complications",
+      "type": "symptom",
+      "label": "Тромботические осложнения"
+    },
+    {
+      "id": "symptom_infection_general",
+      "type": "symptom",
+      "label": "Инфекция"
+    },
+    {
+      "id": "symptom_resistant_microorganism_colonization",
+      "type": "symptom",
+      "label": "Колонизация резистентными микроорганизмами"
+    },
+    {
+      "id": "symptom_hiv_infection",
+      "type": "symptom",
+      "label": "ВИЧ-инфекция"
+    },
+    {
+      "id": "symptom_encephalopathy",
+      "type": "symptom",
+      "label": "Энцефалопатия"
+    },
+    {
+      "id": "symptom_delirium",
+      "type": "symptom",
+      "label": "Делирий"
+    },
+    {
+      "id": "symptom_psychosis",
+      "type": "symptom",
+      "label": "Психоз"
+    },
+    {
+      "id": "symptom_hypoxemia",
+      "type": "symptom",
+      "label": "Гипоксемия"
+    },
+    {
+      "id": "symptom_hypercapnia",
+      "type": "symptom",
+      "label": "Гиперкапния"
+    },
+    {
+      "id": "symptom_hypernatremia",
+      "type": "symptom",
+      "label": "Гипернатриемия"
+    },
+    {
+      "id": "symptom_hyperchloremia",
+      "type": "symptom",
+      "label": "Гиперхлоремия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_decreased_renal_function",
+      "target": "diagnosis_terminal_kidney_disease",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "• снижение или отсутствие функции обеих почек;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absent_renal_function",
+      "target": "diagnosis_terminal_kidney_disease",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "• снижение или отсутствие функции обеих почек;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "symptom_hypertension",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Гипотензия: − Исключить гиповолемию…; Гипертензия: − Углубить анестезию…",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypokalemia",
+      "target": "symptom_hyperkalemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Гипокалемия: − Активная коррекция…; Гиперкалия: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypocalcemia",
+      "target": "symptom_hypomagnesemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Гипокальцемия: …; Гипомагнезия: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypernatremia",
+      "target": "symptom_hyperchloremia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Гипернатриемия …; Гиперхлоремия …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyuria",
+      "target": "symptom_oliguria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Полиурия: …; Олигоурия/анурия: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyuria",
+      "target": "symptom_anuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Полиурия: …; Олигоурия/анурия: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "symptom_anuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Олигоурия/анурия: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "symptom_thrombotic_complications",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кровотечение: …; Тромботические осложнения: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_general",
+      "target": "symptom_resistant_microorganism_colonization",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Колонизация высоко резистентными …; инфекция …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_general",
+      "target": "symptom_hiv_infection",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "инфицирование ВИЧ …; инфекция …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_encephalopathy",
+      "target": "symptom_delirium",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Энцефалопатия/делирий/психоз: …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delirium",
+      "target": "symptom_psychosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Энцефалопатия/делирий/психоз: …",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_poor_fetal_movement",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез – плохое шевеление плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_weight_below_10th_percentile",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "по данным фетометрии вес плода – менее 10-ой перцентили",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zero_umbilical_artery_flow",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нулевой кровоток в артерии пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reversed_umbilical_artery_flow",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "реверсный кровоток в артерии пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_amniotic_fluid",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение количества околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Брадикардия<1",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_variable_baseline",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неустойчивый базовый",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decelerations",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Декелер... (децелерации)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atypical_nst",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атипичный нестрессовый тест (NST)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abnormal_nst",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Аномальный нестрессовый тест (NST)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pre_eclampsia",
+    "target": "diagnosis_insufficient_fetal_growth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "преэклампсия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_fetal_movement",
+    "target": "symptom_pre_eclampsia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение количества шевелений плода, преэклампсия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zero_umbilical_artery_flow",
+    "target": "symptom_reversed_umbilical_artery_flow",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нулевой и реверсный кровоток в пупочной артерии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decelerations",
+    "target": "symptom_accelerations",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "2 акцелерации ... Декелер... (децелерации)",
+    "properties": {}
+  }
+]

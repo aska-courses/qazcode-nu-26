@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_general_weakness",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "общая слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "боли в мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "боли в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Боли в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_pain",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "в полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cocardi_lesion",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "кокарды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_crusts_gums",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "геморрагические корки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painful_erosions",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "резко болезненные эрозии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ulcers",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "язвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aphthae",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "афты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subepithelial_bubbles",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "субэпителиальные пузыри",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blisters",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "волдыри",
+    "properties": {}
+  },
+  {
+    "source": "symptom_negative_nichols_sign",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Симптом Никольского отрицательный",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_regional_lymph_nodes",
+    "target": "diagnosis_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Регионарные лимфатические узлы увеличены, болезненны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blisters",
+    "target": "diagnosis_bullous_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "волдыри",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subepithelial_bubbles",
+    "target": "diagnosis_bullous_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "субэпителиальные пузыри",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cocardi_lesion",
+    "target": "diagnosis_nebulous_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "кокарды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_crusts_gums",
+    "target": "diagnosis_nebulous_erythema_multiforme",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "геморрагические корки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_general_weakness",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общая слабость, головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "symptom_joint_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "symptom_oral_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Боли в горле и в полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painful_erosions",
+    "target": "symptom_ulcers",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "резко болезненные эрозии, язвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aphthae",
+    "target": "symptom_subepithelial_bubbles",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "афты, субэпителиальные пузыри",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blisters",
+    "target": "symptom_subepithelial_bubbles",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "субэпителиальные пузыри и волдыри",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cocardi_lesion",
+    "target": "symptom_hemorrhagic_crusts_gums",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кокарды ... геморрагические корки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_erythema_multiforme",
+    "target": "diagnosis_nebulous_erythema_multiforme",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Эритема многоформная – ... Небулёзная эритема многоформная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_erythema_multiforme",
+    "target": "diagnosis_bullous_erythema_multiforme",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Эритема многоформная – ... Булёзная эритема многоформная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_nebulous_erythema_multiforme",
+    "target": "diagnosis_bullous_erythema_multiforme",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Небулёзная эритема многоформная и Булёзная эритема многоформная являются подтипами",
+    "properties": {}
+  }
+]

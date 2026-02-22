@@ -1,0 +1,251 @@
+{
+  "protocol_id": "p_e2e6a04e9a",
+  "nodes": [
+    {
+      "id": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "diagnosis",
+      "label": "Экстракция эндокардиальных электродов",
+      "icd_code": "T82.1"
+    },
+    {
+      "id": "symptom_infikciya",
+      "type": "symptom",
+      "label": "инфекция",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "сепсис",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zhizneugrozhaushchie_aritmii",
+      "type": "symptom",
+      "label": "жизнеугрожающие аритмии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_trombolemboliya",
+      "type": "symptom",
+      "label": "тромбоэмболия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_obliteration_okklyuziya_ven",
+      "type": "symptom",
+      "label": "облитерация или окклюзия вен",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hronicheskaya_bol_v_oblasti_ekss",
+      "type": "symptom",
+      "label": "хроническая боль в области ложа ЭКС",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_otek_legkih",
+      "type": "symptom",
+      "label": "отёк лёгких",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_koagulopatiya",
+      "type": "symptom",
+      "label": "коагулопатия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_arterialnaya_gipertenziya",
+      "type": "symptom",
+      "label": "артериальная гипертензия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_elektrolitnyy_disbalans",
+      "type": "symptom",
+      "label": "электролитный дисбаланс",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zastoynaya_serdechnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "застойная сердечная недостаточность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_funkcii_trihostorozhnogo_klaffana",
+      "type": "symptom",
+      "label": "нарушения функции трехстворчатого клапана",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_sepsis",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Сепсис (включая инфекционный эндокардит) как результат инфицирования любой трансвенозной части электрода...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhizneugrozhaushchie_aritmii",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жизнеугрожающие аритмии, провоцируемые электродом или его фрагментом.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombolemboliya",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Клинически значимые эпизоды тромбоэмболии, связанные с наличием электрода или его фрагмента.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obliteration_okklyuziya_ven",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Облитерация или окклюзия используемых для имплантации вен при необходимости введения новой системы ЭКС.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infikciya",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Локальное инфицирование ложа ЭКС, эрозия, гнойные свищи, не вовлекающие в процесс трансвенозную часть электродов (T81.8).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hronicheskaya_bol_v_oblasti_ekss",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Хроническая боль в области ложа ЭКС или по ходу электрода, значительно снижающая качество жизни пациента.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_trihostorozhnogo_klaffana",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее распространенные из них - инфекция, тромбоэмболии, нарушения функции трехстворчатого клапана.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infikciya",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "нелеченный активный инфекционный процесс – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "тяжелая форма анемии – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterialnaya_gipertenziya",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "злокачественная некоррегируемая артериальная гипертензия – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elektrolitnyy_disbalans",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "тяжелый симптоматический электролитный дисбаланс – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zastoynaya_serdechnaya_nedostatochnost",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "декомпенсированная застойная сердечная недостаточность – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_legkih",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "отек легких – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koagulopatiya",
+      "target": "diagnosis_extrakcija_endokardialnyh_elektrov",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "тяжелая коагулопатия – противопоказание к использованию нового метода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infikciya",
+      "target": "symptom_sepsis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Сепсис (включая инфекционный эндокардит) ... инфекция ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infikciya",
+      "target": "symptom_trombolemboliya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее распространенные из них - инфекция, тромбоэмболии...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infikciya",
+      "target": "symptom_narushenie_funkcii_trihostorozhnogo_klaffana",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее распространенные из них - инфекция, ... нарушения функции трехстворчатого клапана.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "symptom_trombolemboliya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее распространенные из них - инфекция, тромбоэмболии...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "symptom_narushenie_funkcii_trihostorozhnogo_klaffana",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее распространенные из них - инфекция, ... нарушения функции трехстворчатого клапана.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombolemboliya",
+      "target": "symptom_narushenie_funkcii_trihostorozhnogo_klaffana",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наиболее распространенные из них - инфекция, тромбоэмболии, нарушения функции трехстворчатого клапана.",
+      "properties": {}
+    }
+  ]
+}

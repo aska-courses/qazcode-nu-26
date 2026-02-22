@@ -1,0 +1,345 @@
+{
+  "protocol_id": "p_d7709bb013",
+  "nodes": [
+    {
+      "id": "diagnosis_m51_0",
+      "type": "diagnosis",
+      "label": "Поражения межпозвоночных дисков других отделов с миелопатией",
+      "icd_code": "M51.0"
+    },
+    {
+      "id": "diagnosis_m51_1",
+      "type": "diagnosis",
+      "label": "Поражения межпозвоночных дисков других отделов с радикулопатией",
+      "icd_code": "M51.1"
+    },
+    {
+      "id": "symptom_koreshkovyi_sindrom",
+      "type": "symptom",
+      "label": "корешковый синдром"
+    },
+    {
+      "id": "symptom_mielopatiicheskij_sindrom",
+      "type": "symptom",
+      "label": "миелопатический синдром"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "боль"
+    },
+    {
+      "id": "symptom_narushenie_chuvstvitelnosti",
+      "type": "symptom",
+      "label": "нарушение чувствительности"
+    },
+    {
+      "id": "symptom_gipestaziya",
+      "type": "symptom",
+      "label": "гипестезия"
+    },
+    {
+      "id": "symptom_giperpatia",
+      "type": "symptom",
+      "label": "гиперпатия"
+    },
+    {
+      "id": "symptom_parez",
+      "type": "symptom",
+      "label": "парез"
+    },
+    {
+      "id": "symptom_plegiya",
+      "type": "symptom",
+      "label": "плегия"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_tazovykh_organov",
+      "type": "symptom",
+      "label": "нарушение функции тазовых органов"
+    },
+    {
+      "id": "symptom_lumbalgicheskij_sindrom",
+      "type": "symptom",
+      "label": "люмбалгический синдром"
+    },
+    {
+      "id": "symptom_snizhenie_sily_myshts",
+      "type": "symptom",
+      "label": "снижение силы мышц"
+    },
+    {
+      "id": "symptom_gipotrofiya_myshts",
+      "type": "symptom",
+      "label": "гипотрофия мышц"
+    },
+    {
+      "id": "symptom_reflektornii_bolevyi_sindrom",
+      "type": "symptom",
+      "label": "рефлекторный болевой синдром"
+    },
+    {
+      "id": "symptom_neuropaticheskaya_bol",
+      "type": "symptom",
+      "label": "нейропатическая боль"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_koreshkovyi_sindrom",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "корешковый синдром ... при отсутствии эффекта от консервативной терапии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mielopatiicheskij_sindrom",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миелопатический синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы на боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы на боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_chuvstvitelnosti",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение чувствительности (гипестезия, гиперпатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_chuvstvitelnosti",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение чувствительности (гипестезия, гиперпатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipestaziya",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipestaziya",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperpatia",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперпатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperpatia",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперпатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parez",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможен парез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parez",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможен парез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plegiya",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плегия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plegiya",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плегия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_tazovykh_organov",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функции тазовых органов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_tazovykh_organov",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функции тазовых органов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sily_myshts",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение силы мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sily_myshts",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение силы мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotrofiya_myshts",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипотрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotrofiya_myshts",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипотрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reflektornii_bolevyi_syndrom",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отраженного рефлекторного болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reflektornii_bolevyi_syndrom",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отраженного рефлекторного болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neuropaticheskaya_bol",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейропатической боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neuropaticheskaya_bol",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейропатической боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koreshkovyi_sindrom",
+      "target": "symptom_mielopatiicheskij_sindrom",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "корешковый синдром, миелопатический синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipestaziya",
+      "target": "symptom_giperpatia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипестезия, гиперпатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_chuvstvitelnosti",
+      "target": "symptom_gipestaziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение чувствительности (гипестезия, гиперпатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_chuvstvitelnosti",
+      "target": "symptom_giperpatia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение чувствительности (гипестезия, гиперпатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parez",
+      "target": "symptom_plegiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Возможен парез или плегия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_narushenie_chuvstvitelnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы на боли и нарушение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sily_myshts",
+      "target": "symptom_gipotrofiya_myshts",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "снижение силы мышц, гипотрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m51_0",
+      "target": "diagnosis_m51_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(-ы) МКБ-10: M51.0 … M51.1 …",
+      "properties": {}
+    }
+  ]
+}

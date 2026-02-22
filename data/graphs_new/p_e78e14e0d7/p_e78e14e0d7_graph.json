@@ -1,0 +1,282 @@
+{
+  "protocol_id": "p_e78e14e0d7",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_sore_throat",
+      "type": "symptom",
+      "label": "боль в горле"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головная боль"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "потливость"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "утомляемость"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "увеличение лимфоузлов"
+    },
+    {
+      "id": "symptom_nasal_breathing_difficulty",
+      "type": "symptom",
+      "label": "затруднённое носовое дыхание"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "боль в суставах"
+    },
+    {
+      "id": "symptom_muscle_pain",
+      "type": "symptom",
+      "label": "боль в мышцах"
+    },
+    {
+      "id": "symptom_rash",
+      "type": "symptom",
+      "label": "сыпь"
+    },
+    {
+      "id": "symptom_angina",
+      "type": "symptom",
+      "label": "ангина"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_adenoiditis",
+      "type": "symptom",
+      "label": "аденоидит"
+    },
+    {
+      "id": "symptom_periorbital_edema",
+      "type": "symptom",
+      "label": "периорбитальный отёк"
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "желтуха"
+    },
+    {
+      "id": "symptom_palatal_rash",
+      "type": "symptom",
+      "label": "высыпания на нёбе"
+    },
+    {
+      "id": "symptom_facial_edema",
+      "type": "symptom",
+      "label": "отёчность лица"
+    },
+    {
+      "id": "diagnosis_infectious_mononucleosis_b27",
+      "type": "diagnosis",
+      "label": "Инфекционный мононуклеоз",
+      "icd_code": "B27"
+    },
+    {
+      "id": "diagnosis_mononucleosis_gamma_herpesvirus_b27_0",
+      "type": "diagnosis",
+      "label": "Мононуклеоз, вызванный гамма‑герпетическим вирусом",
+      "icd_code": "B27.0"
+    },
+    {
+      "id": "diagnosis_mononucleosis_ebv_b27_1",
+      "type": "diagnosis",
+      "label": "Мононуклеоз, вызванный вирусом Эпштейна‑Барр",
+      "icd_code": "B27.1"
+    },
+    {
+      "id": "diagnosis_other_infectious_mononucleosis_b27_8",
+      "type": "diagnosis",
+      "label": "Другой инфекционный мононуклеоз",
+      "icd_code": "B27.8"
+    },
+    {
+      "id": "diagnosis_unspecified_infectious_mononucleosis_b27_9",
+      "type": "diagnosis",
+      "label": "Инфекционный мононуклеоз неуточнённый",
+      "icd_code": "B27.9"
+    },
+    {
+      "id": "diagnosis_immunodeficiency_ebv_d82_3",
+      "type": "diagnosis",
+      "label": "Иммунодефицит вследствие наследственного дефекта, вызванного вирусом Эпштейна‑Барр",
+      "icd_code": "D82.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характеризуется лихорадкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sore_throat",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "увеличение лимфоузлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "спленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_angina",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ангина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rash",
+      "target": "diagnosis_infectious_mononucleosis_b27",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_sore_throat",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лихорадка, боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "symptom_hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "увеличение лимфоузлов ... гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_infectious_mononucleosis_b27",
+      "target": "diagnosis_mononucleosis_gamma_herpesvirus_b27_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10 B27 Инфекционный мононуклеоз B27.0 Мононуклеоз, вызванный гамма-герпетическим вирусом",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_infectious_mononucleosis_b27",
+      "target": "diagnosis_mononucleosis_ebv_b27_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "B27.1 Мононуклеоз, вызванный вирусом Эпштейна‑Барр",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_infectious_mononucleosis_b27",
+      "target": "diagnosis_other_infectious_mononucleosis_b27_8",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "B27.8 Другой инфекционный мононуклеоз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_infectious_mononucleosis_b27",
+      "target": "diagnosis_unspecified_infectious_mononucleosis_b27_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "B27.9 Инфекционный мононуклеоз неуточнённый",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mononucleosis_ebv_b27_1",
+      "target": "diagnosis_immunodeficiency_ebv_d82_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "D82.3 Иммунодефицит вследствие наследственного дефекта, вызванного вирусом Эпштейна‑Барр",
+      "properties": {}
+    }
+  ]
+}

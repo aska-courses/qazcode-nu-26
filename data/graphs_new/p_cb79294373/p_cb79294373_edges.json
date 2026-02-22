@@ -1,0 +1,74 @@
+[
+  {
+    "source": "symptom_obshchee_nedomoganie",
+    "target": "diagnosis_otmiranie_i_ottorzhenie_transplantata_pochki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • общее недомогание, слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slaboct",
+    "target": "diagnosis_otmiranie_i_ottorzhenie_transplantata_pochki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • общее недомогание, слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oteki",
+    "target": "diagnosis_otmiranie_i_ottorzhenie_transplantata_pochki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • отёки, боли/напряжения/выбухания в области почечного трансплантата;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_transplantata",
+    "target": "diagnosis_otmiranie_i_ottorzhenie_transplantata_pochki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в области трансплантата;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_upolneniya_v_oblasti_transplantata",
+    "target": "diagnosis_otmiranie_i_ottorzhenie_transplantata_pochki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • уплотнения/выбухание/боли в области трансплантата;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obshchee_nedomoganie",
+    "target": "symptom_slaboct",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • общее недомогание, слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oteki",
+    "target": "symptom_bol_v_oblasti_transplantata",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • отёки, боли/напряжения/выбухания в области почечного трансплантата;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_terminalnaya_hronicheskaya_pochechnaya_nedostatochnost",
+    "target": "diagnosis_nalichie_transplantirovannoi_pochki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 N 18.0 Терминальная хроническая почечная недостаточность Z 94.0 Наличие трансплантированной почки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_otmiranie_i_ottorzhenie_transplantata_pochki",
+    "target": "diagnosis_nalichie_transplantirovannoi_pochki",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 N 18.0 Терминальная хроническая почечная недостаточность Z 94.0 Наличие трансплантированной почки T 86.1 Отмирание и отторжение трансплантата почки",
+    "properties": {}
+  }
+]

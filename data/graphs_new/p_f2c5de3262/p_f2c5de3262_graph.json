@@ -1,0 +1,256 @@
+{
+  "protocol_id": "p_f2c5de3262",
+  "nodes": [
+    {
+      "id": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "diagnosis",
+      "label": "Облитерирующий тромбоангиит",
+      "icd_code": "I73.1"
+    },
+    {
+      "id": "symptom_pokholodanie_nizhnih_konechnostey",
+      "type": "symptom",
+      "label": "Похолодание нижних конечностей"
+    },
+    {
+      "id": "symptom_zyabkost_nizhnih_konechnostey",
+      "type": "symptom",
+      "label": "Зябкость нижних конечностей"
+    },
+    {
+      "id": "symptom_murashki_nizhnie_konechnosti",
+      "type": "symptom",
+      "label": "Ощущение «мурашек» в нижних конечностях"
+    },
+    {
+      "id": "symptom_peremezhayushchaya_hromota_hodba",
+      "type": "symptom",
+      "label": "Перемежающаяся хромота при ходьбе"
+    },
+    {
+      "id": "symptom_bol_hodba_korotkoe_rasstoyanie",
+      "type": "symptom",
+      "label": "Боль при ходьбе на короткое расстояние"
+    },
+    {
+      "id": "symptom_bol_v_pokoe",
+      "type": "symptom",
+      "label": "Боль в покое"
+    },
+    {
+      "id": "symptom_yazvno_nekroticheskie_izmenenija",
+      "type": "symptom",
+      "label": "Язвенно-некротические изменения тканей"
+    },
+    {
+      "id": "symptom_bol_myshts_kisti_predplechya",
+      "type": "symptom",
+      "label": "Боль в мышцах кисти и предплечья при работе руками"
+    },
+    {
+      "id": "symptom_povishennaja_chuvstvitelnost_kholodu",
+      "type": "symptom",
+      "label": "Повышенная чувствительность к холоду (кисти и стопы)"
+    },
+    {
+      "id": "symptom_poblednenie_palcev_pri_ohlazhdenii",
+      "type": "symptom",
+      "label": "Побледнение пальцев при охлаждении"
+    },
+    {
+      "id": "symptom_intensivnoe_pokrasknenie_stop_i_kistey",
+      "type": "symptom",
+      "label": "Интенсивное покраснение стоп и кистей"
+    },
+    {
+      "id": "symptom_otstutstvie_pulsa_na_stopah",
+      "type": "symptom",
+      "label": "Отсутствие пульса на стопах"
+    },
+    {
+      "id": "symptom_umenshennaja_chastota_i_napolnenie_pulsa",
+      "type": "symptom",
+      "label": "Уменьшённая частота и наполнение пульса"
+    },
+    {
+      "id": "symptom_migriruyushchij_tromboflebiti",
+      "type": "symptom",
+      "label": "Мигрирующий поверхностный тромбофлебит"
+    },
+    {
+      "id": "symptom_infectcii_kozhi_i_podkozhnoj_kletchatki",
+      "type": "symptom",
+      "label": "Инфекции кожи и подкожной клетчатки в дистальных отделах"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pokholodanie_nizhnih_konechnostey",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей, чувство «мурашек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zyabkost_nizhnih_konechnostey",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей, чувство «мурашек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_murashki_nizhnie_konechnosti",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей, чувство «мурашек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peremezhayushchaya_hromota_hodba",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы перемежающейся хромоты появляются только при прохождении расстояния больше 1 км",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_hodba_korotkoe_rasstoyanie",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при II степени боль появляется при ходьбе на меньшее расстояние. Расстояние 200м принято за условный критерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pokoe",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при III степени ишемии конечности появляется боль в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yazvno_nekroticheskie_izmenenija",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "для IV степени ишемии характерное проявление язвенно-некротических изменений тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_myshts_kisti_predplechya",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при работе руками возникают боли в мышцах кисти и предплечья («перемежающаяся хромота» верхних конечностей)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaja_chuvstvitelnost_kholodu",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная чувствительность кистей и стоп к холоду",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poblednenie_palcev_pri_ohlazhdenii",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможно резкое побледнение пальцев стоп и кистей при охлаждении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intensivnoe_pokrasknenie_stop_i_kistey",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "интенсивное покраснение стоп, кистей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstutstvie_pulsa_na_stopah",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса на стопах, тогда как он сохранен на бедренных и подколенных артериях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umenshennaja_chastota_i_napolnenie_pulsa",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшены частота и наполнение пульса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_migriruyushchij_tromboflebiti",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в анамнезе частый мигрирующий поверхностный тромбофлебит в дистальных частях конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectcii_kozhi_i_podkozhnoj_kletchatki",
+      "target": "diagnosis_obliteriruyushchiy_trombangiit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в анамнезе ... вторичные инфекции кожи и подкожной клетчатки в дистальных отделах конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokholodanie_nizhnih_konechnostey",
+      "target": "symptom_zyabkost_nizhnih_konechnostey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей, чувство «мурашек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokholodanie_nizhnih_konechnostey",
+      "target": "symptom_murashki_nizhnie_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей, чувство «мурашек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zyabkost_nizhnih_konechnostey",
+      "target": "symptom_murashki_nizhnie_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при I степени ишемии – похолодание, зябкость нижних конечностей, чувство «мурашек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishennaja_chuvstvitelnost_kholodu",
+      "target": "symptom_poblednenie_palcev_pri_ohlazhdenii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышенная чувствительность кистей и стоп к холоду; возможно резкое побледнение пальцев стоп и кистей при охлаждении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intensivnoe_pokrasknenie_stop_i_kistey",
+      "target": "symptom_otstutstvie_pulsa_na_stopah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "интенсивное покраснение стоп, кистей; отсутствие пульса на стопах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstutstvie_pulsa_na_stopah",
+      "target": "symptom_umenshennaja_chastota_i_napolnenie_pulsa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса на стопах... уменьшены частота и наполнение пульса",
+      "properties": {}
+    }
+  ]
+}

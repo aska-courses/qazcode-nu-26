@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sonlivost",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_razmerov_cherpa",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_zreniya",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_razvitiya",
+    "target": "diagnosis_s70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, сонливость, тошноту, рвоту, увеличение размеров черепа, нарушение зрения, судороги, вынужденное положение головы, отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "symptom_toshnota",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: Жалобы на головную боль, ... тошноту, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "symptom_toshnota",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... тошноту, рвоту, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_razmerov_cherpa",
+    "target": "symptom_narushenie_zreniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... увеличение размеров черепа, нарушение зрения, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... судороги, вынужденное положение головы, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_razvitiya",
+    "target": "symptom_povyshee_vnutricherepnoe_davlenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Симптомы повышенного внутричерепного давления ... отставание в физическом и психическом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s70",
+    "target": "diagnosis_s71",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Злокачественное новообразование ... Злокачественное новообразование головного мозга ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s70",
+    "target": "diagnosis_s72",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Злокачественное новообразование ... Злокачественное новообразование спинного мозга, черепных нервов и других отделов центральной нервной системы ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s71",
+    "target": "diagnosis_s72",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Злокачественное новообразование головного мозга ... Злокачественное новообразование спинного мозга, черепных нервов и других отделов центральной нервной системы ...",
+    "properties": {}
+  }
+]

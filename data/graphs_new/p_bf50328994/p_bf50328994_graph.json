@@ -1,0 +1,120 @@
+{
+  "protocol_id": "p_bf50328994",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "ограничение движений в суставе"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "хромота"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "болевой синдром"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "гипотрофия мышц"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "болезненность в проекции суставной щели"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "болезненность в проекции энтезисов мышц и сухожилий"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "остеопороза"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Контрактура сустава",
+      "icd_code": "M24.5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение движений в суставе, в конечном итоге приводящее к хромоте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение движений в суставе, в конечном итоге приводящее к хромоте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром выражен в той или иной степени, преимущественно при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто наблюдается гипотрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в проекции суставной щели",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в проекции энтезисов мышц и сухожилий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "явления остеопороза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ограничение движений в суставе, в конечном итоге приводящее к хромоте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность в проекции суставной щели, болезненность в проекции энтезисов мышц и сухожилий",
+      "properties": {}
+    }
+  ]
+}

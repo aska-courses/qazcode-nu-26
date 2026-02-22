@@ -1,0 +1,619 @@
+{
+  "protocol_id": "p_ed4aba2bf6",
+  "nodes": [
+    {
+      "id": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "diagnosis",
+      "label": "Острый лимфобластный лейкоз",
+      "icd_code": "C91.0"
+    },
+    {
+      "id": "diagnosis_lymphoid_leukemia",
+      "type": "diagnosis",
+      "label": "Лимфоидный лейкоз",
+      "icd_code": "C91"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_malaise",
+      "type": "symptom",
+      "label": "Недомогание"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_bone_pain",
+      "type": "symptom",
+      "label": "Боли в костях"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Боли в суставах"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность"
+    },
+    {
+      "id": "symptom_oral_bleeding",
+      "type": "symptom",
+      "label": "Кровоточивость слизистых полости рта"
+    },
+    {
+      "id": "symptom_nasal_bleeding",
+      "type": "symptom",
+      "label": "Кровоточивость носа"
+    },
+    {
+      "id": "symptom_other_bleeding",
+      "type": "symptom",
+      "label": "Другие виды кровотечений"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличение периферических лимфатических узлов"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "Увеличение размеров живота"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боли в животе"
+    },
+    {
+      "id": "symptom_nasal_breathing_difficulty",
+      "type": "symptom",
+      "label": "Затруднённое носовое дыхание"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_testicular_enlargement",
+      "type": "symptom",
+      "label": "Одностороннее или двухстороннее безболезненное увеличение яичек"
+    },
+    {
+      "id": "symptom_hyperplastic_syndrome",
+      "type": "symptom",
+      "label": "Гиперпластический синдром"
+    },
+    {
+      "id": "symptom_hemorrhagic_syndrome",
+      "type": "symptom",
+      "label": "Геморрагический синдром"
+    },
+    {
+      "id": "symptom_anemic_syndrome",
+      "type": "symptom",
+      "label": "Анемический синдром"
+    },
+    {
+      "id": "symptom_intoxication_syndrome",
+      "type": "symptom",
+      "label": "Интоксикационный синдром"
+    },
+    {
+      "id": "symptom_infectious_complications",
+      "type": "symptom",
+      "label": "Инфекционные осложнения"
+    },
+    {
+      "id": "symptom_tumor_like_mass",
+      "type": "symptom",
+      "label": "Опухолевидное образование любой локализации"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... на слабость, недомогание, повышение температуры тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... на слабость, недомогание, повышение температуры тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... на слабость, недомогание, повышение температуры тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... на слабость, недомогание, повышение температуры тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... повышение температуры тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... повышение температуры тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_pain",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... боли в костях и/или суставах ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_pain",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... боли в костях и/или суставах ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... боли в костях и/или суставах ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... боли в костях и/или суставах ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... бледность ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... бледность ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_bleeding",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... кровоточивость слизистых полости рта, носа, другие виды кровотечений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_bleeding",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... кровоточивость слизистых полости рта, носа, другие виды кровотечений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_bleeding",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... кровоточивость слизистых полости рта, носа, другие виды кровотечений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_bleeding",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... кровоточивость слизистых полости рта, носа, другие виды кровотечений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_other_bleeding",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... кровоточивость слизистых полости рта, носа, другие виды кровотечений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_other_bleeding",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... кровоточивость слизистых полости рта, носа, другие виды кровотечений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... увеличение периферических лимфатических узлов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... увеличение периферических лимфатических узлов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... увеличение размеров живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... увеличение размеров живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... боли в животе ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... боли в животе ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_breathing_difficulty",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... затруднённое носовое дыхание ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_breathing_difficulty",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... затруднённое носовое дыхание ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... одышку ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диагностические критерии: ... одышку ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_testicular_enlargement",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тестикулярный рецидив диагностируется в случае одно или двухстороннего безболезненного увеличения яичек ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_testicular_enlargement",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тестикулярный рецидив диагностируется в случае одно или двухстороннего безболезненного увеличения яичек ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperplastic_syndrome",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: гиперпластического; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperplastic_syndrome",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: гиперпластического; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... геморрагического; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... геморрагического; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemic_syndrome",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... анемического; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemic_syndrome",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... анемического; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication_syndrome",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... интоксикационного; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication_syndrome",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... интоксикационного; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_complications",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... инфекционных осложнений.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_complications",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая симптоматика развёрнутой стадии ОЛЛ складывается из пяти основных синдромов Радченко: ... инфекционных осложнений.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_like_mass",
+      "target": "diagnosis_acute_lymphoblastic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При внекостномозговых рецидивах возможно опухолевидное образование любой локализации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_like_mass",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При внекостномозговых рецидивах возможно опухолевидное образование любой локализации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_pain",
+      "target": "symptom_joint_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в костях и/или суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_bleeding",
+      "target": "symptom_nasal_bleeding",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоточивость слизистых полости рта, носа, другие виды кровотечений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_bleeding",
+      "target": "symptom_other_bleeding",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоточивость слизистых полости рта, носа, другие виды кровотечений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_bleeding",
+      "target": "symptom_other_bleeding",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоточивость слизистых полости рта, носа, другие виды кровотечений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение периферических лимфатических узлов, увеличение размеров живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение периферических лимфатических узлов, боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение размеров живота, боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_breathing_difficulty",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "затруднённое носовое дыхание, одышку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_seizures",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_seizures",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_lymphoblastic_leukemia",
+      "target": "diagnosis_lymphoid_leukemia",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 C91.0 Острый лимфобластный лейкоз; МКБ-9 C91 Лимфоидный лейкоз",
+      "properties": {}
+    }
+  ]
+}

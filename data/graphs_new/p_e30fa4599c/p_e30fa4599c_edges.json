@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_mucositis",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Токсичность: Тошнота, рвота в течение терапии; III‑IV мукозит, геморрагический энтероколит;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucositis",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Токсичность: Тошнота, рвота в течение терапии; III‑IV мукозит, геморрагический энтероколит;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucositis",
+    "target": "symptom_hemorrhagic_enterocolitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Токсичность: Тошнота, рвота в течение терапии; III‑IV мукозит, геморрагический энтероколит;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucositis",
+    "target": "symptom_pneumonia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Токсичность: ... Пневмония (при восстановление нейтрофилов).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: одышка, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... кашель, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... тошнота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... рвота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_erythema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... кожная реакция по типу эритемы, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... артериальная гипертензия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_hypersalivation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... гиперсаливация.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "symptom_hyperbilirubinemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Желтуха с повышенным уровнем печеночных ферментов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c81",
+    "target": "diagnosis_c82",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Неходжкинские лимфомы во второй ремиссии (при отсутствии донора); Болезнь Ходжкина - Резистентность к ХТ ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c81",
+    "target": "diagnosis_c83",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Неходжкинские лимфомы во второй ремиссии (при отсутствии донора); Болезнь Ходжкина - Резистентность к ХТ ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c40_41",
+    "target": "diagnosis_c75_1_75_5_c46_49",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Саркома Юинга - стадия IV ... мягкотканные саркомы - стадия IV ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c70_72",
+    "target": "diagnosis_c40_41",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Солидные опухоли: ... Саркома Юинга ... мягкотканные саркомы ... нейробластома ... ретинобластома ... опухоль Вильмса ... опухоли мозга - дети с медуллобластомой ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c70_72",
+    "target": "diagnosis_c56",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Солидные опухоли: ... опухоль Вильмса ... опухоли мозга - дети с медуллобластомой ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c70_72",
+    "target": "diagnosis_c64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Солидные опухоли: ... опухоль Вильмса ... опухоли мозга - дети с медуллобластомой ...",
+    "properties": {}
+  }
+]

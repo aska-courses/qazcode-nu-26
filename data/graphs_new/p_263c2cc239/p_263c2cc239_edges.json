@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_krovotereenie_iz_polovyh_putey",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • кровотечение из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_v_nizu_zhivota",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боли внизу живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obshchaya_slabost",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • общая слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • головокружение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardiya",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Перед падением систолического АД частота сердечных сокращений увеличивается",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotenzia",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипотензия (низкое артериальное давление)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shokovyi_indeks_povyshenniy",
+    "target": "diagnosis_o72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ШИ более точный индикатор гиповолемии, превышение 0,9 может предупреждать о гемодинамической нестабильности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_kozhnix_pokrovov",
+    "target": "symptom_mramornost_kozhi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кожа Бледная, прохладная, мраморность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguriya",
+    "target": "symptom_anuriya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Олигурия/анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_laktoatsidoz",
+    "target": "symptom_psihicheskiy_status",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Лактоацидоз, изменения психического статуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koagulopatiya",
+    "target": "symptom_dvs_sindrom",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "коагулопатия, ДВС-синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksija",
+    "target": "symptom_metabolicheskiy_acidoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипоксия, метаболический ацидоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o67",
+    "target": "diagnosis_o72",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Коды МКБ-10: O67 … O70 … O71 … O72 … перечислены вместе в вводной части протокола",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o70",
+    "target": "diagnosis_o71",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Коды МКБ-10: O67 … O70 … O71 … O72 … перечислены вместе в вводной части протокола",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o71",
+    "target": "diagnosis_o72",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Коды МКБ-10: O67 … O70 … O71 … O72 … перечислены вместе в вводной части протокола",
+    "properties": {}
+  }
+]

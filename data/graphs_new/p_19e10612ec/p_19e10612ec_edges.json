@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_acute_heart_failure",
+    "target": "diagnosis_hypertensive_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... с признаками острого повреждения органов-мишеней ... Острая сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_coronary_syndrome",
+    "target": "diagnosis_hypertensive_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... с признаками острого повреждения органов-мишеней ... Острый коронарный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_encephalopathy",
+    "target": "diagnosis_hypertensive_heart_kidney_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... с признаками острого повреждения органов-мишеней ... Гипертензивная энцефалопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_retinopathy",
+    "target": "diagnosis_hypertensive_heart_kidney_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... с признаками острого повреждения органов-мишеней ... Гипертензивная ретинопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_renal_failure",
+    "target": "diagnosis_hypertensive_kidney_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... с признаками острого повреждения органов-мишеней ... Острая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_white_coat_hypertension",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гипертензия белого халата – при повторных посещениях ... АД оказывается повышенным, а вне него ... нормальным",
+    "properties": {}
+  },
+  {
+    "source": "symptom_masked_hypertension",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Маскированная гипертензия – АД может быть нормальным в офисе и патологически повышенным вне лечебного учреждения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_resistant_hypertension",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Резистентная АГ - лечение ... не приводит к снижению САД и ДАД до значений <140/90",
+    "properties": {}
+  },
+  {
+    "source": "symptom_isolated_systolic_hypertension",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Изолированная систолическая АГ ≥ 140 и/или < 90",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microalbuminuria",
+    "target": "diagnosis_hypertensive_kidney_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Микроальбуминурия (30-300 мг/24 ч) ... показатель поражения почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperuricemia",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Уровень мочевой кислоты ... у пациентов высокого риска ССО",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertriglyceridemia",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "триглицериды крови (>1,7 ммоль/л - гипертриглицеридемия) ... фактор риска",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercholesterolemia",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенный уровень холестерина ... фактор риска",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperglycemia",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенный уровень глюкозы ... фактор риска",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_hba1c",
+    "target": "diagnosis_essential_hypertension",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенный уровень HbA1c ... фактор риска",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_encephalopathy",
+    "target": "symptom_acute_heart_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... с признаками острого повреждения органов-мишеней ... Гипертензивная энцефалопатия, Острая сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_heart_failure",
+    "target": "symptom_acute_coronary_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... Острая сердечная недостаточность, Острый коронарный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_coronary_syndrome",
+    "target": "symptom_acute_cerebrovascular_event",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... Острый коронарный синдром, Острое нарушение мозгового кровообращения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_cerebrovascular_event",
+    "target": "symptom_hypertensive_retinopathy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... Острое нарушение мозгового кровообращения, Гипертензивная ретинопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_retinopathy",
+    "target": "symptom_acute_renal_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... Гипертензивная ретинопатия, Острая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_renal_failure",
+    "target": "symptom_pre_eclampsia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Экстренная гипертензия ... Острая почечная недостаточность, Преэклампсия и эклампсия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_essential_hypertension",
+    "target": "diagnosis_hypertensive_heart_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: I10 Эссенциальная гипертензия, I11 Гипертензивная болезнь сердца",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_essential_hypertension",
+    "target": "diagnosis_hypertensive_kidney_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: I10 Эссенциальная гипертензия, I12 Гипертензивная болезнь с преимущественным поражением почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_essential_hypertension",
+    "target": "diagnosis_hypertensive_heart_kidney_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: I10 Эссенциальная гипертензия, I13 Гипертензивная болезнь с преимущественным поражением сердца и почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypertensive_heart_disease",
+    "target": "diagnosis_hypertensive_kidney_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: I11 Гипертензивная болезнь сердца, I12 Гипертензивная болезнь почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypertensive_heart_disease",
+    "target": "diagnosis_hypertensive_heart_kidney_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: I11 Гипертензивная болезнь сердца, I13 Гипертензивная болезнь сердца и почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypertensive_kidney_disease",
+    "target": "diagnosis_hypertensive_heart_kidney_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: I12 Гипертензивная болезнь почек, I13 Гипертензивная болезнь сердца и почек",
+    "properties": {}
+  }
+]

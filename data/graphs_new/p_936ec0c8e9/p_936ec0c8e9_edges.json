@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_brain_compression",
+    "target": "diagnosis_q75_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цель проведения процедуры/... устранение сдавления мозга костями свода черепа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_q75_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цель проведения процедуры/... коррекция косметического дефекта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intracranial_hypertension",
+    "target": "diagnosis_q75_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "циркулярная краниотомия (рекомендуется для устранения внутричерепной гипертензии у детей старшего возраста)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurological_symptomatology",
+    "target": "diagnosis_q75_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "регресс неврологической симптоматики",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypochromic_anemia",
+    "target": "diagnosis_q75_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "противопоказания ... гипохромная анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coagulopathy",
+    "target": "diagnosis_q75_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "противопоказания ... нарушение свертываемости крови (коагулопатия, гемофилия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemophilia",
+    "target": "diagnosis_q75_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "противопоказания ... нарушение свертываемости крови (коагулопатия, гемофилия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microcephaly",
+    "target": "diagnosis_q75_0",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "противопоказания ... микроцефалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_early_recurrence_kraniosynostosis",
+    "target": "diagnosis_q75_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие раннего рецидива кранисиностоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brain_compression",
+    "target": "symptom_intracranial_hypertension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "цель ... устранение сдавления мозга ... устранения внутричерепной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_0",
+    "target": "diagnosis_q75_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.0 Краниосиностоз Q75.1.Краниофациальныйдизостоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_0",
+    "target": "diagnosis_q75_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.0 ... Q75.2 Гипертелоризм",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_0",
+    "target": "diagnosis_q87_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.0 ... Q87.0 Синдром врожденных аномалий, влияющих преимущественно на внешний вид лица",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_0",
+    "target": "diagnosis_q87_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.0 ... Q87.1 Синдром врожденных аномалий, проявляющихся преимущественно карликовостью",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_1",
+    "target": "diagnosis_q75_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.1 ... Q75.2",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_1",
+    "target": "diagnosis_q87_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.1 ... Q87.0",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_1",
+    "target": "diagnosis_q87_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.1 ... Q87.1",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_2",
+    "target": "diagnosis_q87_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.2 ... Q87.0",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q75_2",
+    "target": "diagnosis_q87_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q75.2 ... Q87.1",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q87_0",
+    "target": "diagnosis_q87_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (коды) по МКБ-10: Q87.0 ... Q87.1",
+    "properties": {}
+  }
+]

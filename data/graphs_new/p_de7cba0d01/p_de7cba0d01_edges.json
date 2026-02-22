@@ -1,0 +1,370 @@
+[
+  {
+    "source": "symptom_irritability",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "раздражительность и вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lethargy",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "раздражительность и вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры и головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры и головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_disorder",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_weakness",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "слабость в конечностях; онемение в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_numbness",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "слабость в конечностях; онемение в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vision_decrease",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_syncope",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "приступы потери сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "общееинфекционный синдром – повышение температуры тела, озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_depression",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_personality_change",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "изменения личности, галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hallucinations",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "изменения личности, галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure_episodes",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "эпизоды судорог",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brain_edema",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отёк головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_disturbance",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функции дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemodynamic_instability",
+    "target": "diagnosis_acute_disseminated_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нестабильность гемодинамики",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irritability",
+    "target": "symptom_lethargy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "раздражительность и вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение температуры и головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_weakness",
+    "target": "symptom_limb_numbness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "слабость в конечностях; онемение в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "symptom_photophobia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "symptom_consciousness_depression",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "головокружение, светобоязнь, рвота, угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "светобоязнь, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "symptom_consciousness_depression",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "светобоязнь, угнетение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "светобоязнь, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_consciousness_depression",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рвота, угнетение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рвота, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_depression",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "угнетение сознания, судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nuchal_rigidity",
+    "target": "symptom_kernig_sign",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы Кернига, Брудзинского, Бехтерева, Лессажа, Боголепова",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nuchal_rigidity",
+    "target": "symptom_brudzinski_sign",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы Кернига, Брудзинского, Бехтерева, Лессажа, Боголепова",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nuchal_rigidity",
+    "target": "symptom_bechterew_sign",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы Кернига, Брудзинского, Бехтерева, Лессажа, Боголепова",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nuchal_rigidity",
+    "target": "symptom_leshaj_sign",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы Кернига, Брудзинского, Бехтерева, Лессажа, Боголепова",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nuchal_rigidity",
+    "target": "symptom_bogolepov_sign",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы Кернига, Брудзинского, Бехтерева, Лессажа, Боголепова",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresis",
+    "target": "symptom_ataxia_limbs",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "парезы/параличи ЧМН; атаксия конечностей (чаще, чем атаксия ходьбы); нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresis",
+    "target": "symptom_nystagmus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "парезы/параличи ЧМН; атаксия конечностей (чаще, чем атаксия ходьбы); нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis",
+    "target": "symptom_ataxia_limbs",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "парезы/параличи ЧМН; атаксия конечностей (чаще, чем атаксия ходьбы); нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis",
+    "target": "symptom_nystagmus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "парезы/параличи ЧМН; атаксия конечностей (чаще, чем атаксия ходьбы); нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia_limbs",
+    "target": "symptom_nystagmus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "парезы/параличи ЧМН; атаксия конечностей (чаще, чем атаксия ходьбы); нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_personality_change",
+    "target": "symptom_hallucinations",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "изменения личности, галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure_episodes",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "эпизоды судорог",
+    "properties": {}
+  }
+]

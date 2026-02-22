@@ -1,0 +1,459 @@
+{
+  "protocol_id": "p_84bb21c55d",
+  "nodes": [
+    {
+      "id": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "diagnosis",
+      "label": "Контактный аллергический дерматит",
+      "icd_code": "L23"
+    },
+    {
+      "id": "symptom_koshnye_vysypki",
+      "type": "symptom",
+      "label": "Кожные высыпания"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "Зуд"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "Жжение"
+    },
+    {
+      "id": "symptom_otichnaya_eterema",
+      "type": "symptom",
+      "label": "Отёчная эритема"
+    },
+    {
+      "id": "symptom_papuly",
+      "type": "symptom",
+      "label": "Папулы"
+    },
+    {
+      "id": "symptom_puzyrki",
+      "type": "symptom",
+      "label": "Пузырьки"
+    },
+    {
+      "id": "symptom_erozii",
+      "type": "symptom",
+      "label": "Эрозии"
+    },
+    {
+      "id": "symptom_moknutie_seroznykh_kolodzev",
+      "type": "symptom",
+      "label": "Мокнутие (серозные колодцы)"
+    },
+    {
+      "id": "symptom_dermografizm_krasnyy",
+      "type": "symptom",
+      "label": "Дермографизм красный"
+    },
+    {
+      "id": "symptom_korki",
+      "type": "symptom",
+      "label": "Корки"
+    },
+    {
+      "id": "symptom_cheshuyki",
+      "type": "symptom",
+      "label": "Чешуйки"
+    },
+    {
+      "id": "symptom_lihenifikatsiya",
+      "type": "symptom",
+      "label": "Лихенификация"
+    },
+    {
+      "id": "symptom_giperemiya_yarko_krasnogo",
+      "type": "symptom",
+      "label": "Гиперемия ярко‑красного цвета"
+    },
+    {
+      "id": "symptom_giperemiya_rozovato_krasnogo",
+      "type": "symptom",
+      "label": "Гиперемия розовато‑красного цвета"
+    },
+    {
+      "id": "symptom_giperemiya_krasnovato_sinyushnogo",
+      "type": "symptom",
+      "label": "Гиперемия красновато‑синюшного цвета"
+    },
+    {
+      "id": "symptom_ekssudativnye_elementy",
+      "type": "symptom",
+      "label": "Экcсудативные элементы"
+    },
+    {
+      "id": "symptom_infiltrativennye_elementy",
+      "type": "symptom",
+      "label": "Инфильтративные элементы"
+    },
+    {
+      "id": "symptom_polimorfizm_istinnyy_i_lozhnyy",
+      "type": "symptom",
+      "label": "Полиморфизм (истинный и ложный)"
+    },
+    {
+      "id": "symptom_eozinofiliya",
+      "type": "symptom",
+      "label": "Эозинофилия (повышенное содержание эозинофилов)"
+    },
+    {
+      "id": "symptom_povyshee_soderzhanie_ige",
+      "type": "symptom",
+      "label": "Повышенное содержание IgE"
+    },
+    {
+      "id": "symptom_kseroz",
+      "type": "symptom",
+      "label": "Ксероз (сухость кожи)"
+    },
+    {
+      "id": "symptom_giperpigmentatsiya",
+      "type": "symptom",
+      "label": "Гиперпигментация"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_koshnye_vysypki",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кожные высыпания;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "зуд различной интенсивности (выраженный, умеренный);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жжение в местах поражения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otichnaya_eterema",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёчная эритема",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyrki",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пузырьки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erozii",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_moknutie_seroznykh_kolodzev",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "мокнутие (серозные колодцы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dermografizm_krasnyy",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Дермографизм красный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korki",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "корки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cheshuyki",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чешуйки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenifikatsiya",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лихенификация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_yarko_krasnogo",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженная гиперемия ярко‑красного цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_rozovato_krasnogo",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "не яркая гиперемия розовато‑красного цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_krasnovato_sinyushnogo",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперемия красновато‑синюшного цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekssudativnye_elementy",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Экcсудативные элементы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltrativennye_elementy",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфильтративные элементы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polimorfizm_istinnyy_i_lozhnyy",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "полиморфизм (истинный и ложный)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eozinofiliya",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенное содержание эозинофилов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshee_soderzhanie_ige",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кровь на содержание IgE",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kseroz",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ксероз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperpigmentatsiya",
+      "target": "diagnosis_kontaktnyi_allergicheskii_dermatit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперпигментация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otichnaya_eterema",
+      "target": "symptom_papuly",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otichnaya_eterema",
+      "target": "symptom_puzyrki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, пузырьки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otichnaya_eterema",
+      "target": "symptom_erozii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otichnaya_eterema",
+      "target": "symptom_moknutie_seroznykh_kolodzev",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "symptom_puzyrki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, инфильтрация, папулы, пузырьки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "symptom_erozii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "symptom_moknutie_seroznykh_kolodzev",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyrki",
+      "target": "symptom_erozii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyrki",
+      "target": "symptom_moknutie_seroznykh_kolodzev",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erozii",
+      "target": "symptom_moknutie_seroznykh_kolodzev",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, папулы, пузырьки, эрозии, мокнутие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otichnaya_eterema",
+      "target": "symptom_infiltrativennye_elementy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, инфильтрация, папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "symptom_infiltrativennye_elementy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, инфильтрация, папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyrki",
+      "target": "symptom_infiltrativennye_elementy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эритема, инфильтрация, пузырьки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korki",
+      "target": "symptom_cheshuyki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "корки, чешуйки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korki",
+      "target": "symptom_lihenifikatsiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "корки, чешуйки, местами лихенификация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cheshuyki",
+      "target": "symptom_lihenifikatsiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "корки, чешуйки, местами лихенификация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_yarko_krasnogo",
+      "target": "symptom_ekssudativnye_elementy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "выраженная гиперемия ярко‑красного цвета... экcсудативными морфологическими элементами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_rozovato_krasnogo",
+      "target": "symptom_korki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "не яркая гиперемия розовато‑красного цвета... корки, чешуйки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_krasnovato_sinyushnogo",
+      "target": "symptom_korki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гиперемия красновато‑синюшного цвета... корки, чешуйки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_krasnovato_sinyushnogo",
+      "target": "symptom_lihenifikatsiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гиперемия красновато‑синюшного цвета... лихенификация",
+      "properties": {}
+    }
+  ]
+}

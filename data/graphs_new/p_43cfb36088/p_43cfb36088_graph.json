@@ -1,0 +1,758 @@
+{
+  "protocol_id": "p_43cfb36088",
+  "nodes": [
+    {
+      "id": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Ушиб голеностопного сустава",
+      "icd_code": "S90.0"
+    },
+    {
+      "id": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "diagnosis",
+      "label": "Множественные поверхностные травмы голеностопного сустава и стопы",
+      "icd_code": "S90.7"
+    },
+    {
+      "id": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "diagnosis",
+      "label": "Другие поверхностные травмы голеностопного сустава и стопы",
+      "icd_code": "S90.8"
+    },
+    {
+      "id": "diagnosis_neuточnennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "diagnosis",
+      "label": "Поверхностная травма голеностопного сустава и стопы неуточненная",
+      "icd_code": "S90.9"
+    },
+    {
+      "id": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Разрыв связок на уровне голеностопного сустава и стопы",
+      "icd_code": "S93.2"
+    },
+    {
+      "id": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Растяжение и повреждение связок голеностопного сустава",
+      "icd_code": "S93.4"
+    },
+    {
+      "id": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Травма собственной мышцы и сухожилия на уровне голеностопного сустава и стопы",
+      "icd_code": "S96.2"
+    },
+    {
+      "id": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Травма нескольких мышц и сухожилий на уровне голеностопного сустава и стопы",
+      "icd_code": "S96.7"
+    },
+    {
+      "id": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Травма другой мышцы и сухожилия на уровне голеностопного сустава и стопы",
+      "icd_code": "S96.8"
+    },
+    {
+      "id": "diagnosis_travma_neuточnennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "diagnosis",
+      "label": "Травма неуточненных мышц и сухожилий на уровне голеностопного сустава и стопы",
+      "icd_code": "S96.9"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "type": "symptom",
+      "label": "Боль в области голеностопного сустава"
+    },
+    {
+      "id": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "type": "symptom",
+      "label": "Нарушение двигательной функции голеностопного сустава"
+    },
+    {
+      "id": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "type": "symptom",
+      "label": "Вынужденное положение нижней конечности"
+    },
+    {
+      "id": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "type": "symptom",
+      "label": "Отёк в области голеностопного сустава"
+    },
+    {
+      "id": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани голеностопного сустава"
+    },
+    {
+      "id": "symptom_boleznennost_pri_oshei_nagruzke_i_dvizheniyah",
+      "type": "symptom",
+      "label": "Болезненность, усиливающаяся при осевой нагрузке и движениях"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost_golenostopnogo_sustava",
+      "type": "symptom",
+      "label": "Патологическая подвижность голеностопного сустава"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neuточnennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neuточnennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение двигательной функции голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "target": "diagnosis_travma_neuточnennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neuточnennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neuточnennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzke_i_dvizheniyah",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzke_i_dvizheniyah",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "diagnosis_travma_neuточнennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenostopnogo_sustava",
+      "target": "diagnosis_ushib_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenostopnogo_sustava",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenostopnogo_sustava",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenostopnogo_sustava",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "target": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenостopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "target": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenостopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenостopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenостopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "target": "diagnosis_travma_neuточнennyh_myshts_i_sukhozhiliy_golenостopnogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре отмечается: 1) вынужденное положение нижней конечности 2) отек в области голеностопного сустава 3) кровоизлияние ... При пальпации отмечается: 1) боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре отмечается: вынужденное положение нижней конечности; При пальпации отмечается: боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_golenostopnogo_sustava",
+      "target": "symptom_vynuzdennoe_polozhenie_nizhnej_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре отмечается: вынужденное положение нижней конечности; отек в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_golenostopnogo_sustava",
+      "target": "symptom_krovoizlivanie_v_okruzhayushchikh_tkaneih_golenostopnogo_sustava",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре отмечается: кровоизлияние в окружающие ткани голеностопного сустава; При пальпации отмечается: боль в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshei_nagruzке_i_dvizheniyah",
+      "target": "symptom_patologicheskaya_podvizhnost_golenостopnogo_sustava",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации отмечается: болезненность, усиливающая при осевой нагрузке и движениях; грубая патологическая подвижность в области голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ushib_golenostopnogo_sustava",
+      "target": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S90.0 Ушиб голеностопного сустава S90.7 Множественные поверхностные травмы голеностопного сустава и стопы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mnozhestvennye_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "target": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S90.7 ... S90.8 Другие поверхностные травмы голеностопного сустава и стопы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_drugie_povrezhdeniya_golenostopnogo_sustava_i_stop",
+      "target": "diagnosis_neuточнennaya_povrezhdeniya_golenостopnogo_sustava_i_stop",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S90.8 ... S90.9 Поверхностная травма голеностопного сустава и стопы неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_razryv_svyazok_golenostopnogo_sustava",
+      "target": "diagnosis_rastyazhenie_i_povrezhdenie_svyazok_golenostopnogo_sustava",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S93.2 Разрыв связок ... S93.4 Растяжение и повреждение связок голеностопного сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_travma_sobstvennoj_myshtsy_i_sukhozhiliya_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S96.2 Травма собственной мышцы ... S96.7 Травма нескольких мышц и сухожилий",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_travma_neskolkih_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "target": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S96.7 ... S96.8 Травма другой мышцы и сухожилия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_travma_drugoj_myshts_i_sukhozhiliya_golenostopnogo_sustava",
+      "target": "diagnosis_travma_neuточнennyh_myshts_i_sukhozhiliy_golenostopnogo_sustava",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) по МКБ-10: S96.8 ... S96.9 Травма неуточненных мышц и сухожилий",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "protocol_id": "p_05aa225d36",
+  "nodes": [
+    {
+      "id": "diagnosis_s83_3",
+      "type": "diagnosis",
+      "label": "Разрыв суставного хряща коленного сустава",
+      "icd_code": "S83.3"
+    },
+    {
+      "id": "diagnosis_m93_2",
+      "type": "diagnosis",
+      "label": "Рассекающий остеохондрит",
+      "icd_code": "M93.2"
+    },
+    {
+      "id": "diagnosis_t93_3",
+      "type": "diagnosis",
+      "label": "Последствие вывиха, растяжения и деформации нижней конечности",
+      "icd_code": "T93.3"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "дискомфорт в коленном суставе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "небольшие боли в коленном суставе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "отёк костного мозга",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "боли в коленном суставе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "синовит",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "блокада коленного сустава",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "ограничение движений в коленном суставе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "крепитация в коленном суставе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "щелчки в коленном суставе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "боль в области коленного сустава",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "положительный симптом баллотирования надколенника",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "деформация коленного сустава",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "локальный отёк мыщелка бедра",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "повреждение хряща",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "некроз костно‑хрящевого фрагмента",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "свободно лежащий костно‑хрящевой фрагмент",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "дегенерация хряща",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "образование остеофитов",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "склероз субхондральных пластин",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "болевой синдром",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "отёк",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "I стадия: дискомфорт в суставе, небольшие боли неопределенной локализации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "I стадия: дискомфорт в суставе, небольшие боли неопределенной локализации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "МРТ позволяет выявить отек костного мозга.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "II стадия: боли в суставе, появляется синовит.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "II стадия: боли в суставе, появляется синовит.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III стадия: ... может привести к блокаде сустава.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резкое ограничения движений в коленом суставе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация, щелчки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация, щелчки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в области коленного сустава.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "положительный симптом «баллотирования надколенника».",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформации в области коленного сустава.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальный отек мыщелка бедра.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки повреждения хряща.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "некроза костно‑хрящевого фрагмента.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "свободно лежащий костно‑хрящевой фрагмент.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дегенерация хряща.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образование остеофитов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "склероз субхондральных пластин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "купирование болевого синдрома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_m93_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "приводят к купированию отека.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s83_3",
+      "target": "diagnosis_m93_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код Название S83.3 Разрыв суставного хряща коленного сустава M93.2 Рассекающий остеохондрит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m93_2",
+      "target": "diagnosis_t93_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код Название M93.2 Рассекающий остеохондрит T93.3 Последствие вывиха, растяжения и деформации нижней конечности",
+      "properties": {}
+    }
+  ]
+}

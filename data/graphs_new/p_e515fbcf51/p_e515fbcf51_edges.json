@@ -1,0 +1,282 @@
+[
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  боли за грудиной;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphagia",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspepsia",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_cough",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_complications",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "клинические проявления респираторных заболеваний (осложнения, вызванные периодической аспирацией).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "прогрессирующая потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_delay",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "задержка роста",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_development_delay",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отставание физического развития",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotrophy",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотрофия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeding_anxiety",
+    "target": "diagnosis_achalasia_cardia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "беспокойство при кормлении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  рвота;  боли за грудиной;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_dysphagia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  рвота;  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_dyspepsia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  рвота;  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_night_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  рвота;  ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  рвота; … клинические проявления респираторных заболеваний (осложнения…)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_dysphagia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  боли за грудиной;  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_dyspepsia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  боли за грудиной;  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_night_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  боли за грудиной;  ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  боли за грудиной; … клинические проявления респираторных заболеваний (осложнения…)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphagia",
+    "target": "symptom_dyspepsia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфагия и диспептические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphagia",
+    "target": "symptom_night_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфагия и диспептические расстройства;  ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphagia",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфагия и диспептические расстройства; … клинические проявления респираторных заболеваний (осложнения…)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspepsia",
+    "target": "symptom_night_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфептические расстройства;  ночной кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspepsia",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  дисфептические расстройства; … клинические проявления респираторных заболеваний (осложнения…)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_cough",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  ночной кашель; … клинические проявления респираторных заболеваний (осложнения…)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_growth_delay",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: прогрессирующая потеря веса и задержка роста ребенка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: прогрессирующая потеря веса … респираторные осложнения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_dysphagia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: прогрессирующая потеря веса … дисфагия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_delay",
+    "target": "symptom_respiratory_complications",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: задержка роста … респираторные осложнения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_delay",
+    "target": "symptom_dysphagia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: задержка роста … дисфагия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_complications",
+    "target": "symptom_dysphagia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: респираторные осложнения и дисфагия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_development_delay",
+    "target": "symptom_hypotrophy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальные обследования: отставание физического развития; гипотрофия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_development_delay",
+    "target": "symptom_feeding_anxiety",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальные обследования: отставание физического развития; … беспокойство при кормлении.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotrophy",
+    "target": "symptom_feeding_anxiety",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальные обследования: гипотрофия; … беспокойство при кормлении.",
+    "properties": {}
+  }
+]

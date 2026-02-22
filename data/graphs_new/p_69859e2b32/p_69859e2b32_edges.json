@@ -1,0 +1,298 @@
+[
+  {
+    "source": "symptom_discomfort_vaginal_entry",
+    "target": "diagnosis_uretrocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы на дискомфорт связанный с зиянием входа во влагалище",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sexual_life",
+    "target": "diagnosis_uretrocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дискомфорт при половой жизни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stress_incontinence",
+    "target": "diagnosis_uretrocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Симптомы стрессового недержания мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "diagnosis_cistocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы на чувство инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "diagnosis_rectocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы на чувство инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "diagnosis_enterocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы на чувство инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sitting",
+    "target": "diagnosis_cistocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дискомфорт в сидячем положении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sitting",
+    "target": "diagnosis_rectocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дискомфорт в сидячем положении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sitting",
+    "target": "diagnosis_enterocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дискомфорт в сидячем положении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficulty_urination",
+    "target": "diagnosis_cistocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение при опорожнении мочевого пузыря",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficulty_urination",
+    "target": "diagnosis_rectocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение при опорожнении мочевого пузыря",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficulty_urination",
+    "target": "diagnosis_enterocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение при опорожнении мочевого пузыря",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficulty_defecation",
+    "target": "diagnosis_rectocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение при опорожнении прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficulty_defecation",
+    "target": "diagnosis_enterocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение при опорожнении прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cystitis",
+    "target": "diagnosis_cistocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Цистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obstructive_urinary_retention",
+    "target": "diagnosis_cistocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обструктивная острая задержка мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trophic_ulcers",
+    "target": "diagnosis_rectocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "трофические язвы слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trophic_ulcers",
+    "target": "diagnosis_enterocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "трофические язвы слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulation",
+    "target": "diagnosis_rectocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "грануляции на слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulation",
+    "target": "diagnosis_enterocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "грануляции на слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_vaginal_entry",
+    "target": "symptom_discomfort_sexual_life",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дискомфорт связанный с зиянием входа во влагалище, дискомфорт при половой жизни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_vaginal_entry",
+    "target": "symptom_stress_incontinence",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дискомфорт связанный с зиянием входа во влагалище ... Симптомы стрессового недержания мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sexual_life",
+    "target": "symptom_stress_incontinence",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дискомфорт при половой жизни ... Симптомы стрессового недержания мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "symptom_discomfort_sitting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы на чувство инородного тела, дискомфорт в сидячем положении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "symptom_difficulty_urination",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы на чувство инородного тела, затруднение при опорожнении мочевого пузыря",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "symptom_difficulty_defecation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы на чувство инородного тела, затруднение при опорожнении прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sitting",
+    "target": "symptom_difficulty_urination",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дискомфорт в сидячем положении, затруднение при опорожнении мочевого пузыря",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_sitting",
+    "target": "symptom_difficulty_defecation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дискомфорт в сидячем положении, затруднение при опорожнении прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficulty_urination",
+    "target": "symptom_difficulty_defecation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "затруднение при опорожнении мочевого пузыря, затруднение при опорожнении прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cystitis",
+    "target": "symptom_obstructive_urinary_retention",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Цистит. Возможны нарушения мочеиспускания по типу обструктивной острой задержки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trophic_ulcers",
+    "target": "symptom_granulation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "трофические язвы слизистой, грануляции на слизистой",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_uretrocele",
+    "target": "diagnosis_cistocele",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Уретроцеле ... Цистоцеле ... в описании стадий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cistocele",
+    "target": "diagnosis_rectocele",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Цистоцеле ... Ректоцеле ... в описании стадий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rectocele",
+    "target": "diagnosis_enterocele",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Ректоцеле ... Энтероцеле ... в описании стадий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_uretrocele",
+    "target": "diagnosis_rectocele",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Уретроцеле ... Ректоцеле ... в описании стадий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_uretrocele",
+    "target": "diagnosis_enterocele",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Уретроцеле ... Энтероцеле ... в описании стадий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cistocele",
+    "target": "diagnosis_enterocele",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Цистоцеле ... Энтероцеле ... в описании стадий",
+    "properties": {}
+  }
+]

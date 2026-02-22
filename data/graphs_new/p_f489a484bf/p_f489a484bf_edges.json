@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_ogranichenie_podvizhnosti_sustavov",
+    "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности суставов пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_podvizhnosti_kozhnnyh_skaldok",
+    "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности кожных складок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kosmeticheskiy_i_esteticheskiy_defekt_kozhi",
+    "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "косметический и эстетический дефект кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_potrebnoj_konechnosti",
+    "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение функции пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubcova_deformaciya_kozhi",
+    "target": "symptom_gnojno_vospalitelny_protsess",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся гнойно‑воспалительными ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubcova_deformaciya_kozhi",
+    "target": "symptom_nekr_otich_protsess",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся ... некротическими ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubcova_deformaciya_kozhi",
+    "target": "symptom_allergich_protsess",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся ... аллергическими процессами ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubcova_deformaciя_kozhi",
+    "target": "symptom_troficheskaya_yazva",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся ... трофическими язвами)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_zud",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "это образование даёт резкую боль, часто сопровождающаяся зудом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_troficheskaya_yazva",
+    "target": "symptom_hronicheskiy_vospalitelny_protsess",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поддерживают хронический воспалительный процесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_amplitudy_dvizheniy",
+    "target": "symptom_kontraktura_sustavov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение амплитуды движений в суставе ... контрактура суставов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kontraktura_sustavov",
+    "target": "symptom_ankiloz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "или имеется его неподвижность, обусловленная анкилозом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_podvizhnosti_sustavov",
+    "target": "symptom_ogranichenie_amplitudy_dvizheniy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности суставов ... ограничение амплитуды движений в суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_podvizhnosti_kozhnnyh_skaldok",
+    "target": "symptom_ogranichenie_podвижности_sustavov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности кожных складок; ограничение подвижности суставов пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubcovy_defekt_tkanej",
+    "target": "symptom_rubcova_deformaciya_kozhi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "рубцовая деформация кожных покровов; рубцовый дефект тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_posleozhkovaya_troficheskaya_yazva",
+    "target": "symptom_troficheskaya_yazva",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "послеожоговая трофическая язва",
+    "properties": {}
+  }
+]

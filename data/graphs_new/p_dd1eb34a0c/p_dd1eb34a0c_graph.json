@@ -1,0 +1,311 @@
+{
+  "protocol_id": "p_dd1eb34a0c",
+  "nodes": [
+    {
+      "id": "symptom_krovianye_vydeleniya_iz_polovyh_putey",
+      "type": "symptom",
+      "label": "Кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_matochnoe_krovotachenie",
+      "type": "symptom",
+      "label": "Маточное кровотечение"
+    },
+    {
+      "id": "symptom_vysokoe_stoyanie_predlezhashchei_chasti_ploda",
+      "type": "symptom",
+      "label": "Высокое стояние предлежащей части плода"
+    },
+    {
+      "id": "symptom_nenormalnoe_polozhenie_ploda",
+      "type": "symptom",
+      "label": "Неправильное положение плода (косое, поперечное)"
+    },
+    {
+      "id": "symptom_tazovoe_predlezhanie_ploda",
+      "type": "symptom",
+      "label": "Тазовое предлежание плода"
+    },
+    {
+      "id": "symptom_korotkii_cervikalnyi_kanal_menee_3_sm",
+      "type": "symptom",
+      "label": "Короткий цервикальный канал < 3 см при предлежании плаценты"
+    },
+    {
+      "id": "symptom_korotkii_cervikalnyi_kanal_menee_2_sm",
+      "type": "symptom",
+      "label": "Короткий цервикальный канал < 2 см при низкорасположенной плаценте"
+    },
+    {
+      "id": "symptom_tolshchina_kraja_plcenty_bolshe_1_sm",
+      "type": "symptom",
+      "label": "Толщина края плаценты > 1 см"
+    },
+    {
+      "id": "symptom_nalichie_kraevogo_sinusa",
+      "type": "symptom",
+      "label": "Наличие краевого синуса"
+    },
+    {
+      "id": "symptom_povtoriaushiesya_epizody_3_krovianykh_vydeleniy",
+      "type": "symptom",
+      "label": "Повторяющиеся эпизоды ≥ 3 кровяных выделений"
+    },
+    {
+      "id": "symptom_antenatalnoe_krovotachenie",
+      "type": "symptom",
+      "label": "Антенатальное кровотечение"
+    },
+    {
+      "id": "symptom_placentarnye_lakuny_anekogennye_oblasti",
+      "type": "symptom",
+      "label": "Плацентарные лакуны (анэхогенные области)"
+    },
+    {
+      "id": "symptom_sosudistye_struktury_v_plcente",
+      "type": "symptom",
+      "label": "Сосудистые структуры в плаценте"
+    },
+    {
+      "id": "symptom_turbulentny_krovotok",
+      "type": "symptom",
+      "label": "Турбулентный кровоток с высокой скоростью и низким сопротивлением"
+    },
+    {
+      "id": "symptom_ischezhenie_retroplacentarnoy_zony",
+      "type": "symptom",
+      "label": "Исчезновение ретроплацентарной зоны"
+    },
+    {
+      "id": "symptom_izmenenie_zony_soprikosnoveniya_stenok_matriki_i_mochevogo_puzyriya",
+      "type": "symptom",
+      "label": "Изменение зоны соприкосновения стенок матки и мочевого пузыря"
+    },
+    {
+      "id": "symptom_istochnenie_miometrii_perednei_stenki_matriki",
+      "type": "symptom",
+      "label": "Истончение миометрия передней стенки матки"
+    },
+    {
+      "id": "symptom_nerevnyj_kontur_mezhdu_plcentoy_i_miometriem",
+      "type": "symptom",
+      "label": "Неровный контур между плацентой и миометрием"
+    },
+    {
+      "id": "symptom_povyshennaya_vaskularizatsiya_plcenty",
+      "type": "symptom",
+      "label": "Повышенная васкуляризация плаценты"
+    },
+    {
+      "id": "symptom_gipoehogennye_zony",
+      "type": "symptom",
+      "label": "Гипоэхогенные зоны"
+    },
+    {
+      "id": "symptom_tolshchina_miometrii_v_zone_plcentatsii_menee_1_mm",
+      "type": "symptom",
+      "label": "Толщина миометрия в зоне плацентации < 1 мм"
+    },
+    {
+      "id": "symptom_deformatsiya_nizhnego_matocnogo_segmanta",
+      "type": "symptom",
+      "label": "Деформация нижнего маточного сегмента"
+    },
+    {
+      "id": "diagnosis_o44",
+      "type": "diagnosis",
+      "label": "Предлежание плаценты",
+      "icd_code": "O44"
+    },
+    {
+      "id": "diagnosis_o44_0",
+      "type": "diagnosis",
+      "label": "Предлежание плаценты без кровотечения (низкое прикрепление плаценты без кровотечения)",
+      "icd_code": "O44.0"
+    },
+    {
+      "id": "diagnosis_o44_1",
+      "type": "diagnosis",
+      "label": "Предлежание плаценты с кровотечением (низкое прикрепление плаценты с кровотечением)",
+      "icd_code": "O44.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_krovianye_vydeleniya_iz_polovyh_putey",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "периодические кровянистые выделения из половых путей без болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_matochnoe_krovotachenie",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Основное проявление – маточное кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_antenatalnoe_krovotachenie",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Факторы риска антенатального кровотечения при предлежании плаценты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povtoriaushiesya_epizody_3_krovianykh_vydeleniy",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повторяющиеся эпизоды ≥ 3 кровяных выделений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tolshchina_kraja_plcenty_bolshe_1_sm",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "толщина края плаценты> 1 см",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_kraevogo_sinusa",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наличие краевого синуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korotkii_cervikalnyi_kanal_menee_3_sm",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "короткий цервикальный канал: < 3 см при предлежании плаценты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korotkii_cervikalnyi_kanal_menee_2_sm",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "короткий цервикальный канал: < 2 см при низкорасположенной плаценте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vysokoe_stoyanie_predlezhashchei_chasti_ploda",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "высокое стояние предлежащей части плода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nenormalnoe_polozhenie_ploda",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "неправильные положение (косое, поперечное)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tazovoe_predlezhanie_ploda",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тазовые предлежания плода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_placentarnye_lakuny_anekogennye_oblasti",
+      "target": "symptom_sosudistye_struktury_v_plcente",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Плацентарные лакуны – анэхогенные области, множественных визуализируемые в плацентарной ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sosudistye_struktury_v_plcente",
+      "target": "symptom_turbulentny_krovotok",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Турбулентный кровоток с высокой скоростью и низким сопротивлением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_placentarnye_lakuny_anekogennye_oblasti",
+      "target": "symptom_turbulentny_krovotok",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Турбулентный кровоток с высокой скоростью и низким сопротивлением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ischezhenie_retroplacentarnoy_zony",
+      "target": "symptom_izmenenie_zony_soprikosnoveniya_stenok_matriki_i_mochevogo_puzyriya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Исчезновение ретроплацентарной зоны; Изменение зоны соприкосновения стенок матки и мочевого пузыря",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_zony_soprikosnoveniya_stenok_matriki_i_mochevogo_puzyriya",
+      "target": "symptom_nerevnyj_kontur_mezhdu_plcentoy_i_miometriem",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Неровный контур между плацентой и миометрием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nerevnyj_kontur_mezhdu_plcentoy_i_miometriem",
+      "target": "symptom_povyshennaya_vaskularizatsiya_plcenty",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повышенная васкуляризация плаценты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_vaskularizatsiya_plcenty",
+      "target": "symptom_gipoehogennye_zony",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гипоэхогенные зоны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoehogennye_zony",
+      "target": "symptom_tolshchina_miometrii_v_zone_plcentatsii_menee_1_mm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Толщина миометрия в зоне плацентации < 1 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tolshchina_miometrii_v_zone_plcentatsii_menee_1_mm",
+      "target": "symptom_deformatsiya_nizhnego_matocnogo_segmanta",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Деформация нижнего маточного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korotkii_cervikalnyi_kanal_menee_3_sm",
+      "target": "symptom_korotkii_cervikalnyi_kanal_menee_2_sm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "короткий цервикальный канал: < 3 см при предлежании плаценты; < 2 см при низкорасположенной плаценте",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_o44_0",
+      "target": "diagnosis_o44_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Предлежание плаценты без кровотечения (низкое прикрепление плаценты без кровотечения); Предлежание плаценты с кровотечением (низкое прикрепление плаценты с кровотечением)",
+      "properties": {}
+    }
+  ]
+}

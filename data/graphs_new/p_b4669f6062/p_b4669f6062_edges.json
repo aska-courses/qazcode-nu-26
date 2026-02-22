@@ -1,0 +1,362 @@
+[
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе локальная или распространенная крепитация подкожной клетчатки...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_obema_porazhennoj_storony",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podkozhnaia_emfizem",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lokalnaya_krepitatsiya_podkozhnoi_kletchatki",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе локальная или распространенная крепитация подкожной клетчатки...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasprostranennaya_krepitatsiya_podkozhnoi_kletchatki",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе ... распространенная крепитация подкожной клетчатки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oslablenie_dykhatelh_shumov",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аускультация: ослабление или отсутствие дыхательных шумов на стороне поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_dykhatelh_shumov",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аускультация: ослабление или отсутствие дыхательных шумов на стороне поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_udlinenie_perkutorogo_zvuka",
+    "target": "diagnosis_traumatic_pneumothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Перкуссия: удлинение перкуторного звука на стороне поражения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_koznyh_pokrovov",
+    "target": "diagnosis_traumatic_hemothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_slivistykh",
+    "target": "diagnosis_traumatic_hemothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_traumatic_hemothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_padenie_arterialnogo_davleniya",
+    "target": "diagnosis_traumatic_hemothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "diagnosis_traumatic_hemothorax",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки присутствия крови в плевральной полости (одышка, отставание пораженной стороны грудной клетки при дыхании, боль в груди, затрудненное дыхание)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_padenie_arterialnogo_davleniya",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Триада Бека: падение АД, увеличение ЦВД, глухость тона сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_centralnogo_venoznogo_davleniya",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Триада Бека: падение АД, увеличение ЦВД, глухость тона сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gluhost_tona_serdtsa",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Триада Бека: падение АД, увеличение ЦВД, глухость тона сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shum_v_shennih_venah",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Триада Бека: падение АД, увеличение ЦВД, глухость тона сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paradoksalnyy_puls",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Триада Бека: падение АД, увеличение ЦВД, глухость тона сердца; парадоксальный пульс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_zubtsa_R",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ЭКГ‑признаки: снижение зубца R, инверсия зубца T, признаки электромеханической диссоциации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inversiya_zubtsa_T",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ЭКГ‑признаки: снижение зубца R, инверсия зубца T, признаки электромеханической диссоциации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elektromekhanicheskaya_disociatsiya",
+    "target": "diagnosis_hemoperikard",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ЭКГ‑признаки: снижение зубца R, инверсия зубца T, признаки электромеханической диссоциации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы на боли в грудной клетке, затрудненное дыхание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnennoe_dykhanie",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы на боли в грудной клетке, затрудненное дыхание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Множественные переломы ребер. Флотирующая грудная клетка. Клиника. ... Отставание пораженной стороны в акте дыхания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odishka",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Множественные переломы ребер ... Одышка, тахикардия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Множественные переломы ребер ... Одышка, тахикардия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paradoksalnoe_dykhanie",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Парадоксальное дыхание при флотирующих (окончатых) переломах ребер.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flotiruyushchaya_grudnaya_kletka",
+    "target": "diagnosis_mnozhestvennye_perelomy_reber",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Множественные переломы ребер ... Флотирующая грудная клетка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shum_v_shennih_venah",
+    "target": "symptom_paradoksalnyy_puls",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Триада Бека: расширенные вены шеи, парадоксальный пульс, шум в шейных венах.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shum_v_shennih_venah",
+    "target": "symptom_gluhost_tona_serdtsa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Триада Бека: расширенные вены шеи, глухость тона сердца.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shum_v_shennih_venah",
+    "target": "symptom_uvelichenie_centralnogo_venoznogo_davleniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Триада Бека: расширенные вены шеи, увеличение центрального венозного давления.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paradoksalnyy_puls",
+    "target": "symptom_gluhost_tona_serdtsa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Триада Бека: парадоксальный пульс, глухость тона сердца.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_davlenie_v_grudnoj_kletke",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на боль, давление, дискомфорт в грудной клетке...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_diskomfort_v_grudnoj_kletke",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на боль, давление, дискомфорт в грудной клетке...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_zatrudnennoe_dykhanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на боль, давление, дискомфорт в грудной клетке, затрудненное дыхание...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_chuvstvo_nekhvatki_vozduha",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на боль, давление, дискомфорт в грудной клетке, затрудненное дыхание, чувство нехватки воздуха.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "symptom_uvelichenie_obema_porazhennoj_storony",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "symptom_podkozhnaia_emfizem",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "symptom_lokalnaya_krepitatsiya_podkozhnoi_kletchatki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе локальная ... крепитация...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstavanie_porazhennoj_storony_v_akte_dykhaniya",
+    "target": "symptom_rasprostranennaya_krepitatsiya_podkozhnoi_kletchatki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Отставание пораженной стороны в акте дыхания, увеличение объема пораженной стороны, при подкожной эмфиземе ... распространенная крепитация...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_koznyh_pokrovov",
+    "target": "symptom_blednost_slivistykh",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_koznyh_pokrovov",
+    "target": "symptom_tahikardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_koznyh_pokrovov",
+    "target": "symptom_padenie_arterialnogo_davleniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Признаки кровопотери (бледность кожных покровов и слизистых, тахикардия, падение АД)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aritmia",
+    "target": "diagnosis_other_heart_injuries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ушиб сердца ... Аритмии с синусовой тахикардией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sinusovaya_tahikardia",
+    "target": "diagnosis_other_heart_injuries",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ушиб сердца ... Аритмии с синусовой тахикардией.",
+    "properties": {}
+  }
+]

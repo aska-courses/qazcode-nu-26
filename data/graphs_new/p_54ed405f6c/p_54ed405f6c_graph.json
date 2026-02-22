@@ -1,0 +1,543 @@
+{
+  "protocol_id": "p_54ed405f6c",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_holecistitis",
+      "type": "diagnosis",
+      "label": "Острый холецистит",
+      "icd_code": "K81.0"
+    },
+    {
+      "id": "diagnosis_khronichnyi_holecistitis",
+      "type": "diagnosis",
+      "label": "Хронический холецистит",
+      "icd_code": "K81.1"
+    },
+    {
+      "id": "diagnosis_holangit",
+      "type": "diagnosis",
+      "label": "Холангит",
+      "icd_code": "K83.0"
+    },
+    {
+      "id": "diagnosis_drugie_utochnennye_bolezni_zhelchyevydavayushchikh_putey",
+      "type": "diagnosis",
+      "label": "Другие уточненные болезни желчевыводящих путей",
+      "icd_code": "K83.8"
+    },
+    {
+      "id": "diagnosis_bolezn_zhelchyevydavayushchikh_putey_neutochnennaya",
+      "type": "diagnosis",
+      "label": "Болезнь желчевыводящих путей неуточненная",
+      "icd_code": "K83.9"
+    },
+    {
+      "id": "symptom_bol_v_pravom_verh_kvadrante",
+      "type": "symptom",
+      "label": "Боль в правом верхнем квадранте"
+    },
+    {
+      "id": "symptom_dispepsiya",
+      "type": "symptom",
+      "label": "Диспепсия"
+    },
+    {
+      "id": "symptom_gorech_vo_rtu",
+      "type": "symptom",
+      "label": "Горечь во рту"
+    },
+    {
+      "id": "symptom_rvoa",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_otryzhka",
+      "type": "symptom",
+      "label": "Отрыжка"
+    },
+    {
+      "id": "symptom_snizhenie_appetita",
+      "type": "symptom",
+      "label": "Снижение аппетита"
+    },
+    {
+      "id": "symptom_zapor",
+      "type": "symptom",
+      "label": "Запор"
+    },
+    {
+      "id": "symptom_neustoychivyi_stul",
+      "type": "symptom",
+      "label": "Неустойчивый стул"
+    },
+    {
+      "id": "symptom_dermatiti",
+      "type": "symptom",
+      "label": "Дерматиты"
+    },
+    {
+      "id": "symptom_golovnaya_bol",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_utomlyaemost",
+      "type": "symptom",
+      "label": "Утомляемость"
+    },
+    {
+      "id": "symptom_rezistentnost_myshts_v_pravom_podreberii",
+      "type": "symptom",
+      "label": "Резистентность мышц в правом подреберье"
+    },
+    {
+      "id": "symptom_simptom_kera",
+      "type": "symptom",
+      "label": "Боль в точке желчного пузыря (симптом Кера)"
+    },
+    {
+      "id": "symptom_simptom_ortnera",
+      "type": "symptom",
+      "label": "Боль при косом ударе по правому подреберью (симптом Ортнера)"
+    },
+    {
+      "id": "symptom_simptom_merfii",
+      "type": "symptom",
+      "label": "Боль при вдохе при глубокой пальпации (симптом Мерфи)"
+    },
+    {
+      "id": "symptom_bol_pri_palpatsii_pravogo_podreberiya",
+      "type": "symptom",
+      "label": "Боль при пальпации правого подреберья"
+    },
+    {
+      "id": "symptom_symptomy_umerenno_vyrazhennoy_hronicheskoy_intoksikatsii",
+      "type": "symptom",
+      "label": "Симптомы умеренно выраженной хронической интоксикации"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_pravom_verh_kvadrante",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тупые приступообразные боли в правом верхнем квадранте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pravom_verh_kvadrante",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тупые приступообразные боли в правом верхнем квадранте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispepsiya",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в сочетании с диспепсическими расстройствами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispepsiya",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в сочетании с диспепсическими расстройствами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gorech_vo_rtu",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "горечь во рту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gorech_vo_rtu",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "горечь во рту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otryzhka",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otryzhka",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_appetita",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_appetita",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapor",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapor",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neustoychivyi_stul",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неустойчивый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neustoychivyi_stul",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неустойчивый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dermatiti",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дерматиты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dermatiti",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дерматиты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utomlyaemost",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utomlyaemost",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rezistentnost_myshts_v_pravom_podreberii",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резистентность мышц в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rezistentnost_myshts_v_pravom_podreberii",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резистентность мышц в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptom_kera",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кера (болезненность в точке желчного пузыря)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptom_kera",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кера (болезненность в точке желчного пузыря)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptom_ortnera",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ортнера (болезненность при косом ударе по правому подреберью)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptom_ortnera",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ортнера (болезненность при косом ударе по правому подреберью)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptom_merfii",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Мерфи (болезненность на вдохе при глубокой пальпации в правом подреберье)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptom_merfii",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Мерфи (болезненность на вдохе при глубокой пальпации в правом подреберье)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_palpatsii_pravogo_podreberiya",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации правого подреберья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_palpatsii_pravogo_podreberiya",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации правого подреберья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_symptomy_umerenno_vyrazhennoy_hronicheskoy_intoksikatsii",
+      "target": "diagnosis_ostryi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы умеренно выраженной хронической интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_symptomy_umerenno_vyrazhennoy_hronicheskoy_intoksikatsii",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы умеренно выраженной хронической интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "symptom_otryzhka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рвота; отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "symptom_snizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рвота; снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otryzhka",
+      "target": "symptom_snizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отрыжка; снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapor",
+      "target": "symptom_neustoychivyi_stul",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "запор или неустойчивый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol",
+      "target": "symptom_slabost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "головная боль; слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "symptom_utomlyaemost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "слабость; утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_holecistitis",
+      "target": "diagnosis_khronichnyi_holecistitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.0 Острый холецистит K 81.1 Хронический холецистит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_holecistitis",
+      "target": "diagnosis_holangit",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.0 Острый холецистит K 83.0 Холангит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_holecistitis",
+      "target": "diagnosis_drugie_utochnennye_bolezni_zhelchyevydavayushchikh_putey",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.0 Острый холецистит K 83.8 Другие уточненные болезни желчевыводящих путей",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_holecistitis",
+      "target": "diagnosis_bolezn_zhelchyevydavayushchikh_putey_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.0 Острый холецистит K 83.9 Болезнь желчевыводящих путей неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_khronichnyi_holecistitis",
+      "target": "diagnosis_holangit",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.1 Хронический холецистит K 83.0 Холангит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_khronichnyi_holecistitis",
+      "target": "diagnosis_drugie_utochnennye_bolezni_zhelchyevydavayushchikh_putey",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.1 Хронический холецистит K 83.8 Другие уточненные болезни желчевыводящих путей",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_khronichnyi_holecistitis",
+      "target": "diagnosis_bolezn_zhelchyevydavayushchikh_putey_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 81.1 Хронический холецистит K 83.9 Болезнь желчевыводящих путей неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_holangit",
+      "target": "diagnosis_drugie_utochnennye_bolezni_zhelchyevydavayushchikh_putey",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 83.0 Холангит K 83.8 Другие уточненные болезни желчевыводящих путей",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_holangit",
+      "target": "diagnosis_bolezn_zhelchyevydavayushchikh_putey_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 83.0 Холангит K 83.9 Болезнь желчевыводящих путей неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_drugie_utochnennye_bolezni_zhelchyevydavayushchikh_putey",
+      "target": "diagnosis_bolezn_zhelchyevydavayushchikh_putey_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "K 83.8 Другие уточненные болезни желчевыводящих путей K 83.9 Болезнь желчевыводящих путей неуточненная",
+      "properties": {}
+    }
+  ]
+}

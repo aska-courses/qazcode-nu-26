@@ -1,0 +1,306 @@
+[
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Стул водянистый",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Рвота появляется после диареи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exsiccosis",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Быстрое развитие эксикоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a02",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Водянистый стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a02",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Длительная лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a03",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a04_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обильный водянистый стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a04_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "упорная рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meteorism",
+    "target": "diagnosis_a04_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "метеоризм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "температура тела чаще",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_a04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_a04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болей в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a04_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a04_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рвоты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_a04_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болей в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a04_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a04_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "подъем температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_a04_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тошноты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a04_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рвоты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_a04_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болей в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: лихорадка; тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: лихорадка; тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: лихорадка; ... вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: лихорадка; ... боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_liquid_stool",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: лихорадка; ... жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_meteorism",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: лихорадка; ... метеоризм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: тошнота, ... вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: рвота; вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_liquid_stool",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: рвота; жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_meteorism",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: рвота; метеоризм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "symptom_meteorism",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: жидкий стул; метеоризм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_neurotoxicosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нейротоксикоз: лихорадка, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_neurotoxicosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нейротоксикоз: ... рвота ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_neurotoxicosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нейротоксикоз: судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_neurotoxicosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нейротоксикоз: тахикардия",
+    "properties": {}
+  }
+]

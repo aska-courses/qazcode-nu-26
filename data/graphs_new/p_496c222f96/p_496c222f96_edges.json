@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_krotkovremennaya_bol",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кратковременная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_hemicheskih_i_temperaturnyh_razdritelnyh",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль от химических и температурных раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plohaya_gigiena_polosti_rta",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плохая гигиена полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_alimentarnaya_nedostatocnost_mineralnyh_veshchestv",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "алиментарная недостаточность минеральных веществ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_karioznye_ptyata",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кариозные пятна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zondirovanie_bezbolesnenno",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зондирование безболезненно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsutstvie_reaktsii_na_zharu",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие реакции на тепло",
+    "properties": {}
+  },
+  {
+    "source": "symptom_normalnaya_elektroodontometriya",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нормальная электроодонтометрия (ЭОД в пределах 2–6 мкА)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsutstvie_boleznennosti",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие болезненности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кариес дентина  боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_posle_ustraneniya_razdritelya_bystro_prokhodit",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль после устранения раздражителя быстро проходит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsutstvie_boli",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иногда боль может отсутствовать",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennaya_reaktsiya_pri_zondirovanii",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненная реакция при зондировании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razrushenie_dentinnogo_soedineniya",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разрушение дентинного соединения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vyrazhennaya_bolevaya_reaktsiya",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выраженная болевая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_temperaturnyh_razdritelnyh",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль от температурных раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhennaya_elektrovzbudimost_pulpy",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженная электровозбудимость пульпы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polost_v_zube",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полость в зубе (дефект в виде полости)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_cvetov_zuba",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение цвета зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krotkovremennaya_bol",
+    "target": "symptom_bol_ot_hemicheskih_i_temperaturnyh_razdritelnyh",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кратковременная боль … боль от химических и температурных раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plohaya_gigiena_polosti_rta",
+    "target": "symptom_alimentarnaya_nedostatocnost_mineralnyh_veshchestv",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плохая гигиена полости рта; алиментарная недостаточность минеральных веществ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_bol_ot_temperaturnyh_razdritelnyh",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль … боль от температурных раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_bol_posle_ustraneniya_razdritelya_bystro_prokhodit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль … боль после устранения раздражителя быстро проходит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_karies_emali",
+    "target": "diagnosis_karies_dentina",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "По глубине кариеса: начальный; поверхностный; средний; глубокий.",
+    "properties": {}
+  }
+]

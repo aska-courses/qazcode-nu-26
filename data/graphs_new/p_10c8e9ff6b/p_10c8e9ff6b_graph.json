@@ -1,0 +1,491 @@
+{
+  "protocol_id": "p_10c8e9ff6b",
+  "nodes": [
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Болезнь Иценко-Кушинга",
+      "icd_code": "E24.0"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "прибавка массы тела",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "изменение внешности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "общая слабость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "слабость в мышцах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "снижение памяти",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "депрессия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "боли в костях",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "головные боли",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "диспластическое ожирение",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "лунообразное лицо",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "сухость кожи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "истончение кожи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "мраморность кожи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "подкожные кровоизлияния",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "стрии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "гиперпигментация кожи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "артериальная гипертензия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "глухие сердечные тоны",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "энцефалопатия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "миопатия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "мышечная атрофия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "остеопороз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "деформация позвоночника",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "пластоспондилия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_25",
+      "type": "symptom",
+      "label": "ранняя остановка роста",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_26",
+      "type": "symptom",
+      "label": "нарушение углеводного обмена",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_27",
+      "type": "symptom",
+      "label": "сахарный диабет",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_28",
+      "type": "symptom",
+      "label": "вторичный гипогонадизм",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_29",
+      "type": "symptom",
+      "label": "вторичный иммунодефицит",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прибавку массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение внешности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общую слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "депрессию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в костях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диспластическое ожирение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лунообразное лицо",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "истончение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мраморность кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подкожные кровоизлияния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперпигментация кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глухие сердечные тоны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "энцефалопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышечная атрофия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "остеопороз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_23",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация позвоночника",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пластоспондилия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_25",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "раннюю остановку роста",
+      "properties": {}
+    },
+    {
+      "source": "symptom_26",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение углеводного обмена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_27",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сахарный диабет",
+      "properties": {}
+    },
+    {
+      "source": "symptom_28",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вторичный гипогонадизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_29",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вторичный иммунодефицит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "прибавку массы тела и изменение внешности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "общую слабость, слабость в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_12",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость, истончение, мраморность, подкожные кровоизлияния, ... стрии, гиперпигментация кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость, истончение, мраморность, подкожные кровоизлияния, ... стрии, гиперпигментация кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость, истончение, мраморность, подкожные кровоизлияния, ... стрии, гиперпигментация кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "symptom_23",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "системный остеопороз, деформация позвоночника, пластоспондилия, раннюю остановку роста",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "symptom_24",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "системный остеопороз, деформация позвоночника, пластоспондилия, раннюю остановку роста",
+      "properties": {}
+    },
+    {
+      "source": "symptom_26",
+      "target": "symptom_27",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение углеводного обмена, СД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_28",
+      "target": "symptom_29",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вторичный гипогонадизм; вторичный иммунодефицит",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+[
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j45_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j45_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j45_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j45_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezes",
+    "target": "diagnosis_j45_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... свистящие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezes",
+    "target": "diagnosis_j45_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... свистящие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezes",
+    "target": "diagnosis_j45_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... свистящие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheезes",
+    "target": "diagnosis_j45_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... свистящие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j45_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j45_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j45_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j45_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_activity",
+    "target": "diagnosis_j45_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение активности: ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_waking",
+    "target": "diagnosis_j45_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ночные пробуждения ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_cough",
+    "target": "diagnosis_j45_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ночной кашель ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "выраженный цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_somnolence",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "угнетение сознания, сонливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_impaired_consciousness",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "угнетение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частота пульса ≥200",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_pulse_rate",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частота пульса ≥200",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_respiratory_rate",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенная частота дыхания (тахипноэ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки гипервентиляции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flat_diaphragm",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "уплощение купола диафрагмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_horizontal_ribs",
+    "target": "diagnosis_j46",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "горизонтальное расположение ребер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_wheezes",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "таких как свистящие хрипы, одышка, ... и кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "таких как свистящие хрипы, одышка, ... и кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezes",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "таких как свистящие хрипы, одышка, ... и кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezes",
+    "target": "symptom_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при легком обострении ... хрипы непостоянные, умеренная тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "symptom_horizontal_ribs",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "признаки гипервентиляции, горизонтальное расположение ребер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "symptom_flat_diaphragm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "признаки гипервентиляции, ... уплощение купола диафрагмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flat_diaphragm",
+    "target": "symptom_horizontal_ribs",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "уплощение купола диафрагмы, горизонтальное расположение ребер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_wheezes",
+    "target": "symptom_wet_wheezes",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухие, свистящие, мелкопузырчатые влажные хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_wheezes",
+    "target": "symptom_wheezes",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухие, свистящие, мелкопузырчатые влажные хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_wheezes",
+    "target": "symptom_wheezes",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухие, свистящие, мелкопузырчатые влажные хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_pulse_rate",
+    "target": "symptom_elevated_respiratory_rate",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышенная частота пульса, повышенная частота дыхания (тахипноэ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_waking",
+    "target": "symptom_night_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Ночные пробуждения или ночной кашель",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_0",
+    "target": "diagnosis_j45_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы)МКБ-10: J45.0 ... J45.1 ... J45.8 ... J45.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_0",
+    "target": "diagnosis_j45_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы)МКБ-10: J45.0 ... J45.1 ... J45.8 ... J45.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_0",
+    "target": "diagnosis_j45_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы)МКБ-10: J45.0 ... J45.1 ... J45.8 ... J45.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_1",
+    "target": "diagnosis_j45_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы)МКБ-10: J45.0 ... J45.1 ... J45.8 ... J45.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_1",
+    "target": "diagnosis_j45_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы)МКБ-10: J45.0 ... J45.1 ... J45.8 ... J45.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_8",
+    "target": "diagnosis_j45_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы)МКБ-10: J45.0 ... J45.1 ... J45.8 ... J45.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j45_0",
+    "target": "diagnosis_j46",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Астматический статус",
+    "properties": {}
+  }
+]

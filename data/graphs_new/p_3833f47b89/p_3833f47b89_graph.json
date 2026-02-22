@@ -1,0 +1,324 @@
+{
+  "protocol_id": "p_3833f47b89",
+  "nodes": [
+    {
+      "id": "symptom_snizhenie_apetita",
+      "type": "symptom",
+      "label": "снижение аппетита"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_meteorizm",
+      "type": "symptom",
+      "label": "метеоризм"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_bystraya_utomlyaemost",
+      "type": "symptom",
+      "label": "быстрая утомляемость"
+    },
+    {
+      "id": "symptom_bol_v_podreberii",
+      "type": "symptom",
+      "label": "боль в подреберье"
+    },
+    {
+      "id": "symptom_zheltushnost_kozhnogo_pokrova",
+      "type": "symptom",
+      "label": "желтушность кожных покровов"
+    },
+    {
+      "id": "symptom_poteria_vesa",
+      "type": "symptom",
+      "label": "потеря веса (похудание)"
+    },
+    {
+      "id": "symptom_rasshirenie_podkozhnyh_ven_na_grudnoj_kletke_i_zhivote",
+      "type": "symptom",
+      "label": "расширение подкожных вен на грудной клетке и в области живота"
+    },
+    {
+      "id": "symptom_rvota_krovyu",
+      "type": "symptom",
+      "label": "рвота кровью"
+    },
+    {
+      "id": "symptom_stul_temnogo_cvetа",
+      "type": "symptom",
+      "label": "стул темного (дегтеобразного) цвета"
+    },
+    {
+      "id": "symptom_spenomegaliya",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_gepatomegaliya",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_aszit",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_rasshirenie_ven_pryamoy_kishki",
+      "type": "symptom",
+      "label": "расширение вен прямой кишки"
+    },
+    {
+      "id": "symptom_varikoznoe_rasshirenie_ven_pischevoda",
+      "type": "symptom",
+      "label": "варикозное расширение вен пищевода"
+    },
+    {
+      "id": "symptom_krovootechenie_zhk",
+      "type": "symptom",
+      "label": "пищеводно-желудочное кровотечение"
+    },
+    {
+      "id": "symptom_uvelichenie_obema_zhivota",
+      "type": "symptom",
+      "label": "увеличение объёма живота"
+    },
+    {
+      "id": "symptom_giperesplenizm",
+      "type": "symptom",
+      "label": "гиперспленизм"
+    },
+    {
+      "id": "diagnosis_portalnaya_gipertenziya",
+      "type": "diagnosis",
+      "label": "Портальная гипертензия",
+      "icd_code": "K76.6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_snizhenie_apetita",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • снижение аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • тошнота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meteorizm",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • метеоризм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bystraya_utomlyaemost",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • быстрая утомляемость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_podreberii",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • боли в левом и правом подреберьях;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltushnost_kozhnogo_pokrova",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • желтушность кожных покровов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_vesa",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ранние симптомы: • потеря в весе (похудание).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_podkozhnyh_ven_na_grudnoj_kletke_i_zhivote",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поздние симптомы: • расширение подкожных вен на грудной клетке и в области живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota_krovyu",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поздние симптомы: • рвота кровью,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stul_temnogo_cvetа",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поздние симптомы: • стул темного («дегтеобразного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spenomegaliya",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "определение размеров печени и селезёнки (спленомегалия, гепатомегалия);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "определение размеров печени и селезёнки (спленомегалия, гепатомегалия);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aszit",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "определение объёма живота (увеличение за счёт асцита)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_ven_pryamoy_kishki",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "осмотр per rectum – расширение вен прямой кишки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikoznoe_rasshirenie_ven_pischevoda",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФЭГДС – варикозно раширенные вены пищевода;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovootechenie_zhk",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пищеводно-желудочное кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_obema_zhivota",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "определение объёма живота (увеличение за счёт асцита)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperesplenizm",
+      "target": "diagnosis_portalnaya_gipertenziya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК – признаки вторичного гиперспленизма (лейкопения, тромбоцитопения);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_apetita",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ранние симптомы: • снижение аппетита; • тошнота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_meteorizm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ранние симптомы: • тошнота; • метеоризм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meteorizm",
+      "target": "symptom_slabost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ранние симптомы: • метеоризм; • слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_podkozhnyh_ven_na_grudnoj_kletke_i_zhivote",
+      "target": "symptom_rvota_krovyu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Поздние симптомы: • расширение подкожных вен...; • рвота кровью,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota_krovyu",
+      "target": "symptom_stul_temnogo_cvetа",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Поздние симптомы: • рвота кровью, стул темного («дегтеобразного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spenomegaliya",
+      "target": "symptom_gepatomegaliya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "определение размеров печени и селезёнки (спленомегалия, гепатомегалия);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aszit",
+      "target": "symptom_uvelichenie_obema_zhivota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "определение объёма живота (увеличение за счёт асцита)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperesplenizm",
+      "target": "symptom_spenomegaliya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ОАК – признаки вторичного гиперспленизма (лейкопения, тромбоцитопения);",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_absence_of_breathing",
+    "target": "s15_7",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "1. Отсутствие дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_cardiac_activity",
+    "target": "s15_7",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "2. Отсутствие сердечной деятельности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gcs_less_8",
+    "target": "s15_7",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "3. Угнетение сознания по шкале ком Глазго менее 8 баллов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "symptom_multi_organ_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Симптом полиорганной недостаточности (СПОН) ... Симптом шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_airway_uncertainty",
+    "target": "symptom_absence_of_breathing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Если имеется любое сомнение относительно состояния дыхательных путей ... 1. Отсутствие дыхания",
+    "properties": {}
+  },
+  {
+    "source": "s15_7",
+    "target": "s25_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S15.7 ... S25.7 ... перечислены подряд в разделе кодов МКБ-10 как составляющие политравму",
+    "properties": {}
+  },
+  {
+    "source": "s44_7",
+    "target": "s45_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S44.7 ... S45.7 ... перечислены подряд в разделе кодов МКБ-10 как составляющие политравму",
+    "properties": {}
+  },
+  {
+    "source": "s64_7",
+    "target": "s65_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S64.7 ... S65.7 ... перечислены подряд в разделе кодов МКБ-10 как составляющие политравму",
+    "properties": {}
+  },
+  {
+    "source": "s74_7",
+    "target": "s75_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S74.7 ... S75.7 ... перечислены подряд в разделе кодов МКБ-10 как составляющие политравму",
+    "properties": {}
+  },
+  {
+    "source": "s84_7",
+    "target": "s85_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S84.7 ... S85.7 ... перечислены подряд в разделе кодов МКБ-10 как составляющие политравму",
+    "properties": {}
+  }
+]

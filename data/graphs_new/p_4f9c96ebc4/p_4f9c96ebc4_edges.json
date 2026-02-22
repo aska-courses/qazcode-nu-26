@@ -1,0 +1,242 @@
+[
+  {
+    "source": "symptom_hyperthyroidism",
+    "target": "diagnosis_e05",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10: E05 Тиреотоксикоз [гипертиреоз]",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pregnancy",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Абсолютные противопоказания: • беременность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pregnancy",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Абсолютные противопоказания: • беременность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lactation",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Абсолютные противопоказания: • лактация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lactation",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Абсолютные противопоказания: • лактация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iodine_intolerance",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Абсолютные противопоказания: • непереносимость йода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iodine_intolerance",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Абсолютные противопоказания: • непереносимость йода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_disease",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • общее тяжелое состояние больного, обусловленное сопутствующими заболеваниями (заболевания печени, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_disease",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • общее тяжелое состояние больного, обусловленное сопутствующими заболеваниями (заболевания печени, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_disease",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • общее тяжелое состояние больного, обусловленное сопутствующими заболеваниями (заболевания почек, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_disease",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • общее тяжелое состояние больного, обусловленное сопутствующими заболеваниями (заболевания почек, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peptic_ulcer",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • острая и хроническая язвенная болезнь желудка и двенадцатиперстной кишки (фаза обострения)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peptic_ulcer",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • острая и хроническая язвенная болезнь желудка и двенадцатиперстной кишки (фаза обострения)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diabetes",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • тяжелые формы диабета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diabetes",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • тяжелые формы диабета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_tuberculosis",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • туберкулез легких в активной фазе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_tuberculosis",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • туберкулез легких в активной фазе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychiatric_disorder",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • острые психические расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychiatric_disorder",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • острые психические расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_marrow_aplasia",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • истощенное состояние костного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_marrow_aplasia",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • истощенное состояние костного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_large_goiter_compression",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • большие размеры зоба с симптомами сдавления органов шеи и средостения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_large_goiter_compression",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • большие размеры зоба с симптомами сдавления органов шеи и средостения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_autoimmune_ophthalmopathy",
+    "target": "diagnosis_e05",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • наличие активной аутоиммунной офтальмопатии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_autoimmune_ophthalmopathy",
+    "target": "diagnosis_c73",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Относительные противопоказания: • наличие активной аутоиммунной офтальмопатии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e05",
+    "target": "diagnosis_e05_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10: E05.0 Тиреотоксикоз с диффузным зобом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e05",
+    "target": "diagnosis_e05_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10: E05.1 Тиреотоксикоз с токсическим одноузловым зобом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e05",
+    "target": "diagnosis_e05_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10: E05.2 Тиреотоксикоз с токсическим многоузловым зобом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e05",
+    "target": "diagnosis_e05_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10: E05.3 Тиреотоксикоз с эктопией тиреоидной ткани",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e05",
+    "target": "diagnosis_c73",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/ вмешательству: • дифференцированный рак щитовидной железы ...; • тиреотоксикоз с диффузным зобом",
+    "properties": {}
+  }
+]

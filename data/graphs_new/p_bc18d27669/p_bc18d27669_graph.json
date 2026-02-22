@@ -1,0 +1,358 @@
+{
+  "protocol_id": "p_bc18d27669",
+  "nodes": [
+    {
+      "id": "diagnosis_o12",
+      "type": "diagnosis",
+      "label": "Вызванная беременностью отеки и протеинурия без гипертензии",
+      "icd_code": "O12"
+    },
+    {
+      "id": "diagnosis_o12_0",
+      "type": "diagnosis",
+      "label": "Вызванные беременностью отеки",
+      "icd_code": "O12.0"
+    },
+    {
+      "id": "diagnosis_o12_1",
+      "type": "diagnosis",
+      "label": "Вызванная беременностью протеинурия",
+      "icd_code": "O12.1"
+    },
+    {
+      "id": "diagnosis_o12_2",
+      "type": "diagnosis",
+      "label": "Вызванная беременностью отеки с протеинурией",
+      "icd_code": "O12.2"
+    },
+    {
+      "id": "symptom_edema_lower_limbs",
+      "type": "symptom",
+      "label": "отёки нижних конечностей"
+    },
+    {
+      "id": "symptom_edema_upper_limbs",
+      "type": "symptom",
+      "label": "отёки верхних конечностей"
+    },
+    {
+      "id": "symptom_edema_face",
+      "type": "symptom",
+      "label": "отёки лица"
+    },
+    {
+      "id": "symptom_edema_generalized",
+      "type": "symptom",
+      "label": "генерализованные отёки"
+    },
+    {
+      "id": "symptom_facial_puffiness",
+      "type": "symptom",
+      "label": "пастозность лица"
+    },
+    {
+      "id": "symptom_edema_feet_shins",
+      "type": "symptom",
+      "label": "отёки стоп и голеней"
+    },
+    {
+      "id": "symptom_edema_lower_abdomen",
+      "type": "symptom",
+      "label": "отёки нижней части живота"
+    },
+    {
+      "id": "symptom_edema_lumbar_sacral",
+      "type": "symptom",
+      "label": "отёки пояснично‑крестцовой области"
+    },
+    {
+      "id": "symptom_edema_hands",
+      "type": "symptom",
+      "label": "отёки рук"
+    },
+    {
+      "id": "symptom_reduced_diuresis",
+      "type": "symptom",
+      "label": "снижение диуреза"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "протеинурия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "2 степень – отёки нижних конечностей, нижней части живота и пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_upper_limbs",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_face",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_generalized",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_puffiness",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "3 степень – возникновение отеков на руках, появление пастозности лица («одутловатость»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_hands",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "3 степень – возникновение отеков на руках, появление пастозности лица («одутловатость»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_feet_shins",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "1 степень – отёки в области стоп и голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_abdomen",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "2 степень – отёки нижних конечностей, нижней части живота и пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lumbar_sacral",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "2 степень – отёки нижних конечностей, нижней части живота и пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_diuresis",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение диуреза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_o12",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_upper_limbs",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_face",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_generalized",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_puffiness",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пастозность лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_hands",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки на руках",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_feet_shins",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки в области стоп и голеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_abdomen",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки нижней части живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lumbar_sacral",
+      "target": "diagnosis_o12_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_o12_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вызванная беременностью протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_o12_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вызванная беременностью отеки с протеинурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "diagnosis_o12_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вызванная беременностью отеки с протеинурией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "symptom_edema_lower_abdomen",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "2 степень – отёки нижних конечностей, нижней части живота и пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "symptom_edema_lumbar_sacral",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "2 степень – отёки нижних конечностей, нижней части живота и пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_abdomen",
+      "target": "symptom_edema_lumbar_sacral",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "2 степень – отёки нижних конечностей, нижней части живота и пояснично‑крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_hands",
+      "target": "symptom_facial_puffiness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "3 степень – возникновение отеков на руках, появление пастозности лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_upper_limbs",
+      "target": "symptom_edema_lower_limbs",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_upper_limbs",
+      "target": "symptom_edema_face",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "symptom_edema_face",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_generalized",
+      "target": "symptom_edema_upper_limbs",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_generalized",
+      "target": "symptom_edema_lower_limbs",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_generalized",
+      "target": "symptom_edema_face",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_diuresis",
+      "target": "symptom_edema_lower_limbs",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки верхних и нижних конечностей, лица или генерализованные отёки; снижение диуреза",
+      "properties": {}
+    }
+  ]
+}

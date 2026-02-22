@@ -1,0 +1,288 @@
+{
+  "protocol_id": "p_f8034b6b64",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры тела"
+    },
+    {
+      "id": "symptom_lyhozhka",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_localized_pain",
+      "type": "symptom",
+      "label": "локализованная боль"
+    },
+    {
+      "id": "symptom_spread_pain",
+      "type": "symptom",
+      "label": "распирающие боли, ограничение движений"
+    },
+    {
+      "id": "symptom_swelling",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_hyperemia",
+      "type": "symptom",
+      "label": "гиперемия кожи"
+    },
+    {
+      "id": "symptom_local_temperature_increase",
+      "type": "symptom",
+      "label": "повышение местной температуры"
+    },
+    {
+      "id": "symptom_tenderness",
+      "type": "symptom",
+      "label": "болезненное при пальпации"
+    },
+    {
+      "id": "symptom_lymphopenia",
+      "type": "symptom",
+      "label": "абсолютная лимфопения"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_left_shift",
+      "type": "symptom",
+      "label": "смещение формулы крови влево"
+    },
+    {
+      "id": "symptom_esr_elevated",
+      "type": "symptom",
+      "label": "ускоренная СОЭ"
+    },
+    {
+      "id": "symptom_fistula",
+      "type": "symptom",
+      "label": "свищи с гнойными отделяемыми"
+    },
+    {
+      "id": "diagnosis_osteomyelitis",
+      "type": "diagnosis",
+      "label": "остеомиелит",
+      "icd_code": "M86"
+    },
+    {
+      "id": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "diagnosis",
+      "label": "острый гематогенный остеомиелит",
+      "icd_code": "M86.0"
+    },
+    {
+      "id": "diagnosis_other_acute_osteomyelitis",
+      "type": "diagnosis",
+      "label": "другие формы острого остеомиелита",
+      "icd_code": "M86.1"
+    },
+    {
+      "id": "diagnosis_subacute_osteomyelitis",
+      "type": "diagnosis",
+      "label": "подострый остеомиелит",
+      "icd_code": "M86.2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lyhozhka",
+      "target": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихорадкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_left_shift",
+      "target": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение формулы крови влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphopenia",
+      "target": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "абсолютная лимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_esr_elevated",
+      "target": "diagnosis_acute_hematogenous_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускоренная СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spread_pain",
+      "target": "diagnosis_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "распирающие боли, ограничение движений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness",
+      "target": "diagnosis_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненное при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperemia",
+      "target": "diagnosis_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_local_temperature_increase",
+      "target": "diagnosis_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "diagnosis_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fistula",
+      "target": "diagnosis_osteomyelitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Свищи с гнойными отделяемыми",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_leukocytosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повышение температуры тела, лейкоцитоз со сдвигом формулы влево, абсолютнаялимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_left_shift",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повышение температуры тела, лейкоцитоз со сдвигом формулы влево, абсолютнаялимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_lymphopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повышение температуры тела, лейкоцитоз со сдвигом формулы влево, абсолютнаялимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_left_shift",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз со сдвигом формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_lymphopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз ... абсолютнаялимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_left_shift",
+      "target": "symptom_lymphopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "смещение формулы крови влево, абсолютнаялимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spread_pain",
+      "target": "symptom_swelling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "распирающие боли, ограничение движений ... отёк",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spread_pain",
+      "target": "symptom_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "распирающие боли, ограничение движений ... гиперемия кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spread_pain",
+      "target": "symptom_local_temperature_increase",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "распирающие боли, ограничение движений ... повышение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "symptom_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отёк, гиперемию кожи над пораженной костью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "symptom_local_temperature_increase",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отёк, гиперемию кожи и повышение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperemia",
+      "target": "symptom_local_temperature_increase",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гиперемия кожи и повышение местной температуры",
+      "properties": {}
+    }
+  ]
+}

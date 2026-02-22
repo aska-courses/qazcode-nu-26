@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_vnezapnaya_intensivnaya_abdominalnaya_bol",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "«клиническая триада»: внезапная интенсивная абдоминальная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontannoe_oporozhnenie_kishechnika_rvota",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "спонтанное опорожнение кишечника (рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontannoe_oporozhnenie_kishechnika_diareya",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "спонтанное опорожнение кишечника (диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_primes_krovi_v_rvote",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "примесь крови в рвоте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_primes_krovi_v_stule",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "примесь крови в стуле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradykardia",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptom_blinova",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Блинова",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shchetkin_blyumberga",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Щеткина‑Блюмберга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leykotsitoz",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "лейкоцитоз (>12 ×10⁹/л) или лейкопения (<4 ×10⁹/л)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_or_hypothermia",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "температура тела >38 °C или <36 °C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotenzia",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотензия (АД <90 мм рт. ст.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotrofuzia",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипоперфузия (олигоурия, лактацидоз)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peritonit",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "перитонит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mondora",
+    "target": "diagnosis_acute_mesenteric_ischemia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Мондора – пальпация инфильтрата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnezapnaya_intensivnaya_abdominalnaya_bol",
+    "target": "symptom_spontannoe_oporozhnenie_kishechnika_rvota",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "«клиническая триада»: внезапная интенсивная абдоминальная боль, спонтанное опорожнение кишечника (рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnezapnaya_intensivnaya_abdominalnaya_bol",
+    "target": "symptom_spontannoe_oporozhnenie_kishechnika_diareya",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "«клиническая триада»: внезапная интенсивная абдоминальная боль, спонтанное опорожнение кишечника (диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontannoe_oporozhnenie_kishechnika_rvota",
+    "target": "symptom_spontannoe_oporozhnenie_kishechnika_diareya",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "спонтанное опорожнение кишечника (рвота и диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradykardia",
+    "target": "symptom_simptom_blinova",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "возможно повышение артериального давления ... - симптом Блинова, брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "symptom_febrile_or_hypothermia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тахикардия ... лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkoagulaciya",
+    "target": "symptom_povyshennyi_uroven_d_dimera",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперкоагуляция; повышенный уровень Д‑димеров",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennyi_uroven_lakata",
+    "target": "symptom_gipotrofuzia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышенный уровень лактата ... гипоперфузия",
+    "properties": {}
+  }
+]

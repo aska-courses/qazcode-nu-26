@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышение температуры до 38-390 С",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "насморк, чиханье, выделение обильного серозного носового секрета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sneezing",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "насморк, чиханье, выделение обильного серозного носового секрета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_discharge",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "насморк, чиханье, выделение обильного серозного носового секрета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sensation_obstruction",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство сужения дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hoarseness",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "охриплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "грубый кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение, светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение, светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высыпания на коже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "катаральный синдром (конъюнктивит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enanthema",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "коревая энантема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koplik_spots",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пятна Коплика",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артериальная гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение температуры до 38-390 С; головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение температуры до 38-390 С; грубый кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_nasal_discharge",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "грубый кашель; насморк, чиханье, выделение обильного серозного носового секрета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "symptom_conjunctivitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "высыпания на коже; конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_encephalitis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.0 Корь, осложненная энцефалитом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_meningitis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.1 Корь, осложненная менингитом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_pneumonia",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.2 Корь, осложненная пневмонией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_otitis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.3 Корь, осложненная средним отитом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_gastrointestinal",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.4 Корь с кишечными осложнениями",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_other_complications",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.8 Корь с другими осложнениями",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_measles",
+    "target": "diagnosis_measles_without_complications",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "В05.9 Корь без осложнений",
+    "properties": {}
+  }
+]

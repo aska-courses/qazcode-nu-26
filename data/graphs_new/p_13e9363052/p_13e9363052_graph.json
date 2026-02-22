@@ -1,0 +1,295 @@
+{
+  "protocol_id": "p_13e9363052",
+  "nodes": [
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "потливость"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "утомляемость"
+    },
+    {
+      "id": "symptom_subfebrile",
+      "type": "symptom",
+      "label": "субфебрилитет"
+    },
+    {
+      "id": "symptom_bone_pain",
+      "type": "symptom",
+      "label": "боли в костях"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "боли в суставах"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "снижение массы тела"
+    },
+    {
+      "id": "symptom_hemorrhagic_rash",
+      "type": "symptom",
+      "label": "геморрагические высыпания"
+    },
+    {
+      "id": "symptom_petechiae",
+      "type": "symptom",
+      "label": "петехии"
+    },
+    {
+      "id": "symptom_ecchymoses",
+      "type": "symptom",
+      "label": "экхимозы"
+    },
+    {
+      "id": "symptom_epistaxis",
+      "type": "symptom",
+      "label": "эпистаксис"
+    },
+    {
+      "id": "symptom_menorrhagia",
+      "type": "symptom",
+      "label": "меноррагии"
+    },
+    {
+      "id": "symptom_increased_bleeding",
+      "type": "symptom",
+      "label": "повышенная кровоточивость"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "бледность кожных покровов"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "увеличение печени"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "увеличение селезенки"
+    },
+    {
+      "id": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "diagnosis",
+      "label": "острый промиелоцитарный лейкоз",
+      "icd_code": "C92.4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... потливость, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... утомляемость, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... субфебрилитет, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_pain",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... боли в костях ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... боли в суставах ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... снижение массы тела ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_rash",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... геморрагические высыпания ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petechiae",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... геморрагические высыпания в виде петехий ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ecchymoses",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... геморрагические высыпания в виде ... экхимозов ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epistaxis",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... эпистаксис ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_menorrhagia",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... меноррагии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_bleeding",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на ... повышенная кровоточивость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: бледность кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: увеличение печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_acute_promyelocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: увеличение селезенки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_fatigue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, ... утомляемость, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_sweating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, потливость, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_rash",
+      "target": "symptom_petechiae",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "геморрагические высыпания в виде петехий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petechiae",
+      "target": "symptom_ecchymoses",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "петехии и экхимозы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка; тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_splenomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение печени; увеличение селезенки",
+      "properties": {}
+    }
+  ]
+}

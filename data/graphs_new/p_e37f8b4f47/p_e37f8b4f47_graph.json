@@ -1,0 +1,437 @@
+{
+  "protocol_id": "p_e37f8b4f47",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_skin_lesions",
+      "type": "symptom",
+      "label": "Кожные поражения (первичный кожный аффект)"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отёк (кожный, лёгочный, мозговой)"
+    },
+    {
+      "id": "symptom_regional_lymphadenopathy",
+      "type": "symptom",
+      "label": "Региональный лимфаденит"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель (непродуктивный)"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боль в грудной клетке (плевритная, плевритная боль)"
+    },
+    {
+      "id": "symptom_myalgia",
+      "type": "symptom",
+      "label": "Боль в мышцах"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "Обильное потоотделение"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Снижение артериального давления"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Учащённое сердцебиение (тахикардия)"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота (с кровью)"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Диарея (с кровью)"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_ascites",
+      "type": "symptom",
+      "label": "Асцит"
+    },
+    {
+      "id": "symptom_meningitis",
+      "type": "symptom",
+      "label": "Менингит"
+    },
+    {
+      "id": "symptom_toxic_shock",
+      "type": "symptom",
+      "label": "Инфекционно‑токсический шок"
+    },
+    {
+      "id": "symptom_dic",
+      "type": "symptom",
+      "label": "ДВС‑синдром"
+    },
+    {
+      "id": "symptom_ards",
+      "type": "symptom",
+      "label": "ОРДС (острый респираторный дистресс‑синдром)"
+    },
+    {
+      "id": "symptom_pulmonary_edema",
+      "type": "symptom",
+      "label": "Отёк лёгких"
+    },
+    {
+      "id": "symptom_brain_edema",
+      "type": "symptom",
+      "label": "Отёк головного мозга"
+    },
+    {
+      "id": "symptom_hemorrhagic_pneumonia",
+      "type": "symptom",
+      "label": "Геморрагическая пневмония"
+    },
+    {
+      "id": "symptom_hemorrhagic_shock",
+      "type": "symptom",
+      "label": "Геморрагический шок"
+    },
+    {
+      "id": "diagnosis_anthrax_cutaneous",
+      "type": "diagnosis",
+      "label": "Кожная форма сибирской язвы",
+      "icd_code": "A22.0"
+    },
+    {
+      "id": "diagnosis_anthrax_pulmonary",
+      "type": "diagnosis",
+      "label": "Легочная форма сибирской язвы",
+      "icd_code": "A22.1"
+    },
+    {
+      "id": "diagnosis_anthrax_gastrointestinal",
+      "type": "diagnosis",
+      "label": "Желудочно‑кишечная форма сибирской язвы",
+      "icd_code": "A22.2"
+    },
+    {
+      "id": "diagnosis_anthrax_septicemia",
+      "type": "diagnosis",
+      "label": "Сибиреязвенная септицемия",
+      "icd_code": "A22.7"
+    },
+    {
+      "id": "diagnosis_anthrax_other",
+      "type": "diagnosis",
+      "label": "Другие формы сибирской язвы (сибиреязвенный менингит)",
+      "icd_code": "A22.8"
+    },
+    {
+      "id": "diagnosis_anthrax_unspecified",
+      "type": "diagnosis",
+      "label": "Сибирская язва неуточнённая",
+      "icd_code": "A22.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_anthrax_cutaneous",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_anthrax_cutaneous",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_anthrax_cutaneous",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общая слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_lesions",
+      "target": "diagnosis_anthrax_cutaneous",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "появление кожных поражений (первичных кожных аффектов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_anthrax_cutaneous",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек вокруг ПКА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_regional_lymphadenopathy",
+      "target": "diagnosis_anthrax_cutaneous",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "региональный лимфаденит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общая слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myalgia",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кашель непродуктивный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в грудной клетке (плевритная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "учащённое сердцебиение (тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение артериального давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_edema",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк лёгких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_pneumonia",
+      "target": "diagnosis_anthrax_pulmonary",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "геморрагическая пневмония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_anthrax_gastrointestinal",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_anthrax_gastrointestinal",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_anthrax_gastrointestinal",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рвота (с кровью)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_anthrax_gastrointestinal",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "диарея (с кровью)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_anthrax_gastrointestinal",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ascites",
+      "target": "diagnosis_anthrax_gastrointestinal",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "асцит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toxic_shock",
+      "target": "diagnosis_anthrax_septicemia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекционно‑токсический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dic",
+      "target": "diagnosis_anthrax_septicemia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ДВС‑синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningitis",
+      "target": "diagnosis_anthrax_septicemia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "менингит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningitis",
+      "target": "diagnosis_anthrax_other",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "менингит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела ... головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела ... общая слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_diarrhea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвота (с кровью) ... диарея (с кровью)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_chest_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кашель непродуктивный ... боль в грудной клетке (плевритная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myalgia",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в мышцах ... повышение температуры тела",
+      "properties": {}
+    }
+  ]
+}

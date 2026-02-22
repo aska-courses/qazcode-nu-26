@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_right_upper_quadrant_pain",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль в правом подреберье - чаще интенсивная, продолжительностью более 30 минут.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epigastric_pain",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "может начинаться в эпигастрии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_left_upper_quadrant_pain",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "может начинаться ... левом подреберье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота и рвота.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота и рвота.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение аппетита.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_colic",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие приступа печеночной колики ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лихорадка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Желтуха - около 10% случаев ОХ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_murphy_sign_positive",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Положительные симптомы: -Мерфи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_greko_ortner_sign_positive",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Положительные симптомы: -Грекова-Ортнера;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muski_georgiev_sign_positive",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Положительные симптомы: -Мюсси-Георгиевского (френикуссимптом);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие хотя бы одного признака ... лейкоцитоз свыше 18*10⁹/л",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_gallbladder",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие хотя бы одного признака ... пальпируемый желчный пузырь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disease_duration_over_72h",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие хотя бы одного признака ... срок заболевания свыше 72 часов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_inflammation",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие признаков местного воспалительного процесса, включая желчный перитонит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gallbladder_peritonitis",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие признаков местного воспалительного процесса, включая желчный перитонит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perivisceral_abscess",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие признаков местного воспалительного процесса, включая перивезикальный абсцесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_abscess",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие признаков местного воспалительного процесса, включая абсцесс печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gangrenous_cholecystitis",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гангренозный или эмфизематозный холецистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emphysematous_cholecystitis",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гангренозный или эмфизематозный холецистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_process",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гнойный процесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_jaundice",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "механическая желтуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_biliary_fistula",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наружный желчный свищ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_internal_biliary_fistula",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "внутренний желчный свищ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_pancreatitis",
+    "target": "diagnosis_k81_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острый панкреатит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k80_0",
+    "target": "diagnosis_k81_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Камни желчного пузыря с острым холециститом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k81_0",
+    "target": "diagnosis_k82_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "перфорация ЖП ... осложненный перфорацией ЖП",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k81_0",
+    "target": "diagnosis_k82_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "обтурационный ... форма по патогенезу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_right_upper_quadrant_pain",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Боль в правом подреберье ... Тошнота и рвота.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_right_upper_quadrant_pain",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Боль в правом подреберье ... Лихорадка;",
+    "properties": {}
+  }
+]

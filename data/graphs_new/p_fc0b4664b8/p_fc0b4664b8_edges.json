@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_vypadeniye_volos",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  на выпадение волос.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ochagi_alopetsii",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие очагов алопеции с четкими границами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oblomannye_volosy",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие в очаге или по его краю обломанных волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetlye_pushkovye_volosy",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие в очаге роста светлых пушковых волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennoe_chislo_trombocitov",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенное число тромбоцитов (эндогенная интоксикация)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_distrofichnye_kontsy_volos",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дистрофичных проксимальных концов в виде «оборванного каната»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mikoz",
+    "target": "diagnosis_gnezdnaya_alopetsia",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Микоз Обнаруживается ... микроскопическое исследование на грибы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya",
+    "target": "symptom_mikoz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "умеренной гиперемией, поверхности кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shelushenie_kozhi",
+    "target": "symptom_mikoz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "шелушения кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oblamyvaniye_volos",
+    "target": "symptom_mikoz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обламывания волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_penki",
+    "target": "symptom_mikoz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие пеньков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ochagi_alopetsii",
+    "target": "symptom_oblomannye_volosy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "патогномоничные симптомы:  наличие очагов ...;  наличие в очаге или по его краю обломанных волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ochagi_alopetsii",
+    "target": "symptom_svetlye_pushkovye_volosy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "патогномоничные симптомы:  наличие очагов ...;  наличие в очаге роста светлых пушковых волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oblomannye_volosy",
+    "target": "symptom_svetlye_pushkovye_volosy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "патогномоничные симптомы:  наличие в очаге или по его краю обломанных волос;  наличие в очаге роста светлых пушковых волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennoe_chislo_trombocitov",
+    "target": "symptom_distrofichnye_kontsy_volos",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "общий анализ крови: повышенное число тромбоцитов ...; выявление при микроскопии эпилированных из очага волос дистрофичных проксимальных концов",
+    "properties": {}
+  }
+]

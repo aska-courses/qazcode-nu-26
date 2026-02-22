@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "В продроме часто отмечаются лихорадка (обычно ниже 39°С; у пожилых может отсутствовать)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Основные симптомы - боль за грудиной или в области сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pericardial_friction_rub",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Шум трения перикарда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pericardial_effusion",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Возможен выпот в перикарде",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_tamponade",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клиника перикардита с симптомами тампонады сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paradoxical_pulse",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Парадоксальный пульс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_ostry_perikardit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В продроме часто отмечаются лихорадка ... Основные симптомы - боль за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В продроме часто отмечаются лихорадка ... непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В продроме часто отмечаются лихорадка ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Основные симптомы - боль за грудиной ... непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Основные симптомы - боль за грудиной ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pericardial_friction_rub",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Шум трения перикарда ... боль за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostry_perikardit",
+    "target": "diagnosis_perikardiynyy_vypot_nevospravitelnnyy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Возможен выпот в перикарде",
+    "properties": {}
+  }
+]

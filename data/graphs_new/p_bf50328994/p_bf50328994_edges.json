@@ -1,0 +1,74 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение движений в суставе, в конечном итоге приводящее к хромоте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение движений в суставе, в конечном итоге приводящее к хромоте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой синдром выражен в той или иной степени, преимущественно при нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто наблюдается гипотрофия мышц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в проекции суставной щели",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в проекции энтезисов мышц и сухожилий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "явления остеопороза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение движений в суставе, в конечном итоге приводящее к хромоте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "symptom_6",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "болезненность в проекции суставной щели, болезненность в проекции энтезисов мышц и сухожилий",
+    "properties": {}
+  }
+]

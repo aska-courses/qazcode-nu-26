@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_n02",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гематурия рецидивирующая или постоянная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_n07",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Гематурия ... встречается при наследственных нефропатиях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_n02",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гематурия с/без артериальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_n07",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гематурия с/без артериальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_n07",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гематурия с/без тугоухости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_creatinine",
+    "target": "diagnosis_n02",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение креатинина выше нормативных показателей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_creatinine",
+    "target": "diagnosis_n07",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение креатинина выше нормативных показателей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_kidney_function",
+    "target": "diagnosis_n02",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение функции почек – СКФ менее 90 мл/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_kidney_function",
+    "target": "diagnosis_n07",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение функции почек – СКФ менее 90 мл/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_lumbar_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "абдоминальные или поясничные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_urine_output",
+    "target": "symptom_polyuria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение диуреза/полиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_pallor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "анемия; бледность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n02",
+    "target": "diagnosis_n07",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код протокола ... N02 ... N07 ...",
+    "properties": {}
+  }
+]

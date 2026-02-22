@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_zhazhda",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жажда; бледность; цианоз; снижение тургора кожи; судороги; афония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жажда; бледность; цианоз; снижение тургора кожи; судороги; афония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жажда; бледность; цианоз; снижение тургора кожи; судороги; афония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_turgora_kozhi",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жажда; бледность; цианоз; снижение тургора кожи; судороги; афония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жажда; бледность; цианоз; снижение тургора кожи; судороги; афония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_afoniya",
+    "target": "diagnosis_a00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жажда; бледность; цианоз; снижение тургора кожи; судороги; афония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_ohripeost_golosa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_gipotermiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_odyshka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_anuriya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ohripeost_golosa",
+    "target": "symptom_gipotermiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ohripeost_golosa",
+    "target": "symptom_odyshka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotermiya",
+    "target": "symptom_odyshka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз; охриплость голоса; гипотермия; одышка; анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_kozhi",
+    "target": "symptom_snizhenie_turgora_kozhi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухость кожных покровов и слизистых оболочек; снижение тургора кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_kozhi",
+    "target": "symptom_sukhost_slivistykh_obolochok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухость кожных покровов и слизистых оболочек; снижение тургора кожи",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a00",
+    "target": "diagnosis_a00_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Холера – это ...; A00.0 Холера, вызванная ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a00",
+    "target": "diagnosis_a00_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Холера – это ...; A00.1 Холера, вызванная ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a00",
+    "target": "diagnosis_a00_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Холера – это ...; A00.9 Холера неуточненная",
+    "properties": {}
+  }
+]

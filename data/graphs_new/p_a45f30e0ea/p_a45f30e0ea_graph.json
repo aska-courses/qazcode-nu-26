@@ -1,0 +1,441 @@
+{
+  "protocol_id": "p_a45f30e0ea",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_appendicit",
+      "type": "diagnosis",
+      "label": "Острый аппендицит",
+      "icd_code": "K35"
+    },
+    {
+      "id": "diagnosis_ostryi_appendicit_neu",
+      "type": "diagnosis",
+      "label": "Острый аппендицит неуточненный",
+      "icd_code": "K35.9"
+    },
+    {
+      "id": "symptom_bol_v_zabote",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_lokalnaya_boleshennost_pravaya_podvzdoshnaia_oblast",
+      "type": "symptom",
+      "label": "Локальная болезненность в правой подвздошной области"
+    },
+    {
+      "id": "symptom_filatova",
+      "type": "symptom",
+      "label": "Положительный симптом Филатова"
+    },
+    {
+      "id": "symptom_pasivnoe_napryazhenie_mysc",
+      "type": "symptom",
+      "label": "Пассивное напряжение мышц передней брюшной стенки"
+    },
+    {
+      "id": "symptom_kohera",
+      "type": "symptom",
+      "label": "Положительный симптом Кохера"
+    },
+    {
+      "id": "symptom_sitkovskogo",
+      "type": "symptom",
+      "label": "Положительный симптом Ситковского"
+    },
+    {
+      "id": "symptom_rovzinga",
+      "type": "symptom",
+      "label": "Положительный симптом Ровзинга"
+    },
+    {
+      "id": "symptom_voskresenskogo",
+      "type": "symptom",
+      "label": "Положительный симптом Воскресенского"
+    },
+    {
+      "id": "symptom_shchetkin_blyumbarga",
+      "type": "symptom",
+      "label": "Положительный симптом Щеткина‑Блюмберга"
+    },
+    {
+      "id": "symptom_povysennaya_temperatura",
+      "type": "symptom",
+      "label": "Повышенная температура тела"
+    },
+    {
+      "id": "symptom_tahikardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_sukhost_vo_rtu",
+      "type": "symptom",
+      "label": "Сухость во рту, обложенность языка"
+    },
+    {
+      "id": "symptom_vynuzhdennoe_polozhenie_tela",
+      "type": "symptom",
+      "label": "Вынужденное положение тела (наклон на правый бок)"
+    },
+    {
+      "id": "symptom_zaderzhka_stula",
+      "type": "symptom",
+      "label": "Задержка стула"
+    },
+    {
+      "id": "symptom_zhidkiy_stul",
+      "type": "symptom",
+      "label": "Жидкий стул"
+    },
+    {
+      "id": "symptom_ikhrichnost_kozhi",
+      "type": "symptom",
+      "label": "Икричность кожи (желтуха)"
+    },
+    {
+      "id": "symptom_boleshennost_pravoe_podreberie",
+      "type": "symptom",
+      "label": "Болезненность в правом подреберье"
+    },
+    {
+      "id": "symptom_boleshennost_pravaya_pozhnychnaya_oblast",
+      "type": "symptom",
+      "label": "Болезненность в правой поясничной области"
+    },
+    {
+      "id": "symptom_yure_rozanova",
+      "type": "symptom",
+      "label": "Положительный симптом Яуре‑Розанова"
+    },
+    {
+      "id": "symptom_nesoootvetstvie_temperatura_pulsa",
+      "type": "symptom",
+      "label": "Несоответствие температуры и пульса"
+    },
+    {
+      "id": "symptom_povysennaya_soe",
+      "type": "symptom",
+      "label": "Повышенная скорость оседания эритроцитов (СОЭ)"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_leukopenia",
+      "type": "symptom",
+      "label": "Лейкопения"
+    },
+    {
+      "id": "symptom_sdvig_formuly_vlevo",
+      "type": "symptom",
+      "label": "Сдвиг лейкоцитарной формулы влево"
+    },
+    {
+      "id": "symptom_giperleukocytosis",
+      "type": "symptom",
+      "label": "Гиперлейкоцитоз"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "Протеинурия (белок в моче)"
+    },
+    {
+      "id": "symptom_gematouria",
+      "type": "symptom",
+      "label": "Гематурия (эритроциты в моче)"
+    },
+    {
+      "id": "symptom_dizuriya",
+      "type": "symptom",
+      "label": "Дизурия (дисурические явления)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_zabote",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль возникает внезапно, в начале заболевания боль в эпигастральной области с последующей локализацией в правой подвздошной области, чаще носит постоянный, ноющий характер",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lokalnaya_boleshennost_pravaya_podvzdoshnaia_oblast",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при пальпации в правой подвздошной области отмечается локальная болезненность (симптом Филатова)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_filatova",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симптом Филатова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pasivnoe_napryazhenie_mysc",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пасивное напряжение мышц передней брюшной стенки в правой подвздошной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kohera",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом Кохера - боль в эпимезогастрии, которая в последующем перемещается в правую подвздошную область",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sitkovskogo",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом Ситковского - усиление болезненности в правой подвздошной области при положении больного на левом боку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rovzinga",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом Ровзинга - усиление болезненности в правой подвздошной области при пальпации в левой подвздошной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voskresenskogo",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом Воскресенского - появление боли в правой подвздошной области при быстром проведении ладонью по передней брюшной стенке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shchetkin_blyumbarga",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом Щеткина‑Блюмберга – появление боли при резком отнятии руки в правой подвздошной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysennaya_temperatura",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "температурная реакция обычно бывает 37,5-38°С",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота в первые часы заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рвота – чаще однократная или двухкратная в первые часы заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_vo_rtu",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость во рту, обложенность языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_tela",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение тела, чаще на правом боку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhka_stula",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чаще отмечается задержка стула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhidkiy_stul",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "реже многократный жидкий стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ikhrichnost_kozhi",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легкая иктеричность кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleshennost_pravoe_podreberie",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleshennost_pravaya_pozhnychnaya_oblast",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в правой поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yure_rozanova",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом Яуре-Розанова",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nesoootvetstvie_temperatura_pulsa",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом несоответствия температуры и пульса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysennaya_soe",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "умеренный лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukopenia",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "у ослабленных и часто болеющих детей отмечается лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sdvig_formuly_vlevo",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperleukocytosis",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперлейкоцитоз 15 х10/9 и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "небольшое количество белка в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematouria",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "единичных эритроцитов в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_ostryi_appendicit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "могут возникать дизурические явления",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_appendicit",
+      "target": "diagnosis_ostryi_appendicit_neu",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код по МКБ 10: K 35 Острый аппендицит K 35.9 Острый аппендицит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_zabote",
+      "target": "symptom_lokalnaya_boleshennost_pravaya_podvzdoshnaia_oblast",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль возникает внезапно... при пальпации в правой подвздошной области отмечается локальная болезненность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysennaya_temperatura",
+      "target": "symptom_tahikardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "температурная реакция обычно бывает... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошнота в первые часы заболевания; рвота – чаще однократная или двухкратная в первые часы заболевания",
+      "properties": {}
+    }
+  ]
+}

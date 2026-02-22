@@ -1,0 +1,294 @@
+{
+  "protocol_id": "p_75b19d9ca4",
+  "nodes": [
+    {
+      "id": "symptom_cough_dry",
+      "type": "symptom",
+      "label": "сухой кашель"
+    },
+    {
+      "id": "symptom_cough_productive",
+      "type": "symptom",
+      "label": "продуктивный кашель"
+    },
+    {
+      "id": "symptom_wheezing",
+      "type": "symptom",
+      "label": "свистящее дыхание"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_increased_breathing",
+      "type": "symptom",
+      "label": "учащенное дыхание"
+    },
+    {
+      "id": "symptom_labored_breathing",
+      "type": "symptom",
+      "label": "затрудненное дыхание"
+    },
+    {
+      "id": "symptom_chest_retractions",
+      "type": "symptom",
+      "label": "втяжение нижней части грудной клетки"
+    },
+    {
+      "id": "symptom_bronchial_breathing",
+      "type": "symptom",
+      "label": "бронхиальное дыхание"
+    },
+    {
+      "id": "symptom_rales",
+      "type": "symptom",
+      "label": "хрипы"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышенная температура тела"
+    },
+    {
+      "id": "symptom_respiratory_distress",
+      "type": "symptom",
+      "label": "респираторный дистресс"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "потеря веса"
+    },
+    {
+      "id": "symptom_growth_delay",
+      "type": "symptom",
+      "label": "отставание в физическом развитии"
+    },
+    {
+      "id": "symptom_chronic_cough",
+      "type": "symptom",
+      "label": "хронический кашель"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_myco",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный Mycoplasma pneumoniae",
+      "icd_code": "J20.0"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_haemophilus",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный Haemophilus influenzae",
+      "icd_code": "J20.1"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_streptococcus",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный стрептококком",
+      "icd_code": "J20.2"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_coxsackie",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный вирусом Коксаки",
+      "icd_code": "J20.3"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_parainfluenza",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный вирусом парагриппа",
+      "icd_code": "J20.4"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_rsv",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный респираторным синцитиальным вирусом",
+      "icd_code": "J20.5"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_rhinovirus",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный риновирусом",
+      "icd_code": "J20.6"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_echovirus",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный эховирусом",
+      "icd_code": "J20.7"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_other_specified",
+      "type": "diagnosis",
+      "label": "острый бронхит, вызванный другими уточненными агентами",
+      "icd_code": "J20.8"
+    },
+    {
+      "id": "diagnosis_acute_bronchitis_unspecified",
+      "type": "diagnosis",
+      "label": "острый бронхит неуточненный",
+      "icd_code": "J20.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_cough_dry",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_productive",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_wheezing",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Свистящее дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_breathing",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Учащенное или затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_labored_breathing",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Учащенное или затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_retractions",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Втяжение нижней части грудной клетки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronchial_breathing",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Бронхиальное (жесткое) дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rales",
+      "target": "diagnosis_acute_bronchitis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_dry",
+      "target": "symptom_cough_productive",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_dry",
+      "target": "symptom_wheezing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный); ... Свистящее дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_productive",
+      "target": "symptom_wheezing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный); ... Свистящее дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_dry",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный); ... Слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_productive",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кашель (сухой или продуктивный); ... Слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_wheezing",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Свистящее дыхание; ... Слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_breathing",
+      "target": "symptom_labored_breathing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Учащенное или затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_breathing",
+      "target": "symptom_chest_retractions",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Учащенное или затрудненное дыхание ... Втяжение нижней части грудной клетки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_labored_breathing",
+      "target": "symptom_chest_retractions",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Учащенное или затрудненное дыхание ... Втяжение нижней части грудной клетки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronchial_breathing",
+      "target": "symptom_rales",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Аускультативные признаки (бронхиальное (жесткое) дыхание, хрипы).",
+      "properties": {}
+    }
+  ]
+}

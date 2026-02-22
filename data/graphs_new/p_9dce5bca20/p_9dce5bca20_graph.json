@@ -1,0 +1,279 @@
+{
+  "protocol_id": "p_9dce5bca20",
+  "nodes": [
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "загрудинная боль"
+    },
+    {
+      "id": "symptom_pathological_ecg_rest",
+      "type": "symptom",
+      "label": "патологическая ЭКГ в покое"
+    },
+    {
+      "id": "symptom_dubious_ecg_stress",
+      "type": "symptom",
+      "label": "сомнительная ЭКГ с нагрузкой"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "усталость"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "аритмия"
+    },
+    {
+      "id": "symptom_hot_flush",
+      "type": "symptom",
+      "label": "приливы"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головная боль"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_paraesthesia",
+      "type": "symptom",
+      "label": "парастезии"
+    },
+    {
+      "id": "diagnosis_ischemic_heart_disease",
+      "type": "diagnosis",
+      "label": "Ишемическая болезнь сердца",
+      "icd_code": "I20-I25"
+    },
+    {
+      "id": "diagnosis_acute_myocardial_infarction",
+      "type": "diagnosis",
+      "label": "острый инфаркт миокарда",
+      "icd_code": "I20-I25"
+    },
+    {
+      "id": "diagnosis_unstable_angina",
+      "type": "diagnosis",
+      "label": "нестабильная стенокардия",
+      "icd_code": "I20-I25"
+    },
+    {
+      "id": "diagnosis_coronary_artery_stenosis",
+      "type": "diagnosis",
+      "label": "стеноз коронарной артерии",
+      "icd_code": "I20-I25"
+    },
+    {
+      "id": "diagnosis_atherosclerotic_coronary_disease",
+      "type": "diagnosis",
+      "label": "атеросклеротическое поражение коронарных артерий",
+      "icd_code": "I20-I25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_ischemic_heart_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "загрудинная боль неясной этиологии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_ecg_rest",
+      "target": "diagnosis_ischemic_heart_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая ЭКГ в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dubious_ecg_stress",
+      "target": "diagnosis_ischemic_heart_disease",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "сомнительная ЭКГ с нагрузкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Нагрузка прекращается при ... появлении загрудинной боли, одышки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_arrhythmia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Нагрузка прекращается при ... развитии МА или ЭС",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_arrhythmia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Нагрузка прекращается при ... одышки, ... развития МА или ЭС",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_hot_flush",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... загрудинная боль, приливы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... загрудинная боль, ... головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... загрудинная боль, ... головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_paraesthesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... загрудинная боль, ... парастезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hot_flush",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... приливы, одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hot_flush",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... приливы, головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hot_flush",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... приливы, головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hot_flush",
+      "target": "symptom_paraesthesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... приливы, парастезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... одышка, головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... одышка, головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_paraesthesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... одышка, парастезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... головная боль, головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_paraesthesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... головная боль, парастезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "symptom_paraesthesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможные кратковременные побочные реакции ... головокружение, парастезии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ischemic_heart_disease",
+      "target": "diagnosis_coronary_artery_stenosis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "атеросклеротическое поражение коронарных артерий, стеноз коронарной артерии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ischemic_heart_disease",
+      "target": "diagnosis_atherosclerotic_coronary_disease",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "атеросклеротическое поражение коронарных артерий",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_coronary_artery_stenosis",
+      "target": "diagnosis_atherosclerotic_coronary_disease",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "атеросклеротическое поражение коронарных артерий, стеноз коронарной артерии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_myocardial_infarction",
+      "target": "diagnosis_unstable_angina",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острый инфаркт миокарда и нестабильная стенокардия ... дифференциальный диагноз острого инфаркта миокарда и нестабильной стенокардии",
+      "properties": {}
+    }
+  ]
+}

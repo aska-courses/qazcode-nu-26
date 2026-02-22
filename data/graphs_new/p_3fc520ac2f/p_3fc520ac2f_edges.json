@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "быстрое увеличение живота(при многоводии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "появление одышки ... при многоводии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сна при положении на спине, быстрое увеличение живота(при многоводии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможны боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "матка напряжена, тугоэластической консистенции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "матка напряжена, тугоэластической консистенции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "части плода прощупываются с затруднением",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "положение плода чаще неправильное",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плод подвижен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "предлежащая часть плода высоко",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при пальпации может отмечаться симптом флюктуации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "преждевременные роды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отслойка нормально расположенной плаценты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_15",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выпадение петель пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_16",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "послеродовое кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_17",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эмболия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_18",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "аускультация сердечного ритма плода – при многоводии затруднена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_19",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при вагинальном исследовании при многоводии отмечается укорочение шейки матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_20",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "напряженный плодный пузырь",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_1",
+    "target": "diagnosis_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: 040 Многоводие 041 Другие нарушения со стороны амниотической жидкости и плодных оболочек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "быстрое увеличение живота, одышку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможны боли в животе; быстрое увеличение живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_9",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "части плода прощупываются с затруднением, положение плода чаще неправильное",
+    "properties": {}
+  }
+]

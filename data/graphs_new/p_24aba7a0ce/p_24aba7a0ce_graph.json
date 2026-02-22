@@ -1,0 +1,134 @@
+{
+  "protocol_id": "p_24aba7a0ce",
+  "nodes": [
+    {
+      "id": "symptom_limitation_joint_movement",
+      "type": "symptom",
+      "label": "ограничение движений в пораженном суставе"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "боль (болевой синдром)"
+    },
+    {
+      "id": "symptom_swelling",
+      "type": "symptom",
+      "label": "отёк конечности"
+    },
+    {
+      "id": "symptom_muscle_weakness",
+      "type": "symptom",
+      "label": "слабость мышц конечности"
+    },
+    {
+      "id": "symptom_joint_instability",
+      "type": "symptom",
+      "label": "нестабильность суставов конечности"
+    },
+    {
+      "id": "symptom_deformation",
+      "type": "symptom",
+      "label": "деформация конечности"
+    },
+    {
+      "id": "symptom_abnormal_mobility",
+      "type": "symptom",
+      "label": "необычная подвижность (тугой ложный сустав, дефект кости)"
+    },
+    {
+      "id": "symptom_limp",
+      "type": "symptom",
+      "label": "хромота"
+    },
+    {
+      "id": "symptom_active_movement_limitation",
+      "type": "symptom",
+      "label": "ограничение активных движений"
+    },
+    {
+      "id": "symptom_passive_movement_limitation",
+      "type": "symptom",
+      "label": "ограничение пассивных движений"
+    },
+    {
+      "id": "symptom_ankylosis",
+      "type": "symptom",
+      "label": "анкилоз"
+    },
+    {
+      "id": "symptom_malposition",
+      "type": "symptom",
+      "label": "порочная установка сустава"
+    },
+    {
+      "id": "symptom_functional_limitation",
+      "type": "symptom",
+      "label": "ограничение функции конечности"
+    },
+    {
+      "id": "diagnosis_contracture",
+      "type": "diagnosis",
+      "label": "Контрактура",
+      "icd_code": "M24.5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_limitation_joint_movement",
+      "target": "diagnosis_contracture",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  на ограничение движений в пораженном суставе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_passive_movement_limitation",
+      "target": "diagnosis_contracture",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Контрактура сустава — ограничение пассивных движений в суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_movement_limitation",
+      "target": "diagnosis_contracture",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ограничение активных движений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_functional_limitation",
+      "target": "diagnosis_contracture",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение движений в пораженном суставе с нарушением функции конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_movement_limitation",
+      "target": "symptom_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Ограничение активных ... болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_movement_limitation",
+      "target": "symptom_swelling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Ограничение активных ... отек мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limitation_joint_movement",
+      "target": "symptom_functional_limitation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ограничение движений в пораженном суставе с нарушением функции конечности",
+      "properties": {}
+    }
+  ]
+}

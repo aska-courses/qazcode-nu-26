@@ -1,0 +1,281 @@
+{
+  "protocol_id": "p_c89e706342",
+  "nodes": [
+    {
+      "id": "k03_2",
+      "type": "diagnosis",
+      "label": "Эрозия зубов",
+      "icd_code": "K03.2"
+    },
+    {
+      "id": "k03_20",
+      "type": "diagnosis",
+      "label": "Профессиональная эрозия зубов",
+      "icd_code": "K03.20"
+    },
+    {
+      "id": "k03_21",
+      "type": "diagnosis",
+      "label": "Эрозия зубов, обусловленная персистирующей регургитацией или рвотой",
+      "icd_code": "K03.21"
+    },
+    {
+      "id": "k03_22",
+      "type": "diagnosis",
+      "label": "Эрозия зубов, обусловленная диетой",
+      "icd_code": "K03.22"
+    },
+    {
+      "id": "k03_23",
+      "type": "diagnosis",
+      "label": "Эрозия зубов, обусловленная лекарственными средствами и медикаментами",
+      "icd_code": "K03.23"
+    },
+    {
+      "id": "k03_24",
+      "type": "diagnosis",
+      "label": "Идиопатическая эрозия зубов",
+      "icd_code": "K03.24"
+    },
+    {
+      "id": "k03_28",
+      "type": "diagnosis",
+      "label": "Патологическая резорбция зубов",
+      "icd_code": "K03.28"
+    },
+    {
+      "id": "symptom_multiple_cosmetic_defect",
+      "type": "symptom",
+      "label": "многократный косметический дефект"
+    },
+    {
+      "id": "symptom_increased_sensitivity",
+      "type": "symptom",
+      "label": "повышенная чувствительность к раздражителям"
+    },
+    {
+      "id": "symptom_difficult_to_remove_plaque",
+      "type": "symptom",
+      "label": "трудно устранимый налет на поверхности эрозии"
+    },
+    {
+      "id": "symptom_smooth_glossy_surface",
+      "type": "symptom",
+      "label": "поверхность дефекта гладкая, блестящая и твердая"
+    },
+    {
+      "id": "symptom_yellowish_brown_surface",
+      "type": "symptom",
+      "label": "поверхность дефекта светло‑желтая или коричневая"
+    },
+    {
+      "id": "symptom_groove_like_defect",
+      "type": "symptom",
+      "label": "желобовато‑долотообразный дефект в пределах дентина"
+    },
+    {
+      "id": "symptom_fast_tissue_loss",
+      "type": "symptom",
+      "label": "быстро прогрессирующая убыль твердых тканей зубов"
+    },
+    {
+      "id": "symptom_slow_tissue_loss",
+      "type": "symptom",
+      "label": "медленная убыль твердых тканей зубов"
+    },
+    {
+      "id": "symptom_no_sensitivity",
+      "type": "symptom",
+      "label": "отсутствие чувствительности к раздражителям"
+    },
+    {
+      "id": "symptom_painful_percussion",
+      "type": "symptom",
+      "label": "болезненная перкуссия зубов"
+    },
+    {
+      "id": "symptom_painless_percussion",
+      "type": "symptom",
+      "label": "безболезненная перкуссия зубов"
+    },
+    {
+      "id": "symptom_probe_slides_smoothly",
+      "type": "symptom",
+      "label": "зонд скользит по гладким поверхностям дефекта"
+    },
+    {
+      "id": "symptom_probe_painful",
+      "type": "symptom",
+      "label": "зондирование болезненно по эмалево‑дентинному соединению"
+    },
+    {
+      "id": "symptom_transient_irritant_reaction",
+      "type": "symptom",
+      "label": "кратковременная реакция на раздражители"
+    },
+    {
+      "id": "symptom_plaque",
+      "type": "symptom",
+      "label": "налет"
+    },
+    {
+      "id": "symptom_glossy_smooth_erosion_surface",
+      "type": "symptom",
+      "label": "поверхность эрозии блестящая и гладкая"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_multiple_cosmetic_defect",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: множественный косметический дефект, связанный с нарушением структуры коронок зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_sensitivity",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При активной форме отмечается повышенная чувствительность к раздражителям.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fast_tissue_loss",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "активная стадия эрозии – убыль твердых тканей зубов быстро прогрессирует",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slow_tissue_loss",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Медленная убыль твердых тканей зуба в течение десятка ряда лет.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_difficult_to_remove_plaque",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудно устранимый налет на поверхности эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smooth_glossy_surface",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поверхность дефектов гладкая, блестящая и твердая.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yellowish_brown_surface",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поверхность дефектов светло‑желтая или коричневая, гладкая и твердая.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_groove_like_defect",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "желобовато‑долотообразный дефект в пределах дентина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_probe_slides_smoothly",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при зондировании зонд скользит по гладким поверхностям дефекта.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_probe_painful",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Зондирование болезненно по эмалево‑дентинному соединению.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_transient_irritant_reaction",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кратковременная реакция на раздражители.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_no_sensitivity",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувствительность к различного рода раздражителям отсутствует.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painless_percussion",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Перкуссия зубов безболезненная.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_percussion",
+      "target": "k03_2",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "Перкуссия зубов безболезненная.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plaque",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудно устранимый налет",
+      "properties": {}
+    },
+    {
+      "source": "symptom_glossy_smooth_erosion_surface",
+      "target": "k03_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поверхность эрозии блестящая и гладкая",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_sensitivity",
+      "target": "symptom_difficult_to_remove_plaque",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "активная стадия эрозии – ... трудно устранимый налет ... повышенная чувствительность к различным раздражителям.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smooth_glossy_surface",
+      "target": "symptom_glossy_smooth_erosion_surface",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Поверхность дефектов гладкая, блестящая и твердая. ... поверхность эрозии блестящая и гладкая.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_no_sensitivity",
+      "target": "symptom_glossy_smooth_erosion_surface",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "поверхность эрозии блестящая и гладкая, чувствительность ... отсутствует.",
+      "properties": {}
+    }
+  ]
+}

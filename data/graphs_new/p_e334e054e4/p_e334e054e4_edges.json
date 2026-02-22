@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_disturbance",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unsteadiness",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gait_unsteadiness",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_disturbance",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_numbness",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_disturbance",
+    "target": "diagnosis_g459",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головная боль, тошнота, рвота, нарушение сознания, судорожный приступ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "symptom_unsteadiness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "symptom_gait_unsteadiness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головокружение, шаткость, неустойчивость при ходьбе, двоение, асимметрия лица, нарушение речи, слабость и/или онемение в конечностях, нарушения зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "symptom_facial_asymmetry",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "двоение, асимметрия лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_disturbance",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение речи, слабость и/или онемение в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_numbness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слабость и/или онемение в конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "symptom_visual_disturbance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "двоение, нарушения зрения",
+    "properties": {}
+  }
+]

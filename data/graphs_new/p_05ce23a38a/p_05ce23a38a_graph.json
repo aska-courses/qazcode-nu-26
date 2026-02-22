@@ -1,0 +1,436 @@
+{
+  "protocol_id": "p_05ce23a38a",
+  "nodes": [
+    {
+      "id": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "diagnosis",
+      "label": "Синдром Мелькерсона-Розенталя",
+      "icd_code": "G51.2"
+    },
+    {
+      "id": "symptom_uvelichenie_gub",
+      "type": "symptom",
+      "label": "Увеличение губ"
+    },
+    {
+      "id": "symptom_narushenie_rechi",
+      "type": "symptom",
+      "label": "Нарушение речи"
+    },
+    {
+      "id": "symptom_narushenie_mimiki",
+      "type": "symptom",
+      "label": "Нарушение мимики"
+    },
+    {
+      "id": "symptom_zatrudnenie_priema_pischi",
+      "type": "symptom",
+      "label": "Затруднение приема пищи"
+    },
+    {
+      "id": "symptom_licevaya_bol",
+      "type": "symptom",
+      "label": "Лицевая боль (невралгия)"
+    },
+    {
+      "id": "symptom_paralich_licevogo_nerva",
+      "type": "symptom",
+      "label": "Паралич лицевого нерва"
+    },
+    {
+      "id": "symptom_makrokheilit",
+      "type": "symptom",
+      "label": "Макрохейлит (вздутие губ)"
+    },
+    {
+      "id": "symptom_skladchatiy_yazyk",
+      "type": "symptom",
+      "label": "Складчатый язык"
+    },
+    {
+      "id": "symptom_otek_lica",
+      "type": "symptom",
+      "label": "Отёк лица"
+    },
+    {
+      "id": "symptom_otek_shchek",
+      "type": "symptom",
+      "label": "Отёк щек"
+    },
+    {
+      "id": "symptom_otek_vekov",
+      "type": "symptom",
+      "label": "Отёк век"
+    },
+    {
+      "id": "symptom_vazomotornaia_rinopatiia",
+      "type": "symptom",
+      "label": "Вазомоторная ринопатия"
+    },
+    {
+      "id": "symptom_nepriyatnye_oshushcheniya_v_rtu",
+      "type": "symptom",
+      "label": "Неприятные ощущения во рту"
+    },
+    {
+      "id": "symptom_izmenenie_vydeleniya_slyuny",
+      "type": "symptom",
+      "label": "Изменения выделения слюны"
+    },
+    {
+      "id": "symptom_perekos_lica",
+      "type": "symptom",
+      "label": "Перекос лица"
+    },
+    {
+      "id": "symptom_rasshirenie_glaznoi_shcheli",
+      "type": "symptom",
+      "label": "Расширение глазной щели"
+    },
+    {
+      "id": "symptom_opushchenie_ugla_rta",
+      "type": "symptom",
+      "label": "Опущение угла рта"
+    },
+    {
+      "id": "symptom_krasnaia_kayma_gub_sukhaya",
+      "type": "symptom",
+      "label": "Сухая красная кайма губ"
+    },
+    {
+      "id": "symptom_shelushenie_gub",
+      "type": "symptom",
+      "label": "Шелушение губ"
+    },
+    {
+      "id": "symptom_trechiny_gub",
+      "type": "symptom",
+      "label": "Трещины губ"
+    },
+    {
+      "id": "symptom_neravnomernyi_otek_gub",
+      "type": "symptom",
+      "label": "Неравномерный отёк губ"
+    },
+    {
+      "id": "symptom_izmenenie_konsistentsii_tkanii_gub",
+      "type": "symptom",
+      "label": "Изменение консистенции ткани губ"
+    },
+    {
+      "id": "symptom_postoyannyi_otek",
+      "type": "symptom",
+      "label": "Постоянный отёк"
+    },
+    {
+      "id": "symptom_spontannyi_otek",
+      "type": "symptom",
+      "label": "Спонтанный отёк"
+    },
+    {
+      "id": "symptom_otek_gortani",
+      "type": "symptom",
+      "label": "Отёк гортани"
+    },
+    {
+      "id": "symptom_otek_yazyka",
+      "type": "symptom",
+      "label": "Отёк языка"
+    },
+    {
+      "id": "symptom_desquamatsia_epitelija_yazyka",
+      "type": "symptom",
+      "label": "Очаги десквамации эпителия языка"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_makrokheilit",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Синдром Мелькерссона-Розенталя характеризуется тремя симптомами: макрохейлит, складчатый язык и паралич лицевого нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skladchatiy_yazyk",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Синдром Мелькерссона-Розенталя характеризуется тремя симптомами: макрохейлит, складчатый язык и паралич лицевого нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paralich_licevogo_nerva",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Синдром Мелькерссона-Розенталя характеризуется тремя симптомами: макрохейлит, складчатый язык и паралич лицевого нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_gub",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы на увеличение губ, нарушение речи, мимики, затруднение приема пищи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_rechi",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы на увеличение губ, нарушение речи, мимики, затруднение приема пищи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_mimiki",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы на увеличение губ, нарушение речи, мимики, затруднение приема пищи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnenie_priema_pischi",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы на увеличение губ, нарушение речи, мимики, затруднение приема пищи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_licevaya_bol",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Первым признаком может быть лицевая боль по типу невралгии, за которой часто следует паралич лицевого нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_gortani",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек гортани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_yazyka",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек языка.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_lica",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек лица.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_shchek",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек щек.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_vekov",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек век.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neravnomernyi_otek_gub",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утолщение губ несимметричное: одна сторона губы более отечна, чем другая.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postoyannyi_otek",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Отеки у ряда больных существуют постоянно, временами нарастая и ослабевая.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spontannyi_otek",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "У некоторых пациентов отеки спонтанно исчезают, но в дальнейшем рецидивируют.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krasnaia_kayma_gub_sukhaya",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Красная кайма губ сухая, отмечается шелушение и образование трещин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shelushenie_gub",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Красная кайма губ сухая, отмечается шелушение и образование трещин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trechiny_gub",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Красная кайма губ сухая, отмечается шелушение и образование трещин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_konsistentsii_tkanii_gub",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при пальпации губ ощущается неравномерно мягкая или плотноэластическая консистенция ткани губ.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vazomotornaia_rinopatiia",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Он заключается в односторонней вазомоторной ринопатии, неприятных ощущениях во рту, изменениях выделения слюны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepriyatnye_oshushcheniya_v_rtu",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Он заключается в односторонней вазомоторной ринопатии, неприятных ощущениях во рту, изменениях выделения слюны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_vydeleniya_slyuny",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Он заключается в односторонней вазомоторной ринопатии, неприятных ощущениях во рту, изменениях выделения слюны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perekos_lica",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможен перекос лица, расширение глазной щели, опущение угла рта пораженной стороны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_glaznoi_shcheli",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможен перекос лица, расширение глазной щели, опущение угла рта пораженной стороны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opushchenie_ugla_rta",
+      "target": "diagnosis_sindrom_melkerssona_rozentalya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможен перекос лица, расширение глазной щели, опущение угла рта пораженной стороны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrokheilit",
+      "target": "symptom_krasnaia_kayma_gub_sukhaya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Красная кайма губ сухая, отмечается шелушение и образование трещин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrokheilit",
+      "target": "symptom_shelushenie_gub",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Красная кайма губ сухая, отмечается шелушение и образование трещин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrokheilit",
+      "target": "symptom_trechiny_gub",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Красная кайма губ сухая, отмечается шелушение и образование трещин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrokheilit",
+      "target": "symptom_neravnomernyi_otek_gub",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Утолщение губ несимметричное: одна сторона губы более отечна, чем другая.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_lica",
+      "target": "symptom_otek_shchek",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Отек локализуется чаще всего на губах, щеке, веках и других отделах лица.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_vekov",
+      "target": "symptom_otek_shchek",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Отек локализуется чаще всего на губах, щеке, веках и других отделах лица.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vazomotornaia_rinopatiia",
+      "target": "symptom_nepriyatnye_oshushcheniya_v_rtu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Он заключается в односторонней вазомоторной ринопатии, неприятных ощущениях во рту, изменениях выделения слюны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vazomotornaia_rinopatiia",
+      "target": "symptom_izmenenie_vydeleniya_slyuny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Он заключается в односторонней вазомоторной ринопатии, неприятных ощущениях во рту, изменениях выделения слюны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perekos_lica",
+      "target": "symptom_rasshirenie_glaznoi_shcheli",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Возможен перекос лица, расширение глазной щели, опущение угла рта пораженной стороны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perekos_lica",
+      "target": "symptom_opushchenie_ugla_rta",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Возможен перекос лица, расширение глазной щели, опущение угла рта пораженной стороны.",
+      "properties": {}
+    }
+  ]
+}

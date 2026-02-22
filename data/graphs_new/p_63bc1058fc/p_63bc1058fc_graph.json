@@ -1,0 +1,209 @@
+{
+  "protocol_id": "p_63bc1058fc",
+  "nodes": [
+    {
+      "id": "diagnosis_stenoz_trakhei",
+      "type": "diagnosis",
+      "label": "Стеноз трахеи",
+      "icd_code": "J95.5"
+    },
+    {
+      "id": "symptom_zatrudnennoe_dykhanie",
+      "type": "symptom",
+      "label": "затрудненное дыхание",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_shumnoe_dykhanie",
+      "type": "symptom",
+      "label": "шумное дыхание",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_kashl",
+      "type": "symptom",
+      "label": "кашель",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_stridor",
+      "type": "symptom",
+      "label": "признаки стридора",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_odyskha",
+      "type": "symptom",
+      "label": "одышка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "цианоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_razduvanie_krylev_nosa",
+      "type": "symptom",
+      "label": "раздувание крыльев носа при дыхании",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vspomogatelnaya_muskulatura_aktsii_dykhaniya",
+      "type": "symptom",
+      "label": "участие в акте дыхания вспомогательной мускулатуры",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_asfiziya",
+      "type": "symptom",
+      "label": "асфиксия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_dykhaniya_fizicheskaya_nagruzka",
+      "type": "symptom",
+      "label": "нарушение дыхания при физической нагрузке",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zatrudnennoe_dykhanie",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoe_dykhanie",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stridor",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • признаки стридора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyskha",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razduvanie_krylev_nosa",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • раздувание крыльев носа при дыхании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vspomogatelnaya_muskulatura_aktsii_dykhaniya",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • участие в акте дыхания вспомогательной мускулатуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asfiziya",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Показания для экстренной госпитализации: • асфиксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dykhaniya_fizicheskaya_nagruzka",
+      "target": "diagnosis_stenoz_trakhei",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Нарушение дыхания при физической нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_dykhanie",
+      "target": "symptom_shumnoe_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • затрудненное дыхание; • шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_dykhanie",
+      "target": "symptom_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • затрудненное дыхание; • кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoe_dykhanie",
+      "target": "symptom_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • шумное дыхание; • кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stridor",
+      "target": "symptom_odyskha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • признаки стридора; • одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyskha",
+      "target": "symptom_cianoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • одышка; • цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "symptom_razduvanie_krylev_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • цианоз; • раздувание крыльев носа при дыхании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razduvanie_krylev_nosa",
+      "target": "symptom_vspomogatelnaya_muskulatura_aktsii_dykhaniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • раздувание крыльев носа при дыхании; • участие в акте дыхания вспомогательной мускулатуры",
+      "properties": {}
+    }
+  ]
+}

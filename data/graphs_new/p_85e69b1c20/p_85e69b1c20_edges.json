@@ -1,0 +1,394 @@
+[
+  {
+    "source": "symptom_nasal_breathing_disturbance",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение носового дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_breathing_disturbance",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение носового дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_localized_pain",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "локализованная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_localized_pain",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "локализованная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infraorbital_pain",
+    "target": "diagnosis_acute_maxillary_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в подглазничной (гайморит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infraorbital_pain",
+    "target": "diagnosis_chronic_maxillary_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в подглазничной (гайморит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_superbrow_pain",
+    "target": "diagnosis_acute_frontal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "надбровной (фронтит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_superbrow_pain",
+    "target": "diagnosis_chronic_frontal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "надбровной (фронтит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_occipital_pain",
+    "target": "diagnosis_acute_sphenoidal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "затылочной (сфеноидит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_occipital_pain",
+    "target": "diagnosis_chronic_sphenoidal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "затылочной (сфеноидит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_bridge_pain",
+    "target": "diagnosis_acute_ethmoidal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в области переносицы (этмоидит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_bridge_pain",
+    "target": "diagnosis_chronic_ethmoidal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в области переносицы (этмоидит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_nasal_discharge",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гнойные выделения из полости носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_nasal_discharge",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гнойные выделения из полости носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheek_swelling",
+    "target": "diagnosis_acute_maxillary_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "припухлость мягких тканей в области щеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheek_swelling",
+    "target": "diagnosis_chronic_maxillary_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "припухлость мягких тканей в области щеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_root_swelling",
+    "target": "diagnosis_acute_ethmoidal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "припухлость у корня носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_root_swelling",
+    "target": "diagnosis_chronic_ethmoidal_sinusitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "припухлость у корня носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neutrophilia",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нейтрофилёз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neutrophilia",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нейтрофилёз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_hyperemia",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_hyperemia",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_edema",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёчность слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_edema",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёчность слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_smelling_discharge",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отделяемое со зловонным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_smelling_discharge",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отделяемое со зловонным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_on_palpation",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_on_palpation",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_obstruction",
+    "target": "diagnosis_acute_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк и обструкция полости носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_obstruction",
+    "target": "diagnosis_chronic_sinusitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк и обструкция полости носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_breathing_disturbance",
+    "target": "symptom_nasal_congestion",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение носового дыхания; ... заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_nasal_discharge",
+    "target": "symptom_nasal_congestion",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гнойные выделения из полости носа; заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheek_swelling",
+    "target": "symptom_infraorbital_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "припухлость мягких тканей в области щеки; боль в подглазничной области",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_maxillary_sinusitis",
+    "target": "diagnosis_acute_ethmoidal_sinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ... гаймороэтмоидит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_maxillary_sinusitis",
+    "target": "diagnosis_acute_frontal_sinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_maxillary_sinusitis",
+    "target": "diagnosis_acute_sphenoidal_sinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_maxillary_sinusitis",
+    "target": "diagnosis_acute_pansinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ... пансинусит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_maxillary_sinusitis",
+    "target": "diagnosis_chronic_ethmoidal_sinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_maxillary_sinusitis",
+    "target": "diagnosis_chronic_frontal_sinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_maxillary_sinusitis",
+    "target": "diagnosis_chronic_sphenoidal_sinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_maxillary_sinusitis",
+    "target": "diagnosis_chronic_pansinusitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "процесс может развиться одновременно в двух и более пазухах ... пансинусит",
+    "properties": {}
+  }
+]

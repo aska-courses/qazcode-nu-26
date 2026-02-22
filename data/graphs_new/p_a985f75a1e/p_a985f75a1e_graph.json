@@ -1,0 +1,415 @@
+{
+  "protocol_id": "p_a985f75a1e",
+  "nodes": [
+    {
+      "id": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "diagnosis",
+      "label": "Синдром предменструального напряжения",
+      "icd_code": "N94.3"
+    },
+    {
+      "id": "emotsionalnaya_depressiya",
+      "type": "symptom",
+      "label": "Эмоциональная депрессия"
+    },
+    {
+      "id": "vspyshki_gneva",
+      "type": "symptom",
+      "label": "Вспышки гнева"
+    },
+    {
+      "id": "irritabilnost",
+      "type": "symptom",
+      "label": "Раздражительность"
+    },
+    {
+      "id": "trevozhnost",
+      "type": "symptom",
+      "label": "Тревожность"
+    },
+    {
+      "id": "putanica",
+      "type": "symptom",
+      "label": "Путаница"
+    },
+    {
+      "id": "socialnaya_izolyaciya",
+      "type": "symptom",
+      "label": "Социальная изоляция"
+    },
+    {
+      "id": "plohaya_konsentraciya",
+      "type": "symptom",
+      "label": "Плохая концентрация"
+    },
+    {
+      "id": "bessonnitsa",
+      "type": "symptom",
+      "label": "Бессонница"
+    },
+    {
+      "id": "izmeneniya_appetita",
+      "type": "symptom",
+      "label": "Изменения аппетита"
+    },
+    {
+      "id": "zhazhd",
+      "type": "symptom",
+      "label": "Жажда"
+    },
+    {
+      "id": "bolostnost_molochnykh_zhelez",
+      "type": "symptom",
+      "label": "Болезненность молочных желез"
+    },
+    {
+      "id": "vzdutie_zhivota",
+      "type": "symptom",
+      "label": "Вздутие живота"
+    },
+    {
+      "id": "uvelichenie_vesa",
+      "type": "symptom",
+      "label": "Увеличение веса"
+    },
+    {
+      "id": "golovnaya_bol",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "migren",
+      "type": "symptom",
+      "label": "Мигрень"
+    },
+    {
+      "id": "oteok_ruk_i_nog",
+      "type": "symptom",
+      "label": "Отёк рук и ног"
+    },
+    {
+      "id": "boli",
+      "type": "symptom",
+      "label": "Боли"
+    },
+    {
+      "id": "ustalost",
+      "type": "symptom",
+      "label": "Усталость"
+    },
+    {
+      "id": "problemy_s_kozhey",
+      "type": "symptom",
+      "label": "Проблемы с кожей"
+    },
+    {
+      "id": "povyshennaya_temperatura_tela",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "prilivy",
+      "type": "symptom",
+      "label": "Приливы"
+    },
+    {
+      "id": "uvelichenie_massy_tela",
+      "type": "symptom",
+      "label": "Увеличение массы тела"
+    },
+    {
+      "id": "nabuhanie_grudey",
+      "type": "symptom",
+      "label": "Набухание грудей"
+    },
+    {
+      "id": "oteki_nizhnikh_konechnostey",
+      "type": "symptom",
+      "label": "Отёки нижних конечностей"
+    },
+    {
+      "id": "gipokalemiya",
+      "type": "symptom",
+      "label": "Гипокалиемия"
+    },
+    {
+      "id": "gipomagnemiya",
+      "type": "symptom",
+      "label": "Гипомагниемия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "emotsionalnaya_depressiya",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Эмоциональная депрессия ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "vspyshki_gneva",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вспышки гнева ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "irritabilnost",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раздражительность ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "trevozhnost",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тревожность ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "putanica",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "путаница ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "socialnaya_izolyaciya",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "социальная изоляция ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "plohaya_konsentraciya",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "плохая концентрация ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "bessonnitsa",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бессонница ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "izmeneniya_appetita",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физические изменения аппетита ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "zhazhd",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жажда ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "bolostnost_molochnykh_zhelez",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность молочных желез ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "vzdutie_zhivota",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вздутие живота ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "uvelichenie_vesa",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение веса ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "golovnaya_bol",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "migren",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "мигрень ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "oteok_ruk_i_nog",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк рук и ног ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "boli",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "ustalost",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "усталость ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "problemy_s_kozhey",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проблемы с кожей ... являются жалобами при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "povyshennaya_temperatura_tela",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела ... являются признаками при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "prilivy",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "приливы ... являются признаками при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "uvelichenie_massy_tela",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение массы тела ... являются признаками при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "nabuhanie_grudey",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "набухание грудей ... являются признаками при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "oteki_nizhnikh_konechnostey",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёки нижних конечностей ... являются признаками при ПМС",
+      "properties": {}
+    },
+    {
+      "source": "gipokalemiya",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭКГ: депрессия ST зубцов – в условиях гипокалиемии и гипомагниемии",
+      "properties": {}
+    },
+    {
+      "source": "gipomagnemiya",
+      "target": "sindrom_predmenstrualnogo_napriazheniya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭКГ: депрессия ST зубцов – в условиях гипокалиемии и гипомагниемии",
+      "properties": {}
+    },
+    {
+      "source": "emotsionalnaya_depressiya",
+      "target": "vspyshki_gneva",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эмоциональная депрессия вспышки, гнева, раздражительность...",
+      "properties": {}
+    },
+    {
+      "source": "emotsionalnaya_depressiya",
+      "target": "irritabilnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эмоциональная депрессия ... раздражительность...",
+      "properties": {}
+    },
+    {
+      "source": "emotsionalnaya_depressiya",
+      "target": "trevozhnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Эмоциональная депрессия ... тревожность...",
+      "properties": {}
+    },
+    {
+      "source": "vspyshki_gneva",
+      "target": "irritabilnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "вспышки гнева, раздражительность...",
+      "properties": {}
+    },
+    {
+      "source": "golovnaya_bol",
+      "target": "migren",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "головная боль, мигрень...",
+      "properties": {}
+    },
+    {
+      "source": "oteok_ruk_i_nog",
+      "target": "oteki_nizhnikh_konechnostey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёк рук и ног; отёки нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "uvelichenie_vesa",
+      "target": "uvelichenie_massy_tela",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "увеличение веса; увеличение массы тела",
+      "properties": {}
+    },
+    {
+      "source": "vzdutie_zhivota",
+      "target": "oteki_nizhnikh_konechnostey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "вздутие живота; отёки нижних конечностей",
+      "properties": {}
+    }
+  ]
+}

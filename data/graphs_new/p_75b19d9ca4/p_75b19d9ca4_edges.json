@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_cough_dry",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_productive",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezing",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Свистящее дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слабость.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_breathing",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Учащенное или затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_labored_breathing",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Учащенное или затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_retractions",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Втяжение нижней части грудной клетки;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchial_breathing",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Бронхиальное (жесткое) дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rales",
+    "target": "diagnosis_acute_bronchitis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_dry",
+    "target": "symptom_cough_productive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_dry",
+    "target": "symptom_wheezing",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный); ... Свистящее дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_productive",
+    "target": "symptom_wheezing",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный); ... Свистящее дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_dry",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный); ... Слабость.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_productive",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кашель (сухой или продуктивный); ... Слабость.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezing",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Свистящее дыхание; ... Слабость.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_breathing",
+    "target": "symptom_labored_breathing",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Учащенное или затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_breathing",
+    "target": "symptom_chest_retractions",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Учащенное или затрудненное дыхание ... Втяжение нижней части грудной клетки;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_labored_breathing",
+    "target": "symptom_chest_retractions",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Учащенное или затрудненное дыхание ... Втяжение нижней части грудной клетки;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchial_breathing",
+    "target": "symptom_rales",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Аускультативные признаки (бронхиальное (жесткое) дыхание, хрипы).",
+    "properties": {}
+  }
+]

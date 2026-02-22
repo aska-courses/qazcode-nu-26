@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре: • отек в месте перелома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре: • деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoizlyanie",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре: • кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_osnov",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_podvizhnost",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации: • патологическая подвижность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krepitatsiya",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации: • крепитация костных отломков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_konechnosti",
+    "target": "diagnosis_s62_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • нарушение функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре: • отек в месте перелома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре: • деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoizlyanie",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре: • кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_osnov",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_podvizhnost",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации: • патологическая подвижность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krepitatsiya",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации: • крепитация костных отломков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_konechnosti",
+    "target": "diagnosis_s92_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • нарушение функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_boleznennost_osnov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боли … При пальпации: • болезненность, усиливающая при осевой нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "symptom_deformaciya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При осмотре: • отек в месте перелома; • деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "symptom_krovoizlyanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При осмотре: • отек в месте перелома; • кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya",
+    "target": "symptom_krovoizlyanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При осмотре: • деформация; • кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_osnov",
+    "target": "symptom_patologicheskaya_podvizhnost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке; • патологическая подвижность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_podvizhnost",
+    "target": "symptom_krepitatsiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При пальпации: • патологическая подвижность; • крепитация костных отломков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krepitatsiya",
+    "target": "symptom_narushenie_funkcii_konechnosti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При пальпации: • крепитация костных отломков … Жалобы: • нарушение функции конечности",
+    "properties": {}
+  }
+]

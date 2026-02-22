@@ -1,0 +1,402 @@
+[
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чувство дискомфорта или боль в грудной клетке/за грудиной сжимающего и давящего характера",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_other_angina_forms",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чувство дискомфорта или боль в грудной клетке/за грудиной сжимающего и давящего характера",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_unspecified_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чувство дискомфорта или боль в грудной клетке/за грудиной сжимающего и давящего характера",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiation_left_arm",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "могут иррадиировать в левую руку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiation_scapula",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "могут иррадиировать в лопатку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiation_neck",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "могут иррадиировать в шею",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiation_jaw",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "могут иррадиировать в нижнюю челюсть",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiation_epigastric",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "могут иррадиировать в эпигастральную область",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_exertion_provoked",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "физическая нагрузка: быстрая ходьба, подъем в гору или по лестнице, перенос тяжестей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blood_pressure_rise_provoked",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышением АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cold_exposure_provoked",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "холод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heavy_meal_provoked",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обильным приемом пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emotional_stress_provoked",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "эмоциональным стрессом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_relief_rest",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль проходит в покое",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_relief_nitroglycerin",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль купируется нитроглицерином",
+    "properties": {}
+  },
+  {
+    "source": "symptom_typical_angina",
+    "target": "diagnosis_unstable_angina",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Типичная стенокардия (определенная) при наличии трех признаков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atypical_angina",
+    "target": "diagnosis_other_angina_forms",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Атипичная стенокардия (вероятная)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_non_cardiac_chest_pain",
+    "target": "diagnosis_unstable_angina",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Несердечная боль (не связанная с ишемией миокарда)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exertional_dyspnea",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одышка при физической нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rest_dyspnea",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одышка в покое",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rales",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Хрипы в лёгких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_lower_limbs",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отёки на ногах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гепатомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_xanthoma",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ксантомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_xanthelasma",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ксантелазмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_corneal_arc",
+    "target": "diagnosis_mitral_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "краевое помутнение роговицы глаза («старческая дуга»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_pulsation_precardial",
+    "target": "diagnosis_mitral_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие патологической пульсации в прекардиальной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presystolic_murmur",
+    "target": "diagnosis_mitral_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пресистолический шум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_protodiastolic_murmur",
+    "target": "diagnosis_mitral_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "протодиастолический шум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_systolic_murmur",
+    "target": "diagnosis_rheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "систолический шум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diastolic_murmur",
+    "target": "diagnosis_rheumatic_aortic_insufficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диастолический шум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_musical_murmur",
+    "target": "diagnosis_combined_mitral_aortic_valve_disease",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "музыкальный оттенок шума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpitations",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Сердцебиение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Повышенная частота сердечных сокращений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mitral_stenosis",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Распространенность КБС среди пациентов с митральным стенозом в среднем составляет 20%",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rheumatic_aortic_stenosis",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У пациентов со стенозом АоК частота КБС составляет 40–50% при наличии типичной стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rheumatic_mitral_insufficiency",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "МР (митральная регургитация) часто является симптомом КБС",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_combined_mitral_aortic_valve_disease",
+    "target": "diagnosis_atherosclerotic_heart_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mitral_stenosis",
+    "target": "diagnosis_unstable_angina",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rheumatic_aortic_stenosis",
+    "target": "diagnosis_unstable_angina",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_combined_mitral_aortic_valve_disease",
+    "target": "diagnosis_unstable_angina",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mitral_stenosis",
+    "target": "diagnosis_other_angina_forms",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rheumatic_aortic_stenosis",
+    "target": "diagnosis_other_angina_forms",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_combined_mitral_aortic_valve_disease",
+    "target": "diagnosis_other_angina_forms",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mitral_stenosis",
+    "target": "diagnosis_rheumatic_aortic_stenosis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Сочетанное поражение митрального и аортального клапанов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_radiation_left_arm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "могут иррадиировать в левую руку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_physical_exertion_provoked",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "физическая нагрузка: быстрая ходьба, подъем в гору или по лестнице, перенос тяжестей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_pain_relief_nitroglycerin",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль купируется нитроглицерином",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_exertion_provoked",
+    "target": "symptom_blood_pressure_rise_provoked",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль провоцируется физической нагрузкой ... повышением АД",
+    "properties": {}
+  }
+]

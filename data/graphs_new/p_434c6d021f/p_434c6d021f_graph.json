@@ -1,0 +1,318 @@
+{
+  "protocol_id": "p_434c6d021f",
+  "nodes": [
+    {
+      "id": "diagnosis_observation_healthy_newborn",
+      "type": "diagnosis",
+      "label": "Наблюдение за другим здоровым ребенком грудного и раннего возраста и уход за ним",
+      "icd_code": "Z76.2"
+    },
+    {
+      "id": "symptom_respiratory_rate",
+      "type": "symptom",
+      "label": "Частота дыхания 30-60 в минуту"
+    },
+    {
+      "id": "symptom_heart_rate",
+      "type": "symptom",
+      "label": "Частота сердцебиения > 100 уд/мин"
+    },
+    {
+      "id": "symptom_skin_color",
+      "type": "symptom",
+      "label": "Розовый цвет кожных покровов"
+    },
+    {
+      "id": "symptom_body_temperature",
+      "type": "symptom",
+      "label": "Температура тела 36,5‑37,5 °C"
+    },
+    {
+      "id": "symptom_active_movement",
+      "type": "symptom",
+      "label": "Активные движения, крик, реакция на свет и звук"
+    },
+    {
+      "id": "symptom_urination_frequency",
+      "type": "symptom",
+      "label": "Мочеиспускание ≥6 раз в сутки в первые дни жизни"
+    },
+    {
+      "id": "symptom_meconium_characteristics",
+      "type": "symptom",
+      "label": "Первый стул (меконий) в первые 24 ч, темный и вязкий"
+    },
+    {
+      "id": "symptom_stool_characteristics",
+      "type": "symptom",
+      "label": "Стул желтоватый, мягкой консистенции, характерный запах"
+    },
+    {
+      "id": "symptom_stool_frequency",
+      "type": "symptom",
+      "label": "Частота испражнений 6‑8 раз в день, кашицеобразный характер"
+    },
+    {
+      "id": "symptom_abdominal_exam",
+      "type": "symptom",
+      "label": "Округлый мягкий живот"
+    },
+    {
+      "id": "symptom_umbilical_stump",
+      "type": "symptom",
+      "label": "Пуповинный остаток подсыхает и отпадает через 7‑10 дней"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря веса 5‑10 % в первые 3‑5 дней жизни"
+    },
+    {
+      "id": "symptom_weight_recovery",
+      "type": "symptom",
+      "label": "Восстановление веса к 14‑му дню жизни"
+    },
+    {
+      "id": "symptom_respiratory_distress",
+      "type": "symptom",
+      "label": "Нарушение дыхания (частое, затрудненное, шумное, остановка)"
+    },
+    {
+      "id": "symptom_impaired_sucking",
+      "type": "symptom",
+      "label": "Отсутствие или слабое сосание груди"
+    },
+    {
+      "id": "symptom_temperature_abnormal",
+      "type": "symptom",
+      "label": "Температура тела выше 37,5 °C или ниже 36,5 °C"
+    },
+    {
+      "id": "symptom_umbilical_infection_signs",
+      "type": "symptom",
+      "label": "Покраснение кожи вокруг пупочного остатка, гнойные выделения, неприятный запах"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "Желтуха в первый день жизни или более 2 недель"
+    },
+    {
+      "id": "symptom_vomiting_diarrhea",
+      "type": "symptom",
+      "label": "Рвота, понос"
+    },
+    {
+      "id": "symptom_blood_in_stool",
+      "type": "symptom",
+      "label": "Кровь в стуле, при срыгивании или из пупочной ранки"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_respiratory_rate",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Частота дыхания – 30-60 в минуту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_rate",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Частота сердцебиения > 100 ударов в минуту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_color",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Цвет кожных покровов – розовый или интенсивно-розовый",
+      "properties": {}
+    },
+    {
+      "source": "symptom_body_temperature",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Температура тела в пределах 36,5°C – 37,5°C",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_movement",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Движения активные: кричит, реагирует на свет и звуки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urination_frequency",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Мочится в первые 24 часа жизни; на второй день жизни мочиться 6 раз в день и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meconium_characteristics",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Первый стул (меконий) отходит в первые 24 часа жизни; он темный и вязкий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stool_characteristics",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Затем стул приобретает желтоватый цвет, мягкую консистенцию и имеет характерный запах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stool_frequency",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Частота испражнений составляет 6–8 раз в день кашицеобразного характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_exam",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "В норме живот округлый, мягкий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umbilical_stump",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Пуповинный остаток подсыхает и отпадает через 7–10 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "В течение первых трех‑пяти дней жизни новорожденный теряет 5‑10 % веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_recovery",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Восстановление веса обычно происходит не позже 14‑го дня жизни",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_distress",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Нарушение дыхания (частое, затрудненное, шумное, остановка)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_impaired_sucking",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Отсутствие или слабое сосание груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_temperature_abnormal",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Температура тела выше 37,5 °C или ниже 36,5 °C",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umbilical_infection_signs",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Покраснение кожи вокруг пупочного остатка, гнойные выделения, неприятный запах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Желтуха в первый день жизни или более 2 недель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting_diarrhea",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Рвота, понос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blood_in_stool",
+      "target": "diagnosis_observation_healthy_newborn",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Кровь в стуле, при срыгивании или из пупочной ранки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_rate",
+      "target": "symptom_heart_rate",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Частота дыхания – 30-60 в минуту; • Частота сердцебиения > 100 ударов в минуту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urination_frequency",
+      "target": "symptom_stool_frequency",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Мочится ... 6 раз в день и более. ... Частота испражнений составляет 6–8 раз в день",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meconium_characteristics",
+      "target": "symptom_stool_characteristics",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Первый стул (меконий) ... Затем стул приобретает желтоватый цвет, мягкую консистенцию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_exam",
+      "target": "symptom_skin_color",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Цвет кожных покровов – розовый ... В норме живот округлый, мягкий",
+      "properties": {}
+    }
+  ]
+}

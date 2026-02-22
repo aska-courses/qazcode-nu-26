@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_chronic_cough",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характеризуется хроническими респираторными симптомами (одышка, кашель, отхождение мокроты)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_sputum",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характеризуется хроническими респираторными симптомами (одышка, кашель, отхождение мокроты)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характеризуется хроническими респираторными симптомами (одышка, кашель, отхождение мокроты)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wheezing",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки бронхиальной обструкции (удлинение выдоха при аускультации, сухие свистящие хрипы и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обострение ХОБЛ … сопровождаются тахипноэ и/или тахикардией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обострение ХОБЛ … сопровождаются тахипноэ и/или тахикардией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки ДН: тахипноэ выше 20 в мин., цианоз (при наличии выраженной гипоксемии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_lower_limbs",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёки нижних конечностей – один из признаков осложнения ХОБЛ (декомпенсированное легочное сердце)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_j44",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Утомляемость указана в перечне симптомов ХОБЛ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_cough",
+    "target": "symptom_chronic_sputum",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характеризуется хроническими респираторными симптомами (одышка, кашель, отхождение мокроты)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_tachypnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обострение ХОБЛ … сопровождаются тахипноэ и/или тахикардией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "обострение ХОБЛ … сопровождаются тахипноэ и/или тахикардией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "symptom_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обострение ХОБЛ … сопровождаются тахипноэ и/или тахикардией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "symptom_edema_lower_limbs",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отёки нижних конечностей – один из признаков осложнения ХОБЛ (декомпенсированное легочное сердце), цианоз при выраженной гипоксемии",
+    "properties": {}
+  }
+]

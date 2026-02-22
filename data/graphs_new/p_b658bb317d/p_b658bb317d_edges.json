@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_rubtsy",
+    "target": "diagnosis_t95",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Основными исходами вышеперечисленных состояний являются рубцы, длительно незаживающие раны, раны, контрактуры и трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dlitelno_nezazhivayushchie_rany",
+    "target": "diagnosis_t95",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Основными исходами вышеперечисленных состояний являются рубцы, длительно незаживающие раны, раны, контрактуры и трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kontaktury",
+    "target": "diagnosis_t95",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Основными исходами вышеперечисленных состояний являются рубцы, длительно незаживающие раны, раны, контрактуры и трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_troficheskie_yazvy",
+    "target": "diagnosis_t95",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Основными исходами вышеперечисленных состояний являются рубцы, длительно незаживающие раны, раны, контрактуры и трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubtsy",
+    "target": "symptom_dlitelno_nezazhivayushchie_rany",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Основными исходами ... являются рубцы, длительно незаживающие раны, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubtsy",
+    "target": "symptom_kontaktury",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Основными исходами ... являются рубцы, ... контрактуры ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubtsy",
+    "target": "symptom_troficheskie_yazvy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Основными исходами ... являются рубцы, ... трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dlitelno_nezazhivayushchie_rany",
+    "target": "symptom_kontaktury",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Основными исходами ... являются длительно незаживающие раны, ... контрактуры ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dlitelно_nezazhivayushchie_rany",
+    "target": "symptom_troficheskie_yazvy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Основными исходами ... являются длительно незаживающие раны, ... трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kontaktury",
+    "target": "symptom_troficheskie_yazvy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Основными исходами ... являются контрактуры и трофические язвы.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.0 Последствия термического и химического ожога и отморожения головы и шеи",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.1 Последствия термического и химического ожога и отморожения туловища",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.2 Последствия термического и химического ожога и отморожения верхней конечности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.3 Последствия термического и химического ожога и отморожения нижней конечности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.4 Последствия термических и химических ожогов, классифицированные только по площади поражённого участка тела",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.8 Последствия других уточненных термических и химических ожогов и отморожений",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t95",
+    "target": "diagnosis_t95_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т95.9 Последствия не уточненных термических и химических ожогов и отморожений",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t90_8",
+    "target": "diagnosis_t91_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т90.8 Последствия других уточненных травм головы Т91.8 Последствие других уточненных травм шеи и туловища",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t92_8",
+    "target": "diagnosis_t93_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т92.8 Последствие других уточненных травм верхней конечности Т93.8 Последствие других уточненных травм нижней конечности",
+    "properties": {}
+  }
+]

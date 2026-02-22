@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: множественные симметричные косметические дефекты, связанные с нарушением цвета эмали и структуры коронок зубов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "изменение цвета эмали – при визуальном осмотре множественные симметрично расположенные пятна белого цвета на вестибулярных поверхностях одноименных зубов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "по клиническим проявлениям: - изменение цвета эмали; -изменение структуры твердых тканей зуба.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пятна белого цвета на вестибулярных поверхностях зубов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "недоразвитие эмали – при визуальном осмотре обнаруживаются небольшие валики, между которыми имеются покрытые неизмененной эмалью углубления (волнистая эмаль), точечные углубления в эмали (точечная эмаль), наличие одиночной борозды и более на коронке (бороздчатая, лестничная гипоплазия).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие эмали – при визуальном осмотре на определенном участке коронки зуба эмаль отсутствует.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при зондировании очага поражения зонд скользит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "многократные симметричные косметические дефекты, связанные с нарушением цвета эмали...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "многократные симметричные косметические дефекты, связанные с ... структурой коронок зубов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "по клиническим проявлениям: - изменение цвета эмали; -изменение структуры твердых тканей зуба.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_4",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "изменение цвета эмали – ... пятна белого цвета...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_1",
+    "target": "diagnosis_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К00.40 Гипоплазия эмали. К00.41 Пренатальная гипоплазия эмали.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_1",
+    "target": "diagnosis_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К00.40 Гипоплазия эмали. К00.42 Неонатальная гипоплазия эмали.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_2",
+    "target": "diagnosis_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К00.41 Пренатальная гипоплазия эмали. К00.42 Неонатальная гипоплазия эмали.",
+    "properties": {}
+  }
+]

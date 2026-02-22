@@ -1,0 +1,290 @@
+[
+  {
+    "source": "symptom_желтуха",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени со стойкой паренхиматозной желтухой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_энцефалопатия",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени с энцефалопатией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_кровотечение_варикозных_вен_пищевода",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени с повторными кровотечениями из расширенных вен пищевода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_гепаторенальный синдром",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени, сопровождающийся гепаторенальным синдромом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_асцит",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени, ... устойчивым асцитом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_0",
+    "target": "diagnosis_c22_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени и внутрипеченочных желчных протоков C22 ... C22.0 Печеночноклеточный рак C22.2 Гепатобластома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_0",
+    "target": "diagnosis_c22_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.3 Ангиосаркома печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_0",
+    "target": "diagnosis_c22_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.4 Другие саркомы печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_0",
+    "target": "diagnosis_c22_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.7 Другие уточненные раки печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_0",
+    "target": "diagnosis_c22_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.9 Злокачественное новообразование печени неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_2",
+    "target": "diagnosis_c22_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.2 Гепатобластома C22.3 Ангиосаркома печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_2",
+    "target": "diagnosis_c22_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.2 Гепатобластома C22.4 Другие саркомы печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_2",
+    "target": "diagnosis_c22_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.2 Гепатобластома C22.7 Другие уточненные раки печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_2",
+    "target": "diagnosis_c22_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.2 Гепатобластома C22.9 Злокачественное новообразование печени неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_3",
+    "target": "diagnosis_c22_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.3 Ангиосаркома печени C22.4 Другие саркомы печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_3",
+    "target": "diagnosis_c22_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.3 Ангиосаркома печени C22.7 Другие уточненные раки печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_3",
+    "target": "diagnosis_c22_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.3 Ангиосаркома печени C22.9 Злокачественное новообразование печени неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_4",
+    "target": "diagnosis_c22_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.4 Другие саркомы печени C22.7 Другие уточненные раки печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_4",
+    "target": "diagnosis_c22_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.4 Другие саркомы печени C22.9 Злокачественное новообразование печени неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_7",
+    "target": "diagnosis_c22_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование печени ... C22.7 Другие уточненные раки печени C22.9 Злокачественное новообразование печени неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c24",
+    "target": "diagnosis_c24_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Злокачественное новообразование других и неуточненных частей С24 ... C24.8 Злокачественное поражение желчных путей, выходящее за пределы одной и более вышеуказанных локализаций",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d13_4",
+    "target": "diagnosis_c38_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Доброкачественные и злокачественные опухоли печени: (гемангиоматоз; D13.4 аденоматоз; ... )",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k70_2",
+    "target": "diagnosis_k70_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Алкогольный фиброз и склероз печени ... Алкогольный цирроз печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k70_3",
+    "target": "diagnosis_k70_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Алкогольный цирроз печени ... Алкогольная печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74_0",
+    "target": "diagnosis_k74_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Фиброз печени ... Склероз печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74_0",
+    "target": "diagnosis_k74_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Фиброз печени ... Фиброз печени со склерозом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74_1",
+    "target": "diagnosis_k74_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Склероз печени ... Фиброз печени со склерозом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74_3",
+    "target": "diagnosis_k74_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Первичный билиарный цирроз ... Вторичный билиарный цирроз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74_4",
+    "target": "diagnosis_k74_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вторичный билиарный цирроз ... Билиарный цирроз, неуточненный",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74_5",
+    "target": "diagnosis_k74_6",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Билиарный цирроз, неуточненный ... Другой и неуточненный цирроз печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k76_5",
+    "target": "diagnosis_k76_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Веноокклюзивная болезнь печени ... Семейный холестатический синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_2",
+    "target": "diagnosis_q44_5_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Билиарная атрезия ... Врожденные аномалии желчных протоков",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_2",
+    "target": "diagnosis_q44_5_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Билиарная атрезия ... Болезнь Кароли",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_5_1",
+    "target": "diagnosis_q44_5_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Врожденные аномалии желчных протоков ... Болезнь Кароли",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_5_1",
+    "target": "diagnosis_q44_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Врожденные аномалии желчных протоков ... Другие врожденные аномалии печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_6",
+    "target": "diagnosis_q44_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Кистозная болезнь печени ... Другие врожденные аномалии печени",
+    "properties": {}
+  }
+]

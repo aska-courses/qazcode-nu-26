@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_rigidity",
+    "target": "diagnosis_parkinson_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "купирование основных моторных симптомов болезни Паркинсона (ригидности, тремора и брадикинезии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tremor",
+    "target": "diagnosis_parkinson_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "купирование основных моторных симптомов болезни Паркинсона (ригидности, тремора и брадикинезии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradykinesia",
+    "target": "diagnosis_parkinson_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "купирование основных моторных симптомов болезни Паркинсона (ригидности, тремора и брадикинезии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_fluctuations",
+    "target": "diagnosis_parkinson_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "моторные флюктуации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyskinesia",
+    "target": "diagnosis_parkinson_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лекарственные дискинезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "symptom_discomfort",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль и/или дискомфорт",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematoma",
+    "target": "symptom_wound_infection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гематомы; раневые инфекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "symptom_dysarthria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дислпопия, дизартрия, гемиспазм, вспышки в глазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "symptom_hemispasm",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дислпопия, дизартрия, гемиспазм, вспышки в глазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "symptom_visual_flashes",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дислпопия, дизартрия, гемиспазм, вспышки в глазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysarthria",
+    "target": "symptom_hemispasm",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дислпопия, дизартрия, гемиспазм, вспышки в глазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysarthria",
+    "target": "symptom_visual_flashes",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дислпопия, дизартрия, гемиспазм, вспышки в глазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemispasm",
+    "target": "symptom_visual_flashes",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дислпопия, дизартрия, гемиспазм, вспышки в глазах",
+    "properties": {}
+  }
+]

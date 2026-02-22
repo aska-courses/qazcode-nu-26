@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_onemenie",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: на сенсорные нарушения: онемение, покалывание, боль во время атаки Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokalyvanie",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: на сенсорные нарушения: онемение, покалывание, боль во время атаки Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: на сенсорные нарушения: онемение, покалывание, боль во время атаки Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_cveta_kozhi",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Последовательная смена окраски кожи пальцев кистей на холоде.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_setchatoe_livedo",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Во время атак Рейно возможно появление сетчатого ливедо на конечностях.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_porazhenie_yazyka",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "В редких случаях наблюдается поражение языка, что проявляется его онемением и преходящими нарушениями речи.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lihorodka",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokhudenie",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vydayenie_volos",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fotosensibilizatsiya",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudneniya_pri_glotanii",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vlazhnaia_gangrena",
+    "target": "diagnosis_sindrom_reyno",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие влажной гангрены – показание для экстренной госпитализации при синдроме Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_onemenie",
+    "target": "symptom_pokalyvanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на сенсорные нарушения: онемение, покалывание, боль во время атаки Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_onemenie",
+    "target": "symptom_bol",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на сенсорные нарушения: онемение, покалывание, боль во время атаки Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokalyvanie",
+    "target": "symptom_bol",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на сенсорные нарушения: онемение, покалывание, боль во время атаки Рейно.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_setchatoe_livedo",
+    "target": "symptom_izmenenie_cveta_kozhi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Во время атак Рейно возможно появление сетчатого ливедо на конечностях, которое проходит после завершения вазоспазма.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_porazhenie_yazyka",
+    "target": "symptom_onemenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В редких случаях наблюдается поражение языка, что проявляется его онемением.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lihorodka",
+    "target": "symptom_slabost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "symptom_pokhudenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokhudenie",
+    "target": "symptom_vydayenie_volos",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fotosensibilizatsiya",
+    "target": "symptom_zatrudneniya_pri_glotanii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Признаки системности: лихорадка, слабость, похудание, выпадение волос, фотосенсибилизация, затруднения при глотании и др.",
+    "properties": {}
+  }
+]

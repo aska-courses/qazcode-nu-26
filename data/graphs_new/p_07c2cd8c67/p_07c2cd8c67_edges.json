@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_pokrasnenie_glaza",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "покраснение глаза различной степени выраженности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otdeliamoe_konyunktivalnoi_polosti",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отделяемое из конъюнктивальной полости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oshchushchenie_inorodnogo_tela",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущение инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slezotchenie",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetoboyazn",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "незначительная светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_vek",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек ... век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud_vek",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зуд век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razdrazhenie",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "раздражение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vydeleniya",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slipanie_vek",
+    "target": "diagnosis_konyunktivit_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слипание век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_vek",
+    "target": "symptom_zud_vek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек и зуд век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otdeliamoe_konyunktivalnoi_polosti",
+    "target": "symptom_vydeleniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отделяемое из конъюнктивальной полости ... выделения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostryi_konyunktivit_pri_boleznyah",
+    "target": "diagnosis_difteriynyi_konyunktivit",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый конъюнктивит при болезнях, классифицированных в других рубриках: -дифтерийный (A36.8)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostryi_konyunktivit_pri_boleznyah",
+    "target": "diagnosis_gonokokkovyi_konyunktivit",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый конъюнктивит при болезнях, классифицированных в других рубриках: -гонококковый (A54.3)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostryi_konyunktivit_pri_boleznyah",
+    "target": "diagnosis_khlamidiynyi_konyunktivit",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый конъюнктивит при болезнях, классифицированных в других рубриках: -хламидийный конъюнктивит (А74.0)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostryi_konyunktivit_pri_boleznyah",
+    "target": "diagnosis_gemorragicheskii_ostryi_epidemicheskii_konyunktivit",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый конъюнктивит при болезнях, классифицированных в других рубриках: -геморрагический острый эпидемический (B30.3)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostryi_konyunktivit_pri_boleznyah",
+    "target": "diagnosis_adenovirusnyi_follikulyarnyi_konyunktivit",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый конъюнктивит при болезнях, классифицированных в других рубриках: -аденовирусный фолликулярный (В 30.1)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ostryi_konyunktivit_pri_boleznyah",
+    "target": "diagnosis_gerpesvirusnyi_konyunktivit",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый конъюнктивит при болезнях, классифицированных в других рубриках: -герпесвирусный (В00.5)",
+    "properties": {}
+  }
+]

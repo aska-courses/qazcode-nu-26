@@ -1,0 +1,346 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: сонливость, раздражительность, сильная головная боль, ригидность затылочных мышц, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleepiness",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: сонливость, раздражительность, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... сильная головная боль, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_stiffness",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... ригидность затылочных мышц, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... чувствительность к яркому свету, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... сыпь на коже, которая быстро распространяется ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_rash",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Характеристика сыпи при менингококцемии ... геморрагическая сыпь ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechial_rash",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Характеристика сыпи при менингококцемии ... петехиальная сыпь ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cerebral_edema",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ранние осложнения: отек головного мозга;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dic",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ранние осложнения: ДВС‑синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_renal_failure",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ранние осложнения: острая почечная недостаточность;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cerebral_hypotension",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ранние осложнения: церебральная гипотензия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subdural_effusion",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ранние осложнения: субдуральный выпот;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ependymaitis",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ранние осложнения: эпендиматит;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cognitive_impairment",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: нарушение интеллекта;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotensive_syndrome",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: гипотензионный синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hydrocephalus",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: гидроцефалия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epileptic_syndrome",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: эпилептический синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: паралич;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresis",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: парез;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_necrosis",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: некроз кожи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_endocrine_disorder",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: эндокринные нарушения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_meningococcal_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поздние осложнения: нарушение слуха;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При менингококцемии признаки инфекционно‑токсического шока: повышение температуры тела до 40°C, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При менингококцемии признаки инфекционно‑токсического шока: артериальное давление снижается ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При менингококцемии признаки инфекционно‑токсического шока: выражена тахикардия ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При менингококцемии признаки инфекционно‑токсического шока: токсическая одышка ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_acute_meningococcemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При менингококцемии признаки инфекционно‑токсического шока: развивается олигоурия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... сильная головная боль ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_neck_stiffness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... ригидность затылочных мышц ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Больной с температурой свыше 38°C и одним из следующих признаков: ... сыпь на коже ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_neck_stiffness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клиническое определение заболевания: ... сильная головная боль, ригидность затылочных мышц ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_photophobia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клиническое определение заболевания: ... сильная головная боль, ... чувствительность к яркому свету ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_stiffness",
+    "target": "symptom_photophobia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клиническое определение заболевания: ... ригидность затылочных мышц, ... чувствительность к яркому свету ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "symptom_petechial_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Характеристика сыпи при менингококцемии: ... петехиальная сыпь ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_rash",
+    "target": "symptom_petechial_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Геморрагическая сыпь ... (петехиальная или пурпурная сыпь)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_meningococcal_meningitis",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция A39.0 Менингококковый менингит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_meningococcemia",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция A39.2 Острая менингококкемия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_meningococcemia",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция A39.3 Хроническая менингококкемия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_waterhouse_friedrichsen_syndrome",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция A39.1 Синдром Уотерхауса‑Фридериксена",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_meningococcal_heart_disease",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция A39.5 Менингококковая болезнь сердца",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_meningococcal_carriage",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция Z.22 Менингококковое носительство",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_meningococcal_nasopharyngitis",
+    "target": "diagnosis_meningococcal_infection",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 A39 Менингококковая инфекция J00 Менингококковый назофарингит",
+    "properties": {}
+  }
+]

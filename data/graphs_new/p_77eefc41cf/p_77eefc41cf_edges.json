@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_difficult_nasal_breathing",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Длительное затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_discharge",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие выделений из носа (характер отделяемого, количество, запах и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unpleasant_nasal_odor",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие неприятного запаха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_hyperemia",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Состояние слизистой оболочки носа при передней риноскопии (гиперемия, цианоз, бледность, отёчность, гипертрофия и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_cyanosis",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Состояние слизистой оболочки носа при передней риноскопии (гиперемия, цианоз, бледность, отёчность, гипертрофия и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_pallor",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Состояние слизистой оболочки носа при передней риноскопии (гиперемия, цианоз, бледность, отёчность, гипертрофия и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_swelling",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Состояние слизистой оболочки носа при передней риноскопии (гиперемия, цианоз, бледность, отёчность, гипертрофия и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_turbinate_hypertrophy",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Состояние слизистой оболочки носа при передней риноскопии (гиперемия, цианоз, бледность, отёчность, гипертрофия и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_crusts",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие корок, их характер, локализацию и распространённость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_dryness",
+    "target": "diagnosis_chronic_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость в носу, глотке, кровотечения, широкие носовые ходы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_sneezing",
+    "target": "diagnosis_vasomotor_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пароксизмальное чихание, ринорея с отделяемым водянистого характера и затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_vasomotor_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пароксизмальное чихание, ринорея с отделяемым водянистого характера и затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_difficult_nasal_breathing",
+    "target": "diagnosis_vasomotor_rhinitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пароксизмальное чихание, ринорея с отделяемым водянистого характера и затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_sneezing",
+    "target": "symptom_rhinorrhea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пароксизмальное чихание, ринорея с отделяемым водянистого характера и затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_sneezing",
+    "target": "symptom_difficult_nasal_breathing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пароксизмальное чихание, ринорея с отделяемым водянистого характера и затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "symptom_difficult_nasal_breathing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пароксизмальное чихание, ринорея с отделяемым водянистого характера и затрудненное носовое дыхание",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_rhinitis",
+    "target": "diagnosis_vasomotor_rhinitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "J 31.0 Хронический ринит J 30.0 Вазомоторный ринит",
+    "properties": {}
+  }
+]

@@ -1,0 +1,254 @@
+{
+  "protocol_id": "p_dfe3bab695",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "отставание в росте"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "отставание длины тела более чем на 2 SDS"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "стигмы дизэмбриогенеза (готическое небо, низкий рост волос на шее, крыловидные складки шеи, антимонголоидный разрез глаз, широкая грудная клетка, отек тыла стоп)"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "снижение темпов роста"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "снижение уровня ИРФ-1 в крови"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "снижение уровней ТТГ в крови"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "снижение уровней свободного Т4 (свТ4) в крови"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "снижение уровней АКТГ в крови"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "снижение уровней кортизола в крови"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "снижение уровней ЛГ в крови"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "снижение уровней ФСГ в крови"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "снижение уровней тестостерона в крови у мальчиков"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "снижение уровней эстрадиола в крови у девочек"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "отсутствие генов Prop-1"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "отсутствие генов Pit-1"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Гипопитуитаризм",
+      "icd_code": "E23.0"
+    },
+    {
+      "id": "diagnosis_2",
+      "type": "diagnosis",
+      "label": "Низкорослость (карликовость), не классифицированная в других рубриках",
+      "icd_code": "E34.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на отставание в росте.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание длины тела ребенка от средних показателей более чем на 2 SDS",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стигмы дизэмбриогенеза («готическое» небо, низкий рост волос на шее, крыловидные складки шеи, антимонголоидный разрез глаз, широкая грудная клетка, отек тыла стоп и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение темпов роста ребенка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровня ИРФ-1 в крови при СТГ-недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение в крови уровней ТТГ и свТ4 при сопутствующем вторичном гипотиреозе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение в крови уровней ТТГ и свТ4 при сопутствующем вторичном гипотиреозе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровней АКТГ и кортизола при сопутствующем вторичном гипокортицизме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровней АКТГ и кортизола при сопутствующем вторичном гипокортицизме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровней ЛГ, ФСГ, тестостерона при сопутствующем вторичном гипогонадизме у мальчиков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровней ЛГ, ФСГ, тестостерона при сопутствующем вторичном гипогонадизме у мальчиков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровней ЛГ, ФСГ, тестостерона при сопутствующем вторичном гипогонадизме у мальчиков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение уровней ЛГ, ФСГ эстрадиола при сопутствующем вторичном гипогонадизме у девочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отсутствие генов Prop-1, Pit-1 или их дефектность указывают на генетическую обусловленность СТГ-недостаточности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отсутствие генов Prop-1, Pit-1 или их дефектность указывают на генетическую обусловленность СТГ-недостаточности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Снижение в крови уровней ТТГ и свТ4 при сопутствующем вторичном гипотиреозе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "symptom_9",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Снижение уровней АКТГ и кортизола при сопутствующем вторичном гипокортицизме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "symptom_11",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Снижение уровней ЛГ, ФСГ, тестостерона при сопутствующем вторичном гипогонадизме у мальчиков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Снижение уровней ЛГ, ФСГ эстрадиола при сопутствующем вторичном гипогонадизме у девочек",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код МКБ-10: E23.0 Гипопитуитаризм Е34.3 Низкорослость (карликовость), не классифицированная в других рубриках",
+      "properties": {}
+    }
+  ]
+}

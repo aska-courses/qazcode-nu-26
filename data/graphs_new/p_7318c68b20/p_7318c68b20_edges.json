@@ -1,0 +1,410 @@
+[
+  {
+    "source": "symptom_edema",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "спонтанное появление и исчезновение отеков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение диуреза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "появление кожной сыпи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythema",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "появление ... эритемы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hair_loss",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выпадение волос",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stomatitis",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стоматиты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sinusitis",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "синуситы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinitis_bloody",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "риниты с кровянистым отделяемым",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_pneumonia",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "частые пневмонии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthma",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бронхиальная астма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macroscopic_hematuria",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эпизоды макрогематурии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_unknown_origin",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эпизоды лихорадки неясной этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потеря веса за короткий промежуток времени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperlipidemia",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гиперлипидемией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombosis",
+    "target": "diag_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тромбоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_viral_hepatitis",
+    "target": "diag_n08_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие вирусного гепатита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_infection_focus",
+    "target": "diag_n08_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "хронические очаги инфекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diag_n08_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchiectasis",
+    "target": "diag_n08_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бронхоэктатическая болезнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rheumatoid_arthritis",
+    "target": "diag_n08_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ревматоидный артрит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_allergic_reaction_contrast",
+    "target": "diag_n08_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "аллергическая реакция на контрастные вещества",
+    "properties": {}
+  },
+  {
+    "source": "symptom_allergic_reaction_vaccine",
+    "target": "diag_n08_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "аллергическая реакция на вакцины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_migratory_erythema",
+    "target": "diag_n08_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мигрирующая рожеподобная эритема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decollete_rash",
+    "target": "symptom_skin_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожная сыпь в зоне «декальте»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_lesions",
+    "target": "symptom_stomatitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "поражение слизистых (энантемы, хейлит, стоматит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_lesions",
+    "target": "symptom_sinusitis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "поражение слизистых (энантемы, хейлит, стоматит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_lesions",
+    "target": "symptom_rhinitis_bloody",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "поражение слизистых (энантемы, хейлит, стоматит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_syndrome",
+    "target": "symptom_arthralgia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "суставной синдром (артралгии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bloody_discharge",
+    "target": "symptom_rhinitis_bloody",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кровянистые выделения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cutaneous_sensory_loss",
+    "target": "symptom_skin_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение чувствительности кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_orthostatic_hypotension",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ортостатическая гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "symptom_fever_unknown_origin",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличение лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Нефротический синдром, очаговые и сегментарные гломерулярные повреждения",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "мембранозный гломерулонефрит",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "мезангиальный пролиферативный гломерулонефрит",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "эндокапиллярный пролиферативный гломерулонефрит",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_5",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "мезангиокапиллярный (мембранопролиферативный) гломерулонефрит",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_6",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Нефротический синдром, осадка",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_7",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "серповидный гломерулонефрит",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n04_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Нефротический синдром, неуточненное изменение",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при инфекционных и паразитарных болезнях",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при новообразованиях",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при болезнях крови и иммунных нарушениях",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при сахарном диабете",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при болезнях эндокринной системы, расстройствах питания и обмена веществ",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при системных болезнях соединительной ткани",
+    "properties": {}
+  },
+  {
+    "source": "diag_n04",
+    "target": "diag_n08_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гломерулярные поражения при других болезнях, классифицированных в других рубриках",
+    "properties": {}
+  }
+]

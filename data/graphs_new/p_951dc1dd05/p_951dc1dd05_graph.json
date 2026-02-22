@@ -1,0 +1,319 @@
+{
+  "protocol_id": "p_951dc1dd05",
+  "nodes": [
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_postprandial_pain",
+      "type": "symptom",
+      "label": "Боль после приёма пищи"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря веса"
+    },
+    {
+      "id": "symptom_abdominal_heaviness",
+      "type": "symptom",
+      "label": "Тяжесть в животе"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "Чувство распирания в животе"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_belching",
+      "type": "symptom",
+      "label": "Отрыжка"
+    },
+    {
+      "id": "symptom_constipation",
+      "type": "symptom",
+      "label": "Запор"
+    },
+    {
+      "id": "symptom_watery_stool",
+      "type": "symptom",
+      "label": "Жидкий стул"
+    },
+    {
+      "id": "symptom_depressive_asthenic_syndrome",
+      "type": "symptom",
+      "label": "Депрессивный астеноипохондрический синдром"
+    },
+    {
+      "id": "symptom_gastrointestinal_dysfunction",
+      "type": "symptom",
+      "label": "Дисфункция желудочно-кишечного тракта"
+    },
+    {
+      "id": "symptom_systolic_noise",
+      "type": "symptom",
+      "label": "Систолический шум при аускультации сосудов"
+    },
+    {
+      "id": "diagnosis_compression_of_celiac_trunk",
+      "type": "diagnosis",
+      "label": "Синдром компрессии чревного ствола брюшной аорты",
+      "icd_code": "I77.4"
+    },
+    {
+      "id": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "diagnosis",
+      "label": "Хронические сосудистые болезни кишечника",
+      "icd_code": "K55.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в животе – схваткообразные или ноющие, усиливающиеся после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в животе – схваткообразные или ноющие, усиливающиеся после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postprandial_pain",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обычно возникающими после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postprandial_pain",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обычно возникающими после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "прогрессирующим похуданием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "прогрессирующим похуданием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_heaviness",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжесть в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_heaviness",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжесть в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чувство распирания в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чувство распирания в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belching",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belching",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_constipation",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_constipation",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_watery_stool",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жидкий стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_watery_stool",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жидкий стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressive_asthenic_syndrome",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "депрессивный астеноипохондрический синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressive_asthenic_syndrome",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "депрессивный астеноипохондрический синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastrointestinal_dysfunction",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "дисфункция желудочно-кишечного тракта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastrointestinal_dysfunction",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "дисфункция желудочно-кишечного тракта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_noise",
+      "target": "diagnosis_compression_of_celiac_trunk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "систолический шум при аускультации сосудов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_noise",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "систолический шум при аускультации сосудов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_postprandial_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в животе … усиливающиеся после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в животе … прогрессирующим похуданием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_heaviness",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тяжесть в животе; чувство распирания в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_belching",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошнота; отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_constipation",
+      "target": "symptom_watery_stool",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "запор; жидкий стул",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_compression_of_celiac_trunk",
+      "target": "diagnosis_chronic_vascular_intestinal_diseases",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код МКБ: I77.4 Синдром компрессии чревного ствола брюшной аорты K55.1 Хронические сосудистые болезни кишечника",
+      "properties": {}
+    }
+  ]
+}

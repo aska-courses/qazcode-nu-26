@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_absence_of_anus_typical_place",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие ануса на типичном месте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_fistula_in_vaginal_prepuce",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие свища в предверии влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_colostomy",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "общий анализ мочи – лейкоцитурия, связанная с вторичным пиелонефритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "общий анализ мочи – лейкоцитурия, связанная с вторичным пиелонефритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_renal_function",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в поздних запущенных стадиях ... снижение функций почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_creatinine",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "показатели креатинина ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_urea",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "мочевина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_rectovestibular_fistula",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Врожденные аномалии аноректальной области (атрезия ануса с ректовестибулярным свищом)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weak_anal_reflex",
+    "target": "diagnosis_q42_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Анальный рефлекс ослаблен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_anus_typical_place",
+    "target": "symptom_presence_of_fistula_in_vaginal_prepuce",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие ануса на типичном месте; наличие свища в предверии влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_anus_typical_place",
+    "target": "symptom_presence_of_colostomy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие ануса на типичном месте; наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_fistula_in_vaginal_prepuce",
+    "target": "symptom_presence_of_colostomy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие свища в предверии влагалища; наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_anemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "symptom_secondary_pyelonephritis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "лейкоцитурия, связанная с вторичным пиелонефритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "symptom_reduced_renal_function",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в поздних запущенных стадиях ... снижение функций почек, в связи с наличием свища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_renal_function",
+    "target": "symptom_elevated_creatinine",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "показатели креатинина ... при снижении функций почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_renal_function",
+    "target": "symptom_elevated_urea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышенная мочевина при снижении функций почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_creatinine",
+    "target": "symptom_elevated_urea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "креатинин и мочевина повышены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weak_anal_reflex",
+    "target": "symptom_absence_of_anus_typical_place",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "анус на типичном месте отсутствует, ... Анальный рефлекс ослаблен",
+    "properties": {}
+  }
+]

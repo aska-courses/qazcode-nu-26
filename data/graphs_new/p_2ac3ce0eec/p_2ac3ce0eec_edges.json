@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_fulminant_hepatitis",
+    "target": "diagnosis_k72_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "фульминантный гепатит; ... острая печеночная недостаточность;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_parenchymal_jaundice",
+    "target": "diagnosis_k74_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени со стойкой паренхиматозной желтухой;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "diagnosis_k74_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени с энцефалопатией;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_variceal_bleeding",
+    "target": "diagnosis_k74_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени с повторными кровотечениями из расширенных вен пищевода;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatorenal_syndrome",
+    "target": "diagnosis_k74_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени, сопровождающийся гепаторенальным синдромом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ascites",
+    "target": "diagnosis_k74_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени, сопровождающийся ... устойчивым асцитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_failure",
+    "target": "diagnosis_k74_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цирроз печени, сопровождающийся ... нарастающей печеночной недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "symptom_variceal_bleeding",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с энцефалопатией; ... с повторными кровотечениями из расширенных вен пищевода;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "symptom_hepatorenal_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с энцефалопатией; ... сопровождающийся гепаторенальным синдромом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "symptom_ascites",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с энцефалопатией; ... устойчивым асцитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "symptom_liver_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с энцефалопатией; ... нарастающей печеночной недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_variceal_bleeding",
+    "target": "symptom_hepatorenal_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с повторными кровотечениями из расширенных вен пищевода; ... сопровождающийся гепаторенальным синдромом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_variceal_bleeding",
+    "target": "symptom_ascites",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с повторными кровотечениями из расширенных вен пищевода; ... устойчивым асцитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_variceal_bleeding",
+    "target": "symptom_liver_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цирроз печени с повторными кровотечениями из расширенных вен пищевода; ... нарастающей печеночной недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatorenal_syndrome",
+    "target": "symptom_ascites",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гепаторенальный синдром, устойчивым асцитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatorenal_syndrome",
+    "target": "symptom_liver_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гепаторенальный синдром, ... нарастающей печеночной недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ascites",
+    "target": "symptom_liver_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "устойчивым асцитом, ... нарастающей печеночной недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_2",
+    "target": "diagnosis_k74_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/вмешательству: ... билиарная атрезия ... цирроз печени ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_5_1",
+    "target": "diagnosis_k74_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/вмешательству: ... врожденные аномалии желчных протоков ... цирроз печени ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c22_0",
+    "target": "diagnosis_k74_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/вмешательству: ... гепатоцеллюлярная карцинома ... цирроз печени ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k72_0",
+    "target": "diagnosis_k74_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/вмешательству: ... острая печеночная недостаточность ... цирроз печени ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q44_2",
+    "target": "diagnosis_k72_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Показания к процедуре/вмешательству: ... билиарная атрезия ... острая печеночная недостаточность ...",
+    "properties": {}
+  }
+]

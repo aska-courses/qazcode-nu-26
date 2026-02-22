@@ -1,0 +1,424 @@
+{
+  "protocol_id": "p_d2e6ca0450",
+  "nodes": [
+    {
+      "id": "diagnosis_gorham_stout_disease",
+      "type": "diagnosis",
+      "label": "Болезнь Горхема – Стаута",
+      "icd_code": "D18.1"
+    },
+    {
+      "id": "symptom_localized_pain",
+      "type": "symptom",
+      "label": "локализованная боль"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_functional_impairment",
+      "type": "symptom",
+      "label": "функциональное нарушение пораженных конечностей"
+    },
+    {
+      "id": "symptom_mobile_teeth",
+      "type": "symptom",
+      "label": "подвижные зубы"
+    },
+    {
+      "id": "symptom_malocclusion",
+      "type": "symptom",
+      "label": "неправильный прикус"
+    },
+    {
+      "id": "symptom_lower_jaw_deviation",
+      "type": "symptom",
+      "label": "отклонение нижней челюсти"
+    },
+    {
+      "id": "symptom_jaw_deformation",
+      "type": "symptom",
+      "label": "костная деформация челюсти"
+    },
+    {
+      "id": "symptom_respiratory_distress",
+      "type": "symptom",
+      "label": "респираторный дистресс"
+    },
+    {
+      "id": "symptom_chylothorax",
+      "type": "symptom",
+      "label": "хилоторакс"
+    },
+    {
+      "id": "symptom_pericardial_effusion",
+      "type": "symptom",
+      "label": "перикардиальный выпот"
+    },
+    {
+      "id": "symptom_pleural_effusion",
+      "type": "symptom",
+      "label": "плевральный выпот"
+    },
+    {
+      "id": "symptom_neurological_deficit",
+      "type": "symptom",
+      "label": "неврологические дефекты"
+    },
+    {
+      "id": "symptom_paralysis",
+      "type": "symptom",
+      "label": "паралич"
+    },
+    {
+      "id": "symptom_csf_leakage",
+      "type": "symptom",
+      "label": "утечка цереброспинальной жидкости"
+    },
+    {
+      "id": "symptom_pathologic_fracture",
+      "type": "symptom",
+      "label": "патологический перелом"
+    },
+    {
+      "id": "symptom_bone_deformity",
+      "type": "symptom",
+      "label": "деформация кости"
+    },
+    {
+      "id": "symptom_osteolysis",
+      "type": "symptom",
+      "label": "остеолиз"
+    },
+    {
+      "id": "symptom_bone_resorption",
+      "type": "symptom",
+      "label": "резорбция кости"
+    },
+    {
+      "id": "symptom_fibrosis",
+      "type": "symptom",
+      "label": "фиброз"
+    },
+    {
+      "id": "symptom_lymphoedema",
+      "type": "symptom",
+      "label": "лимфедема"
+    },
+    {
+      "id": "symptom_acute_respiratory_failure",
+      "type": "symptom",
+      "label": "острая дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_organ_dysfunction",
+      "type": "symptom",
+      "label": "нарушение функций жизненно важных органов"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_localized_pain",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее распространенным симптомом является локализованная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Характерны ... слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Также отмечается отек, слабость и функциональное нарушение пораженных конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_functional_impairment",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Также отмечается отек, слабость и функциональное нарушение пораженных конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mobile_teeth",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться подвижные зубы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malocclusion",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... неправильный прикус",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_jaw_deviation",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... отклонение нижней челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaw_deformation",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... костная деформация челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_distress",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациенты с вовлечением грудной клетки могут проявлять респираторный дистресс (вызванный хилотораксом)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chylothorax",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациенты с вовлечением грудной клетки могут проявлять респираторный дистресс (вызванный хилотораксом)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_effusion",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопутствовать перикардиальный или плевральный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pleural_effusion",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопутствовать перикардиальный или плевральный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neurological_deficit",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тяжелые неврологические дефекты и паралич, вторичные по отношению к вовлечению позвонков, также наблюдаются",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paralysis",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тяжелые неврологические дефекты и паралич, вторичные по отношению к вовлечению позвонков, также наблюдаются",
+      "properties": {}
+    },
+    {
+      "source": "symptom_csf_leakage",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "могут иметь утечку цереброспинальной жидкости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathologic_fracture",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Болезнь может быть обнаружена после патологического перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_deformity",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В детском возрасте развивается деформация кости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteolysis",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Заболевание сопровождается остеолизом и резорбцией кости с фиброзом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_resorption",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Заболевание сопровождается остеолизом и резорбцией кости с фиброзом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fibrosis",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Заболевание сопровождается остеолизом и резорбцией кости с фиброзом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_respiratory_failure",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острая дыхательная недостаточность ... указана как показание для экстренной госпитализации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_organ_dysfunction",
+      "target": "diagnosis_gorham_stout_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функций жизненно важных органов указано как показание для экстренной госпитализации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Также отмечается отек, слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "symptom_functional_impairment",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Также отмечается отек, ... функциональное нарушение пораженных конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_functional_impairment",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Также отмечается ... слабость и функциональное нарушение пораженных конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mobile_teeth",
+      "target": "symptom_malocclusion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться подвижные зубы, неправильный прикус",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mobile_teeth",
+      "target": "symptom_lower_jaw_deviation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... отклонение нижней челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mobile_teeth",
+      "target": "symptom_jaw_deformation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... костная деформация челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malocclusion",
+      "target": "symptom_lower_jaw_deviation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... неправильный прикус, отклонение нижней челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malocclusion",
+      "target": "symptom_jaw_deformation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... неправильный прикус, ... костная деформация челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_jaw_deviation",
+      "target": "symptom_jaw_deformation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в области дентоальвеолярной области могут наблюдаться ... отклонение нижней челюсти, костная деформация челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_distress",
+      "target": "symptom_chylothorax",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "респираторный дистресс (вызванный хилотораксом)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_effusion",
+      "target": "symptom_pleural_effusion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "может сопутствовать перикардиальный или плевральный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neurological_deficit",
+      "target": "symptom_paralysis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Тяжелые неврологические дефекты и паралич ... наблюдаются",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteolysis",
+      "target": "symptom_bone_resorption",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "остеолизом и резорбцией кости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteolysis",
+      "target": "symptom_fibrosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "остеолизом ... с фиброзом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_resorption",
+      "target": "symptom_fibrosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "резорбцией кости с фиброзом",
+      "properties": {}
+    }
+  ]
+}

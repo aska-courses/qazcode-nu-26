@@ -1,0 +1,298 @@
+[
+  {
+    "source": "symptom_high_fever",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенная температура тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенная температура тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_cough",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "влажный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_cough",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "влажный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j11",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j00",
+    "target": "diagnosis_j06_multiple",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "J00- J06 Острые респираторные инфекции верхних дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j00",
+    "target": "diagnosis_j06_unspecified",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "J00- J06 Острые респираторные инфекции верхних дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j10",
+    "target": "diagnosis_j11",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "J10- J18 Грипп и пневмония J10 ... J11 ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "symptom_muscle_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_muscle_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "symptom_muscle_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_muscle_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная температура тела, слабость, озноб, жар, головная боль, ломота в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "symptom_wet_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухой или влажный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "symptom_rhinorrhea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "заложенность носа, выделения из носа",
+    "properties": {}
+  }
+]

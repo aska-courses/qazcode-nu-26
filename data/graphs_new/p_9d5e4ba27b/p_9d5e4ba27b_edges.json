@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_vysypki_na_slizystykh_obolochkakh",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высыпания на слизистых оболочках полости рта, носа, глотки и/или красной кайме губ, вокруг естественных отверстий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_pri_priemi_pischi",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль при приеме пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giper_salivatsiya",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперсаливация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zapakh_izo_rta",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "запах изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vysypki_na_kozhe_tulovista",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высыпания на коже туловища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vysypki_na_konechnostyah",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высыпания на конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysfagiya",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дисфагия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysfonia",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дисфония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pohudanie",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "похудание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_zreniya",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dispareunia",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспареуния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positivnyy_simptom_nikolskogo",
+    "target": "diagnosis_l10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом Никольского",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vysypki_na_slizystykh_obolochkakh",
+    "target": "symptom_bol_pri_priemi_pischi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: высыпания на слизистых оболочках ...; боль при приеме пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_pri_priemi_pischi",
+    "target": "symptom_giper_salivatsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: боль при приеме пищи; гиперсаливация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giper_salivatsiya",
+    "target": "symptom_zapakh_izo_rta",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: гиперсаливация; запах изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vysypki_na_kozhe_tulovista",
+    "target": "symptom_vysypki_na_konechnostyah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: высыпания на коже туловища, конечностей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.0 Пузырчатка обыкновенная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.1 Пузырчатка вегетирующая",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.2 Пузырчатка листовидная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.3 Пузырчатка бразильская",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.4 Пузырчатка эритематозная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_5",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.5 Пузырчатка, вызванная лекарственными средствами",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.8 Другие виды пузырчатки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10",
+    "target": "diagnosis_l10_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "L10.9 Пузырчатка неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10_0",
+    "target": "diagnosis_l10_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Клинически выделяют: пузырчатка обыкновенная; пузырчатка вегетирующая; ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10_0",
+    "target": "diagnosis_l10_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Клинически выделяют: ... пузырчатка листовидная ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10_0",
+    "target": "diagnosis_l10_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Клинически выделяют: ... пузырчатка бразильская ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10_0",
+    "target": "diagnosis_l10_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Клинически выделяют: ... пузырчатка эритематозная ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l10_0",
+    "target": "diagnosis_l10_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Клинически выделяют: ... пузырчатка, вызванная лекарственными средствами ...",
+    "properties": {}
+  }
+]

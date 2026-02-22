@@ -1,0 +1,314 @@
+{
+  "protocol_id": "p_8a09bd3850",
+  "nodes": [
+    {
+      "id": "diagnosis_t84_0",
+      "type": "diagnosis",
+      "label": "Осложнение механического происхождения протеза",
+      "icd_code": "Т84.0"
+    },
+    {
+      "id": "diagnosis_t84_5",
+      "type": "diagnosis",
+      "label": "Инфекция эндопротеза",
+      "icd_code": "Т84.5"
+    },
+    {
+      "id": "diagnosis_c40_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование длинных костей нижней конечности",
+      "icd_code": "С40.2"
+    },
+    {
+      "id": "diagnosis_d16_2",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование длинных костей нижней конечности",
+      "icd_code": "D16.2"
+    },
+    {
+      "id": "symptom_infectious_inflammation",
+      "type": "symptom",
+      "label": "Инфекционное воспаление"
+    },
+    {
+      "id": "symptom_aseptic_loosening",
+      "type": "symptom",
+      "label": "Асептическое расшатывание эндопротеза"
+    },
+    {
+      "id": "symptom_joint_instability",
+      "type": "symptom",
+      "label": "Нестабильность сустава"
+    },
+    {
+      "id": "symptom_movement_restriction",
+      "type": "symptom",
+      "label": "Выраженные ограничения движений"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_patellar_fracture",
+      "type": "symptom",
+      "label": "Травматический перелом надколенника"
+    },
+    {
+      "id": "symptom_femoral_fracture",
+      "type": "symptom",
+      "label": "Перелом бедренной кости"
+    },
+    {
+      "id": "symptom_tibial_fracture",
+      "type": "symptom",
+      "label": "Перелом большеберцовой кости"
+    },
+    {
+      "id": "symptom_fatigue_fracture",
+      "type": "symptom",
+      "label": "Усталостный перелом"
+    },
+    {
+      "id": "symptom_immobility",
+      "type": "symptom",
+      "label": "Невозможность самостоятельного передвижения"
+    },
+    {
+      "id": "symptom_thrombophlebitis_exacerbation",
+      "type": "symptom",
+      "label": "Тромбофлебит в стадии обострения"
+    },
+    {
+      "id": "symptom_chronic_respiratory_insufficiency",
+      "type": "symptom",
+      "label": "Хроническая дыхательная недостаточность 2‑3 степени"
+    },
+    {
+      "id": "symptom_knee_inflammatory_process",
+      "type": "symptom",
+      "label": "Воспалительный процесс в области коленного сустава"
+    },
+    {
+      "id": "symptom_acute_chronic_infection_foci",
+      "type": "symptom",
+      "label": "Несанированные очаги острой и хронической инфекции"
+    },
+    {
+      "id": "symptom_sepsis_history",
+      "type": "symptom",
+      "label": "Перенесённый сепсис"
+    },
+    {
+      "id": "symptom_extensor_mechanism_failure",
+      "type": "symptom",
+      "label": "Функциональная несостоятельность разгибательного аппарата коленного сустава"
+    },
+    {
+      "id": "symptom_osteopenia",
+      "type": "symptom",
+      "label": "Остеопения"
+    },
+    {
+      "id": "symptom_polyallergy",
+      "type": "symptom",
+      "label": "Полиаллергия"
+    },
+    {
+      "id": "symptom_arterial_circulation_decompensation",
+      "type": "symptom",
+      "label": "Декомпенсация артериального кровотока"
+    },
+    {
+      "id": "symptom_venous_circulation_decompensation",
+      "type": "symptom",
+      "label": "Декомпенсация венозного кровотока"
+    },
+    {
+      "id": "symptom_psychic_disorders",
+      "type": "symptom",
+      "label": "Психические расстройства"
+    },
+    {
+      "id": "symptom_neuromuscular_disorders",
+      "type": "symptom",
+      "label": "Нейромышечные расстройства"
+    },
+    {
+      "id": "symptom_mechanical_component_damage",
+      "type": "symptom",
+      "label": "Механическое повреждение компонентов"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_infectious_inflammation",
+      "target": "diagnosis_t84_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекционное воспаление ранее установленного имплантата;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aseptic_loosening",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "асептическое расшатывание эндопротеза коленного сустава;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_instability",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нестабильность сустава из-за несостоятельности отдельных капсульносвязочных структур;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mechanical_component_damage",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "механическое повреждение компонентов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_movement_restriction",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженные ограничения движений и болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженные ограничения движений и болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patellar_fracture",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "травматические и усталостные переломы надколенника ... с нарушением фиксации компонентов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_femoral_fracture",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "травматические и усталостные переломы бедренной кости ... с нарушением фиксации компонентов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tibial_fracture",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "травматические и усталостные переломы большеберцовой кости ... с нарушением фиксации компонентов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue_fracture",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "усталостные переломы ... с нарушением фиксации компонентов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_inflammation",
+      "target": "symptom_aseptic_loosening",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Показания для проведения процедуры/ вмешательства: • инфекционное воспаление ...; • асептическое расшатывание ...;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aseptic_loosening",
+      "target": "symptom_joint_instability",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Показания для проведения процедуры/ вмешательства: • асептическое расшатывание ...; • нестабильность сустава ...;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_movement_restriction",
+      "target": "symptom_pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "выраженные ограничения движений и болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patellar_fracture",
+      "target": "symptom_femoral_fracture",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "травматические и усталостные переломы надколенника, бедренной ... костей ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_femoral_fracture",
+      "target": "symptom_tibial_fracture",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "травматические и усталостные переломы бедренной и большеберцовой костей ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_t84_0",
+      "target": "diagnosis_t84_5",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10 ... Т84.0 ... Т84.5 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_t84_0",
+      "target": "diagnosis_c40_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10 ... Т84.0 ... С40.2 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_t84_0",
+      "target": "diagnosis_d16_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10 ... Т84.0 ... D16.2 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_t84_5",
+      "target": "diagnosis_c40_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10 ... Т84.5 ... С40.2 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_t84_5",
+      "target": "diagnosis_d16_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10 ... Т84.5 ... D16.2 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c40_2",
+      "target": "diagnosis_d16_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10 ... С40.2 ... D16.2 ...",
+      "properties": {}
+    }
+  ]
+}

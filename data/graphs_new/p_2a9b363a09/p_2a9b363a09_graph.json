@@ -1,0 +1,79 @@
+{
+  "protocol_id": "p_2a9b363a09",
+  "nodes": [
+    {
+      "id": "diag_s43_0",
+      "type": "diagnosis",
+      "label": "Вывих плечевого сустава",
+      "icd_code": "S43.0"
+    },
+    {
+      "id": "diag_t92_3",
+      "type": "diagnosis",
+      "label": "Последствие вывиха, растяжения и деформации верхней конечности",
+      "icd_code": "T92.3"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "Боль в плече"
+    },
+    {
+      "id": "symptom_limited_motion",
+      "type": "symptom",
+      "label": "Ограничение объёма движений плечевого сустава"
+    },
+    {
+      "id": "symptom_hypermobility",
+      "type": "symptom",
+      "label": "Гиперподвижность плечевого сустава"
+    },
+    {
+      "id": "symptom_instability",
+      "type": "symptom",
+      "label": "Нестабильность плечевого сустава"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_instability",
+      "target": "diag_s43_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Показания к процедуре/ вмешательству: • нестабильность плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypermobility",
+      "target": "symptom_instability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "однонаправленная нестабильность с гиперподвижностью; мультинаправленная нестабильность с мультинаправленной гиперподвижностью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limited_motion",
+      "target": "diag_s43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "восстановление объёма движений в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diag_s43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "устранение боли",
+      "properties": {}
+    },
+    {
+      "source": "diag_s43_0",
+      "target": "diag_t92_3",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "S43.0 Вывих плечевого сустава T92.3 Последствие вывиха, растяжения и деформации верхней конечности",
+      "properties": {}
+    }
+  ]
+}

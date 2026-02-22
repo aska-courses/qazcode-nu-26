@@ -1,0 +1,419 @@
+{
+  "protocol_id": "p_075a952c9b",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_polosti_rta_pri_prieme_pischi",
+      "type": "symptom",
+      "label": "Боль в полости рта при приёме пищи"
+    },
+    {
+      "id": "symptom_giperemiya_slizistoy_obolochki_polosti_rta",
+      "type": "symptom",
+      "label": "Гиперемия слизистой оболочки полости рта"
+    },
+    {
+      "id": "symptom_chuvstvo_diskomforta_v_desne",
+      "type": "symptom",
+      "label": "Чувство дискомфорта в десне"
+    },
+    {
+      "id": "symptom_krovotochivost_desny_pri_prieme_pischi",
+      "type": "symptom",
+      "label": "Кровоточивость десны при приёме пищи"
+    },
+    {
+      "id": "symptom_krovotochivost_desny_pri_chistke_zubov",
+      "type": "symptom",
+      "label": "Кровоточивость десны при чистке зубов"
+    },
+    {
+      "id": "symptom_giperemiya_desny",
+      "type": "symptom",
+      "label": "Гиперемия десны"
+    },
+    {
+      "id": "symptom_otechnost_desny",
+      "type": "symptom",
+      "label": "Отёчность десны"
+    },
+    {
+      "id": "symptom_utolshenie_kraia_desny",
+      "type": "symptom",
+      "label": "Утолщение края десны"
+    },
+    {
+      "id": "symptom_deformatsiya_desnevykh_sosochhek",
+      "type": "symptom",
+      "label": "Деформация десневых сосочек"
+    },
+    {
+      "id": "symptom_krovotochivost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Кровоточивость при пальпации"
+    },
+    {
+      "id": "symptom_patologii_prikusa",
+      "type": "symptom",
+      "label": "Патологии прикуса"
+    },
+    {
+      "id": "symptom_zapakh_izo_rta",
+      "type": "symptom",
+      "label": "Запах изо рта"
+    },
+    {
+      "id": "symptom_zud_v_desnah",
+      "type": "symptom",
+      "label": "Зуд в деснах"
+    },
+    {
+      "id": "symptom_nalichie_karioznyh_polostey",
+      "type": "symptom",
+      "label": "Наличие кариозных полостей"
+    },
+    {
+      "id": "diagnosis_ostryi_gingivit",
+      "type": "diagnosis",
+      "label": "Острый гингивит",
+      "icd_code": "K05.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_polosti_rta_pri_prieme_pischi",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: • боль в полости рта при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy_obolochki_polosti_rta",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: • гиперемия слизистой оболочки полости рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_diskomforta_v_desne",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: • чувство дискомфорта в десне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_desny_pri_prieme_pischi",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: • кровоточивость десны при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_desny_pri_chistke_zubov",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: • кровоточивость десны при чистке зубов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_desny",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • слизистая десны гиперемирована",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_desny",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • отечна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_kraia_desny",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • край десны утолщен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_desnevykh_sosochhek",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • десневые сосочки деформированы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • кровоточивость при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologii_prikusa",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • паталогии прикуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapakh_izo_rta",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дифференциальная диагностика: запах изо рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_v_desnah",
+      "target": "diagnosis_ostryi_ gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дифференциальная диагностика: зуд в деснах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_karioznyh_polostey",
+      "target": "diagnosis_ostryi_gingivit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дифференциальная диагностика: наличие кариозных полостей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_polosti_rta_pri_prieme_pischi",
+      "target": "symptom_giperemiya_slizistoy_obolochki_polosti_rta",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • боль в полости рта при приеме пищи; • гиперемия слизистой оболочки полости рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_polosti_rta_pri_prieme_pischi",
+      "target": "symptom_chuvstvo_diskomforta_v_desne",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • боль в полости рта при приеме пищи; • чувство дискомфорта в десне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_polosti_rta_pri_prieme_pischi",
+      "target": "symptom_krovotochivost_desny_pri_prieme_pischi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • боль в полости рта при приеме пищи; • кровоточивость десны при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_polosti_rta_pri_prieme_pischi",
+      "target": "symptom_krovotochivost_desny_pri_chistke_zubov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • боль в полости рта при приеме пищи; • кровоточивость десны при чистке зубов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy_obolochki_polosti_rta",
+      "target": "symptom_chuvstvo_diskomforta_v_desne",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • гиперемия слизистой оболочки полости рта; • чувство дискомфорта в десне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy_obolochki_polosti_rta",
+      "target": "symptom_krovotochivost_desny_pri_prieme_pischi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • гиперемия слизистой оболочки полости рта; • кровоточивость десны при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy_obolochki_polosti_rta",
+      "target": "symptom_krovotochivost_desny_pri_chistke_zubov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • гиперемия слизистой оболочки полости рта; • кровоточивость десны при чистке зубов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_diskomforta_v_desne",
+      "target": "symptom_krovotochivost_desny_pri_prieme_pischi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • чувство дискомфорта в десне; • кровоточивость десны при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_diskomforta_v_desne",
+      "target": "symptom_krovotochivost_desny_pri_chistke_zubov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • чувство дискомфорта в десне; • кровоточивость десны при чистке зубов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_desny_pri_prieme_pischi",
+      "target": "symptom_krovotochivost_desny_pri_chistke_zubov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: • кровоточивость десны при приеме пищи; • кровоточивость десны при чистке зубов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_desny",
+      "target": "symptom_otechnost_desny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • слизистая десны гиперемирована, отечна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_desny",
+      "target": "symptom_utolshenie_kraia_desny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • слизистая десны гиперемирована, отечна; • край десны утолщен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_desny",
+      "target": "symptom_deformatsiya_desnevykh_sosochhek",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • слизистая десны гиперемирована, отечна; • десневые сосочки деформированы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_desny",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • слизистая десны гиперемирована, отечна; • кровоточивость при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_desny",
+      "target": "symptom_patologii_prikusa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • слизистая десны гиперемирована, отечна; • паталогии прикуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_desny",
+      "target": "symptom_utolshenie_kraia_desny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • отечна; • край десны утолщен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_desny",
+      "target": "symptom_deformatsiya_desnevykh_sosochhek",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • отечна; • десневые сосочки деформированы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_desny",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • отечна; • кровоточивость при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_desny",
+      "target": "symptom_patologii_prikusa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • отечна; • паталогии прикуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_kraia_desny",
+      "target": "symptom_deformatsiya_desnevykh_sosochhek",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • край десны утолщен; • десневые сосочки деформированы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_kraia_desny",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • край десны утолщен; • кровоточивость при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshenie_kraia_desny",
+      "target": "symptom_patologii_prikusa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • край десны утолщен; • паталогии прикуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_desnevykh_sosochhek",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • десневые сосочки деформированы; • кровоточивость при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_desnevykh_sosochhek",
+      "target": "symptom_patologii_prikusa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • десневые сосочки деформированы; • паталогии прикуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "symptom_patologii_prikusa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Осморт полости рта: • кровоточивость при пальпации; • паталогии прикуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapakh_izo_rta",
+      "target": "symptom_zud_v_desnah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Дифференциальная диагностика: запах изо рта, зуд в деснах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapakh_izo_rta",
+      "target": "symptom_nalichie_karioznyh_polostey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Дифференциальная диагностика: запах изо рта, наличие кариозных полостей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_v_desnah",
+      "target": "symptom_nalichie_karioznyh_polostey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Дифференциальная диагностика: зуд в деснах, наличие кариозных полостей",
+      "properties": {}
+    }
+  ]
+}

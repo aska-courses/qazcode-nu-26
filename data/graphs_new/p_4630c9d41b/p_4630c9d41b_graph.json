@@ -1,0 +1,161 @@
+{
+  "protocol_id": "p_4630c9d41b",
+  "nodes": [
+    {
+      "id": "diagnosis_n18_5",
+      "type": "diagnosis",
+      "label": "Хроническая болезнь почек V стадии",
+      "icd_code": "N18.5"
+    },
+    {
+      "id": "symptom_snizhenie_funkcii_pochek",
+      "type": "symptom",
+      "label": "снижение функции почек"
+    },
+    {
+      "id": "symptom_otсутstvie_funkcii_pochek",
+      "type": "symptom",
+      "label": "отсутствие функции почек"
+    },
+    {
+      "id": "symptom_arterialnaja_gipertenziya",
+      "type": "symptom",
+      "label": "артериальная гипертензия"
+    },
+    {
+      "id": "symptom_gipotenzija",
+      "type": "symptom",
+      "label": "гипотензия"
+    },
+    {
+      "id": "symptom_gipotoniya",
+      "type": "symptom",
+      "label": "гипотония"
+    },
+    {
+      "id": "symptom_yazvennye_poratzenia_slivistoj_obolochki_zhkt",
+      "type": "symptom",
+      "label": "язвенные поражения слизистой оболочки желудочно-кишечного тракта"
+    },
+    {
+      "id": "symptom_infekcionnye_zabolevaniya",
+      "type": "symptom",
+      "label": "инфекционные заболевания"
+    },
+    {
+      "id": "symptom_patologija_mochevodyashchih_putej",
+      "type": "symptom",
+      "label": "патология мочевыводящих путей"
+    },
+    {
+      "id": "symptom_kolonizacija_rezistentnymi_mikroorganizmami",
+      "type": "symptom",
+      "label": "колонизация высоко резистентными микроорганизмами"
+    },
+    {
+      "id": "symptom_snizhenie_urovnya_azotistyh_shlagov",
+      "type": "symptom",
+      "label": "снижение уровня азотистых шлаков"
+    },
+    {
+      "id": "symptom_adequatnyj_diurez",
+      "type": "symptom",
+      "label": "адекватный диурез"
+    },
+    {
+      "id": "symptom_otsutstvie_posleoperacionnyh_oskoblennostej",
+      "type": "symptom",
+      "label": "отсутствие послеоперационных осложнений"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_snizhenie_funkcii_pochek",
+      "target": "diagnosis_n18_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение или отсутствие функции почек;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otsutstvie_funkcii_pochek",
+      "target": "diagnosis_n18_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение или отсутствие функции почек;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterialnaja_gipertenziya",
+      "target": "diagnosis_n18_5",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "тяжелые артериальная гипертония, гипотония;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotoniya",
+      "target": "diagnosis_n18_5",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "тяжелые артериальная гипертония, гипотония;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yazvennye_poratzenia_slivistoj_obolochki_zhkt",
+      "target": "diagnosis_n18_5",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "язвенные поражения слизистой оболочки желудочно-кишечного тракта;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infekcionnye_zabolevaniya",
+      "target": "diagnosis_n18_5",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "инфекционные заболевания;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologija_mochevodyashchih_putej",
+      "target": "diagnosis_n18_5",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "патология мочевыводящих путей, требующие коррекции;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kolonizacija_rezistentnymi_mikroorganizmami",
+      "target": "diagnosis_n18_5",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "колонизация высоко резистентными ... микроорганизмами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_urovnya_azotistyh_shlagov",
+      "target": "symptom_adequatnyj_diurez",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "снижение уровня азотистых шлаков (креатинин, мочевина) в крови; адекватный диурез;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_urovnya_azotistyh_shlagov",
+      "target": "symptom_otsutstvie_posleoperacionnyh_oskoblennostej",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "снижение уровня азотистых шлаков (креатинин, мочевина) в крови; отсутствие послеоперационных осложнений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adequatnyj_diurez",
+      "target": "symptom_otsutstvie_posleoperacionnyh_oskoblennostej",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "адекватный диурез; отсутствие послеоперационных осложнений;",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "source": "fever",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто протекает с наличием В-симптомов",
+    "properties": {}
+  },
+  {
+    "source": "night_sweats",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто протекает с наличием В-симптомов",
+    "properties": {}
+  },
+  {
+    "source": "weight_loss",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто протекает с наличием В-симптомов",
+    "properties": {}
+  },
+  {
+    "source": "lymphadenopathy",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "увеличения лимфатических узлов любой локализации",
+    "properties": {}
+  },
+  {
+    "source": "splenomegaly_symptom",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "попутно вовлекаются ... селезенка",
+    "properties": {}
+  },
+  {
+    "source": "fatigue",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общая слабость, повышенная утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "dry_cough",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кашель без выделения мокроты – возникает за счет сдавления дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "edema_face_neck_arms",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёки лица, шеи, рук – возникают за счет сдавления верхней полой вены",
+    "properties": {}
+  },
+  {
+    "source": "poikiloderma",
+    "target": "c84_1_sezary_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пойкилодермия (пятнистая пигментация, телеангиоэктазии, атрофия кожи)",
+    "properties": {}
+  },
+  {
+    "source": "erythroderma",
+    "target": "c84_1_sezary_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Эритродермия",
+    "properties": {}
+  },
+  {
+    "source": "generalized_lymphadenopathy",
+    "target": "c84_1_sezary_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "генерализованной лимфоаденопатией",
+    "properties": {}
+  },
+  {
+    "source": "multiple_skin_lesions",
+    "target": "c84_0_mycosis_fungoides",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "множественность высыпаний",
+    "properties": {}
+  },
+  {
+    "source": "pruritus",
+    "target": "c84_0_mycosis_fungoides",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кожный зуд",
+    "properties": {}
+  },
+  {
+    "source": "midfacial_destruction",
+    "target": "c86_0_extranodal_nk_t_cell_lymphoma_nasal",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "деструкции в области срединных структур лица",
+    "properties": {}
+  },
+  {
+    "source": "hepatosplenomegaly",
+    "target": "c86_1_hepatosplenic_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "увеличение размеров печени и селезенки",
+    "properties": {}
+  },
+  {
+    "source": "hepatosplenomegaly",
+    "target": "c84_4_peripheral_t_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "увеличение размеров печени и селезенки",
+    "properties": {}
+  },
+  {
+    "source": "fever",
+    "target": "night_sweats",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В-симптомы: повышение температуры тела ...",
+    "properties": {}
+  },
+  {
+    "source": "fever",
+    "target": "weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В-симптомы: повышение температуры тела ... снижение массы тела",
+    "properties": {}
+  },
+  {
+    "source": "lymphadenopathy",
+    "target": "splenomegaly_symptom",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличения лимфатических узлов любой локализации ... попутно вовлекаются ... селезенка",
+    "properties": {}
+  },
+  {
+    "source": "pruritus",
+    "target": "multiple_skin_lesions",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожный зуд ... множественность высыпаний",
+    "properties": {}
+  },
+  {
+    "source": "c84_4_peripheral_t_cell_lymphoma",
+    "target": "c84_5_other_unspecified_t_cell_lymphomas",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "ПТКЛ неуточненная (26%), далее следуют ... другие Т-клеточные лимфомы",
+    "properties": {}
+  }
+]

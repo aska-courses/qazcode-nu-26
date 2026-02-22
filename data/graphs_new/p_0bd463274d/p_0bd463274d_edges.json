@@ -1,0 +1,602 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общемозговые симптомы обусловлены повышением внутричерепного давления: (Головная боль, рвота, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при повышении внутричерепного давления ... сопровождается тошнотой и рвотой.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при повышении внутричерепного давления ... сопровождается тошнотой и рвотой.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo_visual",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головокружение: По характеру субъективного восприятия головокружение может быть зрительным ... При субтенториальных опухолях обычно наступает после развития других симптомов повышения внутричерепного давления.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo_tactile",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головокружение: По характеру субъективного восприятия головокружение может быть зрительным ... Во втором случае головокружение воспринимается как тактильное ... При субтенториальных опухолях обычно наступает после развития других симптомов повышения внутричерепного давления.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "d33",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "судорожные припадки ... наблюдаются чаще всего при медленнорастущих доброкачественных опухолях.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_syndrome",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипертензионный синдром, связанный с повышением внутричерепного давления; Головная боль, рвота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_focal_neurologic",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Очаговые неврологические симптомы ... зависят от локализации опухоли.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obstructive_hydrocephalus",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Окклюзионная гидроцефалия ... при опухолях боковых желудочков – гиперпродукция спинномозговой жидкости.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dislocation_syndrome",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Дислокационный синдром. Обусловлен сдавлением мозга опухолью, кровоизлиянием или другим очаговым процессом, что приводит к появлению вторичных симптомов поражения мозга на отдалении патологического очага.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis_upper",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - парезы, параличи верхних и нижних конечностей, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis_lower",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - парезы, параличи верхних и нижних конечностей, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresis",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - парезы, параличи верхних и нижних конечностей, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresthesia",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - парезы, параличи верхних и нижних конечностей, парестезии, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperesthesia",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - парезы, параличи верхних и нижних конечностей, парестезии, гиперестезии, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_internal_organ_dysfunction",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - ... нарушения функций внутренних органов, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spinal_pain",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При опухолях позвоночного канала - ... боли по ходу позвоночного столба, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения координации движений в виде фронтальной атаксии ... при опухолях головного мозга.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_nerve_involvement",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изолированное нарушение иннервации лицевой мускулатуры по центральному типу ... при опухолях головного мозга.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anosmia",
+    "target": "c72_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение обоняния ... при опухолях обонятельного нерва (c72.2).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_nerve_dysfunction",
+    "target": "c72_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушения функции зрительных нервов ... при опухолях зрительного нерва (c72.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_optic_nerve_edema",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "застойные диски зрительных нервов ... в рамках общемозговых симптомов повышенного внутричерепного давления.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychic_disturbances",
+    "target": "c71",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль, рвота, ... психические расстройства ... при повышении внутричерепного давления.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "c70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль является общим мозговым симптомом при повышении внутричерепного давления, характерном для опухолей мозговых оболочек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота сопровождает повышение внутричерепного давления, характерное для опухолей мозговых оболочек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c70",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота сопровождает повышение внутричерепного давления, характерное для опухолей мозговых оболочек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль может возникать при опухолях спинного мозга и черепных нервов (c72).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота может быть проявлением опухолей спинного мозга и черепных нервов (c72).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c72",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота может быть проявлением опухолей спинного мозга и черепных нервов (c72).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d33",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль как симптом повышенного внутричерепного давления при доброкачественных опухолях ЦНС.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d33",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при повышенном внутричерепном давлении при доброкачественных опухолях ЦНС.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d33",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при повышенном внутричерепном давлении при доброкачественных опухолях ЦНС.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании оболочек головного мозга (d32.0).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании оболочек головного мозга (d32.0).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании оболочек головного мозга (d32.0).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d32_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании оболочек спинного мозга (d32.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d32_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании оболочек спинного мозга (d32.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d32_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании оболочек спинного мозга (d32.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d33_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании головного мозга над мозговым наметом (d33.0).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d33_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании головного мозга над мозговым наметом (d33.0).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d33_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании головного мозга над мозговым наметом (d33.0).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d33_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании головного мозга под мозговым наметом (d33.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d33_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании головного мозга под мозговым наметом (d33.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d33_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании головного мозга под мозговым наметом (d33.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d33_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании черепных нервов (d33.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d33_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании черепных нервов (d33.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d33_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании черепных нервов (d33.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d33_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании спинного мозга (d33.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d33_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании спинного мозга (d33.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d33_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании спинного мозга (d33.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d35_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании гипофиза (d35.2).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d35_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании гипофиза (d35.2).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d35_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании гипофиза (d35.2).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d35_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании краниофарингеального протока (d35.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d35_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании краниофарингеального протока (d35.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d35_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании краниофарингеального протока (d35.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "d35_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при доброкачественном новообразовании шишковидной железы (d35.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "d35_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при доброкачественном новообразовании шишковидной железы (d35.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "d35_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при доброкачественном новообразовании шишковидной железы (d35.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "c75_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при злокачественном новообразовании гипофиза (c75.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c75_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при злокачественном новообразовании гипофиза (c75.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c75_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при злокачественном новообразовании гипофиза (c75.1).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "c79_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при вторичном злокачественном новообразовании головного мозга и мозговых оболочек (c79.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c79_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при вторичном злокачественном новообразовании головного мозга и мозговых оболочек (c79.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c79_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при вторичном злокачественном новообразовании головного мозга и мозговых оболочек (c79.3).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "c79_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при вторичном злокачественном новообразовании других и неуточненных отделов нервной системы (c79.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c79_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота при вторичном злокачественном новообразовании других и неуточненных отделов нервной системы (c79.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c79_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рвота при вторичном злокачественном новообразовании других и неуточненных отделов нервной системы (c79.4).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "c70",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Головная боль, тошнота и рвота – общие симптомы при опухолях мозговых оболочек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "c70",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Головная боль, тошнота и рвота – общие симптомы при опухолях мозговых оболочек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "c70",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Головная боль, тошнота и рвота – общие симптомы при опухолях мозговых оболочек.",
+    "properties": {}
+  },
+  {
+    "source": "c71",
+    "target": "c70",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Злокачественное новообразование мозговых оболочек (c70) и злокачественное новообразование головного мозга (c71) перечислены рядом в классификации.",
+    "properties": {}
+  },
+  {
+    "source": "c72",
+    "target": "c71",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Злокачественное новообразование спинного мозга, черепных нервов и других отделов центральной нервной системы (c72) указано после описания опухолей головного мозга (c71).",
+    "properties": {}
+  },
+  {
+    "source": "c79_3",
+    "target": "c71",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Вторичное злокачественное новообразование головного мозга и мозговых оболочек (c79.3) относится к опухолям головного мозга (c71).",
+    "properties": {}
+  },
+  {
+    "source": "c79_4",
+    "target": "c72",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Вторичное злокачественное новообразование других и неуточненных отделов нервной системы (c79.4) относится к опухолям спинного мозга и нервных отделов (c72).",
+    "properties": {}
+  }
+]

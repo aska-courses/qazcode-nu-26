@@ -1,0 +1,248 @@
+{
+  "protocol_id": "p_10b5b07aa2",
+  "nodes": [
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель более 2‑х недель"
+    },
+    {
+      "id": "symptom_fever_subfebrile",
+      "type": "symptom",
+      "label": "Повышение температуры тела (субфебрильная)"
+    },
+    {
+      "id": "symptom_loss_of_appetite",
+      "type": "symptom",
+      "label": "Снижение аппетита"
+    },
+    {
+      "id": "symptom_night_sweats",
+      "type": "symptom",
+      "label": "Ночная потливость"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря веса"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Быстрая утомляемость"
+    },
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_blood_in_sputum",
+      "type": "symptom",
+      "label": "Прожилки и сгустки крови в мокроте"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боли в грудной клетке"
+    },
+    {
+      "id": "symptom_hemoptysis",
+      "type": "symptom",
+      "label": "Кровохарканье"
+    },
+    {
+      "id": "diagnosis_a15",
+      "type": "diagnosis",
+      "label": "Туберкулез органов дыхания, подтвержденный бактериологически и гистологически",
+      "icd_code": "A15"
+    },
+    {
+      "id": "diagnosis_a16",
+      "type": "diagnosis",
+      "label": "Туберкулез органов дыхания, не подтвержденный бактериологически или гистологически",
+      "icd_code": "A16"
+    },
+    {
+      "id": "diagnosis_a19",
+      "type": "diagnosis",
+      "label": "Милиарный туберкулез",
+      "icd_code": "A19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "к кашель более 2‑х недель (в начале сухой переходящий на продуктивный)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_subfebrile",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение температуры тела (субфебрильная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ночная потливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "быстрая утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "общая слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blood_in_sputum",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "прожилки и сгустки крови в мокроте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "боли в грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровохарканье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "к кашель более 2‑х недель (в начале сухой переходящий на продуктивный)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_subfebrile",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение температуры тела (субфебрильная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_a19",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потеря веса (в таблице «Дифференциальная диагностика диссеминированного туберкулеза легких» для милиарного туберкулеза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_a19",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ночная потливость (в таблице «Дифференциальная диагностика диссеминированного туберкулеза легких» для милиарного туберкулеза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_subfebrile",
+      "target": "diagnosis_a19",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "субфебрильная температура (в таблице «Дифференциальная диагностика диссеминированного туберкулеза легких» для милиарного туберкулеза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_a19",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "одышка (в таблице «Дифференциальная диагностика диссеминированного туберкулеза легких» для милиарного туберкулеза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_a19",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровохарканье (в таблице «Дифференциальная диагностика диссеминированного туберкулеза легких» для милиарного туберкулеза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_fever_subfebrile",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "к кашель более 2‑х недель ... повышение температуры тела (субфебрильная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "symptom_night_sweats",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря веса; ... ночная потливость",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a15",
+      "target": "diagnosis_a16",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: A15 Туберкулез органов дыхания, подтвержденный ... A16 Туберкулез органов дыхания, не подтвержденный ...",
+      "properties": {}
+    }
+  ]
+}

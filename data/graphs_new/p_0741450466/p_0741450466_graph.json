@@ -1,0 +1,271 @@
+{
+  "protocol_id": "p_0741450466",
+  "nodes": [
+    {
+      "id": "diagnosis_q67_6",
+      "type": "diagnosis",
+      "label": "Врожденная впалая грудь",
+      "icd_code": "Q67.6"
+    },
+    {
+      "id": "diagnosis_q67_7",
+      "type": "diagnosis",
+      "label": "Врожденная килевидная грудь",
+      "icd_code": "Q67.7"
+    },
+    {
+      "id": "diagnosis_q67_8",
+      "type": "diagnosis",
+      "label": "Другие врожденные деформации грудной клетки",
+      "icd_code": "Q67.8"
+    },
+    {
+      "id": "symptom_heart_function_disorder",
+      "type": "symptom",
+      "label": "нарушения функции сердца"
+    },
+    {
+      "id": "symptom_lung_function_disorder",
+      "type": "symptom",
+      "label": "нарушения функции легких"
+    },
+    {
+      "id": "symptom_cosmetic_defect",
+      "type": "symptom",
+      "label": "косметический дефект"
+    },
+    {
+      "id": "symptom_chronic_renal_insufficiency",
+      "type": "symptom",
+      "label": "хроническая почечная недостаточность"
+    },
+    {
+      "id": "symptom_hepatic_insufficiency",
+      "type": "symptom",
+      "label": "печеночная недостаточность"
+    },
+    {
+      "id": "symptom_cardiovascular_insufficiency",
+      "type": "symptom",
+      "label": "сердечно-сосудистая недостаточность"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_heart_function_disorder",
+      "target": "diagnosis_q67_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_function_disorder",
+      "target": "diagnosis_q67_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_function_disorder",
+      "target": "diagnosis_q67_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_function_disorder",
+      "target": "diagnosis_q67_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_function_disorder",
+      "target": "diagnosis_q67_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_function_disorder",
+      "target": "diagnosis_q67_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cosmetic_defect",
+      "target": "diagnosis_q67_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cosmetic_defect",
+      "target": "diagnosis_q67_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cosmetic_defect",
+      "target": "diagnosis_q67_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_renal_insufficiency",
+      "target": "diagnosis_q67_6",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_renal_insufficiency",
+      "target": "diagnosis_q67_7",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_renal_insufficiency",
+      "target": "diagnosis_q67_8",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatic_insufficiency",
+      "target": "diagnosis_q67_6",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatic_insufficiency",
+      "target": "diagnosis_q67_7",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatic_insufficiency",
+      "target": "diagnosis_q67_8",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiovascular_insufficiency",
+      "target": "diagnosis_q67_6",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiovascular_insufficiency",
+      "target": "diagnosis_q67_7",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiovascular_insufficiency",
+      "target": "diagnosis_q67_8",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_function_disorder",
+      "target": "symptom_lung_function_disorder",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_function_disorder",
+      "target": "symptom_cosmetic_defect",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_function_disorder",
+      "target": "symptom_cosmetic_defect",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушения функции со стороны сердца, легких; косметический дефект",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_renal_insufficiency",
+      "target": "symptom_hepatic_insufficiency",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_renal_insufficiency",
+      "target": "symptom_cardiovascular_insufficiency",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatic_insufficiency",
+      "target": "symptom_cardiovascular_insufficiency",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хроническая почечная недостаточность; печеночная недостаточность; сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q67_6",
+      "target": "diagnosis_q67_7",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Q 67.6 Врожденная впалая грудь ... Q 67.7 Врожденная килевидная грудь ... Q 67.8 Другие врожденные деформации грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q67_6",
+      "target": "diagnosis_q67_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Q 67.6 Врожденная впалая грудь ... Q 67.7 Врожденная килевидная грудь ... Q 67.8 Другие врожденные деформации грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q67_7",
+      "target": "diagnosis_q67_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Q 67.6 Врожденная впалая грудь ... Q 67.7 Врожденная килевидная грудь ... Q 67.8 Другие врожденные деформации грудной клетки",
+      "properties": {}
+    }
+  ]
+}

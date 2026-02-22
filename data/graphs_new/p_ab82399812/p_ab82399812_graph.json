@@ -1,0 +1,336 @@
+{
+  "protocol_id": "p_ab82399812",
+  "nodes": [
+    {
+      "id": "diagnosis_c10",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование ротоглотки",
+      "icd_code": "C10"
+    },
+    {
+      "id": "diagnosis_c11",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование носоглотки",
+      "icd_code": "C11"
+    },
+    {
+      "id": "diagnosis_c70",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование мозговых оболочек",
+      "icd_code": "C70"
+    },
+    {
+      "id": "diagnosis_c71",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование головного мозга",
+      "icd_code": "C71"
+    },
+    {
+      "id": "diagnosis_c72",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование спинного мозга, черепных нервов и других отделов ЦНС",
+      "icd_code": "C72"
+    },
+    {
+      "id": "diagnosis_c75_1",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование гипофиза",
+      "icd_code": "C75.1"
+    },
+    {
+      "id": "diagnosis_c75_2",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование краниофарингеального протока",
+      "icd_code": "C75.2"
+    },
+    {
+      "id": "diagnosis_c75_3",
+      "type": "diagnosis",
+      "label": "злокачественное новообразование шишковидной железы",
+      "icd_code": "C75.3"
+    },
+    {
+      "id": "diagnosis_c77_0",
+      "type": "diagnosis",
+      "label": "вторичное злокачественное новообразование лимфатических узлов головы, лица и шеи",
+      "icd_code": "C77.0"
+    },
+    {
+      "id": "diagnosis_c79_3",
+      "type": "diagnosis",
+      "label": "вторичное злокачественное новообразование головного мозга и мозговых оболочек",
+      "icd_code": "C79.3"
+    },
+    {
+      "id": "diagnosis_d32",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование мозговых оболочек",
+      "icd_code": "D32"
+    },
+    {
+      "id": "diagnosis_d33",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование головного мозга и других отделов ЦНС",
+      "icd_code": "D33"
+    },
+    {
+      "id": "diagnosis_d35_2",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование гипофиза",
+      "icd_code": "D35.2"
+    },
+    {
+      "id": "diagnosis_d35_4",
+      "type": "diagnosis",
+      "label": "доброкачественное новообразование шишковидной железы",
+      "icd_code": "D35.4"
+    },
+    {
+      "id": "diagnosis_d42",
+      "type": "diagnosis",
+      "label": "неопределённое новообразование мозговых оболочек",
+      "icd_code": "D42"
+    },
+    {
+      "id": "diagnosis_d43",
+      "type": "diagnosis",
+      "label": "неопределённое новообразование головного мозга и ЦНС",
+      "icd_code": "D43"
+    },
+    {
+      "id": "diagnosis_i67_1",
+      "type": "diagnosis",
+      "label": "аневризма мозга без разрыва",
+      "icd_code": "I67.1"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головная боль"
+    },
+    {
+      "id": "symptom_intracranial_hemorrhage",
+      "type": "symptom",
+      "label": "внутричерепное кровоизлияние"
+    },
+    {
+      "id": "symptom_intracranial_hypertension",
+      "type": "symptom",
+      "label": "внутричерепная гипертензия"
+    },
+    {
+      "id": "symptom_hyperthermia",
+      "type": "symptom",
+      "label": "гипертермия"
+    },
+    {
+      "id": "symptom_hematologic_toxicity",
+      "type": "symptom",
+      "label": "снижение гематологических показателей"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "кровотечение"
+    },
+    {
+      "id": "symptom_radiation_edema",
+      "type": "symptom",
+      "label": "радиационный отёк"
+    },
+    {
+      "id": "symptom_visual_disturbance",
+      "type": "symptom",
+      "label": "ухудшение зрения / двоение в глазах"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_hypertensive_syndrome",
+      "type": "symptom",
+      "label": "гипертензионный синдром"
+    },
+    {
+      "id": "symptom_seizure_syndrome",
+      "type": "symptom",
+      "label": "судорожный синдром"
+    },
+    {
+      "id": "symptom_venous_thrombosis",
+      "type": "symptom",
+      "label": "венозный тромбоз"
+    },
+    {
+      "id": "symptom_hearing_loss",
+      "type": "symptom",
+      "label": "нарушение слуха"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При наличии тошноты, рвоты необходимо назначить противорвотные препараты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_radiation_edema",
+      "target": "symptom_intracranial_hypertension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "развитие радиационного отека окружающих здоровых тканей вокруг мишени сопровождается появлением симптомов внутричерепной гипертензии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "symptom_visual_disturbance",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "консультация офтальмолога: ... ухудшение зрения / двоение в глазах, головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "symptom_hypertensive_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "консультация офтальмолога: ... головокружения, гипертензионный синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_c10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Распад, кровотечение злокачественной опухоли.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Распад, кровотечение злокачественной опухоли.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_c70",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Распад, кровотечение злокачественной опухоли.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_c71",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Распад, кровотечение злокачественной опухоли.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_c72",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Распад, кровотечение злокачественной опухоли.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_venous_thrombosis",
+      "target": "diagnosis_c71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Часто у пациентов с неоперабельными или рецидивными опухолями наблюдаются явления венозного тромбоза.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_venous_thrombosis",
+      "target": "diagnosis_c70",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Часто у пациентов с неоперабельными или рецидивными опухолями наблюдаются явления венозного тромбоза.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c70",
+      "target": "diagnosis_c71",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Злокачественное новообразование мозговых оболочек ... злокачественное новообразование головного мозга",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c71",
+      "target": "diagnosis_c72",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Злокачественное новообразование головного мозга ... злокачественное новообразование спинного мозга, черепных нервов и других отделов ЦНС",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c75_1",
+      "target": "diagnosis_c75_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Злокачественное новообразование гипофиза ... злокачественное новообразование краниофарингеального протока",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c75_2",
+      "target": "diagnosis_c75_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Злокачественное новообразование краниофарингеального протока ... злокачественное новообразование шишковидной железы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c77_0",
+      "target": "diagnosis_c79_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "вторичное злокачественное новообразование лимфатических узлов головы, лица и шеи ... вторичное злокачественное новообразование головного мозга и мозговых оболочек",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d32",
+      "target": "diagnosis_d33",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "доброкачественное новообразование мозговых оболочек ... доброкачественное новообразование головного мозга и других отделов ЦНС",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d33",
+      "target": "diagnosis_d35_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "доброкачественное новообразование головного мозга ... доброкачественное новообразование гипофиза",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d35_2",
+      "target": "diagnosis_d35_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "доброкачественное новообразование гипофиза ... доброкачественное новообразование шишковидной железы",
+      "properties": {}
+    }
+  ]
+}

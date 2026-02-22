@@ -1,0 +1,611 @@
+{
+  "protocol_id": "p_2964252225",
+  "nodes": [
+    {
+      "id": "diagnosis_s20",
+      "type": "diagnosis",
+      "label": "Поверхностная травма грудной клетки",
+      "icd_code": "S20"
+    },
+    {
+      "id": "diagnosis_s21",
+      "type": "diagnosis",
+      "label": "Открытая рана грудной клетки",
+      "icd_code": "S21"
+    },
+    {
+      "id": "diagnosis_s22",
+      "type": "diagnosis",
+      "label": "Перелом ребра, грудины и грудного отдела позвоночника",
+      "icd_code": "S22"
+    },
+    {
+      "id": "diagnosis_s27_0",
+      "type": "diagnosis",
+      "label": "Травматический пневмоторакс",
+      "icd_code": "S27.0"
+    },
+    {
+      "id": "diagnosis_s26",
+      "type": "diagnosis",
+      "label": "Травма сердца",
+      "icd_code": "S26"
+    },
+    {
+      "id": "diagnosis_s26_0",
+      "type": "diagnosis",
+      "label": "Травма сердца с кровоизлиянием в сердечную сумку (гемоперикард)",
+      "icd_code": "S26.0"
+    },
+    {
+      "id": "symptom_blednost",
+      "type": "symptom",
+      "label": "Бледность"
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "Цианоз кожных покровов"
+    },
+    {
+      "id": "symptom_bol_v_meste_pereloma",
+      "type": "symptom",
+      "label": "Боль в месте перелома"
+    },
+    {
+      "id": "symptom_oshchushchenie_udushya",
+      "type": "symptom",
+      "label": "Ощущение удушья"
+    },
+    {
+      "id": "symptom_zagrudinnye_boli",
+      "type": "symptom",
+      "label": "Загрудинные боли"
+    },
+    {
+      "id": "symptom_arternialnaya_gipotenzia",
+      "type": "symptom",
+      "label": "Стойкая артериальная гипотензия"
+    },
+    {
+      "id": "symptom_lokalnaya_bol_pri_aktah_dyhania",
+      "type": "symptom",
+      "label": "Локальная боль, усиливающаяся при акте дыхания"
+    },
+    {
+      "id": "symptom_ogranichenie_dyhania",
+      "type": "symptom",
+      "label": "Ограничение дыхательных движений"
+    },
+    {
+      "id": "symptom_ogranichenie_ekskursiy",
+      "type": "symptom",
+      "label": "Ограничение дыхательных экскурсий"
+    },
+    {
+      "id": "symptom_deformaciya_konturov_grudnoj_kletki",
+      "type": "symptom",
+      "label": "Деформация контуров грудной клетки"
+    },
+    {
+      "id": "symptom_paradoksalnoe_dyhanie",
+      "type": "symptom",
+      "label": "Парадоксальное дыхание (реберный клапан)"
+    },
+    {
+      "id": "symptom_lokalnaya_boleznennost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Локальная болезненность при пальпации"
+    },
+    {
+      "id": "symptom_usilenie_boli_pri_nagruzke",
+      "type": "symptom",
+      "label": "Усиление болей при встречной нагрузке"
+    },
+    {
+      "id": "symptom_kostnaya_krepitatsiya",
+      "type": "symptom",
+      "label": "Костная крепитация"
+    },
+    {
+      "id": "symptom_nalit_vozdukha_v_plevralnoj_polosti",
+      "type": "symptom",
+      "label": "Наличие воздуха в плевральной полости"
+    },
+    {
+      "id": "symptom_nalit_krovi_v_plevralnoj_polosti",
+      "type": "symptom",
+      "label": "Наличие крови в плевральной полости"
+    },
+    {
+      "id": "symptom_otsutstvie_dyhania_na_auskultacii",
+      "type": "symptom",
+      "label": "Отсутствие дыхательных звуков при аускультации"
+    },
+    {
+      "id": "symptom_tahipnoe",
+      "type": "symptom",
+      "label": "Тахипноэ"
+    },
+    {
+      "id": "symptom_poverhnostnoe_dyhanie",
+      "type": "symptom",
+      "label": "Поверхностное дыхание"
+    },
+    {
+      "id": "symptom_tahikardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_snizhenie_ad",
+      "type": "symptom",
+      "label": "Снижение артериального давления"
+    },
+    {
+      "id": "symptom_padeniye_ad",
+      "type": "symptom",
+      "label": "Падение артериального давления (триада Бека)"
+    },
+    {
+      "id": "symptom_uvelichenie_cvd",
+      "type": "symptom",
+      "label": "Увеличение центрального венозного давления"
+    },
+    {
+      "id": "symptom_gluhie_tony_serdca",
+      "type": "symptom",
+      "label": "Глухие тоны сердца"
+    },
+    {
+      "id": "symptom_nabuhanie_shennih_ven",
+      "type": "symptom",
+      "label": "Набухание шейных вен"
+    },
+    {
+      "id": "symptom_paradoksalnyj_puls",
+      "type": "symptom",
+      "label": "Парадоксальный пульс"
+    },
+    {
+      "id": "symptom_rasshirenie_granic_serdcheskoj_tuposti",
+      "type": "symptom",
+      "label": "Расширение границ сердечной тупости"
+    },
+    {
+      "id": "symptom_snizhenie_sist_ad_pri_vdokh",
+      "type": "symptom",
+      "label": "Снижение систолического АД при вдохе"
+    },
+    {
+      "id": "symptom_nizkoe_diastolicheskoe_davlenie",
+      "type": "symptom",
+      "label": "Низкое диастолическое давление"
+    },
+    {
+      "id": "symptom_ekg_snyzhenie_voltazha_zubcov",
+      "type": "symptom",
+      "label": "Снижение вольтажа зубцов на ЭКГ"
+    },
+    {
+      "id": "symptom_ekg_smyagchenie_st",
+      "type": "symptom",
+      "label": "Смещение ST‑интервала на ЭКГ"
+    },
+    {
+      "id": "symptom_ekg_inversia_t",
+      "type": "symptom",
+      "label": "Инверсия зубца Т на ЭКГ"
+    },
+    {
+      "id": "symptom_ekg_glubokiy_zubets_q",
+      "type": "symptom",
+      "label": "Глубокий зубец Q на ЭКГ"
+    },
+    {
+      "id": "symptom_ekg_zazubrennost_qrs",
+      "type": "symptom",
+      "label": "Зазубренность комплекса QRS на ЭКГ"
+    },
+    {
+      "id": "symptom_ekg_elektromekhanicheskaya_disociaciya",
+      "type": "symptom",
+      "label": "Электромеханическая диссоциация на ЭКГ"
+    },
+    {
+      "id": "symptom_krovokharkanye",
+      "type": "symptom",
+      "label": "Кровохарканье различной интенсивности и продолжительности"
+    },
+    {
+      "id": "symptom_odishka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_gipovolemiicheskij_shok",
+      "type": "symptom",
+      "label": "Гиповолемический шок"
+    },
+    {
+      "id": "symptom_podkozhnaia_emfizema",
+      "type": "symptom",
+      "label": "Подкожная эмфизема"
+    },
+    {
+      "id": "symptom_emfizema_sredosteniya",
+      "type": "symptom",
+      "label": "Эмфизема средостения"
+    },
+    {
+      "id": "symptom_narastayushchie_yavleniya_dyhania_nedostatka",
+      "type": "symptom",
+      "label": "Нарастающие явления дыхательной недостаточности"
+    },
+    {
+      "id": "symptom_narastayushchie_yavleniya_sosudostoyknoi_nedostatka",
+      "type": "symptom",
+      "label": "Нарастающие явления сердечно‑сосудистой недостаточности"
+    },
+    {
+      "id": "symptom_bol_v_grudi",
+      "type": "symptom",
+      "label": "Боль в груди"
+    },
+    {
+      "id": "symptom_kashel",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_strah_smerti",
+      "type": "symptom",
+      "label": "Чувство страха смерти"
+    },
+    {
+      "id": "symptom_toska",
+      "type": "symptom",
+      "label": "Тоска"
+    },
+    {
+      "id": "symptom_poterja_soznaniya",
+      "type": "symptom",
+      "label": "Потеря сознания (обморок, спутанность сознания)"
+    },
+    {
+      "id": "symptom_zatuchka_dyhania",
+      "type": "symptom",
+      "label": "Затрудненное дыхание"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_meste_pereloma",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в месте перелома, усиливающаяся при форсированных движениях грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_udushya",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zagrudinnye_boli",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "загрудинные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arternialnaya_gipotenzia",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стойкая артериальная гипотензия при сопутствующей травме сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lokalnaya_bol_pri_aktah_dyhania",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальная боль, усиливающаяся при акте дыхания и форсированном движении грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_ekskursiy",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение дыхательных экскурсий на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konturov_grudnoj_kletki",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация контуров грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paradoksalnoe_dyhanie",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парадоксальное дыхание «реберного клапана»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lokalnaya_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальная болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_usilenie_boli_pri_nagruzke",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "усиление болей в зоне перелома при встречной нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnaya_krepitatsiya",
+      "target": "diagnosis_s22",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "костная крепитация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalit_vozdukha_v_plevralnoj_polosti",
+      "target": "diagnosis_s27.0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие воздуха в плевральной полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paradoksalnoe_dyhanie",
+      "target": "diagnosis_s27.0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парадоксальное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahipnoe",
+      "target": "diagnosis_s27.0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахипноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poverhnostnoe_dyhanie",
+      "target": "diagnosis_s27.0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поверхностное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_ad",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "низкое АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gluhie_tony_serdca",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глухие тоны сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nabuhanie_shennih_ven",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "набухание шейных вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paradoksalnyj_puls",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парадоксальный пульс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_granic_serdcheskoj_tuposti",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение границ сердечной тупости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sist_ad_pri_vdokh",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение систолического АД при вдохе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizkoe_diastolicheskoe_davlenie",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "низкое диастолическое давление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekg_snyzhenie_voltazha_zubcov",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение вольтажа зубцов на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekg_smyagchenie_st",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение ST‑интервала на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekg_inversia_t",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инверсия зубца Т на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekg_glubokiy_zubets_q",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глубокий зубец Q на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekg_zazubrennost_qrs",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зазубренность комплекса QRS на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekg_elektromekhanicheskaya_disociaciya",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "электромеханическая диссоциация на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_soznaniya",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кратковременная или пролонгированная потеря сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strah_smerti",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство страха смерти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toska",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тоска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatuchka_dyhania",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipovolemiicheskij_shok",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "явления гиповолемического шока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narastayushchie_yavleniya_dyhania_nedostatka",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарастающие явления дыхательной недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narastayushchie_yavleniya_sosudostoyknoi_nedostatka",
+      "target": "diagnosis_s26",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарастающие явления сердечно‑сосудистой недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_meste_pereloma",
+      "target": "symptom_oshchushchenie_udushya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль в месте перелома, усиливающаяся при форсированных движениях грудной клетки; ощущение удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_meste_pereloma",
+      "target": "symptom_zagrudinnye_boli",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль в месте перелома, усиливающаяся при форсированных движениях грудной клетки; загрудинные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lokalnaya_bol_pri_aktah_dyhania",
+      "target": "symptom_ogranichenie_ekskursiy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "локальная боль, усиливающаяся при акте дыхания; ограничение дыхательных экскурсий",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s22",
+      "target": "diagnosis_s27.0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "переломы ребер могут сочетаться с пневмотораксом, гемотораксом, гемопневмотораксом",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s26",
+      "target": "diagnosis_s26_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "травма сердца с кровоизлиянием в сердечную сумку – скопление крови в околосердечной сумке",
+      "properties": {}
+    }
+  ]
+}

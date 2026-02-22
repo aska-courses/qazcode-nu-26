@@ -1,0 +1,389 @@
+{
+  "protocol_id": "p_1016d0f847",
+  "nodes": [
+    {
+      "id": "diagnosis_c16",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование желудка",
+      "icd_code": "C16"
+    },
+    {
+      "id": "diagnosis_c16_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование кардиального отдела желудка",
+      "icd_code": "C16.0"
+    },
+    {
+      "id": "diagnosis_c16_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование дна желудка",
+      "icd_code": "C16.1"
+    },
+    {
+      "id": "diagnosis_c16_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование тела желудка",
+      "icd_code": "C16.2"
+    },
+    {
+      "id": "diagnosis_c16_3",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование антрального отдела желудка",
+      "icd_code": "C16.3"
+    },
+    {
+      "id": "diagnosis_c16_4",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование пилорического отдела желудка",
+      "icd_code": "C16.4"
+    },
+    {
+      "id": "diagnosis_c16_8",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование желудка, выходящие за пределы одной и более локализаций",
+      "icd_code": "C16.8"
+    },
+    {
+      "id": "diagnosis_c16_9",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование желудка, неуточненное",
+      "icd_code": "C16.9"
+    },
+    {
+      "id": "symptom_epigastric_pain",
+      "type": "symptom",
+      "label": "Боль в эпигастральной области"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "Дисфагия"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting_coffee_grounds",
+      "type": "symptom",
+      "label": "Рвота (кофейной гущей)"
+    },
+    {
+      "id": "symptom_appetite_loss",
+      "type": "symptom",
+      "label": "Потеря аппетита"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Снижение веса"
+    },
+    {
+      "id": "symptom_adynamia",
+      "type": "symptom",
+      "label": "Адонимия"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность кожных покровов"
+    },
+    {
+      "id": "symptom_waxy_skin",
+      "type": "symptom",
+      "label": "Восковидный или землистый оттенок кожи"
+    },
+    {
+      "id": "symptom_diffuse_hyperpigmentation",
+      "type": "symptom",
+      "label": "Диффузная гиперпигментация кожных покровов"
+    },
+    {
+      "id": "symptom_skin_dryness",
+      "type": "symptom",
+      "label": "Сухость кожи"
+    },
+    {
+      "id": "symptom_skin_turgor_decrease",
+      "type": "symptom",
+      "label": "Снижение тургора кожи"
+    },
+    {
+      "id": "symptom_cachexia",
+      "type": "symptom",
+      "label": "Похудание (кахексия)"
+    },
+    {
+      "id": "symptom_anasarca",
+      "type": "symptom",
+      "label": "Безбелковые отеки"
+    },
+    {
+      "id": "symptom_firm_lymph_node_neck",
+      "type": "symptom",
+      "label": "Плотный лимфатический узел в надключичной области"
+    },
+    {
+      "id": "symptom_fetid_breath",
+      "type": "symptom",
+      "label": "Зловонный запах изо рта"
+    },
+    {
+      "id": "symptom_abdominal_wall_swelling",
+      "type": "symptom",
+      "label": "Выбухание стенки живота в подложечной области"
+    },
+    {
+      "id": "symptom_visible_gastric_contours",
+      "type": "symptom",
+      "label": "Видимые контуры желудка при резком похудании"
+    },
+    {
+      "id": "symptom_gastric_outlet_obstruction",
+      "type": "symptom",
+      "label": "Опухолевый стеноз привратника"
+    },
+    {
+      "id": "symptom_wave_like_abdominal_movements",
+      "type": "symptom",
+      "label": "Волнообразные движения брюшной стенки"
+    },
+    {
+      "id": "symptom_palpable_abdominal_tumor",
+      "type": "symptom",
+      "label": "Пальпация передней брюшной стенки (ощутимый опухольный узел)"
+    },
+    {
+      "id": "symptom_percussion_change",
+      "type": "symptom",
+      "label": "Изменение пространства Траубе при перкуссии"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в эпигастральной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дисфагию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting_coffee_grounds",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Рвоту (в том числе «кофейной гущей»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_appetite_loss",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Потеря аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Бледность кожных покровов может быть указанием на желудочно-кишечное кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_waxy_skin",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Восковидный или землистый оттенок кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_hyperpigmentation",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Диффузная гиперпигментация кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_dryness",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сухость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_turgor_decrease",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение тургора кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cachexia",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Похудание (кахексия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anasarca",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Безбелковые отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_firm_lymph_node_neck",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Плотный лимфатический узел в надключичной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fetid_breath",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Зловонный запах изо рта – признак распада злокачественной опухоли желудка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_wall_swelling",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Выбухание стенки живота в подложечной области наблюдается при запущенных формах рака желудка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visible_gastric_contours",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Видимые контуры желудка при резком похудании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastric_outlet_obstruction",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Опухолевый стеноз привратника",
+      "properties": {}
+    },
+    {
+      "source": "symptom_wave_like_abdominal_movements",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Волнообразные движения брюшной стенки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpable_abdominal_tumor",
+      "target": "diagnosis_c16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Пальпация передней брюшной стенки (ощутимый опухольный узел)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_percussion_change",
+      "target": "diagnosis_c16_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение пространства Траубе (при раке субкардиального отдела желудка)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.0 Злокачественное новообразование кардиального отдела желудка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.1 Злокачественное новообразование дна желудка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.2 Злокачественное новообразование тела желудка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_3",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.3 Злокачественное новообразование антрального отдела желудка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_4",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.4 Злокачественное новообразование пилорического отдела желудка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_8",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.8 Злокачественное новообразование желудка, выходящие за пределы одной и более локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c16",
+      "target": "diagnosis_c16_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C 16.9 Злокачественное новообразование желудка, неуточненное",
+      "properties": {}
+    }
+  ]
+}

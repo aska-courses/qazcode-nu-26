@@ -1,0 +1,66 @@
+[
+  {
+    "source": "symptom_frequent_respiratory_infections",
+    "target": "symptom_cyanosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Частые простудные заболевания, Цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_weight_gain",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плохая прибавка в весе, одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_weight_gain",
+    "target": "symptom_sweating",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плохая прибавка в весе, ... потливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_sweating",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плохая прибавка в весе, одышка, потливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "(тахикардия, одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_hepatomegaly",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "(тахикардия, ... гепатомегалия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_hepatomegaly",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "(... одышка, гепатомегалия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_systolic_murmur",
+    "target": "symptom_systolic_vibration",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Систолическое дрожание ... систолический шум",
+    "properties": {}
+  }
+]

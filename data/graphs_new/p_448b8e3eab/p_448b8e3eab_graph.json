@@ -1,0 +1,39 @@
+{
+  "protocol_id": "p_448b8e3eab",
+  "nodes": [
+    {
+      "id": "diagnosis_q53_0",
+      "type": "diagnosis",
+      "label": "Эктопированное яичко",
+      "icd_code": "Q53.0"
+    },
+    {
+      "id": "diagnosis_q53_1",
+      "type": "diagnosis",
+      "label": "Одностороннее неопущение яичка",
+      "icd_code": "Q53.1"
+    },
+    {
+      "id": "diagnosis_q53_2",
+      "type": "diagnosis",
+      "label": "Двухстороннее неопущение яичка",
+      "icd_code": "Q53.2"
+    },
+    {
+      "id": "diagnosis_q53_9",
+      "type": "diagnosis",
+      "label": "Неуточненное неопущение яичка",
+      "icd_code": "Q53.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "diagnosis_q53_2",
+      "target": "diagnosis_q53_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "при двухстороннем крипторхизме ... при односторонней эктопии яичка – ревизия, ... орхидопексии.",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,1116 @@
+{
+  "protocol_id": "p_43046e86f3",
+  "nodes": [
+    {
+      "id": "symptom_boli",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение функции конечности"
+    },
+    {
+      "id": "symptom_nalichie_rany",
+      "type": "symptom",
+      "label": "Наличие раны"
+    },
+    {
+      "id": "symptom_krovootechenie_iz_rany",
+      "type": "symptom",
+      "label": "Кровотечение из раны"
+    },
+    {
+      "id": "symptom_otek_v_meste_pereloma",
+      "type": "symptom",
+      "label": "Отёк в месте перелома"
+    },
+    {
+      "id": "symptom_deformaciya_konechnosti",
+      "type": "symptom",
+      "label": "Деформация конечности"
+    },
+    {
+      "id": "symptom_bolestnost_pri_oschej_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность при осевой нагрузке"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Патологическая подвижность"
+    },
+    {
+      "id": "symptom_kreptaciya_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация отломков"
+    },
+    {
+      "id": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "type": "symptom",
+      "label": "Вынужденное положение конечности"
+    },
+    {
+      "id": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "diagnosis_s62_0",
+      "type": "diagnosis",
+      "label": "Перелом ладьевидной кости кисти (закрытая репозиция)",
+      "icd_code": "S62.0"
+    },
+    {
+      "id": "diagnosis_s62_1",
+      "type": "diagnosis",
+      "label": "Перелом кости запястья без внутренней фиксации",
+      "icd_code": "S62.1"
+    },
+    {
+      "id": "diagnosis_s62_2",
+      "type": "diagnosis",
+      "label": "Перелом первой фаланги без внутренней фиксации",
+      "icd_code": "S62.2"
+    },
+    {
+      "id": "diagnosis_s62_3",
+      "type": "diagnosis",
+      "label": "Перелом костей запястья и пястных костей с внутренней фиксацией",
+      "icd_code": "S62.3"
+    },
+    {
+      "id": "diagnosis_s62_4",
+      "type": "diagnosis",
+      "label": "Множественные переломы пястных костей",
+      "icd_code": "S62.4"
+    },
+    {
+      "id": "diagnosis_s62_5",
+      "type": "diagnosis",
+      "label": "Перелом большого пальца кисти с внутренней фиксацией (интрамедуллярный остеосинтез)",
+      "icd_code": "S62.5"
+    },
+    {
+      "id": "diagnosis_s62_6",
+      "type": "diagnosis",
+      "label": "Перелом другого пальца кисти",
+      "icd_code": "S62.6"
+    },
+    {
+      "id": "diagnosis_s62_7",
+      "type": "diagnosis",
+      "label": "Множественные переломы пальцев кисти",
+      "icd_code": "S62.7"
+    },
+    {
+      "id": "diagnosis_s62_8",
+      "type": "diagnosis",
+      "label": "Перелом фаланг кисти с внутренней фиксацией (интрамедуллярный остеосинтез)",
+      "icd_code": "S62.8"
+    },
+    {
+      "id": "diagnosis_s68_0",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация большого пальца кисти",
+      "icd_code": "S68.0"
+    },
+    {
+      "id": "diagnosis_s68_1",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация другого пальца кисти",
+      "icd_code": "S68.1"
+    },
+    {
+      "id": "diagnosis_s68_2",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация двух и более пальцев кисти",
+      "icd_code": "S68.2"
+    },
+    {
+      "id": "diagnosis_s68_3",
+      "type": "diagnosis",
+      "label": "Сочетанная травматическая ампутация с внутренней фиксацией",
+      "icd_code": "S68.3"
+    },
+    {
+      "id": "diagnosis_s68_4",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация кисти на уровне запястья",
+      "icd_code": "S68.4"
+    },
+    {
+      "id": "diagnosis_s68_8",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация других частей кисти",
+      "icd_code": "S68.8"
+    },
+    {
+      "id": "diagnosis_s68_9",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация запястья и кисти на неуточненном уровне",
+      "icd_code": "S68.9"
+    },
+    {
+      "id": "diagnosis_s69_7",
+      "type": "diagnosis",
+      "label": "Множественные травмы запястья и кисти",
+      "icd_code": "S69.7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности; • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При осмотре: • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • наличие раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoetechenie_iz_rany",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • отек в месте перелома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagruzke",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagruzke",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagruzke",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagruzке",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagruzке",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagрузке",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagрузке",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagрузке",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagрузке",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagрузке",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskая_podvizhnost",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskая_podvizhnost",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomков",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otломков",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otломков",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otломков",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otломков",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации: • крепитация отломков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре: • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s62_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_s69_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается ... кровоизлияние в окружающие ткани.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "symptom_narushenie_funkcii_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боли; • нарушение функции конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "symptom_nalichie_rany",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боли; • наличие раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli",
+      "target": "symptom_krovoetechenie_iz_rany",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боли; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "symptom_nalichie_rany",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • нарушение функции конечности; • наличие раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_rany",
+      "target": "symptom_krovoetechenie_iz_rany",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • наличие раны; • кровотечение из раны.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "symptom_deformaciya_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: • отек в месте перелома; • деформация конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: • деформация конечности; • вынужденное положение конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oschej_nagruzke",
+      "target": "symptom_patologicheskaya_podvizhnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: • болезненность, усиливающая при осевой нагрузке; • патологическая подвижность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "symptom_patologicheskaya_podvizhnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: • крепитация отломков; • патологическая подвижность.",
+      "properties": {}
+    }
+  ]
+}

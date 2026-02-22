@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_excess_body_weight",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: избыточная масса тела;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли в суставах – тазовых, коленных, голеностопных;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea_on_exertion",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "одышка при ходьбе и физической нагрузке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpitations_on_exertion",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сердцебиение при ходьбе;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_excessive_sweating",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенное потоотделение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_mouth_thirst",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость во рту, жажда;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_blood_pressure",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенное АД;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в грудной клетке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrual_cycle_disorder",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение менструального цикла у женщин репродуктивного возраста;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infertility",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бесплодие;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_potency",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение потенции у мужчин;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eating_behavior_disorder",
+    "target": "diagnosis_obesity_pathological",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение пищевого поведения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_excess_body_weight",
+    "target": "symptom_joint_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: избыточная масса тела; • боли в суставах – тазовых, коленных, голеностопных;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea_on_exertion",
+    "target": "symptom_palpitations_on_exertion",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "одышка при ходьбе и физической нагрузке; • сердцебиение при ходьбе;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_obesity_excess_energy_intake",
+    "target": "diagnosis_obesity_hypoventilation_syndrome",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: E66.0 Ожирение, обусловленное избыточным поступлением энергетических ресурсов E66.2 Крайняя степень ожирения, сопровождаемая альвеолярной гиповентиляцией.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_obesity_hypoventilation_syndrome",
+    "target": "diagnosis_obesity_pathological",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "E66.2 Крайняя степень ожирения, сопровождаемая альвеолярной гиповентиляцией. Морбидное (патологическое) ожирение E66.9",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_obesity_other_forms",
+    "target": "diagnosis_obesity_pathological",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "E66.8 Другие формы ожирения. Морбидное (патологическое) ожирение E66.9",
+    "properties": {}
+  }
+]

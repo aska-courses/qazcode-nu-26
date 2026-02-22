@@ -1,0 +1,221 @@
+{
+  "protocol_id": "p_e0499290dd",
+  "nodes": [
+    {
+      "id": "mantijnokletocnaya_limfoma",
+      "type": "diagnosis",
+      "label": "Мантийноклеточная лимфома",
+      "icd_code": "C83.0"
+    },
+    {
+      "id": "uvelichenie_limfozlov_bezbolzennoe",
+      "type": "symptom",
+      "label": "Увеличение лимфоузлов (чаще безболезненное)"
+    },
+    {
+      "id": "kashel_bez_mokroti",
+      "type": "symptom",
+      "label": "Кашель без выделения мокроты"
+    },
+    {
+      "id": "oteki_lica_shi_ruk",
+      "type": "symptom",
+      "label": "Отёки лица, шеи, рук"
+    },
+    {
+      "id": "tyazhest_v_levom_podreberii",
+      "type": "symptom",
+      "label": "Тяжесть в левом подреберье (увеличение селезёнки)"
+    },
+    {
+      "id": "kozhnoy_zud",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "povyshennaya_temperatura_vechernee_i_nochnoye_vremya",
+      "type": "symptom",
+      "label": "Повышение температуры тела (вечернее и ночное)"
+    },
+    {
+      "id": "snizhenie_massy_tela_10_15_kg_2_3_mesatsa",
+      "type": "symptom",
+      "label": "Снижение массы тела более 10‑15 кг за 2‑3 мес."
+    },
+    {
+      "id": "obshchaya_slabost",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "povyshennaya_utomlyaemost",
+      "type": "symptom",
+      "label": "Повышенная утомляемость"
+    },
+    {
+      "id": "usilennoye_potootdelenie_nochnoye_vremya",
+      "type": "symptom",
+      "label": "Усиленное потоотделение, особенно в ночное время"
+    },
+    {
+      "id": "blednost_kozhi",
+      "type": "symptom",
+      "label": "Бледность кожи"
+    },
+    {
+      "id": "sledy_raschesov_na_kozhe",
+      "type": "symptom",
+      "label": "Следы расчесов на коже"
+    },
+    {
+      "id": "palmatsiya_uvelichennykh_limfozlov",
+      "type": "symptom",
+      "label": "Пальпация: увеличение лимфоузлов"
+    },
+    {
+      "id": "perekussiya_uvelichennoy_slezinki",
+      "type": "symptom",
+      "label": "Перкуссия: увеличение селезёнки"
+    },
+    {
+      "id": "uchashchennyy_puls",
+      "type": "symptom",
+      "label": "Учащённый пульс"
+    },
+    {
+      "id": "snizhennoye_arterialnoe_davlenie",
+      "type": "symptom",
+      "label": "Сниженное артериальное давление"
+    }
+  ],
+  "edges": [
+    {
+      "source": "uvelichenie_limfozlov_bezbolzennoe",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение лимфоузлов (чаще безболезненное)",
+      "properties": {}
+    },
+    {
+      "source": "kashel_bez_mokroti",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кашель без выделения мокроты – возникает за счет сдавления дыхательных путей увеличенными лимфоузлами средостения",
+      "properties": {}
+    },
+    {
+      "source": "oteki_lica_shi_ruk",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отеки лица, шеи, рук – возникают за счет сдавления верхней полой вены",
+      "properties": {}
+    },
+    {
+      "source": "tyazhest_v_levom_podreberii",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжесть в левом подреберье – за счет увеличения селезёнки",
+      "properties": {}
+    },
+    {
+      "source": "kozhnoy_zud",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кожный зуд, преимущественно в области увеличенных лимфоузлов, реже – по всему телу",
+      "properties": {}
+    },
+    {
+      "source": "povyshennaya_temperatura_vechernee_i_nochnoye_vremya",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела, преимущественно в вечернее и ночное время",
+      "properties": {}
+    },
+    {
+      "source": "snizhenie_massy_tela_10_15_kg_2_3_mesatsa",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение массы тела (более 10‑15 кг в течение 2‑3 мес.)",
+      "properties": {}
+    },
+    {
+      "source": "obshchaya_slabost",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость, повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "povyshennaya_utomlyaemost",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость, повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "usilennoye_potootdelenie_nochnoye_vremya",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "усиленное потоотделение, особенно в ночное время",
+      "properties": {}
+    },
+    {
+      "source": "blednost_kozhi",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна бледность",
+      "properties": {}
+    },
+    {
+      "source": "sledy_raschesov_na_kozhe",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при кожном зуде на коже могут быть следы расчесов",
+      "properties": {}
+    },
+    {
+      "source": "palmatsiya_uvelichennykh_limfozlov",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при пальпации определяется увеличение лимфоузлов",
+      "properties": {}
+    },
+    {
+      "source": "perekussiya_uvelichennoy_slezinki",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при перкуссии – возможно увеличение селезенки",
+      "properties": {}
+    },
+    {
+      "source": "uchashchennyy_puls",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пульс может быть учащенным",
+      "properties": {}
+    },
+    {
+      "source": "snizhennoye_arterialnoe_davlenie",
+      "target": "mantijnokletocnaya_limfoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальное давление – сниженным",
+      "properties": {}
+    }
+  ]
+}

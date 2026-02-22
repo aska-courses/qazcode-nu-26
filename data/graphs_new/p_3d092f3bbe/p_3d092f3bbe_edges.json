@@ -1,0 +1,50 @@
+[
+  {
+    "source": "symptom_absence_of_complaints",
+    "target": "diagnosis_z20_2",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Жалоб нет.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_rash",
+    "target": "diagnosis_z20_2",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Кожные покровы и слизистые оболочки свободны от высыпаний;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_lymph_node_pathology",
+    "target": "diagnosis_z20_2",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Периферические лимфатические узлы без патологических изменений.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_complaints",
+    "target": "symptom_absence_of_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалоб нет. Кожные покровы и слизистые оболочки свободны от высыпаний;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_rash",
+    "target": "symptom_absence_of_lymph_node_pathology",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кожные покровы и слизистые оболочки свободны от высыпаний; Периферические лимфатические узлы без патологических изменений.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_complaints",
+    "target": "symptom_absence_of_lymph_node_pathology",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалоб нет. Периферические лимфатические узлы без патологических изменений.",
+    "properties": {}
+  }
+]

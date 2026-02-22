@@ -1,0 +1,866 @@
+{
+  "protocol_id": "p_d05edd3832",
+  "nodes": [
+    {
+      "id": "diagnosis_e00",
+      "type": "diagnosis",
+      "label": "Синдром врожденной йодной недостаточности",
+      "icd_code": "E00"
+    },
+    {
+      "id": "diagnosis_e00_0",
+      "type": "diagnosis",
+      "label": "Синдром врожденной йодной недостаточности, неврологическая форма",
+      "icd_code": "E00.0"
+    },
+    {
+      "id": "diagnosis_e00_1",
+      "type": "diagnosis",
+      "label": "Синдром врожденной йодной недостаточности, микседематозная форма",
+      "icd_code": "E00.1"
+    },
+    {
+      "id": "diagnosis_e00_2",
+      "type": "diagnosis",
+      "label": "Синдром врожденной йодной недостаточности, смешанная форма",
+      "icd_code": "E00.2"
+    },
+    {
+      "id": "diagnosis_e00_9",
+      "type": "diagnosis",
+      "label": "Синдром врожденной йодной недостаточности неуточненный",
+      "icd_code": "E00.9"
+    },
+    {
+      "id": "diagnosis_e03",
+      "type": "diagnosis",
+      "label": "Другие формы гипотиреоза",
+      "icd_code": "E03"
+    },
+    {
+      "id": "diagnosis_e03_0",
+      "type": "diagnosis",
+      "label": "Врожденный гипотиреоз с диффузным зобом",
+      "icd_code": "E03.0"
+    },
+    {
+      "id": "diagnosis_e03_1",
+      "type": "diagnosis",
+      "label": "Врожденный гипотиреоз без зоба, аплазия щитовидной железы",
+      "icd_code": "E03.1"
+    },
+    {
+      "id": "diagnosis_e03_3",
+      "type": "diagnosis",
+      "label": "Постинфекционный гипотиреоз",
+      "icd_code": "E03.3"
+    },
+    {
+      "id": "diagnosis_e03_4",
+      "type": "diagnosis",
+      "label": "Атрофия щитовидной железы (приобретенная)",
+      "icd_code": "E03.4"
+    },
+    {
+      "id": "diagnosis_e03_5",
+      "type": "diagnosis",
+      "label": "Микседематозная кома",
+      "icd_code": "E03.5"
+    },
+    {
+      "id": "diagnosis_e03_8",
+      "type": "diagnosis",
+      "label": "Другие уточненные гипотиреозы",
+      "icd_code": "E03.8"
+    },
+    {
+      "id": "diagnosis_e03_9",
+      "type": "diagnosis",
+      "label": "Гипотиреоз неуточненный, микседема",
+      "icd_code": "E03.9"
+    },
+    {
+      "id": "diagnosis_e06",
+      "type": "diagnosis",
+      "label": "Тиреоидит",
+      "icd_code": "E06"
+    },
+    {
+      "id": "diagnosis_e06_5",
+      "type": "diagnosis",
+      "label": "Тиреоидит хронический, фиброзный, деревянистый, Риделя",
+      "icd_code": "E06.5"
+    },
+    {
+      "id": "diagnosis_e06_9",
+      "type": "diagnosis",
+      "label": "Тиреоидит неуточненный",
+      "icd_code": "E06.9"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_zyabkost",
+      "type": "symptom",
+      "label": "зябкость"
+    },
+    {
+      "id": "symptom_vjalost",
+      "type": "symptom",
+      "label": "вялость"
+    },
+    {
+      "id": "symptom_sonlivost",
+      "type": "symptom",
+      "label": "сонливость"
+    },
+    {
+      "id": "symptom_pribavka_massy_tela",
+      "type": "symptom",
+      "label": "беспричинная прибавка массы тела"
+    },
+    {
+      "id": "symptom_parestezii",
+      "type": "symptom",
+      "label": "парестезии"
+    },
+    {
+      "id": "symptom_zapory",
+      "type": "symptom",
+      "label": "запоры"
+    },
+    {
+      "id": "symptom_vypadeniye_volos",
+      "type": "symptom",
+      "label": "выпадение волос"
+    },
+    {
+      "id": "symptom_narushenie_menstrualnogo_cikla",
+      "type": "symptom",
+      "label": "нарушения менструального цикла"
+    },
+    {
+      "id": "symptom_menorragiya",
+      "type": "symptom",
+      "label": "меноррагия"
+    },
+    {
+      "id": "symptom_sudorogi",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_izbytochnaya_massa_tela",
+      "type": "symptom",
+      "label": "избыточная масса тела"
+    },
+    {
+      "id": "symptom_otechi_lokalnye",
+      "type": "symptom",
+      "label": "отеки локальные"
+    },
+    {
+      "id": "symptom_otechi_obshchie",
+      "type": "symptom",
+      "label": "отеки общие"
+    },
+    {
+      "id": "symptom_gidrotoraks",
+      "type": "symptom",
+      "label": "гидроторакс"
+    },
+    {
+      "id": "symptom_gidropeikard",
+      "type": "symptom",
+      "label": "гидроперикард"
+    },
+    {
+      "id": "symptom_asits",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_snizhenie_tembra_golosa",
+      "type": "symptom",
+      "label": "снижение тембра голоса"
+    },
+    {
+      "id": "symptom_sukhaya_kozha",
+      "type": "symptom",
+      "label": "сухая кожа"
+    },
+    {
+      "id": "symptom_kholodnaya_kozha",
+      "type": "symptom",
+      "label": "холодная кожа"
+    },
+    {
+      "id": "symptom_lomkie_volosy",
+      "type": "symptom",
+      "label": "ломкие волосы"
+    },
+    {
+      "id": "symptom_ukrupnenye_cherty_lica",
+      "type": "symptom",
+      "label": "укрупненные черты лица"
+    },
+    {
+      "id": "symptom_periorbitarnye_otechi",
+      "type": "symptom",
+      "label": "периорбитальные отеки"
+    },
+    {
+      "id": "symptom_suzhenie_glaznyh_shchel",
+      "type": "symptom",
+      "label": "сужение глазных щелей"
+    },
+    {
+      "id": "symptom_yazyk_s_otpechatkami_zubov",
+      "type": "symptom",
+      "label": "язык с отпечатками зубов"
+    },
+    {
+      "id": "symptom_hronicheskaya_ustalost",
+      "type": "symptom",
+      "label": "хроническая усталость"
+    },
+    {
+      "id": "symptom_apatiya",
+      "type": "symptom",
+      "label": "апатия"
+    },
+    {
+      "id": "symptom_depressiya",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_miksedematichnyy_psihoz",
+      "type": "symptom",
+      "label": "микседематозный психоз"
+    },
+    {
+      "id": "symptom_zatoromozhnost",
+      "type": "symptom",
+      "label": "заторможенность"
+    },
+    {
+      "id": "symptom_zamedlenie_dvizheniy",
+      "type": "symptom",
+      "label": "замедление движений"
+    },
+    {
+      "id": "symptom_zamedlenie_rechi",
+      "type": "symptom",
+      "label": "замедление речи"
+    },
+    {
+      "id": "symptom_dizartriya",
+      "type": "symptom",
+      "label": "дизартрия"
+    },
+    {
+      "id": "symptom_snizhenie_pamyati",
+      "type": "symptom",
+      "label": "снижение памяти"
+    },
+    {
+      "id": "symptom_snizhenie_slucha",
+      "type": "symptom",
+      "label": "снижение слуха"
+    },
+    {
+      "id": "symptom_hypoimya",
+      "type": "symptom",
+      "label": "гипоимия"
+    },
+    {
+      "id": "symptom_amimiya",
+      "type": "symptom",
+      "label": "амимия"
+    },
+    {
+      "id": "symptom_rasshirenie_granic_serdtsa",
+      "type": "symptom",
+      "label": "расширение границ сердца"
+    },
+    {
+      "id": "symptom_snizhenie_sokrativosti_miokarda",
+      "type": "symptom",
+      "label": "снижение сократимости миокарда"
+    },
+    {
+      "id": "symptom_bradykardiya",
+      "type": "symptom",
+      "label": "брадикардия"
+    },
+    {
+      "id": "symptom_diastoliticheskaya_gipertenziya",
+      "type": "symptom",
+      "label": "диастолическая артериальная гипертензия"
+    },
+    {
+      "id": "symptom_uvelichenie_perifericheskogo_soprotivleniya",
+      "type": "symptom",
+      "label": "увеличение периферического сопротивления"
+    },
+    {
+      "id": "symptom_snizhenie_minutnogo_obema_serdtsa",
+      "type": "symptom",
+      "label": "снижение минутного объема сердца"
+    },
+    {
+      "id": "symptom_medlennoye_poverkhnostnoe_dykhanie",
+      "type": "symptom",
+      "label": "медленное поверхностное дыхание"
+    },
+    {
+      "id": "symptom_narushenie_reaktsii_dyhatelnogo_tsentra",
+      "type": "symptom",
+      "label": "нарушение реакции дыхательного центра"
+    },
+    {
+      "id": "symptom_dyhatelnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_zamedlenie_peristaltiki",
+      "type": "symptom",
+      "label": "замедление перистальтики"
+    },
+    {
+      "id": "symptom_kalovyy_zaval",
+      "type": "symptom",
+      "label": "каловый завал"
+    },
+    {
+      "id": "symptom_kireshchnaya_neprohodimost",
+      "type": "symptom",
+      "label": "кишечная непроходимость"
+    },
+    {
+      "id": "symptom_snizhenie_skf",
+      "type": "symptom",
+      "label": "снижение СКФ"
+    },
+    {
+      "id": "symptom_zaderzhka_zhidkosti",
+      "type": "symptom",
+      "label": "задержка жидкости"
+    },
+    {
+      "id": "symptom_vodnaya_intoksikatsiya",
+      "type": "symptom",
+      "label": "водная интоксикация"
+    },
+    {
+      "id": "symptom_boleznennye_myshechnye_sudorogi",
+      "type": "symptom",
+      "label": "болезненные мышечные судороги"
+    },
+    {
+      "id": "symptom_myshechnaya_slabost",
+      "type": "symptom",
+      "label": "мышечная слабость"
+    },
+    {
+      "id": "symptom_narushenie_sekretsii_lg",
+      "type": "symptom",
+      "label": "нарушение секреции ЛГ"
+    },
+    {
+      "id": "symptom_narushenie_sekretsii_fsg",
+      "type": "symptom",
+      "label": "нарушение секреции ФСГ"
+    },
+    {
+      "id": "symptom_anovulyatsiya",
+      "type": "symptom",
+      "label": "ановуляция"
+    },
+    {
+      "id": "symptom_bespodie",
+      "type": "symptom",
+      "label": "бесплодие"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_giperxolesterinemiya",
+      "type": "symptom",
+      "label": "гиперхолестеринемия"
+    },
+    {
+      "id": "symptom_povyshenie_lpn",
+      "type": "symptom",
+      "label": "повышение ЛПНП"
+    },
+    {
+      "id": "symptom_povyshenie_lipoproteina_a",
+      "type": "symptom",
+      "label": "повышение липопротеина А"
+    },
+    {
+      "id": "symptom_povyshenie_gomocisteina",
+      "type": "symptom",
+      "label": "повышение гомоцистеина"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zyabkost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • зябкость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vjalost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • вялость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sonlivost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • сонливость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pribavka_massy_tela",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «беспричинная» прибавка массы тела;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parestezii",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • парестезии;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapory",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • запоры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypadeniye_volos",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • выпадение волос;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_menstrualnogo_cikla",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушениеменструального цикла (часто меноррагия) и репродуктивной функции;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_menorragiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • нарушениеменструального цикла (часто меноррагия) и репродуктивной функции;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sudorogi",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • судороги.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhaya_kozha",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: сухая и холодная кожа, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kholodnaya_kozha",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: сухая и холодная кожа, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lomkie_volosy",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... ломкие волосы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukrupnenye_cherty_lica",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... черты лица укрупнены, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbitarnye_otechi",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... периорбитальные отеки, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_suzhenie_glaznyh_shchel",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... сужение глазных щелей, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yazyk_s_otpechatkami_zubov",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... язык с отпечатками зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hronicheskaya_ustalost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: Хроническая усталость, сонливость, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apatiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... апатия, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... депрессия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_miksedematichnyy_psihoz",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... «микседематозный психоз», ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatoromozhnost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... заторможенность, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zamedlenie_dvizheniy",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... замедление движений ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zamedlenie_rechi",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... замедление речи ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizartriya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... дизартрия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_pamyati",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... снижение памяти ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_slucha",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... снижение слуха ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoimya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... гипо- или амимия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amimiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЦНС: ... гипо- или амимия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_granic_serdtsa",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердечно-сосудистая система: расширение границ сердца ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sokrativosti_miokarda",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердечно-сосудистая система: снижение сократимости миокарда ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradykardiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердечно-сосудистая система: брадикардия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diastoliticheskaya_gipertenziya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердечно-сосудистая система: диастолическая артериальная гипертензия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_perifericheskogo_soprotivleniya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердечно-сосудистая система: увеличение периферического сопротивления ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_minutnogo_obema_serdtsa",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердечно-сосудистая система: снижение минутного объема сердца ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_medlennoye_poverkhnostnoe_dykhanie",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Легкие: Медленное поверхностное дыхание ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_reaktsii_dyhatelnogo_tsentra",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Легкие: нарушение реакции дыхательного центра ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyhatelnaya_nedostatochnost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Легкие: дыхательная недостаточность ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zamedlenie_peristaltiki",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЖКТ: Замедление перистальтики, запоры ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kalovyy_zaval",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЖКТ: ... возможен каловый завал ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kireshchnaya_neprohodimost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЖКТ: ... кишечная непроходимость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_skf",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Почки: Снижение СКФ ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhka_zhidkosti",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Почки: задержка жидкости ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vodnaya_intoksikatsiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Почки: возможна водная интоксикация.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennye_myshechnye_sudorogi",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Нервно-мышечные нарушения: Болезненные мышечные судороги ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myshechnaya_slabost",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Нервно-мышечные нарушения: ... мышечная слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sekretsii_lg",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Репродуктивная система: Нарушение секреции ЛГ ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sekretsii_fsg",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Репродуктивная система: ... ФСГ ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anovulyatsiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Репродуктивная система: ... ановуляция ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bespodie",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Репродуктивная система: ... бесплодие ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: Анемия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperxolesterinemiya",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: Гиперхолестеринемия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_lpn",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: повышение ЛПНП ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_lipoproteina_a",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: повышение липопротеина А ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_gomocisteina",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: повышение гомоцистеина.",
+      "properties": {}
+    }
+  ]
+}

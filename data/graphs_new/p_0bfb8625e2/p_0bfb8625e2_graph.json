@@ -1,0 +1,149 @@
+{
+  "protocol_id": "p_0bfb8625e2",
+  "nodes": [
+    {
+      "id": "diagnosis_exfoliative_heylt",
+      "type": "diagnosis",
+      "label": "Эксфолиативный хейлит",
+      "icd_code": "K13.0"
+    },
+    {
+      "id": "symptom_lip_swelling",
+      "type": "symptom",
+      "label": "Отёк губ"
+    },
+    {
+      "id": "symptom_lip_pain",
+      "type": "symptom",
+      "label": "Боль в губах при смыкании, разговоре, приёме пищи"
+    },
+    {
+      "id": "symptom_lip_dryness",
+      "type": "symptom",
+      "label": "Сухость губ"
+    },
+    {
+      "id": "symptom_lip_burning",
+      "type": "symptom",
+      "label": "Жжение губ"
+    },
+    {
+      "id": "symptom_lip_scales",
+      "type": "symptom",
+      "label": "Чешуйки на губах"
+    },
+    {
+      "id": "symptom_lip_crusts",
+      "type": "symptom",
+      "label": "Корки на губах"
+    },
+    {
+      "id": "symptom_mucosal_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия слизистой губ"
+    },
+    {
+      "id": "symptom_mucosal_edema",
+      "type": "symptom",
+      "label": "Отёчность слизистой губ"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_lip_swelling",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы при экссудативной форме на отек губы, болезненность губ при смыкании, разговоре, при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_pain",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы при экссудативной форме на отек губы, болезненность губ при смыкании, разговоре, при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_dryness",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы при сухой форме на сухость губ, небольшое жжение, наличие чешуек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_burning",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы при сухой форме на сухость губ, небольшое жжение, наличие чешуек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_scales",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обилием чешуек и корок серовато‑желтого и желтовато‑коричневого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_crusts",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обилием чешуек и корок серовато‑желтого и желтовато‑коричневого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_hyperemia",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Слизистая оболочка губ в зоне линии Клейна слегка гиперемирована",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_edema",
+      "target": "diagnosis_exfoliative_heylt",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Слизистая оболочка губ в зоне линии Клейна слегка гиперемирована и отечна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_swelling",
+      "target": "symptom_lip_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы при экссудативной форме на отек губы, болезненность губ при смыкании, разговоре, при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_dryness",
+      "target": "symptom_lip_burning",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы при сухой форме на сухость губ, небольшое жжение, наличие чешуек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_scales",
+      "target": "symptom_lip_crusts",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "обилием чешуек и корок серовато‑желтого и желтовато‑коричневого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_hyperemia",
+      "target": "symptom_mucosal_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Слизистая оболочка губ в зоне линии Клейна слегка гиперемирована и отечна",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_syncope",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "II ФК по NYHA — при наличии синкопальных состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "подъём температуры тела, который может быть обусловлен инфекцией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "подъём температуры тела, который может быть обусловлен инфекцией; общая инфекция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "выраженная анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_electrolyte_disturbances",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "выраженные электролитные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gastrointestinal_bleeding",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острое желудочно-кишечное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_renal_insufficiency",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "прогрессирующая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stroke",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "недавно перенесённый инсульт",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mitral_regurgitation",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гемодинамические нарушения на митральном клапане (митральная недостаточность III)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aortic_regurgitation",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гемодинамические нарушения на аортальном клапане",
+    "properties": {}
+  },
+  {
+    "source": "symptom_concentric_obstruction",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "концентрический тип обструкции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_glycoside_intoxication",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "интоксикация сердечными гликозидами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anaphylaxis",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "документированная анафилаксия к ангиографическим контрастным веществам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subaortic_obstruction",
+    "target": "diagnosis_obstructive_hypertrophic_cardiomyopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "с субаортальной обструкцией в покое (базальной)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_infection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "подъём температуры тела, который может быть обусловлен инфекцией; общая инфекция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_electrolyte_disturbances",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выраженная анемия; выраженные электролитные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gastrointestinal_bleeding",
+    "target": "symptom_renal_insufficiency",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острое желудочно-кишечное кровотечение; прогрессирующая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mitral_regurgitation",
+    "target": "symptom_aortic_regurgitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гемодинамические нарушения на митральном клапане (митральная недостаточность III); гемодинамические нарушения на аортальном клапане",
+    "properties": {}
+  },
+  {
+    "source": "symptom_glycoside_intoxication",
+    "target": "symptom_anaphylaxis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "интоксикация сердечными гликозидами; документированная анафилаксия к ангиографическим контрастным веществам",
+    "properties": {}
+  }
+]

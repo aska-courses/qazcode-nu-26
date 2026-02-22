@@ -1,0 +1,423 @@
+{
+  "protocol_id": "p_2498a90f8c",
+  "nodes": [
+    {
+      "id": "g60",
+      "type": "diagnosis",
+      "label": "Наследственная и идиопатическая невропатия",
+      "icd_code": "G60"
+    },
+    {
+      "id": "g60_0",
+      "type": "diagnosis",
+      "label": "Наследственная моторная и сенсорная невропатия (Шарко‑Мари‑Тут, Дежерина‑Сотта)",
+      "icd_code": "G60.0"
+    },
+    {
+      "id": "g60_1",
+      "type": "diagnosis",
+      "label": "Гипертрофическая невропатия у детей (Перонеальная мышечная атрофия, синдром Русси‑Леви, болезнь Рефсума)",
+      "icd_code": "G60.1"
+    },
+    {
+      "id": "g60_2",
+      "type": "diagnosis",
+      "label": "Невропатия в сочетании с наследственной атаксией",
+      "icd_code": "G60.2"
+    },
+    {
+      "id": "g60_3",
+      "type": "diagnosis",
+      "label": "Идиопатическая прогрессирующая невропатия",
+      "icd_code": "G60.3"
+    },
+    {
+      "id": "g60_8",
+      "type": "diagnosis",
+      "label": "Другие наследственные и идиопатические невропатии",
+      "icd_code": "G60.8"
+    },
+    {
+      "id": "g60_9",
+      "type": "diagnosis",
+      "label": "Наследственная и идиопатическая невропатия неуточненная",
+      "icd_code": "G60.9"
+    },
+    {
+      "id": "muscle_weakness",
+      "type": "symptom",
+      "label": "мышечная слабость",
+      "icd_code": null
+    },
+    {
+      "id": "sensory_impairment",
+      "type": "symptom",
+      "label": "нарушение чувствительности",
+      "icd_code": null
+    },
+    {
+      "id": "fine_motor_impairment",
+      "type": "symptom",
+      "label": "нарушение мелкой моторики",
+      "icd_code": null
+    },
+    {
+      "id": "foot_deformation",
+      "type": "symptom",
+      "label": "деформация стопы (pes cavus)",
+      "icd_code": null
+    },
+    {
+      "id": "distal_muscle_atrophy",
+      "type": "symptom",
+      "label": "атрофия дистальных мышц",
+      "icd_code": null
+    },
+    {
+      "id": "gait_disturbance",
+      "type": "symptom",
+      "label": "нарушение походки",
+      "icd_code": null
+    },
+    {
+      "id": "sensory_deficit",
+      "type": "symptom",
+      "label": "сенсорный дефицит",
+      "icd_code": null
+    },
+    {
+      "id": "absent_tendon_reflexes",
+      "type": "symptom",
+      "label": "отсутствие сухожильных рефлексов в дистальных отделах",
+      "icd_code": null
+    },
+    {
+      "id": "seizures",
+      "type": "symptom",
+      "label": "судороги",
+      "icd_code": null
+    },
+    {
+      "id": "psychosis",
+      "type": "symptom",
+      "label": "психоз",
+      "icd_code": null
+    },
+    {
+      "id": "developmental_delay",
+      "type": "symptom",
+      "label": "задержка развития",
+      "icd_code": null
+    },
+    {
+      "id": "hypotonia",
+      "type": "symptom",
+      "label": "гипотония",
+      "icd_code": null
+    },
+    {
+      "id": "spasticity",
+      "type": "symptom",
+      "label": "спастичность конечностей",
+      "icd_code": null
+    },
+    {
+      "id": "optic_nerve_atrophy",
+      "type": "symptom",
+      "label": "атрофия зрительного нерва",
+      "icd_code": null
+    },
+    {
+      "id": "dysphagia",
+      "type": "symptom",
+      "label": "дисфагия",
+      "icd_code": null
+    },
+    {
+      "id": "dysarthria",
+      "type": "symptom",
+      "label": "дизартрия",
+      "icd_code": null
+    },
+    {
+      "id": "visual_acuity_loss",
+      "type": "symptom",
+      "label": "снижение остроты зрения",
+      "icd_code": null
+    },
+    {
+      "id": "hearing_loss",
+      "type": "symptom",
+      "label": "потеря слуха",
+      "icd_code": null
+    },
+    {
+      "id": "bladder_dysfunction",
+      "type": "symptom",
+      "label": "дисфункция мочевого пузыря",
+      "icd_code": null
+    },
+    {
+      "id": "kyphoscoliosis",
+      "type": "symptom",
+      "label": "кифосколиоз",
+      "icd_code": null
+    },
+    {
+      "id": "cardiomyopathy",
+      "type": "symptom",
+      "label": "кардиомиопатия",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "muscle_weakness",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  мышечная слабость",
+      "properties": {}
+    },
+    {
+      "source": "distal_muscle_atrophy",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  атрофия дистальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "gait_disturbance",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  нарушение походки",
+      "properties": {}
+    },
+    {
+      "source": "sensory_deficit",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  сенсорный дефицит",
+      "properties": {}
+    },
+    {
+      "source": "absent_tendon_reflexes",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  отсутствие сухожильных рефлексов (в дистальных отделах)",
+      "properties": {}
+    },
+    {
+      "source": "foot_deformation",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  деформация стопы (pescavus)",
+      "properties": {}
+    },
+    {
+      "source": "fine_motor_impairment",
+      "target": "g60_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов:  нарушение мелкой моторики",
+      "properties": {}
+    },
+    {
+      "source": "developmental_delay",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вовлеченность ЦНС (задержка развития, судороги, психоз)",
+      "properties": {}
+    },
+    {
+      "source": "seizures",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вовлеченность ЦНС (задержка развития, судороги, психоз)",
+      "properties": {}
+    },
+    {
+      "source": "psychosis",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вовлеченность ЦНС (задержка развития, судороги, психоз)",
+      "properties": {}
+    },
+    {
+      "source": "hypotonia",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... гипотония",
+      "properties": {}
+    },
+    {
+      "source": "spasticity",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... спастичность конечностей",
+      "properties": {}
+    },
+    {
+      "source": "optic_nerve_atrophy",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... атрофия зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "dysphagia",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "dysarthria",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... дизартрия",
+      "properties": {}
+    },
+    {
+      "source": "visual_acuity_loss",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "hearing_loss",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... потеря слуха",
+      "properties": {}
+    },
+    {
+      "source": "bladder_dysfunction",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... дисфункция мочевого пузыря",
+      "properties": {}
+    },
+    {
+      "source": "kyphoscoliosis",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... кифосколиоз",
+      "properties": {}
+    },
+    {
+      "source": "cardiomyopathy",
+      "target": "g60",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Дополнительные симптомы могут включать в себя ... кардиомиопатия",
+      "properties": {}
+    },
+    {
+      "source": "muscle_weakness",
+      "target": "distal_muscle_atrophy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов: мышечная слабость; атрофия дистальных мышц",
+      "properties": {}
+    },
+    {
+      "source": "foot_deformation",
+      "target": "gait_disturbance",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов: деформация стопы (pescavus); нарушение походки",
+      "properties": {}
+    },
+    {
+      "source": "sensory_deficit",
+      "target": "absent_tendon_reflexes",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Для ШМТ характерно наличие одного или нескольких из следующих симптомов: сенсорный дефицит; отсутствие сухожильных рефлексов",
+      "properties": {}
+    },
+    {
+      "source": "developmental_delay",
+      "target": "seizures",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вовлеченность ЦНС (задержка развития, судороги, психоз)",
+      "properties": {}
+    },
+    {
+      "source": "optic_nerve_atrophy",
+      "target": "visual_acuity_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Дополнительные симптомы могут включать в себя ... атрофия зрительного нерва, снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "g60_0",
+      "target": "g60",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "G60.0 Наследственная моторная и сенсорная невропатия (Шарко‑Мари‑Тут)",
+      "properties": {}
+    },
+    {
+      "source": "g60_1",
+      "target": "g60",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "G60.1 Гипертрофическая невропатия у детей (Перонеальная мышечная атрофия, синдром Русси‑Леви, болезнь Рефсума)",
+      "properties": {}
+    },
+    {
+      "source": "g60_2",
+      "target": "g60",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "G60.2 Невропатия в сочетании с наследственной атаксией",
+      "properties": {}
+    },
+    {
+      "source": "g60_3",
+      "target": "g60",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "G60.3 Идиопатическая прогрессирующая невропатия",
+      "properties": {}
+    },
+    {
+      "source": "g60_8",
+      "target": "g60",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "G60.8 Другие наследственные и идиопатические невропатии",
+      "properties": {}
+    },
+    {
+      "source": "g60_9",
+      "target": "g60",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "G60.9 Наследственная и идиопатическая невропатия неуточненная",
+      "properties": {}
+    }
+  ]
+}

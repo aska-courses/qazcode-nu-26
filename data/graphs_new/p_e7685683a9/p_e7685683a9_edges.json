@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_hip_pain",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на боли в области тазобедренного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limping",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "хромоту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенную утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_physical_load",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выявление болезненности при физических нагрузках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_restricted_range_of_motion",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничения объема движений в тазобедренном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trendelenburg_positive",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом «Тренделенбурга»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periodic_pain_physical_load",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характерны периодические боли, возникающие после физических нагрузок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_radiating_pelvis_thigh_rest",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли усиливаются и носят более интенсивный характер, отдающейся в паховую область, бедро и возникают даже в состоянии покоя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_internal_rotation_limit",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Значительно ограничивается внутренняя ротация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abduction_limit",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отведение бедра",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль постоянного характера, возникающая даже ночью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_movement_restriction",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Движения в суставе резко ограничены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_atrophy",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мышцы бедра, голени и ягодицы - атрофируются",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hip_tilt_frontal_plane",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наклон таза во фронтальной плоскости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_shortening",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "укорочению конечности на больной стороне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_compensatory_gait",
+    "target": "diagnosis_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "компенсацию укорочения конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hip_pain",
+    "target": "symptom_limping",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на боли в области тазобедренного сустава, хромоту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hip_pain",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на боли в области тазобедренного сустава, повышенную утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limping",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "хромоту, повышенную утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_physical_load",
+    "target": "symptom_restricted_range_of_motion",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "выявление болезненности при физических нагрузках; ограничения объема движений в тазобедренном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periodic_pain_physical_load",
+    "target": "symptom_hip_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характерны периодические боли, возникающие после физических нагрузок... боль концентрируется в области тазобедренного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_internal_rotation_limit",
+    "target": "symptom_abduction_limit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Значительно ограничивается внутренняя ротация и отведение бедра",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_radiating_pelvis_thigh_rest",
+    "target": "symptom_limping",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боли усиливаются... отдающейся в паховую область, бедро... Длительная ходьба вызывает хромоту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "symptom_severe_movement_restriction",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль постоянного характера, возникающая даже ночью... Движения в суставе резко ограничены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "symptom_muscle_atrophy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль постоянного характера, возникающая даже ночью... мышцы бедра, голени и ягодицы - атрофируются",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "symptom_hip_tilt_frontal_plane",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль постоянного характера, возникающая даже ночью... наклон таза во фронтальной плоскости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "symptom_limb_shortening",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль постоянного характера, возникающая даже ночью... укорочению конечности на больной стороне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "symptom_compensatory_gait",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль постоянного характера, возникающая даже ночью... компенсацию укорочения конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_movement_restriction",
+    "target": "symptom_muscle_atrophy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Движения в суставе резко ограничены, мышцы бедра, голени и ягодицы - атрофируются",
+    "properties": {}
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "protocol_id": "p_41270b4a56",
+  "nodes": [
+    {
+      "id": "symptom_leakage_vaginal_fluid",
+      "type": "symptom",
+      "label": "подтекание жидкости во влагалище"
+    },
+    {
+      "id": "symptom_cervical_fluid_discharge",
+      "type": "symptom",
+      "label": "выделения из цервикального канала"
+    },
+    {
+      "id": "symptom_absence_contractions_1h",
+      "type": "symptom",
+      "label": "отсутствие схваток в течение 1 часа"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышенная температура тела"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "боль в животе"
+    },
+    {
+      "id": "symptom_pruritus",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_frothy_discharge",
+      "type": "symptom",
+      "label": "пенистые/творожные выделения"
+    },
+    {
+      "id": "symptom_bloody_discharge",
+      "type": "symptom",
+      "label": "кровянистые выделения"
+    },
+    {
+      "id": "symptom_contractions",
+      "type": "symptom",
+      "label": "схватки"
+    },
+    {
+      "id": "symptom_fetal_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия плода"
+    },
+    {
+      "id": "symptom_maternal_leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз у матери"
+    },
+    {
+      "id": "symptom_oligohydramnios",
+      "type": "symptom",
+      "label": "маловодие (олигогидрамнион)"
+    },
+    {
+      "id": "symptom_low_amniotic_fluid_volume",
+      "type": "symptom",
+      "label": "снижение объёма амниотической жидкости"
+    },
+    {
+      "id": "symptom_premature_membrane_rupture",
+      "type": "symptom",
+      "label": "отхождение вод (преждевременный разрыв плодных оболочек)"
+    },
+    {
+      "id": "diagnosis_pprom",
+      "type": "diagnosis",
+      "label": "Преждевременный разрыв плодных оболочек",
+      "icd_code": "O42"
+    },
+    {
+      "id": "diagnosis_pprom_24h",
+      "type": "diagnosis",
+      "label": "Преждевременный разрыв плодных оболочек, начало родов в последующие 24 часа",
+      "icd_code": "O42.0"
+    },
+    {
+      "id": "diagnosis_pprom_after24h",
+      "type": "diagnosis",
+      "label": "Преждевременный разрыв плодных оболочек, начало родов после 24 часа безводного периода",
+      "icd_code": "O42.1"
+    },
+    {
+      "id": "diagnosis_pprom_therapy_delay",
+      "type": "diagnosis",
+      "label": "Преждевременный разрыв плодных оболочек, задержка родов, связанная с проводимой терапией",
+      "icd_code": "O42.2"
+    },
+    {
+      "id": "diagnosis_pprom_unspecified",
+      "type": "diagnosis",
+      "label": "Преждевременный разрыв плодных оболочек не уточнённый",
+      "icd_code": "O42.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_leakage_vaginal_fluid",
+      "target": "diagnosis_pprom",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характерном анамнезе (подтекание жидкости во влагалище)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_fluid_discharge",
+      "target": "diagnosis_pprom",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "жидкость вытекает из цервикального канала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absence_contractions_1h",
+      "target": "diagnosis_pprom",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Нет схваток в течение 1 часа от начала отхождения вод",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_amniotic_fluid_volume",
+      "target": "diagnosis_pprom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "УЗИ - олигогидрамнион (единственный самый глубокий карман <2 см или индекс амниотической жидкости ≤5 см)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oligohydramnios",
+      "target": "diagnosis_pprom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "УЗИ - олигогидрамнион (единственный самый глубокий карман <2 см или индекс амниотической жидкости ≤5 см)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_premature_membrane_rupture",
+      "target": "diagnosis_pprom",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отхождение вод (преждевременный разрыв плодных оболочек)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leakage_vaginal_fluid",
+      "target": "symptom_cervical_fluid_discharge",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "подтекание жидкости во влагалище ... жидкость вытекает из цервикального канала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_frothy_discharge",
+      "target": "symptom_pruritus",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Зуд ... Пенистые\\творожные выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fetal_tachycardia",
+      "target": "symptom_maternal_leukocytosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выявление признаков инфекции (лихорадка, тахикардия плода, лейкоцитоз у матери)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_maternal_leukocytosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выявление признаков инфекции (лихорадка, тахикардия плода, лейкоцитоз у матери)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oligohydramnios",
+      "target": "symptom_low_amniotic_fluid_volume",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "УЗИ - олигогидрамнион (единственный самый глубокий карман <2 см или индекс амниотической жидкости ≤5 см)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_pprom",
+      "target": "diagnosis_pprom_24h",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "О42.0 Преждевременный разрыв плодных оболочек, начало родов в последующие 24 часа",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_pprom",
+      "target": "diagnosis_pprom_after24h",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "О42.1 Преждевременный разрыв плодных оболочек, начало родов после 24 часа безводного периода",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_pprom",
+      "target": "diagnosis_pprom_therapy_delay",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "О42.2 Преждевременный разрыв плодных оболочек, задержка родов, связанная с проводимой терапией",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_pprom",
+      "target": "diagnosis_pprom_unspecified",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "О42.9 Преждевременный разрыв плодных оболочек не уточнённый",
+      "properties": {}
+    }
+  ]
+}

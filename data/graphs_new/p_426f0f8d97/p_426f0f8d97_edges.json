@@ -1,0 +1,74 @@
+[
+  {
+    "source": "symptom_fecal_incontinence_gas",
+    "target": "symptom_fecal_incontinence_liquid",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "недержание жидкого, твердого кала, газов или все три симптома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fecal_incontinence_gas",
+    "target": "symptom_fecal_incontinence_solid",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "недержание жидкого, твердого кала, газов или все три симптома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fecal_incontinence_liquid",
+    "target": "symptom_fecal_incontinence_solid",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "недержание жидкого, твердого кала, газов или все три симптома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anus_gap",
+    "target": "symptom_anorectal_reflex_normal",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Определяют, сомкнут ли анус или зияет... Оценка анального рефлекса: Нормальный рефлекс …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anus_gap",
+    "target": "symptom_anorectal_reflex_increased",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Определяют, сомкнут ли анус или зияет... Оценка анального рефлекса: повышенный …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anus_gap",
+    "target": "symptom_anorectal_reflex_decreased",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Определяют, сомкнут ли анус или зияет... Оценка анального рефлекса: ослабленный …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_temporary_colostomy",
+    "target": "diagnosis_closure_stoma",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Наложение колостомы ... Закрытие стомы проводят через 3-4 месяца",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anorectoplasty_sagittal",
+    "target": "diagnosis_other_restorative_operations",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "В зависимости от степени поражения ... применяются следующие операции: ... аноректопластика",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_small_intestine_transplant",
+    "target": "diagnosis_subcutaneous_electrical_stimulator",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Трансплантация тонкой кишки при анальном недержании 49.74 ... Введение подкожного электрического анального стимулятора 49.92",
+    "properties": {}
+  }
+]

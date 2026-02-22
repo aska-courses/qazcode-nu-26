@@ -1,0 +1,235 @@
+{
+  "protocol_id": "p_85d421afa4",
+  "nodes": [
+    {
+      "id": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "diagnosis",
+      "label": "Ягодичное предлежание",
+      "icd_code": "О32.1"
+    },
+    {
+      "id": "symptom_vysokoe_stoyanie_dna_matki",
+      "type": "symptom",
+      "label": "Высокое стояние дна матки"
+    },
+    {
+      "id": "symptom_golovka_ploda_v_dne_matki",
+      "type": "symptom",
+      "label": "Головка плода расположена в дне матки"
+    },
+    {
+      "id": "symptom_yagoditsy_nad_vkhodom_v_maly_taz",
+      "type": "symptom",
+      "label": "Ягодицы над входом в малый таз"
+    },
+    {
+      "id": "symptom_serdcobebienie_ploda_vyshe_pupka",
+      "type": "symptom",
+      "label": "Сердцебиение плода выслушивают выше пупка"
+    },
+    {
+      "id": "symptom_pahovyi_sgib",
+      "type": "symptom",
+      "label": "Паховый сгиб"
+    },
+    {
+      "id": "symptom_stopka_pri_smeshannom_predlezhanii",
+      "type": "symptom",
+      "label": "Стопа при смешанном ягодичном предлежании"
+    },
+    {
+      "id": "symptom_krestets_palpatsiya",
+      "type": "symptom",
+      "label": "Крестец при пальпации"
+    },
+    {
+      "id": "symptom_polovye_organy_ploda_palpatsiya",
+      "type": "symptom",
+      "label": "Половые органы плода при пальпации"
+    },
+    {
+      "id": "symptom_razryv_plodnyh_obolochok",
+      "type": "symptom",
+      "label": "Разрыв плодных оболочек"
+    },
+    {
+      "id": "symptom_otсутstvie_adequatnogo_progressa_2h",
+      "type": "symptom",
+      "label": "Отсутствие адекватного прогресса в родах в течение 2 часов"
+    },
+    {
+      "id": "symptom_otсутstvie_rodov_60min",
+      "type": "symptom",
+      "label": "Отсутствие родов в течение 60 минут от начала активных потуг"
+    },
+    {
+      "id": "symptom_umen_shiroki_i_sili_matochnyh_sokrasheniy",
+      "type": "symptom",
+      "label": "Уменьшение частоты и силы маточных сокращений (маточная дистоция)"
+    },
+    {
+      "id": "symptom_fetalnaya_bradykardiya",
+      "type": "symptom",
+      "label": "Брадикардия плода"
+    },
+    {
+      "id": "symptom_urezhenie_chastoty_serdcobebeniya_ploda",
+      "type": "symptom",
+      "label": "Урежение частоты сердцебиения плода"
+    },
+    {
+      "id": "symptom_otsloyka_placenty",
+      "type": "symptom",
+      "label": "Отслойка плаценты"
+    },
+    {
+      "id": "symptom_krovootechenie",
+      "type": "symptom",
+      "label": "Кровотечение"
+    },
+    {
+      "id": "symptom_izlitiye_okoloplodnyh_vod",
+      "type": "symptom",
+      "label": "Излитие околоплодных вод"
+    },
+    {
+      "id": "symptom_popadanie_krovi_ploda_v_materinu_krovooborot",
+      "type": "symptom",
+      "label": "Попадание крови плода в систему кровообращения матери"
+    },
+    {
+      "id": "symptom_discomfort_pri_procedure",
+      "type": "symptom",
+      "label": "Дискомфорт при процедуре"
+    },
+    {
+      "id": "symptom_boleznennye_oshushcheniya",
+      "type": "symptom",
+      "label": "Болезненные ощущения"
+    },
+    {
+      "id": "symptom_umen_shenie_dvigatelnoj_aktivnosti_ploda",
+      "type": "symptom",
+      "label": "Уменьшение двигательной активности плода"
+    },
+    {
+      "id": "symptom_izmenenie_povedeniya_ploda",
+      "type": "symptom",
+      "label": "Изменение поведения плода"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_vysokoe_stoyanie_dna_matki",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Высокое стояние дна матки, обусловленное расположением тазового конца плода над входом в таз.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovka_ploda_v_dne_matki",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При пальпации живота беременной определяют, что головка плода ... расположена в дне матки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_serdcobebienie_ploda_vyshe_pupka",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердцебиение плода выслушивают выше пупка или на его уровне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krestets_palpatsiya",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При влагалищном исследовании ... можно пальпировать ... крестец.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polovye_organy_ploda_palpatsiya",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При влагалищном исследовании ... можно пальпировать ... половые органы плода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pahovyi_sgib",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При чисто ягодичном предлежании можно найти паховый сгиб.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stopka_pri_smeshannom_predlezhanii",
+      "target": "diagnosis_yagodichnoe_predlezhanie",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При смешанном ягодичном предлежании рядом с ягодицами прощупывают стопу.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otсутstvie_adequatnogo_progressa_2h",
+      "target": "symptom_otsutstvie_rodov_60min",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При отсутствии адекватного прогресса в родах в течение 2-х часов, ... При отсутствии родов в течение 60 минут от начала активных потуг, рекомендуется кесарево сечение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_pri_procedure",
+      "target": "symptom_boleznennye_oshushcheniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Процедура может сопровождаться дискомфортом, но не должна вызывать резких болезненных ощущений.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umen_shenie_dvigatelnoj_aktivnosti_ploda",
+      "target": "symptom_izmenenie_povedeniya_ploda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При уменьшении двигательной активности и изменении поведения плода нужно сообщить об этом персоналу.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urezhenie_chastoty_serdcobebeniya_ploda",
+      "target": "symptom_fetalnaya_bradykardiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Возможен урежение частоты сердечных сокращений плода (брадикардия).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otsloyka_placenty",
+      "target": "symptom_krovootechenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В редких случаях возможно возникновение отслойки плаценты и кровотечения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otsloyka_placenty",
+      "target": "symptom_izlitiye_okoloplodnyh_vod",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В редких случаях возможно возникновение отслойки плаценты и кровотечения. При этом может произойти излитие околоплодных вод.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovootechenie",
+      "target": "symptom_popadanie_krovi_ploda_v_materinu_krovooborot",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В редких случаях возможно попадание крови плода в систему кровообращения матери.",
+      "properties": {}
+    }
+  ]
+}

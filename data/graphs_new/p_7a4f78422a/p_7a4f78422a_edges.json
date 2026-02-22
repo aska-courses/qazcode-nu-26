@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_travozhnost",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тревожность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_nastroeniya",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение общего фона настроения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_distimiya",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дистимии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_potreblenie_alkogolia",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потребность употребления алкоголя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zashchitnyy_rvotnyy_refleks",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие защитного рвотного рефлекса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_tolerantnosti",
+    "target": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение толерантности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_travozhnost",
+    "target": "symptom_snizhenie_nastroeniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тревожность; снижение общего фона настроения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_nastroeniya",
+    "target": "symptom_distimiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение общего фона настроения; дистимии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_distimiya",
+    "target": "symptom_narushenie_sna",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дистимии; нарушение сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "symptom_potreblenie_alkogolia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение сна; потребность употребления алкоголя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zashchitnyy_rvotnyy_refleks",
+    "target": "symptom_izmenenie_tolerantnosti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие защитного рвотного рефлекса; изменение толерантности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pagubnoe_upotreblenie",
+    "target": "diagnosis_sindrom_zavisimosti",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "злоупотребление алкоголем; установленный диагноз зависимости от алкоголя",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "target": "diagnosis_pagubnoe_upotreblenie",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды МКБ-10: F10. Психические и поведенческие расстройства... F 10.1 Пагубное употребление",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psihicheskie_i_povedencheskie_rasstroystva_vyzvannye_upotrebleniem_alkogolia",
+    "target": "diagnosis_sindrom_zavisimosti",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды МКБ-10: F10. Психические и поведенческие расстройства... F10.2 Синдром зависимости",
+    "properties": {}
+  }
+]

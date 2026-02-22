@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symp_terminal_hf",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "терминальная стадия сердечной недостаточности (III‑IV функциональный класс по NYHA)",
+    "properties": {}
+  },
+  {
+    "source": "symp_limited_physical_activity",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ограничены физическую активность",
+    "properties": {}
+  },
+  {
+    "source": "symp_inability_exercise",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "невозможность выполнения физической нагрузки",
+    "properties": {}
+  },
+  {
+    "source": "symp_6min_walk_test",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тест 6‑минутной ходьбы < 300 м",
+    "properties": {}
+  },
+  {
+    "source": "symp_peak_vo2_low",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пиковый VO₂ < 14 мл/кг/мин",
+    "properties": {}
+  },
+  {
+    "source": "symp_elevated_hf_markers",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенные уровни маркеров сердечной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symp_med_therapy_ineffective",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "неэффективности медикаментозной терапии",
+    "properties": {}
+  },
+  {
+    "source": "symp_surgical_options_unavailable",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "невозможности проведения иных методов хирургического лечения",
+    "properties": {}
+  },
+  {
+    "source": "symp_multiple_hospitalizations",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие в анамнезе более двух госпитализаций ... в течение последнего года",
+    "properties": {}
+  },
+  {
+    "source": "symp_refractory_hf",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сердечная недостаточность, неподдающаяся оптимальной терапии",
+    "properties": {}
+  },
+  {
+    "source": "symp_lvef_low",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "фракция выброса левого желудочка менее 20 %",
+    "properties": {}
+  },
+  {
+    "source": "symp_pap_pressure_high",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "давление заклинивания легочной артерии > 20 мм рт.ст.",
+    "properties": {}
+  },
+  {
+    "source": "symp_norepinephrine_high",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "содержание норадреналина в плазме крови > 600 пкг/мл",
+    "properties": {}
+  },
+  {
+    "source": "symp_max_vo2_low",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение максимального VO₂ < 10 мл/кг/мин",
+    "properties": {}
+  },
+  {
+    "source": "symp_severe_myocardial_ischemia",
+    "target": "diag_i25",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тяжелая ишемия миокарда",
+    "properties": {}
+  },
+  {
+    "source": "symp_limited_physical_activity",
+    "target": "symp_inability_exercise",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ограничены физическую активность ... невозможность выполнения физической нагрузки",
+    "properties": {}
+  },
+  {
+    "source": "symp_6min_walk_test",
+    "target": "symp_peak_vo2_low",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тест 6‑минутной ходьбы < 300 м ... пиковый VO₂ < 14 мл/кг/мин",
+    "properties": {}
+  },
+  {
+    "source": "symp_med_therapy_ineffective",
+    "target": "symp_surgical_options_unavailable",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "неэффективности медикаментозной терапии ... невозможности проведения иных методов хирургического лечения",
+    "properties": {}
+  },
+  {
+    "source": "symp_multiple_hospitalizations",
+    "target": "symp_refractory_hf",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие более двух госпитализаций ... наличие сердечной недостаточности, неподдающейся оптимальной терапии",
+    "properties": {}
+  },
+  {
+    "source": "symp_lvef_low",
+    "target": "symp_pap_pressure_high",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "фракция выброса левого желудочка менее 20 % ... давление заклинивания легочной артерии > 20 мм рт.ст.",
+    "properties": {}
+  },
+  {
+    "source": "symp_norepinephrine_high",
+    "target": "symp_max_vo2_low",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "содержание норадреналина в плазме крови > 600 пкг/мл ... снижение максимального VO₂ < 10 мл/кг/мин",
+    "properties": {}
+  }
+]

@@ -1,0 +1,454 @@
+{
+  "protocol_id": "p_e2250dfcb8",
+  "nodes": [
+    {
+      "id": "diagnosis_female_infertility",
+      "type": "diagnosis",
+      "label": "Женское бесплодие",
+      "icd_code": "N97"
+    },
+    {
+      "id": "diagnosis_female_infertility_anovulation",
+      "type": "diagnosis",
+      "label": "Женское бесплодие, связанное с отсутствием овуляции",
+      "icd_code": "N97.0"
+    },
+    {
+      "id": "diagnosis_female_infertility_tubal",
+      "type": "diagnosis",
+      "label": "Женское бесплодие трубного происхождения",
+      "icd_code": "N97.1"
+    },
+    {
+      "id": "diagnosis_female_infertility_uterine",
+      "type": "diagnosis",
+      "label": "Женское бесплодие маточного происхождения",
+      "icd_code": "N97.2"
+    },
+    {
+      "id": "diagnosis_female_infertility_cervical",
+      "type": "diagnosis",
+      "label": "Женское бесплодие цервикального происхождения",
+      "icd_code": "N97.3"
+    },
+    {
+      "id": "diagnosis_female_infertility_male_factor",
+      "type": "diagnosis",
+      "label": "Женское бесплодие, связанное с мужскими факторами",
+      "icd_code": "N97.4"
+    },
+    {
+      "id": "diagnosis_female_infertility_other",
+      "type": "diagnosis",
+      "label": "Другие формы женского бесплодия",
+      "icd_code": "N97.8"
+    },
+    {
+      "id": "diagnosis_female_infertility_unspecified",
+      "type": "diagnosis",
+      "label": "Женское бесплодие неуточненное",
+      "icd_code": "N97.9"
+    },
+    {
+      "id": "symptom_absence_of_pregnancy",
+      "type": "symptom",
+      "label": "Отсутствие беременности в браке в течение одного года"
+    },
+    {
+      "id": "symptom_excess_body_hair",
+      "type": "symptom",
+      "label": "Рост волос по телу"
+    },
+    {
+      "id": "symptom_acne",
+      "type": "symptom",
+      "label": "Акне"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_dysmenorrhea",
+      "type": "symptom",
+      "label": "Дисменорея"
+    },
+    {
+      "id": "symptom_dyspareunia",
+      "type": "symptom",
+      "label": "Диспареуния"
+    },
+    {
+      "id": "symptom_dyschezia",
+      "type": "symptom",
+      "label": "Дисхезия"
+    },
+    {
+      "id": "symptom_chronic_pelvic_pain",
+      "type": "symptom",
+      "label": "Хроническая тазовая боль"
+    },
+    {
+      "id": "symptom_menstrual_cycle_disturbances",
+      "type": "symptom",
+      "label": "Нарушения менструального цикла"
+    },
+    {
+      "id": "symptom_heavy_menstruation",
+      "type": "symptom",
+      "label": "Обильные менструации"
+    },
+    {
+      "id": "symptom_prolonged_menstruation",
+      "type": "symptom",
+      "label": "Продолжительные менструации"
+    },
+    {
+      "id": "symptom_infrequent_menstruation",
+      "type": "symptom",
+      "label": "Редкие менструации"
+    },
+    {
+      "id": "symptom_scanty_menstruation",
+      "type": "symptom",
+      "label": "Скудные менструации"
+    },
+    {
+      "id": "symptom_amenorrhea",
+      "type": "symptom",
+      "label": "Отсутствие менструаций (аменорея)"
+    },
+    {
+      "id": "symptom_painful_menstruation",
+      "type": "symptom",
+      "label": "Болезненные менструации"
+    },
+    {
+      "id": "symptom_painful_intercourse",
+      "type": "symptom",
+      "label": "Болезненный половой акт"
+    },
+    {
+      "id": "symptom_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "Постоянные боли внизу живота"
+    },
+    {
+      "id": "symptom_obesity",
+      "type": "symptom",
+      "label": "Ожирение (ИМТ ≥ 30)"
+    },
+    {
+      "id": "symptom_low_body_mass",
+      "type": "symptom",
+      "label": "Дефицит массы тела (ИМТ < 17,5)"
+    },
+    {
+      "id": "symptom_hirsutism",
+      "type": "symptom",
+      "label": "Гирсутизм"
+    },
+    {
+      "id": "symptom_hyperandrogenism",
+      "type": "symptom",
+      "label": "Гиперандрогения"
+    },
+    {
+      "id": "symptom_goiter",
+      "type": "symptom",
+      "label": "Увеличение щитовидной железы (зоб)"
+    },
+    {
+      "id": "symptom_hypothyroidism",
+      "type": "symptom",
+      "label": "Гипотиреоз"
+    },
+    {
+      "id": "symptom_hyperthyroidism",
+      "type": "symptom",
+      "label": "Тиреотоксикоз"
+    },
+    {
+      "id": "symptom_hyperprolactinemia",
+      "type": "symptom",
+      "label": "Гиперпролактинемия"
+    },
+    {
+      "id": "symptom_anovulation",
+      "type": "symptom",
+      "label": "Ановуляция"
+    },
+    {
+      "id": "symptom_luteal_phase_deficiency",
+      "type": "symptom",
+      "label": "Недостаточность лютеиновой фазы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_absence_of_pregnancy",
+      "target": "diagnosis_female_infertility",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "отсутствие беременности в браке в течение одного года при регулярной половой жизни",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excess_body_hair",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рост волос по телу, акне (признаки гиперандрогении)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acne",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рост волос по телу, акне (признаки гиперандрогении)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excess_body_hair",
+      "target": "symptom_acne",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рост волос по телу, акне (признаки гиперандрогении)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль) (признак эндометриоза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysmenorrhea",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль) (признак эндометриоза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspareunia",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль) (признак эндометриоза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyschezia",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль) (признак эндометриоза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль) (признак эндометриоза)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_menstruation",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения менструального цикла, в особенности обильные, продолжительные... (признак ановуляции)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_prolonged_menstruation",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения менструального цикла, в особенности обильные, продолжительные... (признак ановуляции)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infrequent_menstruation",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения менструального цикла, в особенности редкие, скудные менструации (признак ановуляции)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scanty_menstruation",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения менструального цикла, в особенности редкие, скудные менструации (признак ановуляции)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amenorrhea",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие менструаций (аменорея) – признак эндокринного бесплодия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_menstruation",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненные менструации, болезненный половой акт, постоянные боли внизу живота – признаки эндометриоза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_intercourse",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненные менструации, болезненный половой акт, постоянные боли внизу живота – признаки эндометриоза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "diagnosis_female_infertility_uterine",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненные менструации, болезненный половой акт, постоянные боли внизу живота – признаки эндометриоза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obesity",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ИМТ выше или равно 30 свидетельствует об ожирении (признак дисфункции яичников)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_body_mass",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ИМТ ниже 17,5 – о дефиците массы тела (признак гипофункции яичников)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hirsutism",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "широкие плечи, гирсутизм, наличие акне – признаки гиперандрогении (дисфункция яичников)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperandrogenism",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение тестостерона (при гиперандрогенемии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperprolactinemia",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение пролактина (при гиперпролактинемии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypothyroidism",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение ТТГ (при гипотиреозе)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperthyroidism",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение ТТГ и повышение Т3св (при тиреотоксикозе)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_goiter",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение щитовидной железы (зоб)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anovulation",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "аневуляция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_luteal_phase_deficiency",
+      "target": "diagnosis_female_infertility_anovulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недостаточность лютеиновой фазы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excess_body_hair",
+      "target": "symptom_acne",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рост волос по телу, акне (признаки гиперандрогении)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "symptom_dysmenorrhea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysmenorrhea",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspareunia",
+      "target": "symptom_dyschezia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болевой синдром (дисменорея, диспареуния, дисхезия, хроническая тазовая боль)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_menstruation",
+      "target": "symptom_prolonged_menstruation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушения менструального цикла, в особенности обильные, продолжительные...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infrequent_menstruation",
+      "target": "symptom_scanty_menstruation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушения менструального цикла, в особенности редкие, скудные менструации",
+      "properties": {}
+    }
+  ]
+}

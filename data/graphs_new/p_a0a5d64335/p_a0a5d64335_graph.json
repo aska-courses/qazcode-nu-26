@@ -1,0 +1,304 @@
+{
+  "protocol_id": "p_a0a5d64335",
+  "nodes": [
+    {
+      "id": "diagnosis_z32_1",
+      "type": "diagnosis",
+      "label": "Беременность подтвержденная",
+      "icd_code": "Z32.1"
+    },
+    {
+      "id": "diagnosis_z33",
+      "type": "diagnosis",
+      "label": "Состояние, свойственное беременности",
+      "icd_code": "Z33"
+    },
+    {
+      "id": "diagnosis_z34_0",
+      "type": "diagnosis",
+      "label": "Наблюдение за течением нормальной первой беременности",
+      "icd_code": "Z34.0"
+    },
+    {
+      "id": "diagnosis_z34_8",
+      "type": "diagnosis",
+      "label": "Наблюдение за течением другой нормальной беременности",
+      "icd_code": "Z34.8"
+    },
+    {
+      "id": "diagnosis_z35_range",
+      "type": "diagnosis",
+      "label": "Подвергающаяся высокому риску",
+      "icd_code": "Z35.0-Z35.9"
+    },
+    {
+      "id": "diagnosis_z36_0",
+      "type": "diagnosis",
+      "label": "Антенатальный скрининг для выявления хромосомных аномалий",
+      "icd_code": "Z36.0"
+    },
+    {
+      "id": "diagnosis_z36_3",
+      "type": "diagnosis",
+      "label": "Антенатальный скрининг для выявления аномалий развития",
+      "icd_code": "Z36.3"
+    },
+    {
+      "id": "diagnosis_z36_4",
+      "type": "diagnosis",
+      "label": "Антенатальный скрининг для выявления задержки роста плода",
+      "icd_code": "Z36.4"
+    },
+    {
+      "id": "diagnosis_z36_5",
+      "type": "diagnosis",
+      "label": "Антенатальный скрининг для выявления изоиммунизации",
+      "icd_code": "Z36.5"
+    },
+    {
+      "id": "symptom_excessive_vomiting_morning",
+      "type": "symptom",
+      "label": "Чрезмерная рвота по утрам"
+    },
+    {
+      "id": "symptom_vaginal_bleeding",
+      "type": "symptom",
+      "label": "Кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_liquid_vaginal_discharge",
+      "type": "symptom",
+      "label": "Обильные жидкие выделения из влагалища"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Постоянная головная боль"
+    },
+    {
+      "id": "symptom_visual_disturbance",
+      "type": "symptom",
+      "label": "Нарушение зрения"
+    },
+    {
+      "id": "symptom_facial_or_hand_edema",
+      "type": "symptom",
+      "label": "Внезапный отек рук или лица"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры до 38°C и более"
+    },
+    {
+      "id": "symptom_vaginal_itching",
+      "type": "symptom",
+      "label": "Зуд и жжение во влагалище"
+    },
+    {
+      "id": "symptom_urinary_burning",
+      "type": "symptom",
+      "label": "Жжение и боль при мочеиспускании"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Сильная не стихающая боль в животе"
+    },
+    {
+      "id": "symptom_contractions",
+      "type": "symptom",
+      "label": "Более 4‑5 схваток в течение часа"
+    },
+    {
+      "id": "symptom_fetal_movement_decrease",
+      "type": "symptom",
+      "label": "Менее 10 движений плода за 12 часов"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_heartburn",
+      "type": "symptom",
+      "label": "Изжога"
+    },
+    {
+      "id": "symptom_leg_cramps",
+      "type": "symptom",
+      "label": "Судороги в ногах"
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "Боль в пояснице"
+    },
+    {
+      "id": "symptom_constipation",
+      "type": "symptom",
+      "label": "Запоры"
+    },
+    {
+      "id": "symptom_hemorrhoids",
+      "type": "symptom",
+      "label": "Геморрой"
+    },
+    {
+      "id": "symptom_varicose_veins",
+      "type": "symptom",
+      "label": "Варикозное расширение вен"
+    },
+    {
+      "id": "symptom_striae",
+      "type": "symptom",
+      "label": "Растяжки на коже"
+    },
+    {
+      "id": "symptom_pigmentation",
+      "type": "symptom",
+      "label": "Пигментация кожи"
+    },
+    {
+      "id": "symptom_genital_discharge",
+      "type": "symptom",
+      "label": "Выделения из половых путей"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_excessive_vomiting_morning",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Чрезмерная рвота по утрам (более3-5раз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginal_bleeding",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Кровянистые выделения из половых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liquid_vaginal_discharge",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Обильные жидкие выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Постоянная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_disturbance",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нарушение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_or_hand_edema",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Внезапный отек рук или лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Повышение температуры до 38°C и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginal_itching",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Зуд и жжение во влагалище",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urinary_burning",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жжение и боль при мочеиспускании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Сильная не стихающая боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractions",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Более 4‑5 схваток в течение часа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fetal_movement_decrease",
+      "target": "diagnosis_z35_range",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Менее 10 движений плода за 12 часов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_visual_disturbance",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Постоянная головная боль, нарушение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginal_bleeding",
+      "target": "symptom_liquid_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кровянистые выделения из половых путей; Обильные жидкие выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excessive_vomiting_morning",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Чрезмерная рвота по утрам (более3-5раз) ... Рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contractions",
+      "target": "symptom_fetal_movement_decrease",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Более 4‑5 схваток в течение часа ... Менее 10 движений плода за 12 часов",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "protocol_id": "p_b777b5aa99",
+  "nodes": [
+    {
+      "id": "symptom_plytniye_bolestvennye_vysypki_krasno_rozovogo_cveta",
+      "type": "symptom",
+      "label": "плотные болезненные высыпания красно-розового цвета"
+    },
+    {
+      "id": "symptom_boli_i_pripuhlost_v_sustavah",
+      "type": "symptom",
+      "label": "боли и припухлость в суставах"
+    },
+    {
+      "id": "symptom_lihofadka_38_39_c",
+      "type": "symptom",
+      "label": "лихорадка 38–39°C"
+    },
+    {
+      "id": "symptom_slabbost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_golovnaya_bol",
+      "type": "symptom",
+      "label": "головная боль"
+    },
+    {
+      "id": "symptom_artarlgi",
+      "type": "symptom",
+      "label": "артралгии"
+    },
+    {
+      "id": "symptom_artrit",
+      "type": "symptom",
+      "label": "артрит"
+    },
+    {
+      "id": "symptom_bol_v_zhivote",
+      "type": "symptom",
+      "label": "боль в животе"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_diareya",
+      "type": "symptom",
+      "label": "диарея"
+    },
+    {
+      "id": "symptom_ustalost",
+      "type": "symptom",
+      "label": "усталость"
+    },
+    {
+      "id": "symptom_nedomoganie",
+      "type": "symptom",
+      "label": "недомогание"
+    },
+    {
+      "id": "symptom_otech",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_otech_konechnostey",
+      "type": "symptom",
+      "label": "отёк конечностей"
+    },
+    {
+      "id": "symptom_pokrasknovenie_kozhi",
+      "type": "symptom",
+      "label": "покраснение кожи"
+    },
+    {
+      "id": "symptom_uzly",
+      "type": "symptom",
+      "label": "подкожные узлы"
+    },
+    {
+      "id": "symptom_izjazvlenie",
+      "type": "symptom",
+      "label": "изъязвление с желтой маслянистой массой"
+    },
+    {
+      "id": "symptom_rezkaia_bol_v_epigastrii",
+      "type": "symptom",
+      "label": "резкая боль в эпигастральной области"
+    },
+    {
+      "id": "symptom_povysennaya_soe",
+      "type": "symptom",
+      "label": "повышенная СОЭ"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_trombotsitoz",
+      "type": "symptom",
+      "label": "тромбоцитоз"
+    },
+    {
+      "id": "symptom_leukotsitoz",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_proteinuriya",
+      "type": "symptom",
+      "label": "протеинурия"
+    },
+    {
+      "id": "symptom_gematuriya",
+      "type": "symptom",
+      "label": "гематурия"
+    },
+    {
+      "id": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "diagnosis",
+      "label": "Рецидивирующий панникулит Вебера-Крисчена",
+      "icd_code": "M35.6"
+    },
+    {
+      "id": "diagnosis_uzlovataia_eritema",
+      "type": "diagnosis",
+      "label": "Узловатая эритема",
+      "icd_code": "L52"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_plytniye_bolestvennye_vysypki_krasno_rozovogo_cveta",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "плотные болезненные высыпания красно-розового цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_i_pripuhlost_v_sustavah",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли и припухлость в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofadka_38_39_c",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "температура до 38-39°С",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabbost",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_artarlgi",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артралгии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_artrit",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofadka_38_39_c",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лихорадка 38–39°С",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plytniye_bolestvennye_vysypki_krasno_rozovogo_cveta",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "плотные болезненные высыпания ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_i_pripuhlost_v_sustavah",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли и припухлость в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ustalost",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_zhivote",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diareya",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rezkaia_bol_v_epigastrii",
+      "target": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "резкая боль в эпигастральной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofadka_38_39_c",
+      "target": "symptom_slabbost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Сопутствующие проявления: температура до 38-39°С, слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofadka_38_39_c",
+      "target": "symptom_golovnaya_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Сопутствующие проявления: температура до 38-39°С, ... головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofadka_38_39_c",
+      "target": "symptom_artarlgi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Сопутствующие проявления: температура до 38-39°С, ... артралгии/артрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabbost",
+      "target": "symptom_golovnaya_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Сопутствующие проявления: ... слабость, головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ustalost",
+      "target": "symptom_nedomoganie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "усталость, недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_zhivote",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в животе; тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_diareya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошнота; диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_i_pripuhlost_v_sustavah",
+      "target": "symptom_artarlgi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли и припухлость в суставах ... артралгии/артрит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_recidiviruushchiy_pannikulit_webera_krischena",
+      "target": "diagnosis_uzlovataia_eritema",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Панникулиты ... Узловатая эритема – септальный панникулит",
+      "properties": {}
+    }
+  ]
+}

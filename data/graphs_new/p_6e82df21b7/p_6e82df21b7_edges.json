@@ -1,0 +1,378 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_herpetic_viral_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка; озноб; недомогание; упорная головную боль; рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка; озноб; недомогание; упорная головную боль; рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_herpetic_viral_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка; озноб; недомогание; упорная головную боль; рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_herpetic_viral_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "упорная головную боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "упорная головную боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_herpetic_viral_meningitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eye_pain",
+    "target": "diagnosis_herpetic_viral_eye_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поражение глаз: боль, зуд в глазах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eye_itching",
+    "target": "diagnosis_herpetic_viral_eye_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Поражение глаз: боль, зуд в глазах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_herpetic_viral_eye_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "светобоязнь;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_acuity_reduction",
+    "target": "diagnosis_herpetic_viral_eye_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение остроты зрения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctival_redness",
+    "target": "diagnosis_herpetic_viral_eye_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "покраснение глаз;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_herpetic_viral_eye_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезоточивость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_genital_burning",
+    "target": "diagnosis_herpetic_infection_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Генитальный герпес: чувство жжения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_genital_itching",
+    "target": "diagnosis_herpetic_infection_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Генитальный герпес: зуд;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_genital_swelling",
+    "target": "diagnosis_herpetic_infection_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "незначительный отек и гиперемия кожи и слизистых половых органов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_genital_hyperemia",
+    "target": "diagnosis_herpetic_infection_unspecified",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "незначительный отек и гиперемия кожи и слизистых половых органов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vesicular_rash",
+    "target": "diagnosis_herpetic_vesicular_dermatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пузырьковые высыпания на коже ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vesicular_rash",
+    "target": "diagnosis_herpetic_eczem",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пузырьковые высыпания на коже ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_burning",
+    "target": "diagnosis_herpetic_eczem",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль, локальное жжение, зуд кожи в области высыпаний;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_burning",
+    "target": "diagnosis_herpetic_vesicular_dermatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль, локальное жжение, зуд кожи в области высыпаний;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_itching",
+    "target": "diagnosis_herpetic_eczem",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль, локальное жжение, зуд кожи в области высыпаний;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_itching",
+    "target": "diagnosis_herpetic_vesicular_dermatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль, локальное жжение, зуд кожи в области высыпаний;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_pain",
+    "target": "diagnosis_herpetic_eczem",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль кожи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_pain",
+    "target": "diagnosis_herpetic_vesicular_dermatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль кожи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_lesions_painful",
+    "target": "diagnosis_herpetic_viral_gingival_stomatitis_faryngostomatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненные высыпания в полости рта, боль при глотании, при употреблении пищи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odynophagia",
+    "target": "diagnosis_herpetic_viral_gingival_stomatitis_faryngostomatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненные высыпания в полости рта, боль при глотании, при употреблении пищи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypersalivation",
+    "target": "diagnosis_herpetic_viral_gingival_stomatitis_faryngostomatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интенсивное слюноотделение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tender_regional_lymph_nodes",
+    "target": "diagnosis_herpetic_viral_gingival_stomatitis_faryngostomatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в области региональных лимфоузлов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_disseminated_herpetic_viral_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кашель; Выделение мокроты; Одышка; Боль в грудной клетке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sputum",
+    "target": "diagnosis_disseminated_herpetic_viral_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кашель; Выделение мокроты; Одышка; Боль в грудной клетке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_disseminated_herpetic_viral_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кашель; Выделение мокроты; Одышка; Боль в грудной клетке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_disseminated_herpetic_viral_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кашель; Выделение мокроты; Одышка; Боль в грудной клетке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_disseminated_herpetic_viral_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Желтуха;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парезы и параличи конечностей, черепных нервов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brainstem_dysfunction",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение стволовых функций;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pelvic_dysfunction",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тазовые нарушения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_generalized_seizures",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "генерализованные судороги;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_confusion",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спутанность сознания;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disorientation",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дезориентация;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychomotor_agitation",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психомоторное возбуждение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coma",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кома;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychic_disorders",
+    "target": "diagnosis_herpetic_viral_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психические расстройства;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "лихорадка; озноб;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_malaise",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "лихорадка; слабость, недомогание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "упорная головную боль; рвота;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_herpetic_eczem",
+    "target": "diagnosis_herpetic_vesicular_dermatitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "пузырьковые высыпания на коже ...; боль, локальное жжение, зуд кожи в области высыпаний;",
+    "properties": {}
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Лихорадка у 100% больных.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Лихорадка у 100% больных.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Лихорадка часто ежедневная, рецидивирует на протяжении болезни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Острая абдоминальная боль. У 59% больных она встречается изолированно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Острая боль в грудной клетке. Интенсивная боль в грудной клетке обусловлена асептическим плевритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_articular_pain",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боли в суставе и мышцах. Поражения суставов ... могут носить характер как острых приступов, так и хронической артропатии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Скелетно‑мышечные симптомы (артралгия / артрит / миалгия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthritis",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Скелетно‑мышечные симптомы (артралгия / артрит / миалгия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Скелетно‑мышечные симптомы (артралгия / артрит / миалгия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Уртикарная сыпь (крапивница)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Уртикарная сыпь (крапивница)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uveitis",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Увеит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Нейросенсорная потеря слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periorbital_edema",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Периорбитальный отек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peritonitis",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Перитонит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pleuritis",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Плеврит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pericarditis",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Перикардит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aphthous_stomatitis",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Афтозный стоматит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cervical_lymphadenitis",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Шейный лимфаденит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "diagnosis_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гепатоспленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_amyloidosis",
+    "target": "diagnosis_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "АА‑амилоидоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lipodystrophy",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Липодистрофия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_nodules",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пурпурные узелки на коже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acne",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Акне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gangrenous_pyo_derma",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гангренозная пиодермия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multifocal_osteomyelitis",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Мультифокальный остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_deformity",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Деформация костей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pustulosis",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пустулёз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psoriasis",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Псориаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulomatous_arthritis",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гранулёматный артрит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cataract",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Катаракта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_optic_nerve_atrophy",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атрофия зрительного нерва",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertrichosis",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипертрихоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_keratoderma",
+    "target": "diagnosis_other_autoinflammatory_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кератодерма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Лихорадка ... Острая абдоминальная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Лихорадка ... Острая боль в грудной клетке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_arthralgia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Лихорадка ... Боли в суставе и мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "symptom_urticaria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Уртикарная сыпь (крапивница)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periorbital_edema",
+    "target": "symptom_conjunctivitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Периорбитальный отек ... Конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_autoinflammatory_syndromes",
+    "target": "diagnosis_periodic_fever_syndromes",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Код(ы) МКБ – 10: M04 – Аутовоспалительные синдромы; M04.1 – Синдромы периодической лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_autoinflammatory_syndromes",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Код(ы) МКБ – 10: M04 – Аутовоспалительные синдромы; M04.2 – Криопирин‑ассоциированные периодические синдромы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_periodic_fever_syndromes",
+    "target": "diagnosis_cryopyrin_associated_syndromes",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Код(ы) МКБ – 10: M04.1 – Синдромы периодической лихорадки; M04.2 – Криопирин‑ассоциированные периодические синдромы",
+    "properties": {}
+  }
+]

@@ -1,0 +1,306 @@
+{
+  "protocol_id": "p_928e0e97e2",
+  "nodes": [
+    {
+      "id": "diagnosis_ibs_stable_angina",
+      "type": "diagnosis",
+      "label": "Ишемическая болезнь сердца (ИБС) – стабильная стенокардия напряжения",
+      "icd_code": "I20.8"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боль в грудной клетке"
+    },
+    {
+      "id": "symptom_chest_discomfort",
+      "type": "symptom",
+      "label": "Дискомфорт в груди"
+    },
+    {
+      "id": "symptom_chest_squeezing",
+      "type": "symptom",
+      "label": "Ощущение сжатия в груди"
+    },
+    {
+      "id": "symptom_chest_pressure",
+      "type": "symptom",
+      "label": "Стеснение в груди"
+    },
+    {
+      "id": "symptom_chest_burning",
+      "type": "symptom",
+      "label": "Жжение в груди"
+    },
+    {
+      "id": "symptom_chest_asphyxia",
+      "type": "symptom",
+      "label": "Удушье"
+    },
+    {
+      "id": "symptom_chest_heaviness",
+      "type": "symptom",
+      "label": "Тяжесть в груди"
+    },
+    {
+      "id": "symptom_irradiation_neck",
+      "type": "symptom",
+      "label": "Иррадиация боли в шею"
+    },
+    {
+      "id": "symptom_irradiation_shoulder",
+      "type": "symptom",
+      "label": "Иррадиация боли в плечи"
+    },
+    {
+      "id": "symptom_irradiation_arm",
+      "type": "symptom",
+      "label": "Иррадиация боли в руки"
+    },
+    {
+      "id": "symptom_irradiation_jaw",
+      "type": "symptom",
+      "label": "Иррадиация боли в нижнюю челюсть"
+    },
+    {
+      "id": "symptom_irradiation_epigastrium",
+      "type": "symptom",
+      "label": "Иррадиация боли в эпигастрии"
+    },
+    {
+      "id": "symptom_irradiation_back",
+      "type": "symptom",
+      "label": "Иррадиация боли в спину"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Усталость"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_anxiety",
+      "type": "symptom",
+      "label": "Тревога"
+    },
+    {
+      "id": "symptom_confusion",
+      "type": "symptom",
+      "label": "Спутанность сознания"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "Аритмия"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_erectile_dysfunction",
+      "type": "symptom",
+      "label": "Эректильная дисфункция"
+    },
+    {
+      "id": "symptom_sleep_apnea",
+      "type": "symptom",
+      "label": "Ночное апноэ"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "основной симптом стабильной стенокардии – чувство дискомфорта или боль в грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_discomfort",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "основной симптом стабильной стенокардии – чувство дискомфорта или боль в грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_squeezing",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Характер неприятные ощущения, чувство сжатия, стеснения, жжения, удушья, тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pressure",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Характер неприятные ощущения, чувство сжатия, стеснения, жжения, удушья, тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_burning",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Характер неприятные ощущения, чувство сжатия, стеснения, жжения, удушья, тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asphyxia",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Характер неприятные ощущения, чувство сжатия, стеснения, жжения, удушья, тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_heaviness",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Характер неприятные ощущения, чувство сжатия, стеснения, жжения, удушья, тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irradiation_neck",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Иррадиация в шею, плечи, руки, нижнюю челюсть ... эпигастрий и спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irradiation_shoulder",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Иррадиация в шею, плечи, руки, нижнюю челюсть ... эпигастрий и спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irradiation_arm",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Иррадиация в шею, плечи, руки, нижнюю челюсть ... эпигастрий и спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irradiation_jaw",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Иррадиация в шею, плечи, руки, нижнюю челюсть ... эпигастрий и спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irradiation_epigastrium",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Иррадиация в шею, плечи, руки, нижнюю челюсть ... эпигастрий и спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irradiation_back",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Иррадиация в шею, плечи, руки, нижнюю челюсть ... эпигастрий и спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anxiety",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_confusion",
+      "target": "diagnosis_ibs_stable_angina",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сопутствующие симптомы ... одышка, слабость, усталость, головокружение, тошнота, потливость, тревога, м.б. спутанность сознания",
+      "properties": {}
+    }
+  ]
+}

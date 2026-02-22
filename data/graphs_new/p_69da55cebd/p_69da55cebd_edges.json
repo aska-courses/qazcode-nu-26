@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_swelling",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Флегмона кисти: отек и гиперемия и, нарушение функции кисти, местное повышение температуры, болезненность при пальпации.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Флегмона кисти: отек и гиперемия и, нарушение функции кисти, местное повышение температуры, болезненность при пальпации.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hand_function_impairment",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Флегмона кисти: боль, повышение температуры тела и нарушение функции кисти.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_heat",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Флегмона кисти: отек и гиперемия и, нарушение функции кисти, местное повышение температуры, болезненность при пальпации.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_on_palpation",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Флегмона кисти: отек и гиперемия и, нарушение функции кисти, местное повышение температуры, болезненность при пальпации.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Флегмона кисти: боль, повышение температуры тела и нарушение функции кисти.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Общий анализ крови: • лейкоцитоз, ускорение СОЭ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_flegmona_fingers_and_hand",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Общий анализ крови: • лейкоцитоз, ускорение СОЭ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling",
+    "target": "symptom_hyperemia",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "отек и гиперемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling",
+    "target": "symptom_hand_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "отек ... нарушение функции кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling",
+    "target": "symptom_local_heat",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "отек ... местное повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling",
+    "target": "symptom_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "отек ... болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_hand_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "гиперемия ... нарушение функции кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_local_heat",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "гиперемия ... местное повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "гиперемия ... болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hand_function_impairment",
+    "target": "symptom_local_heat",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "нарушение функции кисти, местное повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hand_function_impairment",
+    "target": "symptom_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "нарушение функции кисти ... болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_heat",
+    "target": "symptom_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "местное повышение температуры, болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_hand_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "повышение температуры тела и нарушение функции кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "лейкоцитоз, ускорение СОЭ",
+    "properties": {}
+  }
+]

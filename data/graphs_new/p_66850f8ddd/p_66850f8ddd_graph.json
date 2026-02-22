@@ -1,0 +1,27 @@
+{
+  "protocol_id": "p_66850f8ddd",
+  "nodes": [
+    {
+      "id": "malignant_neoplasms",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования",
+      "icd_code": "C00-C97"
+    },
+    {
+      "id": "fever_unknown_origin",
+      "type": "symptom",
+      "label": "Лихорадка неясного генеза",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "fever_unknown_origin",
+      "target": "malignant_neoplasms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поиск очага воспаления при лихорадке неясного генеза; Лихорадка неясного генеза указана в показаниях к проведению ПЭТ/МРТ для выявления злокачественного поражения.",
+      "properties": {}
+    }
+  ]
+}

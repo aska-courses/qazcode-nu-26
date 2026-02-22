@@ -1,0 +1,945 @@
+{
+  "protocol_id": "p_7eddf0c3e7",
+  "nodes": [
+    {
+      "id": "diagnosis_f10",
+      "type": "diagnosis",
+      "label": "Психические и поведенческие расстройства, вызванные употреблением алкоголя",
+      "icd_code": "F10"
+    },
+    {
+      "id": "diagnosis_f10_0",
+      "type": "diagnosis",
+      "label": "Синдром острой интоксикации",
+      "icd_code": "F10.0"
+    },
+    {
+      "id": "diagnosis_f10_1",
+      "type": "diagnosis",
+      "label": "Употребление алкоголя с вредными последствиями",
+      "icd_code": "F10.1"
+    },
+    {
+      "id": "diagnosis_f10_2",
+      "type": "diagnosis",
+      "label": "Алкогольная зависимость",
+      "icd_code": "F10.2"
+    },
+    {
+      "id": "diagnosis_f10_3",
+      "type": "diagnosis",
+      "label": "Синдром отмены алкоголя",
+      "icd_code": "F10.3"
+    },
+    {
+      "id": "diagnosis_f10_4",
+      "type": "diagnosis",
+      "label": "Алкоголь-индуцированный делирий",
+      "icd_code": "F10.4"
+    },
+    {
+      "id": "diagnosis_f10_5",
+      "type": "diagnosis",
+      "label": "Алкоголь-индуцированный психотический расстройство",
+      "icd_code": "F10.5"
+    },
+    {
+      "id": "diagnosis_f10_7",
+      "type": "diagnosis",
+      "label": "Резидуальные и отсроченные психические расстройства",
+      "icd_code": "F10.7"
+    },
+    {
+      "id": "diagnosis_f10_8",
+      "type": "diagnosis",
+      "label": "Другие психические и поведенческие расстройства",
+      "icd_code": "F10.8"
+    },
+    {
+      "id": "diagnosis_f10_9",
+      "type": "diagnosis",
+      "label": "Неуточненное психическое и поведенческое расстройство",
+      "icd_code": "F10.9"
+    },
+    {
+      "id": "symptom_golovokruzhenie",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_narushenie_koordinatsii",
+      "type": "symptom",
+      "label": "Нарушение координации"
+    },
+    {
+      "id": "symptom_giper_salivatsiya",
+      "type": "symptom",
+      "label": "Гиперсаливация"
+    },
+    {
+      "id": "symptom_emocionalnaya_neustoychivost",
+      "type": "symptom",
+      "label": "Эмоциональная неустойчивость"
+    },
+    {
+      "id": "symptom_rezkie_perepady_nastroeniya",
+      "type": "symptom",
+      "label": "Резкие перепады настроения"
+    },
+    {
+      "id": "symptom_vozbuzenie",
+      "type": "symptom",
+      "label": "Возбуждение"
+    },
+    {
+      "id": "symptom_sedatsiya",
+      "type": "symptom",
+      "label": "Седация"
+    },
+    {
+      "id": "symptom_povyshennoe_nastroenie",
+      "type": "symptom",
+      "label": "Повышенное настроение"
+    },
+    {
+      "id": "symptom_usilenie_dvigatelnoi_aktivnosti",
+      "type": "symptom",
+      "label": "Усиление двигательной активности"
+    },
+    {
+      "id": "symptom_psihicheskij_komfort",
+      "type": "symptom",
+      "label": "Психический комфорт"
+    },
+    {
+      "id": "symptom_fizicheskii_komfort",
+      "type": "symptom",
+      "label": "Физический комфорт"
+    },
+    {
+      "id": "symptom_razdrazhitelnost",
+      "type": "symptom",
+      "label": "Раздражительность"
+    },
+    {
+      "id": "symptom_grubost",
+      "type": "symptom",
+      "label": "Грубость"
+    },
+    {
+      "id": "symptom_agressivnost",
+      "type": "symptom",
+      "label": "Агрессивность"
+    },
+    {
+      "id": "symptom_nazoylivost",
+      "type": "symptom",
+      "label": "Назойливость"
+    },
+    {
+      "id": "symptom_neadekvatnaya_rech",
+      "type": "symptom",
+      "label": "Неадекватная речь"
+    },
+    {
+      "id": "symptom_poteria_kontrolya",
+      "type": "symptom",
+      "label": "Потеря контроля"
+    },
+    {
+      "id": "symptom_psihomotornoe_vozbuzenie",
+      "type": "symptom",
+      "label": "Психомоторное возбуждение"
+    },
+    {
+      "id": "symptom_disforiya",
+      "type": "symptom",
+      "label": "Дисфория"
+    },
+    {
+      "id": "symptom_bessonnitsa",
+      "type": "symptom",
+      "label": "Бессонница"
+    },
+    {
+      "id": "symptom_sonlivost",
+      "type": "symptom",
+      "label": "Сонливость"
+    },
+    {
+      "id": "symptom_narushenie_sna",
+      "type": "symptom",
+      "label": "Нарушения сна"
+    },
+    {
+      "id": "symptom_snizhenie_kontsentratsii_vnimaniya",
+      "type": "symptom",
+      "label": "Снижение концентрации внимания"
+    },
+    {
+      "id": "symptom_snizhenie_poznavatelnoi_aktivnosti",
+      "type": "symptom",
+      "label": "Снижение познавательной активности"
+    },
+    {
+      "id": "symptom_astenia",
+      "type": "symptom",
+      "label": "Астения"
+    },
+    {
+      "id": "symptom_vialost",
+      "type": "symptom",
+      "label": "Вялость"
+    },
+    {
+      "id": "symptom_utomlyaemost",
+      "type": "symptom",
+      "label": "Утомляемость"
+    },
+    {
+      "id": "symptom_medlitelnost",
+      "type": "symptom",
+      "label": "Медлительность"
+    },
+    {
+      "id": "symptom_pasivnost",
+      "type": "symptom",
+      "label": "Пассивность"
+    },
+    {
+      "id": "symptom_shatkaya_pohodka",
+      "type": "symptom",
+      "label": "Шаткая походка"
+    },
+    {
+      "id": "symptom_aktivizatsiya_simpatiicheskogo_otdela",
+      "type": "symptom",
+      "label": "Активизация симпатического отдела нервной системы"
+    },
+    {
+      "id": "symptom_uchashchenie_pulsa",
+      "type": "symptom",
+      "label": "Учащение пульса"
+    },
+    {
+      "id": "symptom_uchashchenie_chastoty_dyhania",
+      "type": "symptom",
+      "label": "Учащение частоты дыхания"
+    },
+    {
+      "id": "symptom_povyshennoye_arterialnoe_davlenie",
+      "type": "symptom",
+      "label": "Повышенное артериальное давление"
+    },
+    {
+      "id": "symptom_snizhenie_suhogilnyh_refleksov",
+      "type": "symptom",
+      "label": "Снижение сухожильных рефлексов"
+    },
+    {
+      "id": "symptom_nistagm",
+      "type": "symptom",
+      "label": "Нистагм"
+    },
+    {
+      "id": "symptom_potlivost",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_zevota",
+      "type": "symptom",
+      "label": "Зевота"
+    },
+    {
+      "id": "symptom_ozdob",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_vzdrazhivanie",
+      "type": "symptom",
+      "label": "Вздрогивания"
+    },
+    {
+      "id": "symptom_neproizvolnoe_mocheispuskaniye",
+      "type": "symptom",
+      "label": "Непроизвольное мочеиспускание"
+    },
+    {
+      "id": "symptom_blednost_kozhi",
+      "type": "symptom",
+      "label": "Бледность кожи"
+    },
+    {
+      "id": "symptom_kholodnaya_kozha",
+      "type": "symptom",
+      "label": "Холодная кожа"
+    },
+    {
+      "id": "symptom_vlazhnaia_kozha",
+      "type": "symptom",
+      "label": "Влажная кожа"
+    },
+    {
+      "id": "symptom_gluhie_tony_serdtsa",
+      "type": "symptom",
+      "label": "Глухие тоны сердца"
+    },
+    {
+      "id": "symptom_serdtsebienie",
+      "type": "symptom",
+      "label": "Сердцебиение"
+    },
+    {
+      "id": "symptom_chastiy_puls",
+      "type": "symptom",
+      "label": "Частый пульс"
+    },
+    {
+      "id": "symptom_slabo_napolnenie_i_napryazhenie",
+      "type": "symptom",
+      "label": "Слабое наполнение и напряжение"
+    },
+    {
+      "id": "symptom_snizhenie_arterialnogo_davleniya",
+      "type": "symptom",
+      "label": "Снижение артериального давления"
+    },
+    {
+      "id": "symptom_poverhnostnoe_dyhanie",
+      "type": "symptom",
+      "label": "Поверхностное дыхание"
+    },
+    {
+      "id": "symptom_patologicheskoe_dyhanie",
+      "type": "symptom",
+      "label": "Патологическое дыхание"
+    },
+    {
+      "id": "symptom_ponizhenie_konjunktivalnyh_refleksov",
+      "type": "symptom",
+      "label": "Понижение конъюнктивных рефлексов"
+    },
+    {
+      "id": "symptom_bolevyh_refleksov",
+      "type": "symptom",
+      "label": "Болевые рефлексы"
+    },
+    {
+      "id": "symptom_rasshirennye_zratchki",
+      "type": "symptom",
+      "label": "Расширенные зрачки"
+    },
+    {
+      "id": "symptom_slabaia_reakciya_na_svet",
+      "type": "symptom",
+      "label": "Слабая реакция на свет"
+    },
+    {
+      "id": "symptom_gorizontalny_nistagm",
+      "type": "symptom",
+      "label": "Горизонтальный нистагм"
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura_tela",
+      "type": "symptom",
+      "label": "Повышенная температура тела"
+    },
+    {
+      "id": "symptom_myshechnaya_gipotoniya",
+      "type": "symptom",
+      "label": "Мышечная гипотония"
+    },
+    {
+      "id": "symptom_ataksiya",
+      "type": "symptom",
+      "label": "Атаксия"
+    },
+    {
+      "id": "symptom_giperrefleksiya",
+      "type": "symptom",
+      "label": "Гиперрефлексия"
+    },
+    {
+      "id": "symptom_sudorogi",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_tremor",
+      "type": "symptom",
+      "label": "Тремор"
+    },
+    {
+      "id": "symptom_psihoticheskiy_bred",
+      "type": "symptom",
+      "label": "Психотический бред"
+    },
+    {
+      "id": "symptom_galutsinatsii",
+      "type": "symptom",
+      "label": "Галлюцинации"
+    },
+    {
+      "id": "symptom_ilʹuzii",
+      "type": "symptom",
+      "label": "Иллюзии"
+    },
+    {
+      "id": "symptom_narushenie_vospriyatiya",
+      "type": "symptom",
+      "label": "Нарушения восприятия"
+    },
+    {
+      "id": "symptom_poteria_orientatsii_vo_vremeni",
+      "type": "symptom",
+      "label": "Потеря ориентации во времени"
+    },
+    {
+      "id": "symptom_poteria_orientatsii_v_prostranstve",
+      "type": "symptom",
+      "label": "Потеря ориентации в пространстве"
+    },
+    {
+      "id": "symptom_suetlivost",
+      "type": "symptom",
+      "label": "Суетливость"
+    },
+    {
+      "id": "symptom_presledovanie",
+      "type": "symptom",
+      "label": "Преследование"
+    },
+    {
+      "id": "symptom_bred_presledovaniya",
+      "type": "symptom",
+      "label": "Бред преследования"
+    },
+    {
+      "id": "symptom_bredovye_idei",
+      "type": "symptom",
+      "label": "Бредовые идеи"
+    },
+    {
+      "id": "symptom_povyshennaya_trevozhnost",
+      "type": "symptom",
+      "label": "Повышенная тревожность"
+    },
+    {
+      "id": "symptom_snizhenie_nastroeniya",
+      "type": "symptom",
+      "label": "Снижение настроения"
+    },
+    {
+      "id": "symptom_depressiya",
+      "type": "symptom",
+      "label": "Депрессия"
+    },
+    {
+      "id": "symptom_trevozhnost",
+      "type": "symptom",
+      "label": "Тревожность"
+    },
+    {
+      "id": "symptom_snizhenie_uspivaemosti",
+      "type": "symptom",
+      "label": "Снижение успеваемости"
+    },
+    {
+      "id": "symptom_proguly",
+      "type": "symptom",
+      "label": "Прогулы"
+    },
+    {
+      "id": "symptom_utrata_interesa_k_uchobe",
+      "type": "symptom",
+      "label": "Утрата интереса к учебе"
+    },
+    {
+      "id": "symptom_seksualnaya_rastormozhennost",
+      "type": "symptom",
+      "label": "Сексуальная расторможенность"
+    },
+    {
+      "id": "symptom_polovye_kontakty",
+      "type": "symptom",
+      "label": "Половые контакты"
+    },
+    {
+      "id": "symptom_lzhivaya_informaciya",
+      "type": "symptom",
+      "label": "Лживая информация"
+    },
+    {
+      "id": "symptom_izvorotlivost",
+      "type": "symptom",
+      "label": "Изворотливость"
+    },
+    {
+      "id": "symptom_skrytost",
+      "type": "symptom",
+      "label": "Скрытность"
+    },
+    {
+      "id": "symptom_lzhivost",
+      "type": "symptom",
+      "label": "Лживость"
+    },
+    {
+      "id": "symptom_poteria_interesa_k_seme",
+      "type": "symptom",
+      "label": "Потеря интереса к семье"
+    },
+    {
+      "id": "symptom_poteria_interesa_k_obektam",
+      "type": "symptom",
+      "label": "Потеря интереса к объектам"
+    },
+    {
+      "id": "symptom_povyshennoye_vlechenie_k_alkoholyu",
+      "type": "symptom",
+      "label": "Повышенное влечение к алкоголю"
+    },
+    {
+      "id": "symptom_povyshennaya_tolerantnost",
+      "type": "symptom",
+      "label": "Повышенная толерантность"
+    },
+    {
+      "id": "symptom_postintoksikatsionnye_sostoyaniya",
+      "type": "symptom",
+      "label": "Постинтоксикационные состояния"
+    },
+    {
+      "id": "symptom_otsutstvie_abstinentsnogo_sindroma",
+      "type": "symptom",
+      "label": "Отсутствие абстинентного синдрома"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_emocionalnaya_neustoychivost",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эмоциональная неустойчивость ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rezkie_perepady_nastroeniya",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резкие перепады настроения ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vozbuzenie",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возбуждение ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sedatsiya",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "седация ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovokruzhenie",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружение ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_koordinatsii",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженное нарушение координации ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giper_salivatsiya",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперсаливация ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_f10_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная слабость ... при острой интоксикации алкоголем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rezkie_perepady_nastroeniya",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перепады настроения ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressiya",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подавленность ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_astenia",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "астения ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vialost",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вялость ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "раздражительность ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_agressivnost",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "агрессивность ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lzhivaya_informaciya",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лживость ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seksualnaya_rastormozhennost",
+      "target": "diagnosis_f10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное сексуальное влечение ... при синдроме употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_interesa_k_uchobe",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря интереса к учебе ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_interesa_k_seme",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря интереса к семье ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_interesa_k_obektam",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря интереса к объектам ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennoye_vlechenie_k_alkoholyu",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное влечение к алкоголю ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_tolerantnost",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная толерантность ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_astenia",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "астения ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vialost",
+      "target": "diagnosis_f10_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вялость ... при синдроме зависимости от алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trevozhnost",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тревожность ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_nastroeniya",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сниженный фон настроения ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vozbuzenie",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неустойчивость настроения, дисфория ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sedatsiya",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "седация ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nistagm",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "горизонтальный нистагм ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shatkaya_pohodka",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шаткая походка ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tremor",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тремор ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_potlivost",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потливость ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zevota",
+      "target": "diagnosis_f10_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зевота ... при синдроме отмены алкоголя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennoye_vlechenie_k_alkoholyu",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "непреодолимое влечение к алкоголю ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressiya",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подавленный фон настроения ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trevozhnost",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство страха и тревоги ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihoticheskiy_bred",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образный бред преследования ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_galutsinatsii",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "галлюцинации ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_vospriyatiya",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения восприятия ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ponizhenie_konjunktivalnyh_refleksov",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение конъюнктивных рефлексов ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nistagm",
+      "target": "diagnosis_f10_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "горизонтальный нистагм ... при абстинентном состоянии с делирием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihoticheskiy_bred",
+      "target": "diagnosis_f10_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психотическое расстройство ... бред",
+      "properties": {}
+    },
+    {
+      "source": "symptom_galutsinatsii",
+      "target": "diagnosis_f10_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психотическое расстройство ... галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ilʹuzii",
+      "target": "diagnosis_f10_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психотическое расстройство ... иллюзии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovokruzhenie",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошнота, рвота ... часто сопровождаются головокружением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovokruzhenie",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошнота и головокружение указаны совместно в описании острой интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nistagm",
+      "target": "symptom_shatkaya_pohodka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "горизонтальный нистагм, шаткая походка указаны вместе при синдроме отмены",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "symptom_agressivnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "раздражительность, грубость, агрессивность перечислены подряд в описании средней степени интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lzhivaya_informaciya",
+      "target": "symptom_izvorotlivost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лживость, изворотливость, скрытность указаны совместно в описании синдрома употребления с вредными последствиями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_interesa_k_uchobe",
+      "target": "symptom_snizhenie_uspivaemosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "потеря интереса к учебе, снижение успеваемости упомянуты вместе при синдроме зависимости",
+      "properties": {}
+    }
+  ]
+}

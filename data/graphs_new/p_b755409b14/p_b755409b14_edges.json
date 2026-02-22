@@ -1,0 +1,66 @@
+[
+  {
+    "source": "lichnost_fever",
+    "target": "catheter_associated_bsi_diagnosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "любая лихорадка (температура >38,50 или её повышение на >10C) ... должна вызывать подозрение на инфекцию кровотока, связанную с катетером",
+    "properties": {}
+  },
+  {
+    "source": "thrombocytopenia_symptom",
+    "target": "thrombocytopenia_diagnosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у пациентов с тяжелой необъяснимой тромбоцитопенией следует контролировать концентрацию триглицеридов",
+    "properties": {}
+  },
+  {
+    "source": "catheter_occlusion_symptom",
+    "target": "catheter_thrombosis_symptom",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тромботическая окклюзия катетера и тромбоз, связанный с ЦВК, требуют тщательного обследования",
+    "properties": {}
+  },
+  {
+    "source": "catheter_occlusion_symptom",
+    "target": "catheter_occlusion_diagnosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тромботическая окклюзия катетера ... требуют тщательного обследования",
+    "properties": {}
+  },
+  {
+    "source": "catheter_thrombosis_symptom",
+    "target": "catheter_thrombosis_diagnosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тромботическая окклюзия катетера и тромбоз, связанный с ЦВК, требуют тщательного обследования",
+    "properties": {}
+  },
+  {
+    "source": "hyperkalemia_diagnosis",
+    "target": "non_oliguric_hyperkalemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "возможность развития неолигурической гиперкалиемии",
+    "properties": {}
+  },
+  {
+    "source": "hypercalcemia_diagnosis",
+    "target": "hypophosphatemia_diagnosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "для снижения частоты ранней постнатальной гиперкальциемии и гипофосфатемии",
+    "properties": {}
+  },
+  {
+    "source": "catheter_occlusion_diagnosis",
+    "target": "catheter_thrombosis_diagnosis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Тромботическая окклюзия катетера и тромбоз, связанный с ЦВК, требуют тщательного обследования",
+    "properties": {}
+  }
+]

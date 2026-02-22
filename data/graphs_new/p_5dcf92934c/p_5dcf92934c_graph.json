@@ -1,0 +1,530 @@
+{
+  "protocol_id": "p_5dcf92934c",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "diagnosis",
+      "label": "Острый миелобластный лейкоз",
+      "icd_code": "C92.0"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_nedomoganie",
+      "type": "symptom",
+      "label": "Недомогание"
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_bol_v_kostyah",
+      "type": "symptom",
+      "label": "Боль в костях"
+    },
+    {
+      "id": "symptom_bol_v_sustavah",
+      "type": "symptom",
+      "label": "Боль в суставах"
+    },
+    {
+      "id": "symptom_blednost",
+      "type": "symptom",
+      "label": "Бледность"
+    },
+    {
+      "id": "symptom_krovotochivost_slizistykh",
+      "type": "symptom",
+      "label": "Кровоточивость слизистых"
+    },
+    {
+      "id": "symptom_krovotochivost_nosa",
+      "type": "symptom",
+      "label": "Кровоточивость из носа"
+    },
+    {
+      "id": "symptom_drugie_krovotecheniya",
+      "type": "symptom",
+      "label": "Другие виды кровотечений"
+    },
+    {
+      "id": "symptom_lymphadenopatiya",
+      "type": "symptom",
+      "label": "Увеличение лимфатических узлов"
+    },
+    {
+      "id": "symptom_ubylenie_zhivota",
+      "type": "symptom",
+      "label": "Увеличение размеров живота"
+    },
+    {
+      "id": "symptom_bol_v_zhivote",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "type": "symptom",
+      "label": "Затруднённое носовое дыхание"
+    },
+    {
+      "id": "symptom_odishka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_glavnyye_boli",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_rvoota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_sudorogi",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_ugolshennye_yaytsa",
+      "type": "symptom",
+      "label": "Увеличение яичек"
+    },
+    {
+      "id": "symptom_koshnye_leykoznye_infiltraty",
+      "type": "symptom",
+      "label": "Кожные лейкозные инфильтраты"
+    },
+    {
+      "id": "symptom_ugolshennye_pochki",
+      "type": "symptom",
+      "label": "Увеличение почек"
+    },
+    {
+      "id": "symptom_infiltratsiya_miokarda",
+      "type": "symptom",
+      "label": "Инфильтрация миокарда"
+    },
+    {
+      "id": "symptom_perikardit",
+      "type": "symptom",
+      "label": "Перикардит"
+    },
+    {
+      "id": "symptom_ugolshennyy_timus",
+      "type": "symptom",
+      "label": "Увеличенный тимус"
+    },
+    {
+      "id": "symptom_infiltratsiya_legkoy_tkane",
+      "type": "symptom",
+      "label": "Инфильтрация лёгкой ткани"
+    },
+    {
+      "id": "symptom_krovotecheniya_v_legkih",
+      "type": "symptom",
+      "label": "Кровоизлияния в лёгкие"
+    },
+    {
+      "id": "symptom_petekhi",
+      "type": "symptom",
+      "label": "Петехии"
+    },
+    {
+      "id": "symptom_sinyaki",
+      "type": "symptom",
+      "label": "Синяки на коже"
+    },
+    {
+      "id": "symptom_oteki_sustavov",
+      "type": "symptom",
+      "label": "Отёки суставов"
+    },
+    {
+      "id": "symptom_artrolgiya",
+      "type": "symptom",
+      "label": "Артралгия"
+    },
+    {
+      "id": "symptom_osalgiya",
+      "type": "symptom",
+      "label": "Оссалгия"
+    },
+    {
+      "id": "symptom_infiltratsiya_nadkostnicy",
+      "type": "symptom",
+      "label": "Лейкемическая инфильтрация надкостницы"
+    },
+    {
+      "id": "symptom_infarkt_kostey",
+      "type": "symptom",
+      "label": "Инфаркт костей"
+    },
+    {
+      "id": "symptom_opukolovoe_uvelichenie_kostnogo_mozga",
+      "type": "symptom",
+      "label": "Опухолевое увеличение объёма костного мозга"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_kostyah",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в костях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в ... суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blednost",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_slizistykh",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоточивость слизистых полости рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_nosa",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоточивость ... носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_drugie_krovotecheniya",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "другие виды кровотечений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopatiya",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение периферических лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ubylenie_zhivota",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение размеров живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_zhivote",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднённое носовое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "оdyшку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_glavnyye_boli",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoota",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sudorogi",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ugolshennye_yaytsa",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одно- или двухстороннее увеличение яичек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koshnye_leykoznye_infiltraty",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кожные лейкозные инфильтраты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ugolshennye_pochki",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение почек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_miokarda",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "инфильтрация миокарда",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perikardit",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "выпотной перикардит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ugolshennyy_timus",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Увеличенный тимус",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_legkoy_tkane",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкемической инфильтрации лёгкой ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotecheniya_v_legkih",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кровоизлияния в лёгкие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petekhi",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Петехии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sinyaki",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Синяки на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteki_sustavov",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёки суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_artrolgiya",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Артралгия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osalgiya",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Оссалгия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_nadkostnicy",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лейкемическая инфильтрация надкостницы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infarkt_kostey",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Инфаркт костей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opukolovoe_uvelichenie_kostnogo_mozga",
+      "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Опухолевое увеличение объёма костного мозга",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_kostyah",
+      "target": "symptom_bol_v_sustavah",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в костях и/или суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_slizistykh",
+      "target": "symptom_krovotochivost_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоточивость слизистых полости рта, носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_slizistykh",
+      "target": "symptom_drugie_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоточивость ... и другие виды кровотечений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_nosa",
+      "target": "symptom_drugie_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоточивость ... носа, другие виды кровотечений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotecheniya_v_legkih",
+      "target": "symptom_petekhi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кровоизлияния в лёгкие, петехии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotecheniya_v_legkih",
+      "target": "symptom_sinyaki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кровоизлияния в лёгкие, синяки на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petekhi",
+      "target": "symptom_sinyaki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "петехии, синяки на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_nadkostnicy",
+      "target": "symptom_bol_v_kostyah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "инфильтрация надкостницы ... приводят к появлению болей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infarkt_kostey",
+      "target": "symptom_bol_v_kostyah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Инфаркт костей ... приводят к появлению болей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opukolovoe_uvelichenie_kostnogo_mozga",
+      "target": "symptom_bol_v_kostyah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Опухолевое увеличение объёма костного мозга ... приводят к появлению болей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_artrolgiya",
+      "target": "symptom_osalgiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли и отёки суставов могут быть приняты за симптомы ревматоидного артрита",
+      "properties": {}
+    }
+  ]
+}

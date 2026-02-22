@@ -1,0 +1,311 @@
+{
+  "protocol_id": "p_233c81a174",
+  "nodes": [
+    {
+      "id": "symptom_krovotechenie",
+      "type": "symptom",
+      "label": "Часто повторяющиеся или обильные кровотечения"
+    },
+    {
+      "id": "symptom_epilepticheskie_pristupy",
+      "type": "symptom",
+      "label": "Эпилепсия с частыми приступами"
+    },
+    {
+      "id": "symptom_sudorogi",
+      "type": "symptom",
+      "label": "Частые генерализованные судороги"
+    },
+    {
+      "id": "symptom_infektsiya",
+      "type": "symptom",
+      "label": "Острые инфекционные заболевания"
+    },
+    {
+      "id": "symptom_tuberkulez",
+      "type": "symptom",
+      "label": "Активная стадия туберкулеза"
+    },
+    {
+      "id": "symptom_zlokamennaya_opukhol",
+      "type": "symptom",
+      "label": "Злокачественные новообразования"
+    },
+    {
+      "id": "symptom_dyhatelnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "Недостаточность функции дыхания III степени и более"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "Фебрильная лихорадка"
+    },
+    {
+      "id": "symptom_subfevrialnaya_lihorodka",
+      "type": "symptom",
+      "label": "Субфебрильная лихорадка"
+    },
+    {
+      "id": "symptom_gnoinye_kozhnye_porazheniya",
+      "type": "symptom",
+      "label": "Гнойные болезни кожи"
+    },
+    {
+      "id": "symptom_chesotka",
+      "type": "symptom",
+      "label": "Чесотка"
+    },
+    {
+      "id": "symptom_gribochnoe_zabolevanie",
+      "type": "symptom",
+      "label": "Грибковые заболевания кожи"
+    },
+    {
+      "id": "symptom_psihologicheskoe_rasstroystvo",
+      "type": "symptom",
+      "label": "Психологические заболевания с десоциализацией личности"
+    },
+    {
+      "id": "symptom_aritmija",
+      "type": "symptom",
+      "label": "Осложненные нарушения ритма сердца"
+    },
+    {
+      "id": "symptom_serdechnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "Сердечная недостаточность IV функционального класса (NYHA)"
+    },
+    {
+      "id": "symptom_legkaya_infektsiya",
+      "type": "symptom",
+      "label": "Различные гнойные (легочные) заболевания"
+    },
+    {
+      "id": "symptom_osteomielit",
+      "type": "symptom",
+      "label": "Острый остеомиелит"
+    },
+    {
+      "id": "symptom_tromboz_glubokih_ven",
+      "type": "symptom",
+      "label": "Острый тромбоз глубоких вен"
+    },
+    {
+      "id": "symptom_ogranichenie_nagruzki",
+      "type": "symptom",
+      "label": "Ограничение физической нагрузки"
+    },
+    {
+      "id": "symptom_ustalost",
+      "type": "symptom",
+      "label": "Усталость"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_odishka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_tahikardiya",
+      "type": "symptom",
+      "label": "Сердцебиение (тахикардия)"
+    },
+    {
+      "id": "symptom_zatryaznennoe_samobsluzhivanie",
+      "type": "symptom",
+      "label": "Затрудненное самообслуживание"
+    },
+    {
+      "id": "symptom_ogranichenie_peredvizheniya",
+      "type": "symptom",
+      "label": "Ограничение передвижения"
+    },
+    {
+      "id": "symptom_nevozmozhnost_hodit_po_lestnice",
+      "type": "symptom",
+      "label": "Невозможность ходить по лестнице"
+    },
+    {
+      "id": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "diagnosis",
+      "label": "Перенесенный инфаркт миокарда",
+      "icd_code": "Z86.7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_krovotechenie",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "часто повторяющиеся или обильные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepticheskie_pristupy",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "эпилепсия с частыми приступами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sudorogi",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "частые генерализованные судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infektsiya",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "острые инфекционные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tuberkulez",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "активная стадия всех форм туберкулеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlokamennaya_opukhol",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "злокачественные новообразования (III-IV стадии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyhatelnaya_nedostatochnost",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "недостаточность функции дыхания III степени и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfevrialnaya_lihorodka",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoinye_kozhnye_porazheniya",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "гнойные болезни кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chesotka",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "чесотка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gribochnoe_zabolevanie",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "грибковые заболевания кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihologicheskoe_rasstroystvo",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "психологические заболевания с десоциализацией личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aritmija",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "осложненные нарушения ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_serdechnaya_nedostatochnost",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "сердечная недостаточность IV функционального класса (NYHA)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_legkaya_infektsiya",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "различные гнойные (легочные) заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteomielit",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "острый остеомиелит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tromboz_glubokih_ven",
+      "target": "diagnosis_perenesenyj_infarkt_miokarda",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "острый тромбоз глубоких вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoinye_kozhnye_porazheniya",
+      "target": "symptom_chesotka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoinye_kozhnye_porazheniya",
+      "target": "symptom_gribochnoe_zabolevanie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chesotka",
+      "target": "symptom_gribochnoe_zabolevanie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_proportional_body_length_delay",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пропорциональное отставание длины тела ребенка от средних показателей более чем на 2 SDS",
+    "properties": {}
+  },
+  {
+    "source": "symptom_doll_face",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«кукольное лицо»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia_tendency",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "склонность к гипогликемиям",
+    "properties": {}
+  },
+  {
+    "source": "symptom_central_obesity",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "центральное ожирение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы родителей и/или ребенка на отставание в росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_slowdown",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "замедление роста",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emotional_deprivation",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Психосоциальные причины: эмоциональная депривация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurotic_anorexia",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Психосоциальные причины: нервная анорексия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depression",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Психосоциальные причины: депрессия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_anemia",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Хроническая анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malnutrition",
+    "target": "diagnosis_short_stature",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недоедание",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_short_stature",
+    "target": "diagnosis_hypopituitarism",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... Е 34.3 Низкорослость (карликовость), ... Е 23.0 Гипопитуитаризм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_flushing",
+    "target": "symptom_hyperglycemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Аргинин ... Покраснение лица, легкая гипергликемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Глюкагон ... Тошнота, ... рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia",
+    "target": "symptom_late_hypoglycemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Глюкагон ... гипогликемия ... поздняя гипогликемия",
+    "properties": {}
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_pain_auricle_or_auditory_canal",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в ушной раковине или слуховом проходе (первый и основной симптом может предшествовать реактивной инфильтрации кожи наружного уха)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling_bulky",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "прилипухлость (распространяется по всей ушной раковине, исключая мочку уха, носит бугристый характер)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fluctuation",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "флюктуация (при образовании гнойного экссудата между надхрящницей и хрящом)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_tenderness_on_palpation",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сильная болезненность при пальпации ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_from_wound",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечение из раны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_around_wound",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отек в области раны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visibility_of_underlying_tissues",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "видимость подлежащих тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_auricle_area",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болезненность в области ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_integrity_violation",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение целостности тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cartilage_melting_with_necrosis",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гнойное расплавление хряща с отторжением некротических тканей, приводящее к рубцеванию, сморщиванию и обезображиванию ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_cover_damage",
+    "target": "diagnosis_acquired_deformation_ear",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повреждение кожных покровов ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_auricle_or_auditory_canal",
+    "target": "symptom_swelling_bulky",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на: • боль в ушной раковине или слуховом проходе; • припухлость ... носит бугристый характер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_auricle_or_auditory_canal",
+    "target": "symptom_fluctuation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на: • боль в ушной раковине или слуховом проходе; • флюктуация ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_auricle_or_auditory_canal",
+    "target": "symptom_severe_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на: • боль в ушной раковине или слуховом проходе; • сильная болезненность при пальпации ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling_bulky",
+    "target": "symptom_fluctuation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на: • припухлость ...; • флюктуация ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling_bulky",
+    "target": "symptom_severe_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на: • припухлость ...; • сильная болезненность при пальпации ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fluctuation",
+    "target": "symptom_severe_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на: • флюктуация ...; • сильная болезненность при пальпации ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_from_wound",
+    "target": "symptom_edema_around_wound",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • кровотечение из раны; • отек в области раны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_from_wound",
+    "target": "symptom_visibility_of_underlying_tissues",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • кровотечение из раны; • видимость подлежащих тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_from_wound",
+    "target": "symptom_tenderness_auricle_area",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • кровотечение из раны; при пальпации: • болезненность в области ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_from_wound",
+    "target": "symptom_integrity_violation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • кровотечение из раны; при пальпации: • нарушение целостности тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_around_wound",
+    "target": "symptom_visibility_of_underlying_tissues",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • отек в области раны; • видимость подлежащих тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_around_wound",
+    "target": "symptom_tenderness_auricle_area",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • отек в области раны; при пальпации: • болезненность в области ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_around_wound",
+    "target": "symptom_integrity_violation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • отек в области раны; при пальпации: • нарушение целостности тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visibility_of_underlying_tissues",
+    "target": "symptom_tenderness_auricle_area",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • видимость подлежащих тканей; при пальпации: • болезненность в области ушной раковины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visibility_of_underlying_tissues",
+    "target": "symptom_integrity_violation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре: • видимость подлежащих тканей; при пальпации: • нарушение целостности тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_auricle_area",
+    "target": "symptom_integrity_violation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при пальпации: • болезненность в области ушной раковины; • нарушение целостности тканей",
+    "properties": {}
+  }
+]

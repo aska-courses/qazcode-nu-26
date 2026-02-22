@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "проявлениями заболевания служат диарея, дегидратация, электролитные нарушения и потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_k91_2",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "проявлениями заболевания служат диарея, дегидратация, электролитные нарушения и потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_k91_8",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "проявлениями заболевания служат диарея, дегидратация, электролитные нарушения и потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "проявлениями заболевания служат диарея, дегидратация, электролитные нарушения и потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_electrolyte_disorders",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "проявлениями заболевания служат диарея, дегидратация, электролитные нарушения и потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "проявлениями заболевания служат диарея, дегидратация, электролитные нарушения и потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nutrient_deficiencies",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "Клиническая картина ... включает ... нутритивные дефициты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_a_deficiency",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "Дефицит витамина А может приводить к нарушению зрения в ночное время (ксерофтальм)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypokalemia",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "Электролитные нарушения ... гипокалиемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malabsorption",
+    "target": "diagnosis_k90_9",
+    "type": "supports",
+    "weight": 0.7,
+    "evidence": "мальабсорбция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_fatty_stool",
+    "type": "co-occurs",
+    "weight": 0.6,
+    "evidence": "диарея, стул жирный, с неприятным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_gas",
+    "type": "co-occurs",
+    "weight": 0.6,
+    "evidence": "диарея, повышенное газообразование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_abdominal_rumbling",
+    "type": "co-occurs",
+    "weight": 0.6,
+    "evidence": "диарея, ... урчание в кишечнике",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "symptom_electrolyte_disorders",
+    "type": "co-occurs",
+    "weight": 0.6,
+    "evidence": "дегидратация и электролитные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_body_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.6,
+    "evidence": "потеря веса ... снижение массы тела",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k90_9",
+    "target": "diagnosis_k91_2",
+    "type": "appear-with",
+    "weight": 0.6,
+    "evidence": "Код(ы) МКБ-10, МКБ-11 ... K90.9 ... K91.2",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k90_9",
+    "target": "diagnosis_k91_8",
+    "type": "appear-with",
+    "weight": 0.6,
+    "evidence": "Код(ы) МКБ-10, МКБ-11 ... K90.9 ... K91.8",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k91_2",
+    "target": "diagnosis_k91_8",
+    "type": "appear-with",
+    "weight": 0.6,
+    "evidence": "Код(ы) МКБ-10, МКБ-11 ... K91.2 ... K91.8",
+    "properties": {}
+  }
+]

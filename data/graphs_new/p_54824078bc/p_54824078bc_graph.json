@@ -1,0 +1,490 @@
+{
+  "protocol_id": "p_54824078bc",
+  "nodes": [
+    {
+      "id": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования яичка",
+      "icd_code": "C62"
+    },
+    {
+      "id": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование неопустившегося яичка",
+      "icd_code": "C62.0"
+    },
+    {
+      "id": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование опущенного яичка",
+      "icd_code": "C62.1"
+    },
+    {
+      "id": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование яичка неуточненное",
+      "icd_code": "C62.9"
+    },
+    {
+      "id": "symptom_plotnaya_opukhol_v_moshonke",
+      "type": "symptom",
+      "label": "плотная опухоль в мошонке"
+    },
+    {
+      "id": "symptom_boleznennaya_opukhol_v_moshonke",
+      "type": "symptom",
+      "label": "болезненная опухоль в мошонке"
+    },
+    {
+      "id": "symptom_bol_v_poyasnitse",
+      "type": "symptom",
+      "label": "боль в пояснице"
+    },
+    {
+      "id": "symptom_krovokharkanie",
+      "type": "symptom",
+      "label": "кровохарканье"
+    },
+    {
+      "id": "symptom_kashl",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_ginekomastiya",
+      "type": "symptom",
+      "label": "гинекомастия (увеличение грудных желез)"
+    },
+    {
+      "id": "symptom_asimetriya_yaichek",
+      "type": "symptom",
+      "label": "асимметрия яичек"
+    },
+    {
+      "id": "symptom_otek_kozhi_moshonki",
+      "type": "symptom",
+      "label": "отек кожи мошонки"
+    },
+    {
+      "id": "symptom_ukreplenie_yaichka",
+      "type": "symptom",
+      "label": "увеличение яичка"
+    },
+    {
+      "id": "symptom_palpatsiya_obrazovaniya_yaichka",
+      "type": "symptom",
+      "label": "пальпация образования яичка"
+    },
+    {
+      "id": "symptom_boleznennyy_uchastok_pridatka",
+      "type": "symptom",
+      "label": "болезненный участок придатка"
+    },
+    {
+      "id": "symptom_otek_parenhimy_yaichka",
+      "type": "symptom",
+      "label": "отек паренхимы яичка"
+    },
+    {
+      "id": "symptom_vypot_v_obolochkah_yaichka",
+      "type": "symptom",
+      "label": "выпот в оболочках яичка"
+    },
+    {
+      "id": "symptom_lokalnoe_ukreplenie_pridatka",
+      "type": "symptom",
+      "label": "локальное увеличение придатка"
+    },
+    {
+      "id": "symptom_bol_v_yaichke",
+      "type": "symptom",
+      "label": "боль в яичке"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_plotnaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотной ... опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plotnaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотной ... опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plotnaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотной ... опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plotnaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плотной ... опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда болезненной опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда болезненной опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда болезненной опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennaya_opukhol_v_moshonke",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда болезненной опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_poyasnitse",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что вызывает сильную боль в пояснице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_poyasnitse",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что вызывает сильную боль в пояснице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_poyasnitse",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что вызывает сильную боль в пояснице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_poyasnitse",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что вызывает сильную боль в пояснице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovokharkanie",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к кровохарканью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovokharkanie",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к кровохарканью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovokharkanie",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к кровохарканью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovokharkanie",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к кровохарканью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к ... кашлю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к ... кашлю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к ... кашлю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "что приводит к ... кашлю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ginekomastiya",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда наблюдается гинекомастия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ginekomastiya",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда наблюдается гинекомастия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ginekomastiya",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда наблюдается гинекомастия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ginekomastiya",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда наблюдается гинекомастия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_yaichek",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Может быть асимметрия яичек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_yaichek",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Может быть асимметрия яичек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_yaichek",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Может быть асимметрия яичек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_yaichek",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Может быть асимметрия яичек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukreplenie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "за счет увеличения в размере пораженной стороны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukreplenie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "за счет увеличения в размере пораженной стороны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukreplenie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "за счет увеличения в размере пораженной стороны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukreplenie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "за счет увеличения в размере пораженной стороны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpatsiya_obrazovaniya_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда можно пропальпировать образование яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpatsiya_obrazovaniya_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда можно пропальпировать образование яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpatsiya_obrazovaniya_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда можно пропальпировать образование яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpatsiya_obrazovaniя_yaichка",
+      "target": "diagnosis_zlokach_novoобразование_yaichka_neutochnennoye",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иногда можно пропальпировать образование яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plotnaya_opukhol_v_moshonke",
+      "target": "symptom_boleznennaya_opukhol_v_moshonke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "плотной, иногда болезненной, опухоли в мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_poyasnitse",
+      "target": "symptom_krovokharkanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "что вызывает сильную боль в пояснице, и легкие, что приводит к кровохарканью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_poyasnitse",
+      "target": "symptom_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "что вызывает сильную боль в пояснице, и легкие, что приводит к ... кашлю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovokharkanie",
+      "target": "symptom_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "что приводит к кровохарканью и кашлю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_yaichek",
+      "target": "symptom_ukreplenie_yaichka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Может быть асимметрия яичек, за счет увеличения в размере пораженной стороны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukreplenie_yaichka",
+      "target": "symptom_palpatsiya_obrazovaniya_yaichka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "за счет увеличения в размере пораженной стороны. Иногда можно пропальпировать образование яичка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "С.62 Злокачественные новообразования яичка С62.0 Злокачественное новообразование неопустившегося яичка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "С.62 Злокачественные новообразования яичка С62.1 Злокачественное новообразование опущенного яичка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlokach_novoobrazovanie_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_yaichka_neutochnennoye",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "С.62 Злокачественные новообразования яичка С62.9 Злокачественное новообразование яичка неуточненное",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "target": "diagnosis_zlokach_novoobrazovanie_opushchenogo_yaichka",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "С62.0 Злокачественное новообразование неопустившегося яичка С62.1 Злокачественное новообразование опущенного яичка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlokach_novoobrazovanie_neopustivshegosya_yaichka",
+      "target": "diagnosis_zlokach_novoobразование_yaichka_neutochnennoye",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "С62.0 Злокачественное новообразование неопустившегося яичка С62.9 Злокачественное новообразование яичка неуточненное",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlokach_novoобразование_opushchenogo_yaichka",
+      "target": "diagnosis_zlokach_novoобразование_yaichka_neutochnennoye",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "С62.1 Злокачественное новообразование опущенного яичка С62.9 Злокачественное новообразование яичка неуточненное",
+      "properties": {}
+    }
+  ]
+}

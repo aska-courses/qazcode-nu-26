@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "периодическое появление припухлости в области железы во время приема пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение приема пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "периодическое появление ... «слюнной колики» в области слюнной железы во время приема пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "имеется увеличение пораженной слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "определяется уплотнение (камень) в области протока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение размеров слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипоэхогенность паренхимы слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие слюнного камня в паренхиме или протоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«акустической тени» на УЗИ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "очаг затенения в проекции железы на рентгенографии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение функции приема пищи, дыхания, речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "периодическое появление припухлости ... и «слюнной колики»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при бимануальной пальпации ... определяется уплотнение (камень); также отмечается увеличение пораженной слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличение размеров слюнной железы, гипоэхогенность паренхимы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_8",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличение размеров слюнной железы ... наличие слюнного камня в паренхиме или протоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "symptom_8",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипоэхогенность паренхимы ... наличие слюнного камня в паренхиме или протоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_9",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие слюнного камня ... и «акустической тени»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_10",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие слюнного камня ... очаг затенения на рентгенографии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_11",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение приема пищи ... нарушение функции приема пищи, дыхания, речи",
+    "properties": {}
+  }
+]

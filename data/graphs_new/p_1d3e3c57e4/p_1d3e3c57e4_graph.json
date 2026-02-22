@@ -1,0 +1,328 @@
+{
+  "protocol_id": "p_1d3e3c57e4",
+  "nodes": [
+    {
+      "id": "symptom_bol_i_pripuhlost_v_oblasti_uzla",
+      "type": "symptom",
+      "label": "Боль и припухлость в области пораженного узла"
+    },
+    {
+      "id": "symptom_nelovkost_pri_dvizhenii_golovy",
+      "type": "symptom",
+      "label": "Неловкость при движении головой"
+    },
+    {
+      "id": "symptom_bolnoe_otkryvanie_rta",
+      "type": "symptom",
+      "label": "Болезненное открывание рта"
+    },
+    {
+      "id": "symptom_bolnoi_sharik_pod_kozhey",
+      "type": "symptom",
+      "label": "Появление болезенного «шарика» под кожей"
+    },
+    {
+      "id": "symptom_giperemiya_kozhi",
+      "type": "symptom",
+      "label": "Гиперемия кожи"
+    },
+    {
+      "id": "symptom_bolzenost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Болезненность при пальпации"
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura_tela",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_predshestvuyushchie_travmy_limbozlov",
+      "type": "symptom",
+      "label": "Предшествующие травмы в области лимфоузлов"
+    },
+    {
+      "id": "symptom_vospaleniye_slizistoy_obolochki_polosti_rota",
+      "type": "symptom",
+      "label": "Воспаление слизистой оболочки полости рта"
+    },
+    {
+      "id": "symptom_operativnoe_vmeshatelstvo_udaleniye_zuba",
+      "type": "symptom",
+      "label": "Оперативное вмешательство (удаление зуба)"
+    },
+    {
+      "id": "symptom_ostroe_respiratornoe_zabolevanie",
+      "type": "symptom",
+      "label": "Острое респираторное заболевание"
+    },
+    {
+      "id": "symptom_tonzillit",
+      "type": "symptom",
+      "label": "Тонзиллит"
+    },
+    {
+      "id": "symptom_periodontit",
+      "type": "symptom",
+      "label": "Периодонтит"
+    },
+    {
+      "id": "symptom_periostit",
+      "type": "symptom",
+      "label": "Периостит"
+    },
+    {
+      "id": "symptom_osteomielit",
+      "type": "symptom",
+      "label": "Остеомиелит"
+    },
+    {
+      "id": "symptom_asimetriya_litsa_oteka_myagkikh_tkanei",
+      "type": "symptom",
+      "label": "Асимметрия лица за счет отека мягких тканей"
+    },
+    {
+      "id": "symptom_kozha_ne_izmnena_ili_giperemirovana",
+      "type": "symptom",
+      "label": "Кожа над узлом не изменена в цвете либо гиперемирована"
+    },
+    {
+      "id": "symptom_limb_uzel_podvizhnoy_bolnoi",
+      "type": "symptom",
+      "label": "Лимфатический узел подвижный, болезненный"
+    },
+    {
+      "id": "symptom_limb_uzel_okruglaya_ovalnaya_forma_2_3_sm",
+      "type": "symptom",
+      "label": "Лимфатический узел округлой или овальной формы, диаметр до 2‑3 см"
+    },
+    {
+      "id": "symptom_plotoelasticheskaya_konsistentsiya",
+      "type": "symptom",
+      "label": "Плотно‑эластическая консистенция узла"
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura_kozhi_nad_infiltiratom",
+      "type": "symptom",
+      "label": "Повышение температуры кожи над инфильтратом"
+    },
+    {
+      "id": "symptom_ogranicheniye_podvizhnosti_shyi",
+      "type": "symptom",
+      "label": "Ограничение подвижности шеи"
+    },
+    {
+      "id": "symptom_limb_uzel_ugolen_bezboleznoy",
+      "type": "symptom",
+      "label": "Лимфатический узел увеличен, подвижный, безболезненный"
+    },
+    {
+      "id": "symptom_limb_uzel_okruglaya_ovalnaya_forma_bolee_3_sm",
+      "type": "symptom",
+      "label": "Лимфатический узел округлой или овальной формы, диаметр более 3 см"
+    },
+    {
+      "id": "symptom_myagkoelasticheskaya_konsistentsiya",
+      "type": "symptom",
+      "label": "Мягко‑эластическая консистенция узла"
+    },
+    {
+      "id": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "diagnosis",
+      "label": "Острый лимфаденит лица, головы и шеи",
+      "icd_code": "L04.0"
+    },
+    {
+      "id": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "diagnosis",
+      "label": "Хронический лимфаденит, кроме брыжеечного",
+      "icd_code": "I88.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_i_pripuhlost_v_oblasti_uzla",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "боли и припухлость в области пораженного узла или группы узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nelovkost_pri_dvizhenii_golovy",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "неловкости при движении головой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolnoe_otkryvanie_rta",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "болезненное открывание рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolnoi_sharik_pod_kozhey",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "появление болезненного «шарика» под кожей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_kozhi",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "гиперемия кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolzenost_pri_palpatsii",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura_tela",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limb_uzel_podvizhnoy_bolnoi",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "лимфатический узел подвижный, болезненный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limb_uzel_okruglaya_ovalnaya_forma_2_3_sm",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "округлой или овальной формы, диаметром до 2‑3 см",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plotoelasticheskaya_konsistentsiya",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "плотно‑эластическая консистенция узла",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura_kozhi_nad_infiltiratom",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "повышение температуры кожи над инфильтратом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_litsa_oteka_myagkikh_tkanei",
+      "target": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "асимметрия лица за счет отека мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranicheniye_podvizhnosti_shyi",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "ограничение подвижности шеи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nelovkost_pri_dvizhenii_golovy",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "неловкости при движении головой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolnoi_sharik_pod_kozhey",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "появление болезненного «шарика» под кожей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limb_uzel_ugolen_bezboleznoy",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "лимфатический узел увеличен, подвижный, безболезненный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limb_uzel_okruglaya_ovalnaya_forma_bolee_3_sm",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "округлой или овальной формы, диаметр более 3 см",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myagkoelasticheskaya_konsistentsiya",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "мягко‑эластическая консистенция узла",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_i_pripuhlost_v_oblasti_uzla",
+      "target": "symptom_nelovkost_pri_dvizhenii_golovy",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "боли и припухлость в области пораженного узла ...; неловкости при движении головой; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_i_pripuhlost_v_oblasti_uzla",
+      "target": "symptom_bolnoe_otkryvanie_rta",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "боли и припухлость в области пораженного узла ...; болезненное открывание рта; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nelovkost_pri_dvizhenii_golovy",
+      "target": "symptom_bolnoi_sharik_pod_kozhey",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "неловкости при движении головой; появление болезненного «шарика» под кожей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nelovkost_pri_dvizhenii_golovy",
+      "target": "symptom_ogranicheniye_podvizhnosti_shyi",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "неловкости при движении головой; ограничение подвижности шеи",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_limfadenit_litsa_glavy_i_sheni",
+      "target": "diagnosis_hrochnyi_limfadenit_krome_bryzhechnogo",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: L04.0 Острый лимфаденит лица, головы и шеи; I88.1 Хронический лимфаденит, кроме брыжеечного.",
+      "properties": {}
+    }
+  ]
+}

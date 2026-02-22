@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одышка ... при появлении следующих жалоб: • Одышка ... при ТЭЛА",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в груди обычно вызывается раздражением плевры ... при центральной ТЭЛА боль в груди может иметь типичный характер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_predskop_obmorok",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "предсинкопе или обморок - при гемодинамической нестабильности, дисфункции ПЖ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovokharkanie",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotenzia",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стойкая гипотензия ... в критериях гемодинамической нестабильности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perifericheskaya_gipoperfuziya",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки периферической гипоперфузии ... могут свидетельствовать о ТЭЛА высокого риска",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odnostoronnyaya_bol_v_nizhney_konechnosti",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Односторонняя боль в нижней конечности ... в таблице 7 – Оценка клинической вероятности ТЭЛА по модифицированной Женевской шкале",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_nizhney_konechnosti",
+    "target": "diagnosis_i26",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек нижней конечности ... в таблице 7 – Оценка клинической вероятности ТЭЛА по модифицированной Женевской шкале",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i26_0",
+    "target": "diagnosis_i26_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: I26, I26.0, I26.9",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_bol_v_grudi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Одышка ... боль в груди ... при появлении следующих жалоб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_predskop_obmorok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Одышка ... предсинкопе или обморок ... при появлении следующих жалоб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_predskop_obmorok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль в груди ... предсинкопе или обморок ... при появлении следующих жалоб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odnostoronnyaya_bol_v_nizhney_konechnosti",
+    "target": "symptom_otek_nizhney_konechnosti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Односторонняя боль в нижней конечности ... отек нижней конечности ... в таблице 7",
+    "properties": {}
+  }
+]

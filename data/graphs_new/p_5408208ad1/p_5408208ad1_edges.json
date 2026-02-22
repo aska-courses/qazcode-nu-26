@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: • прогрессирующая одышка при нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashel",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: • кашель, непродуктивный",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudnoj_kletke",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: • боль в грудной клетке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krvokharkanie",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: • кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pnevmotoraks",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Анамнез: • рецидивирующие пневмотораксы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hilotoraкс",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Анамнез: • рецидивирующие хилотораксы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpiruemye_obrazovaniya",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • наличие пальпируемых образований в брюшной полости и малом тазу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_parestezii",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sindromy_sdavlivaniya",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • синдромы сдавливания внутренних органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznaki_dyhalnyj_nedostatochnosti",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • признаки дыхательной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznaki_legkoj_gipertenzii",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • признаки легочной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tsianoz",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при прогрессировании заболевания:  диффузный серо‑пепельный цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_takikardia",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при прогрессировании заболевания:  тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perifernye_oteki",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при прогрессировании заболевания:  периферические отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_desaturatsiya",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пульсоксиметрия: • прогрессирующая десатурация крови < 95%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hileznyj_aszit",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Хилезный асцит характерное для ЛАМ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoksemiya",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Исследование газов артериальной крови (гипоксемия, нормогиперкапния)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoksemiya_v_pokoe",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипоксемия в покое (SpO₂ < 88 % при дыхании комнатным воздухом)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoksemiya_pri_nagruzke",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипоксемия при физической нагрузке (SaO₂ < 90 % при 6‑минутной ходьбе)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperlipidemija",
+    "target": "diagnosis_lam",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Липидограмма (гиперхолестеринемия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_kashel",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • прогрессирующая одышка при нагрузке • кашель, непродуктивный",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudnoj_kletke",
+    "target": "symptom_krvokharkanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • боль в грудной клетке • кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pnevmotoraks",
+    "target": "symptom_hilotoraкс",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Анамнез: • рецидивирующие пневмотораксы • рецидивирующие хилотораксы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznaki_dyhalnyj_nedostatochnosti",
+    "target": "symptom_priznaki_legkoj_gipertenzii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • признаки дыхательной недостаточности • признаки легочной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tsianoz",
+    "target": "symptom_takikardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при прогрессировании заболевания:  диффузный серо‑пепельный цианоз  тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_takikardia",
+    "target": "symptom_perifernye_oteki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при прогрессировании заболевания:  тахикардия  периферические отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoksemiya_v_pokoe",
+    "target": "symptom_gipotoksemiya_pri_nagruzke",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипоксемия в покое (SpO₂ < 88 % ...) • гипоксемия при физической нагрузке (SaO₂ < 90 % ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoksemiya",
+    "target": "symptom_gipotoksemiya_v_pokoe",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Исследование газов артериальной крови (гипоксемия, ...) • гипоксемия в покое (SpO₂ < 88 % ...)",
+    "properties": {}
+  }
+]

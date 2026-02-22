@@ -1,0 +1,224 @@
+{
+  "protocol_id": "p_c8e8465910",
+  "nodes": [
+    {
+      "id": "diagnosis_e70_e90",
+      "type": "diagnosis",
+      "label": "Нарушения обмена веществ",
+      "icd_code": "E70-E90"
+    },
+    {
+      "id": "diagnosis_f84",
+      "type": "diagnosis",
+      "label": "Общие расстройства развития",
+      "icd_code": "F84"
+    },
+    {
+      "id": "diagnosis_f88",
+      "type": "diagnosis",
+      "label": "Другие расстройства психологического развития",
+      "icd_code": "F88"
+    },
+    {
+      "id": "diagnosis_f89",
+      "type": "diagnosis",
+      "label": "Неуточненное расстройство психологического развития",
+      "icd_code": "F89"
+    },
+    {
+      "id": "diagnosis_q81",
+      "type": "diagnosis",
+      "label": "Буллезный эпидермолиз",
+      "icd_code": "Q81"
+    },
+    {
+      "id": "diagnosis_q78_0",
+      "type": "diagnosis",
+      "label": "Незавершенный остеогенез",
+      "icd_code": "Q78.0"
+    },
+    {
+      "id": "diagnosis_q85_0",
+      "type": "diagnosis",
+      "label": "Нейрофиброматоз (незлокачественный)",
+      "icd_code": "Q85.0"
+    },
+    {
+      "id": "diagnosis_q85_1",
+      "type": "diagnosis",
+      "label": "Туберозный склероз",
+      "icd_code": "Q85.1"
+    },
+    {
+      "id": "diagnosis_g10_g14",
+      "type": "diagnosis",
+      "label": "Системные атрофии, поражающие преимущественно центральную нервную систему",
+      "icd_code": "G10-14"
+    },
+    {
+      "id": "diagnosis_g40",
+      "type": "diagnosis",
+      "label": "Эпилепсия",
+      "icd_code": "G40"
+    },
+    {
+      "id": "diagnosis_g60",
+      "type": "diagnosis",
+      "label": "Наследственная и идиопатическая невропатия",
+      "icd_code": "G60"
+    },
+    {
+      "id": "diagnosis_g70_g73",
+      "type": "diagnosis",
+      "label": "Болезни нервно-мышечного синапса и мышц",
+      "icd_code": "G70-73"
+    },
+    {
+      "id": "symptom_zaderzhka_psihomotornogo_razvitiya",
+      "type": "symptom",
+      "label": "Задержка психомоторного развития"
+    },
+    {
+      "id": "symptom_rasstroystva_autisticheskogo_spektra",
+      "type": "symptom",
+      "label": "Расстройства аутистического спектра"
+    },
+    {
+      "id": "symptom_nevrologicheskie_rasstroystva",
+      "type": "symptom",
+      "label": "Неврологические расстройства"
+    },
+    {
+      "id": "symptom_spinozcerbralnaya_ataksiya",
+      "type": "symptom",
+      "label": "Спиноцеребральная атаксия"
+    },
+    {
+      "id": "symptom_nerovno_myshechnye_zabolevaniya",
+      "type": "symptom",
+      "label": "Нервно-мышечные заболевания"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zaderzhka_psihomotornogo_razvitiya",
+      "target": "diagnosis_f84",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дети, с подозрением на наследственные заболевания, с задержкой психомоторного развития, расстройства аутистического спектра, неврологических расстройств",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasstroystva_autisticheskogo_spektra",
+      "target": "diagnosis_f84",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расстройства аутистического спектра",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_rasstroystva",
+      "target": "diagnosis_g40",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврологических расстройств (эпилепсия, спиноцеребральная атаксия, нервно-мышечные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_rasstroystva",
+      "target": "diagnosis_g70_g73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврологических расстройств (… нервно-мышечные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nerovno_myshechnye_zabolevaniya",
+      "target": "diagnosis_g70_g73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нервно-мышечные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spinozcerbalnaya_ataksiya",
+      "target": "diagnosis_g70_g73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спиноцеребральная атаксия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q85_0",
+      "target": "diagnosis_q85_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Нейрофиброматоз (незлокачественный) ... Туберозный склероз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q85_0",
+      "target": "diagnosis_q78_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "нейрофиброматоз ... незавершенный остеогенез",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q85_1",
+      "target": "diagnosis_q78_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Туберозный склероз ... незавершенный остеогенез",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f84",
+      "target": "diagnosis_f88",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F84 Общие расстройства развития F88 Другие расстройства психологического развития",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f84",
+      "target": "diagnosis_f89",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F84 ... F89 Неуточненное расстройство психологического развития",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f88",
+      "target": "diagnosis_f89",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F88 ... F89",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g40",
+      "target": "diagnosis_g70_g73",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Эпилепсия ... Болезни нервно-мышечного синапса и мышц",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g40",
+      "target": "diagnosis_g60",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Эпилепсия ... Наследственная и идиопатическая невропатия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g60",
+      "target": "diagnosis_g70_g73",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Наследственная и идиопатическая невропатия ... Болезни нервно-мышечного синапса и мышц",
+      "properties": {}
+    }
+  ]
+}

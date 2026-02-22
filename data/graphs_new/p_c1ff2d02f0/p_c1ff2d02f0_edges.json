@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_recidiviruushchie_nosovye_krovotecheniya",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующие носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotazheniya_na_kozhnye_pokrovy",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровоизлияния на кожных покровах (экхимозы, синяки)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petehialno_sinyachkovyi_tip_krovotochivosti",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "петехиально‑синячковый тип кровоточивости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontannye_krovotazheniya_iz_slizistykh_obolochok_polosti_rota",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "спонтанные кровотечения из слизистых оболочек полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_makrogematuriya",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "намного реже ... гематурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menorragii",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "меноррагии; обильные меноррагии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotazheniya_posle_stomatologicheskikh_i_hirurgicheskikh_vmeshatelstv",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечения после стоматологических и других хирургических вмешательств",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotazheniya_v_kruge_sustavov",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровоизлияния в крупные суставы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mikrotsirkulyatornyi_tip_krovotochivosti",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "микроциркуляторный тип кровоточивости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemartrozy",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "намного реже ... гемартрозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutricherepnyie_krovotazheniya",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "намного реже ... внутричерепные кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemiya",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "значительной анемизации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trombocitopeniya",
+    "target": "diagnosis_bolezn_villebrranda",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тромбоцитопения при типе IIB",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recidiviruushchie_nosovye_krovotecheniya",
+    "target": "symptom_krovotazheniya_na_kozhnye_pokrovy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рецидивирующие носовые кровотечения; кровоизлияния на кожных покровах (экхимозы, синяки)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recidiviruushchie_nosovye_krovotecheniya",
+    "target": "symptom_spontannye_krovotazheniya_iz_slizistykh_obolochok_polosti_rota",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рецидивирующие носовые кровотечения; спонтанные кровотечения из слизистых оболочек полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotazheniya_na_kozhnye_pokrovy",
+    "target": "symptom_petehialno_sinyachkovyi_tip_krovotochivosti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровоизлияния на кожных покровах (экхимозы, синяки); петехиально‑синячковый тип кровоточивости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menorragii",
+    "target": "symptom_anemiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обильные меноррагии, вызывающие значительную анемизацию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotazheniya_v_kruge_sustavov",
+    "target": "symptom_gemartrozy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровоизлияния в крупные суставы; гемартрозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_makrogematuriya",
+    "target": "symptom_zheludochno_kishechnye_krovotazheniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "намного реже ... гематурия; желудочно‑кишечные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutricherepnyie_krovotazheniya",
+    "target": "symptom_anemiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "внутричерепные кровоизлияния; значительная анемизация",
+    "properties": {}
+  }
+]

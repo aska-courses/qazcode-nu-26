@@ -1,0 +1,367 @@
+{
+  "protocol_id": "p_33e856f123",
+  "nodes": [
+    {
+      "id": "diagnosis_q72_0",
+      "type": "diagnosis",
+      "label": "Врожденное полное отсутствие нижней конечности",
+      "icd_code": "Q72.0"
+    },
+    {
+      "id": "diagnosis_q72_1",
+      "type": "diagnosis",
+      "label": "Врожденное отсутствие бедра и голени при наличии стопы",
+      "icd_code": "Q72.1"
+    },
+    {
+      "id": "diagnosis_q72_2",
+      "type": "diagnosis",
+      "label": "Врожденное отсутствие голени и стопы",
+      "icd_code": "Q72.2"
+    },
+    {
+      "id": "diagnosis_q72_3",
+      "type": "diagnosis",
+      "label": "Врожденное отсутствие стопы и пальцев стопы",
+      "icd_code": "Q72.3"
+    },
+    {
+      "id": "diagnosis_q72_4",
+      "type": "diagnosis",
+      "label": "Продольное укорочение бедренной кости",
+      "icd_code": "Q72.4"
+    },
+    {
+      "id": "diagnosis_q72_5",
+      "type": "diagnosis",
+      "label": "Продольное укорочение большеберцовой кости",
+      "icd_code": "Q72.5"
+    },
+    {
+      "id": "diagnosis_q72_6",
+      "type": "diagnosis",
+      "label": "Продольное укорочение малоберцовой кости",
+      "icd_code": "Q72.6"
+    },
+    {
+      "id": "diagnosis_q72_7",
+      "type": "diagnosis",
+      "label": "Врожденное расщепление стопы",
+      "icd_code": "Q72.7"
+    },
+    {
+      "id": "diagnosis_q72_8",
+      "type": "diagnosis",
+      "label": "Другие дефекты, укорачивающие нижнюю конечность",
+      "icd_code": "Q72.8"
+    },
+    {
+      "id": "diagnosis_q72_9",
+      "type": "diagnosis",
+      "label": "Дефект, укорачивающий нижнюю конечность неуточненный",
+      "icd_code": "Q72.9"
+    },
+    {
+      "id": "symptom_ukorochennie_nizhnih_konechnostey",
+      "type": "symptom",
+      "label": "Укорочение нижних конечностей",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_deformatsiya_nizhnih_konechnostey",
+      "type": "symptom",
+      "label": "Деформация нижних конечностей",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hromota",
+      "type": "symptom",
+      "label": "Хромота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nevozmozhnost_nagruzki",
+      "type": "symptom",
+      "label": "Невозможность выполнения нагрузки на нижнюю конечность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_atrofia_myshts",
+      "type": "symptom",
+      "label": "Атрофия мышц",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipotrofiya_myshts",
+      "type": "symptom",
+      "label": "Гипотрофия мышц",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_otstavanie_v_roste_konechnosti",
+      "type": "symptom",
+      "label": "Отставание в росте конечности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bol_v_oblasti_serdtsa",
+      "type": "symptom",
+      "label": "Боль в области сердца",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ogranichenie_dvizheniy",
+      "type": "symptom",
+      "label": "Ограничение движений",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_izmeneniya_EKG",
+      "type": "symptom",
+      "label": "Изменения на ЭКГ",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochennie_nizhnih_konechnostey",
+      "target": "diagnosis_q72_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_nizhnih_konechnostey",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_nagruzki",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствует возможность выполнения нагрузки на нижнюю конечность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atrofia_myshts",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышцы атрофичны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotrofiya_myshts",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышцы ... гипотрофичны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_v_roste_konechnosti",
+      "target": "diagnosis_q72_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание в росте конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_nizhnih_konechnostey",
+      "target": "symptom_nevozmozhnost_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отмечается осевая деформация вследствие чего отсутствует возможность выполнения нагрузки на нижнюю конечность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atrofia_myshts",
+      "target": "symptom_gipotrofiya_myshts",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "мышцы атрофичны/гипотрофичны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atrofia_myshts",
+      "target": "symptom_otstavanie_v_roste_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "мышцы атрофичны/гипотрофичны; отставание в росте конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "symptom_ukorochennie_nizhnih_konechnostey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: на укорочение, деформацию нижних конечностей, хромоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_serdtsa",
+      "target": "symptom_izmeneniya_EKG",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "консультация кардиолога (при болях в области сердца и наличии изменений на ЭКГ)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_0",
+      "target": "diagnosis_q72_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.0 ... Q72.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_1",
+      "target": "diagnosis_q72_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.1 ... Q72.2 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_2",
+      "target": "diagnosis_q72_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.2 ... Q72.3 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_3",
+      "target": "diagnosis_q72_4",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.3 ... Q72.4 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_4",
+      "target": "diagnosis_q72_5",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.4 ... Q72.5 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_5",
+      "target": "diagnosis_q72_6",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.5 ... Q72.6 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_6",
+      "target": "diagnosis_q72_7",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.6 ... Q72.7 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_7",
+      "target": "diagnosis_q72_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.7 ... Q72.8 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q72_8",
+      "target": "diagnosis_q72_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q72.8 ... Q72.9 ...",
+      "properties": {}
+    }
+  ]
+}

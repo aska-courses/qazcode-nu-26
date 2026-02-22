@@ -1,0 +1,234 @@
+{
+  "protocol_id": "p_9b6d48625c",
+  "nodes": [
+    {
+      "id": "symptom_strong_throat_pain",
+      "type": "symptom",
+      "label": "Сильная боль в горле"
+    },
+    {
+      "id": "symptom_ear_radiation",
+      "type": "symptom",
+      "label": "Боль с иррадиацией в ухо"
+    },
+    {
+      "id": "symptom_fever_38_40",
+      "type": "symptom",
+      "label": "Повышение температуры тела до 38-40°C"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_intoxication",
+      "type": "symptom",
+      "label": "Симптомы интоксикации"
+    },
+    {
+      "id": "symptom_hyper_salivation",
+      "type": "symptom",
+      "label": "Обильное слюнотечение"
+    },
+    {
+      "id": "symptom_trismus",
+      "type": "symptom",
+      "label": "Тризм жевательной мускулатуры"
+    },
+    {
+      "id": "symptom_nasality",
+      "type": "symptom",
+      "label": "Гнусавость"
+    },
+    {
+      "id": "symptom_regional_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличенные болезненные регионарные лимфоузлы (подчелюстные и шейные)"
+    },
+    {
+      "id": "diagnosis_peritonsillar_abscess",
+      "type": "diagnosis",
+      "label": "Перитонзиллярный абсцесс",
+      "icd_code": "J36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_strong_throat_pain",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_radiation",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "с иррадиацией в ухо",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_38_40",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела до 38-40°C",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyper_salivation",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обильное слюнотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trismus",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тризм жевательной мускулатуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasality",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнусавость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_regional_lymphadenopathy",
+      "target": "diagnosis_peritonsillar_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличеные и болезненные регионарные лимфоузлы (особенно подчелюстные и шейные)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_throat_pain",
+      "target": "symptom_ear_radiation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_throat_pain",
+      "target": "symptom_fever_38_40",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_throat_pain",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_throat_pain",
+      "target": "symptom_intoxication",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_radiation",
+      "target": "symptom_fever_38_40",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_radiation",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_radiation",
+      "target": "symptom_intoxication",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_38_40",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_38_40",
+      "target": "symptom_intoxication",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_intoxication",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в горле, ... с иррадиацией в ухо; повышение температуры тела до 38-40°C; головная боль; симптомы интоксикации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyper_salivation",
+      "target": "symptom_trismus",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Классическая триада паратонзиллярного абсцесса: обильное слюнотечение, тризм жевательной мускулатуры, гнусавость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyper_salivation",
+      "target": "symptom_nasality",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Классическая триада паратонзиллярного абсцесса: обильное слюнотечение, тризм жевательной мускулатуры, гнусавость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trismus",
+      "target": "symptom_nasality",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Классическая триада паратонзиллярного абсцесса: обильное слюнотечение, тризм жевательной мускулатуры, гнусавость.",
+      "properties": {}
+    }
+  ]
+}

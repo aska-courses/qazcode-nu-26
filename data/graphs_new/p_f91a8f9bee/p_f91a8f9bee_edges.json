@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кашель;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hoarseness",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Осиплость голоса;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_throat_pain_ear",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль в горле с иррадиацией в ухо;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Затруднённое дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_choking_liquids",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Поперхивание при приёме жидкой пищи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_cervical_lymph_nodes",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение шейных, надключичных, подключичных, подчелюстных, подбородочных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_true_vocal_cord_mobility",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ограничение подвижности ИГС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fixation_affected_larynx_half",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "фиксация поражённой половины гортани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narrowing_glottic_gap",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сужение голосовой щели",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_cervical_lymph_nodes",
+    "target": "diagnosis_c32",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пальпация увеличенных шейных лимфоузлов (>1 см, плотные, неподвижные, тугоподвижные, слабо болезненные)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_hoarseness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кашель; … Осиплость голоса;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_throat_pain_ear",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кашель; … Боль в горле с иррадиацией в ухо;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hoarseness",
+    "target": "symptom_throat_pain_ear",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Осиплость голоса; … Боль в горле с иррадиацией в ухо;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_choking_liquids",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Затруднённое дыхание; … Поперхивание при приёме жидкой пищи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_cervical_lymph_nodes",
+    "target": "symptom_palpable_cervical_lymph_nodes",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличение шейных … лимфоузлов; … пальпация увеличенных шейных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c32",
+    "target": "diagnosis_c32_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C32.0 Поражение собственно голосового аппарата",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c32",
+    "target": "diagnosis_c32_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C32.1 Поражение надсвязочного отдела гортани",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c32",
+    "target": "diagnosis_c32_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C32.2 Поражение подсвязочного отдела гортани",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c32",
+    "target": "diagnosis_c32_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C32.3 Поражение хрящей гортани",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c32",
+    "target": "diagnosis_c32_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C32.8 Поражение гортани, выходящее за пределы указанных локализаций",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c32",
+    "target": "diagnosis_c32_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C32.9 Поражение гортани неуточнённое",
+    "properties": {}
+  }
+]

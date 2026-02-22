@@ -1,0 +1,26 @@
+[
+  {
+    "source": "symptom_nestabilnost_plechovogo_sustava",
+    "target": "diagnosis_vyvih_plechovogo_sustava",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Хроническая передняя нестабильность плечевого сустава ... рецидивирующие, неоднократные вывихи головки плечевой кости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperpodvizhnost",
+    "target": "symptom_nestabilnost_plechovogo_sustava",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нестабильность в сочетании с гиперподвижностью",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_vyvih_plechovogo_sustava",
+    "target": "diagnosis_posledstvie_vyvika_rastjazhenija_deformacii_verhnej_konecnosti",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: S43.0 Вывих плечевого сустава T92.3 Последствие вывиха, растяжения и деформации верхней конечности",
+    "properties": {}
+  }
+]

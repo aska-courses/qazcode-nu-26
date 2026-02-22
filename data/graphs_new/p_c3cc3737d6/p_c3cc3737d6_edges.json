@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_inability_pass_nasogastric_tube",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Диагноз ставят при невозможности провести назогастральный зонд в желудок.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inability_pass_nasogastric_tube",
+    "target": "diagnosis_q39_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Диагноз ставят при невозможности провести назогастральный зонд в желудок.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inability_pass_nasogastric_tube",
+    "target": "diagnosis_q39_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Диагноз ставят при невозможности провести назогастральный зонд в желудок.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyhydramnios",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "многоводие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_gastric_visualization",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "отсутствие визуализации желудка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dilated_proximal_esophagus",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "визуализация расширенного проксимального сегмента пищевода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frothy_secretions",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "большое количество пенистых выделений изо рта и носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "можно выявить довольно отчетливые нарушения дыхания (аритмия, одышку) и цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "можно выявить довольно отчетливые нарушения дыхания (аритмия, одышку) и цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "можно выявить довольно отчетливые нарушения дыхания (аритмия, одышку) и цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_rales",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в легких определяется обильное количество влажных разнокалиберных хрипов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Вздутие живота указывает на имеющийся свищ между дистальным сегментом пищевода и дыхательными путями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metabolic_acidosis",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "анализ крови на электролиты – метаболический ацидоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_q39",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАК – лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушения дыхания (аритмия, одышку)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "symptom_cyanosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушения дыхания (аритмия, ... цианоз)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_cyanosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушения дыхания (аритмия, одышку) и цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metabolic_acidosis",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "анализ крови на электролиты – метаболический ацидоз, ОАК – лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyhydramnios",
+    "target": "symptom_absent_gastric_visualization",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "многоводие, отсутствие визуализации желудка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyhydramnios",
+    "target": "symptom_dilated_proximal_esophagus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "многоводие, визуализация расширенного проксимального сегмента пищевода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_gastric_visualization",
+    "target": "symptom_dilated_proximal_esophagus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие визуализации желудка, визуализация расширенного проксимального сегмента пищевода",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q39_0",
+    "target": "diagnosis_q39_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "три наиболее распространенных: атрезия пищевода и свищ..., изолированная атрезия пищевода без свища, трахео‑пищеводный свищ",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q39_0",
+    "target": "diagnosis_q39",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: Q 39 Врожденные аномалии пищевода; Q 39.0 Врожденная атрезия пищевода без свища",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q39_1",
+    "target": "diagnosis_q39",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: Q 39 Врожденные аномалии пищевода; Q 39.1 Врожденная атрезия пищевода с трахео‑пищеводным свищом",
+    "properties": {}
+  }
+]

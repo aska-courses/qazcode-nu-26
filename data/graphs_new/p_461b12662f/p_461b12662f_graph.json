@@ -1,0 +1,321 @@
+{
+  "protocol_id": "p_461b12662f",
+  "nodes": [
+    {
+      "id": "diagnosis_nefrobastoma",
+      "type": "diagnosis",
+      "label": "нефробластома (опухоль Вильмса)",
+      "icd_code": "C64"
+    },
+    {
+      "id": "symptom_bol_v_zhivote",
+      "type": "symptom",
+      "label": "боль в животе",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gematuria",
+      "type": "symptom",
+      "label": "гематурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lihoforadka",
+      "type": "symptom",
+      "label": "лихорадка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povysenie_arterialnogo_davleniya",
+      "type": "symptom",
+      "label": "повышение артериального давления",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zheludochno_kishechnye_rasstroystva",
+      "type": "symptom",
+      "label": "желудочно-кишечные расстройства",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_obshchee_nedomoganie",
+      "type": "symptom",
+      "label": "общее недомогание",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_uскорenie_soe",
+      "type": "symptom",
+      "label": "ускорение СОЭ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_proteinuriya",
+      "type": "symptom",
+      "label": "протеинурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_leukocyturia",
+      "type": "symptom",
+      "label": "лейкоцитурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povysenie_urovnya_mocheviny",
+      "type": "symptom",
+      "label": "повышенный уровень мочевины",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povysenie_kreatinina",
+      "type": "symptom",
+      "label": "повышенный уровень креатинина",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povysenie_sreaktivnogo_belka",
+      "type": "symptom",
+      "label": "повышенный С‑реактивный белок",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_giproteinemiya",
+      "type": "symptom",
+      "label": "гипопротеинемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_giperkalemiya",
+      "type": "symptom",
+      "label": "гиперкалиемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_giperurikemiya",
+      "type": "symptom",
+      "label": "гиперурикемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_giperfosfatemiya",
+      "type": "symptom",
+      "label": "гиперфосфатемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipokalsemiya",
+      "type": "symptom",
+      "label": "гипокальциемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_neutropeniya",
+      "type": "symptom",
+      "label": "нейтропения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_trrombocytopeniya",
+      "type": "symptom",
+      "label": "тромбоцитопения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pnevmoistnaya_pnevmoniya",
+      "type": "symptom",
+      "label": "пневмоцистная пневмония",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_infektsiya",
+      "type": "symptom",
+      "label": "инфекционное осложнение",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_zhivote",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Другими неспецифичными симптомами проявления заболевания являются ... боли в животе ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuria",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Другими неспецифичными симптомами проявления заболевания являются ... гематурия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihoforadka",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Другими неспецифичными симптомами проявления заболевания являются ... лихорадка.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysenie_arterialnogo_davleniya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Другими неспецифичными симптомами проявления заболевания являются ... повышение артериального давления.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheludochno_kishechnye_rasstroystva",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Другими неспецифичными симптомами проявления заболевания являются ... желудочно-кишечные расстройства.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchee_nedomoganie",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Другими неспецифичными симптомами проявления заболевания являются ... общее недомогание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК (развернутый)–возможна анемия, ускорение СОЭ;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uскорenie_soe",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК (развернутый)–возможна анемия, ускорение СОЭ;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuriya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАМ–возможна протеинурия, лейкоцитурия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАМ–возможна протеинурия, лейкоцитурия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysenie_urovnya_mocheviny",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Биохимический анализ: определение уровня мочевины ... (возможно повышение).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysenie_kreatinina",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Биохимический анализ: определение уровня креатинина ... (возможно повышение).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysenie_sreaktivnogo_belka",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Биохимический анализ: С‑реактивного белка (возможно повышение).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giproteinemiya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Биохимический анализ: общего белка (вероятна гипопротеинемия).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkalemiya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Синдром острого лизиса опухоли ... гиперкалиемия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperurikemia",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Синдром острого лизиса опухоли ... гиперурикемия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperfosfatemiya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Синдром острого лизиса опухоли ... гиперфосфатемия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipokalsemiya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Синдром острого лизиса опухоли ... гипокальциемия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutropeniya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Побочные эффекты химиотерапии: нейтропения, тромбоцитопения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trrombocytopeniya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Побочные эффекты химиотерапии: нейтропения, тромбоцитопения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pnevmoistnaya_pnevmoniya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Профилактика пневмоцистной пневмонии – при опухолях из группы высокого риска.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infektsiya",
+      "target": "diagnosis_nefrobastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Инфекционные осложнения являются основной причиной смерти больных в период проведения ПХТ.",
+      "properties": {}
+    }
+  ]
+}

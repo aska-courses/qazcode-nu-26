@@ -1,0 +1,408 @@
+{
+  "protocol_id": "p_ad17211bef",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_oblasti_plyushego_sustava",
+      "type": "symptom",
+      "label": "боль в области плечевого сустава"
+    },
+    {
+      "id": "symptom_narushenie_dvigatelnoi_funkcii_v_plyushevom_sustave",
+      "type": "symptom",
+      "label": "нарушение двигательной функции в плечевом суставе"
+    },
+    {
+      "id": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "type": "symptom",
+      "label": "вынужденное положение верхней конечности"
+    },
+    {
+      "id": "symptom_deformatsiya_plyushego_sustava",
+      "type": "symptom",
+      "label": "деформация плечевого сустава"
+    },
+    {
+      "id": "symptom_otek_v_oblasti_kljutsy",
+      "type": "symptom",
+      "label": "отёк в области ключицы"
+    },
+    {
+      "id": "symptom_ogranichenie_dvizhenii_v_plyushevom_sustave",
+      "type": "symptom",
+      "label": "ограничение активных и пассивных движений в плечевом суставе"
+    },
+    {
+      "id": "symptom_krovoizlianie_v_okruzhayushchikh_tkanyah",
+      "type": "symptom",
+      "label": "кровоизлияние в окружающие ткани в области плечевого сустава"
+    },
+    {
+      "id": "symptom_silnaya_bol_v_oblasti_kljutsy",
+      "type": "symptom",
+      "label": "сильная боль в области ключицы"
+    },
+    {
+      "id": "symptom_boleznennost_pri_oshe_nagruzke",
+      "type": "symptom",
+      "label": "болезненность при осевой нагрузке и движениях в области ключично‑грудинного и акромиально‑ключичного сустава"
+    },
+    {
+      "id": "symptom_pozitivnyj_simptom_klavishi",
+      "type": "symptom",
+      "label": "положительный симптом «клавиши»"
+    },
+    {
+      "id": "symptom_zapadenie_v_oblasti_kljutsno_grudinogo_soedinenija",
+      "type": "symptom",
+      "label": "западение в области ключично‑грудинного сочленения"
+    },
+    {
+      "id": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "diagnosis",
+      "label": "вывих акромиально-ключичного сустава",
+      "icd_code": "S43.1"
+    },
+    {
+      "id": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "diagnosis",
+      "label": "вывих грудино-ключичного сустава",
+      "icd_code": "S43.2"
+    },
+    {
+      "id": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "diagnosis",
+      "label": "вывих другой и неуточненной части плечевого пояса",
+      "icd_code": "S43.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_plyushego_sustava",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в области плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_plyushego_sustava",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в области плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_plyushego_sustava",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в области плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_v_plyushevom_sustave",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_v_plyushevom_sustave",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoi_funkcii_v_plyushevom_sustave",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_plyushego_sustava",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_plyushego_sustava",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_plyushego_sustava",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_kljutsy",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_kljutsy",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_kljutsy",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizhenii_v_plyushevom_sustave",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение активных и пассивных движений в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizhenii_v_plyushevom_sustave",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение активных и пассивных движений в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizhenii_v_plyushevom_sustave",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение активных и пассивных движений в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchikh_tkanyah",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchikh_tkanyah",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlianie_v_okruzhayushchikh_tkanyah",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_silnaya_bol_v_oblasti_kljutsy",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная боль в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_silnaya_bol_v_oblasti_kljutsy",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная боль в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_silnaya_bol_v_oblasti_kljutsy",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная боль в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshe_nagruzke",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях, в области ключично‑грудинного, акромиально‑ключичного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshe_nagruzke",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях, в области ключично‑грудинного, акромиально‑ключичного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshe_nagruzke",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях, в области ключично‑грудинного, акромиально‑ключичного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyj_simptom_klavishi",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "положителен симптом «клавиши»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyj_simptom_klavishi",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "положителен симптом «клавиши»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyj_simptom_klavishi",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "положителен симптом «клавиши»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapadenie_v_oblasti_kljutsno_grudinogo_soedinenija",
+      "target": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "западение в области ключично‑грудинного сочленения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapadenie_v_oblasti_kljutsno_grudinogo_soedinenija",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "западение в области ключично‑грудинного сочленения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapadenie_v_oblasti_kljutsno_grudinogo_soedinenija",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "западение в области ключично‑грудинного сочленения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_plyushego_sustava",
+      "target": "symptom_narushenie_dvigatelnoi_funkcii_v_plyushevom_sustave",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на боли в области плечевого сустава; нарушение двигательной функции в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_deformatsiya_plyushego_sustava",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности; деформация плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_kljutsy",
+      "target": "symptom_ogranichenie_dvizhenii_v_plyushevom_sustave",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек в области ключицы; ограничение активных и пассивных движений в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_silnaya_bol_v_oblasti_kljutsy",
+      "target": "symptom_boleznennost_pri_oshe_nagruzke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильная боль в области ключицы; болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyj_simptom_klavishi",
+      "target": "symptom_zapadenie_v_oblasti_kljutsno_grudinogo_soedinenija",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "положителен симптом «клавиши»; западение в области ключично‑грудинного сочленения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_vyvih_akromiialno_kljutsicheskogo_sustava",
+      "target": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) по МКБ-10: S43.1 Вывих акромиально-ключичного сустава S43.2 Вывих грудино-ключичного сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_vyvih_akромiialno_kljutsicheskogo_sustava",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) по МКБ-10: S43.1 Вывих акромиально-ключичного сустава S43.3 Вывих другой и неуточненной части плечевого пояса",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_vyvih_grudino_kljutsicheskogo_sustava",
+      "target": "diagnosis_vyvih_drugoi_i_neutochnennoi_chasti_plechevogo_pasja",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) по МКБ-10: S43.2 Вывих грудино-ключичного сустава S43.3 Вывих другой и неуточненной части плечевого пояса",
+      "properties": {}
+    }
+  ]
+}

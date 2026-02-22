@@ -1,0 +1,354 @@
+[
+  {
+    "source": "symptom_low_apgar_score",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "низкая оценка по шкале Апгар (<5 баллов на 5‑й минуте)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acidosis_ph_low",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рН <7,0",
+    "properties": {}
+  },
+  {
+    "source": "symptom_base_deficit_high",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дефицит оснований (ВЕ) – >16 ммоль/л",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multi_organ_failure",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "полиорганная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_respiratory_cardiac_depression",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тяжелое угнетение дыхательной и сердечной деятельности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_myocardial_contractility",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение сократимости миокарда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_hypotension",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тяжелая гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_passive_heart_chamber_expansion",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пассивное расширение полостей сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tricuspid_regurgitation",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "трикуспидальная регургитация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_pulmonary_hypertension",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тяжелая легочная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_renal_failure",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "олигурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyuria",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fluid_electrolyte_imbalance",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "водно‑электролитный дисбаланс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sluggish_intestinal_peristalsis",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вялая перистальтика кишечника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delayed_gastric_emptying",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "замедленное опорожнение желудка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_necrotizing_enterocolitis",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "некротизирующий энтероколит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Судороги (клинически выраженные)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_hypotonia",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Мышечная гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertonia",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипертонус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperreflexia",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гиперрефлексия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyporeflexia",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипорефлексия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myodriasis",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Мидриаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_miosis",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Миоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coma",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_altered_consciousness",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Угнетение сознания (до летаргического состояния)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pupil_reflex_abnormalities",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушения зрачкового рефлекса (мидриаз, отсутствие реакции)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_primitive_reflexes",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение безусловных рефлексов (Моро, сосательный)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_tendon_reflexes",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение сухожильных рефлексов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_need_mechanical_ventilation",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Необходимость в искусственной вентиляции легких (ИВЛ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_spo2",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Низкое насыщение крови кислородом (SpO2 <90 %)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_pao2",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Низкое парциальное давление кислорода в артериальной крови (PaO2 <45 mm Hg)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_distress_syndrome",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Респираторный дистресс‑синдром (РДС)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_hypoxia",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острая гипоксия плода в родах",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_asphyxia_newborn",
+    "target": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Тяжелая асфиксия при рождении ... приводит к гипоксической ишемической энцефалопатии новорожденных",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypoxic_ischemic_encephalopathy",
+    "target": "diagnosis_neonatal_cerebral_ischemia",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Гипоксическая ишемическая энцефалопатия новорожденных ... связана с неонатальной церебральной ишемией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_asphyxia_apgar_0_3",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "KD40.0 Асфиксия новорожденного с оценкой по шкале Апгар 0-3 через 5 мин.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_asphyxia_apgar_4_6",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "KD40.1 Асфиксия новорожденного с оценкой по шкале Апгар 4-6 через 5 мин.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cardiac_neurologic_suppression",
+    "target": "diagnosis_asphyxia_newborn",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "KD40.2 Угнетение сердечной и неврологической деятельности при рождении с сопутствующей метаболической кислотностью пуповинной крови",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_muscle_hypotonia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Судороги ... и мышечная гипотония упоминаются вместе в описании тяжёлой асфиксии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_respiratory_cardiac_depression",
+    "target": "symptom_renal_failure",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тяжелое угнетение дыхательной и сердечной деятельности ... часто сопровождается почечной недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sluggish_intestinal_peristalsis",
+    "target": "symptom_delayed_gastric_emptying",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "вялая перистальтика кишечника и замедленное опорожнение желудка",
+    "properties": {}
+  }
+]

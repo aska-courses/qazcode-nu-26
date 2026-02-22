@@ -1,0 +1,508 @@
+{
+  "protocol_id": "p_d584a78b25",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_faringit",
+      "type": "diagnosis",
+      "label": "Острый фарингит",
+      "icd_code": "J02"
+    },
+    {
+      "id": "diagnosis_hronicheskii_faringit",
+      "type": "diagnosis",
+      "label": "Хронический фарингит",
+      "icd_code": "J31.2"
+    },
+    {
+      "id": "symptom_nepriyatnye_oshushcheniya_v_nosoglotke",
+      "type": "symptom",
+      "label": "неприятные ощущения в носоглотке"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_sukhost_v_nosoglotke",
+      "type": "symptom",
+      "label": "сухость в носоглотке"
+    },
+    {
+      "id": "symptom_skoplenie_viskoi_slizi",
+      "type": "symptom",
+      "label": "скопление вязкой слизи"
+    },
+    {
+      "id": "symptom_pershenie",
+      "type": "symptom",
+      "label": "першение"
+    },
+    {
+      "id": "symptom_slabaia_bol_v_gorle",
+      "type": "symptom",
+      "label": "слабо выраженная боль в горле"
+    },
+    {
+      "id": "symptom_zalozhennost_v_ushah",
+      "type": "symptom",
+      "label": "заложенность в ушах"
+    },
+    {
+      "id": "symptom_bol_v_ushah",
+      "type": "symptom",
+      "label": "боль в ушах"
+    },
+    {
+      "id": "symptom_golovnaya_bol_v_zatylochei_oblasti",
+      "type": "symptom",
+      "label": "головная боль в затылочной области"
+    },
+    {
+      "id": "symptom_povyshenie_temperatury_u_detey",
+      "type": "symptom",
+      "label": "повышение температуры тела у детей"
+    },
+    {
+      "id": "symptom_gnusavost",
+      "type": "symptom",
+      "label": "гнусавость"
+    },
+    {
+      "id": "symptom_uvelichenie_regiona_linf_uzlov",
+      "type": "symptom",
+      "label": "увеличение региональных лимфатических узлов"
+    },
+    {
+      "id": "symptom_boleznennost_linf_uzlov_pri_palpatsii",
+      "type": "symptom",
+      "label": "болезненность лимфатических узлов при пальпации"
+    },
+    {
+      "id": "symptom_otechnost_slizistoy_obolochki_glotki",
+      "type": "symptom",
+      "label": "отёчность слизистой оболочки глотки"
+    },
+    {
+      "id": "symptom_infiltratsiya_slizistoy_obolochki_glotki",
+      "type": "symptom",
+      "label": "инфильтрация слизистой оболочки глотки"
+    },
+    {
+      "id": "symptom_yarkaya_giperemiya",
+      "type": "symptom",
+      "label": "яркая гиперемия"
+    },
+    {
+      "id": "symptom_injektsiya_suslov",
+      "type": "symptom",
+      "label": "инъекция сосудов"
+    },
+    {
+      "id": "symptom_slizistyi_otdelenii",
+      "type": "symptom",
+      "label": "слизистый отделяемый"
+    },
+    {
+      "id": "symptom_sukhost_i_blednost_slizistoy_obolochki_glotki",
+      "type": "symptom",
+      "label": "сухость и бледность слизистой оболочки глотки"
+    },
+    {
+      "id": "symptom_istinchennaya_slizistaya_obolochka",
+      "type": "symptom",
+      "label": "истончённая слизистая оболочка"
+    },
+    {
+      "id": "symptom_pokrytaia_viskoi_mokrotou",
+      "type": "symptom",
+      "label": "покрытая вязкой мокротой"
+    },
+    {
+      "id": "symptom_regiona_linfoadenit",
+      "type": "symptom",
+      "label": "региональный лимфоаденит"
+    },
+    {
+      "id": "symptom_oshushchenie_inostrannogo_tela_v_glotke",
+      "type": "symptom",
+      "label": "ощущение инородного тела в глотке"
+    },
+    {
+      "id": "symptom_oshushchenie_sukhosti_v_glotke",
+      "type": "symptom",
+      "label": "ощущение сухости в глотке"
+    },
+    {
+      "id": "symptom_zatrudnenie_glotaniya",
+      "type": "symptom",
+      "label": "затруднение глотания"
+    },
+    {
+      "id": "symptom_nepriyatnyi_zapakh_izo_rta",
+      "type": "symptom",
+      "label": "неприятный запах изо рта"
+    },
+    {
+      "id": "symptom_giperkkeratoz_na_limfoidnykh_obrazovaniyah",
+      "type": "symptom",
+      "label": "гиперкератоз на лимфоидных образованиях"
+    },
+    {
+      "id": "symptom_neuralgiya_jazykoglotchnogo_i_bluzhdayushchego_nervov",
+      "type": "symptom",
+      "label": "нейралгия языко‑глоточного и блуждающего нервов"
+    },
+    {
+      "id": "symptom_suhie_korki_v_glotke",
+      "type": "symptom",
+      "label": "сухие корки в глотке"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nepriyatnye_oshushcheniya_v_nosoglotke",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неприятные ощущения в носоглотке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepriyatnye_oshushcheniya_v_nosoglotke",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неприятные ощущения в носоглотке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_v_nosoglotke",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_v_nosoglotke",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skoplenie_viskoi_slizi",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нередко скопление вязкой слизи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skoplenie_viskoi_slizi",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нередко скопление вязкой слизи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pershenie",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "першение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pershenie",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "першение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabaia_bol_v_gorle",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда слабо выраженные боли в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabaia_bol_v_gorle",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда слабо выраженные боли в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zalozhennost_v_ushah",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "заложенность в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zalozhennost_v_ushah",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "заложенность в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_ushah",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_ushah",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol_v_zatylochei_oblasti",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль в затылочной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol_v_zatylochei_oblasti",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль в затылочной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury_u_detey",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела у детей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury_u_detey",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела у детей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnusavost",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнусавость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnusavost",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнусавость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_regiona_linf_uzlov",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение региональных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_regiona_linf_uzlov",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение региональных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_linf_uzlov_pri_palpatsii",
+      "target": "diagnosis_ostryi_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность лимфатических узлов при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_linf_uzlov_pri_palpatsii",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность лимфатических узлов при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_slizistoy_obolochki_glotki",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёчность слизистой оболочки глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_slizistoy_obolochki_glotki",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфильтрация слизистой оболочки глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yarkaya_giperemiya",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "яркая гиперемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_injektsiya_suslov",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инъекция сосудов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistyi_otdelenii",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слизистый отделяемый",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_i_blednost_slizistoy_obolochki_glotki",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и бледность слизистой оболочки глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_istinchennaya_slizistaya_obolochka",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "истончённая слизистая оболочка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrytaia_viskoi_mokrotou",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покрытая вязкой мокротой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshushchenie_sukhosti_v_glotke",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение сухости в глотке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnenie_glotaniya",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нередко затруднение глотания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepriyatnyi_zapakh_izo_rta",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто неприятный запах изо рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkkeratoz_na_limfoidnykh_obrazovaniyah",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкератоз на лимфоидных образованиях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshushchenie_inostrannogo_tela_v_glotke",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение инородного тела в глотке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepriyatnye_oshushcheniya_v_nosoglotke",
+      "target": "symptom_zhzhenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неприятные ощущения в носоглотке, жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "symptom_sukhost_v_nosoglotke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жжение, сухость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_v_nosoglotke",
+      "target": "symptom_skoplenie_viskoi_slizi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сухость, нередко скопление вязкой слизи",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_faringit",
+      "target": "diagnosis_hronicheskii_faringit",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острый и хронический фарингит",
+      "properties": {}
+    }
+  ]
+}

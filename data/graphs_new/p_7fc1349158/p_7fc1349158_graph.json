@@ -1,0 +1,189 @@
+{
+  "protocol_id": "p_7fc1349158",
+  "nodes": [
+    {
+      "id": "diagnosis_avm_cerebral",
+      "type": "diagnosis",
+      "label": "артериовенозный порок развития церебральных сосудов",
+      "icd_code": "Q28.2"
+    },
+    {
+      "id": "symptom_heart_failure",
+      "type": "symptom",
+      "label": "сердечная недостаточность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_macrocephaly",
+      "type": "symptom",
+      "label": "макроцефалия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hydrocephalus",
+      "type": "symptom",
+      "label": "гидроцефалия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_seizure",
+      "type": "symptom",
+      "label": "приступы судорог",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головные боли",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "рвота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_focal_neurologic_symptom",
+      "type": "symptom",
+      "label": "очаговая неврологическая симптоматика",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cerebrovascular_accident_history",
+      "type": "symptom",
+      "label": "ОНМК в анамнезе",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Специфическим клиническим проявлением АВМ у детей первых месяцев жизни является сердечная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macrocephaly",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Специфическим клиническим проявлением АВМ у детей первых месяцев жизни является макроцефалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hydrocephalus",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Специфическим клиническим проявлением АВМ у детей первых месяцев жизни является гидроцефалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Приступы судорог",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurologic_symptom",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Очаговая неврологическая симптоматика",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cerebrovascular_accident_history",
+      "target": "diagnosis_avm_cerebral",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: ОНМК в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "symptom_macrocephaly",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Специфическим клиническим проявлением АВМ ... является сердечная недостаточность, макроцефалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macrocephaly",
+      "target": "symptom_hydrocephalus",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Специфическим клиническим проявлением АВМ ... является макроцефалия, гидроцефалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Приступы судорог, Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Приступы судорог, Рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Головные боли, Рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurologic_symptom",
+      "target": "symptom_seizure",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Очаговая неврологическая симптоматика, Приступы судорог",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurologic_symptom",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: Очаговая неврологическая симптоматика, Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cerebrovascular_accident_history",
+      "target": "symptom_seizure",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы и анамнез: ОНМК в анамнезе, Приступы судорог",
+      "properties": {}
+    }
+  ]
+}

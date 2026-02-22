@@ -1,0 +1,413 @@
+{
+  "protocol_id": "p_558b326a5a",
+  "nodes": [
+    {
+      "id": "diagnosis_dyspepsia",
+      "type": "diagnosis",
+      "label": "Диспепсия",
+      "icd_code": "K30"
+    },
+    {
+      "id": "symptom_fullness_after_meal",
+      "type": "symptom",
+      "label": "чувство полноты после еды"
+    },
+    {
+      "id": "symptom_early_satiety",
+      "type": "symptom",
+      "label": "быстрая насыщаемость (раннее насыщение)"
+    },
+    {
+      "id": "symptom_abdominal_bloating",
+      "type": "symptom",
+      "label": "вздутие живота"
+    },
+    {
+      "id": "symptom_nausea_after_meal",
+      "type": "symptom",
+      "label": "тошнота после еды"
+    },
+    {
+      "id": "symptom_belching",
+      "type": "symptom",
+      "label": "отрыжка"
+    },
+    {
+      "id": "symptom_epigastric_pain",
+      "type": "symptom",
+      "label": "боль в эпигастрии"
+    },
+    {
+      "id": "symptom_heartburn",
+      "type": "symptom",
+      "label": "изжога"
+    },
+    {
+      "id": "symptom_periodic_pain",
+      "type": "symptom",
+      "label": "периодическая боль"
+    },
+    {
+      "id": "symptom_no_relief_after_defecation",
+      "type": "symptom",
+      "label": "отсутствие облегчения после дефекации или отхождения газов"
+    },
+    {
+      "id": "symptom_coated_tongue",
+      "type": "symptom",
+      "label": "обложенность языка"
+    },
+    {
+      "id": "symptom_epigastric_tenderness",
+      "type": "symptom",
+      "label": "болезненность при пальпации в эпигастрии"
+    },
+    {
+      "id": "symptom_umibilical_tenderness",
+      "type": "symptom",
+      "label": "болезненность при пальпации в области пупка"
+    },
+    {
+      "id": "symptom_pyloroduodenal_tenderness",
+      "type": "symptom",
+      "label": "болезненность при пальпации в пилородуоденальной зоне"
+    },
+    {
+      "id": "symptom_right_subcostal_tenderness",
+      "type": "symptom",
+      "label": "болезненность в правом подреберье"
+    },
+    {
+      "id": "symptom_left_subcostal_tenderness",
+      "type": "symptom",
+      "label": "болезненность в левом подреберье"
+    },
+    {
+      "id": "symptom_dyspeptic_manifestations",
+      "type": "symptom",
+      "label": "диспептические проявления"
+    },
+    {
+      "id": "symptom_autonomic_dystonia",
+      "type": "symptom",
+      "label": "синдром вегетативной дистонии"
+    },
+    {
+      "id": "symptom_palmar_plantar_hyperhidrosis",
+      "type": "symptom",
+      "label": "гипергидроз ладоней и стоп"
+    },
+    {
+      "id": "symptom_persistent_red_dermographism",
+      "type": "symptom",
+      "label": "стойкий красный дермографизм"
+    },
+    {
+      "id": "symptom_arterial_hypotension",
+      "type": "symptom",
+      "label": "артериальная гипотензия"
+    },
+    {
+      "id": "symptom_unexplained_weight_loss",
+      "type": "symptom",
+      "label": "необъяснимая потеря массы тела"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "дисфагия"
+    },
+    {
+      "id": "symptom_gastrointestinal_bleeding",
+      "type": "symptom",
+      "label": "кровотечения из ЖКТ"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fullness_after_meal",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство полноты после еды",
+      "properties": {}
+    },
+    {
+      "source": "symptom_early_satiety",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "быстрая насыщаемость (сытость)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_bloating",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_after_meal",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота после еды",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belching",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в эпигастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heartburn",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изжога",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periodic_pain",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "периодическая боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_no_relief_after_defecation",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие облегчения после дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coated_tongue",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обложенность языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_tenderness",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в эпигастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umibilical_tenderness",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в области пупка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pyloroduodenal_tenderness",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в пилородуоденальной зоне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_right_subcostal_tenderness",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_left_subcostal_tenderness",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в левом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspeptic_manifestations",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диспептические проявления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autonomic_dystonia",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром вегетативной дистонии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palmar_plantar_hyperhidrosis",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипергидроз ладоней и стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_persistent_red_dermographism",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стойкий красный дермографизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypotension",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unexplained_weight_loss",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "необъяснимая потеря массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastrointestinal_bleeding",
+      "target": "diagnosis_dyspepsia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечения из ЖКТ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fullness_after_meal",
+      "target": "symptom_early_satiety",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство полноты после еды ... быстрая насыщаемость (сытость)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fullness_after_meal",
+      "target": "symptom_abdominal_bloating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство полноты после еды, ... вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_after_meal",
+      "target": "symptom_belching",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошнота после еды; отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "symptom_heartburn",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль или изжога, локализованная в эпигастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "symptom_periodic_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль периодическая, жгучая, несвязанная с приемом пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heartburn",
+      "target": "symptom_no_relief_after_defecation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отсутствие облегчения после дефекации или отхождения газов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palmar_plantar_hyperhidrosis",
+      "target": "symptom_persistent_red_dermographism",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипергидроз ладоней и стоп, стойкий красный дермографизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palmar_plantar_hyperhidrosis",
+      "target": "symptom_arterial_hypotension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипергидроз ладоней и стоп, артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_tenderness",
+      "target": "symptom_umibilical_tenderness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в эпигастрии, в области пупка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_tenderness",
+      "target": "symptom_pyloroduodenal_tenderness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в эпигастрии, в пилородуоденальной зоне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_right_subcostal_tenderness",
+      "target": "symptom_left_subcostal_tenderness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность в правом подреберье, болезненность в левом подреберье",
+      "properties": {}
+    }
+  ]
+}

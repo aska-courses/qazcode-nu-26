@@ -1,0 +1,302 @@
+{
+  "protocol_id": "p_d77362d7ea",
+  "nodes": [
+    {
+      "id": "diagnosis_zlok_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование слезной железы и протока",
+      "icd_code": "C69.5"
+    },
+    {
+      "id": "diagnosis_zlok_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование глазницы",
+      "icd_code": "C69.6"
+    },
+    {
+      "id": "diagnosis_zlok_3",
+      "type": "diagnosis",
+      "label": "Поражения глаза и придаточного аппарата, выходящее за пределы одной и более вышеуказанных локализаций",
+      "icd_code": "C69.8"
+    },
+    {
+      "id": "symptom_otek_verhnego_veka",
+      "type": "symptom",
+      "label": "Отёк верхнего века"
+    },
+    {
+      "id": "symptom_ptoz",
+      "type": "symptom",
+      "label": "Птоз (опущение верхнего века)"
+    },
+    {
+      "id": "symptom_opuholovoe_obrazenie_v_orbite",
+      "type": "symptom",
+      "label": "Опухолевое образование в орбите"
+    },
+    {
+      "id": "symptom_narushenie_podvizhnosti_glaznogo_yabloka",
+      "type": "symptom",
+      "label": "Нарушение подвижности глазного яблока"
+    },
+    {
+      "id": "symptom_kosoglavie",
+      "type": "symptom",
+      "label": "Косоглазие"
+    },
+    {
+      "id": "symptom_pokrastnenie_glaznogo_yabloka",
+      "type": "symptom",
+      "label": "Покраснение глазного яблока"
+    },
+    {
+      "id": "symptom_ekzoftalm",
+      "type": "symptom",
+      "label": "Экзофтальм"
+    },
+    {
+      "id": "symptom_boli_v_glazu",
+      "type": "symptom",
+      "label": "Боли в глазу"
+    },
+    {
+      "id": "symptom_golovnye_boli",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_snizhenie_zreniya",
+      "type": "symptom",
+      "label": "Снижение зрения"
+    },
+    {
+      "id": "symptom_slepotа",
+      "type": "symptom",
+      "label": "Слепота"
+    },
+    {
+      "id": "symptom_kostnyy_defekt_visochnoi_stenki_orbity",
+      "type": "symptom",
+      "label": "Костный дефект височной стенки орбиты"
+    },
+    {
+      "id": "symptom_deformatsiya_lica",
+      "type": "symptom",
+      "label": "Деформация лица"
+    },
+    {
+      "id": "symptom_diplopiia",
+      "type": "symptom",
+      "label": "Диплопия"
+    },
+    {
+      "id": "symptom_chuvstvo_tyazhesti",
+      "type": "symptom",
+      "label": "Чувство тяжести"
+    },
+    {
+      "id": "symptom_boleznennost_pri_dvizhenii_glaznogo_yabloka",
+      "type": "symptom",
+      "label": "Болезненность при движении глазного яблока"
+    },
+    {
+      "id": "symptom_parestezii_v_oblasti_lica_i_golovi",
+      "type": "symptom",
+      "label": "Парестезии в области лица и головы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_otek_verhnego_veka",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее ранним и частым симптомом сарком орбиты является ... отек верхнего века.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diplopiia",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Первым симптомом может быть диплопия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tyazhesti",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дальнейшем появляются чувство тяжести, болезненность при движении глазного яблока, парестезии в области лица, головы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_dvizhenii_glaznogo_yabloka",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дальнейшем появляются чувство тяжести, болезненность при движении глазного яблока, парестезии в области лица, головы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parestezii_v_oblasti_lica_i_golovi",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дальнейшем появляются чувство тяжести, болезненность при движении глазного яблока, парестезии в области лица, головы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Выраженная стадия саркомы характеризуется экзофтальмом, смещением и ограничением подвижности глазного яблока.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_podvizhnosti_glaznogo_yabloka",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Выраженная стадия саркомы характеризуется экзофтальмом, смещением и ограничением подвижности глазного яблока.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kosoglavie",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Выраженная стадия саркомы характеризуется экзофтальмом, смещением и ограничением подвижности глазного яблока.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opuholovoe_obrazenie_v_orbite",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • появление опухолевого образования в орбите;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ptoz",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • опущение верхнего века (птоз);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrastnenie_glaznogo_yabloka",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • покраснение глазного яблока;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_glazu",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боли в глазу;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_zreniya",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • снижение зрения вплоть до слепоты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slepotа",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • снижение зрения вплоть до слепоты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyy_defekt_visochnoi_stenki_orbity",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • костный дефект височной стенки орбиты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_lica",
+      "target": "diagnosis_zlok_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: • деформация лица.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_verhnego_veka",
+      "target": "symptom_ptoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на отек (припухлость) верхнего века; • опущение верхнего века (птоз);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "symptom_kosoglavie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • экзофтальм (проптоз, протрузия); • косоглазие;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tyazhesti",
+      "target": "symptom_boleznennost_pri_dvizhenii_glaznogo_yabloka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в дальнейшем появляются чувство тяжести, болезненность при движении глазного яблока, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kosoglavie",
+      "target": "symptom_narushenie_podvizhnosti_glaznogo_yabloka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Выраженная стадия саркомы характеризуется экзофтальмом, смещением и ограничением подвижности глазного яблока; косоглазие.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlok_1",
+      "target": "diagnosis_zlok_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "С 69.5 Злокачественное новообразование слезной железы и протока С 69.6 Злокачественное новообразование глазницы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlok_1",
+      "target": "diagnosis_zlok_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "С 69.5 Злокачественное новообразование слезной железы и протока С 69.8 Поражения глаза и придаточного аппарата, выходящее за пределы...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zlok_2",
+      "target": "diagnosis_zlok_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "С 69.6 Злокачественное новообразование глазницы С 69.8 Поражения глаза и придаточного аппарата, выходящее за пределы...",
+      "properties": {}
+    }
+  ]
+}

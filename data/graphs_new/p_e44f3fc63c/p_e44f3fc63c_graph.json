@@ -1,0 +1,446 @@
+{
+  "protocol_id": "p_e44f3fc63c",
+  "nodes": [
+    {
+      "id": "symptom_frequent_gambling_episodes",
+      "type": "symptom",
+      "label": "Частые повторные эпизоды участия в азартных играх"
+    },
+    {
+      "id": "symptom_gambling_despite_losses",
+      "type": "symptom",
+      "label": "Участие в азартных играх несмотря на проигрыши"
+    },
+    {
+      "id": "symptom_absorption_without_time_control",
+      "type": "symptom",
+      "label": "Поглощённость игрой без контроля временных затрат"
+    },
+    {
+      "id": "symptom_gambling_value_over_morals",
+      "type": "symptom",
+      "label": "Ценность азартных игр ставится выше нравственных и семейных ценностей"
+    },
+    {
+      "id": "symptom_withdrawal_syndrome",
+      "type": "symptom",
+      "label": "Наличие абстинентного синдрома (синдром отмены)"
+    },
+    {
+      "id": "symptom_irritability_on_abstinence",
+      "type": "symptom",
+      "label": "Раздражительность при попытке прекратить игру"
+    },
+    {
+      "id": "symptom_mood_lowering",
+      "type": "symptom",
+      "label": "Болезненное понижение настроения (дисфория)"
+    },
+    {
+      "id": "symptom_progressive_personality_change",
+      "type": "symptom",
+      "label": "Прогрессирующие личностные изменения зависимости"
+    },
+    {
+      "id": "symptom_social_negative_consequences",
+      "type": "symptom",
+      "label": "Социальные негативные последствия (проблемы в семье, работе)"
+    },
+    {
+      "id": "symptom_discomfort_on_cessation",
+      "type": "symptom",
+      "label": "Психологический и физический дискомфорт при прекращении игры"
+    },
+    {
+      "id": "symptom_anxiety",
+      "type": "symptom",
+      "label": "Тревожность"
+    },
+    {
+      "id": "symptom_feeling_of_powerlessness",
+      "type": "symptom",
+      "label": "Чувство беспомощности"
+    },
+    {
+      "id": "symptom_guilt",
+      "type": "symptom",
+      "label": "Вина"
+    },
+    {
+      "id": "symptom_depression",
+      "type": "symptom",
+      "label": "Депрессия"
+    },
+    {
+      "id": "symptom_apathy",
+      "type": "symptom",
+      "label": "Апатия"
+    },
+    {
+      "id": "symptom_nausea_during_play",
+      "type": "symptom",
+      "label": "Тошнота во время игры"
+    },
+    {
+      "id": "symptom_headache_during_play",
+      "type": "symptom",
+      "label": "Головная боль во время игры"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Вялость"
+    },
+    {
+      "id": "symptom_chasing_losses",
+      "type": "symptom",
+      "label": "«Погоня» за потерями (стремление отыграться)"
+    },
+    {
+      "id": "symptom_financial_difficulties",
+      "type": "symptom",
+      "label": "Финансовые затруднения из‑за азартных игр"
+    },
+    {
+      "id": "symptom_untidy_appearance",
+      "type": "symptom",
+      "label": "Неопрятность внешнего вида"
+    },
+    {
+      "id": "symptom_lying_about_gambling",
+      "type": "symptom",
+      "label": "Лживость в общении о игре"
+    },
+    {
+      "id": "symptom_secretive_behavior",
+      "type": "symptom",
+      "label": "Скрытность поведения"
+    },
+    {
+      "id": "symptom_absenteeism",
+      "type": "symptom",
+      "label": "Регулярные прогулы учебы/работы"
+    },
+    {
+      "id": "symptom_devaluation_of_relationships",
+      "type": "symptom",
+      "label": "Обесценивание значимых отношений"
+    },
+    {
+      "id": "symptom_sleep_disturbance",
+      "type": "symptom",
+      "label": "Нарушения сна‑бодрствования"
+    },
+    {
+      "id": "symptom_academic_decline",
+      "type": "symptom",
+      "label": "Снижение успеваемости в школе/работе"
+    },
+    {
+      "id": "symptom_loss_of_interest",
+      "type": "symptom",
+      "label": "Утрата интереса к учёбе и привычным увлечениям"
+    },
+    {
+      "id": "symptom_debt_accumulation",
+      "type": "symptom",
+      "label": "Накопление долгов и финансовые проблемы"
+    },
+    {
+      "id": "diagnosis_pathological_gambling",
+      "type": "diagnosis",
+      "label": "Патологическое влечение к азартным играм",
+      "icd_code": "F63.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_frequent_gambling_episodes",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Частые повторные эпизоды участия в азартных играх",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gambling_despite_losses",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "систематическое участие в азартных играх, несмотря на проигрыши",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absorption_without_time_control",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "поглощенность игрой без контроля временных затрат",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gambling_value_over_morals",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ценность азартных игр ставится выше нравственных и семейных ценностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_withdrawal_syndrome",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наличие абстинентного синдрома (синдрома отмены)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irritability_on_abstinence",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "состояние раздражительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mood_lowering",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненного понижения настроения, дисфории",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressive_personality_change",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "личностные изменения зависимости с прогрессирующим характером",
+      "properties": {}
+    },
+    {
+      "source": "symptom_social_negative_consequences",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "социальные негативные последствия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_on_cessation",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психологического и физического дискомфорта при прекращении участия в азартных играх",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anxiety",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тревожность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeling_of_powerlessness",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство беспомощности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_guilt",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depression",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Депрессия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apathy",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Апатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_during_play",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота во время игры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache_during_play",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль во время игры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вялость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chasing_losses",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "«Погоня» за потерями (стремление отыграться)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_financial_difficulties",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Финансовые затруднения из‑за азартных игр",
+      "properties": {}
+    },
+    {
+      "source": "symptom_debt_accumulation",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "накопление долгов и финансовые проблемы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lying_about_gambling",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лживость в общении о игре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_secretive_behavior",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Скрытность поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absenteeism",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Регулярные прогулы учебы/работы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_devaluation_of_relationships",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Обесценивание значимых отношений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sleep_disturbance",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Нарушения сна‑бодрствования",
+      "properties": {}
+    },
+    {
+      "source": "symptom_academic_decline",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение успеваемости в школе/работе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_interest",
+      "target": "diagnosis_pathological_gambling",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утрата интереса к учёбе и привычным увлечениям",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anxiety",
+      "target": "symptom_guilt",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тревожность, ... вины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anxiety",
+      "target": "symptom_feeling_of_powerlessness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тревожность, чувство беспомощности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_guilt",
+      "target": "symptom_feeling_of_powerlessness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вины, чувство беспомощности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_during_play",
+      "target": "symptom_headache_during_play",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошнота во время игры; головная боль во время игры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_apathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Вялость; Апатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_financial_difficulties",
+      "target": "symptom_debt_accumulation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Финансовые затруднения из‑за азартных игр; накопление долгов и финансовые проблемы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lying_about_gambling",
+      "target": "symptom_secretive_behavior",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Лживость в общении о игре; Скрытность поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absenteeism",
+      "target": "symptom_academic_decline",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Регулярные прогулы учебы/работы; Снижение успеваемости в школе/работе",
+      "properties": {}
+    }
+  ]
+}

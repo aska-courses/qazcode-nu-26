@@ -1,0 +1,121 @@
+{
+  "protocol_id": "p_230520f19f",
+  "nodes": [
+    {
+      "id": "diagnosis_rak_predstatoy_zheli",
+      "type": "diagnosis",
+      "label": "Рак предстательной железы",
+      "icd_code": "C61"
+    },
+    {
+      "id": "symptom_nederganie_mochi",
+      "type": "symptom",
+      "label": "Недержание мочи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zaderzhka_mocheispuskaniya",
+      "type": "symptom",
+      "label": "Задержка мочеиспускания",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_rektalnye_oskoll",
+      "type": "symptom",
+      "label": "Ректальные осложнения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_erekt_dysf",
+      "type": "symptom",
+      "label": "Эректильная дисфункция",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ostryi_prostatit",
+      "type": "symptom",
+      "label": "Острый простатит",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_infravezikalnaya_obstrukciya",
+      "type": "symptom",
+      "label": "Инфравезикальная обструкция",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ostatocnaia_mochi",
+      "type": "symptom",
+      "label": "Остаточная моча в мочевом пузыре (>100 мл)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_luchevye_proktity_ii",
+      "type": "symptom",
+      "label": "Лучевые проктиты II степени",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_luchevye_proktity_iii",
+      "type": "symptom",
+      "label": "Лучевые проктиты III степени",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_urologicheskie_oskoll",
+      "type": "symptom",
+      "label": "Урологические осложнения",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nederganie_mochi",
+      "target": "symptom_zaderzhka_mocheispuskaniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Урологические осложнения до 34% (задержка мочеиспускания (1,5–22%), недержание мочи (0–19%)).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rektalnye_oskoll",
+      "target": "symptom_luchevye_proktity_ii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Лучевые проктиты II и III степени (до 5–21% пациентов).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rektalnye_oskoll",
+      "target": "symptom_luchevye_proktity_iii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Лучевые проктиты II и III степени (до 5–21% пациентов).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urologicheskie_oskoll",
+      "target": "symptom_erekt_dysf",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Урологические осложнения до 34% ...; Эректильная дисфункция (до 16,7% больных в период от 3 до 5 лет после лечения).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urologicheskie_oskoll",
+      "target": "symptom_nederganie_mochi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Урологические осложнения до 34% (задержка мочеиспускания (1,5–22%), недержание мочи (0–19%)).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urologicheskie_oskoll",
+      "target": "symptom_zaderzhka_mocheispuskaniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Урологические осложнения до 34% (задержка мочеиспускания (1,5–22%), недержание мочи (0–19%)).",
+      "properties": {}
+    }
+  ]
+}

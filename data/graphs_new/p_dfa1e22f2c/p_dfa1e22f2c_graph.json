@@ -1,0 +1,330 @@
+{
+  "protocol_id": "p_dfa1e22f2c",
+  "nodes": [
+    {
+      "id": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "diagnosis",
+      "label": "нейрогенная дисфункция мочевого пузыря",
+      "icd_code": "N31.2"
+    },
+    {
+      "id": "symptom_night_incontinence",
+      "type": "symptom",
+      "label": "ночное недержание мочи"
+    },
+    {
+      "id": "symptom_rare_urination",
+      "type": "symptom",
+      "label": "редкое мочеиспускание"
+    },
+    {
+      "id": "symptom_frequent_urination",
+      "type": "symptom",
+      "label": "частое мочеиспускание"
+    },
+    {
+      "id": "symptom_bladder_pain",
+      "type": "symptom",
+      "label": "боли в области мочевого пузыря"
+    },
+    {
+      "id": "symptom_dysuria",
+      "type": "symptom",
+      "label": "дизурия"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "ускоренное СОЭ"
+    },
+    {
+      "id": "symptom_bacteriuria",
+      "type": "symptom",
+      "label": "бактериурия"
+    },
+    {
+      "id": "symptom_leukocyturia",
+      "type": "symptom",
+      "label": "лейкоцитурия"
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "эритроцитурия"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "протеинурия"
+    },
+    {
+      "id": "symptom_bladder_wall_thickening",
+      "type": "symptom",
+      "label": "утолщение стенки мочевого пузыря"
+    },
+    {
+      "id": "symptom_inflammatory_sediment",
+      "type": "symptom",
+      "label": "воспалительная взвесь"
+    },
+    {
+      "id": "symptom_residual_urine_volume",
+      "type": "symptom",
+      "label": "остаточный объём мочи"
+    },
+    {
+      "id": "symptom_tower_bladder_shape",
+      "type": "symptom",
+      "label": "«башенный пузырь»"
+    },
+    {
+      "id": "symptom_irregular_bladder_contours",
+      "type": "symptom",
+      "label": "нечеткие контуры мочевого пузыря"
+    },
+    {
+      "id": "symptom_cloudy_residual_urine",
+      "type": "symptom",
+      "label": "мутная остаточная моча"
+    },
+    {
+      "id": "symptom_vascular_dilation",
+      "type": "symptom",
+      "label": "расширение сосудов"
+    },
+    {
+      "id": "symptom_hemorrhage",
+      "type": "symptom",
+      "label": "кровоизлияния"
+    },
+    {
+      "id": "symptom_mucosal_erosions",
+      "type": "symptom",
+      "label": "эрозии слизистой"
+    },
+    {
+      "id": "symptom_mucosal_folding",
+      "type": "symptom",
+      "label": "складчатость слизистой"
+    },
+    {
+      "id": "symptom_increased_intravesical_pressure",
+      "type": "symptom",
+      "label": "повышенное внутрипузырное давление"
+    },
+    {
+      "id": "symptom_decreased_uroflowmetry_segments",
+      "type": "symptom",
+      "label": "снижение восходящего и нисходящего сегментов урофлоуметрии"
+    },
+    {
+      "id": "symptom_reduced_urine_flow_rate",
+      "type": "symptom",
+      "label": "падение объемной скорости кровотока мочи"
+    },
+    {
+      "id": "symptom_prolonged_voiding_time",
+      "type": "symptom",
+      "label": "увеличение времени мочеиспускания"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_night_incontinence",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ночное недержание мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rare_urination",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "редкое ... мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_frequent_urination",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частое ... мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bladder_pain",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли в области мочевого пузыря",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bacteriuria",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эритроцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bladder_wall_thickening",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "утолщение стенки мочевого пузыря",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inflammatory_sediment",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "воспалительная взвесь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tower_bladder_shape",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "«башенный пузырь»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irregular_bladder_contours",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нечеткие контуры мочевого пузыря",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cloudy_residual_urine",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "мутная остаточная моча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vascular_dilation",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "расширение сосудов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhage",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_erosions",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эрозии слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_folding",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "складчатость слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_intravesical_pressure",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенное внутрипузырное давление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_uroflowmetry_segments",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение восходящего и нисходящего сегментов урофлоуметрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_urine_flow_rate",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "падение объемной скорости кровотока мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_prolonged_voiding_time",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение времени мочеиспускания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_residual_urine_volume",
+      "target": "diagnosis_neurogenic_bladder_dysfunction",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "остаточный объём мочевого пузыря",
+      "properties": {}
+    }
+  ]
+}

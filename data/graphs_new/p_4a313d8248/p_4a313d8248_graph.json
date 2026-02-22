@@ -1,0 +1,358 @@
+{
+  "protocol_id": "p_4a313d8248",
+  "nodes": [
+    {
+      "id": "diagnosis_scarlet_fever",
+      "type": "diagnosis",
+      "label": "Скарлатина",
+      "icd_code": "A38"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_sore_throat",
+      "type": "symptom",
+      "label": "Боль в горле"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_weakness_fatigue",
+      "type": "symptom",
+      "label": "Слабость, вялость, недомогание"
+    },
+    {
+      "id": "symptom_skin_rash",
+      "type": "symptom",
+      "label": "Высыпания на коже"
+    },
+    {
+      "id": "symptom_intoxication_syndrome",
+      "type": "symptom",
+      "label": "Интоксикационный синдром"
+    },
+    {
+      "id": "symptom_angina",
+      "type": "symptom",
+      "label": "Ангина"
+    },
+    {
+      "id": "symptom_regional_lymphadenitis",
+      "type": "symptom",
+      "label": "Регионарный лимфаденит"
+    },
+    {
+      "id": "symptom_maculopapular_rash",
+      "type": "symptom",
+      "label": "Мелкоточечная сыпь"
+    },
+    {
+      "id": "symptom_papulovesicular_rash",
+      "type": "symptom",
+      "label": "Пятнисто‑папулезная сыпь"
+    },
+    {
+      "id": "symptom_hemorrhagic_rash",
+      "type": "symptom",
+      "label": "Геморрагическая сыпь"
+    },
+    {
+      "id": "symptom_cyanotic_rash",
+      "type": "symptom",
+      "label": "Цианотичная сыпь"
+    },
+    {
+      "id": "symptom_skin_desquamation",
+      "type": "symptom",
+      "label": "Шелушение кожи"
+    },
+    {
+      "id": "symptom_pastia_sign",
+      "type": "symptom",
+      "label": "Симптом Пастиа"
+    },
+    {
+      "id": "symptom_rumpel_leede_sign",
+      "type": "symptom",
+      "label": "Симптом Румпель‑Лееда и Кончаловского"
+    },
+    {
+      "id": "symptom_strawberry_tongue",
+      "type": "symptom",
+      "label": "Симптом «малиновый язык»"
+    },
+    {
+      "id": "symptom_white_dermographism",
+      "type": "symptom",
+      "label": "Симптом «белый дермографизм»"
+    },
+    {
+      "id": "symptom_scarlet_heart",
+      "type": "symptom",
+      "label": "Симптом «скарлатинозное сердце»"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "Брадикардия"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_petechiae",
+      "type": "symptom",
+      "label": "Петехии"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии: • повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sore_throat",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии: • боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии: • головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness_fatigue",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии: • слабость, вялость, недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_rash",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Диагностические критерии: • высыпания на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication_syndrome",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: интоксикационный синдром (головная боль, тошнота, рвота, повышение температуры тела)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_angina",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: ангина – постоянный симптом типичной скарлатины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_regional_lymphadenitis",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: синдром регионарного лимфаденита (увеличение подчелюстных, углочелюстных лимфоузлов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maculopapular_rash",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Сыпь при скарлатине ... мелкоточечная, расположена на гиперемированном фоне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papulovesicular_rash",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При тяжелых формах скарлатины сыпь может быть ... пятнисто‑папулезной",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_rash",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При тяжелых формах скарлатины сыпь может быть ... геморрагической",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanotic_rash",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При тяжелых формах скарлатины сыпь может быть ... цианотичный вид",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_desquamation",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "После исчезновения сыпи наблюдается шелушение кожи ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pastia_sign",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симптом Пастиа – темно‑красная или буроватая окраска кожных складок ... при скарлатине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rumpel_leede_sign",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симптом Румпель‑Лееда и Кончаловского – при механическом воздействии на коже появляются петехии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strawberry_tongue",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симптом «малиновый язык» – язык становится ярко‑красного цвета, что делает его похожим на ягоду малины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_white_dermographism",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симптом «белый дермографизм» – ... проявляется повышением тонуса симпатической нервной системы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scarlet_heart",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симптом «скарлатинозное сердце» – изменения со стороны сердца при скарлатине развиваются чаще всего на 2‑й неделе заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симптом «скарлатинозное сердце» ... склонностью к брадикардии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Гипертоксические формы ... могут привести к судорогам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petechiae",
+      "target": "diagnosis_scarlet_fever",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "иногда наряду с мелкоточечной сыпью имеют место мелкие петехиальные элементы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_sore_throat",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Диагностические критерии: • повышение температуры тела; • боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Диагностические критерии: • повышение температуры тела; • головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sore_throat",
+      "target": "symptom_angina",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез: • боль в горле (ангина)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_rash",
+      "target": "symptom_skin_desquamation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "После исчезновения сыпи наблюдается шелушение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication_syndrome",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "интоксикационный синдром (головная боль, тошнота, рвота, повышение температуры тела)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_scarlet_heart",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом «скарлатинозное сердце» ... склонностью к брадикардии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "symptom_intoxication_syndrome",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Гипертоксические формы ... могут привести к судорогам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pastia_sign",
+      "target": "symptom_skin_rash",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом Пастиа – темно‑красная ... при скарлатине в периоде высыпания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rumpel_leede_sign",
+      "target": "symptom_petechiae",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом Румпель‑Лееда ... при механическом воздействии на коже появляются петехии",
+      "properties": {}
+    }
+  ]
+}

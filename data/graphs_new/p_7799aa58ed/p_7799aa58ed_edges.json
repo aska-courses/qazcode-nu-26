@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_bol_kolennogo_sustava",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на сильную боль, сопровождающуюся отеком, ощущение провала и нестабильности в коленном суставе, ограничение объёма движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_kolennogo_sustava",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на сильную боль, сопровождающуюся отеком, ощущение провала и нестабильности в коленном суставе, ограничение объёма движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemartroz_kolennogo_sustava",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гемартроз коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_obema_dvizheniy_kolennogo_sustava",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение объёма движений в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oshchushchenie_provala_i_nestabilnosti",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущение провала и нестабильности в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_balotirovanie_nadkolennika",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом «баллотирования надколенника»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_nestabilnost_pri_testah",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "патологическая нестабильность при проведении теста переднего и заднего выдвижного ящика",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_kolennogo_sustava",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на сильную боль, сопровождающуюся отеком, ощущение провала и нестабильности в коленном суставе, ограничение объёма движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_kolennogo_sustava",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на сильную боль, сопровождающуюся отеком, ощущение провала и нестабильности в коленном суставе, ограничение объёма движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemartroz_kolennogo_sustava",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гемартроз коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_obema_dvizheniy_kolennogo_sustava",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение объёма движений в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oshchushchenie_provala_i_nestabilnosti",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущение провала и нестабильности в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_balotirovanie_nadkolennika",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом «баллотирования надколенника»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_nestabilnost_pri_testah",
+    "target": "diagnosis_s83_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "патологическая нестабильность при проведении теста переднего и заднего выдвижного ящика",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_kolennogo_sustava",
+    "target": "symptom_otek_kolennogo_sustava",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на сильную боль, сопровождающуюся отеком",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_kolennogo_sustava",
+    "target": "symptom_oshchushchenie_provala_i_nestabilnosti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на сильную боль, сопровождающуюся ... ощущение провала и нестабильности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_kolennogo_sustava",
+    "target": "symptom_oshchushchenie_provala_i_nestabilnosti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отеком, ощущение провала и нестабильности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemartroz_kolennogo_sustava",
+    "target": "symptom_balotirovanie_nadkolennika",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при осмотре отмечается: • гемартроз коленного сустава; • ... положительный симптом «баллотирования надколенника»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_nestabilnost_pri_testah",
+    "target": "symptom_balotirovanie_nadkolennika",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при пальпации отмечается: ... положительный симптом «баллотирования надколенника»; ... патологическая нестабильность при тесте",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s83_5",
+    "target": "diagnosis_s83_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) по МКБ-10: S83.5 ... S83.7 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s83_5",
+    "target": "diagnosis_t93_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: S83.5 ... T93.3 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s83_7",
+    "target": "diagnosis_t93_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: S83.7 ... T93.3 ...",
+    "properties": {}
+  }
+]

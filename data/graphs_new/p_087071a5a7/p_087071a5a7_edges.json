@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "включают диарею (или запор при проктите)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constipation",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "включают диарею (или запор при проктите)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rectal_bleeding",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "включают ... ректальное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenescence",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "включают ... тенезмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urge",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "включают ... позывы к дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_incontinence",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "включают ... недержание кала",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nocturnal_defecation",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Часто сообщается о ночном дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Часто сообщается о ... утомляемости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Учащение диареи, боль в животе, анорексия и лихорадка указывают на тяжелый колит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anorexia",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Учащение диареи, боль в животе, анорексия и лихорадка указывают на тяжелый колит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Учащение диареи, боль в животе, анорексия и лихорадка указывают на тяжелый колит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nocturnal_defecation",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Часто сообщается о ночном дефекации и утомляемости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_anorexia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Учащение диареи, боль в животе, анорексия и лихорадка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Учащение диареи, боль в животе, анорексия и лихорадка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anorexia",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Учащение диареи, боль в животе, анорексия и лихорадка...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pseudopolyposis_colon",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Псевдополипы ... часто встречаются при ЯК",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ulcerative_proctitis",
+    "target": "diagnosis_ulcerative_rectosigmoiditis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "проктит ... ректосигмоидит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ulcerative_rectosigmoiditis",
+    "target": "diagnosis_ulcerative_ileocolitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "ректосигмоидит ... илеоколит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ulcerative_ileocolitis",
+    "target": "diagnosis_ulcerative_enterocolitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "илеоколит ... энтероколит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ulcerative_enterocolitis",
+    "target": "diagnosis_ulcerative_colitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: K51.0 Язвенный (хронический) энтероколит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ulcerative_colitis",
+    "target": "diagnosis_other_ulcerative_colitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Другие язвенные колиты",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ulcerative_colitis",
+    "target": "diagnosis_unspecified_ulcerative_colitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "язвенный колит неуточненный",
+    "properties": {}
+  }
+]

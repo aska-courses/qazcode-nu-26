@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Одышка … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_takhikardia_fizicheskaya_nagruzka",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия при физической нагрузке … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ortopnoe",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ортопноэ … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facies_mitralis",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Синюшно‑розовый румянец на щеках (facies mitralis) … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfonia",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Дисфония (синдром Ортнера) … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_v_grudi",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боли в груди … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_legkikh",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отёк лёгких … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovokharkanie",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровохарканье … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroksizm_night_odyshka",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Пароксизмальная ночная одышка … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_tolerantnosti_fiz_nagruzok",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение толерантности к физическим нагрузкам … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слабость … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utomlenie",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Утомляемость … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_apetita",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение аппетита … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_serdtsebienie",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Сердцебиение … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pereboi_v_rabote_serdtsa",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Перебои в работе сердца … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznaki_insulta",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки перенесённого инсульта … типичные симптомы поражения митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_takhikardia_fizicheskaya_nagruzka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка; тахикардия при физической нагрузке. Анамнез.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_ortopnoe",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Ортопноэ … в таблице симптомов и признаков стеноза митрального клапана",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_facies_mitralis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Синюшно‑розовый румянец на щеках (facies mitralis) … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_disfonia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Дисфония (синдром Ортнера) … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_boli_v_grudi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Боли в груди … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_otek_legkikh",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Отёк лёгких … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_krovokharkanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Кровохарканье … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_paroksizm_night_odyshka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Пароксизмальная ночная одышка … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_snizhenie_tolerantnosti_fiz_nagruzok",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Снижение толерантности к физическим нагрузкам … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_slabost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Слабость … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_utomlenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Утомляемость … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_snizhenie_apetita",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Снижение аппетита … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_serdtsebienie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Сердцебиение … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_pereboi_v_rabote_serdtsa",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Перебои в работе сердца … в таблице симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_priznaki_insulta",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Одышка … Признаки перенесённого инсульта … в таблице симптомов",
+    "properties": {}
+  }
+]

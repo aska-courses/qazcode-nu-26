@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_pathological_fecal_discharge",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Патологические выделение кала с преддверия влагалища либо из влагалища;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_presence",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие свища в преддверии либо полости влагалища;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inflammatory_external_genitals",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Воспалительные изменения в области наружных половых органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_anal_reflex",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение анального рефлекса;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ мочи – лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "связанная с вторичным пиелонефритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inflammation_vestibule",
+    "target": "diagnosis_congenital_rectal_or_anal_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Воспаление в области преддверия влагалища;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_fecal_discharge",
+    "target": "symptom_fistula_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Патологические выделение кала ...; Наличие свища ...;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_fecal_discharge",
+    "target": "symptom_inflammatory_external_genitals",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Патологические выделение кала ...; Воспалительные изменения в области наружных половых органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fistula_presence",
+    "target": "symptom_inflammatory_external_genitals",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Наличие свища ...; Воспалительные изменения в области наружных половых органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_anemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз, возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "symptom_secondary_pyelonephritis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "общий анализ мочи – лейкоцитурия, связанная с вторичным пиелонефритом",
+    "properties": {}
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "protocol_id": "p_283f0d5ed2",
+  "nodes": [
+    {
+      "id": "symptom_zhguchie_boli",
+      "type": "symptom",
+      "label": "Жгучие боли"
+    },
+    {
+      "id": "symptom_osiplost_golosa",
+      "type": "symptom",
+      "label": "Осиплость голоса"
+    },
+    {
+      "id": "symptom_likhoradka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_ozhognaya_bolezn",
+      "type": "symptom",
+      "label": "Ожоговая болезнь"
+    },
+    {
+      "id": "symptom_ozhogovyi_shok",
+      "type": "symptom",
+      "label": "Ожоговый шок"
+    },
+    {
+      "id": "symptom_ostraia_toksemia",
+      "type": "symptom",
+      "label": "Острая ожоговая токсемия"
+    },
+    {
+      "id": "symptom_termoingalyatsionnaia_travma",
+      "type": "symptom",
+      "label": "Термоингаляционная травма"
+    },
+    {
+      "id": "diagnosis_ozhogi",
+      "type": "diagnosis",
+      "label": "Ожоги",
+      "icd_code": "T20"
+    },
+    {
+      "id": "diagnosis_ozhogovyi_shok",
+      "type": "diagnosis",
+      "label": "Ожоговый шок",
+      "icd_code": "T31.1"
+    },
+    {
+      "id": "diagnosis_ostraia_ozhogovaia_toksemia",
+      "type": "diagnosis",
+      "label": "Острая ожоговая токсемия",
+      "icd_code": "T31.2"
+    },
+    {
+      "id": "diagnosis_termoingalyatsionnaia_travma",
+      "type": "diagnosis",
+      "label": "Термоингаляционная травма",
+      "icd_code": "T21"
+    },
+    {
+      "id": "diagnosis_ozhogovaya_bolezn",
+      "type": "diagnosis",
+      "label": "Ожоговая болезнь",
+      "icd_code": "T22"
+    },
+    {
+      "id": "diagnosis_ozhogi_glubokie",
+      "type": "diagnosis",
+      "label": "Глубокие ожоги",
+      "icd_code": "T23"
+    },
+    {
+      "id": "diagnosis_ozhogi_pogranichnye",
+      "type": "diagnosis",
+      "label": "Пограничные ожоги",
+      "icd_code": "T24"
+    },
+    {
+      "id": "diagnosis_ozhogi_II_IIIa",
+      "type": "diagnosis",
+      "label": "Ожоги II–IIIa степени",
+      "icd_code": "T25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zhguchie_boli",
+      "target": "diagnosis_ozhogi",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: На жгучие боли в области воздействия термического агента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osiplost_golosa",
+      "target": "diagnosis_termoingalyatsionnaia_travma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие или отсутствие признаков термоингаляционной травмы: Осиплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_likhoradka",
+      "target": "diagnosis_ozhogi",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhguchie_boli",
+      "target": "symptom_likhoradka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... жжение и боли ... озноб, повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ozhogi",
+      "target": "diagnosis_ozhogovyi_shok",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Показания для экстренной госпитализации: Ожоги (термические химические, электрические), ожоговый шок",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ozhogi",
+      "target": "diagnosis_ostraia_ozhogovaia_toksemia",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Ожоги ... Острая ожоговая токсемия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ozhogi",
+      "target": "diagnosis_ozhogovaya_bolezn",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Ожоговая болезнь – это патологическое состояние, развивающееся как следствие обширных и глубоких ожогов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ozhogi",
+      "target": "diagnosis_ozhogi_glubokie",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Классификация ожогов … Глубокие ожоги",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ozhogi",
+      "target": "diagnosis_ozhogi_pogranichnye",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Классификация ожогов … Пограничные ожоги",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ozhogi",
+      "target": "diagnosis_ozhogi_II_IIIa",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Ожоги II–IIIa степени",
+      "properties": {}
+    }
+  ]
+}

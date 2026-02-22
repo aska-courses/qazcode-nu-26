@@ -1,0 +1,550 @@
+{
+  "protocol_id": "p_7d0df5b1e6",
+  "nodes": [
+    {
+      "id": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "diagnosis",
+      "label": "Врожденная цитомегаловирусная инфекция",
+      "icd_code": "P35.1"
+    },
+    {
+      "id": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "diagnosis",
+      "label": "Инфекция, специфичная для перинатального периода, неуточненная",
+      "icd_code": "P39.9"
+    },
+    {
+      "id": "zaderzhka_vnutriutrobnogo_razvitiya",
+      "type": "symptom",
+      "label": "Задержка внутриутробного развития"
+    },
+    {
+      "id": "gemorragicheskaya_syp",
+      "type": "symptom",
+      "label": "Геморрагическая сыпь (петехии, пурпура)"
+    },
+    {
+      "id": "dlitelnaia_zheltuha_bez_iazych_prichin",
+      "type": "symptom",
+      "label": "Длительная желтуха без явных причин"
+    },
+    {
+      "id": "giperbiliurinemia",
+      "type": "symptom",
+      "label": "Гипербилирубинемия"
+    },
+    {
+      "id": "trombocytopeniya",
+      "type": "symptom",
+      "label": "Тромбоцитопения"
+    },
+    {
+      "id": "neurosensornaia_tugoukhost",
+      "type": "symptom",
+      "label": "Нейросенсорная тугоухость"
+    },
+    {
+      "id": "khorioretinit",
+      "type": "symptom",
+      "label": "Хориоретинит"
+    },
+    {
+      "id": "sepsissopodobnyi_sindrom",
+      "type": "symptom",
+      "label": "Сепсисоподобный синдром"
+    },
+    {
+      "id": "pnevmoniya",
+      "type": "symptom",
+      "label": "Пневмония"
+    },
+    {
+      "id": "gepatosplenomegaliya",
+      "type": "symptom",
+      "label": "Гепатоспленомегалия"
+    },
+    {
+      "id": "gepatit",
+      "type": "symptom",
+      "label": "Гепатит"
+    },
+    {
+      "id": "zaderzhka_psihomotornogo_razvitiia",
+      "type": "symptom",
+      "label": "Задержка психомоторного развития"
+    },
+    {
+      "id": "snizhenie_sposobnosti_k_obucheniiu",
+      "type": "symptom",
+      "label": "Снижение способности к обучению"
+    },
+    {
+      "id": "defekt_rechi",
+      "type": "symptom",
+      "label": "Дефект речи"
+    },
+    {
+      "id": "motornoe_narushenie",
+      "type": "symptom",
+      "label": "Моторные нарушения"
+    },
+    {
+      "id": "sudorozhnyi_sindrom",
+      "type": "symptom",
+      "label": "Судорожный синдром"
+    },
+    {
+      "id": "ukhudshenie_obshchego_sostoiania",
+      "type": "symptom",
+      "label": "Ухудшение общего состояния"
+    },
+    {
+      "id": "uvelichenie_pecheni",
+      "type": "symptom",
+      "label": "Увеличение печени"
+    },
+    {
+      "id": "uvelichenie_slezinki",
+      "type": "symptom",
+      "label": "Увеличение селезенки"
+    },
+    {
+      "id": "otechnyi_sindrom",
+      "type": "symptom",
+      "label": "Отечный синдром"
+    },
+    {
+      "id": "leukopeniya",
+      "type": "symptom",
+      "label": "Лейкопения"
+    },
+    {
+      "id": "anemiia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "neutropeniia",
+      "type": "symptom",
+      "label": "Нейтропения"
+    },
+    {
+      "id": "povysenie_peretransaminaz",
+      "type": "symptom",
+      "label": "Повышение печеночных трансаминаз (АЛАТ, АСАТ)"
+    },
+    {
+      "id": "vnutricherepnaia_kaltsifikatsiia",
+      "type": "symptom",
+      "label": "Внутричерепная кальцификация"
+    },
+    {
+      "id": "ventrikulomegaliia",
+      "type": "symptom",
+      "label": "Вентрикуломегалия"
+    },
+    {
+      "id": "intracraniial_kisty",
+      "type": "symptom",
+      "label": "Кисты в головном мозге"
+    },
+    {
+      "id": "gipoplaziia_mozhechka",
+      "type": "symptom",
+      "label": "Гипоплазия мозжечка"
+    },
+    {
+      "id": "lisencelfaliia",
+      "type": "symptom",
+      "label": "Лиссенцефалия"
+    },
+    {
+      "id": "pahigiriia",
+      "type": "symptom",
+      "label": "Пахигирия"
+    },
+    {
+      "id": "demielinizatsiia",
+      "type": "symptom",
+      "label": "Демиелинизация"
+    }
+  ],
+  "edges": [
+    {
+      "source": "zaderzhka_vnutriutrobnogo_razvitiya",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка внутриутробного развития",
+      "properties": {}
+    },
+    {
+      "source": "gemorragicheskaya_syp",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "геморрагическая сыпь в виде петехий и пурпуры (75%)",
+      "properties": {}
+    },
+    {
+      "source": "dlitelnaia_zheltuha_bez_iazych_prichin",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "длительная желтуха без явных причин",
+      "properties": {}
+    },
+    {
+      "source": "giperbiliurinemia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипербилирубинемия",
+      "properties": {}
+    },
+    {
+      "source": "trombocytopeniya",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "neurosensornaia_tugoukhost",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейросенсорная тугоухость",
+      "properties": {}
+    },
+    {
+      "source": "khorioretinit",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "хориоретинит",
+      "properties": {}
+    },
+    {
+      "source": "sepsissopodobnyi_sindrom",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сепсисоподобный синдром",
+      "properties": {}
+    },
+    {
+      "source": "pnevmoniya",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пневмония",
+      "properties": {}
+    },
+    {
+      "source": "gepatosplenomegaliya",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатоспленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "gepatit",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатит",
+      "properties": {}
+    },
+    {
+      "source": "zaderzhka_psihomotornogo_razvitiia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка психомоторного развития",
+      "properties": {}
+    },
+    {
+      "source": "snizhenie_sposobnosti_k_obuchenii",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение способности к обучению",
+      "properties": {}
+    },
+    {
+      "source": "defekt_rechi",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дефект речи",
+      "properties": {}
+    },
+    {
+      "source": "motornoe_narushenie",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "моторные нарушения",
+      "properties": {}
+    },
+    {
+      "source": "sudorozhnyi_sindrom",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судорожный синдром",
+      "properties": {}
+    },
+    {
+      "source": "ukhudshenie_obshchego_sostoiania",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ухудшение общего состояния",
+      "properties": {}
+    },
+    {
+      "source": "uvelichenie_pecheni",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение печени",
+      "properties": {}
+    },
+    {
+      "source": "uvelichenie_slezinki",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение селезенки",
+      "properties": {}
+    },
+    {
+      "source": "otechnyi_sindrom",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отечный синдром",
+      "properties": {}
+    },
+    {
+      "source": "leukopeniya",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "anemiia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия",
+      "properties": {}
+    },
+    {
+      "source": "neutropeniia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтропения",
+      "properties": {}
+    },
+    {
+      "source": "povysenie_peretransaminaz",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение печеночных трансаминаз (АЛАТ, АСАТ)",
+      "properties": {}
+    },
+    {
+      "source": "vnutricherepnaia_kaltsifikatsiia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "внутричерепная кальцификация",
+      "properties": {}
+    },
+    {
+      "source": "ventrikulomegaliia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вентрикуломегалия",
+      "properties": {}
+    },
+    {
+      "source": "intracraniial_kisty",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кисты в головном мозге",
+      "properties": {}
+    },
+    {
+      "source": "gipoplaziia_mozhechka",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипоплазия мозжечка",
+      "properties": {}
+    },
+    {
+      "source": "lisencelfaliia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лиссенцефалия",
+      "properties": {}
+    },
+    {
+      "source": "pahigiriia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пахигирия",
+      "properties": {}
+    },
+    {
+      "source": "demielinizatsiia",
+      "target": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "демиелинизация",
+      "properties": {}
+    },
+    {
+      "source": "sepsissopodobnyi_sindrom",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "У новорожденных, инфицированных ЦМВ во время рождения могут развиться сепсисоподобный синдром",
+      "properties": {}
+    },
+    {
+      "source": "pnevmoniya",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пневмония",
+      "properties": {}
+    },
+    {
+      "source": "gepatosplenomegaliya",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатоспленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "gepatit",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатит",
+      "properties": {}
+    },
+    {
+      "source": "trombocytopeniya",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "leukopeniya",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "anemiia",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия",
+      "properties": {}
+    },
+    {
+      "source": "gemorragicheskaya_syp",
+      "target": "dlitelnaia_zheltuha_bez_iazych_prichin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "геморрагическая сыпь ... длительная желтуха без явных причин",
+      "properties": {}
+    },
+    {
+      "source": "gemorragicheskaya_syp",
+      "target": "trombocytopeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "геморрагическая сыпь ... тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "dlitelnaia_zheltuha_bez_iazych_prichin",
+      "target": "trombocytopeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "длительная желтуха без явных причин ... тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "sepsissopodobnyi_sindrom",
+      "target": "pnevmoniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сепсисоподобный синдром ... пневмония",
+      "properties": {}
+    },
+    {
+      "source": "gepatosplenomegaliya",
+      "target": "gepatit",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гепатоспленомегалия ... гепатит",
+      "properties": {}
+    },
+    {
+      "source": "vnutricherepnaia_kaltsifikatsiia",
+      "target": "ventrikulomegaliia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "внутричерепная кальцификация ... вентрикуломегалия",
+      "properties": {}
+    },
+    {
+      "source": "lisencelfaliia",
+      "target": "pahigiriia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лиссенцефалия, пахигирия",
+      "properties": {}
+    },
+    {
+      "source": "demielinizatsiia",
+      "target": "lisencelfaliia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лиссенцефалия ... демиелинизация",
+      "properties": {}
+    },
+    {
+      "source": "p35_1_vrozhdennaya_cytomegalovirusnaya_infektsiya",
+      "target": "p39_9_infektsiya_perinatalnaya_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "ВРОЖДЕННАЯ И ПЕРИНАТАЛЬНАЯ ЦИТОМЕГАЛОВИРУСНАЯ ИНФЕКЦИЯ",
+      "properties": {}
+    }
+  ]
+}

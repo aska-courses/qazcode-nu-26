@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_pain_projection_lacrimal_gland",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль и покраснение кожи в проекции слезной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_redness_projection_lacrimal_gland",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль и покраснение кожи в проекции слезной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eyelid_edema",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек кожи века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ptosis_upper_eyelid",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "опущение верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling_lacrimal_gland_area",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие припухлости в области слезной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eye_displacement",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "смещение глазного яблока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "двоение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_dacrioadenit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stinging_eye",
+    "target": "diagnosis_other_lacrimal_gland_diseases",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рези в области глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_eye_sensation",
+    "target": "diagnosis_other_lacrimal_gland_diseases",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство сухости глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctival_hyperemia",
+    "target": "diagnosis_other_lacrimal_gland_diseases",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "diagnosis_other_lacrimal_gland_diseases",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство инородного тела, «песка» в области глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_fatigue",
+    "target": "diagnosis_other_lacrimal_gland_diseases",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "быстрая зрительная утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_epiphora",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_excessive_tearing",
+    "target": "diagnosis_epiphora",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезостояние",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_projection_lacrimal_gland",
+    "target": "symptom_redness_projection_lacrimal_gland",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль и покраснение кожи в проекции слезной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eyelid_edema",
+    "target": "symptom_ptosis_upper_eyelid",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек кожи века; опущение верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling_lacrimal_gland_area",
+    "target": "symptom_eye_displacement",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие припухлости в области слезной железы; смещение глазного яблока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling_lacrimal_gland_area",
+    "target": "symptom_diplopia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие припухлости в области слезной железы; двоение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eye_displacement",
+    "target": "symptom_diplopia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "смещение глазного яблока; двоение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stinging_eye",
+    "target": "symptom_dry_eye_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "рези в области глаз; чувство сухости глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stinging_eye",
+    "target": "symptom_conjunctival_hyperemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "рези в области глаз; гиперемия конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stinging_eye",
+    "target": "symptom_foreign_body_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "рези в области глаз; чувство инородного тела, «песка» в области глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_eye_sensation",
+    "target": "symptom_conjunctival_hyperemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "чувство сухости глаз; гиперемия конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_eye_sensation",
+    "target": "symptom_foreign_body_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "чувство сухости глаз; чувство инородного тела, «песка» в области глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctival_hyperemia",
+    "target": "symptom_foreign_body_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гиперемия конъюнктивы; чувство инородного тела, «песка» в области глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "symptom_excessive_tearing",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слезотечение, слезостояние",
+    "properties": {}
+  }
+]

@@ -1,0 +1,515 @@
+{
+  "protocol_id": "p_e800d298fd",
+  "nodes": [
+    {
+      "id": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "diagnosis",
+      "label": "Перелом верхнего конца плечевой кости",
+      "icd_code": "S42.2"
+    },
+    {
+      "id": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "diagnosis",
+      "label": "Перелом тела (диафиза) плечевой кости",
+      "icd_code": "S42.3"
+    },
+    {
+      "id": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "diagnosis",
+      "label": "Перелом нижнего конца плечевой кости",
+      "icd_code": "S42.4"
+    },
+    {
+      "id": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "diagnosis",
+      "label": "Перелом других частей плечевого пояса и плеча",
+      "icd_code": "S42.8"
+    },
+    {
+      "id": "symptom_bol_v_plache",
+      "type": "symptom",
+      "label": "Боль в плече"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение функции конечности"
+    },
+    {
+      "id": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "type": "symptom",
+      "label": "Наличие ран при открытых переломах"
+    },
+    {
+      "id": "symptom_otek_v_meste_pereloma",
+      "type": "symptom",
+      "label": "Отёк в месте перелома"
+    },
+    {
+      "id": "symptom_deformaciya",
+      "type": "symptom",
+      "label": "Деформация"
+    },
+    {
+      "id": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "symptom_ukorocheniye_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение конечности"
+    },
+    {
+      "id": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность при осевой нагрузке"
+    },
+    {
+      "id": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Грубая патологическая подвижность"
+    },
+    {
+      "id": "symptom_kreptaciya_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация отломков"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_klyuchitsy",
+      "type": "symptom",
+      "label": "Боль в области ключицы"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_loktevyh_sustavov",
+      "type": "symptom",
+      "label": "Боль в области локтевого сустава"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_plache",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на боли в плече",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_plache",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на боли в плече",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_plache",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на боли в плече",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_plache",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на боли в плече",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... нарушение функции конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... нарушение функции конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... нарушение функции конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_konechnosti",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... нарушение функции конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при осмотре отмечается ... деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_perelom_verhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomков",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomков",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "symptom_deformaciya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек в месте перелома, деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya",
+      "target": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "деформация, кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyaniye_v_okruzhayushchie_tkanki",
+      "target": "symptom_ukorocheniye_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани, укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osevoy_nagruzke",
+      "target": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке, грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "symptom_kreptaciya_otlomkov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность, ... крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_plache",
+      "target": "symptom_otek_v_meste_pereloma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: на боли в плече ... при осмотре отмечается ... отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_klyuchitsy",
+      "target": "symptom_bol_v_oblasti_loktevyh_sustavov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боль в области ключицы ... Боль в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_verhnego_kona_shol",
+      "target": "diagnosis_perelom_tela_diafiza_shol",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S42.2 Перелом верхнего конца плечевой кости S42.3 Перелом тела [диафиза] плечевой кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_verhnego_kona_shol",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S42.2 Перелом верхнего конца плечевой кости S42.4 Перелом нижнего конца плечевой кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_verhnego_kona_shol",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S42.2 Перелом верхнего конца плечевой кости S42.8 Перелом других частей плечевого пояса и плеча",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_tela_diafiza_shol",
+      "target": "diagnosis_perelom_nizhnego_kona_shol",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S42.3 Перелом тела [диафиза] плечевой кости S42.4 Перелом нижнего конца плечевой кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_tela_diafiza_shol",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S42.3 Перелом тела [диафиза] плечевой кости S42.8 Перелом других частей плечевого пояса и плеча",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_nizhnego_kona_shol",
+      "target": "diagnosis_perelom_drugikh_chastey_plachevogo_poyasa",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S42.4 Перелом нижнего конца плечевой кости S42.8 Перелом других частей плечевого пояса и плеча",
+      "properties": {}
+    }
+  ]
+}

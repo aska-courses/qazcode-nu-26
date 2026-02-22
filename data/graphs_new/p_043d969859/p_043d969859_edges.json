@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_hyperthermia",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "Наличие гипертермии, припухлости и болезненности трансплантата нечасто и указывает на тяжесть отторжения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_transplant_pain",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в области трансплантата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Возможны олигоурия, отеки, повышение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Возможны олигоурия, отеки, повышение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Возможны олигоурия, отеки, повышение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_graft_enlargement",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличение объёма трансплантата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_graft_hypoechogenicity",
+    "target": "symptom_graft_rejection",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипоэхогенность ткани трансплантата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "diagnosis_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенный креатинин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_urea",
+    "target": "diagnosis_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенная мочевина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperkalemia",
+    "target": "diagnosis_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперкалиемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_gfr",
+    "target": "diagnosis_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение скорости клубочковой фильтрации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "diagnosis_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "протеинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anuria",
+    "target": "diagnosis_terminal_chronic_kidney_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анурия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_kidney_failure",
+    "target": "diagnosis_terminal_chronic_kidney_failure",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Терминальная хроническая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "symptom_elevated_urea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенный креатинин; повышенная мочевина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperkalemia",
+    "target": "symptom_reduced_gfr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гиперкалиемия; снижение скорости клубочковой фильтрации",
+    "properties": {}
+  }
+]

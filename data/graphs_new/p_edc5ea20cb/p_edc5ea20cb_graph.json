@@ -1,0 +1,395 @@
+{
+  "protocol_id": "p_edc5ea20cb",
+  "nodes": [
+    {
+      "id": "diagnosis_bolezn_villebrand",
+      "type": "diagnosis",
+      "label": "Болезнь Виллебранда",
+      "icd_code": "D68.0"
+    },
+    {
+      "id": "symptom_krovotechenie_nezn_poriezov_15min",
+      "type": "symptom",
+      "label": "Кровотечение из незначительных порезов более 15 минут",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotechenie_posle_travmy_7dni",
+      "type": "symptom",
+      "label": "Кровотечение после травмы, возникающее в течение 7 дней",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_dlitelnoe_povtornoe_krovotechenie_posle_hirurgii_7_10dni",
+      "type": "symptom",
+      "label": "Длительное или повторное кровотечение после хирургического вмешательства или экстракции зубов (7‑10 дней)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_spontannye_posttravmaticheskie_gematomy",
+      "type": "symptom",
+      "label": "Спонтанные или посттравматические гематомы мягких тканей",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nosovoe_krovotechenie_10min",
+      "type": "symptom",
+      "label": "Носовое кровотечение более 10 минут, не поддающееся компрессии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krov_v_kale_bez_prichiny",
+      "type": "symptom",
+      "label": "Кровь в кале без видимой причины",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zhzhk_krovotechenie_neobyasnimoe",
+      "type": "symptom",
+      "label": "Желудочно‑кишечное кровотечение, не объяснённое язвами или портальной гипертензией",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_obilnye_matocnye_krovotecheniya_7_10dni",
+      "type": "symptom",
+      "label": "Обильные маточные кровотечения более 7‑10 дней",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_znaki_mezenhimalnoj_dispazii",
+      "type": "symptom",
+      "label": "Признаки мезенхимальной дисплазии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_znaki_angiodispazii",
+      "type": "symptom",
+      "label": "Признаки ангиодисплазии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zabrushinnye_gematomy",
+      "type": "symptom",
+      "label": "Забрюшинные гематомы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gemartrozy",
+      "type": "symptom",
+      "label": "Гемартрозы (кровоизлияния в суставы)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gemoragicheskij_sindrom_pri_ASP_NPBS",
+      "type": "symptom",
+      "label": "Геморрагический синдром, усиливающийся при приёме АСП, НПВС, клопидогрела, варфарина или гепарина",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotechenie_cns",
+      "type": "symptom",
+      "label": "Кровотечение в центральную нервную систему",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotechenie_zhzhk_lifethreat",
+      "type": "symptom",
+      "label": "Кровотечение в желудочно‑кишечный тракт, угрожающее жизни",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotechenie_shja_gorlo",
+      "type": "symptom",
+      "label": "Кровотечение в шею/горло",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_mnozhestvennye_exhimozy",
+      "type": "symptom",
+      "label": "Множественные экхимозы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gematomy_myagkih_tkanej",
+      "type": "symptom",
+      "label": "Гематомы мягких тканей",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ostraia_gemartroz",
+      "type": "symptom",
+      "label": "Острая гемартроз (деформация, отёк, повышение температуры кожи)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_deformiruuschaia_artropatiia",
+      "type": "symptom",
+      "label": "Деформирующая артропатия (ограничение подвижности, гипотрофия мышц, нарушение походки)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotechenie_iz_slizistykh",
+      "type": "symptom",
+      "label": "Кровотечение из слизистых (носовые, десневые, луночковые, меноррагии)",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_krovotechenie_nezn_poriezov_15min",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "кровотечения из незначительных порезов ... более 15 минут",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_posle_travmy_7dni",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "отсрочено возникают в течение 7 дней после травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dlitelnoe_povtornoe_krovotechenie_posle_hirurgii_7_10dni",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "эпизоды длительного или повторного кровотечения ... в течение первых 7—10 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spontannye_posttravmaticheskie_gematomy",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "спонтанные или посттравматические гематомы мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematomy_myagkih_tkanej",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "спонтанные или посттравматические гематомы мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nosovoe_krovotechenie_10min",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "носовые кровотечения ... более 10 минут, не поддающееся компрессии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krov_v_kale_bez_prichiny",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "наличие крови в кале без видимой причины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhk_krovotechenie_neobyasnimoe",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "желудочно‑кишечные кровотечения, не объяснимые язвами или портальной гипертензией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnye_matocnye_krovotecheniya_7_10dni",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "обильные маточные кровотечения, которые длятся более 7‑10 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_znaki_mezenhimalnoj_dispazii",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "признаки мезенхимальной дисплазии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_znaki_angiodispazii",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "признаки ангиодисплазии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zabrushinnye_gematomy",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "наличие забрюшинных гематом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemartrozy",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "гемартрозов в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemoragicheskij_sindrom_pri_ASP_NPBS",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "развитие геморрагического синдрома при приёме ... АСП, НПВС, клопидогрела, варфарина или гепарина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_cns",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "кровотечения/кровоизлияния в центральную нервную систему (ЦНС)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_zhzhk_lifethreat",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "кровотечения/кровоизлияния в желудочно‑кишечный тракт (ЖКТ)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_shja_gorlo",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "кровотечения/кровоизлияния в шею/горло",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mnozhestvennye_exhimozy",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "множественные экхимозы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ostraia_gemartroz",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "острая гемартроз (деформация, отёк, повышение температуры кожи)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformiruuschaia_artropatiia",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "деформирующая артропатия (ограничение подвижности, гипотрофия мышц, нарушение походки)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_slizistykh",
+      "target": "diagnosis_bolezn_villebrand",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "кровотечения из слизистых (носовые, десневые, луночковые, меноррагии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_nezn_poriezov_15min",
+      "target": "symptom_krovotechenie_posle_travmy_7dni",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровотечения из незначительных порезов ... более 15 минут и/или отсрочено возникают в течение 7 дней после травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spontannye_posttravmaticheskie_gematomy",
+      "target": "symptom_gematomy_myagkih_tkanej",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "спонтанные или посттравматические гематомы мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_znaki_mezenhimalnoj_dispazii",
+      "target": "symptom_znaki_angiodispazii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки мезенхимальной дисплазии и ангиодисплазии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zabrushinnye_gematomy",
+      "target": "symptom_gemartrozy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие забрюшинных гематом или гемартрозов в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mnozhestvennye_exhimozy",
+      "target": "symptom_gematomy_myagkih_tkanej",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "множественных экхимозов и гематом мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mnozhestvennye_exhimozy",
+      "target": "symptom_ostraia_gemartroz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "множественных экхимозов ... а также признаки острого гемартроза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mnozhestvennye_exhimoзы",
+      "target": "symptom_deformiruuschaia_artropatiia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "множественных экхимозов ... и признаки деформирующей артропатии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematomy_myagkih_tkanej",
+      "target": "symptom_ostraia_gemartroz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гематомы мягких тканей ... и острая гемартроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematomy_myagkih_tkanej",
+      "target": "symptom_deformiruuschaia_artropatiia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гематомы мягких тканей ... и деформирующая артропатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ostraia_gemartroz",
+      "target": "symptom_deformiruuschaia_artropatiia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "острая гемартроз ... и деформирующая артропатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_slizistykh",
+      "target": "symptom_mnozhestvennye_exhimozy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "множественных экхимозов ... и кровотечения из слизистых",
+      "properties": {}
+    }
+  ]
+}

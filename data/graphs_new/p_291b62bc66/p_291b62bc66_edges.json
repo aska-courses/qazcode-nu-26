@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_gradual_visual_acuity_decrease",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: постепенное снижение остроты зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_field_change",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение поля зрения (скотомы, концентрическое сужение, выпадение полей зрения)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_color_vision_disturbance",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение цветовосприятия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_eye_movement",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nystagmus",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exophthalmos",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экзофтальм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ptosis_upper_eyelid",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "птоз верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_corneal_reflex",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исследование роговичного рефлекса – может быть снижен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_intraocular_pressure",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тонометрия: возможно повышение ВГД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dark_adaptation_impairment",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исследование адаптации к темноте: нарушение темновой адаптации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_color_threshold_increase",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исследование цветового зрения ... повышение цветовых порогов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_afferent_pupillary_defect",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "афферентный зрачковый дефект: снижение прямой зрачковой реакции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kestenbaum_sign",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Кестенбаума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_optic_nerve_atrophy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иногда больные жалуются на головную боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_eye_movement",
+    "target": "symptom_nystagmus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока, нистагм, экзофтальм, птоз верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_eye_movement",
+    "target": "symptom_exophthalmos",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока, нистагм, экзофтальм, птоз верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_eye_movement",
+    "target": "symptom_ptosis_upper_eyelid",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока, нистагм, экзофтальм, птоз верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nystagmus",
+    "target": "symptom_exophthalmos",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока, нистагм, экзофтальм, птоз верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nystagmus",
+    "target": "symptom_ptosis_upper_eyelid",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока, нистагм, экзофтальм, птоз верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exophthalmos",
+    "target": "symptom_ptosis_upper_eyelid",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение подвижности глазного яблока, нистагм, экзофтальм, птоз верхнего века",
+    "properties": {}
+  }
+]

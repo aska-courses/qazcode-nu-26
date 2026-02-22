@@ -1,0 +1,381 @@
+{
+  "protocol_id": "p_cc0f33fa6a",
+  "nodes": [
+    {
+      "id": "diagnosis_gingivitis",
+      "type": "diagnosis",
+      "label": "Гингивит",
+      "icd_code": "К05"
+    },
+    {
+      "id": "diagnosis_acute_periodontitis",
+      "type": "diagnosis",
+      "label": "Острый пародонтит",
+      "icd_code": "К05.2"
+    },
+    {
+      "id": "diagnosis_chronic_periodontitis",
+      "type": "diagnosis",
+      "label": "Хронический пародонтит",
+      "icd_code": "К05.3"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_bleeding_gums",
+      "type": "symptom",
+      "label": "Кровоточивость десны"
+    },
+    {
+      "id": "symptom_gum_swelling",
+      "type": "symptom",
+      "label": "Отёчность десны"
+    },
+    {
+      "id": "symptom_gum_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия десны"
+    },
+    {
+      "id": "symptom_tenderness_touch",
+      "type": "symptom",
+      "label": "Болезненность при прикосновении"
+    },
+    {
+      "id": "symptom_tooth_mobility",
+      "type": "symptom",
+      "label": "Подвижность зубов"
+    },
+    {
+      "id": "symptom_gum_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз десны"
+    },
+    {
+      "id": "symptom_gum_color_change",
+      "type": "symptom",
+      "label": "Изменение цвета десны"
+    },
+    {
+      "id": "symptom_bad_breath",
+      "type": "symptom",
+      "label": "Запах изо рта"
+    },
+    {
+      "id": "symptom_burning_sensation",
+      "type": "symptom",
+      "label": "Жжение десны"
+    },
+    {
+      "id": "symptom_itching",
+      "type": "symptom",
+      "label": "Зуд десны"
+    },
+    {
+      "id": "symptom_pus_formation",
+      "type": "symptom",
+      "label": "Гнойники"
+    },
+    {
+      "id": "symptom_exudate",
+      "type": "symptom",
+      "label": "Выделение серозногнойного экссудата"
+    },
+    {
+      "id": "symptom_gum_hypertrophy",
+      "type": "symptom",
+      "label": "Гипертрофия десны"
+    },
+    {
+      "id": "symptom_periodontal_pockets",
+      "type": "symptom",
+      "label": "Образование пародонтальных карманов"
+    },
+    {
+      "id": "symptom_pocket_depth_increase",
+      "type": "symptom",
+      "label": "Увеличение глубины пародонтальных карманов"
+    },
+    {
+      "id": "symptom_exposed_tooth_neck",
+      "type": "symptom",
+      "label": "Оголение шейки зубов"
+    },
+    {
+      "id": "symptom_gum_margin_thinning",
+      "type": "symptom",
+      "label": "Истончение слизистой десневого края"
+    },
+    {
+      "id": "symptom_papilla_shape_change",
+      "type": "symptom",
+      "label": "Изменение конфигурации десневых сосочков"
+    },
+    {
+      "id": "symptom_dental_deposits",
+      "type": "symptom",
+      "label": "Наличие наддесневых и поддесневых зубных отложений"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_acute_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Острый локализованный пародонтит. ... болезненность при прикосновении ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding_gums",
+      "target": "diagnosis_acute_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Острый локализованный пародонтит. ... кровоточивость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_hyperemia",
+      "target": "diagnosis_acute_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Яркая гиперемия десны, отечность, кровоточивость и болезненность при прикосновении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_swelling",
+      "target": "diagnosis_acute_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Яркая гиперемия десны, отечность, кровоточивость и болезненность при прикосновении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness_touch",
+      "target": "diagnosis_acute_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при прикосновении в области от 1 до 3 зубов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В таблице жалоб: «боль» указана при хроническом пародонтите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding_gums",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кровоточивость десен упоминается в описании хронического пародонтита разных степеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bad_breath",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«запах изо рта» в таблице жалоб при хроническом пародонтите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_itching",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«зуд» в таблице жалоб при хроническом пародонтите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_burning_sensation",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«жжение» в таблице жалоб при хроническом пародонтите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tooth_mobility",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«подвижность зубов» в описании умеренной и тяжёлой степени хронического пародонтита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_cyanosis",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«Цианоз слизистой оболочки десневого края» при умеренной и тяжёлой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_color_change",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«изменение цвета десны» и «изменение конфигурации десневых сосочков»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papilla_shape_change",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«изменение конфигурации десневых сосочков» при умеренной и тяжёлой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_margin_thinning",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«истончение слизистой десневого края» в описании умеренной и тяжёлой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dental_deposits",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«Имеются наддесневые и поддесневые зубные отложения» в описании всех степеней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exposed_tooth_neck",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«Оголение шеек» и «оголение в пределах ½ корней зубов» в описании хронического пародонтита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exudate",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«выделение серозногнойного экссудата» при обострении хронического пародонтита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_hyperemia",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«застойная венозная гиперемия» в описании лёгкой, умеренной и обострённой формы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_swelling",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«отёчность» в описании лёгкой и обострённой формы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_gingivitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В определении гингивита указано «воспаление десны», часто сопровождающееся болезненностью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding_gums",
+      "target": "diagnosis_gingivitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гингивит характеризуется «кровоточивостью десны» в классификации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_hyperemia",
+      "target": "diagnosis_gingivitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гингивит – воспаление десны, проявляющееся гиперемией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_swelling",
+      "target": "diagnosis_gingivitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гингивит может быть «отёчность десны» в классификации формы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness_touch",
+      "target": "diagnosis_gingivitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Болезненность при прикосновении указана как признак гингивита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_hyperemia",
+      "target": "symptom_gum_swelling",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«яркая гиперемия десны, отечность»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding_gums",
+      "target": "symptom_gum_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«гиперемия десны, отечность, кровоточивость»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding_gums",
+      "target": "symptom_gum_swelling",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«отечность, кровоточивость» в описании острых и обострённых форм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "symptom_bleeding_gums",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В таблице жалоб при остром пародонтите указаны «боль, кровоточивость десны»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_cyanosis",
+      "target": "symptom_gum_color_change",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«Цианоз ... изменение цвета десны» при умеренной и тяжёлой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tooth_mobility",
+      "target": "symptom_exposed_tooth_neck",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Оба признака упомянуты в описании умеренной и тяжёлой степени хронического пародонтита",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_periodontitis",
+      "target": "diagnosis_chronic_periodontitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Оба включены в классификацию пародонтита (острый и хронический) в протоколе",
+      "properties": {}
+    }
+  ]
+}

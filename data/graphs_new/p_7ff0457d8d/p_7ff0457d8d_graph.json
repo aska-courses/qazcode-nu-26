@@ -1,0 +1,667 @@
+{
+  "protocol_id": "p_7ff0457d8d",
+  "nodes": [
+    {
+      "id": "diagnosis_q42_0",
+      "type": "diagnosis",
+      "label": "Атрезия и стеноз прямой кишки со свищем",
+      "icd_code": "Q42.0"
+    },
+    {
+      "id": "diagnosis_q42_1",
+      "type": "diagnosis",
+      "label": "Атрезия и стеноз прямой кишки без свища",
+      "icd_code": "Q42.1"
+    },
+    {
+      "id": "diagnosis_q42_2",
+      "type": "diagnosis",
+      "label": "Атрезия и стеноз заднего прохода со свищем",
+      "icd_code": "Q42.2"
+    },
+    {
+      "id": "diagnosis_q42_3",
+      "type": "diagnosis",
+      "label": "Атрезия и стеноз заднего прохода без свища",
+      "icd_code": "Q42.3"
+    },
+    {
+      "id": "symptom_neoanus",
+      "type": "symptom",
+      "label": "неоанус"
+    },
+    {
+      "id": "symptom_colostoma",
+      "type": "symptom",
+      "label": "колостома"
+    },
+    {
+      "id": "symptom_teratogenic_factors",
+      "type": "symptom",
+      "label": "тератогенные факторы во время беременности"
+    },
+    {
+      "id": "symptom_maternal_infection",
+      "type": "symptom",
+      "label": "инфекционные заболевания матери в I триместре"
+    },
+    {
+      "id": "symptom_maternal_harmful_habits",
+      "type": "symptom",
+      "label": "вредные привычки матери"
+    },
+    {
+      "id": "symptom_teratogenic_drugs",
+      "type": "symptom",
+      "label": "применение тератогенных лекарственных препаратов"
+    },
+    {
+      "id": "symptom_absence_external_fistula",
+      "type": "symptom",
+      "label": "отсутствие наружного кишечного свища"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "ускоренная СОЭ"
+    },
+    {
+      "id": "symptom_leukocyturia",
+      "type": "symptom",
+      "label": "лейкоцитурия"
+    },
+    {
+      "id": "symptom_secondary_pyelonephritis",
+      "type": "symptom",
+      "label": "вторичный пиелонефрит"
+    },
+    {
+      "id": "symptom_kidney_function_abnormalities",
+      "type": "symptom",
+      "label": "изменения функции почек (креатинин, мочевина, клиренс креатинина, проба Реберга)"
+    },
+    {
+      "id": "symptom_infectious_complications",
+      "type": "symptom",
+      "label": "инфекционные осложнения"
+    },
+    {
+      "id": "symptom_intestinal_obstruction_spastic",
+      "type": "symptom",
+      "label": "острая спаечная кишечная непроходимость"
+    },
+    {
+      "id": "symptom_hypotrophy",
+      "type": "symptom",
+      "label": "гипотрофия"
+    },
+    {
+      "id": "symptom_hyperthermia_unknown",
+      "type": "symptom",
+      "label": "гипертермия неясной этиологии"
+    },
+    {
+      "id": "symptom_skin_gangrene_inflammation",
+      "type": "symptom",
+      "label": "гнойные и воспалительные изменения кожи"
+    },
+    {
+      "id": "symptom_fecal_incontinence",
+      "type": "symptom",
+      "label": "недержание кала (энкопрез легкой степени)"
+    },
+    {
+      "id": "symptom_recurrent_rectourethral_fistula",
+      "type": "symptom",
+      "label": "рецидив ректоуретрального свища"
+    },
+    {
+      "id": "symptom_neoanus_stenosis",
+      "type": "symptom",
+      "label": "стеноз неоануса"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "боль в животе"
+    },
+    {
+      "id": "symptom_stool_frequency_change",
+      "type": "symptom",
+      "label": "изменения частоты стула"
+    },
+    {
+      "id": "symptom_constipation",
+      "type": "symptom",
+      "label": "запоры"
+    },
+    {
+      "id": "symptom_stool_soiling",
+      "type": "symptom",
+      "label": "каломазание"
+    },
+    {
+      "id": "symptom_enema_use",
+      "type": "symptom",
+      "label": "использование клизм"
+    },
+    {
+      "id": "symptom_laxative_use",
+      "type": "symptom",
+      "label": "использование слабительных"
+    },
+    {
+      "id": "symptom_urination_disorder",
+      "type": "symptom",
+      "label": "нарушение мочеиспускания"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_neoanus",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие неоануса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neoanus",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие неоануса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_colostoma",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие колостомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_colostoma",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие колостомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absence_external_fistula",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие наружного кишечного свища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absence_external_fistula",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие наружного кишечного свища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие тератогенных факторов во время беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие тератогенных факторов во время беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие тератогенных факторов во время беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие тератогенных факторов во время беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_infection",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные заболевания матери в I триместре беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_infection",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные заболевания матери в I триместре беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_infection",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные заболевания матери в I триместре беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_infection",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные заболевания матери в I триместре беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_harmful_habits",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вредные привычки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_harmful_habits",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вредные привычки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_harmful_habits",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вредные привычки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_harmful_habits",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вредные привычки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_drugs",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "применение лекарственных препаратов, обладающих тератогенным действием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_drugs",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "применение лекарственных препаратов, обладающих тератогенным действием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_drugs",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "применение лекарственных препаратов, обладающих тератогенным действием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_drugs",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "применение лекарственных препаратов, обладающих тератогенным действием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия при вторичном пиелонефрите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия при вторичном пиелонефрите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия при вторичном пиелонефрите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия при вторичном пиелонефрите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_secondary_pyelonephritis",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вторичный пиелонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_secondary_pyelonephritis",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вторичный пиелонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_secondary_pyelonephritis",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вторичный пиелонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_secondary_pyelonephritis",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вторичный пиелонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_function_abnormalities",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения функции почек (креатинин, мочевина, клиренс креатинина, проба Реберга)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_function_abnormalities",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения функции почек (креатинин, мочевина, клиренс креатинина, проба Реберга)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_function_abnormalities",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения функции почек (креатинин, мочевина, клиренс креатинина, проба Реберга)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_function_abnormalities",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения функции почек (креатинин, мочевина, клиренс креатинина, проба Реберга)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_complications",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные осложнения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_complications",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные осложнения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_complications",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные осложнения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infectious_complications",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные осложнения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_obstruction_spastic",
+      "target": "diagnosis_q42_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острая спаечная кишечная непроходимость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_obstruction_spastic",
+      "target": "diagnosis_q42_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острая спаечная кишечная непроходимость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_obstruction_spastic",
+      "target": "diagnosis_q42_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острая спаечная кишечная непроходимость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_obstruction_spastic",
+      "target": "diagnosis_q42_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острая спаечная кишечная непроходимость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neoanus",
+      "target": "symptom_colostoma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  на наличие неоануса;  на наличие колостомы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_leukocytosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможна анемия, лейкоцитоз, ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_elevated_esr",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможна анемия, лейкоцитоз, ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "symptom_secondary_pyelonephritis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия при вторичном пиелонефрите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_function_abnormalities",
+      "target": "symptom_infectious_complications",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменения функции почек ...; инфекционные осложнения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "symptom_maternal_infection",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "терaтогенных факторов ... (инфекционные заболевания матери в I триместре беременности, вредные привычки, применение лекарственных препаратов ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "symptom_maternal_harmful_habits",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "терaтогенных факторов ... (инфекционные заболевания матери в I триместре беременности, вредные привычки, применение лекарственных препаратов ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teratogenic_factors",
+      "target": "symptom_teratogenic_drugs",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "терaтогенных факторов ... (инфекционные заболевания матери в I триместре беременности, вредные привычки, применение лекарственных препаратов ...)",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "protocol_id": "p_017f4b8392",
+  "nodes": [
+    {
+      "id": "diagnosis_f06_7",
+      "type": "diagnosis",
+      "label": "Легкое когнитивное расстройство",
+      "icd_code": "F06.7"
+    },
+    {
+      "id": "diagnosis_f06_6",
+      "type": "diagnosis",
+      "label": "Органическое эмоционально лабильное (астеническое) расстройство",
+      "icd_code": "F06.6"
+    },
+    {
+      "id": "diagnosis_f07_1",
+      "type": "diagnosis",
+      "label": "Постэнцефалитный синдром",
+      "icd_code": "F07.1"
+    },
+    {
+      "id": "diagnosis_f07_2",
+      "type": "diagnosis",
+      "label": "Постконтузионный синдром",
+      "icd_code": "F07.2"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_memory_decline",
+      "type": "symptom",
+      "label": "Снижение памяти"
+    },
+    {
+      "id": "symptom_learning_difficulty",
+      "type": "symptom",
+      "label": "Трудности обучения"
+    },
+    {
+      "id": "symptom_emotional_lability",
+      "type": "symptom",
+      "label": "Эмоциональная лабильность"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Утомляемость"
+    },
+    {
+      "id": "symptom_insomnia",
+      "type": "symptom",
+      "label": "Бессонница"
+    },
+    {
+      "id": "symptom_mental_fatigue",
+      "type": "symptom",
+      "label": "Психическая усталость"
+    },
+    {
+      "id": "symptom_stress_intolerance",
+      "type": "symptom",
+      "label": "Снижение устойчивости к стрессу"
+    },
+    {
+      "id": "symptom_concentration_difficulty",
+      "type": "symptom",
+      "label": "Трудности концентрации внимания"
+    },
+    {
+      "id": "symptom_physical_discomfort",
+      "type": "symptom",
+      "label": "Неприятные физические ощущения"
+    },
+    {
+      "id": "symptom_behavioral_disturbance",
+      "type": "symptom",
+      "label": "Поведенческие нарушения"
+    },
+    {
+      "id": "symptom_anxiety_disorder",
+      "type": "symptom",
+      "label": "Тревожные расстройства"
+    },
+    {
+      "id": "symptom_psychopathological_disorder",
+      "type": "symptom",
+      "label": "Психопатологические расстройства"
+    },
+    {
+      "id": "symptom_decreased_work_capacity",
+      "type": "symptom",
+      "label": "Снижение работоспособности"
+    },
+    {
+      "id": "symptom_diffuse_attention",
+      "type": "symptom",
+      "label": "Рассеянное внимание"
+    },
+    {
+      "id": "symptom_increased_fatigue",
+      "type": "symptom",
+      "label": "Повышенная утомляемость"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_memory_decline",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_memory_decline",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_memory_decline",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_memory_decline",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_learning_difficulty",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудности обучения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_learning_difficulty",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудности обучения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_learning_difficulty",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудности обучения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_learning_difficulty",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудности обучения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эмоциональная лабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эмоциональная лабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эмоциональная лабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эмоциональная лабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_concentration_difficulty",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудность концентрации внимания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_concentration_difficulty",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудность концентрации внимания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_concentration_difficulty",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудность концентрации внимания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_concentration_difficulty",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудность концентрации внимания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mental_fatigue",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психическая усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mental_fatigue",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психическая усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mental_fatigue",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психическая усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mental_fatigue",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психическая усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stress_intolerance",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение устойчивости к стрессу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stress_intolerance",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение устойчивости к стрессу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stress_intolerance",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение устойчивости к стрессу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stress_intolerance",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение устойчивости к стрессу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_attention",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рассеянное внимание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_attention",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рассеянное внимание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_attention",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рассеянное внимание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_attention",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рассеянное внимание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_fatigue",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_fatigue",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_fatigue",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_fatigue",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_work_capacity",
+      "target": "diagnosis_f06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "постепенное снижение работоспособности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_work_capacity",
+      "target": "diagnosis_f06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "постепенное снижение работоспособности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_work_capacity",
+      "target": "diagnosis_f07_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "постепенное снижение работоспособности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_work_capacity",
+      "target": "diagnosis_f07_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "постепенное снижение работоспособности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Головные боли, ... головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_insomnia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "утомляемость ... бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "symptom_fatigue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эмоциональная лабильность, ... утомляемостью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_memory_decline",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Головные боли, Снижение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_learning_difficulty",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Головные боли, ... трудности обучения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f06_7",
+      "target": "diagnosis_f06_6",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F-06.7 F-06.6 F-07.1 F-07.2",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f06_7",
+      "target": "diagnosis_f07_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F-06.7 F-06.6 F-07.1 F-07.2",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f06_7",
+      "target": "diagnosis_f07_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F-06.7 F-06.6 F-07.1 F-07.2",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f06_6",
+      "target": "diagnosis_f07_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F-06.7 F-06.6 F-07.1 F-07.2",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f06_6",
+      "target": "diagnosis_f07_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F-06.7 F-06.6 F-07.1 F-07.2",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f07_1",
+      "target": "diagnosis_f07_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F-06.7 F-06.6 F-07.1 F-07.2",
+      "properties": {}
+    }
+  ]
+}

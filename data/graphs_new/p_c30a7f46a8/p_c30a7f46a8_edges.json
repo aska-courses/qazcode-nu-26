@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_vomiting_without_bile",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При непроходимости ДПК выше большого сосочка рвота возникает вскоре после рождения, количество рвотных масс большое, в них нет примеси желчи.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наиболее ранним и постоянным симптомом является рвота.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delayed_meconium_passage",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отхождение его наблюдается с задержкой до 3-4-х дней.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meconium_normal",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "У детей с высокой кишечной непроходимостью, как правило, бывает отхождение мекония.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Характерна прогрессивная потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Со вторых суток отчетливо выражены явления обезвоживания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Живот вздут, увеличен в верхних отделах, за счет растянутого желудка и двенадцатиперстной кишки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peristalsis_waves",
+    "target": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "В первые дни можно видеть волны перистальтики.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_congenital_duodenal_atresia_stenosis",
+    "target": "diagnosis_congenital_annular_pancreas",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Операцией выбора при атрезии ДПК и кольцевидной поджелудочной железе является дуоденодуоденоанастомоз (ДДА).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_vomiting_without_bile",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "в них нет примеси желчи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_abdominal_distension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наиболее ранним и постоянным симптомом является рвота... Живот вздут, увеличен в верхних отделах...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_dehydration",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наиболее ранним и постоянным симптомом является рвота... Со вторых суток отчетливо выражены явления обезвоживания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наиболее ранним и постоянным симптомом является рвота... Характерна прогрессивная потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_peristalsis_waves",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наиболее ранним и постоянным симптомом является рвота... В первые дни можно видеть волны перистальтики.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "symptom_dehydration",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Живот вздут... Со вторых суток отчетливо выражены явления обезвоживания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Живот вздут... Характерна прогрессивная потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Со вторых суток отчетливо выражены явления обезвоживания... Характерна прогрессивная потеря массы тела.",
+    "properties": {}
+  }
+]

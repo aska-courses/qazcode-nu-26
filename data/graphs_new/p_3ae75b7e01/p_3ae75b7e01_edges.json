@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_nalichie_opukhovogo_obrazenia_kozhi",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие опухолевого образования кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_tsveta_kozhi",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение цвета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rost_pigmentnogo_obrazenia_kozhi",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рост пигментного образования кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_razmera_formy_tsveta_rodinki",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменения размера, формы или цвета родинки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_perifericheskikh_limfaticheskih_uzlov",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение периферических лимфатических узлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asymmetry",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "A (asymmetry) - асимметрия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nepravilnyy_krai",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "B (boundary, border irregularity) –неровный край",
+    "properties": {}
+  },
+  {
+    "source": "symptom_raznoobraznyy_tsvet",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "C (color) - включение участков красного, коричневого, синего или белого цвета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diametr_bolee_6_mm",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "D (diameter) - диаметр более 6 мм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pripodnyatost_opukholi",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "E (elevation) - приподнятость опухоли над окружающей кожей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izjazvlenie",
+    "target": "diagnosis_zlokachivaya_melanoma_kozhi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Изъязвление (улцерация) опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asymmetry",
+    "target": "symptom_nepravilnyy_krai",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "A (asymmetry) - асимметрия, B (boundary, border irregularity) –неровный край",
+    "properties": {}
+  },
+  {
+    "source": "symptom_raznoobraznyy_tsvet",
+    "target": "symptom_diametr_bolee_6_mm",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "C (color) - включение участков красного, коричневого, синего или белого цвета, D (diameter) - диаметр более 6 мм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pripodnyatost_opukholi",
+    "target": "symptom_izjazvlenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "E (elevation) - приподнятость опухоли над окружающей кожей, Изъязвление (улцерация) опухоли",
+    "properties": {}
+  }
+]

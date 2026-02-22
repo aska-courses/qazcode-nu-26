@@ -1,0 +1,124 @@
+{
+  "protocol_id": "p_3ea105eff1",
+  "nodes": [
+    {
+      "id": "diagnosis_r05",
+      "type": "diagnosis",
+      "label": "Замедленный рост и недостаточность питания плода",
+      "icd_code": "R05"
+    },
+    {
+      "id": "diagnosis_r05_0",
+      "type": "diagnosis",
+      "label": "Маловесный для гестационного возраста",
+      "icd_code": "R05.0"
+    },
+    {
+      "id": "symptom_apnoe",
+      "type": "symptom",
+      "label": "апноэ"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "брадикардия"
+    },
+    {
+      "id": "symptom_stress",
+      "type": "symptom",
+      "label": "стресс"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "боль"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_desaturation",
+      "type": "symptom",
+      "label": "десатурация"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_bronchospasm",
+      "type": "symptom",
+      "label": "бронхоспазм"
+    },
+    {
+      "id": "symptom_hypotonia",
+      "type": "symptom",
+      "label": "гипотония"
+    },
+    {
+      "id": "symptom_acidosis",
+      "type": "symptom",
+      "label": "ацидоз"
+    },
+    {
+      "id": "symptom_hyperstimulation",
+      "type": "symptom",
+      "label": "гиперстимуляция"
+    },
+    {
+      "id": "symptom_upper_respiratory_infection",
+      "type": "symptom",
+      "label": "инфекция верхних дыхательных путей"
+    },
+    {
+      "id": "symptom_hypothermia",
+      "type": "symptom",
+      "label": "гипотермия (потеря тепла)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_stress",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перенос является самым большим фактором потери тепла и стресса, приводящего к тахикардии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stress",
+      "target": "symptom_apnoe",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перенос является самым большим фактором потери тепла и стресса, приводящего к ... апноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apnoe",
+      "target": "symptom_bradycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Ребенок, имеющий приступ апное, брадикардии, требующий активной стимуляции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronchospasm",
+      "target": "symptom_seizures",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Высокий уровень шума может провоцировать приступы бронхоспазмов. Световые и звуковые раздражители ... могут провоцировать судороги",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_r05",
+      "target": "diagnosis_r05_0",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "МКБ-10 Код Название Р05 Замедленный рост и недостаточность питания плода Р05.0 Маловесный для гестационного возраста",
+      "properties": {}
+    }
+  ]
+}

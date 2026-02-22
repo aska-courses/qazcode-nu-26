@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_shok",
+    "target": "symptom_tyazheloe_krovotechenie",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "высшая степень приоритетности: − тяжелые кровотечения; − тампонада перикарда.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shok",
+    "target": "symptom_tamponada_perikarda",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "высшая степень приоритетности: − тяжелые кровотечения; − тампонада перикарда.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shok",
+    "target": "symptom_krovopoteria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Класс 2: кровопотеря 20 – 25% ОЦК; ... шок.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mocheotdelenie",
+    "target": "symptom_letalgiya",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "мочеотделение ‹1 мл/кг/ч; летаргия, рвота, холодный липкий пот.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mocheotdelenie",
+    "target": "symptom_rvoota",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "мочеотделение ‹1 мл/кг/ч; летаргия, рвота, холодный липкий пот.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mocheotdelenie",
+    "target": "symptom_kholodnyy_lipkiy_pot",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "мочеотделение ‹1 мл/кг/ч; летаргия, рвота, холодный липкий пот.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutrennee_krovotechenie",
+    "target": "symptom_cherepno_mozgovaya_travma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Средняя степень приоритетности: − шок; − внутренне кровотечение; − черепно-мозговая травма; − повреждение спинного мозга; − перелом позвоночника, ожоги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutrennee_krovotechenie",
+    "target": "symptom_povrezhdenie_spinnogo_mozga",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Средняя степень приоритетности: − шок; − внутренне кровотечение; − черепно-мозговая травма; − повреждение спинного мозга; − перелом позвоночника, ожоги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutrennee_krovotechenie",
+    "target": "symptom_perelom_pozvonochnika",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Средняя степень приоритетности: − шок; − внутренне кровотечение; − черепно-мозговая травма; − повреждение спинного мозга; − перелом позвоночника, ожоги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutrennee_krovotechenie",
+    "target": "symptom_ogogo",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Средняя степень приоритетности: − шок; − внутренне кровотечение; − черепно-мозговая травма; − повреждение спинного мозга; − перелом позвоночника, ожоги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsutstvie_dykhaniya",
+    "target": "symptom_otsutstvie_serdechnoy_deyatelnosti",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "высшая степень приоритетности: − дыхание; − сердечно-сосудистая система.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ugnetenie_soznaniya",
+    "target": "symptom_koma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Угнетение сознания (ком Глазго <8) … Кома.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_po_fio2_koeffitsient_menee_300",
+    "target": "symptom_spo2_nizhe_90",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Дополнительные признаки для эндотрахеальной интубации … PO/FiO2 коэффициент <300; … SpO2 <90%.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pco2_nepravilnoe",
+    "target": "symptom_po_nizhe_70",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Дополнительные признаки для эндотрахеальной интубации … PCO2 >45 или <25 мм рт.ст.; … PO <70 мм рт.ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aspiratsiya_krovi_zhiznedarnogo_soderzhimogo",
+    "target": "symptom_povrezhdenie_licevogo_skeleta",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Дополнительные признаки для эндотрахеальной интубации … Аспирация крови, желудочного содержимого; Наличие повреждений лицевого скелета.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aspiratsiya_krovi_zhiznedarnogo_soderzhimogo",
+    "target": "symptom_ogogo",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Дополнительные признаки для эндотрахеальной интубации … Аспирация крови, желудочного содержимого; Наличие ожогов головы и шеи.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipovolemiya",
+    "target": "symptom_shok",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Проблема устранения гиповолемии (кристаллоиды) – часть терапии шока.",
+    "properties": {}
+  }
+]

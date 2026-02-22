@@ -1,0 +1,210 @@
+[
+  {
+    "source": "symptom_weakness_fatigue",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слабость или утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_itching",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Зуд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Увеличение живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_melena",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровотечения, мелену",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Потерю веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_bloating",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздутие живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошноту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_appetite",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потерю аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_upper_right_quadrant_pain",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль и дискомфорт в верхнем правом квадранте живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гепатомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Спленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Желтуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ascites",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Асцит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_edema",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Периферические отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asterixis",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Порхающий тремор (астериксис)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_mass_loss",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Потеря мышечной массы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding_signs",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cognitive_neurological_disturbances",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Когнитивные, неврологические нарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_disturbance",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушения сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_portal_hypertension_signs",
+    "target": "diagnosis_hepatocellular_carcinoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки портальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness_fatigue",
+    "target": "symptom_itching",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Слабость или утомляемость; Зуд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Потерю веса, лихорадку",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hepatocellular_carcinoma",
+    "target": "diagnosis_intrahepatic_bile_duct_cancer",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C22.0 Печеночноклеточный рак C22.1 Рак внутрипеченочного желчного протока",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hepatocellular_carcinoma",
+    "target": "diagnosis_hepatoblastoma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C22.0 Печеночноклеточный рак C22.2 Гепатобластома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hepatocellular_carcinoma",
+    "target": "diagnosis_hepatic_angiosarcoma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C22.0 Печеночноклеточный рак C22.3 Ангиосаркома печени",
+    "properties": {}
+  }
+]

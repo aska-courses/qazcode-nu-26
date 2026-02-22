@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "постепенно нарастающая преимущественно инспираторная одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "длительный непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exertion_intolerance",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение толерантности к физическим нагрузкам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nail_clubbing",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "изменение ногтевых фаланг в виде «барабанных палочек»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crackles_velcro",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "крепитация (хрипы «Velcro»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "диффузный серо‑пепельный цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_accentuated_second_heart_sound",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "усиление II тона над легочной артерией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_edema",
+    "target": "diagnosis_j84_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "периферические отёки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "постепенно нарастающая ... одышка ... длительный непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_exertion_intolerance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "длительный непродуктивный кашель, снижение толерантности к физическим нагрузкам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_decreased_appetite",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "неспецифические симптомы - слабость, снижение аппетита, потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "неспецифические симптомы - слабость, снижение аппетита, потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nail_clubbing",
+    "target": "symptom_crackles_velcro",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изменение ногтевых фаланг ...; крепитация (хрипы «Velcro»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "symptom_accentuated_second_heart_sound",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "диффузный серо‑пепельный цианоз, усиление II тона над легочной артерией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "symptom_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "диффузный серо‑пепельный цианоз, тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "symptom_peripheral_edema",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "диффузный серо‑пепельный цианоз, периферические отёки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j84_1",
+    "target": "diagnosis_j67",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: J84.1 ... J67 ... (перечислены вместе как возможные диагнозы)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j84_1",
+    "target": "diagnosis_d86_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: J84.1 ... D86.0 ... (перечислены вместе в таблице)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j84_1",
+    "target": "diagnosis_j99_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: J84.1 ... J99.0 ... (перечислены вместе в таблице)",
+    "properties": {}
+  }
+]

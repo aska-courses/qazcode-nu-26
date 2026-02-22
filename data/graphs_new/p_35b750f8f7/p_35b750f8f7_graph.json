@@ -1,0 +1,449 @@
+{
+  "protocol_id": "p_35b750f8f7",
+  "nodes": [
+    {
+      "id": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "diagnosis",
+      "label": "Воспаление слуховой (евстахиевой) трубы",
+      "icd_code": "N68.0"
+    },
+    {
+      "id": "symptom_shum_v_uhе",
+      "type": "symptom",
+      "label": "шум в ухе"
+    },
+    {
+      "id": "symptom_zalozhennost_v_uhе",
+      "type": "symptom",
+      "label": "заложенность в ухе (исчезающая при сглатывании)"
+    },
+    {
+      "id": "symptom_oshushchenie_zhidkosti_golova",
+      "type": "symptom",
+      "label": "ощущение переливающейся жидкости при повороте головы"
+    },
+    {
+      "id": "symptom_autofoniya",
+      "type": "symptom",
+      "label": "аутофония"
+    },
+    {
+      "id": "symptom_snizhenie_slucha",
+      "type": "symptom",
+      "label": "снижение слуха"
+    },
+    {
+      "id": "symptom_diskomfort_v_uhе",
+      "type": "symptom",
+      "label": "дискомфорт в ухе"
+    },
+    {
+      "id": "symptom_konduktivnaya_tugoukhost",
+      "type": "symptom",
+      "label": "кондуктивная тугоухость"
+    },
+    {
+      "id": "symptom_smeshannaya_tugoukhost",
+      "type": "symptom",
+      "label": "смешанная тугоухость"
+    },
+    {
+      "id": "symptom_otek_nazalnoy_slizistoy",
+      "type": "symptom",
+      "label": "отёк слизистой полости носа"
+    },
+    {
+      "id": "symptom_giperemiya_nazalnoy_slizistoy",
+      "type": "symptom",
+      "label": "гиперемия слизистой полости носа"
+    },
+    {
+      "id": "symptom_gnoe_otdelianie_iz_nosa",
+      "type": "symptom",
+      "label": "гнойное отделяемое из носа"
+    },
+    {
+      "id": "symptom_adenoidnye_vegetatsii",
+      "type": "symptom",
+      "label": "аденоидные вегетации"
+    },
+    {
+      "id": "symptom_utjazhenie_barabannoy_perponki",
+      "type": "symptom",
+      "label": "втяжение барабанной перепонки"
+    },
+    {
+      "id": "symptom_vystupanie_korotkogo_otrostka_molotchka",
+      "type": "symptom",
+      "label": "выступание короткого отростка слухового молоточка"
+    },
+    {
+      "id": "symptom_ukorocheniye_svetovogo_konusa",
+      "type": "symptom",
+      "label": "укорочение светового конуса"
+    },
+    {
+      "id": "symptom_pomutnenie_barabannoy_perponki",
+      "type": "symptom",
+      "label": "помутнение барабанной перепонки"
+    },
+    {
+      "id": "symptom_skleroz_barabannoy_perponki",
+      "type": "symptom",
+      "label": "склероз барабанной перепонки"
+    },
+    {
+      "id": "symptom_gipertrofia_nebnyh_mindalin",
+      "type": "symptom",
+      "label": "гипертрофия небных миндалин"
+    },
+    {
+      "id": "symptom_granuly_zadney_stenki_glotki",
+      "type": "symptom",
+      "label": "гранулы задней стенки глотки"
+    },
+    {
+      "id": "symptom_zhidkost_v_srednem_uhе",
+      "type": "symptom",
+      "label": "наличие жидкости в среднем ухе"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_shum_v_uhе",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "шумом в ухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zalozhennost_v_uhе",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "заложенностью в ухе, исчезающей при сглатывании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshushchenie_zhidkosti_golova",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "ощущением переливающейся жидкости при повороте головы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autofoniya",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "аутофонией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_slucha",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "понижением слуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diskomfort_v_uhе",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "дискомфорт в ухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konduktivnaya_tugoukhost",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "у больных наблюдается чаще кондуктивная тугоухость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smeshannaya_tugoukhost",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "может встречаться и смешанная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_nazalnoy_slizistoy",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "отек и гиперемия слизистой полости носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_nazalnoy_slizistoy",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "отек и гиперемия слизистой полости носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoe_otdelianie_iz_nosa",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "слизистое или гнойное отделяемое из носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adenoidnye_vegetatsii",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "аденоидные вегетации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utjazhenie_barabannoy_perponki",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "втяжение барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vystupanie_korotkogo_otrostka_molotchka",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "выступание короткого отростка слухового молоточка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_svetovogo_konusa",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "укорочение светового конуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pomutnenie_barabannoy_perponki",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "помутнение барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skleroz_barabannoy_perponki",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "склероз барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertrofia_nebnyh_mindalin",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "гипертрофия небных миндалин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_granuly_zadney_stenki_glotki",
+      "target": "diagnosis_vospaleniye_sluhovoy_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "гранулы задней стенки глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhidkost_v_srednem_uhе",
+      "target": "diagnosis_vospaleniye_sluhovой_evestahiyevoy_truby",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "наличие жидкости в среднем ухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_v_uhе",
+      "target": "symptom_zalozhennost_v_uhе",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "шумом в ухе; заложенностью в ухе, исчезающей при сглатывании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_v_uhе",
+      "target": "symptom_oshushchenie_zhidkosti_golova",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "шумом в ухе; ощущением переливающейся жидкости при повороте головы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_v_uhе",
+      "target": "symptom_autofoniya",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "шумом в ухе; аутофонией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zalozhennost_v_uhе",
+      "target": "symptom_oshushchenie_zhidkosti_golova",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "заложенностью в ухе, исчезающей при сглатывании; ощущением переливающейся жидкости при повороте головы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zalozhennost_v_uhе",
+      "target": "symptom_autofoniya",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "заложенностью в ухе, исчезающей при сглатывании; аутофонией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshushchenie_zhidkosti_golova",
+      "target": "symptom_autofoniya",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "ощущением переливающейся жидкости при повороте головы; аутофонией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_nazalnoy_slizistoy",
+      "target": "symptom_giperemiya_nazalnoy_slizistoy",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "отек и гиперемия слизистой полости носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_nazalnoy_slizistoy",
+      "target": "symptom_gnoe_otdelianie_iz_nosa",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "отек и гиперемия слизистой полости носа, слизистое или гнойное отделяемое из носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_nazalnoy_slizistoy",
+      "target": "symptom_gnoe_otdelianie_из_nosa",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "отек и гиперемия слизистой полости носа, слизистое или гнойное отделяемое из носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adenoidnye_vegetatsii",
+      "target": "symptom_otek_nazalnoy_slizistoy",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "отек ... аденоидные вегетации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adenoidnye_vegetatsii",
+      "target": "symptom_giperemiya_nazalnoy_slizistoy",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "отек ... аденоидные вегетации; гиперемия слизистой полости носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utjazhenie_barabannoy_perponki",
+      "target": "symptom_vystupanie_korotkogo_otrostka_molotchka",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "втяжение барабанной перепонки, выступание короткого отростка слухового молоточка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utjazhenie_barabannoy_perponki",
+      "target": "symptom_ukorocheniye_svetovogo_konusa",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "втяжение барабанной перепонки, укорочение светового конуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utjazhenie_barabannoy_perponki",
+      "target": "symptom_pomutnenie_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "втяжение барабанной перепонки, помутнение барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utjazhenie_barabannoy_perponki",
+      "target": "symptom_skleroz_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "втяжение барабанной перепонки, склероз барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vystupanie_korotkogo_otrostka_molotchka",
+      "target": "symptom_ukorocheniye_svetovogo_konusa",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "выступание короткого отростка слухового молоточка, укорочение светового конуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vystupanie_korotkogo_otrostka_molotchka",
+      "target": "symptom_pomutnenie_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "выступание короткого отростка слухового молоточка, помутнение барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vystupanie_korotkogo_otrostka_molotchka",
+      "target": "symptom_skleroz_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "выступание короткого отростка слухового молоточка, склероз барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_svetovogo_konusa",
+      "target": "symptom_pomutnenie_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "укорочение светового конуса, помутнение барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_svetovogo_konusa",
+      "target": "symptom_skleroz_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "укорочение светового конуса, склероз барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pomutnenie_barabannoy_perponki",
+      "target": "symptom_skleroz_barabannoy_perponki",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "помутнение барабанной перепонки, склероз барабанной перепонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konduktivnaya_tugoukhost",
+      "target": "symptom_smeshannaya_tugoukhost",
+      "type": "co-occurs",
+      "weight": 0.6,
+      "evidence": "кондуктивная тугоухость, но может встречаться и смешанная",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "protocol_id": "p_32bb61df0b",
+  "nodes": [
+    {
+      "id": "m23_5_chronic_knee_instability",
+      "type": "diagnosis",
+      "label": "Хроническая нестабильность коленного сустава",
+      "icd_code": "M23.5"
+    },
+    {
+      "id": "s83_7_multi_structure_knee_trauma",
+      "type": "diagnosis",
+      "label": "Травма нескольких структур коленного сустава",
+      "icd_code": "S83.7"
+    },
+    {
+      "id": "m23_8_other_internal_knee_lesions",
+      "type": "diagnosis",
+      "label": "Другие внутренние поражения колена",
+      "icd_code": "M23.8"
+    },
+    {
+      "id": "local_pain",
+      "type": "symptom",
+      "label": "Локальная болезненность"
+    },
+    {
+      "id": "joint_reaction",
+      "type": "symptom",
+      "label": "Выраженная реакция сустава"
+    },
+    {
+      "id": "joint_function_reduction",
+      "type": "symptom",
+      "label": "Снижение функции сустава"
+    },
+    {
+      "id": "joint_instability",
+      "type": "symptom",
+      "label": "Нарушение стабильности сустава"
+    },
+    {
+      "id": "joint_surface_gap",
+      "type": "symptom",
+      "label": "Расхождение суставных поверхностей"
+    },
+    {
+      "id": "lateral_knee_instability",
+      "type": "symptom",
+      "label": "Боковая нестабильность коленного сустава"
+    },
+    {
+      "id": "pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "skin_inflammation_at_intervention_site",
+      "type": "symptom",
+      "label": "Воспалительные поражения кожи в области вмешательства"
+    },
+    {
+      "id": "vascular_pathology_at_injured_limb",
+      "type": "symptom",
+      "label": "Выраженная сосудистая патология на повреждённой конечности"
+    },
+    {
+      "id": "neurological_pathology_at_injured_limb",
+      "type": "symptom",
+      "label": "Выраженная неврологическая патология на повреждённой конечности"
+    },
+    {
+      "id": "severe_patient_condition",
+      "type": "symptom",
+      "label": "Тяжелое состояние пациента"
+    }
+  ],
+  "edges": [
+    {
+      "source": "local_pain",
+      "target": "m23_5_chronic_knee_instability",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "I степень – разрыв минимального числа волокон связки с локальной болезненностью, но без нарушения стабильности",
+      "properties": {}
+    },
+    {
+      "source": "joint_reaction",
+      "target": "m23_5_chronic_knee_instability",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "II степень – разрыв большего числа волокон связки, протекающий более болезненно, с выраженной реакцией сустава, снижением его функции, но также без нарушения стабильности",
+      "properties": {}
+    },
+    {
+      "source": "joint_function_reduction",
+      "target": "m23_5_chronic_knee_instability",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "II степень – разрыв большего числа волокон связки, ... снижением его функции, но также без нарушения стабильности",
+      "properties": {}
+    },
+    {
+      "source": "joint_instability",
+      "target": "m23_5_chronic_knee_instability",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – полный разрыв связки с нарушением стабильности сустава",
+      "properties": {}
+    },
+    {
+      "source": "lateral_knee_instability",
+      "target": "m23_5_chronic_knee_instability",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повреждение боковых связок сопровождается боковой нестабильностью коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "joint_surface_gap",
+      "target": "m23_5_chronic_knee_instability",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "1 (+) – суставные поверхности расходятся не более 5 мм; 2 (++) – расхождение составляет от 5 до 10 мм; 3 (+++) – расхождение превышает 10 мм",
+      "properties": {}
+    },
+    {
+      "source": "joint_reaction",
+      "target": "joint_function_reduction",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "II степень – разрыв большего числа волокон связки, ... с выраженной реакцией сустава, снижением его функции",
+      "properties": {}
+    },
+    {
+      "source": "joint_instability",
+      "target": "lateral_knee_instability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повреждение боковых связок сопровождается боковой нестабильностью коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "joint_surface_gap",
+      "target": "joint_instability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Измерение расхождения суставных поверхностей используется для оценки степени нестабильности сустава",
+      "properties": {}
+    },
+    {
+      "source": "m23_5_chronic_knee_instability",
+      "target": "s83_7_multi_structure_knee_trauma",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: M23.5 Хроническая нестабильность коленного сустава, S83.7 Травма нескольких структур коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "m23_5_chronic_knee_instability",
+      "target": "m23_8_other_internal_knee_lesions",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: M23.5 Хроническая нестабильность коленного сустава, M23.8 Другие внутренние поражения колена",
+      "properties": {}
+    },
+    {
+      "source": "s83_7_multi_structure_knee_trauma",
+      "target": "m23_8_other_internal_knee_lesions",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: S83.7 Травма нескольких структур коленного сустава, M23.8 Другие внутренние поражения колена",
+      "properties": {}
+    }
+  ]
+}

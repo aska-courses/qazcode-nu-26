@@ -1,0 +1,377 @@
+{
+  "protocol_id": "p_25bbae6ce0",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_subfebrile_temperature",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_high_fever",
+      "type": "symptom",
+      "label": "Высокая температура"
+    },
+    {
+      "id": "symptom_migratory_joint_pain",
+      "type": "symptom",
+      "label": "Мигрирующая боль в суставах"
+    },
+    {
+      "id": "symptom_symmetrical_joint_pain",
+      "type": "symptom",
+      "label": "Симметричная боль в суставах"
+    },
+    {
+      "id": "symptom_arthralgia",
+      "type": "symptom",
+      "label": "Артралгия"
+    },
+    {
+      "id": "symptom_arthritis",
+      "type": "symptom",
+      "label": "Артрит"
+    },
+    {
+      "id": "symptom_pericardial_pain",
+      "type": "symptom",
+      "label": "Перикардиальная боль"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_palpitations",
+      "type": "symptom",
+      "label": "Серцебиение"
+    },
+    {
+      "id": "symptom_ring_erythema",
+      "type": "symptom",
+      "label": "Кольцевидная эритема"
+    },
+    {
+      "id": "symptom_rheumatic_nodules",
+      "type": "symptom",
+      "label": "Ревматические узелки"
+    },
+    {
+      "id": "symptom_chorea",
+      "type": "symptom",
+      "label": "Хорея"
+    },
+    {
+      "id": "symptom_muscle_hyperkinesia",
+      "type": "symptom",
+      "label": "Гиперкинезы мышц"
+    },
+    {
+      "id": "symptom_discoordination",
+      "type": "symptom",
+      "label": "Дискоординация движений"
+    },
+    {
+      "id": "symptom_decreased_muscle_tone",
+      "type": "symptom",
+      "label": "Снижение мышечного тонуса"
+    },
+    {
+      "id": "diagnosis_i00",
+      "type": "diagnosis",
+      "label": "Ревматическая лихорадка без вовлечения сердца",
+      "icd_code": "I00"
+    },
+    {
+      "id": "diagnosis_i01_0",
+      "type": "diagnosis",
+      "label": "Острый ревматический перикардит",
+      "icd_code": "I01.0"
+    },
+    {
+      "id": "diagnosis_i01_1",
+      "type": "diagnosis",
+      "label": "Острый ревматический эндокардит",
+      "icd_code": "I01.1"
+    },
+    {
+      "id": "diagnosis_i01_2",
+      "type": "diagnosis",
+      "label": "Острый ревматический миокардит",
+      "icd_code": "I01.2"
+    },
+    {
+      "id": "diagnosis_i01_8",
+      "type": "diagnosis",
+      "label": "Другие острые ревматические болезни сердца",
+      "icd_code": "I01.8"
+    },
+    {
+      "id": "diagnosis_i01_9",
+      "type": "diagnosis",
+      "label": "Острая ревматическая болезнь сердца неуточненная",
+      "icd_code": "I01.9"
+    },
+    {
+      "id": "diagnosis_i02",
+      "type": "diagnosis",
+      "label": "Ревматическая хорея",
+      "icd_code": "I02"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "через 2-3 недели после ангины внезапно повышается температура до фебрильных цифр",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "у подростков характерно постепенное начало: после стихания клинических проявлений ангины появляются субфебрильная температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_high_fever",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "через 2-3 недели после ангины внезапно повышается температура до фебрильных цифр",
+      "properties": {}
+    },
+    {
+      "source": "symptom_migratory_joint_pain",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "появляются симметричные мигрирующие боли в крупных суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_symmetrical_joint_pain",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "появляются симметричные мигрирующие боли в крупных суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артралгии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthritis",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артриты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_pain",
+      "target": "diagnosis_i01_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "признаки кардита (перикардиальные боли, одышка, сердцебиение и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_i01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки кардита (перикардиальные боли, одышка, сердцебиение и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpitations",
+      "target": "diagnosis_i01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки кардита (перикардиальные боли, одышка, сердцебиение и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ring_erythema",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Кольцевидная эритема ... характерный, но редкий признак",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rheumatic_nodules",
+      "target": "diagnosis_i00",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Подкожные ревматические узелки ... характерный, но крайне редкий признак",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chorea",
+      "target": "diagnosis_i02",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "явления ревматической хореи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_hyperkinesia",
+      "target": "diagnosis_i02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкинезы (подергивания) мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discoordination",
+      "target": "diagnosis_i02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дискоординации движений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_muscle_tone",
+      "target": "diagnosis_i02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение мышечного тонуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_migratory_joint_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "появляются симметричные мигрирующие боли в крупных суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_symmetrical_joint_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "появляются симметричные мигрирующие боли в крупных суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_pain",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки кардита (перикардиальные боли, одышка, сердцебиение и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_pain",
+      "target": "symptom_palpitations",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки кардита (перикардиальные боли, одышка, сердцебиение и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_palpitations",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки кардита (перикардиальные боли, одышка, сердцебиение и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "symptom_arthritis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "артралгии ... артриты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ring_erythema",
+      "target": "symptom_rheumatic_nodules",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "Кольцевидная эритема ... Подкожные ревматические узелки ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_hyperkinesia",
+      "target": "symptom_discoordination",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гиперкинезы (подергивания) мышц ... дискоординации движений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_hyperkinesia",
+      "target": "symptom_decreased_muscle_tone",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гиперкинезы (подергивания) мышц ... снижение мышечного тонуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discoordination",
+      "target": "symptom_decreased_muscle_tone",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "дискоординации движений ... снижение мышечного тонуса",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i01_0",
+      "target": "diagnosis_i01_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Острый ревматический перикардит, Острый ревматический эндокардит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i01_0",
+      "target": "diagnosis_i01_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Острый ревматический перикардит, Острый ревматический миокардит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i01_1",
+      "target": "diagnosis_i01_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Острый ревматический эндокардит, Острый ревматический миокардит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i00",
+      "target": "diagnosis_i01_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Ревматическая лихорадка без упоминания о вовлечении сердца, Острый ревматический перикардит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i00",
+      "target": "diagnosis_i02",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Ревматическая лихорадка без упоминания о вовлечении сердца, Ревматическая хорея",
+      "properties": {}
+    }
+  ]
+}

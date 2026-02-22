@@ -1,0 +1,122 @@
+[
+  {
+    "source": "cough",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Острый бронхит – ограниченное воспаление крупных дыхательных путей, основным симптомом которого является кашель",
+    "properties": {}
+  },
+  {
+    "source": "dry_cough",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "на кашель сначала сухой, затем с отделением мокроты",
+    "properties": {}
+  },
+  {
+    "source": "productive_cough",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "на кашель сначала сухой, затем с отделением мокроты",
+    "properties": {}
+  },
+  {
+    "source": "irritating_cough",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "надсадный (чувство «царапания» за грудиной и между лопаток)",
+    "properties": {}
+  },
+  {
+    "source": "weakness",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "общая слабость",
+    "properties": {}
+  },
+  {
+    "source": "malaise",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "chills",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "озноб",
+    "properties": {}
+  },
+  {
+    "source": "muscle_pain",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в мышцах",
+    "properties": {}
+  },
+  {
+    "source": "back_pain",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в спине",
+    "properties": {}
+  },
+  {
+    "source": "subfebrile_temperature",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "температура тела субфебрильная или нормальная",
+    "properties": {}
+  },
+  {
+    "source": "dry_rales",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иногда рассеянные сухие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "nasal_congestion",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Насморк, заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "fever",
+    "target": "acute_bronchitis_j20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение температуры тела, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "cough",
+    "target": "fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кашель … Повышение температуры тела, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "cough",
+    "target": "nasal_congestion",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кашель … Насморк, заложенность носа",
+    "properties": {}
+  }
+]

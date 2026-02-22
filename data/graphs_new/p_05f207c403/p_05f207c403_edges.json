@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_absence_of_anus",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие ануса на типичном месте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feces_discharge_vagina",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения кала из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_colostomy_presence",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anal_reflex_weak",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анальный рефлекс ослаблен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ крови – лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общий анализ мочи – лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "связана с вторичным пиелонефритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_function_impairment",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение функций почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_tract_fistula",
+    "target": "diagnosis_atrezia_anusa_q42_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличием свища в мочевыделительную систему",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_anus",
+    "target": "symptom_feces_discharge_vagina",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отсутствие ануса на типичном месте; на наличие выделения кала из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_anus",
+    "target": "symptom_colostomy_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отсутствие ануса на типичном месте; наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feces_discharge_vagina",
+    "target": "symptom_colostomy_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выделения кала из влагалища; наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_anemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз, возможно анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможно анемия, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "symptom_secondary_pyelonephritis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитурия, связанная с вторичным пиелонефритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "symptom_kidney_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитурия, ... снижение функций почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "symptom_kidney_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вторичный пиелонефрит ... снижение функций почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_function_impairment",
+    "target": "symptom_urinary_tract_fistula",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение функций почек ... в связи с наличием свища в мочевыделительную систему",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "symptom_urinary_tract_fistula",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитурия ... в связи с наличием свища в мочевыделительную систему",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "symptom_urinary_tract_fistula",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вторичный пиелонефрит ... в связи с наличием свища в мочевыделительную систему",
+    "properties": {}
+  }
+]

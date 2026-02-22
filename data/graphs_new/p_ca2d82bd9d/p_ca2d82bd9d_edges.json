@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_bol_v_nizhnej_chasti_zhivota",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в нижней части живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_temperatura_>_38",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "температура выше 38,0°С",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastoje_mocheispuskanie_s_zhareniem",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частое мочеиспускание с чувством покалывания, резями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obschaja_utomljajemost",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общая утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolestnost_pri_palpatsii_nizhnej_chasti_zhivota",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации в нижней части живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolestnost_pri_vlagalivshchem_issledovanii_i_traktsii_za_shjeku_matki",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при влагалищном исследовании и тракции за шейку матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskie_vydelezenia_iz_shjeki_matki",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "патологические выделения из шейки матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskie_vydelezenia_iz_vlagaliva",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "патологические выделения из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennyj_uroven_soe",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennyj_uroven_c_reaktivnogo_belka",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение уровня С-реактивного белка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuboovarialnoe_obrazovanie",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тубоовариальное образование (обнаружено УЗИ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_laparoskopsicheskie_priznaki_vzomt",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки ВЗОМТ при лапароскопии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoj_i_intoksikacionnyj_sindrom",
+    "target": "diagnosis_ostrye_vospalitelnie_bolezni_matki",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой и интоксикационный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_nizhnej_chasti_zhivota",
+    "target": "symptom_temperatura_>_38",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в нижней части живота; температура выше 38,0°С",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_nizhnej_chasti_zhivota",
+    "target": "symptom_chastoje_mocheispuskanie_s_zhareniem",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в нижней части живота; частое мочеиспускание с чувством покалывания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_temperatura_>_38",
+    "target": "symptom_chastoje_mocheispuskanie_s_zhareniem",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "температура выше 38,0°С; частое мочеиспускание с чувством покалывания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "symptom_obschaja_utomljajemost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слабость, общая утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolestnost_pri_palpatsii_nizhnej_chasti_zhivota",
+    "target": "symptom_bolestnost_pri_vlagalivshchem_issledovanii_i_traktsii_za_shjeku_matki",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации в нижней части живота; болезненность при влагалищном исследовании и тракции за шейку матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskie_vydelezenia_iz_shjeki_matki",
+    "target": "symptom_patologicheskie_vydelezenia_iz_vlagaliva",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "патологические выделения из шейки матки; патологические выделения из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennyj_uroven_soe",
+    "target": "symptom_povyshennyj_uroven_c_reaktivnogo_belka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение СОЭ; повышение уровня С-реактивного белка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuboovarialnoe_obrazovanie",
+    "target": "symptom_laparoskopsicheskie_priznaki_vzomt",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тубоовариальное образование (обнаружено УЗИ); признаки ВЗОМТ при лапароскопии",
+    "properties": {}
+  }
+]

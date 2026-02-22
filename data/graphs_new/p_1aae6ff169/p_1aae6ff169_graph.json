@@ -1,0 +1,228 @@
+{
+  "protocol_id": "p_1aae6ff169",
+  "nodes": [
+    {
+      "id": "pain_anal_region",
+      "type": "symptom",
+      "label": "боль в области заднего прохода"
+    },
+    {
+      "id": "discomfort_anal_region",
+      "type": "symptom",
+      "label": "дискомфорт в области заднего прохода"
+    },
+    {
+      "id": "fecal_content_vaginal_discharge",
+      "type": "symptom",
+      "label": "выделение кишечного содержимого через влагалище"
+    },
+    {
+      "id": "scar_process_perineum",
+      "type": "symptom",
+      "label": "наличие рубцового процесса в области промежности"
+    },
+    {
+      "id": "inflammatory_process_perineum",
+      "type": "symptom",
+      "label": "наличие воспалительного процесса в области промежности"
+    },
+    {
+      "id": "purulent_seepage_pelvis",
+      "type": "symptom",
+      "label": "наличие гнойных затеков в полости таза"
+    },
+    {
+      "id": "scar_deformation_perineum",
+      "type": "symptom",
+      "label": "наличие рубцовой деформации промежности и заднего прохода"
+    },
+    {
+      "id": "external_fistula_orifice_skin",
+      "type": "symptom",
+      "label": "наличие наружного свищевого отверстия на коже промежности"
+    },
+    {
+      "id": "external_fistula_orifice_vaginal_introitus",
+      "type": "symptom",
+      "label": "наличие наружного свищевого отверстия в преддверии влагалища"
+    },
+    {
+      "id": "scar_process_vagina",
+      "type": "symptom",
+      "label": "наличие рубцового процесса во влагалище"
+    },
+    {
+      "id": "inflammatory_process_vagina",
+      "type": "symptom",
+      "label": "наличие воспалительного процесса во влагалище"
+    },
+    {
+      "id": "purulent_seepage_vagina",
+      "type": "symptom",
+      "label": "наличие гнойных затеков во влагалище"
+    },
+    {
+      "id": "anal_incontinence_symptom",
+      "type": "symptom",
+      "label": "анальная инконтиненция"
+    },
+    {
+      "id": "rectovaginal_fistula",
+      "type": "diagnosis",
+      "label": "ректовагинальный свищ",
+      "icd_code": "N82.3"
+    },
+    {
+      "id": "fecal_incontinence",
+      "type": "diagnosis",
+      "label": "недержание кала",
+      "icd_code": "R15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pain_anal_region",
+      "target": "rectovaginal_fistula",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли в области заднего прохода",
+      "properties": {}
+    },
+    {
+      "source": "discomfort_anal_region",
+      "target": "rectovaginal_fistula",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "дискомфорт в области заднего прохода",
+      "properties": {}
+    },
+    {
+      "source": "fecal_content_vaginal_discharge",
+      "target": "rectovaginal_fistula",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выделение кишечного содержимого через влагалище",
+      "properties": {}
+    },
+    {
+      "source": "external_fistula_orifice_skin",
+      "target": "rectovaginal_fistula",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наличие наружного свищевого отверстия на коже промежности",
+      "properties": {}
+    },
+    {
+      "source": "external_fistula_orifice_vaginal_introitus",
+      "target": "rectovaginal_fistula",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наличие наружного свищевого отверстия в преддверии влагалища",
+      "properties": {}
+    },
+    {
+      "source": "anal_incontinence_symptom",
+      "target": "fecal_incontinence",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "анальная инконтиненция",
+      "properties": {}
+    },
+    {
+      "source": "pain_anal_region",
+      "target": "discomfort_anal_region",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в области заднего прохода; дискомфорт в области заднего прохода",
+      "properties": {}
+    },
+    {
+      "source": "pain_anal_region",
+      "target": "fecal_content_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в области заднего прохода; выделение кишечного содержимого через влагалище",
+      "properties": {}
+    },
+    {
+      "source": "discomfort_anal_region",
+      "target": "fecal_content_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дискомфорт в области заднего прохода; выделение кишечного содержимого через влагалище",
+      "properties": {}
+    },
+    {
+      "source": "scar_process_perineum",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие рубцового процесса в области промежности",
+      "properties": {}
+    },
+    {
+      "source": "inflammatory_process_perineum",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие воспалительного процесса в области промежности",
+      "properties": {}
+    },
+    {
+      "source": "purulent_seepage_pelvis",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие гнойных затеков в полости таза",
+      "properties": {}
+    },
+    {
+      "source": "scar_deformation_perineum",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие рубцовой деформации промежности и заднего прохода",
+      "properties": {}
+    },
+    {
+      "source": "scar_process_vagina",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие рубцового процесса во влагалище",
+      "properties": {}
+    },
+    {
+      "source": "inflammatory_process_vagina",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие воспалительного процесса во влагалище",
+      "properties": {}
+    },
+    {
+      "source": "purulent_seepage_vagina",
+      "target": "rectovaginal_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие гнойных затеков во влагалище",
+      "properties": {}
+    },
+    {
+      "source": "scar_process_perineum",
+      "target": "inflammatory_process_perineum",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие рубцового процесса в области промежности; наличие воспалительного процесса в области промежности",
+      "properties": {}
+    },
+    {
+      "source": "scar_process_vagina",
+      "target": "inflammatory_process_vagina",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие рубцового процесса во влагалище; наличие воспалительного процесса во влагалище",
+      "properties": {}
+    }
+  ]
+}

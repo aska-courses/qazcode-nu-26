@@ -1,0 +1,304 @@
+{
+  "protocol_id": "p_53b01c8022",
+  "nodes": [
+    {
+      "id": "symptom_a_ciklicnye_krovavye_vydeleniya",
+      "type": "symptom",
+      "label": "ациклические кровянистые, водянистые, гноевидные выделения из половых путей"
+    },
+    {
+      "id": "symptom_boli_v_nizu_zhivota",
+      "type": "symptom",
+      "label": "боли внизу живота"
+    },
+    {
+      "id": "symptom_boli_v_poyasnichnoi_oblasti",
+      "type": "symptom",
+      "label": "боли в поясничной области тянущего характера"
+    },
+    {
+      "id": "symptom_krovo_teshenie_menopauza",
+      "type": "symptom",
+      "label": "кровотечения на фоне менопаузы"
+    },
+    {
+      "id": "symptom_patalogicheskie_vydeleniya",
+      "type": "symptom",
+      "label": "патологические выделения (гнойные, кровянистые)"
+    },
+    {
+      "id": "symptom_infiltratsiya_vlagaliva",
+      "type": "symptom",
+      "label": "инфильтрация влагалища"
+    },
+    {
+      "id": "symptom_metastaticheskie_ochagi_vlagaliva",
+      "type": "symptom",
+      "label": "метастатические очаги на стенках влагалища"
+    },
+    {
+      "id": "symptom_infiltratsiya_perednego_zadnego_svoda",
+      "type": "symptom",
+      "label": "инфильтрация переднего и заднего влагалищного свода"
+    },
+    {
+      "id": "symptom_infiltraty_v_parametriyah",
+      "type": "symptom",
+      "label": "инфильтраты в параметриях"
+    },
+    {
+      "id": "symptom_gidronefroz",
+      "type": "symptom",
+      "label": "гидронефроз"
+    },
+    {
+      "id": "symptom_nefunktsioniruushchaya_pochka",
+      "type": "symptom",
+      "label": "нефункционирующая почка"
+    },
+    {
+      "id": "symptom_metastazy_v_koste",
+      "type": "symptom",
+      "label": "метастазы в кости"
+    },
+    {
+      "id": "symptom_metastazy_v_golovnoy_mozg",
+      "type": "symptom",
+      "label": "метастазы в головной мозг"
+    },
+    {
+      "id": "symptom_metastazy_v_legs",
+      "type": "symptom",
+      "label": "метастазы в легкие"
+    },
+    {
+      "id": "symptom_porazhenie_limfaticheskikh_uzlov",
+      "type": "symptom",
+      "label": "поражение лимфатических узлов (тазовые, парааортальные)"
+    },
+    {
+      "id": "diagnosis_c53",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование шейки матки",
+      "icd_code": "C53"
+    },
+    {
+      "id": "diagnosis_c53_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование внутренней части шейки матки",
+      "icd_code": "C53.0"
+    },
+    {
+      "id": "diagnosis_c53_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование наружной части шейки матки",
+      "icd_code": "C53.1"
+    },
+    {
+      "id": "diagnosis_c53_8",
+      "type": "diagnosis",
+      "label": "Поражение шейки матки, выходящее за пределы локализаций",
+      "icd_code": "C53.8"
+    },
+    {
+      "id": "diagnosis_c53_9",
+      "type": "diagnosis",
+      "label": "Шейка матки неуточненной части",
+      "icd_code": "C53.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_a_ciklicnye_krovavye_vydeleniya",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения из половых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_nizu_zhiva",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота ... являются жалобами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_poyasnichnoi_oblasti",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в поясничной области тянущего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovo_teshenie_menopauza",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечения на фоне менопаузы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gidronefroz",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вызывает гидронефроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nefunktsioniruushchaya_pochka",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вызывает ... нефункционирующую почку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_porazhenie_limfaticheskikh_uzlov",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вовлечение тазовых и/или парааортальных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastazy_v_koste",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастазы в кости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastazy_v_golovnoy_mozg",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастазы в головной мозг",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastazy_v_legs",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастазы в легкие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_vlagaliva",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфильтрация влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastaticheskie_ochagi_vlagaliva",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастатические очаги на стенках влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_perednego_zadnego_svoda",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфильтрация переднего и заднего влагалищного свода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltraty_v_parametriyah",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфильтраты в параметриях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patalogicheskie_vydeleniya",
+      "target": "diagnosis_c53",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие патологических выделений (гнойные, кровянистые)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_a_ciklicnye_krovavye_vydeleniya",
+      "target": "symptom_patalogicheskie_vydeleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ациклические кровянистые, водянистые, гноевидные выделения ... и наличие патологических выделений (гнойные, кровянистые)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_nizu_zhiva",
+      "target": "symptom_boli_v_poyasnichnoi_oblasti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота и в поясничной области тянущего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gidronefroz",
+      "target": "symptom_nefunktsioniruushchaya_pochka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вызывает гидронефроз или нефункционирующую почку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_vlagaliva",
+      "target": "symptom_metastaticheskie_ochagi_vlagaliva",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "осмотр влагалища ... наличие инфильтрации влагалища, метастатических очагов на стенках влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_perednego_zadnego_svoda",
+      "target": "symptom_infiltraty_v_parametriyah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бимануальный осмотр ... инфильтрация переднего и заднего влагалищного свода, инфильтраты в параметриях",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c53",
+      "target": "diagnosis_c53_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C53 Злокачественное новообразование шейки матки; C53.0 Внутренней части",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c53",
+      "target": "diagnosis_c53_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C53 Злокачественное новообразование шейки матки; C53.1 Наружной части",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c53",
+      "target": "diagnosis_c53_8",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C53 Злокачественное новообразование шейки матки; C53.8 Поражение шейки матки, выходящее за пределы локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c53",
+      "target": "diagnosis_c53_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "C53 Злокачественное новообразование шейки матки; C53.9 Шейки матки неуточненной части",
+      "properties": {}
+    }
+  ]
+}

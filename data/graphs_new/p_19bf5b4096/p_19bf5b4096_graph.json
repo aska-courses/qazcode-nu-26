@@ -1,0 +1,273 @@
+{
+  "protocol_id": "p_19bf5b4096",
+  "nodes": [
+    {
+      "id": "diagnosis_spontaneous_pneumothorax",
+      "type": "diagnosis",
+      "label": "Спонтанный пневмоторакс",
+      "icd_code": "J93"
+    },
+    {
+      "id": "diagnosis_spontaneous_tension_pneumothorax",
+      "type": "diagnosis",
+      "label": "Спонтанный пневмоторакс напряжения",
+      "icd_code": "J93.0"
+    },
+    {
+      "id": "diagnosis_other_spontaneous_pneumothorax",
+      "type": "diagnosis",
+      "label": "Другой спонтанный пневмоторакс",
+      "icd_code": "J93.1"
+    },
+    {
+      "id": "symptom_pain_radiating_to_shoulder",
+      "type": "symptom",
+      "label": "Боль распирающего характера, часто иррадиирующая в плечо"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_dry_cough",
+      "type": "symptom",
+      "label": "Постоянный сухой кашель"
+    },
+    {
+      "id": "symptom_respiratory_failure",
+      "type": "symptom",
+      "label": "Дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_forced_position",
+      "type": "symptom",
+      "label": "Вынужденное положение"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность кожных покровов"
+    },
+    {
+      "id": "symptom_cold_sweat_cyanosis",
+      "type": "symptom",
+      "label": "Холодный пот и/или цианоз"
+    },
+    {
+      "id": "symptom_intercostal_expansion",
+      "type": "symptom",
+      "label": "Расширение межреберных промежутков"
+    },
+    {
+      "id": "symptom_delayed_breathing_affected_side",
+      "type": "symptom",
+      "label": "Отставание при дыхании пораженной половины грудной клетки"
+    },
+    {
+      "id": "symptom_neck_vein_swelling",
+      "type": "symptom",
+      "label": "Набухание и пульсация шейных вен"
+    },
+    {
+      "id": "symptom_subcutaneous_emphysema",
+      "type": "symptom",
+      "label": "Подкожная эмфизема"
+    },
+    {
+      "id": "symptom_decreased_vocal_fremitus",
+      "type": "symptom",
+      "label": "Ослабление или отсутствие голосового дрожания на пораженной стороне"
+    },
+    {
+      "id": "symptom_tympanic_sound",
+      "type": "symptom",
+      "label": "Тимпанический звук"
+    },
+    {
+      "id": "symptom_percussion_dullness",
+      "type": "symptom",
+      "label": "Притупление при перкуссии"
+    },
+    {
+      "id": "symptom_apex_shift",
+      "type": "symptom",
+      "label": "Смещение области верхушечного толчка и границ сердечной тупости в здоровую сторону"
+    },
+    {
+      "id": "symptom_decreased_breath_sounds",
+      "type": "symptom",
+      "label": "Ослабление дыхания при аускультации"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain_radiating_to_shoulder",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боль распирающего характера, часто иррадиирующую в плечо",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на одышку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_cough",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на постоянный сухой кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_forced_position",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_sweat_cyanosis",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "холодный пот и/или цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intercostal_expansion",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение межреберных промежутков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delayed_breathing_affected_side",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание при дыхании, пораженной половины грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_vein_swelling",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "набухание и пульсация шейных вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subcutaneous_emphysema",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможна подкожная эмфизема",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_vocal_fremitus",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при перкуссии ослабление или отсутствие голосового дрожания на пораженной стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tympanic_sound",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тимпанический звук",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apex_shift",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение области верхушечного толчка и границ сердечной тупости в здоровую сторону",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_breath_sounds",
+      "target": "diagnosis_spontaneous_pneumothorax",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабление дыхания при аускультации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_radiating_to_shoulder",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "на боль распирающего характера, часто иррадиирующую в плечо; на одышку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_dry_cough",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на одышку; на постоянный сухой кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_forced_position",
+      "target": "symptom_pallor",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вынужденное положение; бледность кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_vein_swelling",
+      "target": "symptom_subcutaneous_emphysema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "набухание и пульсация шейных вен, возможна подкожная эмфизема",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_spontaneous_pneumothorax",
+      "target": "diagnosis_spontaneous_tension_pneumothorax",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "J 93.0 Спонтанный пневмоторакс напряжения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_spontaneous_pneumothorax",
+      "target": "diagnosis_other_spontaneous_pneumothorax",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "J 93.1 Другой спонтанный пневмоторакс",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_spontaneous_tension_pneumothorax",
+      "target": "diagnosis_other_spontaneous_pneumothorax",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "спонтанный пневмоторакс напряжения; другой спонтанный пневмоторакс",
+      "properties": {}
+    }
+  ]
+}

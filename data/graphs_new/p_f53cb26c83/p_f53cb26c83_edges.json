@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головные боли;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_zreniya",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение зрения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ucha_shennoe_serdtsebitie",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащенное сердцебиение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_potlivost",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потливость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trevozhnost_i_strah",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство тревоги и страха;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перебои в работе сердца (тахикардия);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_profuznaya_potlivost",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "профузная потливость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_vo_rtu",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость во рту;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tremor_konechnostei",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тремор конечностей во время кризов АГ;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokhudenie",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "похудание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_kozhnich_pokrovov_i_slizistykh",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бледность кожных покровов и слизистых;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_yazyka_i_slizistykh",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость языка и слизистых;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_adi",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение АД, сменяющееся гипотонией;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoniya",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение АД, сменяющееся гипотонией;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aritmija",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения сердечного ритма;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasshirenie_granic_serdtsa_vlevo",
+    "target": "diagnosis_giperfunkciya_mozgovogo_sloya_nadpoch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расширение границ сердца влево (в динамике);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_potlivost",
+    "target": "symptom_tremor_konechnostei",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тремор конечностей во время кризов АГ;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_adi",
+    "target": "symptom_gipotoniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение АД, сменяющееся гипотонией;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_vo_rtu",
+    "target": "symptom_sukhost_yazyka_i_slizistykh",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухость языка и слизистых;",
+    "properties": {}
+  }
+]

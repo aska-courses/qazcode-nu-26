@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: лихорадка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: вялость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли в животе;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_liquid_stool",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: частый жидкий водянистый стул;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_watery_stool",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: частый жидкий водянистый стул;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flatulence",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: метеоризм.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucous_membrane_dryness",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эксикоз: сухость слизистых оболочек;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_dryness",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эксикоз: сухость кожи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thirst",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эксикоз: жажда;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sunken_eyes",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эксикоз: запавшие глаза;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_skin_elasticity",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эксикоз: снижение эластичности кожи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemic_shock",
+    "target": "diagnosis_a08",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Симптомы гиповолемического шока;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: лихорадка; тошнота, рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_liquid_stool",
+    "target": "symptom_watery_stool",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: частый жидкий водянистый стул;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flatulence",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: метеоризм; боли в животе;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a08",
+    "target": "diagnosis_a09",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: А08 … А09 Диарея и гастроэнтерит предположительно инфекционного происхождения",
+    "properties": {}
+  }
+]

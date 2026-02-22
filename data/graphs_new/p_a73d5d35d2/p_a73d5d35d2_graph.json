@@ -1,0 +1,830 @@
+{
+  "protocol_id": "p_a73d5d35d2",
+  "nodes": [
+    {
+      "id": "diagnosis_echinococcosis",
+      "type": "diagnosis",
+      "label": "Эхинококкоз",
+      "icd_code": "B67"
+    },
+    {
+      "id": "diagnosis_echinococcosis_liver",
+      "type": "diagnosis",
+      "label": "Инвазия печени",
+      "icd_code": "B67.0"
+    },
+    {
+      "id": "diagnosis_echinococcosis_lung",
+      "type": "diagnosis",
+      "label": "Инвазия легкого",
+      "icd_code": "B67.1"
+    },
+    {
+      "id": "diagnosis_echinococcosis_bone",
+      "type": "diagnosis",
+      "label": "Инвазия кости",
+      "icd_code": "B67.2"
+    },
+    {
+      "id": "diagnosis_echinococcosis_other_multiple",
+      "type": "diagnosis",
+      "label": "Инвазия другой локализации и множественный эхинококкоз",
+      "icd_code": "B67.3"
+    },
+    {
+      "id": "diagnosis_echinococcosis_unspecified",
+      "type": "diagnosis",
+      "label": "Неуточненная инвазия эхинококка",
+      "icd_code": "B67.4"
+    },
+    {
+      "id": "diagnosis_echinococcosis_liver_unspecified",
+      "type": "diagnosis",
+      "label": "Эхинококкоз печени (неуточненный)",
+      "icd_code": "B67.8"
+    },
+    {
+      "id": "diagnosis_echinococcosis_other_unspecified",
+      "type": "diagnosis",
+      "label": "Эхинококкоз других органов (неуточненный)",
+      "icd_code": "B67.9"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_malaise",
+      "type": "symptom",
+      "label": "Недомогание"
+    },
+    {
+      "id": "symptom_decreased_productivity",
+      "type": "symptom",
+      "label": "Снижение работоспособности"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_subfebrile",
+      "type": "symptom",
+      "label": "Субфебрилитет"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "Вздутие живота"
+    },
+    {
+      "id": "symptom_discomfort_right_upper_quadrant",
+      "type": "symptom",
+      "label": "Чувство дискомфорта в правом подреберье/эпигастрии"
+    },
+    {
+      "id": "symptom_heaviness_right_upper_quadrant",
+      "type": "symptom",
+      "label": "Тяжесть в правом подреберье"
+    },
+    {
+      "id": "symptom_skin_pruritus",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "symptom_urticaria",
+      "type": "symptom",
+      "label": "Крапивница"
+    },
+    {
+      "id": "symptom_jaundice_skin",
+      "type": "symptom",
+      "label": "Желтушность кожных покровов"
+    },
+    {
+      "id": "symptom_jaundice_mucosa",
+      "type": "symptom",
+      "label": "Желтушность слизистых"
+    },
+    {
+      "id": "symptom_sclera",
+      "type": "symptom",
+      "label": "Склер желтухи"
+    },
+    {
+      "id": "symptom_moderate_pain_right_subcostal",
+      "type": "symptom",
+      "label": "Умеренно интенсивные тупые боли в правом подреберье"
+    },
+    {
+      "id": "symptom_sharp_pain_right_subcostal",
+      "type": "symptom",
+      "label": "Острые боли в правом подреберье"
+    },
+    {
+      "id": "symptom_palpable_mass_right_subcostal",
+      "type": "symptom",
+      "label": "Пальпируемое опухолевидное образование в правом подреберье"
+    },
+    {
+      "id": "symptom_variable_pain_abdomen",
+      "type": "symptom",
+      "label": "Боль различной интенсивности в правом подреберье/области живота"
+    },
+    {
+      "id": "symptom_high_fever",
+      "type": "symptom",
+      "label": "Температура до 40‑41 °C"
+    },
+    {
+      "id": "symptom_sweats",
+      "type": "symptom",
+      "label": "Проливные поты"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_pruritus_rupture",
+      "type": "symptom",
+      "label": "Кожный зуд при разрыве кисты"
+    },
+    {
+      "id": "symptom_abscessing_cyst",
+      "type": "symptom",
+      "label": "Абсцедирующая киста"
+    },
+    {
+      "id": "symptom_intense_local_pain",
+      "type": "symptom",
+      "label": "Интенсивные боли в области локализации кисты"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "Сепсис"
+    },
+    {
+      "id": "symptom_cyst_rupture_into_cavity",
+      "type": "symptom",
+      "label": "Прорыв кисты в брюшную или плевральную полость"
+    },
+    {
+      "id": "symptom_collapse",
+      "type": "symptom",
+      "label": "Коллапс"
+    },
+    {
+      "id": "symptom_cough_with_hydatid_sputum",
+      "type": "symptom",
+      "label": "Кашель с жидкой мокротой, содержащей эхинококковые пузыри"
+    },
+    {
+      "id": "symptom_cholangitis",
+      "type": "symptom",
+      "label": "Гнойно‑деструктивный холангит"
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "Желтуха"
+    },
+    {
+      "id": "symptom_empyema",
+      "type": "symptom",
+      "label": "Гнойный плеврит"
+    },
+    {
+      "id": "symptom_lung_abscess",
+      "type": "symptom",
+      "label": "Абсцесс легких"
+    },
+    {
+      "id": "symptom_mechanical_jaundice",
+      "type": "symptom",
+      "label": "Механическая желтуха"
+    },
+    {
+      "id": "symptom_portal_hypertension",
+      "type": "symptom",
+      "label": "Портальная гипертензия"
+    },
+    {
+      "id": "symptom_hepatolienal_syndrome",
+      "type": "symptom",
+      "label": "Гепатолиенальный синдром"
+    },
+    {
+      "id": "symptom_dyspepsia",
+      "type": "symptom",
+      "label": "Диспепсические расстройства"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Снижение массы тела"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "Кровоточивость"
+    },
+    {
+      "id": "symptom_hypochromic_anemia",
+      "type": "symptom",
+      "label": "Гипохромная анемия"
+    },
+    {
+      "id": "symptom_osteoporosis",
+      "type": "symptom",
+      "label": "Остеопороз"
+    },
+    {
+      "id": "symptom_hair_loss",
+      "type": "symptom",
+      "label": "Выпадение волос"
+    },
+    {
+      "id": "symptom_trophic_skin_changes",
+      "type": "symptom",
+      "label": "Трофические изменения кожи и ногтей"
+    },
+    {
+      "id": "symptom_skin_irritation",
+      "type": "symptom",
+      "label": "Раздражение кожи (мацерация, изъязвление)"
+    },
+    {
+      "id": "symptom_distrophy",
+      "type": "symptom",
+      "label": "Дистрофия"
+    },
+    {
+      "id": "symptom_emaciation",
+      "type": "symptom",
+      "label": "Истощение"
+    },
+    {
+      "id": "symptom_anaphylactic_shock",
+      "type": "symptom",
+      "label": "Анафилактический шок"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Падение артериального давления"
+    },
+    {
+      "id": "symptom_mucosal_edema",
+      "type": "symptom",
+      "label": "Отек слизистой оболочки"
+    },
+    {
+      "id": "symptom_smooth_muscle_spasm",
+      "type": "symptom",
+      "label": "Спазм гладкой мускулатуры верхних дыхательных путей"
+    },
+    {
+      "id": "symptom_consciousness_impairment",
+      "type": "symptom",
+      "label": "Угнетение сознания"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_involuntary_urination",
+      "type": "symptom",
+      "label": "Непроизвольное мочеиспускание"
+    },
+    {
+      "id": "symptom_quincke_edema",
+      "type": "symptom",
+      "label": "Отек Квинке"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Умеренный лейкоцитоз"
+    },
+    {
+      "id": "symptom_eosinophilia",
+      "type": "symptom",
+      "label": "Эозинофилия"
+    },
+    {
+      "id": "symptom_esr_elevated",
+      "type": "symptom",
+      "label": "Повышенная СОЭ"
+    },
+    {
+      "id": "symptom_hyperleukocytosis",
+      "type": "symptom",
+      "label": "Гиперлейкоцитоз"
+    },
+    {
+      "id": "symptom_neutrophilia",
+      "type": "symptom",
+      "label": "Нейтрофилез со сдвигом влево"
+    },
+    {
+      "id": "symptom_lymphopenia",
+      "type": "symptom",
+      "label": "Относительная/абсолютная лимфопения"
+    },
+    {
+      "id": "symptom_hypergammaglobulinemia",
+      "type": "symptom",
+      "label": "Повышенный уровень общего белка"
+    },
+    {
+      "id": "symptom_disproteinemia",
+      "type": "symptom",
+      "label": "Диспротеинемия"
+    },
+    {
+      "id": "symptom_bilirubin_elevated",
+      "type": "symptom",
+      "label": "Повышенный билирубин"
+    },
+    {
+      "id": "symptom_alkaline_phosphatase_elevated",
+      "type": "symptom",
+      "label": "Повышенная щелочная фосфатаза"
+    },
+    {
+      "id": "symptom_ast_elevated",
+      "type": "symptom",
+      "label": "Повышенный АСТ"
+    },
+    {
+      "id": "symptom_alt_elevated",
+      "type": "symptom",
+      "label": "Повышенный АЛТ"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• недомогание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_productivity",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• снижение работоспособности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• головная боль;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• повышение температуры с ознобом (периодически);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• повышение температуры с ознобом (периодически);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• субфебрилитет (периодически);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• тошнота (периодически);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• вздутие и увеличение живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_right_upper_quadrant",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• чувство дискомфорта, тяжести в правом подреберье/эпигастрии;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heaviness_right_upper_quadrant",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• чувство дискомфорта, тяжести в правом подреберье/эпигастрии;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pruritus",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• кратковременный кожный зуд, крапивница;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urticaria",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• кратковременный кожный зуд, крапивница;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice_skin",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• желтушность кожных покровов и склер преходящего характера;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sclera",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• желтушность кожных покровов и склер преходящего характера;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_moderate_pain_right_subcostal",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• умеренно интенсивные тупые/острые боли в правом подреберье;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sharp_pain_right_subcostal",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• умеренно интенсивные тупые/острые боли в правом подреберье;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpable_mass_right_subcostal",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• пальпируемое опухолевидное безболезненное образование в правом подреберье.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_variable_pain_abdomen",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• боль различной интенсивности в правом подреберье/области живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_high_fever",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• повышение температуры тела до 40 - 41°С;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweats",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• озноб, проливные поты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• тахикардия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice_mucosa",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• желтушность кожных покровов и видимых слизистых;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pruritus_rupture",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• кожный зуд, крапивница (при разрыве эхинококковой кисты).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abscessing_cyst",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "абсцедирующая киста;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyst_rupture_into_cavity",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "разрыв эхинококковой кисты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_collapse",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "коллапс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоточивость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypochromic_anemia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипохромная анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteoporosis",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "остеопороз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hair_loss",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trophic_skin_changes",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трофические изменения кожи и ногтей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_irritation",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "раздражение кожи (мацерация, изъязвление)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_distrophy",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дистрофия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emaciation",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "истощение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anaphylactic_shock",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анафилактический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "падение артериального давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_edema",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек слизистой оболочки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smooth_muscle_spasm",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спазм гладкой мускулатуры верхних дыхательных путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_consciousness_impairment",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "угнетение сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_involuntary_urination",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "непроизвольное мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_quincke_edema",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек Квинке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "умеренный лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eosinophilia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эозинофилия (непостоянная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_esr_elevated",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperleukocytosis",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперлейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrophilia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейтрофилез со сдвигом влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphopenia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "относительная/абсолютная лимфопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypergammaglobulinemia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный уровень общего белка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disproteinemia",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диспротеинемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bilirubin_elevated",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный билирубин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alkaline_phosphatase_elevated",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная щелочная фосфатаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ast_elevated",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный АСТ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alt_elevated",
+      "target": "diagnosis_echinococcosis_liver",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный АЛТ",
+      "properties": {}
+    }
+  ]
+}

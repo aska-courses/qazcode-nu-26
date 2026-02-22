@@ -1,0 +1,65 @@
+{
+  "protocol_id": "p_f3bd8951c5",
+  "nodes": [
+    {
+      "id": "diagnosis_c22",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование печени и внутрипеченочных желчных протоков",
+      "icd_code": "С22"
+    },
+    {
+      "id": "diagnosis_k70",
+      "type": "diagnosis",
+      "label": "Алкогольная болезнь печени",
+      "icd_code": "K70"
+    },
+    {
+      "id": "diagnosis_k72_0",
+      "type": "diagnosis",
+      "label": "Острая и подострая печеночная недостаточность",
+      "icd_code": "K72.0"
+    },
+    {
+      "id": "diagnosis_k72_1",
+      "type": "diagnosis",
+      "label": "Хроническая печеночная недостаточность",
+      "icd_code": "K72.1"
+    },
+    {
+      "id": "diagnosis_k74",
+      "type": "diagnosis",
+      "label": "Фиброз и цирроз печени",
+      "icd_code": "K74"
+    },
+    {
+      "id": "diagnosis_k76_0",
+      "type": "diagnosis",
+      "label": "Жировая дегенерация печени, не классифицированная в других рубриках",
+      "icd_code": "K76.0"
+    },
+    {
+      "id": "diagnosis_k76_3",
+      "type": "diagnosis",
+      "label": "Инфаркт печени",
+      "icd_code": "K76.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "diagnosis_c22",
+      "target": "diagnosis_k74",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "при опухолях печени; при циррозах печени",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k70",
+      "target": "diagnosis_k74",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Сцинтиграфическая оценка результатов лечения алкогольного цирроза печени",
+      "properties": {}
+    }
+  ]
+}

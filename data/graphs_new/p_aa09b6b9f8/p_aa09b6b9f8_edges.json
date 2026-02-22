@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_b23_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "персистирующая генерализованная лимфаденопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuberculosis_lung",
+    "target": "diagnosis_b20_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Туберкулез легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuberculosis_lymph_node",
+    "target": "diagnosis_b20_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Туберкулез периферических лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_fever",
+    "target": "diagnosis_b20_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "упорная лихорадка (>1 месяца)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kahexia",
+    "target": "diagnosis_b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимое тяжелое истощение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_b20_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "одышка в покое",
+    "properties": {}
+  },
+  {
+    "source": "symptom_candidal_stomatitis",
+    "target": "diagnosis_b20_4",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "постоянный кандидозный стоматит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_candidiasis",
+    "target": "diagnosis_b20_4",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кандидоз рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_esophageal_candidiasis",
+    "target": "diagnosis_b20_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кандидозный эзофагит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tracheal_candidiasis",
+    "target": "diagnosis_b20_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кандидоз трахеи, бронхов или легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumocystis_pneumonia",
+    "target": "diagnosis_b20_6",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "пневмоцистная пневмония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kaposi_sarcoma",
+    "target": "diagnosis_b21_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "саркома Капоши",
+    "properties": {}
+  },
+  {
+    "source": "symptom_retinitis",
+    "target": "diagnosis_b20_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ретинит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cytomegalovirus_infection",
+    "target": "diagnosis_b20_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "ЦМВ - инфекция (ретинит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hiv_encephalopathy",
+    "target": "diagnosis_b22_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "ВИЧ-энцефалопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shingles",
+    "target": "diagnosis_b20_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "опоясывающий лишай",
+    "properties": {}
+  },
+  {
+    "source": "symptom_herpes_infection",
+    "target": "diagnosis_b20_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "вирусная инфекция (герпес) кожи и слизистых",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hiv_cardiomyopathy",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ВИЧ - кардиомиопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hiv_nephropathy",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ВИЧ-нефропатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brain_lymphoma",
+    "target": "diagnosis_b21_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "лимфома головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_b_cell_nhl",
+    "target": "diagnosis_b21_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "В-клеточная неходжкинская лимфома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leiomyosarcoma",
+    "target": "diagnosis_b21_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "лейомиосаркома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_skin_nail",
+    "target": "diagnosis_b20_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "грибковые поражения кожи и ногтей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bacterial_pneumonia",
+    "target": "diagnosis_b20_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "бактериальная пневмония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neutropenia",
+    "target": "diagnosis_b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нейтропения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "diagnosis_b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_diarrhea",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "хроническая диарея (>14 дней)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cryptococcosis",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "криптококкоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disseminated_fungal_infection",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диссеминированный глубокий микоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cryptosporidiosis",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "криптоспоридиоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_isosporosis",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изоспороз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atypical_mycobacteria_infection",
+    "target": "diagnosis_b20_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "инфекция атипичными микобактериями",
+    "properties": {}
+  }
+]

@@ -1,0 +1,381 @@
+{
+  "protocol_id": "p_edae77a7bf",
+  "nodes": [
+    {
+      "id": "diagnosis_q76_3",
+      "type": "diagnosis",
+      "label": "Врожденный сколиоз, вызванный пороком развития кости",
+      "icd_code": "Q76.3"
+    },
+    {
+      "id": "diagnosis_q67_5",
+      "type": "diagnosis",
+      "label": "Врожденная деформация позвоночника",
+      "icd_code": "Q67.5"
+    },
+    {
+      "id": "diagnosis_q77_9",
+      "type": "diagnosis",
+      "label": "Остеохондродисплазия с дефектами роста трубчатых костей и позвоночного столба",
+      "icd_code": "Q77.9"
+    },
+    {
+      "id": "diagnosis_m41",
+      "type": "diagnosis",
+      "label": "Сколиоз",
+      "icd_code": "M41"
+    },
+    {
+      "id": "diagnosis_m40_0",
+      "type": "diagnosis",
+      "label": "Кифоз позиционный",
+      "icd_code": "M40.0"
+    },
+    {
+      "id": "diagnosis_m40_1",
+      "type": "diagnosis",
+      "label": "Другие вторичные кифозы",
+      "icd_code": "M40.1"
+    },
+    {
+      "id": "diagnosis_m40_2",
+      "type": "diagnosis",
+      "label": "Другие и не уточненные кифоза",
+      "icd_code": "M40.2"
+    },
+    {
+      "id": "diagnosis_m40_3",
+      "type": "diagnosis",
+      "label": "Синдром прямой спины",
+      "icd_code": "M40.3"
+    },
+    {
+      "id": "diagnosis_m40_4",
+      "type": "diagnosis",
+      "label": "Другие лордозы",
+      "icd_code": "M40.4"
+    },
+    {
+      "id": "diagnosis_m40_5",
+      "type": "diagnosis",
+      "label": "Лордоз не уточненный",
+      "icd_code": "M40.5"
+    },
+    {
+      "id": "diagnosis_t84_4",
+      "type": "diagnosis",
+      "label": "Осложнения механического происхождения, связанные с другими внутренними ортопедическими устройствами, имплантатами и трансплантатами",
+      "icd_code": "T84.4"
+    },
+    {
+      "id": "symptom_bol_v_gd_otdelenie",
+      "type": "symptom",
+      "label": "Боль в грудопоясничном отделе"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_slabost_fiz_nagruzki",
+      "type": "symptom",
+      "label": "Слабость при физических нагрузках"
+    },
+    {
+      "id": "symptom_iskrivlenie_pozv",
+      "type": "symptom",
+      "label": "Искривление позвоночника"
+    },
+    {
+      "id": "symptom_bolevoi_sindrom",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_iskrivlenie_frontal_ploskost",
+      "type": "symptom",
+      "label": "Искривление позвоночника во фронтальной плоскости"
+    },
+    {
+      "id": "symptom_uvelichenie_kihoza",
+      "type": "symptom",
+      "label": "Увеличение физиологического кифоза"
+    },
+    {
+      "id": "symptom_umenshenie_lordoz",
+      "type": "symptom",
+      "label": "Уменьшение физиологического лордоза"
+    },
+    {
+      "id": "symptom_rebernyj_gorb",
+      "type": "symptom",
+      "label": "Наличие реберного горба"
+    },
+    {
+      "id": "symptom_asimetriya_uglov_lopatok",
+      "type": "symptom",
+      "label": "Асимметрия углов лопаток"
+    },
+    {
+      "id": "symptom_asimetriya_rebernyh_dug",
+      "type": "symptom",
+      "label": "Асимметрия реберных дуг"
+    },
+    {
+      "id": "symptom_skoshennost_taza",
+      "type": "symptom",
+      "label": "Скошенность таза"
+    },
+    {
+      "id": "symptom_disbalans_tulovisha",
+      "type": "symptom",
+      "label": "Дисбаланс туловища"
+    },
+    {
+      "id": "symptom_kosmeticheskiy_defekt",
+      "type": "symptom",
+      "label": "Косметический дефект"
+    },
+    {
+      "id": "symptom_nevrologicheskij_status_s_narusheniyami",
+      "type": "symptom",
+      "label": "Неврологический статус с нарушениями"
+    },
+    {
+      "id": "symptom_nevrologicheskij_status_bez_narusheniy",
+      "type": "symptom",
+      "label": "Неврологический статус без нарушений"
+    },
+    {
+      "id": "symptom_progessiruyushchaya_deformaciya",
+      "type": "symptom",
+      "label": "Прогрессирующая форма деформации позвоночника"
+    },
+    {
+      "id": "symptom_rigidnost_dugi_deformacii",
+      "type": "symptom",
+      "label": "Ригидность основной дуги деформации"
+    },
+    {
+      "id": "symptom_plohaya_kompensaciya_dugi",
+      "type": "symptom",
+      "label": "Плохая компенсация дуги деформации"
+    },
+    {
+      "id": "symptom_nevrologicheskie_narusheniya_pri_vrozhdennom_poroke",
+      "type": "symptom",
+      "label": "Неврологические нарушения на фоне врожденного порока развития позвоночника"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_gd_otdelenie",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли в грудопоясничном отделе;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • одышка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost_fiz_nagruzki",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слабость при физических нагрузках;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iskrivlenie_pozv",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на искривление позвоночника.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iskrivlenie_frontal_ploskost",
+      "target": "diagnosis_m41",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "искажение позвоночника во фронтальной плоскости;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_kihoza",
+      "target": "diagnosis_m40_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение/уменьшение физиологических изгибов позвоночника (кифоз, лордоз);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umenshenie_lordoz",
+      "target": "diagnosis_m40_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение/уменьшение физиологических изгибов позвоночника (кифоз, лордоз);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rebernyj_gorb",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие реберного горба;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_uglov_lopatok",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асимметрия углов лопаток, надплечий;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_rebernyh_dug",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асимметрия реберных дуг;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skoshennost_taza",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "скошенность таза;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disbalans_tulovisha",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисбаланс туловища;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kosmeticheskiy_defekt",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "косметический дефект;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskij_status_s_narusheniyami",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврологический статус с нарушениями;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progessiruyushchaya_deformaciya",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующие формы деформаций позвоночника;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rigidnost_dugi_deformacii",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ригидность основной дуги деформации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plohaya_kompensaciya_dugi",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плохая компенсация дуги деформации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_narusheniya_pri_vrozhdennom_poroke",
+      "target": "diagnosis_q67_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврологические нарушения на фоне врожденного порока развития позвоночника",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_gd_otdelenie",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • боли в грудопоясничном отделе; • одышка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rebernyj_gorb",
+      "target": "symptom_asimetriya_uglov_lopatok",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие реберного горба; асимметрия углов лопаток, надплечий;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskij_status_s_narusheniyami",
+      "target": "symptom_nevrologicheskie_narusheniya_pri_vrozhdennom_poroke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологический статус с нарушениями; неврологические нарушения на фоне врожденного порока развития позвоночника",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q76_3",
+      "target": "diagnosis_q67_5",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q76.3 Врожденный сколиоз... Q67.5 Врожденная деформация позвоночника",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q76_3",
+      "target": "diagnosis_q77_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q76.3 ... Q77.9 Остеохондродисплазия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q67_5",
+      "target": "diagnosis_q77_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Q67.5 ... Q77.9 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m41",
+      "target": "diagnosis_m40_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "M41 Сколиоз M40.0 Кифоз позиционный",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m41",
+      "target": "diagnosis_m40_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "M41 Сколиоз M40.1 Другие вторичные кифозы",
+      "properties": {}
+    }
+  ]
+}

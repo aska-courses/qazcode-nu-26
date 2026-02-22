@@ -1,0 +1,292 @@
+{
+  "protocol_id": "p_ad6e8500f6",
+  "nodes": [
+    {
+      "id": "pain_joint",
+      "type": "symptom",
+      "label": "боль в суставах"
+    },
+    {
+      "id": "swelling_joint",
+      "type": "symptom",
+      "label": "отек сустава"
+    },
+    {
+      "id": "fever",
+      "type": "symptom",
+      "label": "повышение температуры тела"
+    },
+    {
+      "id": "joint_function_impairment",
+      "type": "symptom",
+      "label": "нарушение функции сустава"
+    },
+    {
+      "id": "forced_limb_position",
+      "type": "symptom",
+      "label": "вынужденное положение конечности"
+    },
+    {
+      "id": "hemorrhage_surrounding_tissues",
+      "type": "symptom",
+      "label": "кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "tenderness_on_load",
+      "type": "symptom",
+      "label": "болезненность при осевой нагрузке и движениях"
+    },
+    {
+      "id": "pathological_mobility",
+      "type": "symptom",
+      "label": "грубая патологическая подвижность"
+    },
+    {
+      "id": "intoxication_syndrome",
+      "type": "symptom",
+      "label": "интоксикационный синдром"
+    },
+    {
+      "id": "chronic_purulent_process",
+      "type": "symptom",
+      "label": "хронический гнойный процесс в суставах"
+    },
+    {
+      "id": "joint_trauma",
+      "type": "symptom",
+      "label": "травма сустава"
+    },
+    {
+      "id": "leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "joint_exudate",
+      "type": "symptom",
+      "label": "экссудативные явления в суставе"
+    },
+    {
+      "id": "piogenniy_artirit",
+      "type": "diagnosis",
+      "label": "пиогенный артрит",
+      "icd_code": "M00"
+    },
+    {
+      "id": "stafilokokkovyi_artirit",
+      "type": "diagnosis",
+      "label": "стафилококковый артрит и полиартрит",
+      "icd_code": "M00.0"
+    },
+    {
+      "id": "pnevmokokkovyi_artirit",
+      "type": "diagnosis",
+      "label": "пневмококковый артрит и полиартрит",
+      "icd_code": "M00.1"
+    },
+    {
+      "id": "streptokokkovyi_artirit",
+      "type": "diagnosis",
+      "label": "другие стрептококковые артриты и полиартриты",
+      "icd_code": "M00.2"
+    },
+    {
+      "id": "other_bacterial_artirit",
+      "type": "diagnosis",
+      "label": "артриты и полиартриты, вызванные другими уточненными бактериальными возбудителями",
+      "icd_code": "M00.8"
+    },
+    {
+      "id": "piogenniy_artirit_unspecified",
+      "type": "diagnosis",
+      "label": "пиогенный артрит неуточненный",
+      "icd_code": "M00.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pain_joint",
+      "target": "piogenniy_artirit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "swelling_joint",
+      "target": "piogenniy_artirit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "fever",
+      "target": "piogenniy_artirit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "joint_function_impairment",
+      "target": "piogenniy_artirit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела, нарушением функции сустава",
+      "properties": {}
+    },
+    {
+      "source": "pain_joint",
+      "target": "swelling_joint",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "pain_joint",
+      "target": "fever",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "swelling_joint",
+      "target": "fever",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "острый артрит, сопровождающийся отеком сустава, болью и повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "forced_limb_position",
+      "target": "swelling_joint",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности; отек в области сустава",
+      "properties": {}
+    },
+    {
+      "source": "forced_limb_position",
+      "target": "hemorrhage_surrounding_tissues",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности; кровоизлияние в окружающие ткани в области коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "swelling_joint",
+      "target": "hemorrhage_surrounding_tissues",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "отек в области сустава; кровоизлияние в окружающие ткани в области коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "tenderness_on_load",
+      "target": "pain_joint",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях, в области сустава; боль в области сустава",
+      "properties": {}
+    },
+    {
+      "source": "pathological_mobility",
+      "target": "pain_joint",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность в области сустава; боль в области сустава",
+      "properties": {}
+    },
+    {
+      "source": "chronic_purulent_process",
+      "target": "intoxication_syndrome",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "наличие хронического гнойного процесса в суставах ...; интоксикационный синдром (повышение температуры тела, воспаление мягких тканей)",
+      "properties": {}
+    },
+    {
+      "source": "chronic_purulent_process",
+      "target": "joint_trauma",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "наличие хронического гнойного процесса в суставах ...; наличие травмы с прямым (сильный удар коленом, падение на колено) или с непрямым механизмом травмы",
+      "properties": {}
+    },
+    {
+      "source": "intoxication_syndrome",
+      "target": "fever",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "интоксикационный синдром (повышение температуры тела, воспаление мягких тканей)",
+      "properties": {}
+    },
+    {
+      "source": "leukocytosis",
+      "target": "joint_exudate",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "уменьшение выраженности лейкоцитоза ... исчезновение экссудативных явлений в суставе",
+      "properties": {}
+    },
+    {
+      "source": "leukocytosis",
+      "target": "fever",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "нормализация температуры тела, исчезновение экссудативных явлений в суставе, уменьшение выраженности лейкоцитоза",
+      "properties": {}
+    },
+    {
+      "source": "joint_exudate",
+      "target": "fever",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "нормализация температуры тела, исчезновение экссудативных явлений в суставе",
+      "properties": {}
+    },
+    {
+      "source": "piogenniy_artirit",
+      "target": "stafilokokkovyi_artirit",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "M00.0 Стафилококковый артрит и полиартрит M00.1 Пневмококковый артрит и полиартрит M00.2 Другие стрептококковые артриты и полиартриты M00.8 ... M00.9 Пиогенный артрит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "piogenniy_artirit",
+      "target": "pnevmokokkovyi_artirit",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "M00.0 Стафилококковый артрит и полиартрит M00.1 Пневмококковый артрит и полиартрит M00.2 Другие стрептококковые артриты и полиартриты M00.8 ... M00.9 Пиогенный артрит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "piogenniy_artirit",
+      "target": "streptokokkovyi_artirit",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "M00.0 Стафилококковый артрит и полиартрит M00.1 Пневмококковый артрит и полиартрит M00.2 Другие стрептококковые артриты и полиартриты M00.8 ... M00.9 Пиогенный артрит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "piogenniy_artirit",
+      "target": "other_bacterial_artirit",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "M00.0 Стафилококковый артрит и полиартрит M00.1 Пневмококковый артрит и полиартрит M00.2 Другие стрептококковые артриты и полиартриты M00.8 ... M00.9 Пиогенный артрит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "piogenniy_artirit",
+      "target": "piogenniy_artirit_unspecified",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "M00.0 Стафилококковый артрит и полиартрит M00.1 Пневмококковый артрит и полиартрит M00.2 Другие стрептококковые артриты и полиартриты M00.8 ... M00.9 Пиогенный артрит неуточненный",
+      "properties": {}
+    }
+  ]
+}

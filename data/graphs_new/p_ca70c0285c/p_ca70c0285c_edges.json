@@ -1,0 +1,330 @@
+[
+  {
+    "source": "symptom_pain_local",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "на боли в области пораженного участка кости или сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_local",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "на боли в области пораженного участка кости или сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_local",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "на боли в области пораженного участка кости или сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_mobility",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "патологическую подвижность в пораженном сегменте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_mobility",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "патологическую подвижность в пораженном сегменте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_mobility",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "патологическую подвижность в пораженном сегменте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_impairment",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение двигательной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_impairment",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение двигательной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_impairment",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение двигательной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_support_impairment",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_support_impairment",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_support_impairment",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformity",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "деформация пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformity",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "деформация пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformity",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "деформация пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_motion_limit",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ограничения движения в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_motion_limit",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ограничения движения в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_motion_limit",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ограничения движения в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_m84_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_m84_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_m84_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_local",
+    "target": "symptom_pathological_mobility",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на боли в области пораженного участка кости или сустава - патологическую подвижность в пораженном сегменте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_local",
+    "target": "symptom_motor_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на боли в области пораженного участка кости или сустава - нарушение двигательной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_mobility",
+    "target": "symptom_motor_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "патологическую подвижность в пораженном сегменте - нарушение двигательной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_mobility",
+    "target": "symptom_support_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "патологическую подвижность в пораженном сегменте - нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_impairment",
+    "target": "symptom_support_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушение двигательной функции конечности - нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_forced_position",
+    "target": "symptom_soft_tissue_edema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "вынужденное положение пораженной конечности - отек мягких тканей пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_forced_position",
+    "target": "symptom_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "вынужденное положение пораженной конечности - при пальпации болезненность, усиливающая при осевой нагрузке и движениях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_forced_position",
+    "target": "symptom_gross_pathological_mobility",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "вынужденное положение пораженной конечности - грубая патологическая подвижность пораженного сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_edema",
+    "target": "symptom_tenderness_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек мягких тканей пораженной конечности - при пальпации болезненность, усиливающая при осевой нагрузке и движениях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_edema",
+    "target": "symptom_gross_pathological_mobility",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек мягких тканей пораженной конечности - грубая патологическая подвижность пораженного сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_on_palpation",
+    "target": "symptom_gross_pathological_mobility",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при пальпации болезненность, усиливающая при осевой нагрузке и движениях - грубая патологическая подвижность пораженного сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "symptom_deformity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болевой синдром - деформация пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "symptom_joint_motion_limit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болевой синдром - ограничения движения в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "symptom_support_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болевой синдром - нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformity",
+    "target": "symptom_joint_motion_limit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "деформация пораженной конечности - ограничения движения в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformity",
+    "target": "symptom_support_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "деформация пораженной конечности - нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_motion_limit",
+    "target": "symptom_support_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ограничения движения в суставах - нарушение опорной функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m84_0",
+    "target": "diagnosis_m84_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) по МКБ-10: М84.0 Плохое срастание перелома М84.1 Несрастание перелома (псевдоартроз)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m84_0",
+    "target": "diagnosis_m84_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) по МКБ-10: М84.0 Плохое срастание перелома М84.2 Замедленное сращение перелома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m84_1",
+    "target": "diagnosis_m84_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) по МКБ-10: М84.1 Несрастание перелома (псевдоартроз) М84.2 Замедленное сращение перелома",
+    "properties": {}
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "protocol_id": "p_016bddf373",
+  "nodes": [
+    {
+      "id": "symptom_asymmetry_face",
+      "type": "symptom",
+      "label": "асимметрия лица"
+    },
+    {
+      "id": "symptom_weakness_half_face",
+      "type": "symptom",
+      "label": "слабость мышц одной половины лица"
+    },
+    {
+      "id": "symptom_inability_frown",
+      "type": "symptom",
+      "label": "неспособность нахмурить лоб"
+    },
+    {
+      "id": "symptom_inability_raise_eyebrow",
+      "type": "symptom",
+      "label": "неспособность поднять бровь"
+    },
+    {
+      "id": "symptom_inability_close_eye",
+      "type": "symptom",
+      "label": "неспособность закрыть глаз"
+    },
+    {
+      "id": "symptom_inability_puff_cheek",
+      "type": "symptom",
+      "label": "неспособность надуть щеку"
+    },
+    {
+      "id": "symptom_drooling_mouth_corner",
+      "type": "symptom",
+      "label": "выделение жидкости из угла рта"
+    },
+    {
+      "id": "symptom_altered_taste_half_tongue",
+      "type": "symptom",
+      "label": "нарушение вкуса одной половины языка"
+    },
+    {
+      "id": "symptom_unclosed_eyelid",
+      "type": "symptom",
+      "label": "незакрывающиеся веки"
+    },
+    {
+      "id": "symptom_eye_deviation_upward_outward",
+      "type": "symptom",
+      "label": "отклонение глаза вверх и наружу"
+    },
+    {
+      "id": "symptom_sclera_visible",
+      "type": "symptom",
+      "label": "видна только склера (симптом Белла)"
+    },
+    {
+      "id": "symptom_peripheral_facial_muscle_paresis",
+      "type": "symptom",
+      "label": "периферический парез мимических мышц"
+    },
+    {
+      "id": "diagnosis_paralysis_bella",
+      "type": "diagnosis",
+      "label": "Паралич Белла",
+      "icd_code": "G51.0"
+    },
+    {
+      "id": "diagnosis_other_facial_nerve_lesions",
+      "type": "diagnosis",
+      "label": "Другие поражения лицевого нерва",
+      "icd_code": "G51.8"
+    },
+    {
+      "id": "diagnosis_unspecified_facial_nerve_lesion",
+      "type": "diagnosis",
+      "label": "Поражение лицевого нерва, неуточненное",
+      "icd_code": "G51.9"
+    },
+    {
+      "id": "diagnosis_facial_nerve_lesion_birth_trauma",
+      "type": "diagnosis",
+      "label": "Поражение лицевого нерва при родовой травме",
+      "icd_code": "R11.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_asymmetry_face",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "На асимметрию лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness_half_face",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость мышц одной половины лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_frown",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неспособность нахмурить лоб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_raise_eyebrow",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неспособность поднять бровь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_close_eye",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зажмурить глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_puff_cheek",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "надуть щеку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_drooling_mouth_corner",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "из угла рта вытекает жидкость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_altered_taste_half_tongue",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушен вкус одной половины языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unclosed_eyelid",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "веки на стороне поражения не смыкаются",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_deviation_upward_outward",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отклоняется вверх и кнаружи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sclera_visible",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "заполняет лишь склера (симптом Белла)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peripheral_facial_muscle_paresis",
+      "target": "diagnosis_paralysis_bella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "односторонний периферический парез мимических мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asymmetry_face",
+      "target": "symptom_weakness_half_face",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "На асимметрию лица, слабость мышц одной половины лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_frown",
+      "target": "symptom_inability_raise_eyebrow",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неспособность нахмурить лоб и поднять бровь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_close_eye",
+      "target": "symptom_unclosed_eyelid",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "зажмурить глаз; веки на стороне поражения не смыкаются",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_deviation_upward_outward",
+      "target": "symptom_sclera_visible",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отклоняется вверх и кнаружи, глазную щель при этом заполняет лишь склера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_drooling_mouth_corner",
+      "target": "symptom_altered_taste_half_tongue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "из угла рта вытекает жидкость, нарушен вкус одной половины языка",
+      "properties": {}
+    }
+  ]
+}

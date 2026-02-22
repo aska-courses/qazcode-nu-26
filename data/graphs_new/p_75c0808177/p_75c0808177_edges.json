@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_progressive_dyspnea",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "течение болезни часто постепенное, характеризуется:  нарастающей одышкой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "течение болезни часто постепенное, характеризуется:  утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_work_capacity",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "течение болезни часто постепенное, характеризуется:  ограничивают работоспособности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lower_extremity_edema",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёки нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гепатомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_rales",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слышные влажные хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crepitation",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "крепитация в легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_edema",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк лёгких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiogenic_shock",
+    "target": "diagnosis_heart_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кардиогенный шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_syncope",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Синкопе и пресинкопе связаны с уменьшенным мозговым кровотоком",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angina",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Стенокардию наблюдают приблизительно у 2/3 больных с тяжелым (критическим) аортальным стенозом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_aortic_component",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уменьшение интенсивности аортального компонента в формировании II тона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paradoxical_split",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парадоксальное расщепление II тона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_systolic_murmur",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "систолический шум при аортальном стенозе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aphonic_aortic_stenosis",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "афоничный АС, который сопровождается ослаблениемII тона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mitralization",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "митрализация АС – присоединение относительной митральной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atrial_fibrillation",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Фибрилляции предсердий (ФП) в клинической картине, предиктор неблагоприятного прогноза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ventricular_fibrillation",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "фибрилляция желудочков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотензия (шок/гипотензия)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_nonrheumatic_aortic_stenosis",
+    "target": "diagnosis_heart_failure",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "При развитии ХСН, проявление клиники ... при аортальном стенозе",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_congestive_heart_failure",
+    "target": "diagnosis_nonrheumatic_aortic_stenosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Триада синдромов: хронической сердечной недостаточности (ХСН); стенокардии напряжения; синкопе/пресинкопе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_reduced_work_capacity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "течение болезни часто постепенное, характеризуется:  утомляемость;  ограничивают работоспособности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lower_extremity_edema",
+    "target": "symptom_hepatomegaly",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при развитии ХСН, проявление клиники ... отеки нижних конечностей; гепатомегалия",
+    "properties": {}
+  }
+]

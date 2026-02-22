@@ -1,0 +1,538 @@
+[
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота, головная боль, головокружение.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота, головная боль, головокружение.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота, головная боль, головокружение.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота, головная боль, головокружение.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота, головная боль, головокружение.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, рвота, головная боль, головокружение.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hallucinations",
+    "target": "symptom_delirium",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Галлюцинации, бред, делирий:",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hallucinations",
+    "target": "symptom_confusion",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Галлюцинации, бред, делирий:",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delirium",
+    "target": "symptom_confusion",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Галлюцинации, бред, делирий:",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_dryness",
+    "target": "symptom_skin_moisture",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Сухость или повышенная влажность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acetone_breath",
+    "target": "symptom_skin_dryness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухость или повышенная влажность кожных покровов, запах ацетона из-за рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acetone_breath",
+    "target": "symptom_skin_moisture",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухость или повышенная влажность кожных покровов, запах ацетона из-за рта",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t53",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t55",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t56",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t57",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t60",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t61",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t52",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t55",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t56",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t57",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t60",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t61",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t53",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t56",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t57",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t60",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t61",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t55",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t57",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t60",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t61",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t56",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t57",
+    "target": "diagnosis_t60",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t57",
+    "target": "diagnosis_t61",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t57",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t57",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t57",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t57",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t60",
+    "target": "diagnosis_t61",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t60",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t60",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t60",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t60",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t61",
+    "target": "diagnosis_t62",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t61",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t61",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t61",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t62",
+    "target": "diagnosis_t63",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t62",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t62",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t63",
+    "target": "diagnosis_t64",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t63",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t64",
+    "target": "diagnosis_t65",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) по МКБ10: T52 ... T53 ... T55 ... T56 ... T57 ... T60 ... T61 ... T62 ... T63 ... T64 ... T65",
+    "properties": {}
+  }
+]

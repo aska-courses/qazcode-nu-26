@@ -1,0 +1,114 @@
+[
+  {
+    "source": "pain_spine_area",
+    "target": "fracture_thoracic_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в области повреждения позвоночника",
+    "properties": {}
+  },
+  {
+    "source": "pain_spine_area",
+    "target": "fracture_lumbar_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в области повреждения позвоночника",
+    "properties": {}
+  },
+  {
+    "source": "motor_disturbance",
+    "target": "fracture_thoracic_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "двигательные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "motor_disturbance",
+    "target": "fracture_lumbar_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "двигательные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "sensory_disturbance",
+    "target": "fracture_thoracic_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувствительные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "sensory_disturbance",
+    "target": "fracture_lumbar_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувствительные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "pelvic_organ_dysfunction",
+    "target": "fracture_thoracic_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения функции тазовых органов",
+    "properties": {}
+  },
+  {
+    "source": "pelvic_organ_dysfunction",
+    "target": "fracture_lumbar_vertebra",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения функции тазовых органов",
+    "properties": {}
+  },
+  {
+    "source": "pain_spine_area",
+    "target": "motor_disturbance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в области повреждения позвоночника; • двигательные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "pain_spine_area",
+    "target": "sensory_disturbance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в области повреждения позвоночника; • чувствительные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "motor_disturbance",
+    "target": "sensory_disturbance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "двигательные нарушения; • чувствительные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "motor_disturbance",
+    "target": "pelvic_organ_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "двигательные нарушения; • нарушения функции тазовых органов",
+    "properties": {}
+  },
+  {
+    "source": "fracture_thoracic_vertebra",
+    "target": "multiple_fractures_thoracic_vertebra",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Перелом грудного позвонка ... Множественные переломы грудного позвонка",
+    "properties": {}
+  },
+  {
+    "source": "fracture_lumbar_vertebra",
+    "target": "multiple_fractures_lumbar_sacral",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Перелом поясничного позвонка ... Множественные переломы пояснично‑крестцового отдела",
+    "properties": {}
+  }
+]

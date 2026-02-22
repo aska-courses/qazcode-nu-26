@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_k25",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "внезапная «кинжальная» боль в эпигастрии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_k26",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "внезапная «кинжальная» боль в эпигастрии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_k28",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "внезапная «кинжальная» боль в эпигастрии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_k25",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "доскообразное напряжение мышц живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_k26",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "доскообразное напряжение мышц живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_k28",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "доскообразное напряжение мышц живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_k25_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Дьелафуа (Dieulafoy)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_k25_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "иррадиация боли в левое плечо и лопатку (перфорация язвы желудка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_k26_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "иррадиация боли в правое плечо и лопатку (перфорация язвы ДПК)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_k26_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Элекера (Eleker – Brunner)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_k25_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Спижарного (Жобера)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_15",
+    "target": "diagnosis_k25_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Кервена (De Querven)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_22",
+    "target": "symptom_23",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "температура тела выше ≥ 38 °C или ≤ 36 °C; тахикардия ≥ 90/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_22",
+    "target": "symptom_24",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "температура тела выше ≥ 38 °C или ≤ 36 °C; тахипное > 20/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_23",
+    "target": "symptom_24",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тахикардия ≥ 90/мин; тахипное > 20/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_25",
+    "target": "symptom_26",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоциты > 12 × 10⁹/л или < 4 × 10⁹/л",
+    "properties": {}
+  },
+  {
+    "source": "symptom_25",
+    "target": "symptom_27",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоциты > 12 × 10⁹/л ... более 10% незрелых форм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_28",
+    "target": "symptom_29",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотензия (АД < 90 мм рт. ст. или ДАД < 40 мм рт. ст.); гипоперфузия (олигурия, гиперлактатацидемия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_30",
+    "target": "symptom_28",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "шок (первичный шок); гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_31",
+    "target": "symptom_22",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "абдоминальный сепсис; температура тела выше ≥ 38 °C или ≤ 36 °C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_20",
+    "target": "symptom_21",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухость кожи и слизистой; язык сухой, обложенный",
+    "properties": {}
+  }
+]

@@ -1,0 +1,463 @@
+{
+  "protocol_id": "p_a5a3dee816",
+  "nodes": [
+    {
+      "id": "diagnosis_m08_0",
+      "type": "diagnosis",
+      "label": "Юношеский ревматоидный артрит",
+      "icd_code": "M08.0"
+    },
+    {
+      "id": "diagnosis_m08_1",
+      "type": "diagnosis",
+      "label": "Ювенильный ревматоидный артрит с ревматоидным фактором",
+      "icd_code": "M08.1"
+    },
+    {
+      "id": "diagnosis_m08_2",
+      "type": "diagnosis",
+      "label": "Юношеский анкилозирующий спондилит",
+      "icd_code": "M08.2"
+    },
+    {
+      "id": "diagnosis_m08_3",
+      "type": "diagnosis",
+      "label": "Юношеский артрит с системным началом (Болезнь Стилла)",
+      "icd_code": "M08.3"
+    },
+    {
+      "id": "diagnosis_m08_4",
+      "type": "diagnosis",
+      "label": "Юношеский полиартрит (серонегативный) / Хронический ювенильный полиартрит",
+      "icd_code": "M08.4"
+    },
+    {
+      "id": "diagnosis_m08_8",
+      "type": "diagnosis",
+      "label": "Пауциартикулярный юношеский артрит",
+      "icd_code": "M08.8"
+    },
+    {
+      "id": "diagnosis_m08_9",
+      "type": "diagnosis",
+      "label": "Юношеский артрит неустановленный",
+      "icd_code": "M08.9"
+    },
+    {
+      "id": "diagnosis_m45",
+      "type": "diagnosis",
+      "label": "Анкилозирующий спондилит у взрослых",
+      "icd_code": "M45"
+    },
+    {
+      "id": "diagnosis_m06_1",
+      "type": "diagnosis",
+      "label": "Болезнь Стилла у взрослых",
+      "icd_code": "M06.1"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Боль в суставах"
+    },
+    {
+      "id": "symptom_joint_swelling",
+      "type": "symptom",
+      "label": "Припухлость суставов"
+    },
+    {
+      "id": "symptom_joint_tenderness",
+      "type": "symptom",
+      "label": "Болезненность суставов"
+    },
+    {
+      "id": "symptom_morning_stiffness",
+      "type": "symptom",
+      "label": "Утренняя скованность"
+    },
+    {
+      "id": "symptom_gait_disturbance",
+      "type": "symptom",
+      "label": "Нарушение походки"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря веса"
+    },
+    {
+      "id": "symptom_skin_rash",
+      "type": "symptom",
+      "label": "Кожная сыпь"
+    },
+    {
+      "id": "symptom_muscle_pain",
+      "type": "symptom",
+      "label": "Боль в мышцах"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Лимфоаденопатия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "Спленомегалия"
+    },
+    {
+      "id": "symptom_serositis",
+      "type": "symptom",
+      "label": "Серозиты (перикардит, плеврит)"
+    },
+    {
+      "id": "symptom_uveitis",
+      "type": "symptom",
+      "label": "Увеит"
+    },
+    {
+      "id": "symptom_enthesitis",
+      "type": "symptom",
+      "label": "Энтезит"
+    },
+    {
+      "id": "symptom_sacroiliitis",
+      "type": "symptom",
+      "label": "Сакроилит"
+    },
+    {
+      "id": "symptom_dactylitis",
+      "type": "symptom",
+      "label": "Дактилит"
+    },
+    {
+      "id": "symptom_nail_dystrophy",
+      "type": "symptom",
+      "label": "Язва ногтей (онихолиз)"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_coma",
+      "type": "symptom",
+      "label": "Кома"
+    },
+    {
+      "id": "symptom_heart_failure",
+      "type": "symptom",
+      "label": "Застойная сердечная недостаточность"
+    },
+    {
+      "id": "symptom_ards",
+      "type": "symptom",
+      "label": "Острый респираторный дистресс-синдром"
+    },
+    {
+      "id": "symptom_liver_failure",
+      "type": "symptom",
+      "label": "Печеночная недостаточность"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия"
+    },
+    {
+      "id": "symptom_shock",
+      "type": "symptom",
+      "label": "Шок"
+    },
+    {
+      "id": "symptom_muscle_atrophy",
+      "type": "symptom",
+      "label": "Мышечная атрофия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Системный Лихорадка как минимум 2 недельная длительность ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_rash",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Эритематозная сыпь ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Лимфоаденопатия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_serositis",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Серозиты ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Гепато ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "спленомегалия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_enthesitis",
+      "target": "diagnosis_m08_2",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Энтезит ... юношеский анкилозирующий спондилит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sacroiliitis",
+      "target": "diagnosis_m08_2",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "сакроилита ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveitis",
+      "target": "diagnosis_m08_2",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "Острый (симптоматический) передний увеит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dactylitis",
+      "target": "diagnosis_m08_8",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Дактилит.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nail_dystrophy",
+      "target": "diagnosis_m08_8",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Язва ногтей или онихолиз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "гемодинамическая нестабильность (от слабовыраженной гипотензии до шока)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shock",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "гемодинамическая нестабильность (от слабовыраженной гипотензии до шока)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liver_failure",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "печеночная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ards",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "острый респираторный дистресс-синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "кома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "застойная сердечная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_m08_3",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "мышечная атрофия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_m08_0",
+      "type": "supports",
+      "weight": 0.7,
+      "evidence": "Боли и/или припухлость и болезненность суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_swelling",
+      "target": "diagnosis_m08_0",
+      "type": "supports",
+      "weight": 0.7,
+      "evidence": "Боли и/или припухлость и болезненность суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_tenderness",
+      "target": "diagnosis_m08_0",
+      "type": "supports",
+      "weight": 0.7,
+      "evidence": "Боли и/или припухлость и болезненность суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_morning_stiffness",
+      "target": "diagnosis_m08_0",
+      "type": "supports",
+      "weight": 0.7,
+      "evidence": "утренняя скованность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gait_disturbance",
+      "target": "diagnosis_m08_0",
+      "type": "supports",
+      "weight": 0.7,
+      "evidence": "нарушение походки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_skin_rash",
+      "type": "co-occurs",
+      "weight": 0.9,
+      "evidence": "персистирующая высокая лихорадка; постоянная сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_hypotension",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "гемодинамическая нестабильность (от слабовыраженной гипотензии до шока)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "гемодинамическая нестабильность (от слабовыраженной гипотензии до шока)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "гепатоспленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_splenomegaly",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "гепатоспленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.9,
+      "evidence": "от слабовыраженной гипотензии до шока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liver_failure",
+      "target": "symptom_ards",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "печеночная недостаточность; острый респираторный дистресс-синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_joint_swelling",
+      "type": "co-occurs",
+      "weight": 0.9,
+      "evidence": "Боли и/или припухлость и болезненность суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_joint_tenderness",
+      "type": "co-occurs",
+      "weight": 0.9,
+      "evidence": "Боли и/или припухлость и болезненность суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_swelling",
+      "target": "symptom_joint_tenderness",
+      "type": "co-occurs",
+      "weight": 0.9,
+      "evidence": "Боли и/или припухлость и болезненность суставов",
+      "properties": {}
+    }
+  ]
+}

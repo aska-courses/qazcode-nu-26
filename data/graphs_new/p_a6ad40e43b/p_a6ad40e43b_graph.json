@@ -1,0 +1,409 @@
+{
+  "protocol_id": "p_a6ad40e43b",
+  "nodes": [
+    {
+      "id": "diagnosis_politsitemia_novozhdennogo",
+      "type": "diagnosis",
+      "label": "Полицитемия новорожденного",
+      "icd_code": "R61.1"
+    },
+    {
+      "id": "symptom_perifericheskij_vishnevij_cianoz",
+      "type": "symptom",
+      "label": "Периферический вишневый цианоз"
+    },
+    {
+      "id": "symptom_gipotoniya",
+      "type": "symptom",
+      "label": "Гипотония"
+    },
+    {
+      "id": "symptom_sonlivost",
+      "type": "symptom",
+      "label": "Сонливость"
+    },
+    {
+      "id": "symptom_razdrazhitelnost",
+      "type": "symptom",
+      "label": "Раздражительность"
+    },
+    {
+      "id": "symptom_bespokojstvo",
+      "type": "symptom",
+      "label": "Беспокойство"
+    },
+    {
+      "id": "symptom_gipoglikemiya",
+      "type": "symptom",
+      "label": "Гипогликемия"
+    },
+    {
+      "id": "symptom_zheltuha",
+      "type": "symptom",
+      "label": "Желтуха"
+    },
+    {
+      "id": "symptom_gipokalsemiya",
+      "type": "symptom",
+      "label": "Гипокальциемия"
+    },
+    {
+      "id": "symptom_tahikardiya",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_tahipnoe_dykhanie",
+      "type": "symptom",
+      "label": "Тахипное дыхание"
+    },
+    {
+      "id": "symptom_respiratornyj_distress",
+      "type": "symptom",
+      "label": "Респираторный дистресс"
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_plethora",
+      "type": "symptom",
+      "label": "Плетора"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_slabaya_sosanie",
+      "type": "symptom",
+      "label": "Слабая сосание"
+    },
+    {
+      "id": "symptom_nekrhoticheskiy_enterokolit",
+      "type": "symptom",
+      "label": "Некротический энтероколит"
+    },
+    {
+      "id": "symptom_oligouriya",
+      "type": "symptom",
+      "label": "Олигоурия"
+    },
+    {
+      "id": "symptom_umernaya_trombocitopeniya",
+      "type": "symptom",
+      "label": "Умеренная тромбоцитопения"
+    },
+    {
+      "id": "symptom_trombosis",
+      "type": "symptom",
+      "label": "Тромбоз"
+    },
+    {
+      "id": "symptom_bessimptomnaya_gipoglikemiya",
+      "type": "symptom",
+      "label": "Бессимптомная гипогликемия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_perifericheskij_vishnevij_cianoz",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "периферический вишневый цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotoniya",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипотония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sonlivost",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bespokojstvo",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoglikemiya",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипогликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "желтуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipokalsemiya",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahipnoe_dykhanie",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахипное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratornyj_distress",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "респираторный дистресс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plethora",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "плетора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabaya_sosanie",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слабая сосание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nekrhoticheskiy_enterokolit",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "некротический энтероколит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oligouriya",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "олигоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umernaya_trombocitopeniya",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "умеренная тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombosis",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромбоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bessimptomnaya_gipoglikemiya",
+      "target": "diagnosis_politsitemia_novozhdennogo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессимптомная гипогликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotoniya",
+      "target": "symptom_sonlivost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипотония, сонливость, раздражительность, беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotoniya",
+      "target": "symptom_razdrazhitelnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипотония, сонливость, раздражительность, беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotoniya",
+      "target": "symptom_bespokojstvo",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипотония, сонливость, раздражительность, беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sonlivost",
+      "target": "symptom_razdrazhitelnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипотония, сонливость, раздражительность, беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sonlivost",
+      "target": "symptom_bespokojstvo",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипотония, сонливость, раздражительность, беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "symptom_bespokojstvo",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипотония, сонливость, раздражительность, беспокойство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoglikemiya",
+      "target": "symptom_zheltuha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипогликемия; желтуха; гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoglikemiya",
+      "target": "symptom_gipokalsemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипогликемия; желтуха; гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_gipokalsemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гипогликемия; желтуха; гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "symptom_tahipnoe_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тахикардия, тахипное, респираторный дистресс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "symptom_respiratornyj_distress",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тахикардия, тахипное, респираторный дистресс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahipnoe_dykhanie",
+      "target": "symptom_respiratornyj_distress",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тахикардия, тахипное, респираторный дистресс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "symptom_plethora",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "цианоз, плетора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_slabaya_sosanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвота, слабая сосание, некротический энтероколит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_nekrhoticheskiy_enterokolit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвота, слабая сосание, некротический энтероколит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabaya_sosanie",
+      "target": "symptom_nekrhoticheskiy_enterokolit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвота, слабая сосание, некротический энтероколит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_umernaya_trombocitopeniya",
+      "target": "symptom_trombosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "умеренная тромбоцитопения; тромбоз",
+      "properties": {}
+    }
+  ]
+}

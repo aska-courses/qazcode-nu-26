@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_boleznennoe_opukholevidnoe_obrazovanie",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие болезненного ... опухолевидного образования ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bezboleznennoe_opukholevidnoe_obrazovanie",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие безболезненного ... опухолевидного образования ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shershavost",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие ... шероховатой бляшки ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kraeteroobraznyj_defekt",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие ... кратерообразного язвенного дефекта ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие ... кровоточивость при контакте ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие ... увеличение подчелюстных, подбородочных и шейных лимфоузлов ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_bol",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие ... локальные боли ... при раке губы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheshuyka",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Развитие рака губы начинается с появления чешуйки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_upolnenie",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "под которой первоначально можно определить, как уплотнение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eroziya",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иногда опухоль проявляется в виде маленькой эрозии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izjazvlenie",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "безболезненного изъязвления без экзофитного роста",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nekr0z",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно возникновение плотного узла, на месте которого позже развивается некроз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gorizont_alnyj_rost",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в начале опухоль сопровождается горизонтальным ростом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertikalnyj_rost",
+    "target": "diagnosis_c00_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "затем – вертикальным ростом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennoe_opukholevidnoe_obrazovanie",
+    "target": "symptom_shershavost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Наличие болезненного ... опухолевидного образования, шероховатой бляшки ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shershavost",
+    "target": "symptom_kraeteroobraznyj_defekt",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "шероховатой бляшки ... или кратерообразного язвенного дефекта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheshuyka",
+    "target": "symptom_upolnenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "появления чешуйки, под которой первоначально можно определить, как уплотнение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eroziya",
+    "target": "symptom_izjazvlenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "маленькой эрозии ... безболезненного изъязвления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eroziya",
+    "target": "symptom_nekr0z",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "эрозии ... возможно возникновение ... некроз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izjazvlenie",
+    "target": "symptom_nekr0z",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изъязвления ... возможно возникновение ... некроз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c00_0",
+    "target": "diagnosis_c00_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C00.0 Злокачественное новообразование наружной поверхности верхней губы C00.1 Злокачественное новообразование наружной поверхности нижней губы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c00_2",
+    "target": "diagnosis_c00_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C00.2 ... C00.3 Злокачественное новообразование внутренней поверхности верхней губы",
+    "properties": {}
+  }
+]

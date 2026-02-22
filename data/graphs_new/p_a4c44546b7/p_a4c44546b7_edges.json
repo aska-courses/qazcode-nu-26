@@ -1,0 +1,258 @@
+[
+  {
+    "source": "symptom_urine_color_change",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменения цвета мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_anus",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие ануса на типичном месте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_colostomy_presence",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teratogenic_factors_pregnancy",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие тератогенных факторов во время беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_maternal_infection_first_trimester",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "инфекционные заболевания матери в I триместре беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_maternal_harmful_habits",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вредные привычки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teratogenic_drugs_use",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "применение лекарственных препаратов обладающих тератогенным фактором",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakened_anal_reflex",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анальный рефлекс ослаблен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_external_intestinal_fistula",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие наружного кишечного свища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_secondary_pyelonephritis",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вторичный пиелонефрит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_secondary_changes",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вторичные изменения почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_kidney_function",
+    "target": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение функций",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urine_color_change",
+    "target": "symptom_absence_of_anus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изменения цвета мочи; отсутствие ануса на типичном месте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urine_color_change",
+    "target": "symptom_colostomy_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изменения цвета мочи; наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_anus",
+    "target": "symptom_colostomy_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отсутствие ануса на типичном месте; наличие колостомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teratogenic_factors_pregnancy",
+    "target": "symptom_anemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие тератогенных факторов во время беременности (анемия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teratogenic_factors_pregnancy",
+    "target": "symptom_maternal_infection_first_trimester",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие тератогенных факторов во время беременности (инфекционные заболевания матери в I триместре)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teratogenic_factors_pregnancy",
+    "target": "symptom_maternal_harmful_habits",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие тератогенных факторов во время беременности (вредные привычки)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teratogenic_factors_pregnancy",
+    "target": "symptom_teratogenic_drugs_use",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие тератогенных факторов во время беременности (применение лекарственных препаратов обладающих тератогенным фактором)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемия; лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "symptom_secondary_pyelonephritis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "лейкоцитурия, при вторичном пиелонефрите",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_secondary_changes",
+    "target": "symptom_reduced_kidney_function",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вторичные изменения почек со снижением функций",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "target": "diagnosis_rectovestibular_fistula",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Промежностный свищ … Ректовезикальный свищ …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "target": "diagnosis_rectourethral_fistula",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Промежностный свищ … Ректоуретральный свищ …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "target": "diagnosis_cloaca",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Промежностный свищ … Клоака …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "target": "diagnosis_anorectal_malformation",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "аноректальные мальформации включающий атрезию ануса со свищем",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_atresia_anus_with_rectovestibular_fistula",
+    "target": "diagnosis_atresia_anus",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "атрезия ануса с ректовезикальным свищем; атрезия ануса",
+    "properties": {}
+  }
+]

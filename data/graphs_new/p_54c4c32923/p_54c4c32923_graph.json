@@ -1,0 +1,303 @@
+{
+  "protocol_id": "p_54c4c32923",
+  "nodes": [
+    {
+      "id": "symptom_pain_ankle",
+      "type": "symptom",
+      "label": "Боль в области лодыжки",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_weight_bearing_impairment",
+      "type": "symptom",
+      "label": "Нарушение опороспособности конечности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_swelling",
+      "type": "symptom",
+      "label": "Отёк в месте перелома",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_deformation",
+      "type": "symptom",
+      "label": "Деформация конечности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hematoma",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tenderness_axial_load",
+      "type": "symptom",
+      "label": "Болезненность, усиливающаяся при осевой нагрузке",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pathological_mobility",
+      "type": "symptom",
+      "label": "Патологическая подвижность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_crepitus",
+      "type": "symptom",
+      "label": "Крепитация костных отломков",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_forced_position",
+      "type": "symptom",
+      "label": "Вынужденное положение конечности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_shortening",
+      "type": "symptom",
+      "label": "Укорочение конечности",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_ankle_fracture_lateral",
+      "type": "diagnosis",
+      "label": "Перелом латеральной лодыжки",
+      "icd_code": "S82.5"
+    },
+    {
+      "id": "diagnosis_ankle_fracture_medial",
+      "type": "diagnosis",
+      "label": "Перелом медиальной лодыжки",
+      "icd_code": "S82.6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain_ankle",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в области лодыжек (внутренней или наружной)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_ankle",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в области лодыжек (внутренней или наружной)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_bearing_impairment",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_bearing_impairment",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformation",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformation",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematoma",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematoma",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness_axial_load",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness_axial_load",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_mobility",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_mobility",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crepitus",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crepitus",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_forced_position",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение конечности больного",
+      "properties": {}
+    },
+    {
+      "source": "symptom_forced_position",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение конечности больного",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shortening",
+      "target": "diagnosis_ankle_fracture_lateral",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shortening",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_ankle",
+      "target": "symptom_weight_bearing_impairment",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли в области лодыжек ...; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_forced_position",
+      "target": "symptom_swelling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вынужденное положение конечности больного; отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "symptom_deformation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек в месте перелома; деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling",
+      "target": "symptom_hematoma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек в месте перелома; кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness_axial_load",
+      "target": "symptom_pathological_mobility",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке; патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_mobility",
+      "target": "symptom_crepitus",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность; крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shortening",
+      "target": "symptom_deformation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "укорочение конечности; деформация",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ankle_fracture_lateral",
+      "target": "diagnosis_ankle_fracture_medial",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом латеральной лодыжки (S82.5) и Перелом медиальной лодыжки (S82.6) перечислены рядом в таблицах и тексте",
+      "properties": {}
+    }
+  ]
+}

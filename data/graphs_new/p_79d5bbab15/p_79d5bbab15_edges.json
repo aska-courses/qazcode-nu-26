@@ -1,0 +1,186 @@
+[
+  {
+    "source": "obrazovanie_polosti_rta",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на наличие образования в полости рта",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_funkcii_pitaniya",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение функции приема пищи",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_rechi",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение функции речи",
+    "properties": {}
+  },
+  {
+    "source": "krovotochivost_pri_travm",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоточивость при травмировании",
+    "properties": {}
+  },
+  {
+    "source": "medlennyi_bezbolennyi_rost",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "медленный безболезненный рост в течение нескольких месяцев",
+    "properties": {}
+  },
+  {
+    "source": "okruglaya_forma",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "округлой формы",
+    "properties": {}
+  },
+  {
+    "source": "nepravilnaya_forma",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неправильной формы",
+    "properties": {}
+  },
+  {
+    "source": "pokrytie_slivistoi_rozovogo_cvetа",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "покрыто слизистой оболочкой бледно-розового цвета",
+    "properties": {}
+  },
+  {
+    "source": "gladkaya_surface",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гладкую поверхность",
+    "properties": {}
+  },
+  {
+    "source": "bugristaya_surface",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бугристую поверхность",
+    "properties": {}
+  },
+  {
+    "source": "elasticheskaya_konsistentsiya",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плотно-эластическую консистенцию",
+    "properties": {}
+  },
+  {
+    "source": "bezbolennoe",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "безболезненный",
+    "properties": {}
+  },
+  {
+    "source": "krovotochit",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоточит",
+    "properties": {}
+  },
+  {
+    "source": "yarko_krasnyj_cianotichnyi",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ярко-красный цвет с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "sinyushno_bagrovyi_cvet",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "синюшно-багрового цвета",
+    "properties": {}
+  },
+  {
+    "source": "smeschenie_zubov",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зубы ... смещаются",
+    "properties": {}
+  },
+  {
+    "source": "rasshatyvanie_zubov",
+    "target": "epulis_diagnosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расшатываются",
+    "properties": {}
+  },
+  {
+    "source": "okruglaya_forma",
+    "target": "pokrytie_slivistoi_rozovogo_cvetа",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "округлой ... покрыто слизистой оболочкой бледно-розового цвета",
+    "properties": {}
+  },
+  {
+    "source": "okruglaya_forma",
+    "target": "gladkaya_surface",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "округлой ... гладкую поверхность",
+    "properties": {}
+  },
+  {
+    "source": "bugristaya_surface",
+    "target": "elasticheskaya_konsistentsiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "бугристую поверхность, плотно-эластическую консистенцию",
+    "properties": {}
+  },
+  {
+    "source": "yarko_krasnyj_cianotichnyi",
+    "target": "krovotochit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ярко-красный цвет с цианотичным оттенком ... кровоточит",
+    "properties": {}
+  },
+  {
+    "source": "sinyushno_bagrovyi_cvet",
+    "target": "elasticheskaya_konsistentsiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "синюшно-багрового цвета ... мягкой или плотно-эластической консистенции",
+    "properties": {}
+  },
+  {
+    "source": "smeschenie_zubov",
+    "target": "rasshatyvanie_zubov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "зубы ... смещаются, и расшатываются",
+    "properties": {}
+  }
+]

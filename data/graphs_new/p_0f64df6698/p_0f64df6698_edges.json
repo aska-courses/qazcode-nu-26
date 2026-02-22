@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_azotemiya",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "азотемия и/или олигоурия, согласно критериям острого почечного повреждения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguriya",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "азотемия и/или олигоурия, согласно критериям острого почечного повреждения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipergidratatsiya",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "клинические проявления: олигоурия, азотемия, гипергидратация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipertonsicheskiy_kriz",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экстраренальные осложнения – гипертонический криз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ostroe_narushenie_mozgovogo_krovoobrashcheniya",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экстраренальные осложнения – ... острое нарушение мозгового кровообращения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ostraia_serdechnaya_nedostatochnost",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экстраренальные осложнения – ... острая сердечная и/или печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pechennaia_nedostatochnost",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экстраренальные осложнения – ... острая сердечная и/или печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_n14_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экстраренальные осложнения – ... сепсис",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m32_1",
+    "target": "diagnosis_n14_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "ОТИН при системных заболевания: ... СКВ (системная красная волчанка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_azotemiya",
+    "target": "symptom_oliguriya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "азотемия и/или олигоурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipergidratatsiya",
+    "target": "symptom_gipertonsicheskiy_kriz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клинические проявления: ... гипергидратация; экстраренальные осложнения – гипертонический криз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipertonsicheskiy_kriz",
+    "target": "symptom_ostroe_narushenie_mozgovogo_krovoobrashcheniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "экстраренальные осложнения – гипертонический криз, острое нарушение мозгового кровообращения",
+    "properties": {}
+  }
+]

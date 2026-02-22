@@ -1,0 +1,437 @@
+{
+  "protocol_id": "p_d0cf8a0295",
+  "nodes": [
+    {
+      "id": "diagnosis_a18",
+      "type": "diagnosis",
+      "label": "Туберкулез других органов",
+      "icd_code": "A18"
+    },
+    {
+      "id": "diagnosis_a18_0",
+      "type": "diagnosis",
+      "label": "Туберкулез костей и суставов",
+      "icd_code": "A18.0"
+    },
+    {
+      "id": "diagnosis_m01_1_hip",
+      "type": "diagnosis",
+      "label": "Туберкулез тазобедренного сустава",
+      "icd_code": "M01.1"
+    },
+    {
+      "id": "diagnosis_m01_1_knee",
+      "type": "diagnosis",
+      "label": "Туберкулез коленного сустава",
+      "icd_code": "M01.1"
+    },
+    {
+      "id": "diagnosis_m49_0_spine",
+      "type": "diagnosis",
+      "label": "Туберкулез позвоночника",
+      "icd_code": "M49.0"
+    },
+    {
+      "id": "diagnosis_m01_1_arthritis",
+      "type": "diagnosis",
+      "label": "Артрит",
+      "icd_code": "M01.1"
+    },
+    {
+      "id": "diagnosis_h75_0_mastoiditis",
+      "type": "diagnosis",
+      "label": "Мастоидит",
+      "icd_code": "H75.0"
+    },
+    {
+      "id": "diagnosis_m90_0_bone_necrosis",
+      "type": "diagnosis",
+      "label": "Некроз кости",
+      "icd_code": "M90.0"
+    },
+    {
+      "id": "diagnosis_m90_0_osteitis",
+      "type": "diagnosis",
+      "label": "Остеит",
+      "icd_code": "M90.0"
+    },
+    {
+      "id": "diagnosis_m90_0_osteomyelitis",
+      "type": "diagnosis",
+      "label": "Остеомиелит",
+      "icd_code": "M90.0"
+    },
+    {
+      "id": "diagnosis_m68_0_synovitis",
+      "type": "diagnosis",
+      "label": "Синовит",
+      "icd_code": "M68.0"
+    },
+    {
+      "id": "diagnosis_m68_0_tenosynovitis",
+      "type": "diagnosis",
+      "label": "Теносиновит",
+      "icd_code": "M68.0"
+    },
+    {
+      "id": "diagnosis_j85",
+      "type": "diagnosis",
+      "label": "Гнойные (легочные) заболевания",
+      "icd_code": "J85"
+    },
+    {
+      "id": "diagnosis_j86",
+      "type": "diagnosis",
+      "label": "Интоксикация",
+      "icd_code": "J86"
+    },
+    {
+      "id": "symptom_pain_walking",
+      "type": "symptom",
+      "label": "Болевой синдром при ходьбе"
+    },
+    {
+      "id": "symptom_pain_rest",
+      "type": "symptom",
+      "label": "Болевой синдром в покое"
+    },
+    {
+      "id": "symptom_joint_contracture",
+      "type": "symptom",
+      "label": "Контрактура суставов"
+    },
+    {
+      "id": "symptom_muscle_tone_increase",
+      "type": "symptom",
+      "label": "Повышенный мышечный тонус (спастичность)"
+    },
+    {
+      "id": "symptom_spastic_paralysis",
+      "type": "symptom",
+      "label": "Спастический паралич"
+    },
+    {
+      "id": "symptom_spastic_paresis",
+      "type": "symptom",
+      "label": "Спастический парез"
+    },
+    {
+      "id": "symptom_fever_febrile",
+      "type": "symptom",
+      "label": "Фебрильная лихорадка"
+    },
+    {
+      "id": "symptom_fever_subfebrile",
+      "type": "symptom",
+      "label": "Субфебрильная лихорадка"
+    },
+    {
+      "id": "symptom_acute_infection",
+      "type": "symptom",
+      "label": "Острая инфекционная болезнь"
+    },
+    {
+      "id": "symptom_muscle_strength_decrease",
+      "type": "symptom",
+      "label": "Снижение мышечной силы"
+    },
+    {
+      "id": "symptom_mobility_limitation",
+      "type": "symptom",
+      "label": "Ограничение подвижности"
+    },
+    {
+      "id": "symptom_self_care_limitation",
+      "type": "symptom",
+      "label": "Ограничение возможностей самообслуживания"
+    },
+    {
+      "id": "symptom_neurological_deficit",
+      "type": "symptom",
+      "label": "Неврологические нарушения"
+    },
+    {
+      "id": "symptom_respiratory_insufficiency",
+      "type": "symptom",
+      "label": "Недостаточность функции дыхания"
+    },
+    {
+      "id": "symptom_hypoxia",
+      "type": "symptom",
+      "label": "Гипоксия"
+    },
+    {
+      "id": "symptom_muscle_atrophy",
+      "type": "symptom",
+      "label": "Атрофия мышц"
+    },
+    {
+      "id": "symptom_sensory_loss",
+      "type": "symptom",
+      "label": "Потеря чувствительности"
+    },
+    {
+      "id": "symptom_motor_loss",
+      "type": "symptom",
+      "label": "Потеря двигательной функции"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_acute_infection",
+      "target": "diagnosis_a18_0",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "противопоказания для реабилитации: • острые инфекционные заболевания;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_febrile",
+      "target": "diagnosis_a18_0",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "противопоказания для реабилитации: • фебрильная лихорадка ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_subfebrile",
+      "target": "diagnosis_a18_0",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "противопоказания для реабилитации: • субфебрильная лихорадка ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_insufficiency",
+      "target": "diagnosis_a18_0",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "противопоказания для реабилитации: • недостаточность функции дыхания более III степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_walking",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болевой синдром во время ходьбы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_rest",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "незначительно выраженный болевой синдром в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_contracture",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "устранение контрактуры суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_tone_increase",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "улучшение мышечного тонуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spastic_paralysis",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "спастических параличах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spastic_paresis",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "со спастическим парезом нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "предупреждение атрофии мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neurological_deficit",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "восстановление неврологических нарушений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mobility_limitation",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ограничение подвижности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_self_care_limitation",
+      "target": "diagnosis_a18_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ограничение возможностей самообслуживания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_walking",
+      "target": "symptom_pain_rest",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болевой синдром во время ходьбы ... незначительно выраженный болевой синдром в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spastic_paralysis",
+      "target": "symptom_spastic_paresis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "спастических параличах ... со спастическим парезом нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m01_1_hip",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулез костей и суставов ... • тазобедренного сустава (M01.1*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m01_1_knee",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулез костей и суставов ... • коленного сустава (M01.1*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m49_0_spine",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулез костей и суставов ... • позвоночника (M49.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m01_1_arthritis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • артрит (M01.1*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_h75_0_mastoiditis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • мастоидит (H75.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m90_0_bone_necrosis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • некроз кости (M90.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m90_0_osteitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • остеит (M90.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m90_0_osteomyelitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • остеомиелит (M90.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m68_0_synovitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • синовит (M68.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a18_0",
+      "target": "diagnosis_m68_0_tenosynovitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • теносиновит (M68.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m01_1_hip",
+      "target": "diagnosis_m01_1_knee",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулез костей и суставов ... • тазобедренного сустава (M01.1*); • коленного сустава (M01.1*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m01_1_hip",
+      "target": "diagnosis_m01_1_arthritis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • артрит (M01.1*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m01_1_knee",
+      "target": "diagnosis_m01_1_arthritis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • артрит (M01.1*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m90_0_bone_necrosis",
+      "target": "diagnosis_m90_0_osteitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • некроз кости (M90.0*); • остеит (M90.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m90_0_bone_necrosis",
+      "target": "diagnosis_m90_0_osteomyelitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • некроз кости (M90.0*); • остеомиелит (M90.0*)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m68_0_synovitis",
+      "target": "diagnosis_m68_0_tenosynovitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Туберкулезный(ая): • синовит (M68.0*); • теносиновит (M68.0*)",
+      "properties": {}
+    }
+  ]
+}

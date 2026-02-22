@@ -1,0 +1,399 @@
+{
+  "protocol_id": "p_807346bab9",
+  "nodes": [
+    {
+      "id": "symptom_diffuse_headache",
+      "type": "symptom",
+      "label": "Выраженная диффузная головная боль"
+    },
+    {
+      "id": "symptom_thunderclap_headache",
+      "type": "symptom",
+      "label": "Головная боль типа «раскат грома»"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_seizure_syndrome",
+      "type": "symptom",
+      "label": "Судорожный синдром"
+    },
+    {
+      "id": "symptom_focal_neurological_deficit",
+      "type": "symptom",
+      "label": "Очаговый неврологический дефицит (гемипарез, афазия)"
+    },
+    {
+      "id": "symptom_decreased_consciousness",
+      "type": "symptom",
+      "label": "Угнетение уровня сознания"
+    },
+    {
+      "id": "symptom_diplopia",
+      "type": "symptom",
+      "label": "Диплопия"
+    },
+    {
+      "id": "symptom_vision_loss",
+      "type": "symptom",
+      "label": "Потеря зрения"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Подъём артериального давления"
+    },
+    {
+      "id": "symptom_psychomotor_agitation",
+      "type": "symptom",
+      "label": "Психомоторное возбуждение"
+    },
+    {
+      "id": "symptom_psychosis",
+      "type": "symptom",
+      "label": "Психоз"
+    },
+    {
+      "id": "symptom_hemianopsia",
+      "type": "symptom",
+      "label": "Гемианопсия"
+    },
+    {
+      "id": "symptom_oculomotor_palsy",
+      "type": "symptom",
+      "label": "Паралич глазодвигательного и отводящего нервов"
+    },
+    {
+      "id": "symptom_facial_weakness",
+      "type": "symptom",
+      "label": "Слабость/паралич лицевых мышц"
+    },
+    {
+      "id": "symptom_cranial_nerves_ix_x_xi_xii_syndrome",
+      "type": "symptom",
+      "label": "Поражение IX, X, XI, XII черепных нервов"
+    },
+    {
+      "id": "symptom_optic_disc_edema",
+      "type": "symptom",
+      "label": "Отёк диска зрительного нерва"
+    },
+    {
+      "id": "symptom_exophthalmos",
+      "type": "symptom",
+      "label": "Экзофтальм"
+    },
+    {
+      "id": "symptom_periorbital_edema",
+      "type": "symptom",
+      "label": "Ипсилатеральный периорбитальный отёк"
+    },
+    {
+      "id": "symptom_facial_vein_dilation",
+      "type": "symptom",
+      "label": "Расширение вен на лице («голова медузы»)"
+    },
+    {
+      "id": "symptom_nasal_mucosa_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз слизистой оболочки носа"
+    },
+    {
+      "id": "symptom_petechiae",
+      "type": "symptom",
+      "label": "Петехии"
+    },
+    {
+      "id": "symptom_epistaxis",
+      "type": "symptom",
+      "label": "Носовые кровотечения"
+    },
+    {
+      "id": "symptom_gingival_bleeding",
+      "type": "symptom",
+      "label": "Десневые кровотечения"
+    },
+    {
+      "id": "symptom_hearing_loss",
+      "type": "symptom",
+      "label": "Глухота"
+    },
+    {
+      "id": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "diagnosis",
+      "label": "Инфаркт мозга, вызванный тромбозом вен мозга, непиогенный",
+      "icd_code": "I"
+    },
+    {
+      "id": "diagnosis_purulent_intracranial_venous_thrombosis",
+      "type": "diagnosis",
+      "label": "Негнойный тромбоз внутричерепной венозной системы",
+      "icd_code": "I"
+    },
+    {
+      "id": "diagnosis_cerebral_vein_thrombosis_pregnancy",
+      "type": "diagnosis",
+      "label": "Тромбоз церебральных вен во время беременности",
+      "icd_code": "I"
+    },
+    {
+      "id": "diagnosis_cerebral_sinus_thrombosis_pregnancy",
+      "type": "diagnosis",
+      "label": "Тромбоз церебрального синуса во время беременности",
+      "icd_code": "I"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_diffuse_headache",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выраженная, диффузная головная боль (90% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thunderclap_headache",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "головная боль похожая на «раскат грома» (5-10% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure_syndrome",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "судорожный синдром (40% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurological_deficit",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "очаговый неврологический дефицит (гемипарез, афазия) (20% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_consciousness",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "угнетение уровня сознания (14% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diplopia",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диплопия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vision_loss",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря зрения (13% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подъём АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychomotor_agitation",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психомоторное возбуждение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychosis",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemianopsia",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oculomotor_palsy",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паралич глазодвигательного и отводящего нервов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_weakness",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость/паралич лицевых мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cranial_nerves_ix_x_xi_xii_syndrome",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поражение IX, X, XI, XII черепных нервов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_disc_edema",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк диска зрительного нерва",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exophthalmos",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "экзофтальм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_edema",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ипсилатеральный периорбитальный отёк",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_vein_dilation",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение вен на лице («голова медузы»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_mucosa_cyanosis",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цианоз слизистой оболочки носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petechiae",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "петехии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epistaxis",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "носовые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gingival_bleeding",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "десневые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hearing_loss",
+      "target": "diagnosis_brain_infarct_venous_thrombosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глухота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_headache",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "выраженная, диффузная головная боль ... тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diffuse_headache",
+      "target": "symptom_seizure_syndrome",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "выраженная, диффузная головная боль ... судорожный синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure_syndrome",
+      "target": "symptom_focal_neurological_deficit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "судорожный синдром ... очаговый неврологический дефицит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurological_deficit",
+      "target": "symptom_decreased_consciousness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "очаговый неврологический дефицит ... угнетение уровня сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_disc_edema",
+      "target": "symptom_exophthalmos",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отёк диска зрительного нерва ... экзофтальм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_vein_dilation",
+      "target": "symptom_periorbital_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "расширение вен на лице ... ипсилатеральный периорбитальный отёк",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_cerebral_vein_thrombosis_pregnancy",
+      "target": "diagnosis_cerebral_sinus_thrombosis_pregnancy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Тромбоз церебральных вен во время беременности. Тромбоз церебрального синуса во время беременности",
+      "properties": {}
+    }
+  ]
+}

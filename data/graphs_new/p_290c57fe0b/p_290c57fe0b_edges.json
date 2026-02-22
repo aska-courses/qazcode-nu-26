@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_tumor_mass",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наиболее частым проявлением саркомы мягких тканей (рабдомиосаркома) является опухолевидное образование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tumor_mass",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наиболее частым проявлением саркомы мягких тканей (рабдомиосаркома) является опухолевидное образование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_nerve_paralysis",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, менингиальные симптомы или дыхательная недостаточность и признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningeal_symptoms",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, менингиальные симптомы или дыхательная недостаточность и признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, менингиальные симптомы или дыхательная недостаточность и признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cns_involvement",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, менингиальные симптомы или дыхательная недостаточность и признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_jaundice",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Желудочно-кишечный и гепатобилиарный тракт до 3% - механическая желтуха и опухолевая масса в брюшной полости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические признаки ... часто ... анемия, лейкоцитоз, микросфероцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические признаки ... часто ... анемия, лейкоцитоз, микросфероцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microspherocytosis",
+    "target": "diagnosis_c49",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические признаки ... часто ... анемия, лейкоцитоз, микросфероцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_nerve_paralysis",
+    "target": "symptom_meningeal_symptoms",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, менингиальные симптомы ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_nerve_paralysis",
+    "target": "symptom_respiratory_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, ... дыхательная недостаточность ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_nerve_paralysis",
+    "target": "symptom_cns_involvement",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - паралич лицевых нервов, ... признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningeal_symptoms",
+    "target": "symptom_respiratory_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - ... менингиальные симптомы или дыхательная недостаточность ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningeal_symptoms",
+    "target": "symptom_cns_involvement",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - ... менингиальные симптомы ... признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "symptom_cns_involvement",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Параменингиальные первичные опухоли головы и шеи ... 25-35% - ... дыхательная недостаточность и признаки поражения ЦНС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические признаки ... часто ... анемия, лейкоцитоз, микросфероцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_microspherocytosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические признаки ... часто ... анемия, лейкоцитоз, микросфероцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_microspherocytosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические признаки ... часто ... анемия, лейкоцитоз, микросфероцитоз",
+    "properties": {}
+  }
+]

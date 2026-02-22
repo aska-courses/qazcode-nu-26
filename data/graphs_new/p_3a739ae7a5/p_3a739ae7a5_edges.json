@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_pyatno_na_slizistoy_polosti_rta",
+    "target": "diagnosis_ploskaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на слизистой полости рта обнаруживается пятно, не выступающее над уровнем окружающих тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neizmenennyi_turgor",
+    "target": "diagnosis_ploskaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Рельеф слизистой оболочки, ее тургор не изменен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_polosti_rta",
+    "target": "diagnosis_ploskaya_leukoplakia",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "безболезнен при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belya_blyashka",
+    "target": "diagnosis_vernukoznaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в виде ограниченных белых бляшек с неровной поверхностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_borodavchatoye_razrastanie",
+    "target": "diagnosis_vernukoznaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при бородавчатой форме очаг поражения представлен плотными белыми бородавчатыми разрастаниями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poverkhnostnoe_upolnenie",
+    "target": "diagnosis_vernukoznaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации определяется поверхностное уплотнение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_cvetov_slivisty",
+    "target": "diagnosis_vernukoznaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "значительно выступает над уровнем слизистой оболочки, приобретая вид бляшек, бородавок, резко отличается по цвету",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eroziya",
+    "target": "diagnosis_erozivnaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эрозии ... возникают на фоне плоской или веррукозной формы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_treshiny",
+    "target": "diagnosis_erozivnaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "трещины возникают на фоне плоской или веррукозной формы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pomutnenie_slivistoy_tverdogo_i_myagkogo_neba",
+    "target": "diagnosis_tappeyner",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "помутнение слизистой оболочки твердого и мягкого неба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_melkie_krasnovatye_uzelki",
+    "target": "diagnosis_tappeyner",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мелкие красноватые узелки с точкой выводного протока мелкой слюнной железы в центре",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_slivistoy",
+    "target": "diagnosis_myagkaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "проявляется набуханием слизистой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shelushenie_slivistoy",
+    "target": "diagnosis_myagkaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ее шелушением",
+    "properties": {}
+  },
+  {
+    "source": "symptom_matsyeraciya_slivistoy",
+    "target": "diagnosis_myagkaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "и мацерацией без признаков воспаления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bahromchatyi_vid_slivistoy",
+    "target": "diagnosis_myagkaya_leukoplakia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слизистая имеет бахромчатый вид из-за множества мелких лоскутков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pyatno_na_slizistoy_polosti_rta",
+    "target": "symptom_neizmenennyi_turgor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на слизистой полости рта обнаруживается пятно ... Рельеф слизистой оболочки, ее тургор не изменен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belya_blyashka",
+    "target": "symptom_borodavchatoye_razrastanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "в виде ограниченных белых бляшек ... при бородавчатой форме ... плотными белыми бородавчатыми разрастаниями",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belya_blyashka",
+    "target": "symptom_poverkhnostnoe_upolnenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "в виде ограниченных белых бляшек ... При пальпации определяется поверхностное уплотнение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_borodavchatoye_razrastanie",
+    "target": "symptom_poverkhnostnoe_upolnenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при бородавчатой форме ... плотными белыми бородавчатыми разрастаниями ... При пальпации определяется поверхностное уплотнение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eroziya",
+    "target": "symptom_treshiny",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "эрозии и трещины возникают на фоне плоской или веррукозной формы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_slivistoy",
+    "target": "symptom_shelushenie_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "проявляется набуханием слизистой, ее шелушением",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_slivistoy",
+    "target": "symptom_matsyeraciya_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "набуханием слизистой, ... и мацерацией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shelushenie_slivistoy",
+    "target": "symptom_matsyeraciya_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "шелушением и мацерацией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_slivistoy",
+    "target": "symptom_bahromchatyi_vid_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "набуханием слизистой ... Слизистая имеет бахромчатый вид",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shelushenie_slivistoy",
+    "target": "symptom_bahromchatyi_vid_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "шелушением ... Слизистая имеет бахромчатый вид",
+    "properties": {}
+  },
+  {
+    "source": "symptom_matsyeraciya_slivistoy",
+    "target": "symptom_bahromchatyi_vid_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "мацерацией ... Слизистая имеет бахромчатый вид",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_leukoplakia",
+    "target": "diagnosis_ploskaya_leukoplakia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клиническая классификация: 1. Плоская (простая).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_leukoplakia",
+    "target": "diagnosis_vernukoznaya_leukoplakia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клиническая классификация: 2. Веррукозная (бляшечная, бородавчатая).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_leukoplakia",
+    "target": "diagnosis_erozivnaya_leukoplakia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клиническая классификация: 3. Эрозивная.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_leukoplakia",
+    "target": "diagnosis_tappeyner",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клиническая классификация: 4. Лейкоплакия курильщиков Таппейнера.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_leukoplakia",
+    "target": "diagnosis_myagkaya_leukoplakia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клиническая классификация: 5. Мягкая.",
+    "properties": {}
+  }
+]

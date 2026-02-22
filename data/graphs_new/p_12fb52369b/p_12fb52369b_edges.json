@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_isolated_fever_mother",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "изолированная лихорадка у матери – это однократное повышение температуры тела у матери до 39,0°С или повышение температуры тела до 38-38,9°С при измерении с интервалом 30 минут",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_mother_over_37_8",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышение температуры тела у роженицы свыше >37,8° C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "озноб.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_amniotic_fluid",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "зловонные и гнойные околоплодные воды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cloudy_amniotic_fluid",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "мутные околоплодные воды с зловонным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uterine_tenderness",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "болезненность матки при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_maternal_tachycardia",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "тахикардия у матери >100 уд/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_tachycardia",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "тахикардия у плода >160 уд/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "лейкоцитоз более 15 × 10⁹ /л",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_crp",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Повышенный C‑реактивный белок > 5 мг/л",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positive_amniotic_culture",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Положительный бактериальный посев амниотических вод (наличие патогенов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gram_stain_abnormalities",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Мазок по Граму из амниотических вод с обнаружением микрофлоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_histological_inflammation",
+    "target": "diagnosis_chorioamnionitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гистологическое подтверждение признаков воспаления в плаценте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_mother_38_39",
+    "target": "symptom_fever_mother_39_plus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "изолированная лихорадка у матери – это однократное повышение температуры тела у матери до 39,0°С или повышение температуры тела до 38-38,9°С при измерении с интервалом 30 минут",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_amniotic_fluid",
+    "target": "symptom_cloudy_amniotic_fluid",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "зловонные и гнойные околоплодные воды; мутные околоплодные воды с зловонным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_crp",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "лейкоцитоз более 15х109/л; C-реактивный белок – норма до 5",
+    "properties": {}
+  },
+  {
+    "source": "symptom_maternal_tachycardia",
+    "target": "symptom_fetal_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тахикардия у матери >100 уд/мин; тахикардия у плода >160 уд/мин",
+    "properties": {}
+  }
+]

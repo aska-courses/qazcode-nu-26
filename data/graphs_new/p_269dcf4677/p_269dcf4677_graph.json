@@ -1,0 +1,411 @@
+{
+  "protocol_id": "p_269dcf4677",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_laringit",
+      "type": "diagnosis",
+      "label": "Острый ларингит",
+      "icd_code": "J04.0"
+    },
+    {
+      "id": "diagnosis_ostryi_laringotraheyt",
+      "type": "diagnosis",
+      "label": "Острый ларинготрахеит",
+      "icd_code": "J04.2"
+    },
+    {
+      "id": "diagnosis_ostryi_obstrukcionnyj_laringit_epiglotit",
+      "type": "diagnosis",
+      "label": "Острый обструктивный ларингит (круп) и эпиглотит",
+      "icd_code": "J05.1"
+    },
+    {
+      "id": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "type": "diagnosis",
+      "label": "Острый обструктивный ларингит (круп)",
+      "icd_code": "J05.0"
+    },
+    {
+      "id": "symptom_groboy_layushchiy_kashel",
+      "type": "symptom",
+      "label": "Грубый «лающий» кашель",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_oshryplost_i_osiplost_golosa",
+      "type": "symptom",
+      "label": "Охриплость и осиплость голоса",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_afoniya",
+      "type": "symptom",
+      "label": "Афония",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_odishka",
+      "type": "symptom",
+      "label": "Одышка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura_tela",
+      "type": "symptom",
+      "label": "Повышение температуры тела",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nasmork",
+      "type": "symptom",
+      "label": "Насморк",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bol_v_gorle",
+      "type": "symptom",
+      "label": "Боль в горле",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nedomoganie",
+      "type": "symptom",
+      "label": "Недомогание",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_snizhenie_appetita",
+      "type": "symptom",
+      "label": "Снижение аппетита",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_stridoroznoe_dykhanie",
+      "type": "symptom",
+      "label": "Стридорозное дыхание",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vtjazhenie_ustupchivyh_mest_grudnoj_kiteli",
+      "type": "symptom",
+      "label": "Втяжение уступчивых мест грудной клетки (ретракция)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zvonkie_svistyashchie_shumy_v_inhale",
+      "type": "symptom",
+      "label": "Звонкие свистящие шумы в фазу вдоха",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "Цианоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tahipnoe",
+      "type": "symptom",
+      "label": "Тахипноэ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_apnoe",
+      "type": "symptom",
+      "label": "Апноэ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vozbuzhdenie",
+      "type": "symptom",
+      "label": "Возбуждение",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_sputannost_soznaniya",
+      "type": "symptom",
+      "label": "Спутанность сознания",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_blednost",
+      "type": "symptom",
+      "label": "Бледность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipoksiya_priznaki",
+      "type": "symptom",
+      "label": "Признаки гипоксии (цианоз, тахикардия, бледность и др.)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_inspiratornaya_odishka",
+      "type": "symptom",
+      "label": "Инспираторная одышка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pulsoksimetriya_nizkaya",
+      "type": "symptom",
+      "label": "Пульсоксиметрия <92 %",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tahikardia",
+      "type": "symptom",
+      "label": "Тахикардия",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_groboy_layushchiy_kashel",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характеризующийся ... грубым «лающим» кашлем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_groboy_layushchiy_kashel",
+      "target": "diagnosis_ostryi_laringotraheyt",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характеризующийся ... грубым «лающим» кашлем",
+      "properties": {}
+    },
+    {
+      "source": "symptom_groboy_layushchiy_kashel",
+      "target": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Синдром крупа: • сухой «лающий» кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshryplost_i_osiplost_golosa",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "охриплость и осиплость голоса, иногда афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshryplost_i_osiplost_golosa",
+      "target": "diagnosis_ostryi_laringotraheyt",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "охриплость и осиплость голоса, иногда афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshryplost_i_osiplost_golosa",
+      "target": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "осиплости голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_afoniya",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "иногда афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_afoniya",
+      "target": "diagnosis_ostryi_laringotraheyt",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "иногда афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_afoniya",
+      "target": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "иногда афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "оdyшка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "diagnosis_ostryi_laringotraheyt",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "оdyшка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "оdyшка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura_tela",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura_tela",
+      "target": "diagnosis_ostryi_laringotraheyt",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_temperatura_tela",
+      "target": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasmork",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "насморк",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_gorle",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_appetita",
+      "target": "diagnosis_ostryi_laringit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "symptom_tahikardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки гипоксии (цианоз, тахикардия, бледность и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "symptom_blednost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки гипоксии (цианоз, тахикардия, бледность и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "symptom_blednost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки гипоксии (цианоз, тахикардия, бледность и др.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratornaya_odishka",
+      "target": "symptom_stridoroznoe_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "инспираторная одышка ... стридорозное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratornaya_odishka",
+      "target": "symptom_zvonkie_svistyashchie_shumy_v_inhale",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "звонкие свистящие шумы в фазу вдоха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stridoroznoe_dykhanie",
+      "target": "symptom_zvonkie_svistyashchie_shumy_v_inhale",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "звонкие свистящие шумы в фазу вдоха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratornaya_odishka",
+      "target": "symptom_tahipnoe",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тахипноэ включено в шкалу Уэстли вместе с другими симптомами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratornaya_odishka",
+      "target": "symptom_apnoe",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Апноэ включено в шкалу Уэстли вместе с другими симптомами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratornaya_odishka",
+      "target": "symptom_pulsoksimetriya_nizkaya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Пульсоксиметрия <92 % указана как критерий тяжести",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahipnoe",
+      "target": "symptom_apnoe",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тахипноэ и Апноэ находятся в одной таблице шкалы Уэстли",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_obstrukcionnyj_laringit",
+      "target": "diagnosis_ostryi_obstrukcionnyj_laringit_epiglotit",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острый обструктивный ларингит (круп) и эпиглотит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_laringit",
+      "target": "diagnosis_ostryi_laringotraheyt",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "J04.0 Острый ларингит J04.2 Острый ларинготрахеит",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_izmenenie_haraktera_sheveleniya_ploda",
+    "target": "symptom_izmenenie_serdechnogo_ritma_ploda_pri_auskultatsii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "изменение характера шевеления плода, выявленные беременной при самоконтроле; изменение сердечного ритма плода при аускультации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_haraktera_sheveleniya_ploda",
+    "target": "symptom_nalichie_ekstragenitalnoj_patologii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие-экстрагенитальной и/или акушерской патологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_haraktera_sheveleniya_plода",
+    "target": "symptom_zaderzhka_rosta_plода",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "выявление подозрения на задержку роста плода по гравидограмме",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipertenziya_beremennykh",
+    "target": "symptom_preeklampsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипертензия и преэклампсия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saharniy_diabet",
+    "target": "symptom_gestatsionnyy_diabet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сахарный и гестационный диабет",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z34_0",
+    "target": "diagnosis_z34_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z34.0 Наблюдение за течением нормальной первой беременности Z34.8 Наблюдение за течением другой нормальной беременности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z34_8",
+    "target": "diagnosis_z34_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z34.8 Наблюдение за течением другой нормальной беременности Z34.9 Наблюдение за течением нормальной беременности неуточненной",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z34_9",
+    "target": "diagnosis_z35_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z34.9 Наблюдение за течением нормальной беременности неуточненной Z35.0 Наблюдение за течением беременности у женщины с бесплодием в анамнезе",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z35_0",
+    "target": "diagnosis_z35_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z35.0 Наблюдение за течением беременности у женщины с бесплодием в анамнезе Z35.1 Наблюдение за течением беременности у женщины с абортивными выкидышами в анамнезе",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z35_1",
+    "target": "diagnosis_z35_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z35.1 Наблюдение за течением беременности у женщины с абортивными выкидышами в анамнезе Z35.2 Наблюдение за течением беременности у женщины с другим отягощенным анамнезом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z35_2",
+    "target": "diagnosis_z35_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z35.2 Наблюдение за течением беременности у женщины с другим отягощенным анамнезом Z35.3 Наблюдение за течением беременности у женщины с недостаточной предродовой помощью в анамнезе",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z35_3",
+    "target": "diagnosis_z35_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z35.3 Наблюдение за течением беременности у женщины с недостаточной предродовой помощью в анамнезе Z35.4 Наблюдение за течением беременности у многорожавшей женщины",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z35_4",
+    "target": "diagnosis_z36_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z35.4 Наблюдение за течением беременности у многорожавшей женщины Z36.0 Антенатальный скрининг для выявления хромосомных аномалий",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_0",
+    "target": "diagnosis_z36_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.0 Антенатальный скрининг для выявления хромосомных аномалий Z36.1 Антенатальный скрининг для выявления повышенного уровня альфафетопротеина в амниотической жидкости",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_1",
+    "target": "diagnosis_z36_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.1 Антенатальный скрининг для выявления повышенного уровня альфафетопротеина в амниотической жидкости Z36.2 Другой вид антенатального скрининга, основанный на амниоцентезе",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_2",
+    "target": "diagnosis_z36_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.2 Другой вид антенатального скрининга, основанный на амниоцентезе Z36.3 Антенатальный скрининг с помощью ультразвука или других физических методов для выявления аномалий развития",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_3",
+    "target": "diagnosis_z36_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.3 Антенатальный скрининг с помощью ультразвука или других физических методов для выявления аномалий развития Z36.4 Антенатальный скрининг с помощью ультразвука или других физических методов для выявления задержки роста плода",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_4",
+    "target": "diagnosis_z36_5",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.4 Антенатальный скрининг с помощью ультразвука или других физических методов для выявления задержки роста плода Z36.5 Антенатальный скрининг для выявления изоиммунизации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_5",
+    "target": "diagnosis_z36_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.5 Антенатальный скрининг для выявления изоиммунизации Z36.8 Другой вид антенатального скрининга (скрининг с целью выявления гемоглобинопатии)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_z36_8",
+    "target": "diagnosis_z36_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Z36.8 Другой вид антенатального скрининга (скрининг с целью выявления гемоглобинопатии) Z36.9 Неуточненный вид антенатального скрининга",
+    "properties": {}
+  }
+]

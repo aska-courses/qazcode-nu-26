@@ -1,0 +1,399 @@
+{
+  "protocol_id": "p_c14571fbe1",
+  "nodes": [
+    {
+      "id": "symptom_gradual_vision_loss",
+      "type": "symptom",
+      "label": "постепенное снижение зрения"
+    },
+    {
+      "id": "symptom_progressive_vision_loss",
+      "type": "symptom",
+      "label": "прогрессивное снижение зрения"
+    },
+    {
+      "id": "symptom_visual_discomfort",
+      "type": "symptom",
+      "label": "зрительный дискомфорт"
+    },
+    {
+      "id": "symptom_dry_eye",
+      "type": "symptom",
+      "label": "сухость глаз"
+    },
+    {
+      "id": "symptom_photophobia",
+      "type": "symptom",
+      "label": "чувствительность к свету"
+    },
+    {
+      "id": "symptom_halos",
+      "type": "symptom",
+      "label": "ореолы вокруг источника света"
+    },
+    {
+      "id": "symptom_blurred_vision",
+      "type": "symptom",
+      "label": "размытость изображения"
+    },
+    {
+      "id": "symptom_monocular_diplopia",
+      "type": "symptom",
+      "label": "двоение перед одним глазом"
+    },
+    {
+      "id": "symptom_object_distortion",
+      "type": "symptom",
+      "label": "искажение предметов"
+    },
+    {
+      "id": "symptom_eye_pain",
+      "type": "symptom",
+      "label": "болевой синдром"
+    },
+    {
+      "id": "symptom_tearing",
+      "type": "symptom",
+      "label": "слезотечение"
+    },
+    {
+      "id": "symptom_corneal_edema",
+      "type": "symptom",
+      "label": "отек стромы"
+    },
+    {
+      "id": "symptom_increased_corneal_thickness",
+      "type": "symptom",
+      "label": "увеличение толщины роговицы"
+    },
+    {
+      "id": "symptom_corneal_cavities",
+      "type": "symptom",
+      "label": "образование полостей в строме роговицы"
+    },
+    {
+      "id": "symptom_cornea_scarring",
+      "type": "symptom",
+      "label": "рубец роговицы"
+    },
+    {
+      "id": "symptom_descemet_membrane_rupture",
+      "type": "symptom",
+      "label": "разрыв десцеметовой оболочки (корнеальный гидропс)"
+    },
+    {
+      "id": "symptom_low_intraocular_pressure",
+      "type": "symptom",
+      "label": "низкое внутриглазное давление"
+    },
+    {
+      "id": "symptom_dry_eye_syndrome",
+      "type": "symptom",
+      "label": "синдром сухого глаза"
+    },
+    {
+      "id": "symptom_curvature_change",
+      "type": "symptom",
+      "label": "изменение кривизны роговицы"
+    },
+    {
+      "id": "symptom_irregular_astigmatism",
+      "type": "symptom",
+      "label": "неправильный астигматизм"
+    },
+    {
+      "id": "symptom_new_astigmatism",
+      "type": "symptom",
+      "label": "появление астигматизма"
+    },
+    {
+      "id": "symptom_cylinder_axis_change",
+      "type": "symptom",
+      "label": "изменение осей цилиндра"
+    },
+    {
+      "id": "diagnosis_keratoconus",
+      "type": "diagnosis",
+      "label": "Кератоконус",
+      "icd_code": "H18.6"
+    },
+    {
+      "id": "diagnosis_pellucid_marginal_degeneration",
+      "type": "diagnosis",
+      "label": "Краевая пеллюцидная дегенерация роговицы",
+      "icd_code": "H18.7"
+    },
+    {
+      "id": "diagnosis_secondary_keratoconus",
+      "type": "diagnosis",
+      "label": "Вторичный кератоконус (ятрогенная кератэктазия)",
+      "icd_code": "H18.71"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_gradual_vision_loss",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на постепенное или прогрессивное снижение зрения...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressive_vision_loss",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на постепенное или прогрессивное снижение зрения...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_discomfort",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зрительный дискомфорт",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_eye",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувствительность к свету",
+      "properties": {}
+    },
+    {
+      "source": "symptom_halos",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появления ореолов вокруг источника света",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blurred_vision",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "размытость изображения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_monocular_diplopia",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "двоение перед одним глазом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_object_distortion",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "искажение предметов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_pain",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевым синдромом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженным слезотечением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_corneal_edema",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек стромы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_corneal_thickness",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличением толщины роговицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_corneal_cavities",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образованием полостей в строме роговицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cornea_scarring",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образованием рубца роговицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_descemet_membrane_rupture",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "разрыв десцеметовой оболочки (корнеальный гидропс)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_intraocular_pressure",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "низкое внутриглазное давление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irregular_astigmatism",
+      "target": "diagnosis_pellucid_marginal_degeneration",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неправильный астигматизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_new_astigmatism",
+      "target": "diagnosis_pellucid_marginal_degeneration",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появление астигматизма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cylinder_axis_change",
+      "target": "diagnosis_pellucid_marginal_degeneration",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение осей цилиндра",
+      "properties": {}
+    },
+    {
+      "source": "symptom_curvature_change",
+      "target": "diagnosis_pellucid_marginal_degeneration",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение кривизны роговицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irregular_astigmatism",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неправильный астигматизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_new_astigmatism",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появление астигматизма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cylinder_axis_change",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение осей цилиндра",
+      "properties": {}
+    },
+    {
+      "source": "symptom_curvature_change",
+      "target": "diagnosis_keratoconus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение кривизны роговицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gradual_vision_loss",
+      "target": "symptom_progressive_vision_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "на постепенное или прогрессивное снижение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_discomfort",
+      "target": "symptom_dry_eye",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "зрительный дискомфорт, сухость глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "symptom_halos",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувствительность к свету, ореолы вокруг источника света",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_pain",
+      "target": "symptom_tearing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болевым синдромом... выраженным слезотечением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_corneal_edema",
+      "target": "symptom_increased_corneal_thickness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек стромы, увеличение толщины роговицы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_keratoconus",
+      "target": "diagnosis_pellucid_marginal_degeneration",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Кератоконус – ... Краевая пеллюцидная дистрофия роговицы (PMD)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_keratoconus",
+      "target": "diagnosis_secondary_keratoconus",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Вторичный кератоконус ... осложнение кераторефракционной хирургии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_pellucid_marginal_degeneration",
+      "target": "diagnosis_secondary_keratoconus",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код МКБ-10: H 18.7 Краевая пеллюцидная дегенерация роговицы, H18.71 Вторичный кератоконус",
+      "properties": {}
+    }
+  ]
+}

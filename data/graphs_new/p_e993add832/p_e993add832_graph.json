@@ -1,0 +1,387 @@
+{
+  "protocol_id": "p_e993add832",
+  "nodes": [
+    {
+      "id": "symptom_bolevye_oshusheniya",
+      "type": "symptom",
+      "label": "Болевые ощущения, приступообразные, локализованные в месте развития кисты"
+    },
+    {
+      "id": "symptom_oteklivost_pripuhlost_kosti",
+      "type": "symptom",
+      "label": "Отечность, припухлость кости"
+    },
+    {
+      "id": "symptom_upolnenie_prishchupivayetsya",
+      "type": "symptom",
+      "label": "Уплотнение, которое отчетливо прощупывается"
+    },
+    {
+      "id": "symptom_pokrasknenie_kozhnogo_pokrova",
+      "type": "symptom",
+      "label": "Покраснение кожных покровов в зоне расположения кисты"
+    },
+    {
+      "id": "symptom_mestnaya_gipertemiya",
+      "type": "symptom",
+      "label": "Местная гипертермия"
+    },
+    {
+      "id": "symptom_rasshirenie_venoznyh_suslov",
+      "type": "symptom",
+      "label": "Расширение венозных сосудов в месте развития кисты"
+    },
+    {
+      "id": "symptom_parezy_chastichnye_paralichi",
+      "type": "symptom",
+      "label": "Парезы или частичные параличи при патологическом переломе позвонка"
+    },
+    {
+      "id": "symptom_patologichnyy_perelom_pozvona",
+      "type": "symptom",
+      "label": "Патологический перелом позвонка"
+    },
+    {
+      "id": "symptom_deformaciya_kosti",
+      "type": "symptom",
+      "label": "Патологическое смешение и деформация конечности"
+    },
+    {
+      "id": "symptom_ogranichenie_dvigatelnosti",
+      "type": "symptom",
+      "label": "Уменьшение двигательной функции"
+    },
+    {
+      "id": "diagnosis_edinichnaya_kista",
+      "type": "diagnosis",
+      "label": "Единичная киста",
+      "icd_code": "M85.4"
+    },
+    {
+      "id": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "diagnosis",
+      "label": "Аневризматическая киста",
+      "icd_code": "M85.5"
+    },
+    {
+      "id": "diagnosis_drugie_kisty_kostey",
+      "type": "diagnosis",
+      "label": "Другие кисты костей",
+      "icd_code": "M85.6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bolevye_oshusheniya",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Болевые ощущения, приступообразные, локализованные в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevye_oshusheniya",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Болевые ощущения, приступообразные, локализованные в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevye_oshusheniya",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "Болевые ощущения, приступообразные, локализованные в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteklivost_pripuhlost_kosti",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "отечность, припухлость кости;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteklivost_pripuhlost_kosti",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "отечность, припухлость кости;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteklivost_pripuhlost_kosti",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "отечность, припухлость кости;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie_prishchupivayetsya",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "уплотнение, которое отчетливо прощупывается;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie_prishchupivayetsya",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "уплотнение, которое отчетливо прощупывается;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie_prishchupivayetsya",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "уплотнение, которое отчетливо прощупывается;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasknenie_kozhnogo_pokrova",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasknenie_kozhnogo_pokrova",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasknenie_kozhnogo_pokrova",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mestnaya_gipertemiya",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "местная гипертермия, возможно покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mestnaya_gipertemiya",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "местная гипертермия, возможно покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mestnaya_gipertemiya",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "местная гипертермия, возможно покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_venoznyh_suslov",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "расширение венозных сосудов в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_venoznyh_suslov",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "расширение венозных сосудов в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_venoznyh_suslov",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "расширение венозных сосудов в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parezy_chastichnye_paralichi",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "при патологических переломах позвонка в острой стадии возможны парезы или частичные параличи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parezy_chastichnye_paralichi",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "при патологических переломах позвонка в острой стадии возможны парезы или частичные параличи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parezy_chastichnye_paralichi",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "при патологических переломах позвонка в острой стадии возможны парезы или частичные параличи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologichnyy_perelom_pozvona",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "патологический перелом позвонка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologichnyy_perelom_pozvona",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "патологический перелом позвонка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologichnyy_perelom_pozvona",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "патологический перелом позвонка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_kosti",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "патологическое смешение и деформация конечности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_kosti",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "патологическое смешение и деформация конечности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_kosti",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "патологическое смешение и деформация конечности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvigatelnosti",
+      "target": "diagnosis_edinichnaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "уменьшение двигательной функции;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvigatelnosti",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "уменьшение двигательной функции;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvigatelnosti",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "уменьшение двигательной функции;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevye_oshusheniya",
+      "target": "symptom_oteklivost_pripuhlost_kosti",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "Болевые ощущения, приступообразные, локализованные в месте развития кисты; отечность, припухлость кости;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteklivost_pripuhlost_kosti",
+      "target": "symptom_upolnenie_prishchupivayetsya",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "отечность, припухлость кости; уплотнение, которое отчетливо прощупывается;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolnenie_prishchupivayetsya",
+      "target": "symptom_pokrasknenie_kozhnogo_pokrova",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "уплотнение, которое отчетливо прощупывается; покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasknenie_kozhnogo_pokrova",
+      "target": "symptom_mestnaya_gipertemiya",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "покраснение кожных покровов в зоне расположения кисты; местная гипертермия, возможно покраснение кожных покровов в зоне расположения кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mestnaya_gipertemiya",
+      "target": "symptom_rasshirenie_venoznyh_suslov",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "местная гипертермия, возможно покраснение кожных покровов в зоне расположения кисты; расширение венозных сосудов в месте развития кисты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parezy_chastichnye_paralichi",
+      "target": "symptom_patologichnyy_perelom_pozvona",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "при патологических переломах позвонка в острой стадии возможны парезы или частичные параличи; патологический перелом позвонка;",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_edinichnaya_kista",
+      "target": "diagnosis_anevrizmaticheskaya_kista",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Классификация: солитарная костная киста; аневризмальная костная киста;",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_anevrizmaticheskaya_kista",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Аневризматическая киста; Другие кисты костей",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_edinichnaya_kista",
+      "target": "diagnosis_drugie_kisty_kostey",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Единичная киста; Другие кисты костей",
+      "properties": {}
+    }
+  ]
+}

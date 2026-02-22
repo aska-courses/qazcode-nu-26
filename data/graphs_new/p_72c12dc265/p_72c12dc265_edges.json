@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_neefektivnye_skhvatki",
+    "target": "diagnosis_o62",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Если они неэффективны (менее 3 схваток , длительностью менее 40 секунд) следует заподозрить аномалию родовой деятельности – недостаточную сократительную активность матки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neefektivnye_skhvatki",
+    "target": "diagnosis_o62_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Если они неэффективны (менее 3 схваток , длительностью менее 40 секунд) следует заподозрить аномалию родовой деятельности – недостаточную сократительную активность матки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neefektivnye_skhvatki",
+    "target": "diagnosis_o62_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Если они неэффективны (менее 3 схваток , длительностью менее 40 секунд) следует заподозрить аномалию родовой деятельности – недостаточную сократительную активность матки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regulyarnye_sokrashcheniya_meneye_2_skhvatok_za_10_min",
+    "target": "diagnosis_o62",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "регулярные, но менее 2-х схваток за 10 мин.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neravnyye_sokrashcheniya_matki",
+    "target": "diagnosis_o62",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нерегулярные сокращения матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skhvatki_menee_2_za_10_min",
+    "target": "diagnosis_o62",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "менее 2 схваток за 10 минут",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skhvatki_menee_3_za_10_min",
+    "target": "diagnosis_o62",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "менее 3 схваток за 10 минут",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skhvatki_menee_40_sec",
+    "target": "diagnosis_o62",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "схватки длительностью менее 40 секунд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skhvatkoobraznye_boli_niz_zhivota",
+    "target": "symptom_skhvatkoobraznye_boli_pozv",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы на схваткообразные боли внизу живота, пояснице",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydeleniya",
+    "target": "symptom_otstutstvie_shvecheniya_ploda",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydeleniya",
+    "target": "symptom_izlitiye_okoloplodnyh_vod",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_shvecheniya_ploda",
+    "target": "symptom_izlitiye_okoloplodnyh_vod",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydeleniya",
+    "target": "symptom_boleznennye_skhvatki",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydeleniya",
+    "target": "symptom_golovnye_boli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydeleniya",
+    "target": "symptom_toshnota",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovyanistye_vydeleniya",
+    "target": "symptom_rvoa",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при появлении боли/дискомфорта, кровянистых выделений, отсутствия шевеления плода, излития околоплодных вод",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62_0",
+    "target": "diagnosis_o62_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "В активную фазу родов описывают 2 вида аномалий родовой деятельности: первичная слабость родовой деятельности и вторичная слабость родовой деятельности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.0 Первичная слабость родовой деятельности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.1 Вторичная слабость родовой деятельности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.2 Другие виды слабости родовой деятельности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.3 Стремительные роды",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.4 Гипертонические, некоординированные и затянувшиеся сокращения матки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.8 Другие нарушения родовой деятельности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o62",
+    "target": "diagnosis_o62_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O62 Нарушения родовой деятельности (родовых сил) O62.9 Нарушение родовой деятельности неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o63",
+    "target": "diagnosis_o63_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O63 Затяжные роды O63.0 Затянувшийся первый период родов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o63",
+    "target": "diagnosis_o63_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O63 Затяжные роды O63.1 Затянувшийся второй период родов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o63",
+    "target": "diagnosis_o63_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O63 Затяжные роды O63.2 Задержка рождения второго плода из двойни, тройни и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o63",
+    "target": "diagnosis_o63_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: O63 Затяжные роды O63.9 Затяжные роды неуточненные",
+    "properties": {}
+  }
+]

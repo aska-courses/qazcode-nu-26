@@ -1,0 +1,187 @@
+{
+  "protocol_id": "p_f04e53ae92",
+  "nodes": [
+    {
+      "id": "diagnosis_o44",
+      "type": "diagnosis",
+      "label": "Предлежание плаценты",
+      "icd_code": "O44"
+    },
+    {
+      "id": "diagnosis_o44_0",
+      "type": "diagnosis",
+      "label": "Предлежание плаценты без кровотечения (низкое прикрепление плаценты без кровотечения)",
+      "icd_code": "O44.0"
+    },
+    {
+      "id": "diagnosis_o44_1",
+      "type": "diagnosis",
+      "label": "Предлежание плаценты с кровотечением (низкое прикрепление плаценты с кровотечением, краевое, частичное, полное предлежание)",
+      "icd_code": "O44.1"
+    },
+    {
+      "id": "symptom_krovianye_vydeleniya_polovyh_putey",
+      "type": "symptom",
+      "label": "кровянистые выделения из половых путей яркого цвета"
+    },
+    {
+      "id": "symptom_bezbolesnaya_matka",
+      "type": "symptom",
+      "label": "безболезненная матка"
+    },
+    {
+      "id": "symptom_vysshee_stoyanie_predlezhashchey_chasti_ploda",
+      "type": "symptom",
+      "label": "высокое стояние предлежащей части плода"
+    },
+    {
+      "id": "symptom_nespravnye_polozheniya_ploda",
+      "type": "symptom",
+      "label": "неправильные положения или тазовые предлежания плода"
+    },
+    {
+      "id": "symptom_krovotachenie_polovyh_putey",
+      "type": "symptom",
+      "label": "кровотечение из половых путей"
+    },
+    {
+      "id": "symptom_skhvatki",
+      "type": "symptom",
+      "label": "схватки"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "боль"
+    },
+    {
+      "id": "symptom_neopredelennaya_nadlobkovaya_periodicheskaya_bol",
+      "type": "symptom",
+      "label": "неопределенная надлобковая периодическая боль"
+    },
+    {
+      "id": "symptom_masovoe_krovotachenie",
+      "type": "symptom",
+      "label": "массовое кровотечение"
+    },
+    {
+      "id": "symptom_gipertonus_matki",
+      "type": "symptom",
+      "label": "гипертонус матки"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_krovianye_vydeleniya_polovyh_putey",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровянистые выделения из половых путей яркого цвета при безболезненной матке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bezbolesnaya_matka",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровянистые выделения из половых путей яркого цвета при безболезненной матке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vysshee_stoyanie_predlezhashchey_chasti_ploda",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "высокое стояние предлежащей части плода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nespravnye_polozheniya_ploda",
+      "target": "diagnosis_o44",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "неправильные положения или тазовые предлежания плода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotachenie_polovyh_putey",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровотечение из половых путей после 20 недель беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertonus_matki",
+      "target": "diagnosis_o44_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипертонус матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skhvatki",
+      "target": "symptom_krovotachenie_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При возникновении кровотечения, схваток или боли ... им следует немедленно обратиться",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_krovotachenie_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При возникновении кровотечения, схваток или боли ... им следует немедленно обратиться",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neopredelennaya_nadlobkovaya_periodicheskaya_bol",
+      "target": "symptom_krovotachenie_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При возникновении кровотечения, схваток или боли ... им следует немедленно обратиться",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skhvatki",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При возникновении кровотечения, схваток или боли ... им следует немедленно обратиться",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_neopredelennaya_nadlobkovaya_periodicheskaya_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При возникновении кровотечения, схваток или боли ... им следует немедленно обратиться",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_o44",
+      "target": "diagnosis_o44_0",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "О44.0 Предлежание плаценты, уточнённое как без кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_o44",
+      "target": "diagnosis_o44_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "О44.1 Предлежание плаценты с кровотечением",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_o44_0",
+      "target": "diagnosis_o44_1",
+      "type": "appear-with",
+      "weight": 0.85,
+      "evidence": "О44.0 … без кровотечения и О44.1 … с кровотечением перечислены в классификации O44",
+      "properties": {}
+    }
+  ]
+}

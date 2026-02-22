@@ -1,0 +1,607 @@
+{
+  "protocol_id": "p_8f2dffeb1f",
+  "nodes": [
+    {
+      "id": "diagnosis_toksikodermiya",
+      "type": "diagnosis",
+      "label": "Дерматит, вызванный веществами, принятыми внутрь",
+      "icd_code": "L27"
+    },
+    {
+      "id": "symptom_zud_kozhi",
+      "type": "symptom",
+      "label": "зуд кожи"
+    },
+    {
+      "id": "symptom_vysypki_kozhi",
+      "type": "symptom",
+      "label": "высыпания на коже"
+    },
+    {
+      "id": "symptom_kravivnitsa",
+      "type": "symptom",
+      "label": "крапивница"
+    },
+    {
+      "id": "symptom_eritemat_plecha",
+      "type": "symptom",
+      "label": "эритематозные пятна"
+    },
+    {
+      "id": "symptom_uzelki",
+      "type": "symptom",
+      "label": "узелки"
+    },
+    {
+      "id": "symptom_subfebr_temp",
+      "type": "symptom",
+      "label": "субфебрильная температура"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_rvoa",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_pochas",
+      "type": "symptom",
+      "label": "понос"
+    },
+    {
+      "id": "symptom_slablost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_nedomoganie",
+      "type": "symptom",
+      "label": "недомогание"
+    },
+    {
+      "id": "symptom_sustavnye_boli",
+      "type": "symptom",
+      "label": "суставные боли"
+    },
+    {
+      "id": "symptom_golovnye_boli",
+      "type": "symptom",
+      "label": "головные боли"
+    },
+    {
+      "id": "symptom_onemienie_yazyka",
+      "type": "symptom",
+      "label": "онемение языка"
+    },
+    {
+      "id": "symptom_bol_za_grudinoi",
+      "type": "symptom",
+      "label": "давящая боль за грудиной"
+    },
+    {
+      "id": "symptom_serdtsebienie",
+      "type": "symptom",
+      "label": "сердцебиение"
+    },
+    {
+      "id": "symptom_bronkhospazm",
+      "type": "symptom",
+      "label": "бронхоспазм"
+    },
+    {
+      "id": "symptom_shelushenie",
+      "type": "symptom",
+      "label": "шелушение кожи"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "жжение кожи"
+    },
+    {
+      "id": "symptom_boleznennost_kozhi",
+      "type": "symptom",
+      "label": "болезненность кожи"
+    },
+    {
+      "id": "symptom_slezotectenie",
+      "type": "symptom",
+      "label": "слезотечение"
+    },
+    {
+      "id": "symptom_narushenie_zhkt",
+      "type": "symptom",
+      "label": "нарушения ЖКТ"
+    },
+    {
+      "id": "symptom_otek_kvinke",
+      "type": "symptom",
+      "label": "отёк Квинке"
+    },
+    {
+      "id": "symptom_sindrom_layella",
+      "type": "symptom",
+      "label": "синдром Лайелла"
+    },
+    {
+      "id": "symptom_anafialakticheskij_shok",
+      "type": "symptom",
+      "label": "анафилактический шок"
+    },
+    {
+      "id": "symptom_iododermia",
+      "type": "symptom",
+      "label": "йододерма"
+    },
+    {
+      "id": "symptom_bromodermia",
+      "type": "symptom",
+      "label": "бромодерма"
+    },
+    {
+      "id": "symptom_eozinofiliya",
+      "type": "symptom",
+      "label": "эозинофилия"
+    },
+    {
+      "id": "symptom_povishenie_soe",
+      "type": "symptom",
+      "label": "повышение СОЭ"
+    },
+    {
+      "id": "symptom_povishenie_leykotsitov",
+      "type": "symptom",
+      "label": "повышение лейкоцитов"
+    },
+    {
+      "id": "symptom_povishenie_svertivosti_krovi",
+      "type": "symptom",
+      "label": "повышение свертываемости крови"
+    },
+    {
+      "id": "symptom_giperkeroz_ladoni",
+      "type": "symptom",
+      "label": "гиперкератоз ладоней"
+    },
+    {
+      "id": "symptom_giperkeroz_poshvi",
+      "type": "symptom",
+      "label": "гиперкератоз подошв"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zud_kozhi",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "зуд кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vysypki_kozhi",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "высыпания на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kravivnitsa",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "крапивница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritemat_plecha",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эритематозные пятна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uzelki",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "узелки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebr_temp",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "подъем температуры тела до субфебрильных цифр",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pochas",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "понос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slablost",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sustavnye_boli",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "суставные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_onemienie_yazyka",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "онемение языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_za_grudinoi",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "давящая боль за грудиной",
+      "properties": {}
+    },
+    {
+      "source": "symptom_serdtsebienie",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сердцебиение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronkhospazm",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бронхоспазм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shelushenie",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "шелушение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жжение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_kozhi",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slezotectenie",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhkt",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушения со стороны желудочно-кишечного тракта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_kvinke",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк Квинке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_layella",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром Лайелла",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anafialakticheskij_shok",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анафилактический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iododermia",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "йододерма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bromodermia",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бромодерма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eozinofiliya",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эозинофилия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishenie_soe",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishenie_leykotsitov",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение лейкоцитов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishenie_svertivosti_krovi",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенная свертываемость крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkeroz_ladoni",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперкератоз ладоней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkeroz_poshvi",
+      "target": "diagnosis_toksikodermiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиперкератоз подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_kozhi",
+      "target": "symptom_kravivnitsa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуд кожи, высыпания: крапивница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_kozhi",
+      "target": "symptom_eritemat_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуд кожи, высыпания: эритематозные пятна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_kozhi",
+      "target": "symptom_uzelki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуд кожи, высыпания: узелки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kravivnitsa",
+      "target": "symptom_eritemat_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "крапивница, эритематозные пятна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kravivnitsa",
+      "target": "symptom_uzelki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "крапивница, узелки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritemat_plecha",
+      "target": "symptom_uzelki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "эритематозные пятна, узелки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_kozhi",
+      "target": "symptom_shelushenie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуд, шелушение, жжение, болезненность кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shelushenie",
+      "target": "symptom_zhzhenie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "шелушение, жжение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "symptom_boleznennost_kozhi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жжение кожи, болезненность кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_kozhi",
+      "target": "symptom_zud_kozhi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуд кожи, болезненность кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "symptom_lihorodka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "недомогание, лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvoa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошнота, рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_nedomoganie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошнота, недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "symptom_nedomoganie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвота, недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kravivnitsa",
+      "target": "symptom_otek_kvinke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "крапивница, отёк Квинке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_layella",
+      "target": "symptom_anafialakticheskij_shok",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "синдром Лайелла, анафилактический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iododermia",
+      "target": "symptom_bromodermia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "йододерма, бромодерма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eozinofiliya",
+      "target": "symptom_povishenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "эозинофилия, повышение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povishenie_leykotsitov",
+      "target": "symptom_povishenie_svertivosti_krovi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение лейкоцитов, повышенная свертываемость крови",
+      "properties": {}
+    }
+  ]
+}

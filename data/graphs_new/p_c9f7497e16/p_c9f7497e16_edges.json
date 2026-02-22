@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_proteinuria",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тяжелой протеинурией >40мг/м2/час",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoalbuminemia",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипоальбуминемией <25г/л",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperlipidemia",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперлипидемией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "генерализованными отеками",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anasarca",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёки до анасарки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение диуреза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипопротеинемией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенная скорость оседания эритроцитов (СОЭ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypervolemia",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиперволемия: ... повышенное АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "symptom_normotension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповолемия: ... обычно нормальное АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "symptom_capillary_filling_delay",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповолемия: ... повышение времени наполнения капилляров",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "symptom_jvp_normal",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповолемия: ... давление ... не повышено (JVP)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypervolemia",
+    "target": "symptom_jvp_increase",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиперволемия: ... давление ... повышено (JVP)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection",
+    "target": "symptom_peritonitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Инфекции, часто перитониты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection",
+    "target": "symptom_septicemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Инфекции, часто ... септицемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection",
+    "target": "symptom_cellulitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Инфекции, часто ... целлюлит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombosis",
+    "target": "diagnosis_n04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тромбозы, имеется высокий риск как артериальных, так и венозных тромбозов",
+    "properties": {}
+  }
+]

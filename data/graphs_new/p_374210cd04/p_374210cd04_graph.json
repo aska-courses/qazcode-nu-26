@@ -1,0 +1,523 @@
+{
+  "protocol_id": "p_374210cd04",
+  "nodes": [
+    {
+      "id": "diagnosis_f01_0",
+      "type": "diagnosis",
+      "label": "Сосудистая деменция с острым началом",
+      "icd_code": "F01.0"
+    },
+    {
+      "id": "diagnosis_f01_1",
+      "type": "diagnosis",
+      "label": "Мультиинфарктная деменция",
+      "icd_code": "F01.1"
+    },
+    {
+      "id": "diagnosis_f01_2",
+      "type": "diagnosis",
+      "label": "Подкорковая сосудистая деменция",
+      "icd_code": "F01.2"
+    },
+    {
+      "id": "diagnosis_f01_3",
+      "type": "diagnosis",
+      "label": "Смешанная корковая и подкорковая сосудистая деменция",
+      "icd_code": "F01.3"
+    },
+    {
+      "id": "symptom_memory_impairment",
+      "type": "symptom",
+      "label": "ухудшение памяти"
+    },
+    {
+      "id": "symptom_loss_of_daily_skills",
+      "type": "symptom",
+      "label": "утрата бытовых навыков"
+    },
+    {
+      "id": "symptom_impaired_recognition",
+      "type": "symptom",
+      "label": "нарушения узнавания родных"
+    },
+    {
+      "id": "symptom_psychopathological_disorder",
+      "type": "symptom",
+      "label": "психопатологические расстройства"
+    },
+    {
+      "id": "symptom_desocializing_manifestation",
+      "type": "symptom",
+      "label": "десоциализирующие проявления"
+    },
+    {
+      "id": "symptom_emotional_lability",
+      "type": "symptom",
+      "label": "эмоциональная лабильность"
+    },
+    {
+      "id": "symptom_irritability",
+      "type": "symptom",
+      "label": "раздражительность"
+    },
+    {
+      "id": "symptom_apathy",
+      "type": "symptom",
+      "label": "апатия"
+    },
+    {
+      "id": "symptom_coarsened_social_behavior",
+      "type": "symptom",
+      "label": "огрубение социального поведения"
+    },
+    {
+      "id": "symptom_unilateral_spastic_weakness",
+      "type": "symptom",
+      "label": "унилатеральная спастическая слабость в конечностях"
+    },
+    {
+      "id": "symptom_unilateral_increased_reflexes",
+      "type": "symptom",
+      "label": "унилатеральное повышение сухожильных рефлексов"
+    },
+    {
+      "id": "symptom_extensor_plantar_reflex",
+      "type": "symptom",
+      "label": "разгибательный подошвенный рефлекс"
+    },
+    {
+      "id": "symptom_pseudobulbar_palsy",
+      "type": "symptom",
+      "label": "псевдобульбарный паралич"
+    },
+    {
+      "id": "symptom_epileptic_paroxysms",
+      "type": "symptom",
+      "label": "эпилептические пароксизмы"
+    },
+    {
+      "id": "symptom_epileptiform_paroxysms",
+      "type": "symptom",
+      "label": "эпилептиформные пароксизмы"
+    },
+    {
+      "id": "symptom_depressed_consciousness",
+      "type": "symptom",
+      "label": "угнетение сознания"
+    },
+    {
+      "id": "symptom_cerebral_circulation_disturbance",
+      "type": "symptom",
+      "label": "нарушение кровообращения в головном мозге"
+    },
+    {
+      "id": "symptom_cognitive_decline",
+      "type": "symptom",
+      "label": "снижение когнитивных способностей"
+    },
+    {
+      "id": "symptom_intellectual_decline",
+      "type": "symptom",
+      "label": "снижение интеллектуальных способностей"
+    },
+    {
+      "id": "symptom_planning_impairment",
+      "type": "symptom",
+      "label": "нарушение планирования и организации"
+    },
+    {
+      "id": "symptom_information_processing_impairment",
+      "type": "symptom",
+      "label": "нарушение общей обработки информации"
+    },
+    {
+      "id": "symptom_emotional_control_reduction",
+      "type": "symptom",
+      "label": "снижение эмоционального контроля"
+    },
+    {
+      "id": "symptom_motivation_reduction",
+      "type": "symptom",
+      "label": "снижение мотивации"
+    },
+    {
+      "id": "symptom_social_behavior_change",
+      "type": "symptom",
+      "label": "изменение социального поведения"
+    },
+    {
+      "id": "symptom_productivity_impairment",
+      "type": "symptom",
+      "label": "нарушение продуктивности в повседневной жизни"
+    },
+    {
+      "id": "symptom_inability_independent_living",
+      "type": "symptom",
+      "label": "неспособность к самостоятельному проживанию"
+    },
+    {
+      "id": "symptom_severe_memory_disorder",
+      "type": "symptom",
+      "label": "тяжёлое нарушение памяти"
+    },
+    {
+      "id": "symptom_severe_intellectual_disorder",
+      "type": "symptom",
+      "label": "тяжёлое нарушение интеллекта"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_memory_impairment",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ухудшение памяти на текущие события",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_daily_skills",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утрата бытовых навыков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_impaired_recognition",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения узнавания родных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychopathological_disorder",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психопатологические расстройства психотического и/или непсихотического уровня",
+      "properties": {}
+    },
+    {
+      "source": "symptom_desocializing_manifestation",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "десоциализирующими проявлениями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эмоциональная лабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irritability",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apathy",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "апатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coarsened_social_behavior",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_spastic_weakness",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "унилатеральная спастическая слабость в конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_increased_reflexes",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "унилатеральное повышение сухожильных рефлексов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensor_plantar_reflex",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "разгибательный подошвенный рефлекс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pseudobulbar_palsy",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptic_paroxysms",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭЭГ – при эпилептических ... пароксизмах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptiform_paroxysms",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭЭГ – при эпилептиформных пароксизмах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressed_consciousness",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭхоЭГ – при появлении симптомов угнетения сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cerebral_circulation_disturbance",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "РЭГ – при признаках нарушения кровообращения в головном мозге",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cognitive_decline",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение когнитивных способностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intellectual_decline",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение интеллектуальных способностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_planning_impairment",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение планирования и организации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_information_processing_impairment",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение общей обработки информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_control_reduction",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение эмоционального контроля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_motivation_reduction",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение мотивации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_social_behavior_change",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_productivity_impairment",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение продуктивности в повседневной жизни",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inability_independent_living",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неспособность к самостоятельному проживанию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_memory_disorder",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжёлое нарушение памяти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_intellectual_disorder",
+      "target": "diagnosis_f01_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжёлое нарушение интеллекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "symptom_irritability",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "проявляющееся минимум одним из следующих признаков: • эмоциональная лабильность; • раздражительность; • апатия; • огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "symptom_apathy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "проявляющееся минимум одним из следующих признаков: • эмоциональная лабильность; • раздражительность; • апатия; • огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_lability",
+      "target": "symptom_coarsened_social_behavior",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "проявляющееся минимум одним из следующих признаков: • эмоциональная лабильность; • раздражительность; • апатия; • огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irritability",
+      "target": "symptom_apathy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "проявляющееся минимум одним из следующих признаков: • эмоциональная лабильность; • раздражительность; • апатия; • огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irritability",
+      "target": "symptom_coarsened_social_behavior",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "проявляющееся минимум одним из следующих признаков: • эмоциональная лабильность; • раздражительность; • апатия; • огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apathy",
+      "target": "symptom_coarsened_social_behavior",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "проявляющееся минимум одним из следующих признаков: • эмоциональная лабильность; • раздражительность; • апатия; • огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_memory_impairment",
+      "target": "symptom_loss_of_daily_skills",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ухудшение памяти ... утрата бытовых навыков ... нарушения узнавания родных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_memory_impairment",
+      "target": "symptom_impaired_recognition",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ухудшение памяти ... утрата бытовых навыков ... нарушения узнавания родных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_daily_skills",
+      "target": "symptom_impaired_recognition",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ухудшение памяти ... утрата бытовых навыков ... нарушения узнавания родных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_spastic_weakness",
+      "target": "symptom_unilateral_increased_reflexes",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "минимум один из следующих признаков: • унилатеральная спастическая слабость в конечностях; • унилатеральное повышение сухожильных рефлексов; • разгибательный подошвенный рефлекс; • псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_spastic_weakness",
+      "target": "symptom_extensor_plantar_reflex",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "минимум один из следующих признаков: • унилатеральная спастическая слабость в конечностях; • унилатеральное повышение сухожильных рефлексов; • разгибательный подошвенный рефлекс; • псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_spastic_weakness",
+      "target": "symptom_pseudobulbar_palsy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "минимум один из следующих признаков: • унилатеральная спастическая слабость в конечностях; • унилатеральное повышение сухожильных рефлексов; • разгибательный подошвенный рефлекс; • псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_increased_reflexes",
+      "target": "symptom_extensor_plantar_reflex",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "минимум один из следующих признаков: • унилатеральная спастическая слабость в конечностях; • унилатеральное повышение сухожильных рефлексов; • разгибательный подошвенный рефлекс; • псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unilateral_increased_reflexes",
+      "target": "symptom_pseudobulbar_palsy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "минимум один из следующих признаков: • унилатеральная спастическая слабость в конечностях; • унилатеральное повышение сухожильных рефлексов; • разгибательный подошвенный рефлекс; • псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensor_plantar_reflex",
+      "target": "symptom_pseudobulbar_palsy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "минимум один из следующих признаков: • унилатеральная спастическая слабость в конечностях; • унилатеральное повышение сухожильных рефлексов; • разгибательный подошвенный рефлекс; • псевдобульбарный паралич",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptic_paroxysms",
+      "target": "symptom_epileptiform_paroxysms",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ЭЭГ – при эпилептических и эпилептиформных пароксизмах",
+      "properties": {}
+    }
+  ]
+}

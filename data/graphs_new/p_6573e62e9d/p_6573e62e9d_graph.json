@@ -1,0 +1,1045 @@
+{
+  "protocol_id": "p_6573e62e9d",
+  "nodes": [
+    {
+      "id": "diagnosis_s11",
+      "type": "diagnosis",
+      "label": "Открытая рана шеи",
+      "icd_code": "S11"
+    },
+    {
+      "id": "diagnosis_s21",
+      "type": "diagnosis",
+      "label": "Открытая рана грудной клетки",
+      "icd_code": "S21"
+    },
+    {
+      "id": "diagnosis_s31",
+      "type": "diagnosis",
+      "label": "Открытая рана живота, спины и таза",
+      "icd_code": "S31"
+    },
+    {
+      "id": "diagnosis_s41",
+      "type": "diagnosis",
+      "label": "Открытая рана плечевого пояса и плеча",
+      "icd_code": "S41"
+    },
+    {
+      "id": "diagnosis_s51",
+      "type": "diagnosis",
+      "label": "Открытая рана предплечья",
+      "icd_code": "S51"
+    },
+    {
+      "id": "diagnosis_s61",
+      "type": "diagnosis",
+      "label": "Открытая рана запястья и кисти",
+      "icd_code": "S61"
+    },
+    {
+      "id": "diagnosis_s71",
+      "type": "diagnosis",
+      "label": "Открытая рана области тазобедренного сустава и бедра",
+      "icd_code": "S71"
+    },
+    {
+      "id": "diagnosis_s81",
+      "type": "diagnosis",
+      "label": "Открытая рана голени",
+      "icd_code": "S81"
+    },
+    {
+      "id": "diagnosis_s91",
+      "type": "diagnosis",
+      "label": "Открытая рана области голеностопного сустава и стопы",
+      "icd_code": "S91"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_rany",
+      "type": "symptom",
+      "label": "Боль в области раны"
+    },
+    {
+      "id": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "type": "symptom",
+      "label": "Повреждение кожных покровов"
+    },
+    {
+      "id": "symptom_krovotechenie_iz_rany",
+      "type": "symptom",
+      "label": "Кровотечение из раны"
+    },
+    {
+      "id": "symptom_otek_v_oblasti_rany",
+      "type": "symptom",
+      "label": "Отёк в области раны"
+    },
+    {
+      "id": "symptom_vidimost_podlezhashchikh_tkanei",
+      "type": "symptom",
+      "label": "Видимость подлежащих тканей"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "type": "symptom",
+      "label": "Нарушение функции повреждённого сегмента"
+    },
+    {
+      "id": "symptom_boleznennost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Болезненность при пальпации"
+    },
+    {
+      "id": "symptom_narushenie_celoctnosti_tkanei",
+      "type": "symptom",
+      "label": "Нарушение целостности тканей"
+    },
+    {
+      "id": "symptom_bakterialno_zagryaznennye_rany",
+      "type": "symptom",
+      "label": "Бактериально загрязнённые раны"
+    },
+    {
+      "id": "symptom_pronikayushchie_rany",
+      "type": "symptom",
+      "label": "Проникающие раны"
+    },
+    {
+      "id": "symptom_obshirnye_rany",
+      "type": "symptom",
+      "label": "Обширные раны"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "type": "symptom",
+      "label": "Нарушение функции подлежащих органов и тканей"
+    },
+    {
+      "id": "symptom_ugnetenie_soznaniya",
+      "type": "symptom",
+      "label": "Угнетение сознания"
+    },
+    {
+      "id": "symptom_rezkoe_narushenie_zhiznenno_vazhnyh_funkcii",
+      "type": "symptom",
+      "label": "Резкое нарушение жизненно важных функций"
+    },
+    {
+      "id": "symptom_epilepticheskij_status",
+      "type": "symptom",
+      "label": "Эпилептический статус"
+    },
+    {
+      "id": "symptom_sudoroznye_pripadki",
+      "type": "symptom",
+      "label": "Судорожные припадки"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rany",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rаны",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_rаны",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на боли в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_kozhnogo_pokrova",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждение кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmentа",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmentа",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmentа",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_celoctnosti_tkanei",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение целостности тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakterialno_zagryaznennye_rany",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бактериально загрязнённые раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pronikayushchie_rany",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "проникающие раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshirnye_rany",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обширные раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s11",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s21",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s31",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s41",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s51",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s71",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s81",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_podlezhashchikh_organoiv_i_tkanei",
+      "target": "diagnosis_s91",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раны с нарушением функции подлежащих органов и тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_rany",
+      "target": "symptom_otek_v_oblasti_rany",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровотечение из раны; отек в области раны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_rany",
+      "target": "symptom_vidimost_podlezhashchikh_tkanei",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отек в области раны; видимость подлежащих тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vidimost_podlezhashchikh_tkanei",
+      "target": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "видимость подлежащих тканей; нарушение функции поврежденного сегмента",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_povrezhdennogo_segmenta",
+      "target": "symptom_boleznennost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение функции поврежденного сегмента; болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "symptom_narushenie_celoctnosti_tkanei",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации; нарушение целостности тканей",
+      "properties": {}
+    }
+  ]
+}

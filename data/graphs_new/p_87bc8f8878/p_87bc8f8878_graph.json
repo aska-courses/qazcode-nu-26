@@ -1,0 +1,220 @@
+{
+  "protocol_id": "p_87bc8f8878",
+  "nodes": [
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "общая слабость"
+    },
+    {
+      "id": "symptom_urination_disorder",
+      "type": "symptom",
+      "label": "нарушение мочеиспускания"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры (лихорадка)"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "тупые боли в животе"
+    },
+    {
+      "id": "symptom_lumbar_pain",
+      "type": "symptom",
+      "label": "тупые боли в пояснице"
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "кровь в моче"
+    },
+    {
+      "id": "symptom_purulent_urine",
+      "type": "symptom",
+      "label": "гной в моче"
+    },
+    {
+      "id": "symptom_intense_thirst",
+      "type": "symptom",
+      "label": "сильная жажда"
+    },
+    {
+      "id": "symptom_dry_skin",
+      "type": "symptom",
+      "label": "сухость кожи"
+    },
+    {
+      "id": "symptom_pale_skin",
+      "type": "symptom",
+      "label": "бледность кожи"
+    },
+    {
+      "id": "symptom_abdominal_mass",
+      "type": "symptom",
+      "label": "объёмное образование брюшной полости (увеличение почки)"
+    },
+    {
+      "id": "symptom_abdominal_tenderness",
+      "type": "symptom",
+      "label": "болезненность при пальпации живота"
+    },
+    {
+      "id": "symptom_lumbar_tenderness",
+      "type": "symptom",
+      "label": "болезненность при пальпации поясничной области"
+    },
+    {
+      "id": "diagnosis_congenital_dilatation",
+      "type": "diagnosis",
+      "label": "Врожденное расширение",
+      "icd_code": "Q62.2"
+    },
+    {
+      "id": "diagnosis_other_congenital_anomalies",
+      "type": "diagnosis",
+      "label": "Другие врождённые аномалии мочеточника",
+      "icd_code": "Q62.8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общая слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urination_disorder",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение мочеиспускания;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры лихорадкой;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тупые боли в животе и пояснице;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тупые боли в животе и пояснице;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения в моче (крови/гноя);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_urine",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения в моче (крови/гноя);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intense_thirst",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная жажда;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_skin",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и бледностью кожи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pale_skin",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и бледностью кожи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_mass",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "объёмное образование брюшной полости (пальпируется увеличение почки);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_tenderness",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации живота, поясничной области;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_tenderness",
+      "target": "diagnosis_congenital_dilatation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации живота, поясничной области;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_lumbar_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тупые боли в животе и пояснице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "symptom_purulent_urine",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменения в моче (крови/гноя)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_skin",
+      "target": "symptom_pale_skin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость и бледностью кожи",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_congenital_dilatation",
+      "target": "diagnosis_other_congenital_anomalies",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Врожденное расширение; Другие врождённые аномалии мочеточника",
+      "properties": {}
+    }
+  ]
+}

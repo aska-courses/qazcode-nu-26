@@ -1,0 +1,406 @@
+{
+  "protocol_id": "p_f2f672aefb",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "частые респираторные заболевания"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "плохая прибавка в весе"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "потливость при кормлении"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "отказ от груди"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "учащенное сердцебиение"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "цианоз"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "усиление сердечного толчка"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "смещение сердечного толчка"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "систолическое дрожание"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "систолический шум"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "пансистолический шум на верхушке"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "акцент II тона над легочной артерией"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "набухание шейных вен"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "периферические отеки"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "аритмия"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "пароксизмальная предсердная тахикардия"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "фибрилляция предсердий"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "трепетание предсердий"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "синдром слабости синусового узла"
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "парезы"
+    },
+    {
+      "id": "symptom_25",
+      "type": "symptom",
+      "label": "гемипарезы"
+    },
+    {
+      "id": "symptom_26",
+      "type": "symptom",
+      "label": "почечная недостаточность"
+    },
+    {
+      "id": "symptom_27",
+      "type": "symptom",
+      "label": "гипотиреоз"
+    },
+    {
+      "id": "symptom_28",
+      "type": "symptom",
+      "label": "легочная гипертензия"
+    },
+    {
+      "id": "symptom_29",
+      "type": "symptom",
+      "label": "правожелудочковая недостаточность"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Атриовентрикулярный септальный дефект",
+      "icd_code": "Q21.2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: одышка; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые респираторные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плохая прибавка в весе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потливость при кормлении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отказ от груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "учащенное сердцебиение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цианоз различной степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "усиление сердечного толчка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение сердечного толчка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "систолическое дрожание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "систолический шум различной интенсивности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пансистолический шум на верхушке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "акцент II тона над легочной артерией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "набухание шейных вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "периферические отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аритмия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пароксизмальная предсердная тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "фибрилляция предсердий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трепетание предсердий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром слабости синусового узла",
+      "properties": {}
+    },
+    {
+      "source": "symptom_28",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легочная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_29",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "правожелудочковая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жалобы: одышка; частые респираторные заболевания; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: одышка; … плохая прибавка в весе; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы: частые респираторные заболевания; плохая прибавка в весе; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_1",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: тахикардия; одышка; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: тахикардия; одышка; гепатомегалия; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_9",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: тахикардия; одышка; цианоз …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "symptom_17",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "набухание шейных вен, пастозность тканей и периферические отеки",
+      "properties": {}
+    }
+  ]
+}

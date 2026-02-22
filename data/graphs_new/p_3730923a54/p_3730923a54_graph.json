@@ -1,0 +1,163 @@
+{
+  "protocol_id": "p_3730923a54",
+  "nodes": [
+    {
+      "id": "symptom_pulsating_abdominal_mass",
+      "type": "symptom",
+      "label": "Пульсирующее образование в животе"
+    },
+    {
+      "id": "symptom_dull_abdominal_pain",
+      "type": "symptom",
+      "label": "Тупая боль в животе"
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "Боль в спине"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_vascular_bruit",
+      "type": "symptom",
+      "label": "Систолический сосудистый шум в проекции аневризмы"
+    },
+    {
+      "id": "symptom_pulsating_epigastric_mass",
+      "type": "symptom",
+      "label": "Пульсирующее образование в эпигастрии или мезогастрии"
+    },
+    {
+      "id": "diagnosis_aortic_dissection",
+      "type": "diagnosis",
+      "label": "Расслоение аорты (любой части)",
+      "icd_code": "I71.0"
+    },
+    {
+      "id": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "diagnosis",
+      "label": "Аневризма брюшной аорты без разрыва",
+      "icd_code": "I71.4"
+    },
+    {
+      "id": "diagnosis_unspecified_aortic_aneurysm_without_rupture",
+      "type": "diagnosis",
+      "label": "Аневризма аорты неуточненной локализации без разрыва",
+      "icd_code": "I71.9"
+    },
+    {
+      "id": "diagnosis_iliac_artery_aneurysm",
+      "type": "diagnosis",
+      "label": "Аневризма подвздошной артерии",
+      "icd_code": "I72.3"
+    },
+    {
+      "id": "diagnosis_lower_extremity_artery_aneurysm",
+      "type": "diagnosis",
+      "label": "Аневризма артерии нижних конечностей",
+      "icd_code": "I72.4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pulsating_abdominal_mass",
+      "target": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "наличие пульсирующего образования в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dull_abdominal_pain",
+      "target": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тупая боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "боль в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulsating_epigastric_mass",
+      "target": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пульсирующее образование в эпигастрии или мезогастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vascular_bruit",
+      "target": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "систолический шум в проекции аневризмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_aortic_dissection",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия при разрыве",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulsating_abdominal_mass",
+      "target": "symptom_dull_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие пульсирующего образования в животе, тупая боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulsating_abdominal_mass",
+      "target": "symptom_back_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие пульсирующего образования в животе ... боль в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dull_abdominal_pain",
+      "target": "symptom_back_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тупая боль в животе; боль в спине",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_aortic_dissection",
+      "target": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "I71.0 Расслоение аорты (любой части) I71.4 Аневризма брюшной аорты без упоминания о разрыве",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_abdominal_aortic_aneurysm_without_rupture",
+      "target": "diagnosis_unspecified_aortic_aneurysm_without_rupture",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "I71.4 Аневризма брюшной аорты ... I71.9 Аневризма аорты неуточненной локализации без упоминания о разрыве",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_iliac_artery_aneurysm",
+      "target": "diagnosis_lower_extremity_artery_aneurysm",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "I72.3 Аневризма подвздошной артерии I72.4 Аневризма артерии нижних конечностей",
+      "properties": {}
+    }
+  ]
+}

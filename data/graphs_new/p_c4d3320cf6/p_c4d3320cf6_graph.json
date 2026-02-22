@@ -1,0 +1,388 @@
+{
+  "protocol_id": "p_c4d3320cf6",
+  "nodes": [
+    {
+      "id": "symptom_orthopnoe",
+      "type": "symptom",
+      "label": "Ортопноэ"
+    },
+    {
+      "id": "symptom_paroxysmal_night_dyspnea",
+      "type": "symptom",
+      "label": "Пароксизмальная ночная одышка"
+    },
+    {
+      "id": "symptom_lung_rales",
+      "type": "symptom",
+      "label": "Легочные хрипы"
+    },
+    {
+      "id": "symptom_peripheral_edema",
+      "type": "symptom",
+      "label": "Периферические отёки"
+    },
+    {
+      "id": "symptom_cold_moist_extremities",
+      "type": "symptom",
+      "label": "Холодные влажные конечности"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Олигурия"
+    },
+    {
+      "id": "symptom_confusion",
+      "type": "symptom",
+      "label": "Спутанность сознания"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_low_pulse_pressure",
+      "type": "symptom",
+      "label": "Низкое пульсовое давление"
+    },
+    {
+      "id": "symptom_low_systolic_bp",
+      "type": "symptom",
+      "label": "Систолическое артериальное давление <90 мм рт.ст."
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "Брадикардия (<40 уд/мин)"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия (>120 уд/мин)"
+    },
+    {
+      "id": "symptom_respiratory_rate_high",
+      "type": "symptom",
+      "label": "Частота дыхания >25 в мин"
+    },
+    {
+      "id": "symptom_respiratory_rate_low",
+      "type": "symptom",
+      "label": "Частота дыхания <8 в мин"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_foamy_pink_sputum",
+      "type": "symptom",
+      "label": "Пенистая мокрота розового цвета"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка (нехватка воздуха)"
+    },
+    {
+      "id": "symptom_hypoxemia",
+      "type": "symptom",
+      "label": "Гипоксемия (SaO2 <90%)"
+    },
+    {
+      "id": "symptom_hypercapnia",
+      "type": "symptom",
+      "label": "Гиперкапния (PaCO2 >45 мм рт.ст.)"
+    },
+    {
+      "id": "symptom_metabolic_acidosis",
+      "type": "symptom",
+      "label": "Метаболический ацидоз (pH <7,35)"
+    },
+    {
+      "id": "symptom_elevated_lactate",
+      "type": "symptom",
+      "label": "Повышенный уровень лактата (>2 ммоль/л)"
+    },
+    {
+      "id": "symptom_chest_xray_congestion",
+      "type": "symptom",
+      "label": "Конгестия на рентгенографии лёгких"
+    },
+    {
+      "id": "symptom_ecg_changes",
+      "type": "symptom",
+      "label": "Изменения на ЭКГ (признаки ОКС, аритмии)"
+    },
+    {
+      "id": "diagnosis_zastoynaya_serdечnaya_nedostatochnost",
+      "type": "diagnosis",
+      "label": "Застойная сердечная недостаточность",
+      "icd_code": "I50.0"
+    },
+    {
+      "id": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "diagnosis",
+      "label": "Левожелудочковая недостаточность",
+      "icd_code": "I50.1"
+    },
+    {
+      "id": "diagnosis_serdечnaya_nedostatochnost_neutochnennaya",
+      "type": "diagnosis",
+      "label": "Сердечная недостаточность неуточненная",
+      "icd_code": "I50.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_orthopnoe",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ортопноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paroxysmal_night_dyspnea",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Пароксизмальная ночная одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_rales",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Легочные хрипы (двусторонние)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peripheral_edema",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Периферические отеки (двусторонние)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_moist_extremities",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "холодные влажные конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "олигурия (диурез <0,5 мл/кг/ч)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_confusion",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_pulse_pressure",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "низкое пульсовое давление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_systolic_bp",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Систолическое АД <90 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Брадикардия (ЧСС<40 ударов в минуту)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Тахикардия (ЧСС> 120 ударов в минуту)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_rate_high",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ЧД> 25 в мин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_rate_low",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ЧД <8 в мин.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Кашель (вначале сухой, затем с отделением мокроты)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foamy_pink_sputum",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пенистая мокрота розового цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ощущением нехватки воздуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxemia",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Гипоксемия (SaO2 <90%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypercapnia",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Гиперкапния (PaCO2 >45 мм рт.ст.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_acidosis",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Метаболический ацидоз (pH <7,35)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_lactate",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Повышенный уровень лактата (>2 ммоль/л)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_xray_congestion",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Конгестия на рентгенографии лёгких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ecg_changes",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Изменения на ЭКГ (признаки ОКС, аритмии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_orthopnoe",
+      "target": "symptom_paroxysmal_night_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ортопноэ … Пароксизмальная ночная одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_orthopnoe",
+      "target": "symptom_lung_rales",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ортопноэ … Легочные хрипы (двусторонние)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_orthopnoe",
+      "target": "symptom_peripheral_edema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ортопноэ … Периферические отеки (двусторонние)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_moist_extremities",
+      "target": "symptom_oliguria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодные влажные конечности … олигурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_moist_extremities",
+      "target": "symptom_confusion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодные влажные конечности … спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_pulse_pressure",
+      "target": "symptom_low_systolic_bp",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "низкое пульсовое давление … Систолическое АД <90 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Брадикардия … Тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zastoynaya_serdечnaya_nedostatochnost",
+      "target": "diagnosis_levozheludochkovaya_nedostatochnost",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "I 50.0 Застойная сердечная недостаточность … I 50.1 Левожелудочковая недостаточность",
+      "properties": {}
+    }
+  ]
+}

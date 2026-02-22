@@ -1,0 +1,113 @@
+{
+  "protocol_id": "p_5f449a1a1e",
+  "nodes": [
+    {
+      "id": "symptom_pathological_bleeding_genital_tract",
+      "type": "symptom",
+      "label": "Патологическое кровотечение из половых путей"
+    },
+    {
+      "id": "symptom_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль внизу живота"
+    },
+    {
+      "id": "symptom_lumbar_pain",
+      "type": "symptom",
+      "label": "Боль в поясничной области"
+    },
+    {
+      "id": "symptom_breast_engorgement",
+      "type": "symptom",
+      "label": "Нагрубание молочных желез"
+    },
+    {
+      "id": "diagnosis_malignant_placental_neoplasm",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование плаценты",
+      "icd_code": "C58"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pathological_bleeding_genital_tract",
+      "target": "diagnosis_malignant_placental_neoplasm",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Патологические кровотечения из половых путей во время беременности; Патологические кровотечения из половых путей после родов или аборта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "diagnosis_malignant_placental_neoplasm",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота тянущего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_malignant_placental_neoplasm",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в поясничной области тянущего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_breast_engorgement",
+      "target": "diagnosis_malignant_placental_neoplasm",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нагрубание молочных желез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_bleeding_genital_tract",
+      "target": "symptom_lower_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: Патологические кровотечения из половых путей; Боли внизу живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_bleeding_genital_tract",
+      "target": "symptom_lumbar_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: Патологические кровотечения из половых путей; Боли в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_bleeding_genital_tract",
+      "target": "symptom_breast_engorgement",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: Патологические кровотечения из половых путей; нагрубание молочных желез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_lumbar_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота и в поясничной области тянущего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_breast_engorgement",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота; нагрубание молочных желез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "symptom_breast_engorgement",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли в поясничной области; нагрубание молочных желез",
+      "properties": {}
+    }
+  ]
+}

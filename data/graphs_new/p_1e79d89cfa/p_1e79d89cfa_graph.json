@@ -1,0 +1,130 @@
+{
+  "protocol_id": "p_1e79d89cfa",
+  "nodes": [
+    {
+      "id": "trauma_rotator_cuff_tendon",
+      "type": "diagnosis",
+      "label": "Травма сухожилия вращательной манжеты плеча",
+      "icd_code": "S46.0"
+    },
+    {
+      "id": "consequences_upper_limb_tendon_muscle_injuries",
+      "type": "diagnosis",
+      "label": "Последствия травм сухожилий и мышц верхней конечности",
+      "icd_code": "T92.5"
+    },
+    {
+      "id": "pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "shoulder_instability",
+      "type": "symptom",
+      "label": "Нестабильность плечевого сустава"
+    },
+    {
+      "id": "limited_range_of_motion",
+      "type": "symptom",
+      "label": "Ограничение объёма движений в плечевом суставе"
+    },
+    {
+      "id": "reduced_motor_function",
+      "type": "symptom",
+      "label": "Снижение двигательной функции плечевого сустава"
+    },
+    {
+      "id": "inflammatory_skin_lesions",
+      "type": "symptom",
+      "label": "Воспалительные поражения кожи в области вмешательства"
+    },
+    {
+      "id": "cuff_arthropathy",
+      "type": "symptom",
+      "label": "Манжеточная артропатия плечевого сустава"
+    },
+    {
+      "id": "shoulder_osteoarthritis",
+      "type": "symptom",
+      "label": "Артроз плечевого сустава 3‑4 степени"
+    },
+    {
+      "id": "cuff_muscle_dystrophy",
+      "type": "symptom",
+      "label": "Дистрофия мышц вращательной манжеты плеча 3 степени"
+    },
+    {
+      "id": "massive_cuff_damage_secondary_osteoarthritis",
+      "type": "symptom",
+      "label": "Массивные повреждения ВМП с вторичным остеоартритом"
+    },
+    {
+      "id": "chronic_cuff_tendon_injury",
+      "type": "symptom",
+      "label": "Хроническое повреждение сухожилий вращательной манжеты"
+    },
+    {
+      "id": "acute_cuff_tendon_injury",
+      "type": "symptom",
+      "label": "Острое повреждение сухожилий вращательной манжеты"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pain",
+      "target": "trauma_rotator_cuff_tendon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "устранение боли",
+      "properties": {}
+    },
+    {
+      "source": "limited_range_of_motion",
+      "target": "trauma_rotator_cuff_tendon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "восстановление объёма движений в плечевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "reduced_motor_function",
+      "target": "trauma_rotator_cuff_tendon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "улучшение двигательной функции плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "shoulder_instability",
+      "target": "trauma_rotator_cuff_tendon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острое повреждение сухожилий вращательной манжеты ... нестабильность плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "acute_cuff_tendon_injury",
+      "target": "shoulder_instability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "острое повреждение сухожилий вращательной манжеты ... нестабильность плечевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "chronic_cuff_tendon_injury",
+      "target": "reduced_motor_function",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хроническое повреждение сухожилий, вращательной манжеты с нарушением функции поврежденной мышцы/сухожилия",
+      "properties": {}
+    },
+    {
+      "source": "trauma_rotator_cuff_tendon",
+      "target": "consequences_upper_limb_tendon_muscle_injuries",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S46.0 Травма сухожилия вращательной манжеты плеча T92.5 Последствия травм сухожилий и мышц верхней конечности",
+      "properties": {}
+    }
+  ]
+}

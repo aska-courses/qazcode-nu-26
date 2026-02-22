@@ -1,0 +1,386 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высыпания на коже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otitis_media",
+    "target": "diagnosis_measles_with_otitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отиты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_laryngitis",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ларингит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tracheitis",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "трахеит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_maculopapular_rash",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "макуло‑папулезная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belskypatch",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пятна Белского‑Филатова‑Коплика",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pigmentation",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пигментация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_desquamation",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шелушение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_measles",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипертермия до 400°C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_syndrome",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "геморрагический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_hemorrhage",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоизлияния в кожу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гематурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_measles_with_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure_readiness",
+    "target": "diagnosis_measles_with_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судорожная готовность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_altered_consciousness",
+    "target": "diagnosis_measles_with_encephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_respiratory_distress",
+    "target": "diagnosis_measles_with_pneumonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острый респираторный дистресс‑синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_respiratory_failure",
+    "target": "diagnosis_measles_with_pneumonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острая дыхательная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_failure",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multi_organ_failure",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полиорганная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_central_cyanosis",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "центральный цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_wing_flaring",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "раздувание крыльев носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inability_to_eat",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неспособность пить или есть",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gasping_breath",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кряхтящее дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_head_nodding",
+    "target": "diagnosis_measles_with_other_complications",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кивательные движения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела; кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_rhinorrhea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела; насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_rhinorrhea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кашель; насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "symptom_rhinorrhea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "конъюнктивит; насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "конъюнктивит; кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "высыпания на коже; повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belskypatch",
+    "target": "symptom_skin_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие в первый день высыпаний пятен Белского‑Филатова‑Коплика; сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pigmentation",
+    "target": "symptom_desquamation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оставляют пигментацию и шелушение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_altered_consciousness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "судороги ... нарушение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "symptom_intoxication",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипертермия ... интоксикация",
+    "properties": {}
+  }
+]

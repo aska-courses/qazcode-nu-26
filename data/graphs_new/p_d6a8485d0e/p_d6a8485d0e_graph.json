@@ -1,0 +1,370 @@
+{
+  "protocol_id": "p_d6a8485d0e",
+  "nodes": [
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Ушиб локтя",
+      "icd_code": "S50.0"
+    },
+    {
+      "id": "diagnosis_2",
+      "type": "diagnosis",
+      "label": "Травматический разрыв лучевой коллатеральной связки",
+      "icd_code": "S53.2"
+    },
+    {
+      "id": "diagnosis_3",
+      "type": "diagnosis",
+      "label": "Травматический разрыв локтевой коллатеральной связки",
+      "icd_code": "S53.3"
+    },
+    {
+      "id": "diagnosis_4",
+      "type": "diagnosis",
+      "label": "Растяжение и повреждение капсульно‑связочного аппарата локтевого сустава",
+      "icd_code": "S53.4"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "Боль в локтевом суставе"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "Нарушение двигательной функции локтевого сустава"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "Вынужденное положение конечности"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "Отёк локтевого сустава"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "Кровоизлияние в ткани вокруг локтевого сустава"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "Болезненность при осевой нагрузке и движениях локтевого сустава"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "Патологическая подвижность локтевого сустава"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в локтевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в локтевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в локтевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции в локтевом суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "1) боль в области локтевого сустава; 2) болезненность, усиливающая при осевой нагрузке и движениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "1) вынужденное положение верхней конечности; 2) отек в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "3) кровоизлияние в окружающие ткани в области локтевого сустава; 2) отек в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке и движениях; грубая патологическая подвижность в области локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "S50.0 Ушиб локтя S53.2 Травматический разрыв лучевой коллатеральной связки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "S50.0 Ушиб локтя S53.3 Травматический разрыв локтевой коллатеральной связки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "S50.0 Ушиб локтя S53.4 Растяжение и повреждение капсульно‑связочного аппарата локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_2",
+      "target": "diagnosis_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "S53.2 Травматический разрыв лучевой коллатеральной связки S53.3 Травматический разрыв локтевой коллатеральной связки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_2",
+      "target": "diagnosis_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "S53.2 Травматический разрыв лучевой коллатеральной связки S53.4 Растяжение и повреждение капсульно‑связочного аппарата локтевого сустава",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_3",
+      "target": "diagnosis_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "S53.3 Травматический разрыв локтевой коллатеральной связки S53.4 Растяжение и повреждение капсульно‑связочного аппарата локтевого сустава",
+      "properties": {}
+    }
+  ]
+}

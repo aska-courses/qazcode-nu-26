@@ -1,0 +1,393 @@
+{
+  "protocol_id": "p_fc26911911",
+  "nodes": [
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_povyshennaia_utomlyaemost",
+      "type": "symptom",
+      "label": "Повышенная утомляемость"
+    },
+    {
+      "id": "symptom_artralgi",
+      "type": "symptom",
+      "label": "Артралгии"
+    },
+    {
+      "id": "symptom_snizhenie_massy_tela",
+      "type": "symptom",
+      "label": "Снижение массы тела"
+    },
+    {
+      "id": "symptom_krovotochivost_slizistykh_obolochok",
+      "type": "symptom",
+      "label": "Кровоточивость слизистых оболочек"
+    },
+    {
+      "id": "symptom_nevrologicheskie_rasstroystva",
+      "type": "symptom",
+      "label": "Неврологические расстройства"
+    },
+    {
+      "id": "symptom_narusheniya_zreniya",
+      "type": "symptom",
+      "label": "Нарушения зрения"
+    },
+    {
+      "id": "symptom_potlivost",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_kozhnij_zud",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "symptom_uvelichenie_pecheni",
+      "type": "symptom",
+      "label": "Увеличение печени"
+    },
+    {
+      "id": "symptom_uvelichenie_slezinki",
+      "type": "symptom",
+      "label": "Увеличение селезенки"
+    },
+    {
+      "id": "symptom_limfoadenopatiya",
+      "type": "symptom",
+      "label": "Лимфоаденопатия"
+    },
+    {
+      "id": "symptom_gemorragicheskiy_sindrom",
+      "type": "symptom",
+      "label": "Геморрагический синдром (петехиальные высыпания)"
+    },
+    {
+      "id": "symptom_osteodestruktivnyj_sindrom",
+      "type": "symptom",
+      "label": "Остеодеструктивный синдром"
+    },
+    {
+      "id": "symptom_recidiviruyushchaya_likhozhka",
+      "type": "symptom",
+      "label": "Рецидивирующая лихорадка"
+    },
+    {
+      "id": "symptom_nochnaya_potlivost",
+      "type": "symptom",
+      "label": "Ночная потливость"
+    },
+    {
+      "id": "symptom_sindrom_gipervyazkosti",
+      "type": "symptom",
+      "label": "Синдром гипервязкости"
+    },
+    {
+      "id": "symptom_masstvennoe_uvelichenie_limfozov",
+      "type": "symptom",
+      "label": "Массивное увеличение лимфоузлов"
+    },
+    {
+      "id": "symptom_gepatomegaliya",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_splenomegaliya",
+      "type": "symptom",
+      "label": "Спленомегалия"
+    },
+    {
+      "id": "symptom_organomegaliya",
+      "type": "symptom",
+      "label": "Органомегалия"
+    },
+    {
+      "id": "symptom_perifericheskaya_neuropatiya",
+      "type": "symptom",
+      "label": "Периферическая нейропатия"
+    },
+    {
+      "id": "symptom_krioglobulinemiya",
+      "type": "symptom",
+      "label": "Криоглобулинемия"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "Анемия (ГГ ≤ 100 г/л)"
+    },
+    {
+      "id": "symptom_trombocitopeniya",
+      "type": "symptom",
+      "label": "Тромбоцитопения (≤ 100×10⁹/л)"
+    },
+    {
+      "id": "symptom_immunnaia_gemoliticheskaya_anemiya",
+      "type": "symptom",
+      "label": "Иммунная гемолитическая анемия"
+    },
+    {
+      "id": "symptom_pochechnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "Почечная недостаточность"
+    },
+    {
+      "id": "symptom_amiloidoz",
+      "type": "symptom",
+      "label": "Амилоидоз"
+    },
+    {
+      "id": "diagnosis_makrogobulinemiya",
+      "type": "diagnosis",
+      "label": "Макроглобулинемия",
+      "icd_code": "C88.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_recidiviruyushchaya_likhozhka",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Рецидивирующая лихорадка, ночная потливость, потеря веса, слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nochnaya_potlivost",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Рецидивирующая лихорадка, ночная потливость, потеря веса, слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Рецидивирующая лихорадка, ночная потливость, потеря веса, слабость.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_gipervyazkosti",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Синдром гипервязкости.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_masstvennoe_uvelichenie_limfozov",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптоматическая лимфаденопатия или массивное увеличение лимфоузлов (≥ 5 см в диаметре).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптоматическая гепатомегалия и/или спленомегалия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптоматическая гепатомегалия и/или спленомегалия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_organomegaliya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптоматическая органомегалия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perifericheskaya_neuropatiya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Периферическая нейропатия, связанная с МВ.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krioglobulinemiya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптоматическая криоглобулинемия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анемия с уровнем гемоглобина ≤ 100 г/л.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombocitopeniya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тромбоцитопения с уровнем тромбоцитов ≤ 100х109 /л.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_immunnaia_gemoliticheskaya_anemiya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иммунная гемолитическая анемия и/или тромбоцитопения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pochechnaya_nedostatochnost",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Почечная недостаточность, связанная с МВ.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amiloidoz",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Амилоидоз, связанный с МВ.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_pecheni",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Увеличение печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_slezinki",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Увеличение селезенки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limfoadenopatiya",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лимфоаденопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemorragicheskiy_sindrom",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Геморрагический синдром (петехиальные высыпания на слизистых и коже)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteodestruktivnyj_sindrom",
+      "target": "diagnosis_makrogobulinemiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Остеодеструктивный синдром (5-6%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "symptom_povyshennaia_utomlyaemost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: Слабость, Повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_recidiviruyushchaya_likhozhka",
+      "target": "symptom_nochnaya_potlivost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Рецидивирующая лихорадка, ночная потливость, потеря веса, слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "symptom_splenomegaliya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптоматическая гепатомегалия и/или спленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perifericheskaya_neuropatiya",
+      "target": "symptom_krioglobulinemiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Периферическая нейропатия, связанная с МВ. Симптоматическая криоглобулинемия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "symptom_trombocitopeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Анемия с уровнем гемоглобина ≤ 100 г/л. Тромбоцитопения с уровнем тромбоцитов ≤ 100х109 /л.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_immunnaia_gemoliticheskaya_anemiya",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Иммунная гемолитическая анемия и/или тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_immunnaia_gemoliticheskaya_anemiya",
+      "target": "symptom_trombocitopeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Иммунная гемолитическая анемия и/или тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemorragicheskiy_sindrom",
+      "target": "symptom_osteodestruktivnyj_sindrom",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Геморрагический синдром (петехиальные высыпания на слизистых и коже) Остеодеструктивный синдром (5-6%)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_pecheni",
+      "target": "symptom_uvelichenie_slezinki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Увеличение печени, Увеличение селезенки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limfoadenopatiya",
+      "target": "symptom_masstvennoe_uvelichenie_limfozov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Лимфоаденопатия, Симптоматическая лимфаденопатия или массивное увеличение лимфоузлов",
+      "properties": {}
+    }
+  ]
+}

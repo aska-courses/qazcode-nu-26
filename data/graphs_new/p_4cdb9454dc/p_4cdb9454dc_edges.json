@@ -1,0 +1,202 @@
+[
+  {
+    "source": "bespokoystvo",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: беспокойство, ...",
+    "properties": {}
+  },
+  {
+    "source": "puglivost",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: пугливость, ...",
+    "properties": {}
+  },
+  {
+    "source": "razdrazhitelnost",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: раздражительность, ...",
+    "properties": {}
+  },
+  {
+    "source": "giperesteziya",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: гиперестезия, ...",
+    "properties": {}
+  },
+  {
+    "source": "snizhenie_appetita",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: снижение аппетита, ...",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_sna",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: нарушение сна, ...",
+    "properties": {}
+  },
+  {
+    "source": "vzdraivanie_pri_zasypanii",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздрагивание при засыпании",
+    "properties": {}
+  },
+  {
+    "source": "vzdraivanie_pri_gromkom_zvuke",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздрагивание при громком звуке",
+    "properties": {}
+  },
+  {
+    "source": "vzdraivanie_pri_vspashke_sveta",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздрагивание при вспышке света",
+    "properties": {}
+  },
+  {
+    "source": "povyshenaya_potlivost",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенная потливость",
+    "properties": {}
+  },
+  {
+    "source": "trenie_golovy_o_podushku",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ребенок трет голову о подушку",
+    "properties": {}
+  },
+  {
+    "source": "oblosenie_zatylka",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "облысение затылка",
+    "properties": {}
+  },
+  {
+    "source": "deformatsiya_kostey_golovy",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация костей головы",
+    "properties": {}
+  },
+  {
+    "source": "deformatsiya_groznoy_kiteli",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "deformatsiya_vertebrov",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация позвоночника",
+    "properties": {}
+  },
+  {
+    "source": "deformatsiya_konechnostey",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация конечностей",
+    "properties": {}
+  },
+  {
+    "source": "otstavanie_v_fizicheskom_razvitii",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отставание в физическом развитии",
+    "properties": {}
+  },
+  {
+    "source": "zapasdyvanie_prorezyvaniya_zubov",
+    "target": "rahit_aktivnyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "запаздывание прорезывания зубов",
+    "properties": {}
+  },
+  {
+    "source": "bespokoystvo",
+    "target": "puglivost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "беспокойство, пугливость",
+    "properties": {}
+  },
+  {
+    "source": "razdrazhitelnost",
+    "target": "giperesteziya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "раздражительность, гиперестезия",
+    "properties": {}
+  },
+  {
+    "source": "vzdraivanie_pri_zasypanii",
+    "target": "vzdraivanie_pri_gromkom_zvuke",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вздрагивание при засыпании, громком звуке",
+    "properties": {}
+  },
+  {
+    "source": "vzdraivanie_pri_gromkom_zvuke",
+    "target": "vzdraivanie_pri_vspashke_sveta",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вздрагивание при громком звуке, вспышке света",
+    "properties": {}
+  },
+  {
+    "source": "povyshenaya_potlivost",
+    "target": "oblosenie_zatylka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышенная потливость, облысение затылка",
+    "properties": {}
+  },
+  {
+    "source": "deformatsiya_kostey_golovy",
+    "target": "deformatsiya_groznoy_kiteli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "деформация костей головы, грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "deformatsiya_vertebrov",
+    "target": "deformatsiya_konechnostey",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "деформация позвоночника, конечностей",
+    "properties": {}
+  }
+]

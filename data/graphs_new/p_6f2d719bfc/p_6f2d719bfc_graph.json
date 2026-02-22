@@ -1,0 +1,338 @@
+{
+  "protocol_id": "p_6f2d719bfc",
+  "nodes": [
+    {
+      "id": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "diagnosis",
+      "label": "Хронический вирусный гепатит С",
+      "icd_code": "V18.2"
+    },
+    {
+      "id": "symptom_ustalost",
+      "type": "symptom",
+      "label": "усталость"
+    },
+    {
+      "id": "symptom_bol_v_sustavah",
+      "type": "symptom",
+      "label": "боль в суставах"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_narushenie_sna",
+      "type": "symptom",
+      "label": "нарушение сна"
+    },
+    {
+      "id": "symptom_narushenie_appetita",
+      "type": "symptom",
+      "label": "нарушение аппетита"
+    },
+    {
+      "id": "symptom_depressiya",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_krioglobulinemiya",
+      "type": "symptom",
+      "label": "криоглобулинемия"
+    },
+    {
+      "id": "symptom_v_kletochniye_limfoproliferativnye_zabolevaniya",
+      "type": "symptom",
+      "label": "В-клеточные лимфопролиферативные заболевания"
+    },
+    {
+      "id": "symptom_pozdnaya_kazhnyaya_porfiya",
+      "type": "symptom",
+      "label": "поздняя кожная порфирия"
+    },
+    {
+      "id": "symptom_vaskuliti",
+      "type": "symptom",
+      "label": "васкулиты"
+    },
+    {
+      "id": "symptom_krasnyy_ploskiy_lishay",
+      "type": "symptom",
+      "label": "красный плоский лишай"
+    },
+    {
+      "id": "symptom_sindrom_shegrena",
+      "type": "symptom",
+      "label": "синдром Шегрена"
+    },
+    {
+      "id": "symptom_glomerulonefrit",
+      "type": "symptom",
+      "label": "гломерулонефрит"
+    },
+    {
+      "id": "symptom_saharniy_diabet_2_tipa",
+      "type": "symptom",
+      "label": "сахарный диабет 2 типа"
+    },
+    {
+      "id": "symptom_gepatomegaliya",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_splenomegaliya",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_perifericheskie_otezki",
+      "type": "symptom",
+      "label": "периферические отеки"
+    },
+    {
+      "id": "symptom_ascit",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_zheltuha",
+      "type": "symptom",
+      "label": "желтуха"
+    },
+    {
+      "id": "symptom_krovopodtek_i_krovtcheniya",
+      "type": "symptom",
+      "label": "кровоподтеки и кровотечения"
+    },
+    {
+      "id": "symptom_zvezdchatye_gemangiomy",
+      "type": "symptom",
+      "label": "звездчатые гемангиомы"
+    },
+    {
+      "id": "symptom_vypadeniye_volos",
+      "type": "symptom",
+      "label": "выпадение волос на коже груди и живота (у мужчин)"
+    },
+    {
+      "id": "symptom_ginekostaziya",
+      "type": "symptom",
+      "label": "гинекомастия"
+    },
+    {
+      "id": "symptom_varikoznoe_rasshirenie_ven_pishchevoda_i_zheludka",
+      "type": "symptom",
+      "label": "варикозное расширение вен пищевода и желудка"
+    },
+    {
+      "id": "symptom_narushenie_kognitivnyh_funktsiy",
+      "type": "symptom",
+      "label": "нарушение когнитивных функций (печеночная энцефалопатия)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_ustalost",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопровождаться такими неспецифичными симптомами как • усталость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопровождаться такими неспецифичными симптомами как • боль в суставах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопровождаться такими неспецифичными симптомами как • тошнота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопровождаться такими неспецифичными симптомами как • нарушение сна и аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_appetita",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопровождаться такими неспецифичными симптомами как • нарушение сна и аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressiya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • депрессия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krioglobulinemiya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • криоглобулинемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_v_kletochniye_limfoproliferativnye_zabolevaniya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • В-клеточные лимфопролиферативные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozdnaya_kazhnyaya_porfiya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • поздняя кожная порфирия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaskuliti",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • васкулиты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krasnyy_ploskiy_lishay",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • красный плоский лишай",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_shegrena",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • синдром Шегрена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_glomerulonefrit",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • гломерулонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_saharniy_diabet_2_tipa",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть ассоциирован с внепеченочными проявлениями, такими как • сахарный диабет 2 типа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование на начальной стадии ХГС, как правило, патологии не выявляет, за исключением незначительной гепатомегалии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Спленомегалия и другие стигмы хронического заболевания печени могут проявляться на более поздних стадиях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perifericheskie_otezki",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • периферические отеки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ascit",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • асцит;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • желтуха;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovopodtek_i_krovtcheniya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • кровоподтеки и кровотечения;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zvezdchatye_gemangiomy",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • звездчатые гемангиомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypadeniye_volos",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • выпадение волос на коже груди и живота (у мужчин);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ginekostaziya",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • гинекомастия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikoznoe_rasshirenie_ven_pishchevoda_i_zheludka",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • варикозное расширение вен пищевода и желудка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_kognitivnyh_funktsiy",
+      "target": "diagnosis_hrochnyy_virusnyy_gepatit_s",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при переходе хронического гепатита С в цирроз в 6,4% случаев отмечаются симптомы, обусловленные дисфункцией печени и портальной гипертензией: • нарушение когнитивных функций, связанное с печеночной энцефалопатией.",
+      "properties": {}
+    }
+  ]
+}

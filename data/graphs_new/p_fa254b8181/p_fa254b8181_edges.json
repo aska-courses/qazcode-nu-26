@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_bol_v_glazu",
+    "target": "diagnosis_thermal_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_glazu",
+    "target": "diagnosis_chemical_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slezotечение",
+    "target": "diagnosis_thermal_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slezotечение",
+    "target": "diagnosis_chemical_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetoboyazn",
+    "target": "diagnosis_thermal_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetoboyazn",
+    "target": "diagnosis_chemical_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blefarospazm",
+    "target": "diagnosis_thermal_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blefarospazm",
+    "target": "diagnosis_chemical_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_ostrot_i_vision",
+    "target": "diagnosis_thermal_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_ostrot_i_vision",
+    "target": "diagnosis_chemical_burn_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_glazu",
+    "target": "symptom_slezotечение",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_glazu",
+    "target": "symptom_svetoboyazn",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_glazu",
+    "target": "symptom_blefarospazm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_glazu",
+    "target": "symptom_snizhenie_ostrot_i_vision",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: • боль в глазу; • слезотечение; • выраженная светобоязнь; • блефароспазм; • снижение остроты зрения.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_thermal_burn_veka",
+    "target": "diagnosis_thermal_burn_rgovica_konjunktiva",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: T26.0 Термический ожог века и окологлазничной области T26.1 Термический ожог роговицы и конъюнктивального мешка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_thermal_burn_veka",
+    "target": "diagnosis_thermal_burn_rupture_glob",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: T26.0 Термический ожог века и окологлазничной области T26.2 Термический ожог, ведущий к разрыву и разрушению глазного яблока",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chemical_burn_veka",
+    "target": "diagnosis_chemical_burn_rgovica_konjunktiva",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: T26.5 Химический ожог века и окологлазничной области T26.6 Химический ожог роговицы и конъюнктивального мешка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chemical_burn_veka",
+    "target": "diagnosis_chemical_burn_rupture_glob",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: T26.5 Химический ожог века и окологлазничной области T26.7 Химический ожог, ведущий к разрыву и разрушению глазного яблока",
+    "properties": {}
+  }
+]

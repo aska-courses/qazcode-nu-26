@@ -1,0 +1,58 @@
+[
+  {
+    "source": "leukocytosis_high",
+    "target": "differentiation_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Профилактика синдрома дифференцировки ... возможно назначение гидроксикарбамида при повышении лейкоцитов >10 /л.",
+    "properties": {}
+  },
+  {
+    "source": "differentiation_syndrome",
+    "target": "qt_interval_prolongation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "например, удлинение интервала QT, синдром дифференцировки, гепатотоксичность, синдром псевдоопухоли мозга",
+    "properties": {}
+  },
+  {
+    "source": "differentiation_syndrome",
+    "target": "hepatotoxicity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "например, удлинение интервала QT, синдром дифференцировки, гепатотоксичность, синдром псевдоопухоли мозга",
+    "properties": {}
+  },
+  {
+    "source": "differentiation_syndrome",
+    "target": "pseudo_tumor_brain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "например, удлинение интервала QT, синдром дифференцировки, гепатотоксичность, синдром псевдоопухоли мозга",
+    "properties": {}
+  },
+  {
+    "source": "qt_interval_prolongation",
+    "target": "hepatotoxicity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "например, удлинение интервала QT, синдром дифференцировки, гепатотоксичность, синдром псевдоопухоли мозга",
+    "properties": {}
+  },
+  {
+    "source": "qt_interval_prolongation",
+    "target": "pseudo_tumor_brain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "например, удлинение интервала QT, синдром дифференцировки, гепатотоксичность, синдром псевдоопухоли мозга",
+    "properties": {}
+  },
+  {
+    "source": "hepatotoxicity",
+    "target": "pseudo_tumor_brain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "например, удлинение интервала QT, синдром дифференцировки, гепатотоксичность, синдром псевдоопухоли мозга",
+    "properties": {}
+  }
+]

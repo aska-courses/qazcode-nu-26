@@ -1,0 +1,90 @@
+[
+  {
+    "source": "symptom_opukolevoye_obrazovanie_ili_yazva_v_polosti_rta",
+    "target": "diagnosis_c02",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие опухолевого образования или язвы в полости рта длительно не заживающей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_polosti_rta_pri_prieme_pisi_razgovore",
+    "target": "diagnosis_c02",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болей в полости рта при приеме пищи, разговоре",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nepriyatnyy_zapakh_izo_rta",
+    "target": "diagnosis_c02",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неприятный запах изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nalichie_uzlov_na_shene_i_podchelyustnoi_oblasti",
+    "target": "diagnosis_c02",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно наличие узлов на шее и в подчелюстной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_iz_opukolevogo_obrazovaniya",
+    "target": "diagnosis_c02",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровотечение из опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opukolevoye_obrazovanie_ili_yazva_v_polosti_rta",
+    "target": "symptom_bol_v_polosti_rta_pri_prieme_pisi_razgovore",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие опухолевого образования ...; болей в полости рта при приеме пищи, разговоре",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opukolevoye_obrazovanie_ili_yazva_v_polosti_rta",
+    "target": "symptom_nepriyatnyy_zapakh_izo_rta",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие опухолевого образования ...; неприятный запах изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_opukolevoye_obrazovanie_ili_yazva_v_polosti_rta",
+    "target": "symptom_nalichie_uzlov_na_shene_i_podchelyustnoi_oblasti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие опухолевого образования ...; возможно наличие узлов на шее и в подчелюстной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_polosti_rta_pri_prieme_pisi_razgovore",
+    "target": "symptom_nepriyatnyy_zapakh_izo_rta",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болей в полости рта при приеме пищи, разговоре; неприятный запах изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_polosti_rta_pri_prieme_pisi_razgovore",
+    "target": "symptom_nalichie_uzlov_na_shene_i_podchelyustnoi_oblasti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болей в полости рта при приеме пищи, разговоре; возможно наличие узлов на шее и в подчелюстной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nepriyatnyy_zapakh_izo_rta",
+    "target": "symptom_nalichie_uzlov_na_shene_i_podchelyustnoi_oblasti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "неприятный запах изо рта; возможно наличие узлов на шее и в подчелюстной области",
+    "properties": {}
+  }
+]

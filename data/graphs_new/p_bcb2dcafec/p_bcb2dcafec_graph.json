@@ -1,0 +1,307 @@
+{
+  "protocol_id": "p_bcb2dcafec",
+  "nodes": [
+    {
+      "id": "diagnosis_n80",
+      "type": "diagnosis",
+      "label": "Эндометриоз",
+      "icd_code": "N80"
+    },
+    {
+      "id": "diagnosis_n80_0",
+      "type": "diagnosis",
+      "label": "Эндометриоз матки (аденомиоз)",
+      "icd_code": "N80.0"
+    },
+    {
+      "id": "diagnosis_n80_1",
+      "type": "diagnosis",
+      "label": "Эндометриоз яичника",
+      "icd_code": "N80.1"
+    },
+    {
+      "id": "diagnosis_n80_2",
+      "type": "diagnosis",
+      "label": "Эндометриоз маточной трубы",
+      "icd_code": "N80.2"
+    },
+    {
+      "id": "diagnosis_n80_3",
+      "type": "diagnosis",
+      "label": "Эндометриоз тазовой брюшины",
+      "icd_code": "N80.3"
+    },
+    {
+      "id": "diagnosis_n80_4",
+      "type": "diagnosis",
+      "label": "Эндометриоз ректовагинальной перегородки и влагалища",
+      "icd_code": "N80.4"
+    },
+    {
+      "id": "diagnosis_n80_5",
+      "type": "diagnosis",
+      "label": "Эндометриоз кишечника",
+      "icd_code": "N80.5"
+    },
+    {
+      "id": "diagnosis_n80_6",
+      "type": "diagnosis",
+      "label": "Эндометриоз кожного рубца",
+      "icd_code": "N80.6"
+    },
+    {
+      "id": "diagnosis_n80_8",
+      "type": "diagnosis",
+      "label": "Другой эндометриоз",
+      "icd_code": "N80.8"
+    },
+    {
+      "id": "diagnosis_n80_9",
+      "type": "diagnosis",
+      "label": "Эндометриоз неуточненный",
+      "icd_code": "N80.9"
+    },
+    {
+      "id": "symptom_chronic_pelvic_pain",
+      "type": "symptom",
+      "label": "Хроническая тазовая боль"
+    },
+    {
+      "id": "symptom_dysmenorrhea",
+      "type": "symptom",
+      "label": "Циклическая боль (дисменорея)"
+    },
+    {
+      "id": "symptom_pain_during_sex",
+      "type": "symptom",
+      "label": "Боль при половых контактах"
+    },
+    {
+      "id": "symptom_cyclic_gastrointestinal_pain",
+      "type": "symptom",
+      "label": "Циклическая гастроинтестинальная боль"
+    },
+    {
+      "id": "symptom_pain_defecation",
+      "type": "symptom",
+      "label": "Боль при акте дефекации"
+    },
+    {
+      "id": "symptom_urinary_symptoms",
+      "type": "symptom",
+      "label": "Циклические уринарные симптомы (кровь в моче, боль при мочеиспускании)"
+    },
+    {
+      "id": "symptom_pain_urination",
+      "type": "symptom",
+      "label": "Боль при мочеиспускании"
+    },
+    {
+      "id": "symptom_infertility",
+      "type": "symptom",
+      "label": "Бесплодие"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysmenorrhea",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  циклическая боль (дисменорея), влияющая на качество жизни женщины;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_during_sex",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  боль при или после половых контактов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyclic_gastrointestinal_pain",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  циклическая гастроинтестинальная боль, в частности боль при акте дефекации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_defecation",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  циклическая гастроинтестинальная боль, в частности боль при акте дефекации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urinary_symptoms",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  циклическая боль и циклические уринарные симптомы, в частности окрашивание кровью мочу или боль при мочеиспускании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_urination",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  циклическая боль и циклические уринарные симптомы, в частности ... боль при мочеиспускании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "diagnosis_n80",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  бесплодие в сочетании с 1 или более вышеперечисленных симптомов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyclic_gastrointestinal_pain",
+      "target": "diagnosis_n80_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "циклическая гастроинтестинальная боль, в частности боль при акте дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_defecation",
+      "target": "diagnosis_n80_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "циклическая гастроинтестинальная боль, в частности боль при акте дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_dysmenorrhea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;  циклическая боль (дисменорея)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_pain_during_sex",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;  боль при или после половых контактов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_cyclic_gastrointestinal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;  циклическая гастроинтестинальная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_pain_defecation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;  боль при акте дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_urinary_symptoms",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;  циклические уринарные симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_pain_urination",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Симптомы эндометриоза:  хроническая тазовая боль;  боль при мочеиспускании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_pelvic_pain",
+      "target": "symptom_infertility",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyclic_gastrointestinal_pain",
+      "target": "symptom_pain_defecation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "циклическая гастроинтестинальная боль, в частности боль при акте дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urinary_symptoms",
+      "target": "symptom_pain_urination",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "циклические уринарные симптомы, в частности ... боль при мочеиспускании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "symptom_dysmenorrhea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "symptom_pain_during_sex",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "symptom_cyclic_gastrointestinal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "symptom_pain_defecation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "symptom_urinary_symptoms",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infertility",
+      "target": "symptom_pain_urination",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бесплодие в сочетании с 1 или более вышеперечисленных симптомов",
+      "properties": {}
+    }
+  ]
+}

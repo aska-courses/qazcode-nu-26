@@ -1,0 +1,514 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "температуры тела до 38,0-40,0°С",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "нарушение сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_appetite_loss",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "нарушение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chewing_pain",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "болезненность при жевании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ear_pain",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боли в области уха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_mouth",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "сухость во рту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_parotid_swelling",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "припухлость в околоушной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_edema",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "отёк мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyposalivation",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение саливации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_submandibular_pain",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в подчелюстной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chin_pain",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в подбородочной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subtongue_pain",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в подъязычной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_parotid_pancreatitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_parotid_pancreatitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_upper_abdominal_pain",
+    "target": "diagnosis_parotid_pancreatitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боли в верхних отделах живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_parotid_pancreatitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "жидкий стул",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constipation",
+    "target": "diagnosis_parotid_pancreatitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "запоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_testicular_pain",
+    "target": "diagnosis_parotid_orchitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль в пораженном яичке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_testicular_enlargement",
+    "target": "diagnosis_parotid_orchitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "увеличение яичка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_testicular_consistency",
+    "target": "diagnosis_parotid_orchitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "плотная консистенция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_scrotal_erythema",
+    "target": "diagnosis_parotid_orchitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кожа мошонки гиперемирована",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperacusis",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гиперакузия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nuchal_rigidity",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "ригидность затылочных мышц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brudzinski_sign",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Положительный симптом Брудзинского",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kerning_sign",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Положительный симптом Кернига",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головокружение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nystagmus",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "шум в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_parotid_encephalitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delirium",
+    "target": "diagnosis_parotid_encephalitis",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "бред",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spastic_paraparesis",
+    "target": "diagnosis_parotid_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "спастический нижний парапарез",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fecal_incontinence",
+    "target": "diagnosis_parotid_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "недержание стула",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_incontinence",
+    "target": "diagnosis_parotid_encephalitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_testicular_atrophy",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "атрофия яичек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infertility",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "бесплодие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diabetes",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сахарный диабет",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deafness",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "глухота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cns_dysfunction",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функций центральной нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "миалгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toxicosis",
+    "target": "diagnosis_epidemic_parotitis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "токсикоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mastitis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "мастит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bartolinitis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "бартолинит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyroiditis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тиреоидит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nephritis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нефрит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urethritis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "уретрит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_cystitis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "геморрагический цистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myocarditis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "миокардит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dacryocystitis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дакриоцистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "температуры тела ...; головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "температуры тела ...; озноб",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_epidemic_parotitis",
+    "target": "diagnosis_parotid_orchitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Орхит (поражение половых желез) ... осложнение эпидемического паротита",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_epidemic_parotitis",
+    "target": "diagnosis_parotid_meningitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Менингит ... осложнение эпидемического паротита",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_epidemic_parotitis",
+    "target": "diagnosis_parotid_encephalitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Энцефалит ... осложнение эпидемического паротита",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_epidemic_parotitis",
+    "target": "diagnosis_parotid_pancreatitis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Панкреатит ... осложнение эпидемического паротита",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_epidemic_parotitis",
+    "target": "diagnosis_epidemic_parotitis_with_complications",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Эпидемический паротит с другими осложнениями",
+    "properties": {}
+  }
+]

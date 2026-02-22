@@ -1,0 +1,496 @@
+{
+  "protocol_id": "p_0bd8eeb17b",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_oblasti_plecha",
+      "type": "symptom",
+      "label": "Боль в области плеча"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_verhney_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение функции верхней конечности"
+    },
+    {
+      "id": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "type": "symptom",
+      "label": "Вынужденное положение верхней конечности"
+    },
+    {
+      "id": "symptom_otek_v_oblasti_plecha",
+      "type": "symptom",
+      "label": "Отек в области плеча"
+    },
+    {
+      "id": "symptom_deformaciya_plecha",
+      "type": "symptom",
+      "label": "Деформация плеча"
+    },
+    {
+      "id": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани в области плеча"
+    },
+    {
+      "id": "symptom_ukorochanie_verhney_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение верхней конечности"
+    },
+    {
+      "id": "symptom_svisanie_kisti",
+      "type": "symptom",
+      "label": "Свисание кисти"
+    },
+    {
+      "id": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "symptom",
+      "label": "Отсутствие активного разгибания и отведения 1 пальца"
+    },
+    {
+      "id": "symptom_boleznennost_v_oblasti_plecha",
+      "type": "symptom",
+      "label": "Болезненность в области плеча"
+    },
+    {
+      "id": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "type": "symptom",
+      "label": "Боль, усиливающаяся при осевой нагрузке в области плеча"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "type": "symptom",
+      "label": "Патологическая подвижность в области плеча"
+    },
+    {
+      "id": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация костных отломков"
+    },
+    {
+      "id": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "type": "symptom",
+      "label": "Неспособность самостоятельно поднять руку"
+    },
+    {
+      "id": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "type": "symptom",
+      "label": "Повреждение сосудисто-нервных пучков"
+    },
+    {
+      "id": "diagnosis_perelom_diafiza_plecha",
+      "type": "diagnosis",
+      "label": "Перелом диафиза плеча",
+      "icd_code": "S42.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_plecha",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли в области плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_verhney_konechnosti",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вынужденное положение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_plecha",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отек в области плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_plecha",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "деформация плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани в области плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_verhney_konechnosti",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "укорочение верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svisanie_kisti",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "свисание кисти (при повреждении лучевого нерва)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_plecha",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность в области плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль, усиливающаяся при осевой нагрузке в области плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "патологическая подвижность в области плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пострадавший не может самостоятельно поднять руку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "target": "diagnosis_perelom_diafiza_plecha",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "необходимо исключить повреждение сосудисто-нервных пучков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_otek_v_oblasti_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_deformaciya_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_ukorochanie_verhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_svisanie_kisti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzdennoe_polozhenie_verhney_konechnosti",
+      "target": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_plecha",
+      "target": "symptom_deformaciya_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_plecha",
+      "target": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_plecha",
+      "target": "symptom_ukorochanie_verhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_plecha",
+      "target": "symptom_svisanie_kisti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_plecha",
+      "target": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_plecha",
+      "target": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_plecha",
+      "target": "symptom_ukorochanie_verhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_plecha",
+      "target": "symptom_svisanie_kisti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_plecha",
+      "target": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "target": "symptom_ukorochanie_verhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "target": "symptom_svisanie_kisti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayuschie_tkanki",
+      "target": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_verhney_konechnosti",
+      "target": "symptom_svisanie_kisti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_verhney_konechnosti",
+      "target": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svisanie_kisti",
+      "target": "symptom_otssutstvie_aktivnogo_razgibaniya_i_otvedeniya_1_palca",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При осмотре: вынужденное положение верхней конечности; отек в области плеча; деформация плеча; кровоизлияние в окружающие ткани в области плеча; укорочение верхней конечности; свисание кисти (при повреждении лучевого нерва); отсутствие активного разгибания и отведения 1 пальца (при повреждении лучевого нерва).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_plecha",
+      "target": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_plecha",
+      "target": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_plecha",
+      "target": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_plecha",
+      "target": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_plecha",
+      "target": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "target": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "target": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "target": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_usilivayushchayasya_pri_oschei_nagruzke",
+      "target": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "target": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "target": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_v_oblasti_plecha",
+      "target": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "target": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnykh_otlomkov",
+      "target": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_ruku_samostoyatelno",
+      "target": "symptom_povrezhdenie_sosudistvo_nervnykh_puchkov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "При пальпации: болезненность в области плеча; боль, усиливающаяся при осевой нагрузке в области плеча; патологическая подвижность в области плеча; крепитация костных отломков; пострадавший не может самостоятельно поднять руку; необходимо исключить повреждение сосудисто-нервных пучков.",
+      "properties": {}
+    }
+  ]
+}

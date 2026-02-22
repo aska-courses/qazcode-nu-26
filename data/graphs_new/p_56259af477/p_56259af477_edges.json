@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_intensivnyj_lumbalgiicheskij_bolevoj_sindrom",
+    "target": "diagnosis_spinalnaya_nestabilnost",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "интенсивный люмбалгический болевой синдром и его преобладание над корешковым или отсутствие последнего",
+    "properties": {}
+  },
+  {
+    "source": "symptom_korshekovyi_sindrom",
+    "target": "diagnosis_spinalnaya_nestabilnost",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "интенсивный люмбалгический болевой синдром и его преобладание над корешковым или отсутствие последнего",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mielopatiicheskij_sindrom",
+    "target": "diagnosis_spinalnaya_nestabilnost",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "интенсивный люмбалгический болевой синдром и его преобладание над корешковым или отсутствие последнего",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbalniy_bol_s_iradiatsiei_v_nogi",
+    "target": "diagnosis_mezhpoz_diski_radikulopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли в пояснично‑крестцовой области, усиливающиеся после физических нагрузок, длительной вертикализации с иррадиацией в ноги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_korshekovyi_sindrom",
+    "target": "diagnosis_mezhpoz_diski_radikulopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления (люмбалгический, корешковый синдром или миелопатический синдром)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mielopatiicheskij_sindrom",
+    "target": "diagnosis_mezhpoz_diski_mielopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления (люмбалгический, корешковый синдром или миелопатический синдром)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinalnaya_nestabilnost",
+    "target": "diagnosis_spondilolist",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Спинальная нестабильность наиболее часто возникает на фоне грыжи диска, спондилолистеза, стеноза позвоночного канала",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinalnaya_nestabilnost",
+    "target": "diagnosis_stenoz_kanala",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Спинальная нестабильность наиболее часто возникает на фоне грыжи диска, спондилолистеза, стеноза позвоночного канала",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinalnaya_nestabilnost",
+    "target": "diagnosis_mezhpoz_diski_mielopatiya",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Спинальная нестабильность наиболее часто возникает на фоне грыжи диска, спондилолистеза, стеноза позвоночного канала",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_spinalnaya_nestabilnost",
+    "target": "diagnosis_mezhpoz_diski_radikulopatiya",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Спинальная нестабильность наиболее часто возникает на фоне грыжи диска, спондилолистеза, стеноза позвоночного канала",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intensivnyj_lumbalgiicheskij_bolevoj_sindrom",
+    "target": "symptom_korshekovyi_sindrom",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "интенсивный люмбалгический болевой синдром и его преобладание над корешковым или отсутствие последнего",
+    "properties": {}
+  },
+  {
+    "source": "symptom_korshekovyi_sindrom",
+    "target": "symptom_mielopatiicheskij_sindrom",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические проявления (люмбалгический, корешковый синдром или миелопатический синдром)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kauda_sindrom",
+    "target": "diagnosis_spinalnaya_nestabilnost",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Показания к экстренной госпитализации: кауда‑синдром.",
+    "properties": {}
+  }
+]

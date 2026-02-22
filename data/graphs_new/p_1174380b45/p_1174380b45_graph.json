@@ -1,0 +1,259 @@
+{
+  "protocol_id": "p_1174380b45",
+  "nodes": [
+    {
+      "id": "diagnosis_n16_0",
+      "type": "diagnosis",
+      "label": "Язва роговицы",
+      "icd_code": "N16.0"
+    },
+    {
+      "id": "diagnosis_n17_0",
+      "type": "diagnosis",
+      "label": "Слипчивая лейкома",
+      "icd_code": "N17.0"
+    },
+    {
+      "id": "diagnosis_n17_1",
+      "type": "diagnosis",
+      "label": "Другие центральные помутнения глаза",
+      "icd_code": "N17.1"
+    },
+    {
+      "id": "diagnosis_h18_1",
+      "type": "diagnosis",
+      "label": "Буллезная кератопатия",
+      "icd_code": "H18.1"
+    },
+    {
+      "id": "diagnosis_h18_2",
+      "type": "diagnosis",
+      "label": "Другие отеки роговицы",
+      "icd_code": "H18.2"
+    },
+    {
+      "id": "diagnosis_h18_3",
+      "type": "diagnosis",
+      "label": "Изменения оболочек роговицы",
+      "icd_code": "H18.3"
+    },
+    {
+      "id": "diagnosis_h18_4",
+      "type": "diagnosis",
+      "label": "Дегенерация роговицы",
+      "icd_code": "H18.4"
+    },
+    {
+      "id": "diagnosis_h18_5",
+      "type": "diagnosis",
+      "label": "Наследственные дистрофии роговицы",
+      "icd_code": "H18.5"
+    },
+    {
+      "id": "diagnosis_h18_6",
+      "type": "diagnosis",
+      "label": "Кератоконус",
+      "icd_code": "H18.6"
+    },
+    {
+      "id": "diagnosis_h18_7",
+      "type": "diagnosis",
+      "label": "Другие деформации роговой оболочки",
+      "icd_code": "H18.7"
+    },
+    {
+      "id": "diagnosis_h18_8",
+      "type": "diagnosis",
+      "label": "Другие уточненные болезни роговицы",
+      "icd_code": "H18.8"
+    },
+    {
+      "id": "symptom_pomutnenie_opticheskoy_zony_rogovitsy",
+      "type": "symptom",
+      "label": "Помутнение роговицы в оптической зоне"
+    },
+    {
+      "id": "symptom_posttravmaticheskij_rubets",
+      "type": "symptom",
+      "label": "Посттравматический рубец"
+    },
+    {
+      "id": "symptom_keratotomicheskij_rubets",
+      "type": "symptom",
+      "label": "Кератотомический рубец после радиальной/тангенциальной кератотомии"
+    },
+    {
+      "id": "symptom_iridokornealnye_srashcheniya",
+      "type": "symptom",
+      "label": "Иридокорнеальные сращения"
+    },
+    {
+      "id": "symptom_intrastromalnye_pomutneniya",
+      "type": "symptom",
+      "label": "Интрастромальные помутнения"
+    },
+    {
+      "id": "symptom_arcus_senilis",
+      "type": "symptom",
+      "label": "Arcus senilis (Дуга старческая)"
+    },
+    {
+      "id": "symptom_reakciya_zratchka_na_adrenalin",
+      "type": "symptom",
+      "label": "Реакция зрачка на адреналин"
+    },
+    {
+      "id": "symptom_ostraia_infektsia",
+      "type": "symptom",
+      "label": "Острая инфекция"
+    },
+    {
+      "id": "symptom_bakterialnyj_sepsis",
+      "type": "symptom",
+      "label": "Неконтролируемый бактериальный сепсис"
+    },
+    {
+      "id": "symptom_positive_ifa_hiv",
+      "type": "symptom",
+      "label": "Положительный ИФА на ВИЧ"
+    },
+    {
+      "id": "symptom_positive_ifa_hepatit_b",
+      "type": "symptom",
+      "label": "Положительный ИФА на маркеры гепатита В"
+    },
+    {
+      "id": "symptom_positive_ifa_hepatit_c",
+      "type": "symptom",
+      "label": "Положительный ИФА на маркеры гепатита С"
+    },
+    {
+      "id": "symptom_positive_ifa_blednaya_treponema",
+      "type": "symptom",
+      "label": "Положительный ИФА на бледную трепонему"
+    },
+    {
+      "id": "symptom_zlokachestvennoe_novoobrazovanie_s_metastazami",
+      "type": "symptom",
+      "label": "Злокачественное новообразование с метастазами"
+    },
+    {
+      "id": "symptom_otravlenie_ugarom_karboksigemoglobin_20",
+      "type": "symptom",
+      "label": "Смерть от отравления угарным газом (карбоксигемоглобин >20%)"
+    },
+    {
+      "id": "symptom_utoplenie",
+      "type": "symptom",
+      "label": "Утопление"
+    },
+    {
+      "id": "symptom_povrezhdenija_organa_zreniya",
+      "type": "symptom",
+      "label": "Повреждения органов/тканей зрения"
+    },
+    {
+      "id": "symptom_uchastok_ochagovye_zabolevaniya_glaza",
+      "type": "symptom",
+      "label": "Установленные очаговые/диффузные заболевания глаза"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_ostraia_infekcia",
+      "target": "symptom_bakterialnyj_sepsis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "острые инфекционные и контагиозные заболевания; неконтролируемый бактериальный сепсис;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_positive_ifa_hiv",
+      "target": "symptom_positive_ifa_hepatit_b",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "положительный маркер ИФА на ВИЖ; положительный ИФА на маркеры вируса гепатита В (HBsAg, DNA‑HBV) или С (anti‑HCV, RNA‑HCV, HCVAg);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_positive_ifa_hepatit_c",
+      "target": "symptom_positive_ifa_blednaya_treponema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "положительный ИФА на маркеры вируса гепатита В ... или С (anti‑HCV, RNA‑HCV, HCVAg); положительный ИФА результат на выявление бледной трепонемы;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlokachestvennoe_novoobrazovanie_s_metastazami",
+      "target": "symptom_otravlenie_ugarom_karboksigemoglobin_20",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "любое злокачественное новообразование с метастазами ...; смерть от отравления угарным газом и уровнем карбоксигемоглобина более 20%;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchastok_ochagovye_zabolevaniya_glaza",
+      "target": "symptom_utoplenie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие установленных очаговых и/или диффузных заболеваний глаза; утопление;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pomutnenie_opticheskoy_zony_rogovitsy",
+      "target": "symptom_posttravmatichij_rubets",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие каких-либо помутнений в оптической зоне роговицы; наличие посттравматических рубцов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_keratotomicheskij_rubets",
+      "target": "symptom_iridokornealnye_srashcheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие кератотомических рубцов после радиальной/тангенциальной кератотомии; наличие спаечных изменений (иридокорнеальных сращений).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arcus_senilis",
+      "target": "symptom_intrastromalnye_pomutneniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "на предмет наличия глубоких интрастромальных помутнений, выраженных Arcus senilis (Дуга Старческая).",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n16_0",
+      "target": "diagnosis_n17_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N16.0 Язва роговицы N17.0 Слипчивая лейкома",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h18_1",
+      "target": "diagnosis_h18_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "H18.1 Буллезная кератопатия H18.2 Другие отеки роговицы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h18_6",
+      "target": "diagnosis_h18_7",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "H18.6 Кератоконус H18.7 Другие деформации роговой оболочки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h18_5",
+      "target": "diagnosis_h18_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "H18.5 Наследственные дистрофии роговицы H18.8 Другие уточненные болезни роговицы",
+      "properties": {}
+    }
+  ]
+}

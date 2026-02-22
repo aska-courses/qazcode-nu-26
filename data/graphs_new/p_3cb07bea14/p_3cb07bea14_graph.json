@@ -1,0 +1,243 @@
+{
+  "protocol_id": "p_3cb07bea14",
+  "nodes": [
+    {
+      "id": "diagnosis_c73",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование щитовидной железы",
+      "icd_code": "C73"
+    },
+    {
+      "id": "diagnosis_e00",
+      "type": "diagnosis",
+      "label": "Синдром врожденной йодной недостаточности",
+      "icd_code": "E00"
+    },
+    {
+      "id": "diagnosis_e01",
+      "type": "diagnosis",
+      "label": "Болезни щитовидной железы, связанные с йодной недостаточностью",
+      "icd_code": "E01"
+    },
+    {
+      "id": "diagnosis_e02",
+      "type": "diagnosis",
+      "label": "Субклинический гипотиреоз вследствие йодной недостаточности",
+      "icd_code": "E02"
+    },
+    {
+      "id": "diagnosis_e03",
+      "type": "diagnosis",
+      "label": "Другие формы гипотиреоза",
+      "icd_code": "E03"
+    },
+    {
+      "id": "diagnosis_e04",
+      "type": "diagnosis",
+      "label": "Другие формы нетоксического зоба",
+      "icd_code": "E04"
+    },
+    {
+      "id": "diagnosis_e05",
+      "type": "diagnosis",
+      "label": "Тиреотоксикоз (гипертиреоз)",
+      "icd_code": "E05"
+    },
+    {
+      "id": "diagnosis_e06",
+      "type": "diagnosis",
+      "label": "Тиреоидит",
+      "icd_code": "E06"
+    },
+    {
+      "id": "diagnosis_e07",
+      "type": "diagnosis",
+      "label": "Другие болезни щитовидной железы",
+      "icd_code": "E07"
+    },
+    {
+      "id": "symptom_obemnye_obrazenia_na_shche",
+      "type": "symptom",
+      "label": "Объёмные образования на шее"
+    },
+    {
+      "id": "symptom_holodnye_uzly",
+      "type": "symptom",
+      "label": "Холодные узлы"
+    },
+    {
+      "id": "symptom_goryachie_uzly",
+      "type": "symptom",
+      "label": "Горячие узлы"
+    },
+    {
+      "id": "symptom_toksicheskaya_adenoma",
+      "type": "symptom",
+      "label": "Токсическая аденома"
+    },
+    {
+      "id": "symptom_mnogouzlovoy_zob",
+      "type": "symptom",
+      "label": "Многоузловой зоб"
+    },
+    {
+      "id": "symptom_gipotireoz",
+      "type": "symptom",
+      "label": "Гипотиреоз"
+    },
+    {
+      "id": "symptom_gipertireoz",
+      "type": "symptom",
+      "label": "Гипертиреоз"
+    },
+    {
+      "id": "symptom_ioniziruyushchee_izluchenie_na_shche",
+      "type": "symptom",
+      "label": "Воздействие ионизирующего излучения на область шеи"
+    },
+    {
+      "id": "symptom_vrozhdennye_anomalii_shchitovidnoi_zhelezy",
+      "type": "symptom",
+      "label": "Врожденные аномалии щитовидной железы"
+    },
+    {
+      "id": "symptom_beremennost",
+      "type": "symptom",
+      "label": "Беременность"
+    },
+    {
+      "id": "symptom_kormlenie_grudyu",
+      "type": "symptom",
+      "label": "Кормление грудью"
+    },
+    {
+      "id": "symptom_ektopicheskaya_tkanka_shchitovidnoi_zhelezy",
+      "type": "symptom",
+      "label": "Эктопическая ткань щитовидной железы"
+    },
+    {
+      "id": "symptom_uzly_i_bugristosti",
+      "type": "symptom",
+      "label": "Узлы и бугристости"
+    },
+    {
+      "id": "symptom_obemnye_obrazenia_v_zagrudinnom_prostranstve",
+      "type": "symptom",
+      "label": "Объёмные образования в загрудинном пространстве"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_obemnye_obrazenia_na_shche",
+      "target": "diagnosis_c73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "объёмные образования на шее, загрудинного пространства (узлы и бугристости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obemnye_obrazenia_v_zagrudinnom_prostranstve",
+      "target": "diagnosis_c73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "объёмные образования на шее, загрудинного пространства (узлы и бугристости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mnogouzlovoy_zob",
+      "target": "diagnosis_e04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "многоузловой зоб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotireoz",
+      "target": "diagnosis_e02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипотиреоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotireoz",
+      "target": "diagnosis_e03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипотиреоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertireoz",
+      "target": "diagnosis_e05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипертиреоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ioniziruyushchee_izluchenie_na_shche",
+      "target": "diagnosis_c73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "воздействие ионизирующего излучения на область шеи в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vrozhdennye_anomalii_shchitovidnoi_zhelezy",
+      "target": "diagnosis_e07",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "оценка врожденных аномалий щитовидной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ektopicheskaya_tkanka_shchitovidnoi_zhelezy",
+      "target": "diagnosis_e07",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локализация эктопической ткани щитовидной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uzly_i_bugristosti",
+      "target": "diagnosis_c73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "узлы и бугристости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_holodnye_uzly",
+      "target": "diagnosis_c73",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "не накапливающих РФП (холодных) узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_goryachie_uzly",
+      "target": "diagnosis_e05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперфункционирующих (горячих) узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toksicheskaya_adenoma",
+      "target": "diagnosis_e05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "включая токсическую аденому",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obemnye_obrazenia_na_shche",
+      "target": "symptom_uzly_i_bugristosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "объёмные образования на шее, загрудинного пространства (узлы и бугристости)",
+      "properties": {}
+    }
+  ]
+}

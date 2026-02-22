@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_nadlobkovaya_bol",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в надлобковой области (цистит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uretralnye_vydecheniya",
+    "target": "diagnosis_uretritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения из уретры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud_mocheispuskanii",
+    "target": "diagnosis_uretritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зуд ... при мочеиспускании (уретрит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhgarenie_mocheispuskanii",
+    "target": "diagnosis_uretritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жжение при мочеиспускании (уретрит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_pri_palpatsii_mochevogo_puzyri",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации мочевого пузыря – цистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpiruemyi_boleznennyi_mochevoi_puzyr",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пальпируемый болезненный и увеличенный в размерах мочевой пузырь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipertermicheskaya_reaktsiya",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипертермическая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoksikatsiya",
+    "target": "diagnosis_cystitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nadlobkovaya_bol",
+    "target": "symptom_uretralnye_vydecheniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... боли в надлобковой области (цистит); ... выделения из уретры; ... зуд и жжение при мочеиспускании (уретрит); ... озноб; ... лихорадка; ... слабость.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nadlobkovaya_bol",
+    "target": "symptom_zud_mocheispuskanii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... боли в надлобковой области (цистит); ... зуд и жжение при мочеиспускании (уретрит).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nadlobkovaya_bol",
+    "target": "symptom_zhgarenie_mocheispuskanii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... боли в надлобковой области (цистит); ... зуд и жжение при мочеиспускании (уретрит).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uretralnye_vydecheniya",
+    "target": "symptom_zud_mocheispuskanii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... выделения из уретры; ... зуд и жжение при мочеиспускании (уретрит).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uretralnye_vydecheniya",
+    "target": "symptom_zhgarenie_mocheispuskanii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... выделения из уретры; ... зуд и жжение при мочеиспускании (уретрит).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud_mocheispuskanii",
+    "target": "symptom_zhgarenie_mocheispuskanii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "зуд и жжение при мочеиспускании (уретрит)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oznob",
+    "target": "symptom_lihorodka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы и анамнез: ... озноб; ... лихорадка;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cystitis",
+    "target": "diagnosis_uretritis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Протокол №24 ... ДИАГНОСТИКИ И ЛЕЧЕНИЯ ЦИСТИТ И УРЕТРИТ",
+    "properties": {}
+  }
+]

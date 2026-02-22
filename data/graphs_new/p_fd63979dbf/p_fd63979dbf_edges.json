@@ -1,0 +1,490 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_f12_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "на головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_f12_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "тошноту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epigastric_discomfort",
+    "target": "diagnosis_f12_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "дискомфорт в области эпигастрия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_f12_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "першение в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_f12_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_f12_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_mood",
+    "target": "diagnosis_f12_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boredom",
+    "target": "diagnosis_f12_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство «скуки»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_insomnia",
+    "target": "diagnosis_f12_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затрудненное засыпание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_social_conflict",
+    "target": "diagnosis_f12_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плохие взаимоотношения с другими пациентами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_family_conflict",
+    "target": "diagnosis_f12_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сложности во взаимоотношениях со взрослыми",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthenia",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "астенического круга (на ощущение недомогания, усталости, разбитости, отсутствие аппетита)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irritability",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "раздражительность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mood_swings",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перепады настроения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anxiety",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тревогу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unfounded_fear",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "необоснованные страхи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thought_smoking",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мысли о курении анаши",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_heaviness",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тяжесть и стеснение в груди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в области сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_head_pressure",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство сжатия головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_burning_sensation",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущения жжения, покалывания, дергания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tremor",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дрожание всего тела, рук",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sweating",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенную потливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpitations",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сердцебиение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_joint_pain",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевые ощущения в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвоту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mydriasis",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мидриаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_mouth",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость во рту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащенное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychomotor_agitation",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психомоторное возбуждение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akathisia",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "акатизия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fragmented_sleep",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сон прерывистый",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nightmares",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "устрашающие сновидения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrile",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "субфебрилитет",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperhidrosis",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипергидроз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythema",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulse_increase",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащение пульса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_bp",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mimic_changes",
+    "target": "diagnosis_f12_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мимические проявления (расширение глазных щелей, блеск глаз)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delirium",
+    "target": "diagnosis_f12_03",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острая интоксикация с делирием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hallucinations_visual",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зрительные галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hallucinations_auditory",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слуховые галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delusional",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бред",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paranoia",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "паранойя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_derealization",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дереализация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depersonalization",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деперсонализация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coordination_disorder",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение координации движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_slowness",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "заторможенность движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nystagmus",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нистагм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_f12_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f12_03",
+    "target": "diagnosis_f12_04",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания для экстренной госпитализации: острая интоксикация с делирием; абстинентное состояние с делирием; психотическое расстройство.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f12_04",
+    "target": "diagnosis_f12_05",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания для экстренной госпитализации: острая интоксикация с делирием; абстинентное состояние с делирием; психотическое расстройство.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f12_03",
+    "target": "diagnosis_f12_05",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания для экстренной госпитализации: острая интоксикация с делирием; абстинентное состояние с делирием; психотическое расстройство.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f12_01",
+    "target": "diagnosis_f12_02",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания для плановой госпитализации: употребление каннабиноидов с вредными последствиями; установленный диагноз зависимости от каннабиоидов; синдром отмены от каннабиоидов (неосложненный).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f12_01",
+    "target": "diagnosis_f12_03",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания для плановой госпитализации: употребление каннабиноидов с вредными последствиями; установленный диагноз зависимости от каннабиоидов; синдром отмены от каннабиоидов (неосложненный).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f12_02",
+    "target": "diagnosis_f12_03",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания для плановой госпитализации: употребление каннабиноидов с вредными последствиями; установленный диагноз зависимости от каннабиоидов; синдром отмены от каннабиоидов (неосложненный).",
+    "properties": {}
+  }
+]

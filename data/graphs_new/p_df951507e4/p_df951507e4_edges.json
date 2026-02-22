@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_absence_of_testes_in_scrotum",
+    "target": "diagnosis_hypofunktsiya_yaychek",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие яичек в мошонке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_puberty_signs",
+    "target": "diagnosis_hypofunktsiya_yaychek",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие признаков полового созревания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abnormal_external_genitalia_structure",
+    "target": "diagnosis_true_hermaphrodite_46XX",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неправильное (гермафродитное) строение наружных гениталий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_small_penis_and_testes",
+    "target": "diagnosis_hypofunktsiya_yaychek",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "малые размеры пениса и яичек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_sindrom_turnera",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отставание в росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_hypofunktsiya_yaychek",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отставание в росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abnormal_external_genitalia_structure",
+    "target": "symptom_urethral_meatus_dystopia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "неправильное (гермафродитное) строение наружных гениталий; дистопия наружного отверстия уретры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abnormal_external_genitalia_structure",
+    "target": "symptom_urogenital_sinus_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "неправильное (гермафродитное) строение наружных гениталий; наличие урогенитального синуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urethral_meatus_dystopia",
+    "target": "symptom_urogenital_sinus_presence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дистопия наружного отверстия уретры; наличие урогенитального синуса",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sindrom_turnera",
+    "target": "diagnosis_sindrom_klinefeltera_47XXY",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q96 синдром Тернера ... Q98.0 синдром Клайнфельтера, кариотип 47,XXY",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sindrom_turnera",
+    "target": "diagnosis_true_hermaphrodite_46XX",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q96 синдром Тернера ... Q99.1 46,XX истинный гермафродит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sindrom_klinefeltera_47XXY",
+    "target": "diagnosis_sindrom_klinefeltera_unspecified",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q98.0 синдром Клайнфельтера, кариотип 47,XXY ... Q98.4 синдром Клайнфельтера неуточненный",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypofunktsiya_yaychek",
+    "target": "diagnosis_hypofunktsiya_yaychek_post_procedures",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "E29.1 гипофункция яичек ... E89.5 гипофункция яичек, возникшая после медицинских процедур",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypofunktsiya_yaychek",
+    "target": "diagnosis_sindrom_androgen_resistance",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "E29.1 гипофункция яичек ... E34.5 синдром андрогенной резистентности",
+    "properties": {}
+  }
+]

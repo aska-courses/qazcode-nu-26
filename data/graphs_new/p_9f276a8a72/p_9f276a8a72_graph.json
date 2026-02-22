@@ -1,0 +1,661 @@
+{
+  "protocol_id": "p_9f276a8a72",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_boku",
+      "type": "symptom",
+      "label": "Боль в боку"
+    },
+    {
+      "id": "symptom_gematuriya",
+      "type": "symptom",
+      "label": "Гематурия"
+    },
+    {
+      "id": "symptom_makrogematuriya",
+      "type": "symptom",
+      "label": "Макрогематурия"
+    },
+    {
+      "id": "symptom_mikrogematuriya",
+      "type": "symptom",
+      "label": "Микрогематурия"
+    },
+    {
+      "id": "symptom_palpiruemoe_obrazenie_v_proekcii_pochki",
+      "type": "symptom",
+      "label": "Пальпируемое образование в проекции почки"
+    },
+    {
+      "id": "symptom_otei_nog",
+      "type": "symptom",
+      "label": "Отёки ног"
+    },
+    {
+      "id": "symptom_varikotsele",
+      "type": "symptom",
+      "label": "Варикоцеле"
+    },
+    {
+      "id": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "type": "symptom",
+      "label": "Расширение подкожных вен живота"
+    },
+    {
+      "id": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "type": "symptom",
+      "label": "Тромбоз глубоких вен нижних конечностей"
+    },
+    {
+      "id": "symptom_proteinuriya",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "symptom_kaheksiya",
+      "type": "symptom",
+      "label": "Кахексия"
+    },
+    {
+      "id": "symptom_snizhenie_massy_tela",
+      "type": "symptom",
+      "label": "Снижение массы тела"
+    },
+    {
+      "id": "symptom_lihozhadka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_nevromiopatiya",
+      "type": "symptom",
+      "label": "Нейромиопатия"
+    },
+    {
+      "id": "symptom_amiloidoz",
+      "type": "symptom",
+      "label": "Амилоидоз"
+    },
+    {
+      "id": "symptom_povyshenie_soe",
+      "type": "symptom",
+      "label": "Повышение СОЭ"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_povyshenie_kreatinina",
+      "type": "symptom",
+      "label": "Повышение креатинина"
+    },
+    {
+      "id": "symptom_narushenie_svertyvayemosti_krovi",
+      "type": "symptom",
+      "label": "Нарушение свертываемости крови"
+    },
+    {
+      "id": "symptom_snizhenie_skory_kubochkovoy_filtratsii",
+      "type": "symptom",
+      "label": "Снижение скорости клубочковой фильтрации"
+    },
+    {
+      "id": "symptom_palpiruemye_ushchestvovannye_shenichnye_linf_uzly",
+      "type": "symptom",
+      "label": "Пальпируемые увеличенные шейные лимфатические узлы"
+    },
+    {
+      "id": "symptom_palpiruemye_ushchestvovannye_nadklyuchichnye_linf_uzly",
+      "type": "symptom",
+      "label": "Пальпируемые увеличенные надключичные лимфатические узлы"
+    },
+    {
+      "id": "symptom_sindrom_sdavleniya_npv",
+      "type": "symptom",
+      "label": "Синдром сдавления нижней полой вены"
+    },
+    {
+      "id": "symptom_paraneoplasticheskiy_sindrom",
+      "type": "symptom",
+      "label": "Паранеопластический синдром"
+    },
+    {
+      "id": "diagnosis_zlokamennye_novoobrazovaniya_pochki_krome_lokhanki",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования почки, кроме почечной лоханки",
+      "icd_code": "C64"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_boku",
+      "target": "diagnosis_zlokamennye_novoobrazovaniya_pochki_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в боку, видимая гематурия и пальпируемое образование в проекции почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuriya",
+      "target": "diagnosis_zlokamennye_novoobrazovaniya_pochki_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в боку, видимая гематурия и пальпируемое образование в проекции почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpiruemoe_obrazenie_v_proekcii_pochki",
+      "target": "diagnosis_zlokamennye_novoobrazovaniya_pochki_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в боку, видимая гематурия и пальпируемое образование в проекции почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otei_nog",
+      "target": "diagnosis_zlokamennye_novoobrazovaniya_pochki_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки ног ... развивается примерно у 50% больных при массивном опухолевом тромбозе НПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikotsele",
+      "target": "diagnosis_zlokamennye_novoobrazovaniya_pochki_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "варикоцеле ... развивается примерно у 50% больных при массивном опухолевом тромбозе НПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "target": "diagnosis_zlokamennye_novoobrazovaniя_pochki_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение подкожных вен живота ... развивается примерно у 50% больных при массивном опухолевом тромбозе НПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "target": "diagnosis_zlokamennye_novoobrazovaniя_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоз глубоких вен нижних конечностей ... развивается примерно у 50% больных при массивном опухолевом тромбозе НПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuriya",
+      "target": "diagnosis_zlokamennye_novoобразования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия - развивается примерно у 50% больных при массивном опухолевом тромбозе НПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhadka",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevromiopatiya",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amiloidoz",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_soe",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpiruemye_ushchestvovannye_shenichnye_linf_uzly",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пальпируемые увеличенные шейные и надключичные лимфатические узлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpiruemye_ushchestvovannye_nadklyuchichnye_linf_uzly",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пальпируемые увеличенные шейные и надключичные лимфатические узлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_npv",
+      "target": "diagnosis_zлокamennye_novoобrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Синдром сдавления НПВ: отеки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiy_sindrom",
+      "target": "diagnosis_zлокamennye_nовообrazования_pochки_krome_lokhanki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_boku",
+      "target": "symptom_gematuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в боку, видимая гематурия и пальпируемое образование в проекции почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_boku",
+      "target": "symptom_palpiruemoe_obrazenie_v_proekcii_pochki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в боку, видимая гематурия и пальпируемое образование в проекции почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuriya",
+      "target": "symptom_palpiruemoe_obrazenie_v_proekcii_pochki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в боку, видимая гематурия и пальпируемое образование в проекции почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otei_nog",
+      "target": "symptom_varikotsele",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otei_nog",
+      "target": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otei_nog",
+      "target": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otei_nog",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikotsele",
+      "target": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikotsele",
+      "target": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikotsele",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "target": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "symptom_snizhenie_massy_tela",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "symptom_lihozhadka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "symptom_nevromiopatiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "symptom_amiloidoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "symptom_povyshenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kaheksiya",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "symptom_lihozhadka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "symptom_nevromiopatiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "symptom_amiloidoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "symptom_povyshenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhadka",
+      "target": "symptom_nevromiopatiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhadka",
+      "target": "symptom_amiloidoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhadka",
+      "target": "symptom_povyshenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhadka",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevromiopatiya",
+      "target": "symptom_amiloidoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevromiopatiya",
+      "target": "symptom_povyshenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevromiopatiya",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amiloidoz",
+      "target": "symptom_povyshenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amилоidoz",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_soe",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpiruemye_ushchestvovannye_shenichnye_linf_uzly",
+      "target": "symptom_palpiruemye_ushchestvovannye_nadklyuchichnye_linf_uzly",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пальпируемые увеличенные шейные и надключичные лимфатические узлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_npv",
+      "target": "symptom_otei_nog",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Синдром сдавления НПВ: отеки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_npv",
+      "target": "symptom_varikotsele",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Синдром сдавления НПВ: отеки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_npv",
+      "target": "symptom_rasshirenie_podkozhnyh_ven_zhivota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Синдром сдавления НПВ: отеки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_npv",
+      "target": "symptom_tromboz_glubokih_ven_nizhnih_konechnostej",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Синдром сдавления НПВ: отеки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_npv",
+      "target": "symptom_proteinuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Синдром сдавления НПВ: отеки ног, варикоцеле, расширение подкожных вен живота, тромбоз глубоких вен нижних конечностей, протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiy_sindrom",
+      "target": "symptom_kaheksiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiy_sindrom",
+      "target": "symptom_snizhenie_massy_tela",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiy_sindrom",
+      "target": "symptom_lihozhadka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiй_sиндром",
+      "target": "symptom_nevromiopatiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiй_sиндром",
+      "target": "symptom_amiloidoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiй_sиндром",
+      "target": "symptom_povyshenie_soe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paraneoplasticheskiй_sиндром",
+      "target": "symptom_anemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "паранеопластический синдром – кахексия, снижение массы тела, лихорадка, нейромиопатия, амилоидоз, повышение СОЭ, анемия",
+      "properties": {}
+    }
+  ]
+}

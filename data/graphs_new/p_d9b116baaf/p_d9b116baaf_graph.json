@@ -1,0 +1,244 @@
+{
+  "protocol_id": "p_d9b116baaf",
+  "nodes": [
+    {
+      "id": "symptom_discomfort_throat",
+      "type": "symptom",
+      "label": "дискомфорт в горле"
+    },
+    {
+      "id": "symptom_foreign_body_sensation",
+      "type": "symptom",
+      "label": "чувство инородного тела в горле"
+    },
+    {
+      "id": "symptom_pain_swallowing",
+      "type": "symptom",
+      "label": "болевые ощущения при глотании"
+    },
+    {
+      "id": "symptom_cervical_lymphadenopathy",
+      "type": "symptom",
+      "label": "увеличение шейных лимфатических узлов"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "болевой синдром"
+    },
+    {
+      "id": "symptom_ear_shooting_pain",
+      "type": "symptom",
+      "label": "стреляющие боли в ухе"
+    },
+    {
+      "id": "symptom_skin_redness_over_tumor",
+      "type": "symptom",
+      "label": "покраснение кожи над опухолью"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "дисфагия"
+    },
+    {
+      "id": "symptom_laryngeal_stenosis",
+      "type": "symptom",
+      "label": "стеноз гортани"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "кровотечение"
+    },
+    {
+      "id": "symptom_tumor_rupture",
+      "type": "symptom",
+      "label": "распад опухоли"
+    },
+    {
+      "id": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование гортаноглотки",
+      "icd_code": "C14.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_discomfort_throat",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дискомфорт в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foreign_body_sensation",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство инородного тела в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_swallowing",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевые ощущения при глотании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение шейных лимфатических узлов; часто безболезненные лимфатические узлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_shooting_pain",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стреляющие боли в ухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_redness_over_tumor",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение кожи над опухолью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_laryngeal_stenosis",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стеноз гортани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_rupture",
+      "target": "diagnosis_malignant_neoplasm_laryngeal_pharynx",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "распад опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_throat",
+      "target": "symptom_foreign_body_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дискомфорт в горле, чувство инородного тела в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_throat",
+      "target": "symptom_pain_swallowing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дискомфорт в горле; болевые ощущения при глотании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foreign_body_sensation",
+      "target": "symptom_pain_swallowing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство инородного тела в горле; болевые ощущения при глотании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "symptom_pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение шейных лимфатических узлов; болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "symptom_ear_shooting_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение шейных лимфатических узлов; стреляющие боли в ухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "symptom_skin_redness_over_tumor",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение шейных лимфатических узлов; покраснение кожи над опухолью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "symptom_dysphagia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение шейных лимфатических узлов; дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "symptom_laryngeal_stenosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение шейных лимфатических узлов; стеноз гортани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "symptom_ear_shooting_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болевой синдром; стреляющие боли в ухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "symptom_bleeding",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выраженный болевой синдром; кровотечение (показания для экстренной госпитализации)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_shooting_pain",
+      "target": "symptom_bleeding",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "стреляющие боли в ухе; кровотечение (показания для экстренной госпитализации)",
+      "properties": {}
+    }
+  ]
+}

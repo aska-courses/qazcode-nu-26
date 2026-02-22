@@ -1,0 +1,847 @@
+{
+  "protocol_id": "p_31c72ebd9a",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "боль в бедре"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "нарушение опороспособности конечности"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "отёк в месте перелома"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "деформация конечности"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "укорочение конечности"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "болезненность при осевой нагрузке"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "патологическая подвижность"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "крепитация отломков"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "вынужденное положение конечности"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Перелом шейки бедренной кости",
+      "icd_code": "S72.0"
+    },
+    {
+      "id": "diagnosis_2",
+      "type": "diagnosis",
+      "label": "Перелом тела бедренной кости",
+      "icd_code": "S72.1"
+    },
+    {
+      "id": "diagnosis_3",
+      "type": "diagnosis",
+      "label": "Перелом нижней части бедренной кости",
+      "icd_code": "S72.2"
+    },
+    {
+      "id": "diagnosis_4",
+      "type": "diagnosis",
+      "label": "Перелом тела (диафиза) бедренной кости",
+      "icd_code": "S72.3"
+    },
+    {
+      "id": "diagnosis_5",
+      "type": "diagnosis",
+      "label": "Перелом надмыщелка бедренной кости",
+      "icd_code": "S72.4"
+    },
+    {
+      "id": "diagnosis_6",
+      "type": "diagnosis",
+      "label": "Множественные переломы бедренной кости",
+      "icd_code": "S72.7"
+    },
+    {
+      "id": "diagnosis_7",
+      "type": "diagnosis",
+      "label": "Перелом эпифиза бедренной кости",
+      "icd_code": "S72.8"
+    },
+    {
+      "id": "diagnosis_8",
+      "type": "diagnosis",
+      "label": "Перелом другой части бедренной кости",
+      "icd_code": "S72.9"
+    },
+    {
+      "id": "diagnosis_9",
+      "type": "diagnosis",
+      "label": "Наложение аппарата для компрессионно‑дистракционного остеосинтеза",
+      "icd_code": "84.991"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в бедре; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома; деформация конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани; укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке; патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_10",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "крепитация отломков; вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом шейки бедренной кости; Перелом тела бедренной кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_2",
+      "target": "diagnosis_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом тела бедренной кости; Перелом нижней части бедренной кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_3",
+      "target": "diagnosis_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом нижней части бедренной кости; Перелом тела (диафиза) бедренной кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_4",
+      "target": "diagnosis_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом тела (диафиза) бедренной кости; Перелом надмыщелка бедренной кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_5",
+      "target": "diagnosis_6",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом надмыщелка бедренной кости; Множественные переломы бедренной кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_6",
+      "target": "diagnosis_7",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Множественные переломы бедренной кости; Перелом эпифиза бедренной кости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_7",
+      "target": "diagnosis_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом эпифиза бедренной кости; Перелом другой части бедренной кости",
+      "properties": {}
+    }
+  ]
+}

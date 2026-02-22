@@ -1,0 +1,487 @@
+{
+  "protocol_id": "p_6e01705484",
+  "nodes": [
+    {
+      "id": "diagnosis_ebola_virus_disease",
+      "type": "diagnosis",
+      "label": "Болезнь, вызванная вирусом Эбола",
+      "icd_code": "A98.4"
+    },
+    {
+      "id": "symptom_povyshenie_temperatury",
+      "type": "symptom",
+      "label": "повышение температуры"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_silnaya_golovnaya_bol",
+      "type": "symptom",
+      "label": "сильная головная боль"
+    },
+    {
+      "id": "symptom_golovnaya_bol",
+      "type": "symptom",
+      "label": "головная боль"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_vialost",
+      "type": "symptom",
+      "label": "вялость"
+    },
+    {
+      "id": "symptom_nedomoganie",
+      "type": "symptom",
+      "label": "недомогание"
+    },
+    {
+      "id": "symptom_vyrazhennaya_slabbost",
+      "type": "symptom",
+      "label": "выраженная слабость"
+    },
+    {
+      "id": "symptom_anoreksiya",
+      "type": "symptom",
+      "label": "анорексия"
+    },
+    {
+      "id": "symptom_snizhenie_massy_tela",
+      "type": "symptom",
+      "label": "снижение массы тела"
+    },
+    {
+      "id": "symptom_asthenizatsiya",
+      "type": "symptom",
+      "label": "астенизация"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_neukrotimaya_rvota",
+      "type": "symptom",
+      "label": "неукротимая рвота"
+    },
+    {
+      "id": "symptom_krovavaya_rvota",
+      "type": "symptom",
+      "label": "кровавая рвота"
+    },
+    {
+      "id": "symptom_boli_v_gorle",
+      "type": "symptom",
+      "label": "боли в горле"
+    },
+    {
+      "id": "symptom_sukhost_slivistykh_obolochek_glotki",
+      "type": "symptom",
+      "label": "сухость слизистых оболочек глотки"
+    },
+    {
+      "id": "symptom_verevo_v_gorle",
+      "type": "symptom",
+      "label": "ощущение «веревки в горле»"
+    },
+    {
+      "id": "symptom_diareya",
+      "type": "symptom",
+      "label": "диарея"
+    },
+    {
+      "id": "symptom_artralgiya",
+      "type": "symptom",
+      "label": "артралгия"
+    },
+    {
+      "id": "symptom_mialgiya",
+      "type": "symptom",
+      "label": "миалгия"
+    },
+    {
+      "id": "symptom_sukhoy_kokhl",
+      "type": "symptom",
+      "label": "сухой кашель"
+    },
+    {
+      "id": "symptom_vysypaniya_na_kozhe",
+      "type": "symptom",
+      "label": "высыпания на коже"
+    },
+    {
+      "id": "symptom_syp",
+      "type": "symptom",
+      "label": "сыпь"
+    },
+    {
+      "id": "symptom_krovotechenie_iz_nosa",
+      "type": "symptom",
+      "label": "кровотечение из носа"
+    },
+    {
+      "id": "symptom_krovotechenie_iz_vlaginivsha",
+      "type": "symptom",
+      "label": "кровотечение из влагалища"
+    },
+    {
+      "id": "symptom_krovotechenie_iz_desn",
+      "type": "symptom",
+      "label": "кровотечение из десен"
+    },
+    {
+      "id": "symptom_krov_v_kale",
+      "type": "symptom",
+      "label": "кровь в кале"
+    },
+    {
+      "id": "symptom_petehii",
+      "type": "symptom",
+      "label": "петехии"
+    },
+    {
+      "id": "symptom_ekhimozy",
+      "type": "symptom",
+      "label": "экхимозы"
+    },
+    {
+      "id": "symptom_priznaki_degidratatsii",
+      "type": "symptom",
+      "label": "признаки дегидратации"
+    },
+    {
+      "id": "symptom_priznaki_shoka",
+      "type": "symptom",
+      "label": "признаки шока"
+    },
+    {
+      "id": "symptom_dvs_sindrom",
+      "type": "symptom",
+      "label": "ДВС синдром"
+    },
+    {
+      "id": "symptom_boli_v_zhivote",
+      "type": "symptom",
+      "label": "боли в животе"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры до 38-39ͦ С",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихорадка до 39-40",
+      "properties": {}
+    },
+    {
+      "source": "symptom_silnaya_golovnaya_bol",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnaya_bol",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vialost",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вялость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neukrotimaya_rvota",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неукротимая рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovavaya_rvota",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровавая рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_gorle",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_slivistykh_obolochek_glotki",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость слизистых оболочек глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_verevo_v_gorle",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение «веревки в горле»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diareya",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_artralgiya",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артралгия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mialgiya",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миалгия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhoy_kokhl",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vysypaniya_na_kozhe",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "высыпания на коже",
+      "properties": {}
+    },
+    {
+      "source": "symptom_syp",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_nosa",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_vlaginivsha",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_desn",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из десен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krov_v_kale",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровь в кале",
+      "properties": {}
+    },
+    {
+      "source": "symptom_petehii",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "петехии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekhimozy",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "экхимозы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priznaki_degidratatsii",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки дегидратации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_priznaki_shoka",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки шока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dvs_sindrom",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ДВС синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_zhivote",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anoreksiya",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анорексия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asthenizatsiya",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "астенизация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyrazhennaya_slabbost",
+      "target": "diagnosis_ebola_virus_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "symptom_silnaya_golovnaya_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры ...; сильная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "symptom_vialost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "слабость, вялость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_neukrotimaya_rvota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошнота, неукротимая рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diareya",
+      "target": "symptom_krovotechenie_iz_nosa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "диарея; кровотечение из носа",
+      "properties": {}
+    }
+  ]
+}

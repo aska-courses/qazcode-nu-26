@@ -1,0 +1,154 @@
+[
+  {
+    "source": "prezhdevremennoye_polovoje_sozrevanie_u_devochek",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется триадой: поражением костей, преждевременным половым созреванием у девочек, бурыми пигментными пятнами на коже.",
+    "properties": {}
+  },
+  {
+    "source": "burry_pigmentnye_ptyany_na_kozhe",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характеризуется триадой: поражением костей, преждевременным половым созреванием у девочек, бурыми пигментными пятнами на коже.",
+    "properties": {}
+  },
+  {
+    "source": "hromota",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "хромота при наличии патологического процесса на нижних конечностях.",
+    "properties": {}
+  },
+  {
+    "source": "boli",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы: на хромоту, боли и ограничение движений в придлежащих суставах.",
+    "properties": {}
+  },
+  {
+    "source": "ogranichenie_dvizheniy_v_sustavah",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы: на хромоту, боли и ограничение движений в придлежащих суставах.",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_pokhodki",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение походки при наличии патологического очага в нижних конечностях.",
+    "properties": {}
+  },
+  {
+    "source": "deformaciya_konechnosti",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "появление деформации и её нарастание.",
+    "properties": {}
+  },
+  {
+    "source": "patologichij_perelom",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие патологического перелома пораженной конечности.",
+    "properties": {}
+  },
+  {
+    "source": "ogranichenie_funktsiy_konechnosti",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение функций конечности.",
+    "properties": {}
+  },
+  {
+    "source": "rezkie_deformacii_skeleta",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "с резкими деформациями скелета больные рождаются редко.",
+    "properties": {}
+  },
+  {
+    "source": "bolevye_oshushcheniya_v_bedrah",
+    "target": "fibrozhnaya_dispazija",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "незначительные болевые ощущения чаще в бедрах.",
+    "properties": {}
+  },
+  {
+    "source": "hromota",
+    "target": "boli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "жалобы: на хромоту, боли и ограничение движений в придлежащих суставах.",
+    "properties": {}
+  },
+  {
+    "source": "hromota",
+    "target": "ogranichenie_dvizheniy_v_sustavah",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "жалобы: на хромоту, боли и ограничение движений в придлежащих суставах.",
+    "properties": {}
+  },
+  {
+    "source": "boli",
+    "target": "ogranichenie_dvizheniy_v_sustavah",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "жалобы: на хромоту, боли и ограничение движений в придлежащих суставах.",
+    "properties": {}
+  },
+  {
+    "source": "prezhdevremennoye_polovoje_sozrevanie_u_devochek",
+    "target": "burry_pigmentnye_ptyany_na_kozhe",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "характеризуется триадой: поражением костей, преждевременным половым созреванием у девочек, бурыми пигментными пятнами на коже.",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_pokhodki",
+    "target": "ogranichenie_dvizheniy_v_sustavah",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение походки при наличии патологического очага в нижних конечностях; ограничение движений в прилежащих суставах.",
+    "properties": {}
+  },
+  {
+    "source": "fibrozhnaya_dispazija",
+    "target": "anevrizmaticheskaya_kostnaya_kista",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: M85.0 Фиброзная дисплазия (избирательная, одной кости) M85.5 Аневризматическая костная киста M85.6 Другие кисты костей",
+    "properties": {}
+  },
+  {
+    "source": "fibrozhnaya_dispazija",
+    "target": "drugie_kisty_kostey",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: M85.0 Фиброзная дисплазия (избирательная, одной кости) M85.5 Аневризматическая костная киста M85.6 Другие кисты костей",
+    "properties": {}
+  },
+  {
+    "source": "anevrizmaticheskaya_kostnaya_kista",
+    "target": "drugie_kisty_kostey",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: M85.0 Фиброзная дисплазия (избирательная, одной кости) M85.5 Аневризматическая костная киста M85.6 Другие кисты костей",
+    "properties": {}
+  }
+]

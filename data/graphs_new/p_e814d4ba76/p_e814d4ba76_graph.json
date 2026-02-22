@@ -1,0 +1,655 @@
+{
+  "protocol_id": "p_e814d4ba76",
+  "nodes": [
+    {
+      "id": "diagnosis_kawasaki_syndrome",
+      "type": "diagnosis",
+      "label": "Слизисто-кожный лимфонодулярный синдром (Кавасаки)",
+      "icd_code": "M30.3"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_irritability",
+      "type": "symptom",
+      "label": "возбудимость"
+    },
+    {
+      "id": "symptom_joint_pain_small",
+      "type": "symptom",
+      "label": "боль в мелких суставах"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "боли в животе"
+    },
+    {
+      "id": "symptom_bilateral_conjunctivitis",
+      "type": "symptom",
+      "label": "двусторонний конъюнктивит"
+    },
+    {
+      "id": "symptom_dry_lips",
+      "type": "symptom",
+      "label": "сухость губ"
+    },
+    {
+      "id": "symptom_lip_hyperemia",
+      "type": "symptom",
+      "label": "гиперемия губ"
+    },
+    {
+      "id": "symptom_cracked_lips",
+      "type": "symptom",
+      "label": "трещины губ"
+    },
+    {
+      "id": "symptom_oral_mucosa_hyperemia",
+      "type": "symptom",
+      "label": "гиперемия слизистой оболочки ротовой полости"
+    },
+    {
+      "id": "symptom_strawberry_tongue",
+      "type": "symptom",
+      "label": "«малиновый» язык"
+    },
+    {
+      "id": "symptom_skin_rash",
+      "type": "symptom",
+      "label": "высыпания на коже туловища и конечностей"
+    },
+    {
+      "id": "symptom_palm_sole_erythema",
+      "type": "symptom",
+      "label": "эритема кожи ладоней и подошв"
+    },
+    {
+      "id": "symptom_palm_sole_thickening",
+      "type": "symptom",
+      "label": "уплотнение кожи ладоней и подошв"
+    },
+    {
+      "id": "symptom_hand_foot_swelling",
+      "type": "symptom",
+      "label": "отек кистей и стоп"
+    },
+    {
+      "id": "symptom_fingertip_desquamation",
+      "type": "symptom",
+      "label": "шелушение кончиков пальцев"
+    },
+    {
+      "id": "symptom_cervical_lymphadenopathy",
+      "type": "symptom",
+      "label": "увеличенные шейные лимфоузлы"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "аритмия"
+    },
+    {
+      "id": "symptom_gallop_rhythm",
+      "type": "symptom",
+      "label": "ритм галопа"
+    },
+    {
+      "id": "symptom_mitral_regurgitation",
+      "type": "symptom",
+      "label": "митральная регургитация"
+    },
+    {
+      "id": "symptom_pericardial_effusion",
+      "type": "symptom",
+      "label": "перикардиальный выпот"
+    },
+    {
+      "id": "symptom_coronary_aneurysm",
+      "type": "symptom",
+      "label": "аневризмы коронарных артерий"
+    },
+    {
+      "id": "symptom_congestive_heart_failure",
+      "type": "symptom",
+      "label": "застойная сердечная недостаточность"
+    },
+    {
+      "id": "symptom_arthralgia",
+      "type": "symptom",
+      "label": "артралгия"
+    },
+    {
+      "id": "symptom_polyarthritis",
+      "type": "symptom",
+      "label": "полиартрит"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "диарея"
+    },
+    {
+      "id": "symptom_gallbladder_hydrops",
+      "type": "symptom",
+      "label": "водянка желчного пузыря"
+    },
+    {
+      "id": "symptom_aseptic_meningitis",
+      "type": "symptom",
+      "label": "асептический менингит"
+    },
+    {
+      "id": "symptom_pulmonary_infiltrates",
+      "type": "symptom",
+      "label": "легочные инфильтраты"
+    },
+    {
+      "id": "symptom_pleural_effusion",
+      "type": "symptom",
+      "label": "плевральный выпот"
+    },
+    {
+      "id": "symptom_polymorph_exanthem",
+      "type": "symptom",
+      "label": "полиморфная экзантема"
+    },
+    {
+      "id": "symptom_general_edema",
+      "type": "symptom",
+      "label": "отек"
+    },
+    {
+      "id": "symptom_redness",
+      "type": "symptom",
+      "label": "покраснение кожи"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лихорадка длительностью минимум 5 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bilateral_conjunctivitis",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Двусторонний конъюнктивит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_lips",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость, гиперемия и трещины губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_hyperemia",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cracked_lips",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трещины губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_mucosa_hyperemia",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия слизистой оболочки ротовой полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strawberry_tongue",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«малиновый» язык",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_rash",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "высыпания на коже туловища и конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palm_sole_erythema",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эритема кожи ладоней и подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palm_sole_thickening",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уплотнение кожи ладоней и подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_foot_swelling",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кистей и стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fingertip_desquamation",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шелушение кончиков пальцев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cervical_lymphadenopathy",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличенные шейные лимфоузлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аритмия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gallop_rhythm",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ритм галопа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mitral_regurgitation",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "митральная регургитация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_effusion",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перикардиальный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coronary_aneurysm",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аневризмы коронарных артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_congestive_heart_failure",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "застойная сердечная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артралгии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyarthritis",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "полиартрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gallbladder_hydrops",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "водянка желчного пузыря",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aseptic_meningitis",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асептический менингит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_infiltrates",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легочные инфильтраты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pleural_effusion",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плевральный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polymorph_exanthem",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "полиморфная экзантема",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_edema",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness",
+      "target": "diagnosis_kawasaki_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_irritability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: лихорадка; возбудимость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_joint_pain_small",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: лихорадка; ... боль в мелких суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: лихорадка; ... боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irritability",
+      "target": "symptom_joint_pain_small",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: возбудимость; боль в мелких суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irritability",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: возбудимость; боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain_small",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: боль в мелких суставах; боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bilateral_conjunctivitis",
+      "target": "symptom_dry_lips",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "двусторонний конъюнктивит; сухость, гиперемия и трещины губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bilateral_conjunctivitis",
+      "target": "symptom_lip_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "двусторонний конъюнктивит; ... гиперемия губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bilateral_conjunctivitis",
+      "target": "symptom_oral_mucosa_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "двусторонний конъюнктивит; ... гиперемия слизистой оболочки ротовой полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_lips",
+      "target": "symptom_lip_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость, гиперемия и трещины губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lip_hyperemia",
+      "target": "symptom_cracked_lips",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гиперемия губ; трещины губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cracked_lips",
+      "target": "symptom_oral_mucosa_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "трещины губ; гиперемия слизистой оболочки ротовой полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_mucosa_hyperemia",
+      "target": "symptom_strawberry_tongue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гиперемия слизистой оболочки ротовой полости; «малиновый» язык",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_rash",
+      "target": "symptom_palm_sole_erythema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "высыпания...; эритема кожи ладоней и подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_rash",
+      "target": "symptom_hand_foot_swelling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "высыпания...; отек кистей и стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palm_sole_erythema",
+      "target": "symptom_palm_sole_thickening",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эритема кожи ладоней и подошв; уплотнение кожи ладоней и подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palm_sole_thickening",
+      "target": "symptom_hand_foot_swelling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уплотнение кожи ладоней и подошв; отек кистей и стоп",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_foot_swelling",
+      "target": "symptom_fingertip_desquamation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек кистей и стоп; шелушение кончиков пальцев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "symptom_arrhythmia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тахикардия, аритмия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "symptom_gallop_rhythm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "аритмия, ритм галопа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gallop_rhythm",
+      "target": "symptom_mitral_regurgitation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ритм галопа; митральная регургитация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mitral_regurgitation",
+      "target": "symptom_pericardial_effusion",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "митральная регургитация; перикардиальный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_effusion",
+      "target": "symptom_coronary_aneurysm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перикардиальный выпот; аневризмы коронарных артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coronary_aneurysm",
+      "target": "symptom_congestive_heart_failure",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "аневризмы коронарных артерий; застойная сердечная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "symptom_polyarthritis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "артралгии или полиартрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_diarrhea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гепатомегалия; диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_infiltrates",
+      "target": "symptom_pleural_effusion",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "легочные инфильтраты и плевральный выпот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness",
+      "target": "symptom_general_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек; покраснение кожи",
+      "properties": {}
+    }
+  ]
+}

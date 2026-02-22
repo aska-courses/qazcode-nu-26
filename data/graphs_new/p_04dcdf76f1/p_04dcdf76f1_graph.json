@@ -1,0 +1,865 @@
+{
+  "protocol_id": "p_04dcdf76f1",
+  "nodes": [
+    {
+      "id": "diagnosis_a15",
+      "type": "diagnosis",
+      "label": "Туберкулез органов дыхания, подтвержденный бактериологически и гистологически",
+      "icd_code": "A15"
+    },
+    {
+      "id": "diagnosis_a16",
+      "type": "diagnosis",
+      "label": "Туберкулез органов дыхания, не подтвержденный бактериологически или гистологически",
+      "icd_code": "A16"
+    },
+    {
+      "id": "diagnosis_a19",
+      "type": "diagnosis",
+      "label": "Милиарный туберкулез",
+      "icd_code": "A19"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель более 2‑х недель"
+    },
+    {
+      "id": "symptom_sputum",
+      "type": "symptom",
+      "label": "Мокрота (слизистая, слизисто‑гнойная/гнойная с примесью крови, с запахом)"
+    },
+    {
+      "id": "symptom_hemoptysis",
+      "type": "symptom",
+      "label": "Кровохарканье"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка при физической нагрузке или в покое"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боль в грудной клетке"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела (вечером или ночью)"
+    },
+    {
+      "id": "symptom_night_sweats",
+      "type": "symptom",
+      "label": "Потливость (ночная)"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря веса"
+    },
+    {
+      "id": "symptom_loss_of_appetite",
+      "type": "symptom",
+      "label": "Снижение аппетита"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия (адинимия, апатия)"
+    },
+    {
+      "id": "symptom_apathy",
+      "type": "symptom",
+      "label": "Апатия"
+    },
+    {
+      "id": "symptom_emotional_lability",
+      "type": "symptom",
+      "label": "Эмоциональная лабильность"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Общая слабость (особенно в утренние часы)"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Быстрая утомляемость"
+    },
+    {
+      "id": "symptom_low_body_weight",
+      "type": "symptom",
+      "label": "Дефицит массы тела"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность (цианоз, периорбитальный цианоз, акроцианоз)"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_chest_wall_deformation",
+      "type": "symptom",
+      "label": "Деформация грудной клетки (уплощение/выбухание)"
+    },
+    {
+      "id": "symptom_accessory_muscle_use",
+      "type": "symptom",
+      "label": "Участие вспомогательной мускулатуры в акте дыхания"
+    },
+    {
+      "id": "symptom_chest_asymmetry",
+      "type": "symptom",
+      "label": "Отставание грудной клетки на стороне поражения"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "Учащение дыхания"
+    },
+    {
+      "id": "symptom_venous_network",
+      "type": "symptom",
+      "label": "Выраженная венозная сеть на грудной клетке"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Микрополиадения (увеличение периферических лимфатических узлов)"
+    },
+    {
+      "id": "symptom_skin_dryness",
+      "type": "symptom",
+      "label": "Сухость кожи"
+    },
+    {
+      "id": "symptom_skin_sweating",
+      "type": "symptom",
+      "label": "Потливость кожи"
+    },
+    {
+      "id": "symptom_tissue_turgor_decrease",
+      "type": "symptom",
+      "label": "Снижение тургора тканей"
+    },
+    {
+      "id": "symptom_voice_falter",
+      "type": "symptom",
+      "label": "Ослабление или отсутствие голосового дрожания"
+    },
+    {
+      "id": "symptom_peripheral_edema",
+      "type": "symptom",
+      "label": "Периферические отеки, пастозность"
+    },
+    {
+      "id": "symptom_percussion_dullness",
+      "type": "symptom",
+      "label": "Притупление или тупость перкуторного звука в зоне поражения"
+    },
+    {
+      "id": "symptom_rales_wet",
+      "type": "symptom",
+      "label": "Влажные разнокалиберные хрипы"
+    },
+    {
+      "id": "symptom_rales_dry",
+      "type": "symptom",
+      "label": "Сухие хрипы"
+    },
+    {
+      "id": "symptom_pleural_friction_rub",
+      "type": "symptom",
+      "label": "Шум трения плевры"
+    },
+    {
+      "id": "symptom_amphoric_breath",
+      "type": "symptom",
+      "label": "Амфорическое дыхание"
+    },
+    {
+      "id": "symptom_reduced_breath_sound",
+      "type": "symptom",
+      "label": "Ослабленное дыхание на стороне поражения"
+    },
+    {
+      "id": "symptom_bronchial_obstruction",
+      "type": "symptom",
+      "label": "Нарушение бронхиальной проходимости (ателектаз, гиповентиляция, гипервентиляция)"
+    },
+    {
+      "id": "symptom_spontaneous_pneumothorax",
+      "type": "symptom",
+      "label": "Спонтанный пневмоторакс"
+    },
+    {
+      "id": "symptom_atelactasis",
+      "type": "symptom",
+      "label": "Ателектаз"
+    },
+    {
+      "id": "symptom_hyperventilation",
+      "type": "symptom",
+      "label": "Гипервентиляция"
+    },
+    {
+      "id": "symptom_respiratory_failure",
+      "type": "symptom",
+      "label": "Легочная недостаточность"
+    },
+    {
+      "id": "symptom_cardiac_failure",
+      "type": "symptom",
+      "label": "Сердечно‑сосудистая недостаточность"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кашель более 2‑х недель (сухой/влажный)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кашель более 2‑х недель (сухой/влажный)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sputum",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "мокрота-слизистая, слизисто‑гнойная/гнойная с примесью крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sputum",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "мокрота-слизистая, слизисто‑гнойная/гнойная с примесью крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровохарканье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровохарканье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "одышка при физической нагрузке или в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "одышка при физической нагрузке или в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в грудной клетке (локализация, характер, длительность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в грудной клетке (локализация, характер, длительность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела (вечером или в ночное время)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела (вечером или в ночное время)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потливость (ночная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потливость (ночная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия (адинимия, апатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия (адинимия, апатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общая слабость (особенно в утренние часы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общая слабость (особенно в утренние часы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "быстрая утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "быстрая утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность (цианоз, периорбитальный цианоз, акроцианоз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность (цианоз, периорбитальный цианоз, акроцианоз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_wall_deformation",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация грудной клетки (уплощение/выбухание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_wall_deformation",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация грудной клетки (уплощение/выбухание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_accessory_muscle_use",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "участие вспомогательной мускулатуры в акте дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_accessory_muscle_use",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "участие вспомогательной мускулатуры в акте дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание грудной клетки на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание грудной клетки на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "учащение дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "учащение дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_venous_network",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная венозная сеть на грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_venous_network",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная венозная сеть на грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "микрополиадения (увеличение периферических лимфатических узлов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "микрополиадения (увеличение периферических лимфатических узлов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_dryness",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение эластичности, сухость/потливость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_dryness",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение эластичности, сухость/потливость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_sweating",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение эластичности, сухость/потливость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_sweating",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение эластичности, сухость/потливость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tissue_turgor_decrease",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение тургора тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tissue_turgor_decrease",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение тургора тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voice_falter",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабление или отсутствие голосового дрожания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voice_falter",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабление или отсутствие голосового дрожания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peripheral_edema",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "периферические отеки, пастозность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peripheral_edema",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "периферические отеки, пастозность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_percussion_dullness",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "притупление или тупость перкуторного звука в зоне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_percussion_dullness",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "притупление или тупость перкуторного звука в зоне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rales_wet",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "влажные разнокалиберные хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rales_wet",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "влажные разнокалиберные хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rales_dry",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rales_dry",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухие хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pleural_friction_rub",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шум трения плевры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pleural_friction_rub",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шум трения плевры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amphoric_breath",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "амфорическое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amphoric_breath",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "амфорическое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_breath_sound",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабленное дыхание на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_breath_sound",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабленное дыхание на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronchial_obstruction",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение бронхиальной проходимости (ателектаз, гиповентиляция, гипервентиляция)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bronchial_obstruction",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение бронхиальной проходимости (ателектаз, гиповентиляция, гипервентиляция)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spontaneous_pneumothorax",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спонтанный пневмоторакс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spontaneous_pneumothorax",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спонтанный пневмоторакс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atelactasis",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ателектаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atelactasis",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ателектаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperventilation",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипервентиляция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperventilation",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипервентиляция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легочная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легочная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiac_failure",
+      "target": "diagnosis_a15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сердечно‑сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiac_failure",
+      "target": "diagnosis_a16",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сердечно‑сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_sputum",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кашель более 2‑х недель (сухой/влажный); • мокрота-слизистая, слизисто‑гнойная/гнойная с примесью крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_night_sweats",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела (вечером или в ночное время); • потливость (ночная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "symptom_night_sweats",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потеря веса; • потливость (ночная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "symptom_cough",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кровохарканье; • кашель более 2‑х недель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_chest_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка при физической нагрузке или в покое; • боль в грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_a15",
+      "target": "diagnosis_a16",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: A15 Туберкулез органов дыхания, подтвержденный ... A16 Туберкулез органов дыхания, не подтвержденный ...",
+      "properties": {}
+    }
+  ]
+}

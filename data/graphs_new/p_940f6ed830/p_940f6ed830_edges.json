@@ -1,0 +1,322 @@
+[
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при легкой степени - рвота до 4–5 раз в день, тошнота, апатия и снижение трудоспособности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apathy",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при легкой степени - рвота до 4–5 раз в день, тошнота, апатия и снижение трудоспособности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_work_capacity",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при легкой степени - рвота до 4–5 раз в день, тошнота, апатия и снижение трудоспособности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypersalivation",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при средней степени – ... слюнотечение, значительная слабость, ... при тяжелой степени - ... обильное слюнотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при тяжелой степени - ... значительная слабость, апатия, запор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при тяжелой степени - ... головные боли, головокружение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при тяжелой степени - ... головные боли, головокружение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_right_upper_quadrant_pain",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при тяжелой степени - ... боли в правом подреберье, запор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constipation",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при средней степени – ... запор. при тяжелой степени - ... запор.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_skin",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "средняя степень – сухость кожи, субфебрильная температура тела, тахикардия, артериальная гипотензия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrile_temperature",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "средняя степень – сухость кожи, субфебрильная температура тела, тахикардия, артериальная гипотензия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "легкая степень – умеренная тахикардия, артериальная гипотензия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterial_hypotension",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "легкая степень – умеренная тахикардия, артериальная гипотензия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acetone_breath",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тяжелая степень – ... сухость и дряблость кожи, субфебрильная температура, запах ацетона изо рта; выраженная тахикардия, артериальная гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acetoneuria",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Анализ мочи на определение кетоновых тел: реакция мочи на ацетон резко положительная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metabolic_acidosis",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Определение КОС крови: метаболический ацидоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cylindruria",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyturia",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urobilinuria",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bilirubinuria",
+    "target": "diagnosis_o21_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к плановой госпитализации: ... повышения температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_hematocrit",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – ОАК: увеличение Ht (более 42%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – ОАК: ... лейкоцитоз (более 9х10^9/л)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_bun",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – биохимический анализ крови: повышение уровня остаточного азота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_urea",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – биохимический анализ крови: повышение уровня мочевины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperbilirubinemia",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – биохимический анализ крови: повышение уровня билирубина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_hemoglobin",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – снижение гемоглобина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_total_protein",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – незначительное снижение общего белка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_albumin",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – уменьшение содержания альбуминов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_cholesterol",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – снижение холестерина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_potassium",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – снижение калия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_chloride",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая степень – снижение хлоридов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatty_liver",
+    "target": "diagnosis_o21",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "УЗИ органов брюшной полости: жировая дистрофия печени (при рвоте беременных тяжелой степени/чрезмерная рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypersalivation",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при средней степени – ... слюнотечение, значительная слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_skin",
+    "target": "symptom_subfebrile_temperature",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "средняя степень – сухость кожи, субфебрильная температура тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_arterial_hypotension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "легкая степень – умеренная тахикардия, артериальная гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acetone_breath",
+    "target": "symptom_metabolic_acidosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тяжелая степень – ... запах ацетона изо рта; ... метаболический ацидоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "symptom_cylindruria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ОАМ – протеинурия, цилиндрурия, уробилинурия, эритроцитурия, лейкоцитурия",
+    "properties": {}
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие опухолевого образования в области глотки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство инородного тела в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение функции глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обильная саливация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение шейных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение подчелюстных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение подбородочных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровотечение из опухоли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "опухолевый стеноз глотки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экзофитное образование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "язвенно‑инфильтративное образование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плотное образование небной миндалины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_15",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плотное образование корня языка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_16",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плотное образование передней небной дужки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_17",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличенные шейные лимфоузлы плотной консистенции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_18",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неподвижные лимфоузлы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_19",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тугоподвижные лимфоузлы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_20",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабоболезненные лимфоузлы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_21",
+    "target": "diagnosis_c10",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие опухолевого образования в области глотки; чувство инородного тела в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "symptom_6",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличение шейных, подчелюстных, подбородочных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "symptom_15",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плотное образование небной миндалины, или корня языка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_17",
+    "target": "symptom_18",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличенные шейные лимфоузлы ... неподвижные или тугоподвижные",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c10",
+    "target": "diagnosis_c10_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "С10 ЗНО ротоглотки; С10.0 ЗНО ямки надгортанника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c10",
+    "target": "diagnosis_c10_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "С10 ЗНО ротоглотки; С10.2 ЗНО боковой стенки ротоглотки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c10",
+    "target": "diagnosis_c10_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "С10 ЗНО ротоглотки; С10.3 ЗНО задней стенки ротоглотки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c10",
+    "target": "diagnosis_c10_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "С10 ЗНО ротоглотки; С10.9 ЗНО ротоглотки неуточненное",
+    "properties": {}
+  }
+]

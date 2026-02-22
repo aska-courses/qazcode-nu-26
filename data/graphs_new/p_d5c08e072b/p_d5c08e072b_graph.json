@@ -1,0 +1,275 @@
+{
+  "protocol_id": "p_d5c08e072b",
+  "nodes": [
+    {
+      "id": "diagnosis_c00",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование губы",
+      "icd_code": "C00"
+    },
+    {
+      "id": "diagnosis_c01",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования основания языка",
+      "icd_code": "C01"
+    },
+    {
+      "id": "diagnosis_c02",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование других и неуточненных частей языка",
+      "icd_code": "C02"
+    },
+    {
+      "id": "diagnosis_c04",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование дна полости рта",
+      "icd_code": "C04"
+    },
+    {
+      "id": "diagnosis_c06",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование других и неуточненных отделов рта",
+      "icd_code": "C06"
+    },
+    {
+      "id": "diagnosis_c14",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование других и неточно обозначенных локализаций губы, полости рта и глотки",
+      "icd_code": "C14"
+    },
+    {
+      "id": "diagnosis_c15",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование пищевода",
+      "icd_code": "C15"
+    },
+    {
+      "id": "diagnosis_c16",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование желудка",
+      "icd_code": "C16"
+    },
+    {
+      "id": "diagnosis_c20",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование прямой кишки",
+      "icd_code": "C20"
+    },
+    {
+      "id": "diagnosis_c21",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование заднего прохода (ануса) и анального канала",
+      "icd_code": "C21"
+    },
+    {
+      "id": "diagnosis_c22",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование печени и внутрипеченочных желчных протоков",
+      "icd_code": "C22"
+    },
+    {
+      "id": "diagnosis_c33",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование трахеи",
+      "icd_code": "C33"
+    },
+    {
+      "id": "diagnosis_c34",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование бронхов и легкого",
+      "icd_code": "C34"
+    },
+    {
+      "id": "diagnosis_c44",
+      "type": "diagnosis",
+      "label": "Другие злокачественные новообразования кожи",
+      "icd_code": "C44"
+    },
+    {
+      "id": "diagnosis_c45",
+      "type": "diagnosis",
+      "label": "Мезотелиома",
+      "icd_code": "C45"
+    },
+    {
+      "id": "diagnosis_c50",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование молочной железы",
+      "icd_code": "C50"
+    },
+    {
+      "id": "diagnosis_c51",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование вульвы",
+      "icd_code": "C51"
+    },
+    {
+      "id": "diagnosis_c53",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование шейки матки",
+      "icd_code": "C53"
+    },
+    {
+      "id": "diagnosis_c67",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование мочевого пузыря",
+      "icd_code": "C67"
+    },
+    {
+      "id": "symptom_bolevoy_sindrom",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_povyshenie_temperatury",
+      "type": "symptom",
+      "label": "Повышение температуры"
+    },
+    {
+      "id": "symptom_subfebrilnye_tsifry",
+      "type": "symptom",
+      "label": "Субфебрильные цифры"
+    },
+    {
+      "id": "symptom_allergicheskie_reaktsii",
+      "type": "symptom",
+      "label": "Аллергические реакции"
+    },
+    {
+      "id": "symptom_fototoksicheskie_reaktsii_kozhi",
+      "type": "symptom",
+      "label": "Фототоксические реакции кожи"
+    },
+    {
+      "id": "symptom_gerpeticheskie_vysypaniya",
+      "type": "symptom",
+      "label": "Герпетические высыпания"
+    },
+    {
+      "id": "symptom_povyshenie_ad",
+      "type": "symptom",
+      "label": "Повышение артериального давления"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "Ощущение жжения"
+    },
+    {
+      "id": "symptom_rezkie_boli",
+      "type": "symptom",
+      "label": "Резкие боли"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "Боль"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bolevoy_sindrom",
+      "target": "symptom_povyshenie_temperatury",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "Во время проведения процедуры ФДТ возможен болевой синдром различной степени выраженности, редко отмечается повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_allergicheskie_reaktsii",
+      "target": "symptom_fototoksicheskie_reaktsii_kozhi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Возможны аллергические реакции. При воздействии солнечного света возможны фототоксические реакции кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "symptom_rezkie_boli",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При проведении сеанса ФДТ возможны болевые ощущения различной степени выраженности (от чувства жжения до резких болей)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При проведении сеанса ФДТ возможны болевые ощущения различной степени выраженности (от чувства жжения до резких болей)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rezkie_boli",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При проведении сеанса ФДТ возможны болевые ощущения различной степени выраженности (от чувства жжения до резких болей)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "symptom_povyshenie_ad",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "В редких случаях возможны кратковременное транзиторное повышение температуры тела и АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "symptom_gerpeticheskie_vysypaniya",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "В редких случаях возможны кратковременное транзиторное повышение температуры тела и АД, а также герпетические высыпания в области губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_ad",
+      "target": "symptom_gerpeticheskie_vysypaniya",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "В редких случаях возможны кратковременное транзиторное повышение температуры тела и АД, а также герпетические высыпания в области губ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c00",
+      "target": "diagnosis_c04",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "C00 Злокачественное новообразование губы ... C04 Злокачественное новообразование дна полости рта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c01",
+      "target": "diagnosis_c02",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "C01 Злокачественные новообразования основания языка ... C02 Злокачественное новообразование других и неуточненных частей языка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c15",
+      "target": "diagnosis_c16",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "C15 Злокачественное новообразование пищевода ... C16 Злокачественное новообразование желудка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c33",
+      "target": "diagnosis_c34",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "C33 Злокачественное новообразование трахеи ... C34 Злокачественное новообразование бронхов и легкого",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c20",
+      "target": "diagnosis_c21",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "C20 Злокачественное новообразование прямой кишки ... C21 Злокачественное новообразование заднего прохода (ануса) и анального канала",
+      "properties": {}
+    }
+  ]
+}

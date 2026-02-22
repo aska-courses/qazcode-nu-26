@@ -1,0 +1,353 @@
+{
+  "protocol_id": "p_7eab30b509",
+  "nodes": [
+    {
+      "id": "diagnosis_j60",
+      "type": "diagnosis",
+      "label": "пневмокониоз угольщика",
+      "icd_code": "J60"
+    },
+    {
+      "id": "diagnosis_j61",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный асбестом и другими минеральными веществами",
+      "icd_code": "J61"
+    },
+    {
+      "id": "diagnosis_j62",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный пылью, содержащей кремний",
+      "icd_code": "J62"
+    },
+    {
+      "id": "diagnosis_j62_0",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный тальковой пылью",
+      "icd_code": "J62.0"
+    },
+    {
+      "id": "diagnosis_j62_8",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный другой пылью, содержащей кремний",
+      "icd_code": "J62.8"
+    },
+    {
+      "id": "diagnosis_j63",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный другой неорганической пылью",
+      "icd_code": "J63"
+    },
+    {
+      "id": "diagnosis_j63_0",
+      "type": "diagnosis",
+      "label": "алюминоз (легкого)",
+      "icd_code": "J63.0"
+    },
+    {
+      "id": "diagnosis_j63_4",
+      "type": "diagnosis",
+      "label": "сидероз",
+      "icd_code": "J63.4"
+    },
+    {
+      "id": "diagnosis_j63_5",
+      "type": "diagnosis",
+      "label": "станноз",
+      "icd_code": "J63.5"
+    },
+    {
+      "id": "diagnosis_j63_8",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный другой уточненной неорганической пылью",
+      "icd_code": "J63.8"
+    },
+    {
+      "id": "diagnosis_j64",
+      "type": "diagnosis",
+      "label": "пневмокониоз неуточненный",
+      "icd_code": "J64"
+    },
+    {
+      "id": "diagnosis_j65",
+      "type": "diagnosis",
+      "label": "пневмокониоз, связанный с туберкулезом",
+      "icd_code": "J65"
+    },
+    {
+      "id": "diagnosis_j66_0",
+      "type": "diagnosis",
+      "label": "пневмокониоз, вызванный органической пылью (амилоз, биссиноз, табакоз)",
+      "icd_code": "J66.0"
+    },
+    {
+      "id": "symptom_bol_v_grudi",
+      "type": "symptom",
+      "label": "боль в груди"
+    },
+    {
+      "id": "symptom_odishka",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_kashl",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_mokrota",
+      "type": "symptom",
+      "label": "мокрота"
+    },
+    {
+      "id": "symptom_hriopy",
+      "type": "symptom",
+      "label": "хрипы"
+    },
+    {
+      "id": "symptom_tahikardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_udlinenie_vydeha",
+      "type": "symptom",
+      "label": "удлинение выдоха"
+    },
+    {
+      "id": "symptom_zhestkiy_vezikulyarnyi_dykhanie",
+      "type": "symptom",
+      "label": "жесткий характер везикулярного дыхания"
+    },
+    {
+      "id": "symptom_oslablenie_vezikulyarnogo_dykhaniya",
+      "type": "symptom",
+      "label": "ослабление везикулярного дыхания"
+    },
+    {
+      "id": "symptom_perkutorny_zvuk_korobochnii",
+      "type": "symptom",
+      "label": "коробочный оттенок перкуторного звука"
+    },
+    {
+      "id": "symptom_deformaciya_falang_i_zakruglenost_nogtey",
+      "type": "symptom",
+      "label": "деформация концевых фаланг пальцев рук и закругленность ногтей"
+    },
+    {
+      "id": "symptom_aktsent_ii_tona_nad_legkoi_arteriei",
+      "type": "symptom",
+      "label": "акцент II тона над легочной артерией"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_grudi",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможны жалобы на боли в груди, одышку и кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможны жалобы на боли в груди, одышку и кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможны жалобы на боли в груди, одышку и кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mokrota",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кашель обычно сухой или со скудной вязкой мокротой. При присоединении инфекционного процесса мокрота становится более обильной.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hriopy",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при развитии хронического бронхита сухие свистящие хрипы во время обычного дыхания или форсированного выдоха.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тоны сердца ... возможно тахикардия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_udlinenie_vydeha",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при аускультации легких может отмечаться удлинение выдоха и жесткий характер везикулярного дыхания или ослабление.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhestkiy_vezikulyarnyi_dykhanie",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при аускультации легких может отмечаться удлинение выдоха и жесткий характер везикулярного дыхания или ослабление.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oslablenie_vezikulyarnogo_dykhaniya",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при аускультации легких может отмечаться удлинение выдоха и жесткий характер везикулярного дыхания или ослабление.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perkutorny_zvuk_korobochnii",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при развитии эмфиземы легких перкуторный звук имеет коробочный оттенок.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_falang_i_zakruglenost_nogtey",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "у части больных можно констатировать деформацию концевых фаланг пальцев рук и закругленность ногтей.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aktsent_ii_tona_nad_legkoi_arteriei",
+      "target": "diagnosis_j64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тоны сердца нормальной звучности, приглушены, возможно тахикардия, акцент II тона над легочной артерией.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_grudi",
+      "target": "symptom_odishka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Возможны жалобы на боли в груди, одышку и кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_grudi",
+      "target": "symptom_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Возможны жалобы на боли в груди, одышку и кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "symptom_kashl",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Возможны жалобы на боли в груди, одышку и кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "symptom_mokrota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кашель обычно сухой или со скудной вязкой мокротой. При присоединении инфекционного процесса кашель может становиться более выраженным, а мокрота — более обильной.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashl",
+      "target": "symptom_hriopy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при развитии хронического бронхита сухие свистящие хрипы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odishka",
+      "target": "symptom_udlinenie_vydeha",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при аускультации легких может отмечаться удлинение выдоха ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_udlinenie_vydeha",
+      "target": "symptom_zhestkiy_vezikulyarnyi_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "может отмечаться удлинение выдоха и жесткий характер везикулярного дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhestkiy_vezikulyarnyi_dykhanie",
+      "target": "symptom_oslablenie_vezikulyarnogo_dykhaniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жесткий характер везикулярного дыхания или ослабление",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia",
+      "target": "symptom_aktsent_ii_tona_nad_legkoi_arteriei",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможно тахикардия, акцент II тона над легочной артерией.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j60",
+      "target": "diagnosis_j61",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В таблице соотношения кодов МКБ‑10 перечислены J60, J61, J62 и др.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j61",
+      "target": "diagnosis_j62",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В таблице соотношения кодов МКБ‑10 перечислены J61, J62, J63 и др.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j62",
+      "target": "diagnosis_j63",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В таблице соотношения кодов МКБ‑10 перечислены J62, J63, J64 и др.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j63",
+      "target": "diagnosis_j64",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В таблице соотношения кодов МКБ‑10 перечислены J63, J64, J65 и др.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j64",
+      "target": "diagnosis_j65",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "В таблице соотношения кодов МКБ‑10 перечислены J64, J65, J66.0.",
+      "properties": {}
+    }
+  ]
+}

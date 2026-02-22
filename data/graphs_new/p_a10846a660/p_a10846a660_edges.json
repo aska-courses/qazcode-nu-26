@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_foot_deformation",
+    "target": "diagnosis_flat_foot_acquired",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие деформации стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_deformation",
+    "target": "diagnosis_heel_valgus",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие деформации стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_deformation",
+    "target": "diagnosis_congenital_flat_foot",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие деформации стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_deformation",
+    "target": "diagnosis_other_congenital_valgus_deformities",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие деформации стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_longitudinal_arch",
+    "target": "diagnosis_flat_foot_acquired",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие продольного свода стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_longitudinal_arch",
+    "target": "diagnosis_heel_valgus",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие продольного свода стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_longitudinal_arch",
+    "target": "diagnosis_congenital_flat_foot",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие продольного свода стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_longitudinal_arch",
+    "target": "diagnosis_other_congenital_valgus_deformities",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие продольного свода стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_pain_walking",
+    "target": "diagnosis_flat_foot_acquired",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли при ходьбе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_pain_walking",
+    "target": "diagnosis_heel_valgus",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли при ходьбе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_pain_walking",
+    "target": "diagnosis_congenital_flat_foot",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли при ходьбе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_pain_walking",
+    "target": "diagnosis_other_congenital_valgus_deformities",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли при ходьбе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leg_fatigue",
+    "target": "diagnosis_flat_foot_acquired",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "усталость ног",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leg_fatigue",
+    "target": "diagnosis_heel_valgus",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "усталость ног",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leg_fatigue",
+    "target": "diagnosis_congenital_flat_foot",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "усталость ног",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leg_fatigue",
+    "target": "diagnosis_other_congenital_valgus_deformities",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "усталость ног",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_deformation",
+    "target": "symptom_absent_longitudinal_arch",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/вмешательству: ... наличие деформации стопы; ... отсутствие продольного свода стопы;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_deformation",
+    "target": "symptom_foot_pain_walking",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/вмешательству: ... наличие деформации стопы; ... боли при ходьбе;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_deformation",
+    "target": "symptom_leg_fatigue",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/вмешательству: ... наличие деформации стопы; ... усталость ног;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_longitudinal_arch",
+    "target": "symptom_foot_pain_walking",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/вмешательству: ... отсутствие продольного свода стопы; ... боли при ходьбе;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_longitudinal_arch",
+    "target": "symptom_leg_fatigue",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/вмешательству: ... отсутствие продольного свода стопы; ... усталость ног;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foot_pain_walking",
+    "target": "symptom_leg_fatigue",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания к процедуре/вмешательству: ... боли при ходьбе; ... усталость ног;",
+    "properties": {}
+  }
+]

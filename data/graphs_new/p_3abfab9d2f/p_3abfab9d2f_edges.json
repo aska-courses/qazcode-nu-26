@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_poor_weight_height_gain",
+    "target": "diagnosis_e40_kvashiorcor",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плохую прибавку в весе и росте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_e40_kvashiorcor",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoalbuminemia",
+    "target": "diagnosis_e40_kvashiorcor",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипоальбуминемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_development_delay",
+    "target": "diagnosis_e45_development_delay_due_to_pe_malnutrition",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "задержка физического развития",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neuropsychic_development_delay",
+    "target": "diagnosis_e45_development_delay_due_to_pe_malnutrition",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "задержка нервно‑психического развития",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia",
+    "target": "diagnosis_e43_severe_pe_malnutrition",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипогликемией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypothermia",
+    "target": "diagnosis_e43_severe_pe_malnutrition",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотермия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_e43_severe_pe_malnutrition",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polygipovitaminosis",
+    "target": "diagnosis_e44_moderate_pe_malnutrition",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки полигиповитаминоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_weight_height_gain",
+    "target": "symptom_poor_appetite",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плохую прибавку в весе и росте, плохой аппетит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_hypoalbuminemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отёки, гипоальбуминемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_development_delay",
+    "target": "symptom_neuropsychic_development_delay",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "задержка физического и нервно‑психического развития",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e40_kvashiorcor",
+    "target": "diagnosis_e41_almintary_marasms",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Квашиоркор. Алиментарный маразм.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e41_almintary_marasms",
+    "target": "diagnosis_e42_marasmatic_kvashiorcor",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Алиментарный маразм. Маразматический квашиоркор.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e43_severe_pe_malnutrition",
+    "target": "diagnosis_e44_moderate_pe_malnutrition",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Тяжёлая белково‑энергетическая недостаточность неуточнённая. Белково‑энергетическая недостаточность неуточнённая умеренной и слабой степени.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e44_moderate_pe_malnutrition",
+    "target": "diagnosis_e45_development_delay_due_to_pe_malnutrition",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Белково‑энергетическая недостаточность неуточнённая умеренной и слабой степени. Задержка развития, обусловленная белково‑энергетической недостаточностью.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e45_development_delay_due_to_pe_malnutrition",
+    "target": "diagnosis_e46_unspecified_pe_malnutrition",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Задержка развития, обусловленная белково‑энергетической недостаточностью. Белково‑энергетическая недостаточность неуточнённая.",
+    "properties": {}
+  }
+]

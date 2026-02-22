@@ -1,0 +1,524 @@
+{
+  "protocol_id": "p_10c2f76b6c",
+  "nodes": [
+    {
+      "id": "diagnosis_takayasu_arteritis",
+      "type": "diagnosis",
+      "label": "Синдром дуги аорты (Такаясу)",
+      "icd_code": "M31.4"
+    },
+    {
+      "id": "symptom_subfebrile",
+      "type": "symptom",
+      "label": "Субфебрилитет"
+    },
+    {
+      "id": "symptom_intermittent_claudication",
+      "type": "symptom",
+      "label": "Перемежающаяся хромота"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_skin_lesions",
+      "type": "symptom",
+      "label": "\"Свечи\" (кожные поражения)"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Рецидивирующая боль за грудиной"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Усталость"
+    },
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_muscle_pain",
+      "type": "symptom",
+      "label": "Боль в мышцах"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Боль в суставах"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря массы тела"
+    },
+    {
+      "id": "symptom_rash",
+      "type": "symptom",
+      "label": "Сыпь"
+    },
+    {
+      "id": "symptom_pulse_asymmetry",
+      "type": "symptom",
+      "label": "Асимметрия пульса"
+    },
+    {
+      "id": "symptom_absent_pulse",
+      "type": "symptom",
+      "label": "Отсутствие пульса"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Повышенное артериальное давление (артериальная гипертензия)"
+    },
+    {
+      "id": "symptom_vascular_bruit",
+      "type": "symptom",
+      "label": "Локальные сосудистые шумы"
+    },
+    {
+      "id": "symptom_numbness_fingers",
+      "type": "symptom",
+      "label": "Онемение пальцев"
+    },
+    {
+      "id": "symptom_exertional_hand_pain",
+      "type": "symptom",
+      "label": "Боль при нагрузке в руках"
+    },
+    {
+      "id": "symptom_exertional_leg_pain",
+      "type": "symptom",
+      "label": "Боль при нагрузке в ногах"
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "Боль в спине"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_cardiomegaly",
+      "type": "symptom",
+      "label": "Увеличение левой границы сердца (кардиомегалия)"
+    },
+    {
+      "id": "symptom_mitral_systolic_murmur",
+      "type": "symptom",
+      "label": "Систолический шум в проекции митрального клапана"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_syncope",
+      "type": "symptom",
+      "label": "Обморок"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_tia",
+      "type": "symptom",
+      "label": "Транзиторные ишемические атаки"
+    },
+    {
+      "id": "symptom_stroke",
+      "type": "symptom",
+      "label": "Инсульт"
+    },
+    {
+      "id": "symptom_visual_impairment",
+      "type": "symptom",
+      "label": "Снижение остроты зрения"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Диарея"
+    },
+    {
+      "id": "symptom_abdominal_bruit",
+      "type": "symptom",
+      "label": "Сосудистый шум в брюшной полости"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_hemoptysis",
+      "type": "symptom",
+      "label": "Кровохарканье"
+    },
+    {
+      "id": "symptom_recurrent_pneumonia",
+      "type": "symptom",
+      "label": "Рецидивирующие пневмонии"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_subfebrile",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• субфебрилитет",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intermittent_claudication",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• боль в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_lesions",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«свечи» (кожные поражения)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рецидивирующая боль за грудиной",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение общей слабости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rash",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulse_asymmetry",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асимметрия пульса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absent_pulse",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное артериальное давление (артериальная гипертензия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vascular_bruit",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальные сосудистые шумы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_numbness_fingers",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "онемение пальцев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exertional_hand_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при нагрузке в руках",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exertional_leg_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при нагрузке в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiomegaly",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение левой границы сердца (кардиомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mitral_systolic_murmur",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "систолический шум в проекции митрального клапана",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_syncope",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обморок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tia",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "транзиторные ишемические атаки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stroke",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инсульт",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_impairment",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_bruit",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сосудистый шум в брюшной полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровохарканье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_recurrent_pneumonia",
+      "target": "diagnosis_takayasu_arteritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рецидивирующие пневмонии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile",
+      "target": "symptom_intermittent_claudication",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "• субфебрилитет; • перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_skin_lesions",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "• боль в животе; «свечи» (кожные поражения)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_fatigue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рецидивирующая боль за грудиной; усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "головная боль; головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_diarrhea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рвота; диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_hemoptysis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кашель; кровохарканье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "symptom_cardiomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тахикардия; увеличение левой границы сердца (кардиомегалия)",
+      "properties": {}
+    }
+  ]
+}

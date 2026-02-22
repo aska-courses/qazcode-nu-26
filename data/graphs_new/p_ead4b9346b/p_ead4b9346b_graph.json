@@ -1,0 +1,396 @@
+{
+  "protocol_id": "p_ead4b9346b",
+  "nodes": [
+    {
+      "id": "diag_jb60",
+      "type": "diagnosis",
+      "label": "Материнская смерть по анестезии в период неуточненной причине беременности",
+      "icd_code": "JB60"
+    },
+    {
+      "id": "diag_o29_1",
+      "type": "diagnosis",
+      "label": "Остановка сердца вследствие анестезии при беременности",
+      "icd_code": "O29.1"
+    },
+    {
+      "id": "diag_ja67",
+      "type": "diagnosis",
+      "label": "Неудача или трудности при осложнениях анестезии",
+      "icd_code": "JA67"
+    },
+    {
+      "id": "diag_o29_6",
+      "type": "diagnosis",
+      "label": "Осложнения интубации во время беременности",
+      "icd_code": "O29.6"
+    },
+    {
+      "id": "diag_jb62",
+      "type": "diagnosis",
+      "label": "Осложнения, связанные с анестезией",
+      "icd_code": "JB62"
+    },
+    {
+      "id": "diag_o74",
+      "type": "diagnosis",
+      "label": "Материнская смерть при проведении анестезии во время родов",
+      "icd_code": "O74"
+    },
+    {
+      "id": "diag_jb63",
+      "type": "diagnosis",
+      "label": "Инфекционные болезни матери",
+      "icd_code": "JB63"
+    },
+    {
+      "id": "diag_i46",
+      "type": "diagnosis",
+      "label": "Остановка сердца",
+      "icd_code": "I46"
+    },
+    {
+      "id": "diag_mc82",
+      "type": "diagnosis",
+      "label": "Остановка сердца",
+      "icd_code": "MC82"
+    },
+    {
+      "id": "symp_absence_of_breathing",
+      "type": "symptom",
+      "label": "Отсутствие дыхания"
+    },
+    {
+      "id": "symp_absence_of_consciousness",
+      "type": "symptom",
+      "label": "Отсутствие сознания"
+    },
+    {
+      "id": "symp_pale_gray_skin",
+      "type": "symptom",
+      "label": "Бледно‑серые кожные покровы"
+    },
+    {
+      "id": "symp_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symp_desaturation",
+      "type": "symptom",
+      "label": "Десатурация"
+    },
+    {
+      "id": "symp_asystole",
+      "type": "symptom",
+      "label": "Асистолия"
+    },
+    {
+      "id": "symp_ventricular_fibrillation",
+      "type": "symptom",
+      "label": "Фибрилляция желудочков"
+    },
+    {
+      "id": "symp_ventricular_tachycardia",
+      "type": "symptom",
+      "label": "Желудочковая тахикардия"
+    },
+    {
+      "id": "symp_pulseless_electrical_activity",
+      "type": "symptom",
+      "label": "Беспульсовая электрическая активность сердца"
+    },
+    {
+      "id": "symp_hyperventilation",
+      "type": "symptom",
+      "label": "Гипервентиляция"
+    },
+    {
+      "id": "symp_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия"
+    },
+    {
+      "id": "symp_hypovolemia",
+      "type": "symptom",
+      "label": "Гиповолемия"
+    },
+    {
+      "id": "symp_wide_complex_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия с широкими комплексами"
+    },
+    {
+      "id": "symp_hypo_hyperglycemia",
+      "type": "symptom",
+      "label": "Гипо‑ или гипергликемия"
+    },
+    {
+      "id": "symp_electrolyte_imbalance",
+      "type": "symptom",
+      "label": "Дисэлектролитемия"
+    },
+    {
+      "id": "symp_decreased_erythrocytes",
+      "type": "symptom",
+      "label": "Снижение уровня эритроцитов"
+    },
+    {
+      "id": "symp_decreased_hemoglobin",
+      "type": "symptom",
+      "label": "Снижение уровня гемоглобина"
+    },
+    {
+      "id": "symp_decreased_hematocrit",
+      "type": "symptom",
+      "label": "Снижение уровня гематокрита"
+    },
+    {
+      "id": "symp_electromechanical_dissociation",
+      "type": "symptom",
+      "label": "Электромеханическая диссоциация"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symp_absence_of_breathing",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "✓ отсутствие дыхания;",
+      "properties": {}
+    },
+    {
+      "source": "symp_absence_of_breathing",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "✓ отсутствие дыхания;",
+      "properties": {}
+    },
+    {
+      "source": "symp_absence_of_consciousness",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "✓ отсутствие сознания с признаками нарушения кровообращения(кожные покровы бледно-серые, изредка с цианотичным оттенком).",
+      "properties": {}
+    },
+    {
+      "source": "symp_absence_of_consciousness",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "✓ отсутствие сознания с признаками нарушения кровообращения(кожные покровы бледно-серые, изредка с цианотичным оттенком).",
+      "properties": {}
+    },
+    {
+      "source": "symp_pale_gray_skin",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные покровы бледно-серые",
+      "properties": {}
+    },
+    {
+      "source": "symp_pale_gray_skin",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные покровы бледно-серые",
+      "properties": {}
+    },
+    {
+      "source": "symp_cyanosis",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "изредка с цианотичным оттенком",
+      "properties": {}
+    },
+    {
+      "source": "symp_cyanosis",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "изредка с цианотичным оттенком",
+      "properties": {}
+    },
+    {
+      "source": "symp_desaturation",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Пульсоксиметрия: десатурация.",
+      "properties": {}
+    },
+    {
+      "source": "symp_desaturation",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Пульсоксиметрия: десатурация.",
+      "properties": {}
+    },
+    {
+      "source": "symp_asystole",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭКГ: асистолия, нарушение ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symp_asystole",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭКГ: асистолия, нарушение ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symp_ventricular_fibrillation",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "фибрилляция желудочков",
+      "properties": {}
+    },
+    {
+      "source": "symp_ventricular_fibrillation",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "фибрилляция желудочков",
+      "properties": {}
+    },
+    {
+      "source": "symp_ventricular_tachycardia",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "желудочковая тахикардия без пульса",
+      "properties": {}
+    },
+    {
+      "source": "symp_ventricular_tachycardia",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "желудочковая тахикардия без пульса",
+      "properties": {}
+    },
+    {
+      "source": "symp_pulseless_electrical_activity",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "беспульсовая электрическая активность сердца",
+      "properties": {}
+    },
+    {
+      "source": "symp_pulseless_electrical_activity",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "беспульсовая электрическая активность сердца",
+      "properties": {}
+    },
+    {
+      "source": "symp_electromechanical_dissociation",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "электромеханическая диссоциация",
+      "properties": {}
+    },
+    {
+      "source": "symp_electromechanical_dissociation",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "электромеханическая диссоциация",
+      "properties": {}
+    },
+    {
+      "source": "symp_electrolyte_imbalance",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисэлектролитемия (повышение, снижение)",
+      "properties": {}
+    },
+    {
+      "source": "symp_electrolyte_imbalance",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисэлектролитемия (повышение, снижение)",
+      "properties": {}
+    },
+    {
+      "source": "symp_hypo_hyperglycemia",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипо или гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symp_hypo_hyperglycemia",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипо или гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symp_decreased_erythrocytes",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение уровня эритроцитов",
+      "properties": {}
+    },
+    {
+      "source": "symp_decreased_erythrocytes",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение уровня эритроцитов",
+      "properties": {}
+    },
+    {
+      "source": "symp_decreased_hemoglobin",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение уровня гемоглобина",
+      "properties": {}
+    },
+    {
+      "source": "symp_decreased_hemoglobin",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение уровня гемоглобина",
+      "properties": {}
+    },
+    {
+      "source": "symp_decreased_hematocrit",
+      "target": "diag_i46",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение уровня гематокрита",
+      "properties": {}
+    },
+    {
+      "source": "symp_decreased_hematocrit",
+      "target": "diag_mc82",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение уровня гематокрита",
+      "properties": {}
+    }
+  ]
+}

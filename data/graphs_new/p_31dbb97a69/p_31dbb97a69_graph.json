@@ -1,0 +1,147 @@
+{
+  "protocol_id": "p_31dbb97a69",
+  "nodes": [
+    {
+      "id": "diagnosis_hronic_instability_knee",
+      "type": "diagnosis",
+      "label": "Хроническая нестабильность коленного сустава",
+      "icd_code": "M23.5"
+    },
+    {
+      "id": "diagnosis_multi_structure_knee_trauma",
+      "type": "diagnosis",
+      "label": "Травма нескольких структур коленного сустава",
+      "icd_code": "S83.7"
+    },
+    {
+      "id": "diagnosis_other_internal_knee_lesions",
+      "type": "diagnosis",
+      "label": "Другие внутренние поражения колена",
+      "icd_code": "M23.8"
+    },
+    {
+      "id": "diagnosis_patent_patellar_dislocation",
+      "type": "diagnosis",
+      "label": "Привычный вывих надколенника",
+      "icd_code": "M22.0"
+    },
+    {
+      "id": "symptom_local_pain",
+      "type": "symptom",
+      "label": "Локальная болезненность"
+    },
+    {
+      "id": "symptom_joint_reaction",
+      "type": "symptom",
+      "label": "Выраженная реакция сустава"
+    },
+    {
+      "id": "symptom_joint_function_reduction",
+      "type": "symptom",
+      "label": "Снижение функции сустава"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_knee_instability",
+      "type": "symptom",
+      "label": "Нестабильность коленного сустава"
+    },
+    {
+      "id": "symptom_external_patellar_instability",
+      "type": "symptom",
+      "label": "Наружная нестабильность надколенника"
+    },
+    {
+      "id": "symptom_acute_patellar_instability",
+      "type": "symptom",
+      "label": "Острая нестабильность надколенника"
+    },
+    {
+      "id": "symptom_chronic_patellar_instability",
+      "type": "symptom",
+      "label": "Хроническая нестабильность надколенника"
+    },
+    {
+      "id": "symptom_skin_inflammation_at_intervention_site",
+      "type": "symptom",
+      "label": "Воспалительные поражения кожи в области вмешательства"
+    },
+    {
+      "id": "symptom_cartilage_degeneration_changes",
+      "type": "symptom",
+      "label": "Дегенеративные изменения хряща"
+    },
+    {
+      "id": "symptom_low_physical_activity",
+      "type": "symptom",
+      "label": "Низкая физическая активность пациента"
+    },
+    {
+      "id": "symptom_vascular_pathology_on_injured_limb",
+      "type": "symptom",
+      "label": "Выраженная сосудистая патология на повреждённой конечности"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_local_pain",
+      "target": "diagnosis_multi_structure_knee_trauma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "I степень – разрыв минимального числа волокон связки с локальной болезненностью, но без нарушения стабильности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_reaction",
+      "target": "diagnosis_multi_structure_knee_trauma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "II степень – разрыв большего числа волокон связки, протекающий более болезненно, с выраженной реакцией сустава, снижением его функции, но также без нарушения стабильности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_function_reduction",
+      "target": "diagnosis_multi_structure_knee_trauma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "II степень – разрыв большего числа волокон связки, ... с выраженной реакцией сустава, снижением его функции, но также без нарушения стабильности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_knee_instability",
+      "target": "diagnosis_hronic_instability_knee",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "III степень – полный разрыв связки с нарушением стабильности сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_external_patellar_instability",
+      "target": "symptom_acute_patellar_instability",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повреждение медиального удерживателя надколенника сопровождается наружной нестабильностью надколенника, которая в свою очередь делится на острую – возникшую сразу после травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_external_patellar_instability",
+      "target": "symptom_chronic_patellar_instability",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повреждение медиального удерживателя надколенника сопровождается наружной нестабильностью надколенника, которая в свою очередь делится на ... хроническую – возникающую периодически в отдаленном периоде травмы коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cartilage_degeneration_changes",
+      "target": "diagnosis_other_internal_knee_lesions",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "хроническая нестабильность надколенника с выраженными дегенеративными изменениями со стороны хряща (остеоартроз коленного сустава 2 степени и выше)",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сознание отсутствует: пациент не реагирует на внешние раздражители",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "внезапная потеря сознания – это принятое кардиологами определение",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пульсация на крупных магистральных артериях не определяется",
+    "properties": {}
+  },
+  {
+    "source": "agonalnoe_dykhanie",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_dykhaniya",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "зрачки расширены, на свет не реагируют",
+    "properties": {}
+  },
+  {
+    "source": "bledno_seryi_kozhnoy_pokrov",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кожные покровы бледно‑серые, изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "tsianoz",
+    "target": "vnezapnaya_serdechnaya_smert",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожные покровы бледно‑серые, изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "poteria_soznaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: сознание отсутствует; ...; внезапная потеря сознания",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: сознание отсутствует; пульсация на крупных магистральных артериях не определяется",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "agonalnoe_dykhanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: сознание отсутствует; дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "otsutstvie_dykhaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: сознание отсутствует; дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: сознание отсутствует; зрачки расширены, на свет не реагируют",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "bledno_seryi_kozhnoy_pokrov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: сознание отсутствует; кожные покровы бледно‑серые",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_soznaniya",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: сознание отсутствует; изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: внезапная потеря сознания; пульсация на крупных магистральных артериях не определяется",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "agonalnoe_dykhanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: внезапная потеря сознания; дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "otsutstvie_dykhaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: внезапная потеря сознания; дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: внезапная потеря сознания; зрачки расширены, на свет не реагируют",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "bledno_seryi_kozhnoy_pokrov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: внезапная потеря сознания; кожные покровы бледно‑серые",
+    "properties": {}
+  },
+  {
+    "source": "poteria_soznaniya",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: внезапная потеря сознания; изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "target": "agonalnoe_dykhanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: пульсация на крупных магистральных артериях не определяется; дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "target": "otsutstvie_dykhaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: пульсация на крупных магистральных артериях не определяется; дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "target": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: пульсация на крупных магистральных артериях не определяется; зрачки расширены, на свет не реагируют",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "target": "bledno_seryi_kozhnoy_pokrov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: пульсация на крупных магистральных артериях не определяется; кожные покровы бледно‑серые",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_pulsa_na_magnitarnykh_arteriyah",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: пульсация на крупных магистральных артериях не определяется; изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "agonalnoe_dykhanie",
+    "target": "otsutstvie_dykhaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "agonalnoe_dykhanie",
+    "target": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует; зрачки расширены, на свет не реагируют",
+    "properties": {}
+  },
+  {
+    "source": "agonalnoe_dykhanie",
+    "target": "bledno_seryi_kozhnoy_pokrov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует; кожные покровы бледно‑серые",
+    "properties": {}
+  },
+  {
+    "source": "agonalnoe_dykhanie",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дыхание агональное или отсутствует; изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_dykhaniya",
+    "target": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует; зрачки расширены, на свет не реагируют",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_dykhaniya",
+    "target": "bledno_seryi_kozhnoy_pokrov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дыхание агональное или отсутствует; кожные покровы бледно‑серые",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_dykhaniya",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дыхание агональное или отсутствует; изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "target": "bledno_seryi_kozhnoy_pokrov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "зрачки расширены, на свет не реагируют; кожные покровы бледно‑серые",
+    "properties": {}
+  },
+  {
+    "source": "rasshirennye_zruchki_ne_reakciya_na_svet",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "зрачки расширены, на свет не реагируют; изредка с цианотичным оттенком",
+    "properties": {}
+  },
+  {
+    "source": "bledno_seryi_kozhnoy_pokrov",
+    "target": "tsianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожные покровы бледно‑серые, изредка с цианотичным оттенком",
+    "properties": {}
+  }
+]

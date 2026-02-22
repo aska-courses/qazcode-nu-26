@@ -1,0 +1,426 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Лихорадка у 100% больных.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Часто сопровождается ознобами.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "головная боль (64,4%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "светобоязнь (44,9%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение (34,7%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушение сна (22%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "шум в голове и в ушах (93%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neuropsych_disturbance",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Неврологические и психические нарушения (5,4% и 1,8%)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_autonomic_dystonia",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Весьма нередкими у пациентов являются разнообразные признаки синдрома вегетативной дистонии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Острая абдоминальная боль. У 59% больных она встречается изолированно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острая боль в грудной клетке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peritonitis",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Асептический перитонит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pleuritis",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Асептический плеврит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pericarditis",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Перикардит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль в суставах.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Миалгия у 37,5% детей.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_tone_reduction",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение тонуса мышц.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_contracture",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Контрактура.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_atrophy",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атрофия мышц.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythema_erysipeloid",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Эризипелоидоподобная эритема.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Крапивница (до 28%).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angioedema",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ангионевротический отек (13,2%).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polymorphic_erythema",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Полиморфная эритема.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_herpetiform_rash",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Герпетиформные высыпания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vesiculopustular_rash",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Везикулезные высыпания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechiae",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Петехии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ecchymoses",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Экхимозы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension_systolic",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Повышение систолического артериального давления.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kidney_amyloidosis",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Амилоидоз почек.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Протеинурия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyuria",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Полиурия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_orchitis",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Орхит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cold_induced_fever",
+    "target": "diagnosis_m04_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Повышение температуры после холодового воздействия - короткие (менее 24 ч) эпизоды лихорадки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "diagnosis_m04_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кожная сыпь ... уртикарная сыпь.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_m04_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Конъюнктивит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_episkleritis",
+    "target": "diagnosis_m04_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эписклерит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iridocyclitis",
+    "target": "diagnosis_m04_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Иридоциклит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_m04_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Лихорадка у 100% больных.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_duration",
+    "target": "diagnosis_m04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Продолжительность эпизода не превышает 1 недели, обычно 3–5 дней.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_ulcers",
+    "target": "diagnosis_m04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Афтозный стоматит (язвы во рту).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенная скорость оседания эритроцитов (СОЭ).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_crp",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенный С-реактивный белок (СРБ).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_saa",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенный сывороточный амилоид A (SAA).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_il1b",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенный интерлейкин‑1β (IL‑1β).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_tnf_alpha",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенный фактор некроза опухоли‑α (TNF‑α).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_ild6",
+    "target": "diagnosis_m04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Повышенный интерлейкин-6 (IL‑6).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Лихорадка у 100% больных. Часто сопровождается ознобами.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "головная боль (64,4%) при лихорадке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_tinnitus",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "шум в голове и в ушах (93%) при лихорадке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Острая абдоминальная боль ... при приступе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_joint_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль в суставах ... при приступе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_myalgia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Миалгия ... при приступе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_urticaria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Крапивница может возникать во время приступа.",
+    "properties": {}
+  }
+]

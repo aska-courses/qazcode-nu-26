@@ -1,0 +1,192 @@
+{
+  "protocol_id": "p_632b16d49d",
+  "nodes": [
+    {
+      "id": "diagnosis_m50_0",
+      "type": "diagnosis",
+      "label": "Поражение межпозвоночных дисков шейного отдела с миелопатией",
+      "icd_code": "M50.0"
+    },
+    {
+      "id": "diagnosis_m50_1",
+      "type": "diagnosis",
+      "label": "Поражение межпозвоночных дисков шейного отдела с радикулопатией",
+      "icd_code": "M50.1"
+    },
+    {
+      "id": "diagnosis_m51_0",
+      "type": "diagnosis",
+      "label": "Поражение межпозвоночных дисков поясничного и других отделов с миелопатией",
+      "icd_code": "M51.0"
+    },
+    {
+      "id": "diagnosis_m51_1",
+      "type": "diagnosis",
+      "label": "Поражение межпозвоночных дисков поясничного и других отделов с радикулопатией",
+      "icd_code": "M51.1"
+    },
+    {
+      "id": "symptom_nevrologicheskaya_simptomatika",
+      "type": "symptom",
+      "label": "Неврологическая симптоматика"
+    },
+    {
+      "id": "symptom_mielopatiya_sindrom",
+      "type": "symptom",
+      "label": "Миелопатический синдром"
+    },
+    {
+      "id": "symptom_koreshkoviy_sindrom",
+      "type": "symptom",
+      "label": "Корешковый синдром"
+    },
+    {
+      "id": "symptom_bolevoy_sindrom",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_postoperativnye_boli",
+      "type": "symptom",
+      "label": "Постоперационные боли"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nevrologicheskaya_simptomatika",
+      "target": "diagnosis_m50_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskaya_simptomatika",
+      "target": "diagnosis_m50_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskaya_simptomatika",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskая_simptomatika",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mielopatiya_sindrom",
+      "target": "diagnosis_m50_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mielopatiya_sindrom",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koreshkoviy_sindrom",
+      "target": "diagnosis_m50_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koreshkoviy_sindrom",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoy_sindrom",
+      "target": "diagnosis_m50_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoy_sindrom",
+      "target": "diagnosis_m50_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoy_sindrom",
+      "target": "diagnosis_m51_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoy_sindrom",
+      "target": "diagnosis_m51_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регресс/уменьшение неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskaya_simptomatika",
+      "target": "symptom_mielopatiya_sindrom",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskaya_simptomatika",
+      "target": "symptom_koreshkoviy_sindrom",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskaya_simptomatika",
+      "target": "symptom_bolevoy_sindrom",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологической симптоматики (миелопатического, корешкового, болевого синдрома)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m50_0",
+      "target": "diagnosis_m50_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "М50.0 Поражение межпозвоночных дисков шейного отдела с миелопатией. М50.1 Поражение межпозвоночных дисков шейного отдела с радикулопатией.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m51_0",
+      "target": "diagnosis_m51_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "М51.0 Поражения межпозвоночных дисков поясничного и других отделов с миелопатией. М51.1 Поражения межпозвоночных дисков поясничного и других отделов с радикулопатией.",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+{
+  "protocol_id": "p_ff6455b7a4",
+  "nodes": [
+    {
+      "id": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "diagnosis",
+      "label": "Восстановительное лечение после ортопедических операций и травм",
+      "icd_code": "Z54.0"
+    },
+    {
+      "id": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "diagnosis",
+      "label": "Реабилитация после ортопедических операций, наличие имплантатов",
+      "icd_code": "Z96.6"
+    },
+    {
+      "id": "diagnosis_rehabilitation_procedures_history",
+      "type": "diagnosis",
+      "label": "В личном анамнезе реабилитационные процедуры",
+      "icd_code": "Z92.5"
+    },
+    {
+      "id": "diagnosis_other_rehabilitation_procedures",
+      "type": "diagnosis",
+      "label": "Лечение, включающее другие виды реабилитационных процедур",
+      "icd_code": "Z50.8"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Болевой синдром в суставах"
+    },
+    {
+      "id": "symptom_movement_limitation",
+      "type": "symptom",
+      "label": "Ограничение движений"
+    },
+    {
+      "id": "symptom_joint_contracture",
+      "type": "symptom",
+      "label": "Контрактура суставов"
+    },
+    {
+      "id": "symptom_muscle_tone_decrease",
+      "type": "symptom",
+      "label": "Снижение мышечного тонуса"
+    },
+    {
+      "id": "symptom_functional_impairment",
+      "type": "symptom",
+      "label": "Нарушение функций органов/систем"
+    },
+    {
+      "id": "symptom_febrile_fever",
+      "type": "symptom",
+      "label": "Фебрильная лихорадка"
+    },
+    {
+      "id": "symptom_subfebrile_fever",
+      "type": "symptom",
+      "label": "Субфебрильная лихорадка"
+    },
+    {
+      "id": "symptom_acute_infection",
+      "type": "symptom",
+      "label": "Острые инфекционные заболевания"
+    },
+    {
+      "id": "symptom_acute_osteomyelitis",
+      "type": "symptom",
+      "label": "Острый остеомиелит"
+    },
+    {
+      "id": "symptom_deep_vein_thrombosis",
+      "type": "symptom",
+      "label": "Острый тромбоз глубоких вен"
+    },
+    {
+      "id": "symptom_cardiac_arrhythmia",
+      "type": "symptom",
+      "label": "Нарушения ритма сердца"
+    },
+    {
+      "id": "symptom_heart_failure",
+      "type": "symptom",
+      "label": "Сердечная недостаточность"
+    },
+    {
+      "id": "symptom_active_tuberculosis",
+      "type": "symptom",
+      "label": "Активная стадия туберкулеза"
+    },
+    {
+      "id": "symptom_malignant_neoplasm",
+      "type": "symptom",
+      "label": "Злокачественные новообразования"
+    },
+    {
+      "id": "symptom_respiratory_failure_severe",
+      "type": "symptom",
+      "label": "Недостаточность функции дыхания III степени и более"
+    },
+    {
+      "id": "symptom_purulent_lung_disease",
+      "type": "symptom",
+      "label": "Гнойные (легочные) заболевания"
+    },
+    {
+      "id": "symptom_intoxication",
+      "type": "symptom",
+      "label": "Интоксикация"
+    },
+    {
+      "id": "symptom_metabolic_disease",
+      "type": "symptom",
+      "label": "Метаболические болезни"
+    },
+    {
+      "id": "symptom_diabetes_mellitus",
+      "type": "symptom",
+      "label": "Сахарный диабет"
+    },
+    {
+      "id": "symptom_myxedema",
+      "type": "symptom",
+      "label": "Микседема"
+    },
+    {
+      "id": "symptom_thyrotoxicosis",
+      "type": "symptom",
+      "label": "Тиреотоксикоз"
+    },
+    {
+      "id": "symptom_liver_failure",
+      "type": "symptom",
+      "label": "Функциональная недостаточность печени"
+    },
+    {
+      "id": "symptom_pancreatic_insufficiency",
+      "type": "symptom",
+      "label": "Функциональная недостаточность поджелудочной железы III степени"
+    },
+    {
+      "id": "symptom_epilepsy",
+      "type": "symptom",
+      "label": "Эпилепсия в приступный период"
+    },
+    {
+      "id": "symptom_psychiatric_disorder",
+      "type": "symptom",
+      "label": "Психические заболевания с десоциализацией личности"
+    },
+    {
+      "id": "symptom_purulent_skin_disease",
+      "type": "symptom",
+      "label": "Гнойные болезни кожи"
+    },
+    {
+      "id": "symptom_scabies",
+      "type": "symptom",
+      "label": "Чесотка"
+    },
+    {
+      "id": "symptom_fungal_disease",
+      "type": "symptom",
+      "label": "Грибковые заболевания кожи"
+    },
+    {
+      "id": "symptom_anemia_grade_2_3",
+      "type": "symptom",
+      "label": "Анемия 2‑3 степени"
+    },
+    {
+      "id": "symptom_dystrophy_grade_3",
+      "type": "symptom",
+      "label": "Дистрофия 3 степени"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_febrile_fever",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "фебрильная лихорадка ... неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_febrile_fever",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "фебрильная лихорадка ... неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_febrile_fever",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "фебрильная лихорадка ... неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_febrile_fever",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "фебрильная лихорадка ... неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_fever",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "субфебрильная лихорадка неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_fever",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "субфебрильная лихорадка неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_fever",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "субфебрильная лихорадка неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_fever",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "субфебрильная лихорадка неизвестного происхождения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_infection",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острые инфекционные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_infection",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острые инфекционные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_infection",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острые инфекционные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_infection",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острые инфекционные заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_osteomyelitis",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый остеомиелит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_osteomyelitis",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый остеомиелит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_osteomyelitis",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый остеомиелит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_osteomyelitis",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый остеомиелит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_vein_thrombosis",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый тромбоз глубоких вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_vein_thrombosis",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый тромбоз глубоких вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_vein_thrombosis",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый тромбоз глубоких вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_vein_thrombosis",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "острый тромбоз глубоких вен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiac_arrhythmia",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiac_arrhythmia",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardi_card_arrhythmia",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiac_arrhythmia",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца, сердечной недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца, сердечной недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца, сердечной недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "осложненные нарушения ритма сердца, сердечной недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_tuberculosis",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "активная стадия всех форм туберкулеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_tuberculosis",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "активная стадия всех форм туберкулеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_tuberculosis",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "активная стадия всех форм туберкулеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_active_tuberculosis",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "активная стадия всех форм туберкулеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malignant_neoplasm",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "злокачественные новообразования (IV клиническая группа)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malignant_neoplasm",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "злокачественные новообразования (IV клиническая группа)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malignant_neoplasm",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "злокачественные новообразования (IV клиническая группа)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malignant_neoplasm",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "злокачественные новообразования (IV клиническая группа)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure_severe",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "недостаточность функции дыхания III степени и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure_severe",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "недостаточность функции дыхания III степени и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure_severe",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "недостаточность функции дыхания III степени и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure_severe",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "недостаточность функции дыхания III степени и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_lung_disease",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_lung_disease",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_lung_disease",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_lung_disease",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "при значительной интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_disease",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_disease",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_disease",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_disease",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liver_failure",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liver_failure",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liver_failure",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_liver_failure",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pancreatic_insufficiency",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность поджелудочной железы III степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pancreatic_insufficiency",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность поджелудочной железы III степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pancreatic_insufficiency",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность поджелудочной железы III степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pancreatic_insufficiency",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "функциональная недостаточность поджелудочной железы III степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepsy",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "эпилепсия в приступный период",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepsy",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "эпилепсия в приступный период",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepsy",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "эпилепсия в приступный период",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepsy",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "эпилепсия в приступный период",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychiatric_disorder",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "психические заболевания с десоциализацией личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychiatric_disorder",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "психические заболевания с десоциализацией личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychiatric_disorder",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "психические заболевания с десоциализацией личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychiatric_disorder",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "психические заболевания с десоциализацией личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_skin_disease",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_skin_disease",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_skin_disease",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_skin_disease",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scabies",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "чесотка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scabies",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "чесотка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scabies",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "чесотка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scabies",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "чесотка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fungal_disease",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "грибковые заболевания кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fungal_disease",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "грибковые заболевания кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fungal_disease",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "грибковые заболевания кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fungal_disease",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "грибковые заболевания кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia_grade_2_3",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "анемия 2‑3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia_grade_2_3",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "анемия 2‑3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia_grade_2_3",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "анемия 2‑3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia_grade_2_3",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "анемия 2‑3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dystrophy_grade_3",
+      "target": "diagnosis_rehabilitation_after_orthopedic_operations",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "дистрофия 3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dystrophy_grade_3",
+      "target": "diagnosis_orthopedic_implant_rehabilitation",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "дистрофия 3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dystrophy_grade_3",
+      "target": "diagnosis_rehabilitation_procedures_history",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "дистрофия 3 степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dystrophy_grade_3",
+      "target": "diagnosis_other_rehabilitation_procedures",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "дистрофия 3 степени",
+      "properties": {}
+    }
+  ]
+}

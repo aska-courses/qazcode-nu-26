@@ -1,0 +1,324 @@
+{
+  "protocol_id": "p_506ad0582a",
+  "nodes": [
+    {
+      "id": "symptom_eritma",
+      "type": "symptom",
+      "label": "Эритема"
+    },
+    {
+      "id": "symptom_descquama",
+      "type": "symptom",
+      "label": "Десквамация"
+    },
+    {
+      "id": "symptom_exscariation",
+      "type": "symptom",
+      "label": "Экскариация"
+    },
+    {
+      "id": "symptom_erosia",
+      "type": "symptom",
+      "label": "Эрозия"
+    },
+    {
+      "id": "symptom_bubble",
+      "type": "symptom",
+      "label": "Пузырь"
+    },
+    {
+      "id": "symptom_ulcer",
+      "type": "symptom",
+      "label": "Язва"
+    },
+    {
+      "id": "symptom_necrosis",
+      "type": "symptom",
+      "label": "Некроз"
+    },
+    {
+      "id": "symptom_wound",
+      "type": "symptom",
+      "label": "Рана"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "Кровоизлияние"
+    },
+    {
+      "id": "symptom_hematoma",
+      "type": "symptom",
+      "label": "Гематома"
+    },
+    {
+      "id": "symptom_ecchymosis",
+      "type": "symptom",
+      "label": "Экхимиоз"
+    },
+    {
+      "id": "symptom_petechia",
+      "type": "symptom",
+      "label": "Петихия"
+    },
+    {
+      "id": "symptom_hyperkeratosis",
+      "type": "symptom",
+      "label": "Гиперкератоз"
+    },
+    {
+      "id": "symptom_leukoplakia",
+      "type": "symptom",
+      "label": "Лейкоплакия"
+    },
+    {
+      "id": "symptom_hyperplasia",
+      "type": "symptom",
+      "label": "Гиперплазия"
+    },
+    {
+      "id": "symptom_papilloma",
+      "type": "symptom",
+      "label": "Папиллома"
+    },
+    {
+      "id": "symptom_papillomatosis",
+      "type": "symptom",
+      "label": "Папилломатоз"
+    },
+    {
+      "id": "symptom_fibroma",
+      "type": "symptom",
+      "label": "Дольчатая фиброма"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "Болезненность"
+    },
+    {
+      "id": "symptom_burning",
+      "type": "symptom",
+      "label": "Жжение"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отёк"
+    },
+    {
+      "id": "symptom_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличенные лимфатические узлы"
+    },
+    {
+      "id": "symptom_soft_consistency",
+      "type": "symptom",
+      "label": "Мягкая консистенция"
+    },
+    {
+      "id": "symptom_chewing_pain",
+      "type": "symptom",
+      "label": "Боль при жевании"
+    },
+    {
+      "id": "diagnosis_surface_trauma",
+      "type": "diagnosis",
+      "label": "Поверхностная травма губы и полости рта",
+      "icd_code": "S00.5"
+    },
+    {
+      "id": "diagnosis_open_wound",
+      "type": "diagnosis",
+      "label": "Открытая рана губы и полости рта",
+      "icd_code": "S01.5"
+    },
+    {
+      "id": "diagnosis_other_stomatitis",
+      "type": "diagnosis",
+      "label": "Другие формы стоматита",
+      "icd_code": "K12.1"
+    },
+    {
+      "id": "diagnosis_buccal_bite",
+      "type": "diagnosis",
+      "label": "Прикусывание щеки и губ",
+      "icd_code": "K13.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bleeding",
+      "target": "symptom_hematoma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кровоизляние (гематома, экхимиоз, петихия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "symptom_ecchymosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кровоизляние (гематома, экхимиоз, петихия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "symptom_petechia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кровоизляние (гематома, экхимиоз, петихия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkeratosis",
+      "target": "symptom_leukoplakia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гиперкератоз (лейкоплакия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperplasia",
+      "target": "symptom_papilloma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гиперплазия (папиллома, папилломатоз, дольчатая фиброма)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperplasia",
+      "target": "symptom_papillomatosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гиперплазия (папиллома, папилломатоз, дольчатая фиброма)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperplasia",
+      "target": "symptom_fibroma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гиперплазия (папиллома, папилломатоз, дольчатая фиброма)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritma",
+      "target": "symptom_descquama",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эритема; Десквамация; Экскарияация (ссадина); Эрозия; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_descquama",
+      "target": "symptom_exscariation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эритема; Десквамация; Экскарияация (ссадина); Эрозия; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exscariation",
+      "target": "symptom_erosia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эритема; Десквамация; Экскарияация (ссадина); Эрозия; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erosia",
+      "target": "symptom_bubble",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эритема; Десквамация; Экскарияация (ссадина); Эрозия; Пузырь (при термической травме); …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bubble",
+      "target": "symptom_ulcer",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Пузырь (при термической травме); Язва; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ulcer",
+      "target": "symptom_necrosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Язва; Некроз (при химической травме); …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_necrosis",
+      "target": "symptom_wound",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Некроз (при химической травме); Рана; …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_wound",
+      "target": "symptom_bleeding",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Рана; Кровоизляние (гематома, экхимиоз, петихия)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_surface_trauma",
+      "target": "diagnosis_open_wound",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S00.5 Поверхностная травма губы и полости рта S01.5 Открытая рана губы и полости рта K12.1 Другие формы стоматита К13.1 Прикусывание щеки и губ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_surface_trauma",
+      "target": "diagnosis_other_stomatitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S00.5 Поверхностная травма губы и полости рта S01.5 Открытая рана губы и полости рта K12.1 Другие формы стоматита К13.1 Прикусывание щеки и губ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_surface_trauma",
+      "target": "diagnosis_buccal_bite",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S00.5 Поверхностная травма губы и полости рта S01.5 Открытая рана губы и полости рта K12.1 Другие формы стоматита К13.1 Прикусывание щеки и губ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_open_wound",
+      "target": "diagnosis_other_stomatitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S00.5 Поверхностная травма губы и полости рта S01.5 Открытая рана губы и полости рта K12.1 Другие формы стоматита К13.1 Прикусывание щеки и губ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_open_wound",
+      "target": "diagnosis_buccal_bite",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S00.5 Поверхностная травма губы и полости рта S01.5 Открытая рана губы и полости рта K12.1 Другие формы стоматита К13.1 Прикусывание щеки и губ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_other_stomatitis",
+      "target": "diagnosis_buccal_bite",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "S00.5 Поверхностная травма губы и полости рта S01.5 Открытая рана губы и полости рта K12.1 Другие формы стоматита К13.1 Прикусывание щеки и губ",
+      "properties": {}
+    }
+  ]
+}

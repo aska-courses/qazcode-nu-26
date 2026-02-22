@@ -1,0 +1,203 @@
+{
+  "protocol_id": "p_029838d829",
+  "nodes": [
+    {
+      "id": "diagnosis_f43_1",
+      "type": "diagnosis",
+      "label": "Посттравматическое стрессовое расстройство",
+      "icd_code": "F43.1"
+    },
+    {
+      "id": "diagnosis_f43_2",
+      "type": "diagnosis",
+      "label": "Расстройство приспособительных реакций адаптации",
+      "icd_code": "F43.2"
+    },
+    {
+      "id": "diagnosis_f45_0",
+      "type": "diagnosis",
+      "label": "Соматизированное расстройство (соматизация)",
+      "icd_code": "F45.0"
+    },
+    {
+      "id": "diagnosis_f45_1",
+      "type": "diagnosis",
+      "label": "Недифференцированное соматоформное расстройство",
+      "icd_code": "F45.1"
+    },
+    {
+      "id": "diagnosis_f45_2",
+      "type": "diagnosis",
+      "label": "Ипохондрическое расстройство",
+      "icd_code": "F45.2"
+    },
+    {
+      "id": "diagnosis_f45_3",
+      "type": "diagnosis",
+      "label": "Соматоформная дисфункция вегетативной нервной системы (нейроциркуляторная астения)",
+      "icd_code": "F45.3"
+    },
+    {
+      "id": "diagnosis_f45_4",
+      "type": "diagnosis",
+      "label": "Устойчивое соматоформное болевое расстройство",
+      "icd_code": "F45.4"
+    },
+    {
+      "id": "diagnosis_f48_0",
+      "type": "diagnosis",
+      "label": "Неврастения",
+      "icd_code": "F48.0"
+    },
+    {
+      "id": "diagnosis_f48_1",
+      "type": "diagnosis",
+      "label": "Синдром деперсонализации-дереализации",
+      "icd_code": "F48.1"
+    },
+    {
+      "id": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "type": "symptom",
+      "label": "Ухудшение психического состояния"
+    },
+    {
+      "id": "symptom_trevozhnyye_rasstroystva",
+      "type": "symptom",
+      "label": "Тревожные расстройства"
+    },
+    {
+      "id": "symptom_depressiya",
+      "type": "symptom",
+      "label": "Депрессия"
+    },
+    {
+      "id": "symptom_suitsidalnaya_nastroennost",
+      "type": "symptom",
+      "label": "Суицидальная настроенность"
+    },
+    {
+      "id": "symptom_desotsializiruyushchie_proyavleniya",
+      "type": "symptom",
+      "label": "Десоциализирующие проявления"
+    },
+    {
+      "id": "symptom_psihopatologicheskie_simptomy",
+      "type": "symptom",
+      "label": "Психопатологические симптомы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f43_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f43_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f45_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f45_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f45_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f45_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f45_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhudshenie_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ухудшение психического состояния, возникшее после воздействия стрессового фактора.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihopatologicheskie_simptomy",
+      "target": "symptom_desotsializiruyushchie_proyavleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Психопатологические расстройства ... с десоциализирующими проявлениями, проявления которых некупируются в амбулаторных условиях.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f43_1",
+      "target": "diagnosis_f43_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: ... F43.1 Посттравматическое стрессовое расстройство. F43.2 Расстройство приспособительных реакций адаптации.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f45_0",
+      "target": "diagnosis_f45_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: ... F45.0 Соматизированное расстройство (соматизация). F45.1 Недифференцированное соматоформное расстройство.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f45_2",
+      "target": "diagnosis_f45_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: ... F45.2 Ипохондрическое расстройство. F45.3 Соматоформная дисфункция вегетативной нервной системы (нейроциркуляторная астения).",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f48_0",
+      "target": "diagnosis_f48_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: ... F48.0 Неврастения. F48.1 Синдром деперсонализации-дереализации.",
+      "properties": {}
+    }
+  ]
+}

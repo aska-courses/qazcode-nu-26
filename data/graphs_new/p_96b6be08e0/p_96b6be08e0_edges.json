@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_allergic_reaction",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "известные аллергические реакции на мифепристон или мизопростол ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_porphyria",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "наследственная порфирия ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adrenal_insufficiency",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "надпочечниковая недостаточность ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ectopic_pregnancy",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "внематочная беременность ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_disorder",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "геморрагические нарушения и терапия антикоагулянтами ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_renal_insufficiency",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "почечная недостаточность ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_insufficiency",
+    "target": "diagnosis_medical_abort",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "печеночная недостаточность ... являются противопоказаниями к медикаментозному аборту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthma",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "с осторожностью препараты назначают при бронхиальной астме",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "с осторожностью препараты назначают при тяжелой артериальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "с осторожностью препараты назначают при нарушениях ритма сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "с осторожностью препараты назначают при сердечной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ... включают схваткообразную боль ... и длительное менструальноподобное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ... включают схваткообразную боль ... и длительное менструальноподобное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота, рвота, диарея, слабость, головокружение, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота, рвота, диарея, слабость, головокружение, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота, рвота, диарея, слабость, головокружение, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота, рвота, диарея, слабость, головокружение, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота, рвота, диарея, слабость, головокружение, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_syncope",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обморок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_discharge",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения с неприятным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uterine_spasms",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "маточные спазмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_medical_abort",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "symptom_bleeding",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ... включают схваткообразную боль ... и длительное менструальноподобное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тошнота, рвота, диарея, слабость, головокружение, лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышенная температура тела, озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_discharge",
+    "target": "symptom_infection",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "выделения с неприятным запахом ... являются признаком инфекционных осложнений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uterine_spasms",
+    "target": "symptom_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "маточные спазмы ... сопровождаются болью",
+    "properties": {}
+  }
+]

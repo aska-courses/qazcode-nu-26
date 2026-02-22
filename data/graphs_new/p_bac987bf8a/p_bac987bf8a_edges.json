@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_hyper_tension",
+    "target": "diagnosis_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Артериальная гипертензия – повышение офисного систолического АД (САД)140 мм рт. ст., и/или диастолического АД (ДАД) ≥90 мм рт.ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperandrogenism",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие признаков гиперандрогении (себореи, гирсутизма, акне, стрий, гиперпигментации кожных складок)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_homocysteine",
+    "target": "diagnosis_fetal_growth_restriction",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение уровня гомоцистеина ... высокий риск формирования ВПР и осложнений беременности (преждевременных родов, плацентарной недостаточности)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_homocysteine",
+    "target": "diagnosis_preterm_birth",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышение уровня гомоцистеина ... высокий риск формирования ВПР и осложнений беременности (преждевременных родов, плацентарной недостаточности)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_growth_delay",
+    "target": "diagnosis_fetal_growth_restriction",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "задержка развития плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_miscarriage",
+    "target": "diagnosis_miscarriage",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Злоупотребление женщиной до зачатия алкоголем ... значительно увеличивает риск выкидыша",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stillbirth",
+    "target": "diagnosis_stillbirth",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Риск повторного мертворождения не зависит от продолжительности интергенетического интервала",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_iron_deficiency_anemia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "железодефицитная анемия является одной из ведущих причин материнской смертности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperprolactinemia",
+    "target": "diagnosis_hyperprolactinemia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Патологическая гиперпролактинемия – устойчиво повышенное содержание пролактина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypothyroidism",
+    "target": "diagnosis_hypothyroidism",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "симптомы гипотиреоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthyroidism",
+    "target": "diagnosis_hyperthyroidism",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "симптомы гипертиреоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obesity",
+    "target": "diagnosis_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ожирение ... повышает риск ... гипертонии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obesity",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ожирение ... повышает риск ... сахарного диабета 2 типа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obesity",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ожирение ... повышает риск ... синдром поликистозных яичников",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypocalcemia",
+    "target": "diagnosis_hypocalcemia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гипокальциемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rickets",
+    "target": "diagnosis_rickets",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "ракит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteopenia",
+    "target": "diagnosis_osteopenia",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "остеопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_homocysteine",
+    "target": "symptom_fetal_growth_delay",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Повышение уровня гомоцистеина ... высокий риск формирования ВПР и осложнений беременности (преждевременных родов, плацентарной недостаточности)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypertension",
+    "target": "diagnosis_preeclampsia",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Артериальная гипертензия ... может быть причиной ... преэклампсии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hypertension",
+    "target": "diagnosis_preterm_birth",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "повышенный риск ... преждевременных родов",
+    "properties": {}
+  }
+]

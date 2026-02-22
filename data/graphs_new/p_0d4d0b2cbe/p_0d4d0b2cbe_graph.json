@@ -1,0 +1,299 @@
+{
+  "protocol_id": "p_0d4d0b2cbe",
+  "nodes": [
+    {
+      "id": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "diagnosis",
+      "label": "Тотальная аномалия соединения легочных вен",
+      "icd_code": "Q26.2"
+    },
+    {
+      "id": "diagnosis_other_congenital_anomalies",
+      "type": "diagnosis",
+      "label": "Другие врожденные аномалии",
+      "icd_code": "Q26.8"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_tahikardiya",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_kashel",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_poor_weight_gain",
+      "type": "symptom",
+      "label": "Плохая прибавка в весе"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_peripheral_edema",
+      "type": "symptom",
+      "label": "Периферические отеки"
+    },
+    {
+      "id": "symptom_thickened_fingers",
+      "type": "symptom",
+      "label": "Утолщенные концевые фаланги пальцев"
+    },
+    {
+      "id": "symptom_systolic_murmur",
+      "type": "symptom",
+      "label": "Систолический шум на легочной артерии"
+    },
+    {
+      "id": "symptom_diastolic_murmur",
+      "type": "symptom",
+      "label": "Диастолический шум по левому краю грудины"
+    },
+    {
+      "id": "symptom_accentuated_second_tone",
+      "type": "symptom",
+      "label": "Акцентированный второй тон на основании слева"
+    },
+    {
+      "id": "symptom_gallop_rhythm",
+      "type": "symptom",
+      "label": "Галлоп (ритм галопа)"
+    },
+    {
+      "id": "symptom_pulmonary_edema",
+      "type": "symptom",
+      "label": "Отек легких"
+    },
+    {
+      "id": "symptom_hyperdynamic_apex_beat",
+      "type": "symptom",
+      "label": "Усиленный верхушечный толчок"
+    },
+    {
+      "id": "symptom_third_heart_tone",
+      "type": "symptom",
+      "label": "Третий тон сердца"
+    },
+    {
+      "id": "symptom_fourth_heart_tone",
+      "type": "symptom",
+      "label": "Четвертый тон сердца"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardiya",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashel",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poor_weight_gain",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: Одышка, тахикардия, кашель, цианоз при нагрузке, плохая прибавка в весе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: увеличение печени; периферические отеки; утолщены концевые фаланги пальцев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peripheral_edema",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: увеличение печени; периферические отеки; утолщены концевые фаланги пальцев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thickened_fingers",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: увеличение печени; периферические отеки; утолщены концевые фаланги пальцев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_murmur",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: мягкий, дующий систолический шум на легочной артерии.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diastolic_murmur",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: диастолический шум по левому краю грудины.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_accentuated_second_tone",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: акцент II тона на основании слева.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gallop_rhythm",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: галлоп (ритм галопа).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_edema",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: отек легких.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperdynamic_apex_beat",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: усиленный верхушечный толчок.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_third_heart_tone",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: третий тон сердца.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fourth_heart_tone",
+      "target": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: четвертый тон сердца.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_cianoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_kashel",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: одышка; цианоз при кормлении, плаче; тахикардия; кашель.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_poor_weight_gain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: Одышка, тахикардия, кашель, цианоз при нагрузке, плохая прибавка в весе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_peripheral_edema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: увеличение печени; периферические отеки; утолщены концевые фаланги пальцев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_thickened_fingers",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: увеличение печени; периферические отеки; утолщены концевые фаланги пальцев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_murmur",
+      "target": "symptom_diastolic_murmur",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: мягкий, дующий систолический шум на легочной артерии; диастолический шум по левому краю грудины.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_accentuated_second_tone",
+      "target": "symptom_systolic_murmur",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: акцент II тона на основании слева; мягкий, дующий систолический шум на легочной артерии.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_total_anomalous_connection_of_pulmonary_veins",
+      "target": "diagnosis_other_congenital_anomalies",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код Q26.2 Тотальная аномалия соединения легочных вен; Q26.8 Другие врожденные аномалии.",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "protocol_id": "p_dcc8bbad37",
+  "nodes": [
+    {
+      "id": "diagnosis_polyarthritis",
+      "type": "diagnosis",
+      "label": "Полиартроз",
+      "icd_code": "M15"
+    },
+    {
+      "id": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "diagnosis",
+      "label": "Первичный генерализованный остеоартроз",
+      "icd_code": "M15.0"
+    },
+    {
+      "id": "diagnosis_geberden_nodules",
+      "type": "diagnosis",
+      "label": "Узлы Гебердена",
+      "icd_code": "M15.1"
+    },
+    {
+      "id": "diagnosis_bushar_nodules",
+      "type": "diagnosis",
+      "label": "Узлы Бушара",
+      "icd_code": "M15.2"
+    },
+    {
+      "id": "diagnosis_coxarthrosis",
+      "type": "diagnosis",
+      "label": "Коксартроз",
+      "icd_code": "M16"
+    },
+    {
+      "id": "diagnosis_gonarthrosis",
+      "type": "diagnosis",
+      "label": "Гонартроз",
+      "icd_code": "M17"
+    },
+    {
+      "id": "diagnosis_wrist_osteoarthritis",
+      "type": "diagnosis",
+      "label": "Артроз первого запястно‑пястного сустава",
+      "icd_code": "M18"
+    },
+    {
+      "id": "diagnosis_other_osteoarthritis",
+      "type": "diagnosis",
+      "label": "Другие артрозы",
+      "icd_code": "M19"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Боль в суставах"
+    },
+    {
+      "id": "symptom_night_pain",
+      "type": "symptom",
+      "label": "Ночная боль"
+    },
+    {
+      "id": "symptom_start_pain",
+      "type": "symptom",
+      "label": "Стартовые боли после покоя"
+    },
+    {
+      "id": "symptom_morning_stiffness",
+      "type": "symptom",
+      "label": "Утренняя скованность"
+    },
+    {
+      "id": "symptom_limited_range_of_motion",
+      "type": "symptom",
+      "label": "Ограничение движений в суставе"
+    },
+    {
+      "id": "symptom_muscle_atrophy",
+      "type": "symptom",
+      "label": "Атрофия окружающих мышц"
+    },
+    {
+      "id": "symptom_gait_change",
+      "type": "symptom",
+      "label": "Изменение походки"
+    },
+    {
+      "id": "symptom_leg_length_discrepancy",
+      "type": "symptom",
+      "label": "Укорочение нижней конечности"
+    },
+    {
+      "id": "symptom_varus_valgus_deformity",
+      "type": "symptom",
+      "label": "Варусная/вальгусная деформация коленных суставов"
+    },
+    {
+      "id": "symptom_crepitus",
+      "type": "symptom",
+      "label": "Крепитация"
+    },
+    {
+      "id": "symptom_joint_swelling",
+      "type": "symptom",
+      "label": "Припухлость сустава"
+    },
+    {
+      "id": "symptom_periarticular_edema",
+      "type": "symptom",
+      "label": "Отёк околосуставных тканей"
+    },
+    {
+      "id": "symptom_patellar_ballottement",
+      "type": "symptom",
+      "label": "Положительный симптом баллотирования надколенника"
+    },
+    {
+      "id": "symptom_tenderness",
+      "type": "symptom",
+      "label": "Пальпаторная болезненность"
+    },
+    {
+      "id": "symptom_localized_tenderness",
+      "type": "symptom",
+      "label": "Пальпаторная локализация боли"
+    },
+    {
+      "id": "symptom_inflammatory_component",
+      "type": "symptom",
+      "label": "Воспалительный компонент"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_polyarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в течение большинства дней предыдущего месяца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в течение большинства дней предыдущего месяца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_pain",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ночная боль (чаще при более выраженных стадиях ОА)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_start_pain",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "«стартовые боли», которые возникают после периодов покоя",
+      "properties": {}
+    },
+    {
+      "source": "symptom_morning_stiffness",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "утренняя скованность продолжительностью менее 30 мин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limited_range_of_motion",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ограничение движений в суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "атрофия окружающих мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gait_change",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "изменение походки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leg_length_discrepancy",
+      "target": "diagnosis_coxarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нередко отмечается укорочение нижней конечности на стороне поражения (при одностороннем коксартрозе)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varus_valgus_deformity",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "постепенно развиваются деформации конечностей (варусная или вальгусная деформации коленных суставов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crepitus",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "крепитация при активном движении в суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_swelling",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "припухлость сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periarticular_edema",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк околосуставных тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patellar_ballottement",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4 положительный симптом баллотирования надколенника",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tenderness",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пальпаторная болезненность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_localized_tenderness",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пальпаторная локализация боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inflammatory_component",
+      "target": "diagnosis_gonarthrosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ночная боль ... свидетельствует о присоединении воспалительного компонента",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_polyarthritis",
+      "target": "diagnosis_primary_generalized_osteoarthritis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: М 15 Полиартроз М15.0 Первичный генерализованный (остео)артроз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_geberden_nodules",
+      "target": "diagnosis_bushar_nodules",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "М15.1 Узлы Гебердена (с артропатией) М15.2 Узлы Бушара (с артропатией)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_coxarthrosis",
+      "target": "diagnosis_gonarthrosis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "М16 Коксартроз, М17 Гонартроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_morning_stiffness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль в суставах ... утренняя скованность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "symptom_crepitus",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль в суставах ... крепитация при активном движении в суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_morning_stiffness",
+      "target": "symptom_limited_range_of_motion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "утренняя скованность ... ограничение движений в суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gait_change",
+      "target": "symptom_leg_length_discrepancy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "изменение походки ... укорочение нижней конечности",
+      "properties": {}
+    }
+  ]
+}

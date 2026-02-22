@@ -1,0 +1,212 @@
+{
+  "protocol_id": "p_908c04f9be",
+  "nodes": [
+    {
+      "id": "s1",
+      "type": "symptom",
+      "label": "снижение остроты зрения"
+    },
+    {
+      "id": "s2",
+      "type": "symptom",
+      "label": "дефект в периферическом поле зрения (темная завеса)"
+    },
+    {
+      "id": "s3",
+      "type": "symptom",
+      "label": "искажение зрения"
+    },
+    {
+      "id": "s4",
+      "type": "symptom",
+      "label": "повышение внутриглазного давления"
+    },
+    {
+      "id": "s5",
+      "type": "symptom",
+      "label": "снижение внутриглазного давления"
+    },
+    {
+      "id": "d1",
+      "type": "diagnosis",
+      "label": "отслойка сетчатки с разрывом сетчатки",
+      "icd_code": "H33.0"
+    },
+    {
+      "id": "d2",
+      "type": "diagnosis",
+      "label": "ретиношизис и ретинальные кисты",
+      "icd_code": "H33.1"
+    },
+    {
+      "id": "d3",
+      "type": "diagnosis",
+      "label": "ретинальные разрывы без отслойки сетчатки",
+      "icd_code": "H33.3"
+    },
+    {
+      "id": "d4",
+      "type": "diagnosis",
+      "label": "тракционная отслойка сетчатки",
+      "icd_code": "H33.4"
+    },
+    {
+      "id": "d5",
+      "type": "diagnosis",
+      "label": "другие формы отслойки сетчатки",
+      "icd_code": "H33.5"
+    },
+    {
+      "id": "d6",
+      "type": "diagnosis",
+      "label": "витреомакулярный тракционный синдром",
+      "icd_code": "H43.8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "s1",
+      "target": "d1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "s1",
+      "target": "d2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "s1",
+      "target": "d3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "s1",
+      "target": "d4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "s1",
+      "target": "d5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "s2",
+      "target": "d1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление дефекта в периферическом поле зрения в виде темной завесы",
+      "properties": {}
+    },
+    {
+      "source": "s2",
+      "target": "d2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление дефекта в периферическом поле зрения в виде темной завесы",
+      "properties": {}
+    },
+    {
+      "source": "s2",
+      "target": "d3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление дефекта в периферическом поле зрения в виде темной завесы",
+      "properties": {}
+    },
+    {
+      "source": "s2",
+      "target": "d4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление дефекта в периферическом поле зрения в виде темной завесы",
+      "properties": {}
+    },
+    {
+      "source": "s2",
+      "target": "d5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление дефекта в периферическом поле зрения в виде темной завесы",
+      "properties": {}
+    },
+    {
+      "source": "s3",
+      "target": "d1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • искажение зрения",
+      "properties": {}
+    },
+    {
+      "source": "s3",
+      "target": "d2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • искажение зрения",
+      "properties": {}
+    },
+    {
+      "source": "s3",
+      "target": "d3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • искажение зрения",
+      "properties": {}
+    },
+    {
+      "source": "s3",
+      "target": "d4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • искажение зрения",
+      "properties": {}
+    },
+    {
+      "source": "s3",
+      "target": "d5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • искажение зрения",
+      "properties": {}
+    },
+    {
+      "source": "s1",
+      "target": "s2",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения; • появление дефекта в периферическом поле зрения в виде темной завесы",
+      "properties": {}
+    },
+    {
+      "source": "s1",
+      "target": "s3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • снижение остроты зрения; • искажение зрения",
+      "properties": {}
+    },
+    {
+      "source": "s2",
+      "target": "s3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление дефекта в периферическом поле зрения в виде темной завесы; • искажение зрения",
+      "properties": {}
+    }
+  ]
+}

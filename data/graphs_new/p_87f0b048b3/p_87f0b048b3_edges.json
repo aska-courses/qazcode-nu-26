@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_fever_high",
+    "target": "diagnosis_herpetic_meningitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_high",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_herpetic_meningitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_general_malaise",
+    "target": "diagnosis_herpetic_meningitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_general_malaise",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_herpetic_meningitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • упорная головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • упорная головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_herpetic_meningitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.): • рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "на высоте интоксикации отмечаются тошнота, рвота и судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lethargy",
+    "target": "diagnosis_herpetic_meningitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "выраженная вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_consciousness",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "supports",
+    "weight": 0.8,
+    "evidence": "кратковременная потеря сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_high",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "повышение температуры тела до 39–40°C; озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_high",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "повышение температуры тела до 39–40°C; головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever_high",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "повышение температуры тела до 39–40°C; рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "озноб; головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.9,
+    "evidence": "головная боль; рвота",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_herpetic_meningitis",
+    "target": "diagnosis_herpetic_encephalitis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Поражение нервной системы (энцефалит, менингоэнцефалит, неврит и др.)",
+    "properties": {}
+  }
+]

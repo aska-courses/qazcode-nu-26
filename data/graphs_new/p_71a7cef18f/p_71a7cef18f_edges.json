@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_frequent_lateral_dislocation",
+    "target": "diagnosis_patella_dislocation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "на частые вывихи надколенника в латеральную сторону",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_dislocation",
+    "target": "diagnosis_patella_dislocation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "неоднократные вывихи надколенника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_motion_limitation",
+    "target": "diagnosis_patella_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничения движения в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_patella_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_function_impairment",
+    "target": "diagnosis_patella_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения функции пораженной конечности (ограничения движения в коленном суставе)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_lateral_dislocation",
+    "target": "symptom_joint_motion_limitation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на частые вывихи надколенника в латеральную сторону; ограничения движения в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "symptom_recurrent_dislocation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болевой синдром; неоднократные вывихи надколенника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "symptom_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болевой синдром; нарушения функции пораженной конечности (ограничения движения в коленном суставе)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_dislocation",
+    "target": "symptom_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "неоднократные вывихи надколенника; нарушения функции пораженной конечности (ограничения движения в коленном суставе)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "symptom_joint_motion_limitation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болевой синдром; ограничения движения в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_dislocation",
+    "target": "symptom_joint_motion_limitation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "неоднократные вывихи надколенника; ограничения движения в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_function_impairment",
+    "target": "symptom_joint_motion_limitation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушения функции пораженной конечности (ограничения движения в коленном суставе)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_dislocation",
+    "target": "diagnosis_patella_subdislocation",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.0 Привычный вывих надколенника М 22.1 Привычный подвывих надколенника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_dislocation",
+    "target": "diagnosis_patella_femur_disruption",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.0 Привычный вывих надколенника М 22.2 Нарушение между надколенником и бедренной костью",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_dislocation",
+    "target": "diagnosis_other_patella_lesions",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.0 Привычный вывих надколенника М 22.3 Другие поражения надколенника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_dislocation",
+    "target": "diagnosis_unspecified_patella_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.0 Привычный вывих надколенника М 22.9 Поражение надколенника неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_subdislocation",
+    "target": "diagnosis_patella_femur_disruption",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.1 Привычный подвывих надколенника М 22.2 Нарушение между надколенником и бедренной костью",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_subdislocation",
+    "target": "diagnosis_other_patella_lesions",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.1 Привычный подвывих надколенника М 22.3 Другие поражения надколенника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_subdislocation",
+    "target": "diagnosis_unspecified_patella_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.1 Привычный подвывих надколенника М 22.9 Поражение надколенника неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_femur_disruption",
+    "target": "diagnosis_other_patella_lesions",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.2 Нарушение между надколенником и бедренной костью М 22.3 Другие поражения надколенника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_patella_femur_disruption",
+    "target": "diagnosis_unspecified_patella_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.2 Нарушение между надколенником и бедренной костью М 22.9 Поражение надколенника неуточненное",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_other_patella_lesions",
+    "target": "diagnosis_unspecified_patella_lesion",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) по МКБ-10: М 22.3 Другие поражения надколенника М 22.9 Поражение надколенника неуточненное",
+    "properties": {}
+  }
+]

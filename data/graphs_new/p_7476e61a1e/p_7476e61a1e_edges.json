@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_bol_v_pyatochnoy_oblasti",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли в пяточной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_nizhney_konechnosti",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функции нижней конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nalichie_ran_pri_otkrytyh_perelomah",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отек в месте перелома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformatsiya_pyatochnoy_oblasti",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "деформация (расширение пяточной области)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoizliyaniye_v_okruzhayushchikh_tkanyah",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_pri_oschey_nagruzke",
+    "target": "diagnosis_perelom_pyatochnoy_kosti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль, усиливающая при осевой нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_pyatochnoy_oblasti",
+    "target": "symptom_narushenie_funkcii_nizhney_konechnosti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: боли в пяточной области; нарушение функции нижней конечности; наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_pyatochnoy_oblasti",
+    "target": "symptom_nalichie_ran_pri_otkrytyh_perelomah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: боли в пяточной области; нарушение функции нижней конечности; наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_nizhney_konechnosti",
+    "target": "symptom_nalichie_ran_pri_otkrytyh_perelomah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: боли в пяточной области; нарушение функции нижней конечности; наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma",
+    "target": "symptom_deformatsiya_pyatochnoy_oblasti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При осмотре отмечается: отек в месте перелома; деформация (расширение пяточной области); кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma",
+    "target": "symptom_krovoizliyaniye_v_okruzhayushchikh_tkanyah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При осмотре отмечается: отек в месте перелома; деформация (расширение пяточной области); кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformatsiya_pyatochnoy_oblasti",
+    "target": "symptom_krovoizliyaniye_v_okruzhayushchikh_tkanyah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При осмотре отмечается: отек в месте перелома; деформация (расширение пяточной области); кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_pyatochnoy_oblasti",
+    "target": "symptom_bol_pri_oschey_nagruzke",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При пальпации отмечается: боль; болезненность, усиливающая при осевой нагрузке",
+    "properties": {}
+  }
+]

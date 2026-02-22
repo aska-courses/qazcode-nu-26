@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Диарея представляет собой экскрецию необычно жидкого и водянистого кала",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характер стула (жидкий, водянистый, типа «рисовый отвар», скудный, наличие патологических примесей)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_stool",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "частота стула (3 раза и более в течение суток)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thirst",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жажда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_refusal_to_drink",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отказ от питья",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemic_shock",
+    "target": "diagnosis_a09_diarrhea_and_gastroenteritis_infectious_origin",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиповолемический шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blood_in_stool",
+    "target": "diagnosis_a03_shigellosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровь в стуле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucus_in_stool",
+    "target": "diagnosis_a03_shigellosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слизь в стуле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a02_other_salmonella_infections",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенная температура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_a03_shigellosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенная температура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характер стула (жидкий...), лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характер стула (жидкий...), рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "характер стула (жидкий...), боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a03_shigellosis",
+    "target": "diagnosis_a02_other_salmonella_infections",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "бактериальные инфекции: шигеллёз, сальмонеллёз, эшерихиоз, ОКИ",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a03_shigellosis",
+    "target": "diagnosis_a04_other_bacterial_intestinal_infections",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "бактериальные инфекции: шигеллёз, сальмонеллёз, эшерихиоз, ОКИ",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a02_other_salmonella_infections",
+    "target": "diagnosis_a04_other_bacterial_intestinal_infections",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "бактериальные инфекции: шигеллёз, сальмонеллёз, эшерихиоз, ОКИ",
+    "properties": {}
+  }
+]

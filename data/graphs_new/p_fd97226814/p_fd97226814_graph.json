@@ -1,0 +1,360 @@
+{
+  "protocol_id": "p_fd97226814",
+  "nodes": [
+    {
+      "id": "diagnosis_guillain_barre_syndrome",
+      "type": "diagnosis",
+      "label": "Синдром Гийена-Барре",
+      "icd_code": "G61.0"
+    },
+    {
+      "id": "symptom_muscle_weakness",
+      "type": "symptom",
+      "label": "мышечная слабость"
+    },
+    {
+      "id": "symptom_paresthesia",
+      "type": "symptom",
+      "label": "парестезии конечностей"
+    },
+    {
+      "id": "symptom_numbness",
+      "type": "symptom",
+      "label": "онемение"
+    },
+    {
+      "id": "symptom_hyperesthesia",
+      "type": "symptom",
+      "label": "повышенная чувствительность (гиперестезия)"
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "боль в спине"
+    },
+    {
+      "id": "symptom_shoulder_pain",
+      "type": "symptom",
+      "label": "боль в плечевом поясе"
+    },
+    {
+      "id": "symptom_pelvic_pain",
+      "type": "symptom",
+      "label": "боль в тазовом поясе"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "нарушение глотания"
+    },
+    {
+      "id": "symptom_respiratory_failure",
+      "type": "symptom",
+      "label": "нарушение дыхательных функций, отсутствие самостоятельного дыхания"
+    },
+    {
+      "id": "symptom_voice_weakness",
+      "type": "symptom",
+      "label": "ослабление голоса"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "расстройство частоты сердечного ритма"
+    },
+    {
+      "id": "symptom_facial_paralysis",
+      "type": "symptom",
+      "label": "паралич мышц лица"
+    },
+    {
+      "id": "symptom_hyperhidrosis",
+      "type": "symptom",
+      "label": "повышенное потоотделение"
+    },
+    {
+      "id": "symptom_blood_pressure_fluctuation",
+      "type": "symptom",
+      "label": "колебания кровяного давления"
+    },
+    {
+      "id": "symptom_urinary_incontinence",
+      "type": "symptom",
+      "label": "неконтролируемое испускание урины"
+    },
+    {
+      "id": "symptom_areflexia",
+      "type": "symptom",
+      "label": "потеря сухожильных рефлексов (арефлексия)"
+    },
+    {
+      "id": "symptom_unsteady_gait",
+      "type": "symptom",
+      "label": "шаткая и неуверенная походка"
+    },
+    {
+      "id": "symptom_ataxia",
+      "type": "symptom",
+      "label": "нарушение координации движений (атаксия)"
+    },
+    {
+      "id": "symptom_abdominal_volume_change",
+      "type": "symptom",
+      "label": "изменения объёмов живота"
+    },
+    {
+      "id": "symptom_visual_acuity_reduction",
+      "type": "symptom",
+      "label": "снижение остроты зрения"
+    },
+    {
+      "id": "symptom_diplopia",
+      "type": "symptom",
+      "label": "раздвоенность зрения"
+    },
+    {
+      "id": "symptom_strabismus",
+      "type": "symptom",
+      "label": "косоглазие"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_muscle_weakness",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "На нарастающую мышечную слабость в руках и /или ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парестезии конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_numbness",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "онемение и снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperesthesia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение чувствительности (тактильной, температурной и др.) в кистях и стопах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shoulder_pain",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в плечевом поясе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pelvic_pain",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в тазовом поясе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение глотания, как твердой пищи, так и жидкости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхательных функций, вплоть до отсутствия самостоятельного дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voice_weakness",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабление голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кашля",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расстройство частоты сердечного ритма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_paralysis",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "паралич мышц лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperhidrosis",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное потоотделение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blood_pressure_fluctuation",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "колебания кровяного давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urinary_incontinence",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможность неконтролируемого испускания урины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_areflexia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря сухожильных рефлексов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unsteady_gait",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шаткая и неуверенная походка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ataxia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение координации движений (атаксия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_volume_change",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения объёмов живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_acuity_reduction",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение остроты зрения — чаще всего возникают раздвоенность и косоглазие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diplopia",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чаще всего возникают раздвоенность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strabismus",
+      "target": "diagnosis_guillain_barre_syndrome",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чаще всего возникают косоглазие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_weakness",
+      "target": "symptom_paresthesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: На нарастающую мышечную слабость …; парестезии конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_weakness",
+      "target": "symptom_areflexia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: На нарастающую мышечную слабость …; потеря сухожильных рефлексов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "symptom_respiratory_failure",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение глотания …; нарушение дыхательных функций, вплоть до отсутствия самостоятельного дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "symptom_blood_pressure_fluctuation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "расстройство частоты сердечного ритма …; колебания кровяного давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_acuity_reduction",
+      "target": "symptom_diplopia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "снижение остроты зрения — чаще всего возникают раздвоенность и косоглазие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_acuity_reduction",
+      "target": "symptom_strabismus",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "снижение остроты зрения — чаще всего возникают раздвоенность и косоглазие",
+      "properties": {}
+    }
+  ]
+}

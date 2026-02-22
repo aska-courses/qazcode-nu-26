@@ -1,0 +1,235 @@
+{
+  "protocol_id": "p_afc18a2581",
+  "nodes": [
+    {
+      "id": "diagnosis_t84_0",
+      "type": "diagnosis",
+      "label": "Осложнение механического происхождения, связанное с внутренним суставным протезом",
+      "icd_code": "T84.0"
+    },
+    {
+      "id": "diagnosis_t84_5",
+      "type": "diagnosis",
+      "label": "Инфекция и воспалительная реакция, обусловленные эндопротезированием",
+      "icd_code": "T84.5"
+    },
+    {
+      "id": "diagnosis_c40_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование длинных костей нижней конечности",
+      "icd_code": "C40.2"
+    },
+    {
+      "id": "diagnosis_d16_2",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование длинных костей нижней конечности",
+      "icd_code": "D16.2"
+    },
+    {
+      "id": "symptom_infection_inflammation",
+      "type": "symptom",
+      "label": "Инфекционное воспаление имплантата"
+    },
+    {
+      "id": "symptom_aseptic_loosening",
+      "type": "symptom",
+      "label": "Асектическое расшатывание эндопротеза"
+    },
+    {
+      "id": "symptom_joint_instability",
+      "type": "symptom",
+      "label": "Нестабильность сустава"
+    },
+    {
+      "id": "symptom_mechanical_damage",
+      "type": "symptom",
+      "label": "Механическое повреждение компонентов эндопротеза"
+    },
+    {
+      "id": "symptom_movement_limitation",
+      "type": "symptom",
+      "label": "Ограничения движений"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_patellar_femoral_tibia_fracture",
+      "type": "symptom",
+      "label": "Травматические и усталостные переломы надколенника, бедренной и большеберцовой кости"
+    },
+    {
+      "id": "symptom_impossibility_self_movement",
+      "type": "symptom",
+      "label": "Невозможность самостоятельного передвижения"
+    },
+    {
+      "id": "symptom_thrombophlebitis_exacerbation",
+      "type": "symptom",
+      "label": "Тромбофлебит в стадии обострения"
+    },
+    {
+      "id": "symptom_chronic_respiratory_insufficiency",
+      "type": "symptom",
+      "label": "Хроническая дыхательная недостаточность 23 степени"
+    },
+    {
+      "id": "symptom_joint_inflammation",
+      "type": "symptom",
+      "label": "Воспалительный процесс в области коленного сустава"
+    },
+    {
+      "id": "symptom_infection_foci",
+      "type": "symptom",
+      "label": "Очаги острой и хронической инфекции любой локализации"
+    },
+    {
+      "id": "symptom_sepsis_history",
+      "type": "symptom",
+      "label": "Перенесённый сепсис"
+    },
+    {
+      "id": "symptom_extensor_apparatus_failure",
+      "type": "symptom",
+      "label": "Выраженная функциональная несостоятельность разгибательного аппарата коленного сустава"
+    },
+    {
+      "id": "symptom_osteopenia",
+      "type": "symptom",
+      "label": "Выраженная остеопения"
+    },
+    {
+      "id": "symptom_polyallergy",
+      "type": "symptom",
+      "label": "Полиаллергия"
+    },
+    {
+      "id": "symptom_psychoneuromuscular_disorders",
+      "type": "symptom",
+      "label": "Психические/нейромышечные расстройства"
+    },
+    {
+      "id": "symptom_hepatic_insufficiency",
+      "type": "symptom",
+      "label": "Печеночная недостаточность"
+    },
+    {
+      "id": "symptom_hormonal_osteopathy",
+      "type": "symptom",
+      "label": "Гормональная остеопатия"
+    },
+    {
+      "id": "symptom_coagulation_disorder",
+      "type": "symptom",
+      "label": "Нарушение процессов свертывания крови"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_infection_inflammation",
+      "target": "diagnosis_t84_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционное воспаление ранее установленного имплантата",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aseptic_loosening",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асептическое расшатывание эндопротеза коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_instability",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нестабильность сустава из-за несостоятельности отдельных капсульно - связочных структур",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mechanical_damage",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "механическое повреждение компонентов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_movement_limitation",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженные ограничения движений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patellar_femoral_tibia_fracture",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "травматические и усталостные переломы надколенника, бедренной и большеберцовой кости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_inflammation",
+      "target": "diagnosis_t84_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "воспалительный процесс в области коленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_foci",
+      "target": "diagnosis_t84_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "несанированные очаги острой и хронической инфекции любой локализации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis_history",
+      "target": "diagnosis_t84_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перенесенный сепсис",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensor_apparatus_failure",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная функциональная несостоятельность разгибательного аппарата коленного сустава при его неврологических повреждениях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteopenia",
+      "target": "diagnosis_t84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная остеопения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c40_2",
+      "target": "diagnosis_d16_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "онкологические заболевания",
+      "properties": {}
+    }
+  ]
+}

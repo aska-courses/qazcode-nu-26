@@ -1,0 +1,389 @@
+{
+  "protocol_id": "p_8db111659a",
+  "nodes": [
+    {
+      "id": "diagnosis_bacterial_sepsis_newborn",
+      "type": "diagnosis",
+      "label": "Бактериальный сепсис новорожденных",
+      "icd_code": "R36"
+    },
+    {
+      "id": "diagnosis_sepsis_newborn_ecoli",
+      "type": "diagnosis",
+      "label": "Сепсис новорожденного, обусловленный кишечной палочкой",
+      "icd_code": "P36.4"
+    },
+    {
+      "id": "diagnosis_sepsis_newborn_other_bacteria",
+      "type": "diagnosis",
+      "label": "Сепсис новорожденного, обусловленный другими бактериальными агентами",
+      "icd_code": "P36.8"
+    },
+    {
+      "id": "diagnosis_sepsis",
+      "type": "diagnosis",
+      "label": "Сепсис",
+      "icd_code": "A40"
+    },
+    {
+      "id": "diagnosis_septicaemia",
+      "type": "diagnosis",
+      "label": "Септицемия уточненная",
+      "icd_code": "A41.8"
+    },
+    {
+      "id": "symptom_septic_shock",
+      "type": "symptom",
+      "label": "Септический шок",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_endotoxemia",
+      "type": "symptom",
+      "label": "Эндотоксемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gram_negative_infection",
+      "type": "symptom",
+      "label": "Грам-отрицательная бактериальная инфекция",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_severe_sepsis",
+      "type": "symptom",
+      "label": "Тяжёлый сепсис",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышенная температура",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия (учащённая ЧСС)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "Тахипноэ (учащённая частота дыхания)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия (низкое АД)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_low_lvejection_fraction",
+      "type": "symptom",
+      "label": "Сниженная фракция выброса левого желудочка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_polyorgan_failure",
+      "type": "symptom",
+      "label": "Полиорганная недостаточность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lung_edema",
+      "type": "symptom",
+      "label": "Отёк лёгких",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hyperbilirubinemia",
+      "type": "symptom",
+      "label": "Гипербилирубинемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_renal_failure",
+      "type": "symptom",
+      "label": "Почечная недостаточность (повышенный креатинин)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_procalcitonin_elevated",
+      "type": "symptom",
+      "label": "Повышенный уровень прокальцитонина",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_crp_elevated",
+      "type": "symptom",
+      "label": "Повышенный уровень С‑реактивного белка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_endotoxin_elevated",
+      "type": "symptom",
+      "label": "Повышенный уровень эндотоксина",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cytokine_elevated",
+      "type": "symptom",
+      "label": "Повышенный уровень цитокинов",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_immature_leukocytes",
+      "type": "symptom",
+      "label": "Увеличение количества незрелых форм лейкоцитов",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hemodynamic_instability",
+      "type": "symptom",
+      "label": "Гемодинамическая нестабильность",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_septic_shock",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "клинические признаки септического шока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_septic_shock",
+      "target": "diagnosis_septicaemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "клинические признаки септического шока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_endotoxemia",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лабораторно подтвержденная эндотоксемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_endotoxemia",
+      "target": "diagnosis_septicaemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лабораторно подтвержденная эндотоксемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gram_negative_infection",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грамотрицательная бактериальная инфекция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gram_negative_infection",
+      "target": "diagnosis_septicaemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грамотрицательная бактериальная инфекция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_sepsis",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лабораторные признаки тяжѐлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_sepsis",
+      "target": "diagnosis_septicaemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лабораторные признаки тяжѐлого сепсиса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышенная температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тахикардия (учащённая ЧСС)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тахипноэ (учащённая частота дыхания)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гипотензия (низкое АД)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_lvejection_fraction",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сниженная фракция выброса левого желудочка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_edema",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёк лёгких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperbilirubinemia",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гипербилирубинемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_renal_failure",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Почечная недостаточность (повышенный креатинин)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_procalcitonin_elevated",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышенный уровень прокальцитонина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crp_elevated",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышенный уровень С‑реактивного белка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_endotoxin_elevated",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышенный уровень эндотоксина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cytokine_elevated",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышенный уровень цитокинов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_immature_leukocytes",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Увеличение количества незрелых форм лейкоцитов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemodynamic_instability",
+      "target": "diagnosis_sepsis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гемодинамическая нестабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повышенная температура ... Тахикардия (учащённая ЧСС)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_tachypnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Повышенная температура ... Тахипноэ (учащённая частота дыхания)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "symptom_hemodynamic_instability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гипотензия (низкое АД) ... Гемодинамическая нестабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "symptom_lung_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тромбоцитопения ... Отёк лёгких",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_bacterial_sepsis_newborn",
+      "target": "diagnosis_sepsis_newborn_ecoli",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Р36 – Бактериальный сепсис новорожденных; Ρ36.4 – Сепсис новорожденного, обусловленный кишечной палочкой",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_bacterial_sepsis_newborn",
+      "target": "diagnosis_sepsis_newborn_other_bacteria",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: Р36 – Бактериальный сепсис новорожденных; P36.8 – Сепсис новорожденного, обусловленный другими бактериальными агентами",
+      "properties": {}
+    }
+  ]
+}

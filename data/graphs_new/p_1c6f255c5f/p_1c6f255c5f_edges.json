@@ -1,0 +1,210 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сопровождающееся симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... боли в груди, одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сопровождающееся симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... боли в груди, одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sputum",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сопровождающееся симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... боли в груди, одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сопровождающееся симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... боли в груди, одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сопровождающееся симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... боли в груди, одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дополнительно немотивированная слабость, утомляемость, потоотделение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дополнительно немотивированная слабость, утомляемость, потоотделение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sweating",
+    "target": "diagnosis_j18",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дополнительно немотивированная слабость, утомляемость, потоотделение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_sputum",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... боли в груди, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ... одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_sputum",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (лихорадка, кашель, выделение мокроты, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (кашель, ... боли в груди, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (кашель, ... одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sputum",
+    "target": "symptom_chest_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (выделение мокроты, ... боли в груди, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sputum",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (выделение мокроты, ... одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомами инфекции нижних дыхательных путей (боли в груди, ... одышка)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дополнительно немотивированная слабость, утомляемость, потоотделение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_sweating",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дополнительно немотивированная слабость, утомляемость, потоотделение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_sweating",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "дополнительно немотивированная слабость, утомляемость, потоотделение",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j14",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: J13 Пневмония, вызванная Streptococcus pneumoniae J14 Пневмония, вызванная Haemophilus influenzae",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j15",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: J13 ... J15 Бактериальная пневмония, не классифицированная в других рубриках",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j14",
+    "target": "diagnosis_j15",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: J14 ... J15 Бактериальная пневмония, не классифицированная в других рубриках",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j15",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: J15 ... J18 Пневмония без уточнения возбудителя",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j18",
+    "target": "diagnosis_j18_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "J18 Пневмония без уточнения возбудителя J18.9 Пневмония неуточненная",
+    "properties": {}
+  }
+]

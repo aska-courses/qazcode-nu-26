@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "эмоциональная лабильность (неконтролируемость, нестабильность и колебания в проявлениях эмоций)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "эйфория и плоские, неуместные шутки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "раздражительность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "вспышки гнева",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "агрессии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "апатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "расторможение влечений без учета последствий и социальных норм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "когнитивные нарушения, обычно в форме: а) излишней подозрительности и параноидных идей; б) повышенной заинтересованности одной темой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "излишней подозрительности и параноидных идей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "параноидных идей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенной заинтересованности одной темой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "выраженное изменение речи, с такими признаками как обстоятельность, вязкость и гиперграфия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гиперграфия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_15",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гиперсексуальность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_16",
+    "target": "diagnosis_f07_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "изменение полового предпочтения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f60_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые нарушения поведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_19",
+    "target": "diagnosis_f60_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "мелкие правонарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "эмоциональная лабильность ... эйфория",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "раздражительность ... вспышки гнева",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_10",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "когнитивные нарушения ... излишней подозрительности и параноидных идей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_11",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "когнитивные нарушения ... параноидных идей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "symptom_14",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изменение речи ... гиперграфия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_15",
+    "target": "symptom_16",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изменение сексуального поведения (гиперсексуальность или изменение полового предпочтения)",
+    "properties": {}
+  }
+]

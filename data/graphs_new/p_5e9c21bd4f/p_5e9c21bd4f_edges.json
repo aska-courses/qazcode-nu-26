@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_vyvorachivanie_pryamoy_kiski_cherez_zadniy_prohod",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выворачивания прямой кишки через задний проход",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_oporozhdeniya_pryamoy_kiski",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение опорожнения прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oshchushchenie_nepolnogo_oporozhdeniya",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущение неполного опорожнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedržanie_kala",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недержанием кала",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedržanie_mochi",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_pri_defekatsii",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение крови при дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zapory",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "длительные запоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ponosy",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "поносы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vospalitelnyj_protsess_v_slivke_pryamoy_kiski",
+    "target": "diagnosis_vypadenie_pryamoy_kiski",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "воспалительный процесс в слизистой оболочке прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_oporozhdeniya_pryamoy_kiski",
+    "target": "symptom_oshchushchenie_nepolnogo_oporozhdeniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "затруднение опорожнения прямой кишки; ощущение неполного опорожнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedržanie_kala",
+    "target": "symptom_nedržanie_mochi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "недержанием кала; недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zapory",
+    "target": "symptom_ponosy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение стула (длительные запоры, поносы)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vyvorachivanie_pryamoy_kiski_cherez_zadniy_prohod",
+    "target": "symptom_zatrudnenie_oporozhdeniya_pryamoy_kiski",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выворачивания прямой кишки через задний проход; затруднение опорожнения прямой кишки",
+    "properties": {}
+  }
+]

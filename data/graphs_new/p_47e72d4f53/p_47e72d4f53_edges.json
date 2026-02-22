@@ -1,0 +1,394 @@
+[
+  {
+    "source": "symptom_apnea",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Апноэ (временная остановка дыхания)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Судороги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiopulmonary_resuscitation_needed",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Необходимость сердечно‑легочной реанимации.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_ventilation_needed",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Необходимость механической вентиляции.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Признаки шока.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_altered_behavior",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Измененное поведение (снижение активности, сонливость, невозможность разбудить, слабый пронзительный или непрерывный плач).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_altered_muscle_tone",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Измененный мышечный тонус (вялость, гипотония).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeding_difficulty",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Трудности с кормлением (вялое сосание, отказ от кормления).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeding_intolerance",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Непереносимость кормления (срыгивания, рвота, обильные желудочные аспираты).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_rhythm_disorder",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Нарушение сердечного ритма (брадикардия или тахикардия).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Признаки дыхательной недостаточности (тахипноэ или брадипноэ, стонущий выдох, втяжение податливых мест грудной клетки).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perioral_cyanosis",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Периоральный цианоз.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_central_cyanosis",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Центральный цианоз.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_pulmonary_hypertension",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стойкая легочная гипертензия новорожденных.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_scleral_and_skin_jaundice",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Желтушность склер и кожных покровов в первые 24 часа жизни.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cns_functional_impairment",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Признаки нарушения функционального состояния ЦНС (прогрессирующее угнетение ...).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thermoregulation_disorder",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Нарушения терморегуляции (ниже 36,5°C или выше 37,5°C).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontaneous_bleeding_tendency",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Склонность к спонтанной кровоточивости.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тромбоцитопения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemostasis_disorder",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушения в системе гемостаза.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение скорости диуреза, менее 0,5 мл/кг/ч в 1‑е сутки жизни.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_white_spot",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптом «белого пятна» более 3 секунд.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_behavior_concern",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Обеспокоенность родителей ... ребенок постоянно спит и, если его разбудить, не бодрствует;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constant_sleep",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ребенок постоянно спит и, если его разбудить, не бодрствует;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weak_cry",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "крик слабый, болезненный или непрерывный.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_respiratory_rate",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Повышенная частота дыханий: 60 дыханий в минуту и более.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_noisy_breathing",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стонущее дыхание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_oxygen_saturation",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Насыщение кислородом менее 90% при дыхании комнатным воздухом.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Постоянная тахикардия: ЧСС 160 ударов в минуту и более.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "стойкая брадикардия: ЧСС менее 100 ударов в минуту.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cold_extremities",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Холодные конечности.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis_of_extremities",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Цианоз конечностей.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pale_grey_skin",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Бледно‑серый колорит кожных покровов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_rash",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Геморрагические высыпания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Температура тела > 38 °C.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypothermia",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Температура тела < 36 °C.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Вздутие живота.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bulging_fontanelle",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Выбухание большего родничка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeding_behavior_change",
+    "target": "diagnosis_bacterial_sepsis_newborn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Изменение поведения при кормлении.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnea",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Апноэ (временная остановка дыхания) … Судороги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_respiratory_rate",
+    "target": "symptom_noisy_breathing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Повышенная частота дыханий … Стонущее дыхание.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis_of_extremities",
+    "target": "symptom_pale_grey_skin",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Цианоз конечностей … Бледно‑серый колорит кожных покровов.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_sepsis_newborn_group_b_streptococcus",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.0 Сепсис новорожденного, обусловленный стрептококком группы В",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_sepsis_newborn_other_streptococci",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.1 Сепсис новорожденного, обусловленный другими и неуточнёнными стрептококками",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_sepsis_newborn_staphylococcus_aureus",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.2 Сепсис новорожденного, обусловленный золотистым стафилококком",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_sepsis_newborn_escherichia_coli",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.4 Сепсис новорожденного, обусловленный кишечной палочкой",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_sepsis_newborn_anaerobic_microorganisms",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.5 Сепсис новорожденного, обусловленный анаэробными микроорганизмами",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_sepsis_newborn_other_bacterial_agents",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.8 Сепсис новорожденного, обусловленный другими бактериальными агентами",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_bacterial_sepsis_newborn",
+    "target": "diagnosis_bacterial_sepsis_newborn_unspecified",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "Коды МКБ-10: Р 36 Бактериальный сепсис новорожденного Р 36.9 Бактериальный сепсис новорожденного неуточнённый",
+    "properties": {}
+  }
+]

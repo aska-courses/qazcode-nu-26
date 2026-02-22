@@ -1,0 +1,227 @@
+{
+  "protocol_id": "p_fff47298ba",
+  "nodes": [
+    {
+      "id": "diagnosis_insulinoma",
+      "type": "diagnosis",
+      "label": "Инсулома",
+      "icd_code": "E16.1"
+    },
+    {
+      "id": "symptom_loss_of_consciousness",
+      "type": "symptom",
+      "label": "Потеря сознания"
+    },
+    {
+      "id": "symptom_weight_gain",
+      "type": "symptom",
+      "label": "Прибавка в весе"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_tingling_lips_tongue",
+      "type": "symptom",
+      "label": "Покалывание губ и языка"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_apathy",
+      "type": "symptom",
+      "label": "Апатия"
+    },
+    {
+      "id": "symptom_drowsiness",
+      "type": "symptom",
+      "label": "Сонливость"
+    },
+    {
+      "id": "symptom_neuroglycopenic_symptoms",
+      "type": "symptom",
+      "label": "Симптомы нейроглюкопении"
+    },
+    {
+      "id": "symptom_hypoglycemic_attacks",
+      "type": "symptom",
+      "label": "Гипогликемические приступы"
+    },
+    {
+      "id": "symptom_hypoglycemic_coma",
+      "type": "symptom",
+      "label": "Гипогликемическая кома"
+    },
+    {
+      "id": "symptom_hypoglycemia",
+      "type": "symptom",
+      "label": "Снижение гликемии (гипогликемия)"
+    },
+    {
+      "id": "symptom_hyperinsulinemia",
+      "type": "symptom",
+      "label": "Гиперинсулинизм"
+    },
+    {
+      "id": "symptom_hyperglycemia",
+      "type": "symptom",
+      "label": "Гипергликемия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "развитие приступов потери сознания в ранние утренние часы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_gain",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прибавка в весе с тех пор, как стали появляться приступы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tingling_lips_tongue",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покалывание губ, языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apathy",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "апатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_drowsiness",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neuroglycopenic_symptoms",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомов нейроглюкопении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoglycemic_attacks",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипогликемические приступы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoglycemic_coma",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипогликемической комы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperinsulinemia",
+      "target": "diagnosis_insulinoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "соотношение инсулин/глюкоза > 37 указывает на наличие гиперинсулинизма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "предвестники приступов: слабость; потливость; покалывание губ, языка; головокружение; апатия; сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "symptom_sweating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "предвестники приступов: слабость; потливость; покалывание губ, языка; головокружение; апатия; сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "symptom_tingling_lips_tongue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "предвестники приступов: слабость; потливость; покалывание губ, языка; головокружение; апатия; сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "symptom_dizziness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "предвестники приступов: слабость; потливость; покалывание губ, языка; головокружение; апатия; сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "symptom_apathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "предвестники приступов: слабость; потливость; покалывание губ, языка; головокружение; апатия; сонливость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_consciousness",
+      "target": "symptom_drowsiness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "предвестники приступов: слабость; потливость; покалывание губ, языка; головокружение; апатия; сонливость",
+      "properties": {}
+    }
+  ]
+}

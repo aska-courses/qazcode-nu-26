@@ -1,0 +1,427 @@
+{
+  "protocol_id": "p_1ef93b67f5",
+  "nodes": [
+    {
+      "id": "g93_1",
+      "type": "diagnosis",
+      "label": "Аноксическое поражение головного мозга, не классифицированное в других рубриках",
+      "icd_code": "G93.1"
+    },
+    {
+      "id": "g93_6",
+      "type": "diagnosis",
+      "label": "Отек головного мозга",
+      "icd_code": "G93.6"
+    },
+    {
+      "id": "i46_0",
+      "type": "diagnosis",
+      "label": "Остановка сердца с успешным восстановлением сердечной деятельности",
+      "icd_code": "I46.0"
+    },
+    {
+      "id": "i60",
+      "type": "diagnosis",
+      "label": "Субарахноидальное кровоизлияние",
+      "icd_code": "I60"
+    },
+    {
+      "id": "i61",
+      "type": "diagnosis",
+      "label": "Внутримозговое кровоизлияние",
+      "icd_code": "I61"
+    },
+    {
+      "id": "i62",
+      "type": "diagnosis",
+      "label": "Другое нетравматическое внутричерепное кровоизлияние",
+      "icd_code": "I62"
+    },
+    {
+      "id": "i63",
+      "type": "diagnosis",
+      "label": "Инфаркт мозга",
+      "icd_code": "I63"
+    },
+    {
+      "id": "i64",
+      "type": "diagnosis",
+      "label": "Инсульт, неуточненный как инфаркт мозга или кровоизлияние",
+      "icd_code": "I64"
+    },
+    {
+      "id": "s06",
+      "type": "diagnosis",
+      "label": "Внутричерепная травма",
+      "icd_code": "S06"
+    },
+    {
+      "id": "s06_1",
+      "type": "diagnosis",
+      "label": "Травматический отек головного мозга",
+      "icd_code": "S06.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "g93_1",
+      "target": "g93_6",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 Аноксическое поражение головного мозга ... G93.6 Отек головного мозга ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "i46_0",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... I46.0 Остановка сердца с успешным восстановлением сердечной деятельности ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "i60",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... I60 Субарахноидальное кровоизлияние ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "i61",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... I61 Внутримозговое кровоизлияние ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "i62",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... I62 Другое нетравматическое внутричерепное кровоизлияние ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "i63",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... I63 Инфаркт мозга ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... I64 Инсульт, неуточненный как инфаркт мозга или кровоизлияние ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... S06 Внутричерепная травма ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_1",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.1 ... S06.1 Травматический отек головного мозга ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "i46_0",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... I46.0 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "i60",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... I60 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "i61",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... I61 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "i62",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... I62 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "i63",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... I63 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... I64 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "g93_6",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... G93.6 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "i60",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... I60 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "i61",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... I61 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "i62",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... I62 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "i63",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... I63 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... I64 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "i46_0",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I46.0 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "i60",
+      "target": "i61",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I60 ... I61 ...",
+      "properties": {}
+    },
+    {
+      "source": "i60",
+      "target": "i62",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I60 ... I62 ...",
+      "properties": {}
+    },
+    {
+      "source": "i60",
+      "target": "i63",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I60 ... I63 ...",
+      "properties": {}
+    },
+    {
+      "source": "i60",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I60 ... I64 ...",
+      "properties": {}
+    },
+    {
+      "source": "i60",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I60 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "i60",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I60 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "i61",
+      "target": "i62",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I61 ... I62 ...",
+      "properties": {}
+    },
+    {
+      "source": "i61",
+      "target": "i63",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I61 ... I63 ...",
+      "properties": {}
+    },
+    {
+      "source": "i61",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I61 ... I64 ...",
+      "properties": {}
+    },
+    {
+      "source": "i61",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I61 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "i61",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I61 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "i62",
+      "target": "i63",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I62 ... I63 ...",
+      "properties": {}
+    },
+    {
+      "source": "i62",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I62 ... I64 ...",
+      "properties": {}
+    },
+    {
+      "source": "i62",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I62 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "i62",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I62 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "i63",
+      "target": "i64",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I63 ... I64 ...",
+      "properties": {}
+    },
+    {
+      "source": "i63",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I63 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "i63",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I63 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "i64",
+      "target": "s06",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I64 ... S06 ...",
+      "properties": {}
+    },
+    {
+      "source": "i64",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... I64 ... S06.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "s06",
+      "target": "s06_1",
+      "type": "appear-with",
+      "weight": 0.9,
+      "evidence": "Код(ы) МКБ-10: ... S06 ... S06.1 ...",
+      "properties": {}
+    }
+  ]
+}

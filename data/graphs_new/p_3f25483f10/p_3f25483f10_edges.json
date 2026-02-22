@@ -1,0 +1,146 @@
+[
+  {
+    "source": "hyperbilirubinemia",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Классическими признаками ВОБП являются гипербилирубинемия",
+    "properties": {}
+  },
+  {
+    "source": "hepatomegaly",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненная гепатомегалия",
+    "properties": {}
+  },
+  {
+    "source": "ascites",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асцит",
+    "properties": {}
+  },
+  {
+    "source": "pain",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болями в правом подреберье",
+    "properties": {}
+  },
+  {
+    "source": "hypotension",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "edema",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк",
+    "properties": {}
+  },
+  {
+    "source": "pleural_effusion",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плевральный выпот",
+    "properties": {}
+  },
+  {
+    "source": "pericardial_effusion",
+    "target": "veno_occlusive_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перикардиальный выпот",
+    "properties": {}
+  },
+  {
+    "source": "skin_rash",
+    "target": "graft_vs_host_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "diarrhea",
+    "target": "graft_vs_host_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "liver_failure",
+    "target": "graft_vs_host_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "печёночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "infection",
+    "target": "acute_lymphoblastic_leukemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высокий риск инфекционных осложнений",
+    "properties": {}
+  },
+  {
+    "source": "infection",
+    "target": "acute_myeloblastic_leukemia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "высокий риск инфекционных осложнений",
+    "properties": {}
+  },
+  {
+    "source": "pancytopenia",
+    "target": "bone_marrow_failure_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "панцитопения",
+    "properties": {}
+  },
+  {
+    "source": "anemia",
+    "target": "bone_marrow_failure_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "neutropenia",
+    "target": "bone_marrow_failure_syndromes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нейтропения",
+    "properties": {}
+  },
+  {
+    "source": "acute_lymphoblastic_leukemia",
+    "target": "acute_myeloblastic_leukemia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Трансплантация ... у пациентов с ОМЛ ... и ОЛЛ",
+    "properties": {}
+  },
+  {
+    "source": "bone_marrow_failure_syndromes",
+    "target": "aplastic_anemia_fanconi",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Анемия Фанкони (AF)",
+    "properties": {}
+  }
+]

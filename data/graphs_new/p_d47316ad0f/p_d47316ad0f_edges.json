@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_bol_v_oblasti_stopy_ili_golenostopnogo_sustava",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "боли в области стопы или голеностопного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_nizhney_konechnosti",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "нарушение функции нижней конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nalichie_ran_pri_otkrytyh_perelomah",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma_ili_golenostopnogo_sustava",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "отек в месте перелома или голеностопного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podoshvennoe_sgibanie_stopy",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "подошвенное сгибание стопы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_konturov_golenostopnogo_sustava",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "изменение контуров голеностопного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_pri_palpatsii",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_uvelichivayushchayasya_pri_osovoi_nagruzke_i_dvizheniyah",
+    "target": "diagnosis_perelom_tarannoj_kosti",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "болезненность, усиливающаяся при осевой нагрузке и движениях в голеностопном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_stopy_ili_golenostopnogo_sustava",
+    "target": "symptom_narushenie_funkcii_nizhney_konechnosti",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "боли в области стопы или голеностопного сустава; нарушение функции нижней конечности; наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_stopy_ili_golenostopnogo_sustava",
+    "target": "symptom_nalichie_ran_pri_otkrytyh_perelomah",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "боли в области стопы или голеностопного сустава; нарушение функции нижней конечности; наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_nizhney_konechnosti",
+    "target": "symptom_nalichie_ran_pri_otkrytyh_perelomah",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "боли в области стопы или голеностопного сустава; нарушение функции нижней конечности; наличие ран при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma_ili_golenostopnogo_sustava",
+    "target": "symptom_podoshvennoe_sgibanie_stopy",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "отек в месте перелома или голеностопного сустава; подошвенное сгибание стопы; изменение контуров голеностопного сустава; кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma_ili_golenostopnogo_sustava",
+    "target": "symptom_izmenenie_konturov_golenostopnogo_sustava",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "отек в месте перелома или голеностопного сустава; подошвенное сгибание стопы; изменение контуров голеностопного сустава; кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_meste_pereloma_ili_golenostopnogo_sustava",
+    "target": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "отек в месте перелома или голеностопного сустава; подошвенное сгибание стопы; изменение контуров голеностопного сустава; кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podoshvennoe_sgibanie_stopy",
+    "target": "symptom_izmenenie_konturov_golenostopnogo_sustava",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "отек в месте перелома или голеностопного сустава; подошвенное сгибание стопы; изменение контуров голеностопного сустава; кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podoshvennoe_sgibanie_stopy",
+    "target": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "отек в месте перелома или голеностопного сустава; подошвенное сгибание стопы; изменение контуров голеностопного сустава; кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_konturov_golenostopnogo_sustava",
+    "target": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "отек в месте перелома или голеностопного сустава; подошвенное сгибание стопы; изменение контуров голеностопного сустава; кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_pri_palpatsii",
+    "target": "symptom_boleznennost_uvelichivayushchayasya_pri_osovoi_nagruzke_i_dvizheniyah",
+    "type": "co-occurs",
+    "weight": 0.8,
+    "evidence": "боль; болезненность, усиливающаяся при осевой нагрузке и движениях в голеностопном суставе",
+    "properties": {}
+  }
+]

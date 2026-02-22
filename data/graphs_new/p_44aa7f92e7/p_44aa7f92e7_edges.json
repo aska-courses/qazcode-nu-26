@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_bol_v_moshonke",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие болевого синдрома в мошонке, в паху",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_pahu",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие болевого синдрома в мошонке, в паху",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pozitivnaya_proba_valsalsy",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "I – положительная проба Вальсальвы (пальпируется только при пробе Вальсальвы)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpiruemaya_varikoznaya_vena_semennogo_kanatika",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие варикозно расширенных вен семенного канатика, определяемых при осмотре",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vidimaya_varikoznaya_vena_semennogo_kanatika",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "III – видимая (выявляется на расстоянии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_umenshenie_obema_yichka",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие уменьшение объема яичек при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasshirennye_veny_grozdevidnogo_spleteniya",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Расширенные вены гроздьевидного сплетения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_venoznyy_reflyuks_v_semennom_kanatike",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Венозный рефлюкс в семенном канатике",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obratnyy_tok_krovi_iz_pechenoy_veny_v_grozdevidnoe_spletenie",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Обратный ток крови из печёчной вены в гроздьевидное сплетение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malenkiy_razmer_yichka",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "маленький размер яичка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvustoronnee_palpiruemoe_varikocel",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "двустороннее пальпируемое варикоцеле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthenozoospermia",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие изменений спермограммы (астенозооспермия – снижение фертильности)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otritsatelnaia_proba_valsalsy",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "отрицательная проба Вальсальвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_bolevogo_sindroma",
+    "target": "diagnosis_varicose_veins_scrotum",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Отсутствие болевого синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_moshonke",
+    "target": "symptom_bol_v_pahu",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие болевого синдрома в мошонке, в паху",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpiruemaya_varikoznaya_vena_semennogo_kanatika",
+    "target": "symptom_vidimaya_varikoznaya_vena_semennogo_kanatika",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "I – положительная проба Вальсальвы (пальпируется только при пробе Вальсальвы); III – видимая (выявляется на расстоянии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasshirennye_veny_grozdevidnogo_spleteniya",
+    "target": "symptom_obratnyy_tok_krovi_iz_pechenoy_veny_v_grozdevidnoe_spletenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Расширенные вены гроздьевидного сплетения ... Обратный ток крови из печёчной вены в гроздьевидное сплетение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malenkiy_razmer_yichka",
+    "target": "symptom_dvustoronnee_palpiruemoe_varikocel",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "маленький размер яичка ... двустороннее пальпируемое варикоцеле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_umenshenie_obema_yichka",
+    "target": "symptom_malenkiy_razmer_yichka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "уменьшение объёма яичек ... маленький размер яичка",
+    "properties": {}
+  }
+]

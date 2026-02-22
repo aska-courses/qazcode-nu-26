@@ -1,0 +1,94 @@
+{
+  "protocol_id": "p_1dd80763fb",
+  "nodes": [
+    {
+      "id": "symptom_кожные_высыпания",
+      "type": "symptom",
+      "label": "Кожные высыпания"
+    },
+    {
+      "id": "symptom_боль",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_зуд",
+      "type": "symptom",
+      "label": "Зуд"
+    },
+    {
+      "id": "symptom_мокнутие",
+      "type": "symptom",
+      "label": "Мокнутие"
+    },
+    {
+      "id": "symptom_лимфаденит",
+      "type": "symptom",
+      "label": "Лимфаденит"
+    },
+    {
+      "id": "diagnosis_импетиго",
+      "type": "diagnosis",
+      "label": "Импетиго",
+      "icd_code": "L01"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_кожные_высыпания",
+      "target": "diagnosis_импетиго",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные высыпания;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_боль",
+      "target": "diagnosis_импетиго",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль, зуд (редко)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_зуд",
+      "target": "diagnosis_импетиго",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "боль, зуд (редко)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_мокнутие",
+      "target": "diagnosis_импетиго",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мокнутие;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_лимфаденит",
+      "target": "diagnosis_импетиго",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "лимфаденит (редко)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_боль",
+      "target": "symptom_зуд",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "боль, зуд (редко)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_мокнутие",
+      "target": "symptom_лимфаденит",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "мокнутие; лимфаденит (редко)",
+      "properties": {}
+    }
+  ]
+}

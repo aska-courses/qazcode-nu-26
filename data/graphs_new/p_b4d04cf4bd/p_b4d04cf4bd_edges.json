@@ -1,0 +1,362 @@
+[
+  {
+    "source": "symptom_chewing_dysfunction",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функции жевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swallowing_dysfunction",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функции глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_breathing_dysfunction",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функции дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_dysfunction",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение функции речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sensory_loss_lower_jaw",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "изменение или потеря чувствительности в области нижней челюсти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "асимметрия лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_swelling",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отек мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mouth_half_open",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рот полуоткрыт",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_floor_hematoma",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гематомы дна полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_pain",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "локальная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_fracture_line",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "линию перелома удается пальпировать",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_occlusion",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "патологический прикус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tooth_mobility",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "подвижность зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fragment_displacement",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "смещение отломков челюсти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_bleeding",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечение изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gum_bleeding",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кровотечение из десны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saliva_blood",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "слюна часто бывает окрашена кровью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "затрудненного дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periosteal_soft_tissue_injury",
+    "target": "diagnosis_lower_jaw_fracture",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повреждение околочелюстных мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chewing_dysfunction",
+    "target": "symptom_swallowing_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение функции жевания, глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chewing_dysfunction",
+    "target": "symptom_breathing_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение функции жевания, глотания, дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chewing_dysfunction",
+    "target": "symptom_speech_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение функции жевания, глотания, дыхания, речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swallowing_dysfunction",
+    "target": "symptom_breathing_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение функции глотания, дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swallowing_dysfunction",
+    "target": "symptom_speech_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение функции глотания, речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "symptom_soft_tissue_swelling",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "асимметрия лица, отек мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "symptom_mouth_half_open",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "асимметрия лица, рот полуоткрыт",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_swelling",
+    "target": "symptom_mouth_half_open",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек мягких тканей, рот полуоткрыт",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_swelling",
+    "target": "symptom_oral_floor_hematoma",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек мягких тканей, гематомы дна полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_local_pain",
+    "target": "symptom_palpable_fracture_line",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "локальная боль, линию перелома удается пальпировать",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pathological_occlusion",
+    "target": "symptom_tooth_mobility",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "патологический прикус, подвижность зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fragment_displacement",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "смещение отломков челюсти ... затрудненного дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saliva_blood",
+    "target": "symptom_oral_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слюна часто бывает окрашена кровью, кровотечение изо рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saliva_blood",
+    "target": "symptom_gum_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слюна часто бывает окрашена кровью, кровотечение из десны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_bleeding",
+    "target": "symptom_gum_bleeding",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кровотечение изо рта, кровотечение из десны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sensory_loss_lower_jaw",
+    "target": "symptom_chewing_dysfunction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "изменение или потеря чувствительности в области нижней челюсти, нарушение функции жевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periosteal_soft_tissue_injury",
+    "target": "symptom_soft_tissue_swelling",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повреждение околочелюстных мягких тканей, отек мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_alveolar_process_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.60 Перелом альвеолярного отростка нижней челюсти",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_body_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.61 Перелом тела нижней челюсти",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_condylar_process_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.62 Перелом мыщелкового отростка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_crown_process_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.63 Перелом венечного отростка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_branch_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.64 Перелом ветви",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_symphysis_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.65 Перелом симфиза (срединный)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_angle_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.66 Перелом угла",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_lower_jaw_fracture",
+    "target": "diagnosis_unspecified_location_fracture",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10 S02.6 Перелом нижней челюсти S02.69 Перелом нижней челюсти неуточненной локализации",
+    "properties": {}
+  }
+]

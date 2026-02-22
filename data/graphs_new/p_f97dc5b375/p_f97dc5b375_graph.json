@@ -1,0 +1,177 @@
+{
+  "protocol_id": "p_f97dc5b375",
+  "nodes": [
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "Боль в спине"
+    },
+    {
+      "id": "symptom_spine_deformity",
+      "type": "symptom",
+      "label": "Деформация позвоночника"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_neurological_symptoms",
+      "type": "symptom",
+      "label": "Неврологическая симптоматика"
+    },
+    {
+      "id": "diagnosis_d16_6",
+      "type": "diagnosis",
+      "label": "Доброкачественные новообразования позвоночного столба",
+      "icd_code": "D16.6"
+    },
+    {
+      "id": "diagnosis_c41_2",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования позвоночного столба",
+      "icd_code": "C41.2"
+    },
+    {
+      "id": "diagnosis_c79_4",
+      "type": "diagnosis",
+      "label": "Вторичное злокачественное новообразование других и неуточнённых отделов нервной системы",
+      "icd_code": "C79.4"
+    },
+    {
+      "id": "diagnosis_c79_5",
+      "type": "diagnosis",
+      "label": "Вторичное злокачественное новообразование костей и костного мозга",
+      "icd_code": "C79.5"
+    },
+    {
+      "id": "diagnosis_m48_5",
+      "type": "diagnosis",
+      "label": "Разрушение позвонка, не классифицированное в других рубриках",
+      "icd_code": "M48.5"
+    },
+    {
+      "id": "diagnosis_522_0",
+      "type": "diagnosis",
+      "label": "Перелом грудного позвонка",
+      "icd_code": "522.0"
+    },
+    {
+      "id": "diagnosis_522_1",
+      "type": "diagnosis",
+      "label": "Множественные переломы грудного отдела позвоночника",
+      "icd_code": "522.1"
+    },
+    {
+      "id": "diagnosis_s32_0",
+      "type": "diagnosis",
+      "label": "Перелом поясничного позвонка",
+      "icd_code": "S32.0"
+    },
+    {
+      "id": "diagnosis_t91_1",
+      "type": "diagnosis",
+      "label": "Последствия перелома позвоночника",
+      "icd_code": "T91.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_522_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациентам с болью в спине ... компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_522_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациентам с болью в спине ... компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_s32_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациентам с болью в спине ... компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spine_deformity",
+      "target": "diagnosis_522_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациентам с деформацией позвонка ... компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spine_deformity",
+      "target": "diagnosis_522_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациентам с деформацией позвонка ... компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spine_deformity",
+      "target": "diagnosis_s32_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пациентам с деформацией позвонка ... компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_522_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "устранение болевого синдрома; компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_522_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "устранение болевого синдрома; компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_s32_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "устранение болевого синдрома; компрессионные переломы тел позвонков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "symptom_spine_deformity",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "пациентам с болью в спине и деформацией позвонка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d16_6",
+      "target": "diagnosis_c41_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: D16.6 ... C41.2 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_522_0",
+      "target": "diagnosis_522_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: 522.0 ... 522.1 ...",
+      "properties": {}
+    }
+  ]
+}

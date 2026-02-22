@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на слабость, недомогание ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedomoganie",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на слабость, недомогание ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_likhoradka",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... повышение температуры тела ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_kostey",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... боли в костях и/или суставах ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_sustavov",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... боли в костях и/или суставах ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... бледность ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost_rta",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... кровоточивость слизистых полости рта ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost_nosa",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... кровоточивость носа ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_drugie_krovotecheniya",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... другие виды кровотечений ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopatiya",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... увеличение периферических лимфатических узлов ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ubolshenie_zhivota",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... увеличение размеров живота ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_v_zhivote",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... боли в животе ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... затруднённое носовое дыхание ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odishka",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы на ... одышку ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_glavnyye_boli",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При нейролейкозе – головные боли, рвота, судороги.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_orshitelnost_yacheek",
+    "target": "diagnosis_ostryi_mieloblastnyi_leykoz",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При орхите – одно- или двухстороннее увеличение яичек, безболезненное.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopatiya",
+    "target": "symptom_ubolshenie_timusa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гиперпластический синдром ... проявляется умеренным ... увеличением лимфоузлов ... У ¼ больных наблюдается увеличение ... лимфоузлов средостения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infiltraciya_miokarda",
+    "target": "symptom_vypotnyj_perikardit",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "Редким осложнением является инфильтрация миокарда и выпотной перикардит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_legkaya_infiltatsiya_legkogo_tkany",
+    "target": "symptom_krovotocheniya_v_legkih",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушения со стороны дыхательной системы могут быть связаны с ... лейкемической инфильтрацией лёгкой ткани или кровоизлияниями в неё.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petekhi_i_syni",
+    "target": "symptom_gemorragicheskie_proyavleniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Геморрагические проявления ... от мелкоточечных и мелкопятнистых одиночных высыпаний на коже и слизистых оболочках ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "symptom_glavnyye_boli",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Для интоксикационного и анемического синдромов характерны слабость, вялость, головные боли, бледность ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "symptom_blednost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Для интоксикационного и анемического синдромов характерны слабость, вялость, головные боли, бледность ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "symptom_anemicheskie_proyavleniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Анемические проявления (слабость, вялость, бледность, снижение аппетита)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost_rta",
+    "target": "symptom_krovotochivost_nosa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровоточивость слизистых полости рта, носа, другие виды кровотечений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost_rta",
+    "target": "symptom_drugie_krovotecheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровоточивость слизистых полости рта, носа, другие виды кровотечений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost_nosa",
+    "target": "symptom_drugie_krovotecheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровоточивость слизистых полости рта, носа, другие виды кровотечений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_kostey",
+    "target": "symptom_boli_sustavov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боли в костях и/или суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_kostей",
+    "target": "symptom_osalgi_i_artalgi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боли в костях ... Оссалгии и артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_sustavov",
+    "target": "symptom_boli_i_oteki_sustavov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боли и отёки суставов",
+    "properties": {}
+  }
+]

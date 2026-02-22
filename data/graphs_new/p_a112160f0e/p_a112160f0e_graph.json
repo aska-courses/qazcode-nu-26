@@ -1,0 +1,519 @@
+{
+  "protocol_id": "p_a112160f0e",
+  "nodes": [
+    {
+      "id": "symptom_refusal_enteral_feeding",
+      "type": "symptom",
+      "label": "Отказ от энтерального питания"
+    },
+    {
+      "id": "symptom_intolerance_enteral_feeding",
+      "type": "symptom",
+      "label": "Непереносимость энтерального питания"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "Вздутие живота"
+    },
+    {
+      "id": "symptom_bloody_stool",
+      "type": "symptom",
+      "label": "Кровь в стуле"
+    },
+    {
+      "id": "symptom_absent_stool",
+      "type": "symptom",
+      "label": "Отсутствие стула"
+    },
+    {
+      "id": "symptom_regurgitation",
+      "type": "symptom",
+      "label": "Срыгивание"
+    },
+    {
+      "id": "symptom_regurgitation_bile",
+      "type": "symptom",
+      "label": "Срыгивание с желчью"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_abdominal_wall_edema",
+      "type": "symptom",
+      "label": "Отек передней брюшной стенки"
+    },
+    {
+      "id": "symptom_decreased_peristalsis",
+      "type": "symptom",
+      "label": "Снижение перистальтики"
+    },
+    {
+      "id": "symptom_gastric_aspiration_bile",
+      "type": "symptom",
+      "label": "Аспирация из желудка с желчью"
+    },
+    {
+      "id": "symptom_mucous_stool_no_blood",
+      "type": "symptom",
+      "label": "Слизистый стул без крови"
+    },
+    {
+      "id": "symptom_mucous_stool_blood",
+      "type": "symptom",
+      "label": "Слизистый стул с примесью крови"
+    },
+    {
+      "id": "symptom_mottled_skin",
+      "type": "symptom",
+      "label": "Мраморность кожных покровов"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "Брадикардия"
+    },
+    {
+      "id": "symptom_apnea",
+      "type": "symptom",
+      "label": "Апноэ"
+    },
+    {
+      "id": "symptom_bile_vomiting",
+      "type": "symptom",
+      "label": "Рвота желчью"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря массы тела"
+    },
+    {
+      "id": "symptom_labile_blood_pressure",
+      "type": "symptom",
+      "label": "Лабильное артериальное давление"
+    },
+    {
+      "id": "symptom_intoxication_progression",
+      "type": "symptom",
+      "label": "Прогрессивное ухудшение интоксикации"
+    },
+    {
+      "id": "symptom_muscle_hypotonia",
+      "type": "symptom",
+      "label": "Мышечная гипотония"
+    },
+    {
+      "id": "symptom_weak_peristalsis",
+      "type": "symptom",
+      "label": "Слабая перистальтика"
+    },
+    {
+      "id": "symptom_bloody_mucous_stool",
+      "type": "symptom",
+      "label": "Кровянисто-слизистый стул"
+    },
+    {
+      "id": "symptom_rapid_abdominal_distension",
+      "type": "symptom",
+      "label": "Резкое вздутие живота"
+    },
+    {
+      "id": "symptom_anterior_abdominal_wall_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия передней брюшной стенки"
+    },
+    {
+      "id": "symptom_white_spot",
+      "type": "symptom",
+      "label": "Симптом «белого пятна»"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Олигоурия"
+    },
+    {
+      "id": "symptom_hypothermia",
+      "type": "symptom",
+      "label": "Гипотермия"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия"
+    },
+    {
+      "id": "symptom_shock",
+      "type": "symptom",
+      "label": "Шок"
+    },
+    {
+      "id": "symptom_toxemia",
+      "type": "symptom",
+      "label": "Токсикоз"
+    },
+    {
+      "id": "symptom_dehydration",
+      "type": "symptom",
+      "label": "Дегидратация"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_unstable_temperature",
+      "type": "symptom",
+      "label": "Нестабильная температура"
+    },
+    {
+      "id": "diagnosis_necrotising_enterocolitis",
+      "type": "diagnosis",
+      "label": "Некротизирующий энтероколит",
+      "icd_code": "R77"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_refusal_enteral_feeding",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отказ и непереносимость энтерального питания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intolerance_enteral_feeding",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отказ и непереносимость энтерального питания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rapid_abdominal_distension",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резкое вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bloody_stool",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие крови в стуле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absent_stool",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие стула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_regurgitation",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "срыгивание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_regurgitation_bile",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "срыгивание (с примесью или без желчи)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bile_vomiting",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота желчью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_wall_edema",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек передней стенки живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anterior_abdominal_wall_hyperemia",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия передней брюшной стенки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_peristalsis",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие или снижение перистальтики",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_peristalsis",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабая перистальтика",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastric_aspiration_bile",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аспирaция из желудка с желчью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucous_stool_no_blood",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слизистый стул без примесей крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucous_stool_blood",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слизистый стул с примесью крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bloody_mucous_stool",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровянисто-слизистый стул",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mottled_skin",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мраморность кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "брадикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apnea",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "апноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_labile_blood_pressure",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лабильное АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication_progression",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующее нарастание симптомов интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_hypotonia",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышечная гипотония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shock",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypothermia",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипотермия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unstable_temperature",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нестабильная температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "олигоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dehydration",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дегидратация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toxemia",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "токсикоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_white_spot",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом «белого пятна»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_necrotising_enterocolitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "symptom_abdominal_wall_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вздутие живота; отек передней стенки живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bloody_stool",
+      "target": "symptom_mucous_stool_blood",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие крови в стуле; слизистый стул с примесью крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apnea",
+      "target": "symptom_bradycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "апноэ; брадикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "артериальная гипотензия; шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "олигоурия; шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_white_spot",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптом «белого пятна»; шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypothermia",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипотермия; шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dehydration",
+      "target": "symptom_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дегидратация; шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unstable_temperature",
+      "target": "symptom_hypothermia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нестабильная температура; гипотермия",
+      "properties": {}
+    }
+  ]
+}

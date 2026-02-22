@@ -1,0 +1,505 @@
+{
+  "protocol_id": "p_7a600af9b2",
+  "nodes": [
+    {
+      "id": "symptom_painful_swelling_and_redness",
+      "type": "symptom",
+      "label": "больная припухлость и покраснение кожи"
+    },
+    {
+      "id": "symptom_heat_sensation",
+      "type": "symptom",
+      "label": "ощущение жара"
+    },
+    {
+      "id": "symptom_pressure_in_lesion",
+      "type": "symptom",
+      "label": "распирание в очаге поражения"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышенная температура тела"
+    },
+    {
+      "id": "symptom_nausea_vomiting",
+      "type": "symptom",
+      "label": "тошнота и рвота"
+    },
+    {
+      "id": "symptom_loss_of_appetite",
+      "type": "symptom",
+      "label": "потеря аппетита"
+    },
+    {
+      "id": "symptom_severe_headache",
+      "type": "symptom",
+      "label": "сильная головная боль"
+    },
+    {
+      "id": "symptom_insomnia",
+      "type": "symptom",
+      "label": "бессонница"
+    },
+    {
+      "id": "symptom_local_pain_and_temperature",
+      "type": "symptom",
+      "label": "локальная боль и температура"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "лимфаденопатия"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "отек"
+    },
+    {
+      "id": "symptom_hyperemia",
+      "type": "symptom",
+      "label": "гиперемия"
+    },
+    {
+      "id": "symptom_lymphadenitis",
+      "type": "symptom",
+      "label": "лимфаденит"
+    },
+    {
+      "id": "symptom_venous_sinus_thrombosis",
+      "type": "symptom",
+      "label": "тромбоз венозных синусов твердой мозговой оболочки"
+    },
+    {
+      "id": "symptom_meningitis",
+      "type": "symptom",
+      "label": "менингит"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "сепсис"
+    },
+    {
+      "id": "symptom_pain_on_palpation",
+      "type": "symptom",
+      "label": "боль при пальпации"
+    },
+    {
+      "id": "symptom_pressing_pain",
+      "type": "symptom",
+      "label": "распирающая боль"
+    },
+    {
+      "id": "diagnosis_abscess_skin_furuncle_carbuncle",
+      "type": "diagnosis",
+      "label": "Абсцесс кожи, фурункул и карбункул",
+      "icd_code": "L02"
+    },
+    {
+      "id": "diagnosis_abscess",
+      "type": "diagnosis",
+      "label": "Абсцесс",
+      "icd_code": "L02"
+    },
+    {
+      "id": "diagnosis_furuncle",
+      "type": "diagnosis",
+      "label": "Фурункул",
+      "icd_code": "L02"
+    },
+    {
+      "id": "diagnosis_carbuncle",
+      "type": "diagnosis",
+      "label": "Карбункул",
+      "icd_code": "L02"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_painful_swelling_and_redness",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на болезненную припухлость и покраснение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_swelling_and_redness",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на болезненную припухлость и покраснение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_swelling_and_redness",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на болезненную припухлость и покраснение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heat_sensation",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heat_sensation",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heat_sensation",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pressure_in_lesion",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "распирания в очаге поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pressure_in_lesion",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "распирания в очаге поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pressure_in_lesion",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "распирания в очаге поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение общей температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение общей температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение общей температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_vomiting",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_vomiting",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_vomiting",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота и рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_insomnia",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бессонница",
+      "properties": {}
+    },
+    {
+      "source": "symptom_local_pain_and_temperature",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальная боль и температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_local_pain_and_temperature",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальная боль и температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_local_pain_and_temperature",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "локальная боль и температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфаденопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфаденопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфаденопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выражен отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выражен отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выражен отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperemia",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кожа гиперемирована",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperemia",
+      "target": "diagnosis_furuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кожа гиперемирована",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperemia",
+      "target": "diagnosis_carbuncle",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кожа гиперемирована",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenitis",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфаденит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_venous_sinus_thrombosis",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоз венозных синусов твердой мозговой оболочки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningitis",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "менингит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сепсис",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_on_palpation",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "резких болей при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pressing_pain",
+      "target": "diagnosis_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "распирающей, рвущей, самостоятельной боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_lymphadenopathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение общей температуры тела; ... лимфаденопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_swelling_and_redness",
+      "target": "symptom_heat_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненная припухлость и покраснение кожи, чувство жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_on_palpation",
+      "target": "symptom_pressing_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "резких болей при пальпации ... распирающей, рвущей, самостоятельной боли",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_abscess",
+      "target": "diagnosis_furuncle",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Абсцесс кожи, фурункул и карбункул",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_abscess",
+      "target": "diagnosis_carbuncle",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Абсцесс кожи, фурункул и карбункул",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_furuncle",
+      "target": "diagnosis_carbuncle",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Абсцесс кожи, фурункул и карбункул",
+      "properties": {}
+    }
+  ]
+}

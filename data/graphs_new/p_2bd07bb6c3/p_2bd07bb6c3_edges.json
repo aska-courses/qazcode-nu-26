@@ -1,0 +1,266 @@
+[
+  {
+    "source": "symptom_pelvic_pain",
+    "target": "diagnosis_other_pelvic_bone_fractures",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боли; деформация в области таза; нарушение опороспособности конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pelvic_deformation",
+    "target": "diagnosis_other_pelvic_bone_fractures",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боли; деформация в области таза; нарушение опороспособности конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_impairment_weight_bearing",
+    "target": "diagnosis_other_pelvic_bone_fractures",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боли; деформация в области таза; нарушение опороспособности конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_foot_rotation",
+    "target": "diagnosis_dislocation_iliosacral_joint",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наружная ротация стоп",
+    "properties": {}
+  },
+  {
+    "source": "symptom_half_bent_hip_knee",
+    "target": "diagnosis_dislocation_iliosacral_joint",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полусогнутое положение в тазобедренном и коленном суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pelvic_asymmetry",
+    "target": "diagnosis_dislocation_iliosacral_joint",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асимметрия таза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_shortening",
+    "target": "diagnosis_dislocation_iliosacral_joint",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "укорочение конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_massive_hemorrhage",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "массивное кровоизлияние в окружающие ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_on_palpation",
+    "target": "diagnosis_other_pelvic_bone_fractures",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации, усиливающаяся при нагрузках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positive_larr_sign",
+    "target": "diagnosis_traumatic_lobular_symphysis_rupture",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом - Ларрея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positive_verneil_sign",
+    "target": "diagnosis_traumatic_lobular_symphysis_rupture",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом - Вернейля",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_hemoglobin",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение уровня гемоглобина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_hematocrit",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение уровня гематокрита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_erythrocytes",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение уровня эритроцитов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_oxygen_saturation",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "понижение ОЦК (сатурация кислорода)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_leukocytes",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение уровня лейкоцитов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_esr",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение скорости оседания эритроцитов (СОЭ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microhematuria",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "микрогематурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macrohematuria",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "макрогематурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиповолемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxia",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипоксия (низкое SaO2)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Судорожные припадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_status_epilepticus",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эпилептический статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_altered_consciousness",
+    "target": "diagnosis_multiple_fractures_internal_fixation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pelvic_pain",
+    "target": "symptom_pelvic_deformation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Боли; деформация в области таза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_foot_rotation",
+    "target": "symptom_half_bent_hip_knee",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наружная ротация стоп; полусогнутое положение в тазобедренном и коленном суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pelvic_asymmetry",
+    "target": "symptom_limb_shortening",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "асимметрия таза; укорочение конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_massive_hemorrhage",
+    "target": "symptom_shock",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "массивное кровоизлияние ...; Шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_hemoglobin",
+    "target": "symptom_decreased_hematocrit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение уровня гемоглобина, гематокрита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microhematuria",
+    "target": "symptom_macrohematuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "микро и макрогематурия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_dislocation_iliosacral_joint",
+    "target": "diagnosis_traumatic_lobular_symphysis_rupture",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Вывих крестцово‑подвздошного сустава … Травматический разрыв лобкового симфиза",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_multiple_fractures_internal_fixation",
+    "target": "diagnosis_other_pelvic_bone_fractures",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Множественные переломы кости с внутренней фиксацией; Переломы других костей таза",
+    "properties": {}
+  }
+]

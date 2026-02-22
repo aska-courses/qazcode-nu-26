@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_back_pain",
+    "target": "diagnosis_522_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациентам с болью в спине ... компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_back_pain",
+    "target": "diagnosis_522_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациентам с болью в спине ... компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_back_pain",
+    "target": "diagnosis_s32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациентам с болью в спине ... компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spine_deformity",
+    "target": "diagnosis_522_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациентам с деформацией позвонка ... компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spine_deformity",
+    "target": "diagnosis_522_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациентам с деформацией позвонка ... компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spine_deformity",
+    "target": "diagnosis_s32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациентам с деформацией позвонка ... компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_522_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "устранение болевого синдрома; компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_522_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "устранение болевого синдрома; компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_s32_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "устранение болевого синдрома; компрессионные переломы тел позвонков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_back_pain",
+    "target": "symptom_spine_deformity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пациентам с болью в спине и деформацией позвонка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d16_6",
+    "target": "diagnosis_c41_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: D16.6 ... C41.2 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_522_0",
+    "target": "diagnosis_522_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: 522.0 ... 522.1 ...",
+    "properties": {}
+  }
+]

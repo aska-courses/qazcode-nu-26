@@ -1,0 +1,236 @@
+{
+  "protocol_id": "p_d142a8483d",
+  "nodes": [
+    {
+      "id": "diagnosis_c41_2",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования позвоночного столба",
+      "icd_code": "C41.2"
+    },
+    {
+      "id": "diagnosis_c72_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование спинного мозга",
+      "icd_code": "C72.0"
+    },
+    {
+      "id": "diagnosis_c79_4",
+      "type": "diagnosis",
+      "label": "Вторичное злокачественное новообразование других и неуточнённых отделов нервной системы (метастатические новообразования позвоночника, спинного мозга и его оболочек)",
+      "icd_code": "C79.4"
+    },
+    {
+      "id": "diagnosis_d16_6",
+      "type": "diagnosis",
+      "label": "Доброкачественные новообразования позвоночного столба",
+      "icd_code": "D16.6"
+    },
+    {
+      "id": "diagnosis_d32_1",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование оболочек спинного мозга",
+      "icd_code": "D32.1"
+    },
+    {
+      "id": "diagnosis_d33_4",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование спинного мозга",
+      "icd_code": "D33.4"
+    },
+    {
+      "id": "diagnosis_d33_7",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование других уточнённых частей центральной нервной системы",
+      "icd_code": "D33.7"
+    },
+    {
+      "id": "diagnosis_d42_1",
+      "type": "diagnosis",
+      "label": "Новоеобразование неопределённого или неизвестного характера оболочек спинного мозга",
+      "icd_code": "D42.1"
+    },
+    {
+      "id": "diagnosis_d43_4",
+      "type": "diagnosis",
+      "label": "Новоеобразование неопределённого или неизвестного характера спинного мозга",
+      "icd_code": "D43.4"
+    },
+    {
+      "id": "diagnosis_v67_9",
+      "type": "diagnosis",
+      "label": "Эхинококкоз других органов и неуточненный",
+      "icd_code": "V67.9"
+    },
+    {
+      "id": "diagnosis_m43_3",
+      "type": "diagnosis",
+      "label": "Привычный атланто-аксиальный подвывих с миелопатией",
+      "icd_code": "M43.3"
+    },
+    {
+      "id": "diagnosis_m43_4",
+      "type": "diagnosis",
+      "label": "Другие привычные атланто-аксиальные подвывихи",
+      "icd_code": "M43.4"
+    },
+    {
+      "id": "diagnosis_m48_5",
+      "type": "diagnosis",
+      "label": "Разрушение позвонка, не классифицированное в других рубриках",
+      "icd_code": "M48.5"
+    },
+    {
+      "id": "diagnosis_m48_9",
+      "type": "diagnosis",
+      "label": "Спондилопатия неуточненная",
+      "icd_code": "M48.9"
+    },
+    {
+      "id": "diagnosis_512_0",
+      "type": "diagnosis",
+      "label": "Перелом первого шейного позвонка",
+      "icd_code": "512.0"
+    },
+    {
+      "id": "diagnosis_512_1",
+      "type": "diagnosis",
+      "label": "Перелом второго шейного позвонка",
+      "icd_code": "512.1"
+    },
+    {
+      "id": "diagnosis_q07_8",
+      "type": "diagnosis",
+      "label": "Другие уточнённые пороки развития нервной системы",
+      "icd_code": "Q07.8"
+    },
+    {
+      "id": "diagnosis_q85_0",
+      "type": "diagnosis",
+      "label": "Нейрофиброматоз (незлокачественный)",
+      "icd_code": "Q85.0"
+    },
+    {
+      "id": "symptom_nevrologicheskaya_symptomatika",
+      "type": "symptom",
+      "label": "Неврологическая симптоматика"
+    },
+    {
+      "id": "symptom_vospalitelny_process",
+      "type": "symptom",
+      "label": "Воспалительный процесс"
+    },
+    {
+      "id": "symptom_somaticheskaya_patologiya_dekompensatsii",
+      "type": "symptom",
+      "label": "Соматическая патология в стадии декомпенсации"
+    },
+    {
+      "id": "symptom_nestabilnost_pds",
+      "type": "symptom",
+      "label": "Нестабильность позвоночно-двигательного сегмента"
+    },
+    {
+      "id": "symptom_mielopatiya",
+      "type": "symptom",
+      "label": "Миелопатия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_mielopatiya",
+      "target": "diagnosis_m43_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Привычный атланто-аксиальный подвывих с миелопатией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vospalitelny_process",
+      "target": "symptom_somaticheskaya_patologiya_dekompensatsii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "• сопутствующая соматическая патология в стадии декомпенсации; • наличие воспалительного процесса в области предполагаемой операции.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c41_2",
+      "target": "diagnosis_c72_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: C41.2 Злокачественные новообразования позвоночного столба С72.0 Злокачественное новообразование спинного мозга.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c41_2",
+      "target": "diagnosis_c79_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: C41.2 ... C79.4 Вторичное злокачественное новообразование других и неуточнённых отделов нервной системы.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c72_0",
+      "target": "diagnosis_c79_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: C72.0 ... C79.4 Вторичное злокачественное новообразование других и неуточнённых отделов нервной системы.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d16_6",
+      "target": "diagnosis_d32_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: D16.6 Доброкачественные новообразования позвоночного столба D32.1 Доброкачественное новообразование оболочек спинного мозга.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d33_4",
+      "target": "diagnosis_d33_7",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: D33.4 Доброкачественное новообразование спинного мозга D33.7 Доброкачественное новообразование других уточнённых частей центральной нервной системы.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d42_1",
+      "target": "diagnosis_d43_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: D42.1 Новоеобразование неопределённого или неизвестного характера оболочек спинного мозга D43.4 Новоеобразование неопределённого или неизвестного характера спинного мозга.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m43_3",
+      "target": "diagnosis_m43_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: M43.3 Привычный атланто-аксиальный подвывих с миелопатией M43.4 Другие привычные атланто-аксиальные подвывихи.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m48_5",
+      "target": "diagnosis_m48_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: M48.5 Разрушение позвонка, не классифицированное в других рубриках M48.9 Спондилопатия неуточненная.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_512_0",
+      "target": "diagnosis_512_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: 512.0 Перелом первого шейного позвонка. 512.1 Перелом второго шейного позвонка.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q07_8",
+      "target": "diagnosis_q85_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q07.8 другие уточненный пороки развития нервной системы Q85.0 Нейрофиброматоз (незлокачественный).",
+      "properties": {}
+    }
+  ]
+}

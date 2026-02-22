@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_repeated_bacterial_infections",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тяжелая врождённая нейтропения … возникновением с первых месяцев жизни повторных бактериальных инфекций.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_absolute_neutrophil_count",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение абсолютного количества нейтрофилов (АКН) менее 500 клеток в мкл.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_granulomatous_disease",
+    "target": "diagnosis_d82_8_immunodeficiencies_with_other_specified_defects",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Хроническая гранулематозная болезнь … относится к иммунодефицитам.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_granulomas",
+    "target": "diagnosis_d82_8_immunodeficiencies_with_other_specified_defects",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "скопления иммунных клеток, называемых гранулемами.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спленомегалия иногда развивается при длительном применении Г‑КСФ у пациентов с тяжёлой врождённой нейтропенией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_infections",
+    "target": "diagnosis_d82_8_immunodeficiencies_with_other_specified_defects",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Почти 50% случаев пневмонии у больных ХГБ вызваны грибами.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "перенесенные … такие как: менингит, остеомиелит, целлюлит, сепсис.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningitis",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "перенесенные … такие как: менингит, остеомиелит, целлюлит, сепсис.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cellulitis",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "перенесенные … такие как: менингит, остеомиелит, целлюлит, сепсис.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "перенесенные … такие как: менингит, остеомиелит, целлюлит, сепсис.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_d82_8_immunodeficiencies_with_other_specified_defects",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при ХГБ более характерны анемия 1‑2 степени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "стойкая гипертермия до фебрильных цифр.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lethargy",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "характерно наличие вялости.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_growth_retardation",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отставание ребенка в возрасте до 1 года в весе и росте.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_retardation",
+    "target": "diagnosis_d70_congenital_neutropenia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отставание ребенка в возрасте до 1 года в весе и росте.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_omphalitis",
+    "target": "symptom_paraproctitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (омфалит, парапроктит, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_omphalitis",
+    "target": "symptom_skin_abscesses",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (омфалит, …, кожные абсцессы, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paraproctitis",
+    "target": "symptom_skin_abscesses",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (омфалит, парапроктит, кожные абсцессы, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_abscesses",
+    "target": "symptom_acute_lymphadenitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (… кожные абсцессы, острые лимфадениты, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_lymphadenitis",
+    "target": "symptom_stomatitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (… острые лимфадениты, стоматиты, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stomatitis",
+    "target": "symptom_gingivitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (… стоматиты, гингивиты, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gingivitis",
+    "target": "symptom_otitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (… гингивиты, отиты, …).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otitis",
+    "target": "symptom_bronchopneumonia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторные бактериальные инфекции (… отиты, бронхопневмонии).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_chronic_granulomatous_disease",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при ХГБ более характерны анемия 1‑2 степени.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_infections",
+    "target": "symptom_chronic_granulomatous_disease",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Почти 50% случаев пневмонии у больных ХГБ вызваны грибами.",
+    "properties": {}
+  }
+]

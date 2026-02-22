@@ -1,0 +1,409 @@
+{
+  "protocol_id": "p_d428ce7b6c",
+  "nodes": [
+    {
+      "id": "diagnosis_dermatit_herpetiformnyy",
+      "type": "diagnosis",
+      "label": "Дерматит герпетиформный",
+      "icd_code": "L13.0"
+    },
+    {
+      "id": "symptom_kozhnyye_vysypaniya",
+      "type": "symptom",
+      "label": "кожные высыпания"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "зуд различной интенсивности"
+    },
+    {
+      "id": "symptom_zharenie",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_polimorfnyye_vysypaniya",
+      "type": "symptom",
+      "label": "полиморфные зудящие высыпания"
+    },
+    {
+      "id": "symptom_hronicheskoe_recidiviruyushchee_trehenie",
+      "type": "symptom",
+      "label": "хроническое рецидивирующее течение"
+    },
+    {
+      "id": "symptom_pyatna",
+      "type": "symptom",
+      "label": "пятна"
+    },
+    {
+      "id": "symptom_voldyri",
+      "type": "symptom",
+      "label": "волдыри"
+    },
+    {
+      "id": "symptom_papuly",
+      "type": "symptom",
+      "label": "папулы"
+    },
+    {
+      "id": "symptom_puzyri",
+      "type": "symptom",
+      "label": "пузырь"
+    },
+    {
+      "id": "symptom_eritema",
+      "type": "symptom",
+      "label": "эритема"
+    },
+    {
+      "id": "symptom_dermografizm",
+      "type": "symptom",
+      "label": "дермографизм"
+    },
+    {
+      "id": "symptom_simmetrichnost_vysypaniy",
+      "type": "symptom",
+      "label": "симметричность высыпаний"
+    },
+    {
+      "id": "symptom_gruppirovka_vysypaniy",
+      "type": "symptom",
+      "label": "склонность к группировке высыпаний"
+    },
+    {
+      "id": "symptom_otricatelnyy_simptom_nikolskogo",
+      "type": "symptom",
+      "label": "отрицательный симптом Никольского"
+    },
+    {
+      "id": "symptom_eozinofiliya",
+      "type": "symptom",
+      "label": "эозинофилия"
+    },
+    {
+      "id": "symptom_subepidermalnoye_raspolozhenie_polosti",
+      "type": "symptom",
+      "label": "субэпидермальное расположение полости"
+    },
+    {
+      "id": "symptom_otlozhenie_iga_v_sosochkovom_sloye",
+      "type": "symptom",
+      "label": "отложение IgA в сосочковом слое дермы"
+    },
+    {
+      "id": "symptom_igA_antitela_k_transglutaminaze",
+      "type": "symptom",
+      "label": "IgA-антитела к тканевой трансглютаминазе"
+    },
+    {
+      "id": "symptom_igA_antitela_k_endomiziyu",
+      "type": "symptom",
+      "label": "IgA-антитела к эндомизию"
+    },
+    {
+      "id": "symptom_giperpigmentatsiya",
+      "type": "symptom",
+      "label": "гиперпигментация"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_kozhnyye_vysypaniya",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы на: кожные высыпания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "зуд различной интенсивности (выраженный, умеренный)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polimorfnyye_vysypaniya",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характеризующееся полиморфными зудящими высыпаниями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hronicheskoe_recidiviruyushchee_trehenie",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "хроническим рецидивирующим течением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otlozhenie_iga_v_sosochkovom_sloye",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "гранулярным отложением IgA в сосочках дермы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritema",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voldyri",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyri",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dermografizm",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри); дермографизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pyatna",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "полиморфизм высыпаний (пятна, волдыри, папулы, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gruppirovka_vysypaniy",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "склонность к группировке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simmetrichnost_vysypaniy",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "симметричность высыпаний",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otricatelnyy_simptom_nikolskogo",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отрицательный симптом Никольского",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eozinofiliya",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "эозинофилия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subepidermalnoye_raspolozhenie_polosti",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "субэпидермальное расположение полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_igA_antitela_k_transglutaminaze",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "IgA-антитела к тканевой трансглютаминазе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_igA_antitela_k_endomiziyu",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "IgA-антитела к эндомизию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperpigmentatsiya",
+      "target": "diagnosis_dermatit_herpetiformnyy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "оставляя гиперпигментацию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pyatna",
+      "target": "symptom_voldyri",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "полиморфизм высыпаний (пятна, волдыри, папулы, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pyatna",
+      "target": "symptom_papuly",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "полиморфизм высыпаний (пятна, волдыри, папулы, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pyatna",
+      "target": "symptom_puzyri",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "полиморфизм высыпаний (пятна, волдыри, папулы, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voldyri",
+      "target": "symptom_papuly",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_voldyri",
+      "target": "symptom_puzyri",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "symptom_puzyri",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritema",
+      "target": "symptom_papuly",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritema",
+      "target": "symptom_voldyri",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eritema",
+      "target": "symptom_puzyri",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Элементы сыпи (эритема, папула, волдыри, пузыри)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gruppirovka_vysypaniy",
+      "target": "symptom_simmetrichnost_vysypaniy",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "склонность к группировке; симметричность высыпаний",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnyye_vysypaniya",
+      "target": "symptom_zud",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы на: кожные высыпания; зуд различной интенсивности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnyye_vysypaniya",
+      "target": "symptom_zharenie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы на: кожные высыпания; жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_zharenie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "зуд различной интенсивности (выраженный, умеренный); жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polimorfnyye_vysypaniya",
+      "target": "symptom_hronicheskoe_recidiviruyushchee_trehenie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "характеризующееся полиморфными зудящими высыпаниями, хроническим рецидивирующим течением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otlozhenie_iga_v_sosochkovom_sloye",
+      "target": "symptom_igA_antitela_k_transglutaminaze",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "отложение IgA в сосочковом слое дермы; IgA-антитела к тканевой трансглютаминазе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otlozhenie_iga_v_sosochkovom_sloye",
+      "target": "symptom_igA_antitela_k_endomiziyu",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "отложение IgA в сосочковом слое дермы; IgA-антитела к эндомизию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subepidermalnoye_raspolozhenie_polosti",
+      "target": "symptom_eozinofiliya",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "субэпидермальное расположение полости и определение в ней содержания эозинофилов (эозинофилия)",
+      "properties": {}
+    }
+  ]
+}

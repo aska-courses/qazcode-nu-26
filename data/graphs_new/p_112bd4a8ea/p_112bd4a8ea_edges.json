@@ -1,0 +1,298 @@
+[
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение ... в течение не менее 2-х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "diagnosis_f33_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение ... в течение не менее 2-х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "diagnosis_f31_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение ... в течение не менее 2-х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "diagnosis_f31_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение ... в течение не менее 2-х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "diagnosis_f25_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение ... в течение не менее 2-х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "diagnosis_f25_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженное настроение ... в течение не менее 2-х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_interesa",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отчетливое снижение интереса или удовольствия от деятельности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_energii",
+    "target": "diagnosis_f31_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение энергии и повышения утомляемости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennaya_utomlyaemost",
+    "target": "diagnosis_f31_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение энергии и повышения утомляемости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chuvstvo_viny",
+    "target": "diagnosis_f33_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "беспричинное чувство самоосуждения или чрезмерное и неадекватное чувство вины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myshi_o_smerti",
+    "target": "diagnosis_f33_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повторяющиеся мысли о смерти/суициде/суицидальное поведение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bred",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "должно присутствовать любое из следующих: бред/галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_galjukatsii",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "должно присутствовать любое из следующих: бред/галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_bred",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают депрессивный бред, бред вины, отнесения к себе, бред ипохондрический, нигилистический или персекуторный содержания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bred_viny",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают ... бред вины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bred_otnosheniya_k_sebe",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают ... бред отнесения к себе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_stupor",
+    "target": "diagnosis_f32_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "должно присутствовать любое из следующих: ... депрессивный ступор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snižennoe_nastroenie",
+    "target": "symptom_toska",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы:  сниженное настроение, тоска;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_idei_samobuvineniya",
+    "target": "symptom_idei_samounizhcheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы:  идеи самообвинения, самоуничижения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_agressiya",
+    "target": "symptom_samoagressiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы:  агрессия, самоагрессия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_interesa",
+    "target": "symptom_snizhenie_udovolstviya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отчетливое снижение интереса или удовольствия от деятельности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_energii",
+    "target": "symptom_povyshennaya_utomlyaemost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение энергии и повышения утомляемости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_uverennosti",
+    "target": "symptom_snizhenie_samootsenki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение уверенности и самооценки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_uverennosti",
+    "target": "symptom_chuvstvo_viny",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение уверенности и самооценки; беспричинное чувство самоосуждения или чрезмерное и неадекватное чувство вины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myshi_o_smerti",
+    "target": "symptom_suicidalnoe_povedenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторяющиеся мысли о смерти/суициде/суицидальное поведение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_kontsentratsii",
+    "target": "symptom_nereshlivost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "проявления и жалобы на уменьшение способности обдумывать/концентрироваться, такие как нерешительность/колебания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_kontsentratsii",
+    "target": "symptom_kolebleniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "проявления и жалобы на уменьшение способности обдумывать/концентрироваться, такие как нерешительность/колебания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_psihomotornoi_aktivnosti",
+    "target": "symptom_azhitaciya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушение психомоторной активности с ажитацией/заторможенностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_psihomotornoi_aktivnosti",
+    "target": "symptom_zatormozhennost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушение психомоторной активности с ажитацией/заторможенностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "symptom_izmenenie_appetita",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушение сна любого типа; изменение аппетита (повышение/понижение)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "symptom_izmenenie_vesa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушение сна любого типа; изменение аппетита (повышение/понижение) с соответствующим изменением веса тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bred",
+    "target": "symptom_galjukatsii",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "должно присутствовать любое из следующих: бред/галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_bred",
+    "target": "symptom_bred_viny",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают депрессивный бред, бред вины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_bred",
+    "target": "symptom_bred_otnosheniya_k_sebe",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают ... бред отнесения к себе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_bred",
+    "target": "symptom_bred_ipokhondricheskij",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают ... бред ипохондрический",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_bred",
+    "target": "symptom_bred_nigilisticheskij",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают ... бред нигилистический",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressivnyj_bred",
+    "target": "symptom_bred_perspektornyj",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "наиболее частые примеры включают ... бред персекуторный",
+    "properties": {}
+  }
+]

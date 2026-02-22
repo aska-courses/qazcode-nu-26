@@ -1,0 +1,362 @@
+{
+  "protocol_id": "p_5bb1480571",
+  "nodes": [
+    {
+      "id": "diagnosis_k64",
+      "type": "diagnosis",
+      "label": "Геморрой и перианальный венозный тромбоз",
+      "icd_code": "K64"
+    },
+    {
+      "id": "diagnosis_k64_0",
+      "type": "diagnosis",
+      "label": "Геморрой первой стадии",
+      "icd_code": "K64.0"
+    },
+    {
+      "id": "diagnosis_k64_1",
+      "type": "diagnosis",
+      "label": "Геморрой второй стадии",
+      "icd_code": "K64.1"
+    },
+    {
+      "id": "diagnosis_k64_2",
+      "type": "diagnosis",
+      "label": "Геморрой третьей стадии",
+      "icd_code": "K64.2"
+    },
+    {
+      "id": "diagnosis_k64_3",
+      "type": "diagnosis",
+      "label": "Геморрой четвертой стадии",
+      "icd_code": "K64.3"
+    },
+    {
+      "id": "diagnosis_k64_8",
+      "type": "diagnosis",
+      "label": "Другой уточненный геморрой",
+      "icd_code": "K64.8"
+    },
+    {
+      "id": "diagnosis_k64_9",
+      "type": "diagnosis",
+      "label": "Неуточненный геморрой",
+      "icd_code": "K64.9"
+    },
+    {
+      "id": "symptom_krovotechenie",
+      "type": "symptom",
+      "label": "Кровотечение"
+    },
+    {
+      "id": "symptom_vyplavanie_uzlov",
+      "type": "symptom",
+      "label": "Выпадение геморроидальных узлов (пролапс)"
+    },
+    {
+      "id": "symptom_nevyrashennyi_bolevoi_sindrom",
+      "type": "symptom",
+      "label": "Невыраженный болевой синдром"
+    },
+    {
+      "id": "symptom_anialnyy_zud",
+      "type": "symptom",
+      "label": "Анальный зуд"
+    },
+    {
+      "id": "symptom_discomfort",
+      "type": "symptom",
+      "label": "Дискомфорт"
+    },
+    {
+      "id": "symptom_vyrazhennyi_bolevoi_sindrom",
+      "type": "symptom",
+      "label": "Выраженный болевой синдром"
+    },
+    {
+      "id": "symptom_tromboz",
+      "type": "symptom",
+      "label": "Тромбоз геморроидальных узлов"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "Хроническая анемия"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Повышенный уровень лейкоцитов"
+    },
+    {
+      "id": "symptom_soe",
+      "type": "symptom",
+      "label": "Повышенная скорость оседания эритроцитов (СОЭ)"
+    },
+    {
+      "id": "symptom_bol_v_anuse",
+      "type": "symptom",
+      "label": "Боль в анальном канале"
+    },
+    {
+      "id": "symptom_chuvstvo_inorodnogo_tela",
+      "type": "symptom",
+      "label": "Чувство инородного тела"
+    },
+    {
+      "id": "symptom_diareya",
+      "type": "symptom",
+      "label": "Диарея"
+    },
+    {
+      "id": "symptom_zapor",
+      "type": "symptom",
+      "label": "Запор"
+    },
+    {
+      "id": "symptom_nedernanie_kala",
+      "type": "symptom",
+      "label": "Недержание кала"
+    },
+    {
+      "id": "symptom_gnoi",
+      "type": "symptom",
+      "label": "Гнойные выделения"
+    },
+    {
+      "id": "symptom_otech_perianalnoi_kzhi",
+      "type": "symptom",
+      "label": "Отёк перианальной кожи"
+    },
+    {
+      "id": "symptom_nekr0z",
+      "type": "symptom",
+      "label": "Некроз слизистой оболочки геморроидальных узлов"
+    },
+    {
+      "id": "symptom_profuznoe_krovotechenie",
+      "type": "symptom",
+      "label": "Профузное кровотечение из геморроидальных узлов"
+    },
+    {
+      "id": "symptom_otechnost",
+      "type": "symptom",
+      "label": "Отёчность"
+    },
+    {
+      "id": "symptom_yazva",
+      "type": "symptom",
+      "label": "Язва слизистой оболочки"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_krovotechenie",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы при хроническом геморрое: кровотечение;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyplavanie_uzlov",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы при хроническом геморрое: выпадение геморроидальных узлов (пролапс);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevyrashennyi_bolevoi_sindrom",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы при хроническом геморрое: невыраженный болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anialnyy_zud",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы при хроническом геморрое: анальный зуд;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы при хроническом геморрое: дискомфорт;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyrazhennyi_bolevoi_sindrom",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы при остром геморрое: выраженный болевой синдром;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tromboz",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тромбоз геморроидальных узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отеком перианальной кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nekr0z",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "некроз слизистой оболочки геморроидальных узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otech_perianalnoi_kzhi",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк перианальной кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки хронической анемии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенным уровнем лейкоцитов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_soe",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенной скоростью оседания эритроцитов (СОЭ)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoi",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнойные выделения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedernanie_kala",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недержание кала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diareya",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapor",
+      "target": "diagnosis_k64",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie",
+      "target": "symptom_discomfort",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровотечения и дискомфорт",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie",
+      "target": "symptom_vyplavanie_uzlov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровотечение; выпадение геморроидальных узлов (пролапс)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyplavanie_uzlov",
+      "target": "symptom_anialnyy_zud",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "выпадение узлов ... анальный зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tromboz",
+      "target": "symptom_otechnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тромбоз геморроидальных узлов ... отеком перианальной кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tromboz",
+      "target": "symptom_nekr0z",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тромбоз геморроидальных узлов ... некроз слизистой оболочки геморроидальных узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost",
+      "target": "symptom_nekr0z",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёк перианальной кожи ... некроз слизистой оболочки геморроидальных узлов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k64_0",
+      "target": "diagnosis_k64_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "1 стадия ... 2 стадия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k64_1",
+      "target": "diagnosis_k64_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "2 стадия ... 3 стадия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k64_2",
+      "target": "diagnosis_k64_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "3 стадия ... 4 стадия ...",
+      "properties": {}
+    }
+  ]
+}

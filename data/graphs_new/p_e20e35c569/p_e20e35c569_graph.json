@@ -1,0 +1,359 @@
+{
+  "protocol_id": "p_e20e35c569",
+  "nodes": [
+    {
+      "id": "diagnosis_c11",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки",
+      "icd_code": "C11"
+    },
+    {
+      "id": "diagnosis_c11_0",
+      "type": "diagnosis",
+      "label": "ЗНО верхней стенки носоглотки",
+      "icd_code": "C11.0"
+    },
+    {
+      "id": "diagnosis_c11_1",
+      "type": "diagnosis",
+      "label": "ЗНО задней стенки носоглотки",
+      "icd_code": "C11.1"
+    },
+    {
+      "id": "diagnosis_c11_2",
+      "type": "diagnosis",
+      "label": "ЗНО боковой стенки носоглотки",
+      "icd_code": "C11.2"
+    },
+    {
+      "id": "diagnosis_c11_3",
+      "type": "diagnosis",
+      "label": "ЗНО передней стенки носоглотки",
+      "icd_code": "C11.3"
+    },
+    {
+      "id": "diagnosis_c11_8",
+      "type": "diagnosis",
+      "label": "Поражение носоглотки, выходящие за пределы одной и более локализаций",
+      "icd_code": "C11.8"
+    },
+    {
+      "id": "diagnosis_c11_9",
+      "type": "diagnosis",
+      "label": "ЗНО носоглотки неуточненное",
+      "icd_code": "C11.9"
+    },
+    {
+      "id": "symptom_nasormok",
+      "type": "symptom",
+      "label": "Насморк"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Затрудненное дыхание"
+    },
+    {
+      "id": "symptom_epistaxis",
+      "type": "symptom",
+      "label": "Кровотечение из носа"
+    },
+    {
+      "id": "symptom_hearing_loss",
+      "type": "symptom",
+      "label": "Снижение слуха"
+    },
+    {
+      "id": "symptom_fetid_odor",
+      "type": "symptom",
+      "label": "Ихорозный запах"
+    },
+    {
+      "id": "symptom_nasal_deformity",
+      "type": "symptom",
+      "label": "Деформация носа"
+    },
+    {
+      "id": "symptom_nasopharyngeal_mass",
+      "type": "symptom",
+      "label": "Опухоль/масса в носоглотке"
+    },
+    {
+      "id": "symptom_nasal_speech",
+      "type": "symptom",
+      "label": "Гнусавый голос"
+    },
+    {
+      "id": "symptom_ocular_disturbance",
+      "type": "symptom",
+      "label": "Офтальмологические расстройства"
+    },
+    {
+      "id": "symptom_subfebrile_fever",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_nasal_discharge",
+      "type": "symptom",
+      "label": "Выделения из носа"
+    },
+    {
+      "id": "symptom_ear_pain",
+      "type": "symptom",
+      "label": "Боль в ухе"
+    },
+    {
+      "id": "symptom_neck_swelling",
+      "type": "symptom",
+      "label": "Отек шеи"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_shock",
+      "type": "symptom",
+      "label": "Шок"
+    },
+    {
+      "id": "symptom_coma",
+      "type": "symptom",
+      "label": "Кома"
+    },
+    {
+      "id": "symptom_severe_dehydration",
+      "type": "symptom",
+      "label": "Тяжелое обезвоживание"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Диарея"
+    },
+    {
+      "id": "symptom_constipation",
+      "type": "symptom",
+      "label": "Запор"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_hyperthermia",
+      "type": "symptom",
+      "label": "Гипертермия"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличение регионарных лимфоузлов"
+    },
+    {
+      "id": "symptom_altered_consciousness",
+      "type": "symptom",
+      "label": "Нарушение сознания"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nasormok",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- насморк",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- затруднение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epistaxis",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hearing_loss",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- снижение слуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fetid_odor",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- ихорозный запах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_deformity",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasopharyngeal_mass",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "массы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_speech",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- гнусавость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ocular_disturbance",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "- офтальмологические",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_fever",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "(субфебрилите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_discharge",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделения из носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_swelling",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек шеи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_c11",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "регионарные лимфоузлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasormok",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "- насморк ... - головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasormok",
+      "target": "symptom_cough",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "- насморк ... - кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_cough",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "- головные боли ... - кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasormok",
+      "target": "symptom_epistaxis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "- насморк ... - кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasormok",
+      "target": "symptom_hearing_loss",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "- насморк ... - снижение слуха",
+      "properties": {}
+    }
+  ]
+}

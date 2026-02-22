@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_pain_knee",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на боли и образование в области колена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_knee",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на боли и образование в области колена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limb_deformity",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... деформацию конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limping",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... хромоту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_movement_limitation",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ограничение движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_thickening",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • утолщение кости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_bone_neoplasm",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • пальпируемые костные новообразования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_on_palpation",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • боль при пальпации и нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_axial_deformation",
+    "target": "d16_general",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • осевая деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_knee",
+    "target": "d16_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на боли ... в области колена (колено относится к длинным костям нижней конечности)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_knee",
+    "target": "d16_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... образование в области колена (колено относится к длинным костям нижней конечности)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_movement_limitation",
+    "target": "d16_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ... ограничение движений (часто связано с поражением длинных костей нижней конечности)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_knee",
+    "target": "symptom_mass_knee",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на боли и образование в области колена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_knee",
+    "target": "symptom_limb_deformity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на боли и образование в области колена, деформацию конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_knee",
+    "target": "symptom_limping",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на боли и образование в области колена, ... хромоту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_knee",
+    "target": "symptom_movement_limitation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на боли и образование в области колена, ... ограничение движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_thickening",
+    "target": "symptom_palpable_bone_neoplasm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • утолщение кости; • пальпируемые костные новообразования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bone_thickening",
+    "target": "symptom_pain_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • утолщение кости; • боль при пальпации и нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_bone_neoplasm",
+    "target": "symptom_pain_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • пальпируемые костные новообразования; • боль при пальпации и нагрузке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_bone_neoplasm",
+    "target": "symptom_axial_deformation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: • пальпируемые костные новообразования; • осевая деформация",
+    "properties": {}
+  }
+]

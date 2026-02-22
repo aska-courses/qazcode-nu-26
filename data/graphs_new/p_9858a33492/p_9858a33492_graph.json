@@ -1,0 +1,652 @@
+{
+  "protocol_id": "p_9858a33492",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_goleni",
+      "type": "symptom",
+      "label": "Боль в голени"
+    },
+    {
+      "id": "symptom_narushenie_oporospobnosti_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение опороспособности конечности"
+    },
+    {
+      "id": "symptom_otek_v_meste_pereloma",
+      "type": "symptom",
+      "label": "Отёк в месте перелома"
+    },
+    {
+      "id": "symptom_deformaciya_konechnosti",
+      "type": "symptom",
+      "label": "Деформация конечности"
+    },
+    {
+      "id": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "symptom_ukorochanie_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение конечности"
+    },
+    {
+      "id": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность, усиливающаяся при осевой нагрузке"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Патологическая подвижность"
+    },
+    {
+      "id": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация костных отломков"
+    },
+    {
+      "id": "symptom_nevozmozhnost_podnyat_nogu",
+      "type": "symptom",
+      "label": "Невозможность самостоятельно поднять ногу"
+    },
+    {
+      "id": "symptom_povrezhdenie_sosudistovo_nervnogo_puchka",
+      "type": "symptom",
+      "label": "Повреждение сосудисто‑нервных пучков"
+    },
+    {
+      "id": "diagnosis_perelom_goleni_s82_1",
+      "type": "diagnosis",
+      "label": "Перелом голени (проксимальный сегмент, закрытый)",
+      "icd_code": "S82.1"
+    },
+    {
+      "id": "diagnosis_perelom_goleni_s82_2",
+      "type": "diagnosis",
+      "label": "Перелом голени (проксимальный сегмент, открытый)",
+      "icd_code": "S82.2"
+    },
+    {
+      "id": "diagnosis_perelom_goleni_s82_4",
+      "type": "diagnosis",
+      "label": "Перелом голени (диафизарный сегмент)",
+      "icd_code": "S82.4"
+    },
+    {
+      "id": "diagnosis_perelom_goleni_s82_7",
+      "type": "diagnosis",
+      "label": "Перелом голени (многократный/сложный)",
+      "icd_code": "S82.7"
+    },
+    {
+      "id": "diagnosis_perelom_goleni_s82_9",
+      "type": "diagnosis",
+      "label": "Перелом голени (другие типы)",
+      "icd_code": "S82.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_konechnosti",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_sosudistovo_nervnogo_puchka",
+      "target": "diagnosis_perelom_goleni_s82_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повреждение сосудисто‑нервных пучков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_sosudistovo_nervnogo_puchka",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повреждение сосудисто‑нервных пучков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_sosudistovo_nervnogo_puchka",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повреждение сосудисто‑нервных пучков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_sosudistovo_nervnogo_puchka",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повреждение сосудисто‑нервных пучков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povrezhdenie_sosudistovo_nervnogo_puchka",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повреждение сосудисто‑нервных пучков",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_1",
+      "target": "diagnosis_perelom_goleni_s82_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, закрытый) и Перелом голени (проксимальный сегмент, открытый)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_1",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, закрытый) и Перелом голени (диафизарный сегмент)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_1",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, закрытый) и Перелом голени (многократный/сложный)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_1",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, закрытый) и Перелом голени (другие типы)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_2",
+      "target": "diagnosis_perelom_goleni_s82_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, открытый) и Перелом голени (диафизарный сегмент)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_2",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, открытый) и Перелом голени (многократный/сложный)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_2",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (проксимальный сегмент, открытый) и Перелом голени (другие типы)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_4",
+      "target": "diagnosis_perelom_goleni_s82_7",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (диафизарный сегмент) и Перелом голени (многократный/сложный)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_4",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (диафизарный сегмент) и Перелом голени (другие типы)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_goleni_s82_7",
+      "target": "diagnosis_perelom_goleni_s82_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Перелом голени (многократный/сложный) и Перелом голени (другие типы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "symptom_narushenie_oporospobnosti_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боли в голени; нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "symptom_deformaciya_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отек в месте перелома; деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkanki",
+      "target": "symptom_ukorochanie_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кровоизлияние в окружающие ткани; укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolestnost_pri_oshevoy_nagruzke",
+      "target": "symptom_patologicheskaya_podvizhnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болезненность, усиливающая при осевой нагрузке; патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_kostnyh_otlomkov",
+      "target": "symptom_nevozmozhnost_podnyat_nogu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "крепитация костных отломков; невозможность самостоятельно поднять ногу",
+      "properties": {}
+    }
+  ]
+}

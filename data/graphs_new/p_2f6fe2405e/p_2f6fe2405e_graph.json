@@ -1,0 +1,351 @@
+{
+  "protocol_id": "p_2f6fe2405e",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "ощущение жжения в эпигастральной области"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "чувство тяжести в эпигастральной области"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "изжога"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "боль в эпигастральной области"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "диспепсические расстройства"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "интенсивные боли в эпигастральной области"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "боли в верхней части живота"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "мелена"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "рвота кофейной гущей"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "желудочно-кишечное кровотечение"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "перфорация"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "пенетрация"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "декомпенсированный пилоростеноз"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "снижение гемоглобина"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "снижение уровня сывороточного железа"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "боли в пилородуоденальной области"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "бледность кожных покровов"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "гипотония"
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "холодный пот"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы больных на ощущение жжения, чувство тяжести в эпигастральной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы больных на ощущение жжения ... тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы больных на ощущение жжения ... изжогу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство тяжести в эпигастральной области, тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство тяжести в эпигастральной области, изжогу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тошноту, изжогу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "Реже у больных ... отмечаются интенсивные боли в эпигастральной области и диспепсические расстройства",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_19",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в эпигастральной и/или в пилородуоденальной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_10",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Признаками ЖКК являются мелена, анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Признаками ЖКК являются мелена, ... боли в верхней части живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анемия, боли в верхней части живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "symptom_18",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "снижение гемоглобина ... рекомендуется определение сывороточного железа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "symptom_22",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Бледность кожных покровов, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "symptom_20",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Бледность кожных покровов, слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "symptom_20",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тахикардия, слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_9",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "головокружение, мелена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_12",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "головокружение, рвота кофейной гущей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_12",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "мелена, рвота кофейной гущей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "symptom_14",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Экстренная госпитализация ... желудочно-кишечное кровотечение; перфорация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "symptom_15",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Экстренная госпитализация ... желудочно-кишечное кровотечение; пенетрация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "symptom_16",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Экстренная госпитализация ... желудочно-кишечное кровотечение; декомпенсированный пилоростеноз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "symptom_15",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "перфорация, пенетрация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "symptom_16",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "перфорация, декомпенсированный пилоростеноз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "symptom_16",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пенетрация, декомпенсированный пилоростеноз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомы острого живота – ... холодный пот, ... желудочно-кишечное кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "symptom_14",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодный пот ... перфорация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "symptom_15",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодный пот ... пенетрация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "symptom_16",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодный пот ... декомпенсированный пилоростеноз",
+      "properties": {}
+    }
+  ]
+}

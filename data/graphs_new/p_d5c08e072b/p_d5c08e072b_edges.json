@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_bolevoy_sindrom",
+    "target": "symptom_povyshenie_temperatury",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "Во время проведения процедуры ФДТ возможен болевой синдром различной степени выраженности, редко отмечается повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_allergicheskie_reaktsii",
+    "target": "symptom_fototoksicheskie_reaktsii_kozhi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Возможны аллергические реакции. При воздействии солнечного света возможны фототоксические реакции кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhzhenie",
+    "target": "symptom_rezkie_boli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При проведении сеанса ФДТ возможны болевые ощущения различной степени выраженности (от чувства жжения до резких болей)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhzhenie",
+    "target": "symptom_bol",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При проведении сеанса ФДТ возможны болевые ощущения различной степени выраженности (от чувства жжения до резких болей)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rezkie_boli",
+    "target": "symptom_bol",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При проведении сеанса ФДТ возможны болевые ощущения различной степени выраженности (от чувства жжения до резких болей)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_temperatury",
+    "target": "symptom_povyshenie_ad",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "В редких случаях возможны кратковременное транзиторное повышение температуры тела и АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_temperatury",
+    "target": "symptom_gerpeticheskie_vysypaniya",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "В редких случаях возможны кратковременное транзиторное повышение температуры тела и АД, а также герпетические высыпания в области губ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_ad",
+    "target": "symptom_gerpeticheskie_vysypaniya",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "В редких случаях возможны кратковременное транзиторное повышение температуры тела и АД, а также герпетические высыпания в области губ",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c00",
+    "target": "diagnosis_c04",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C00 Злокачественное новообразование губы ... C04 Злокачественное новообразование дна полости рта",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c01",
+    "target": "diagnosis_c02",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C01 Злокачественные новообразования основания языка ... C02 Злокачественное новообразование других и неуточненных частей языка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c15",
+    "target": "diagnosis_c16",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C15 Злокачественное новообразование пищевода ... C16 Злокачественное новообразование желудка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c33",
+    "target": "diagnosis_c34",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C33 Злокачественное новообразование трахеи ... C34 Злокачественное новообразование бронхов и легкого",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c20",
+    "target": "diagnosis_c21",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "C20 Злокачественное новообразование прямой кишки ... C21 Злокачественное новообразование заднего прохода (ануса) и анального канала",
+    "properties": {}
+  }
+]

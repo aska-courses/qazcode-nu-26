@@ -1,0 +1,247 @@
+{
+  "protocol_id": "p_021a7cb3ce",
+  "nodes": [
+    {
+      "id": "diagnosis_vwf_disease",
+      "type": "diagnosis",
+      "label": "Болезнь Виллебранда",
+      "icd_code": "D68.0"
+    },
+    {
+      "id": "symptom_minor_cut_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение из незначительных порезов более 15 мин"
+    },
+    {
+      "id": "symptom_delayed_trauma_bleeding",
+      "type": "symptom",
+      "label": "Отсроченное кровотечение в течение 7 дней после травмы"
+    },
+    {
+      "id": "symptom_post_surgical_bleeding",
+      "type": "symptom",
+      "label": "Длительное или повторное кровотечение после операции или экстракции зубов"
+    },
+    {
+      "id": "symptom_soft_tissue_hematoma",
+      "type": "symptom",
+      "label": "Спонтанные или посттравматические гематомы мягких тканей"
+    },
+    {
+      "id": "symptom_epistaxis",
+      "type": "symptom",
+      "label": "Носовое кровотечение более 10 мин, не поддающееся компрессии"
+    },
+    {
+      "id": "symptom_fecal_blood",
+      "type": "symptom",
+      "label": "Кровь в кале без видимой причины"
+    },
+    {
+      "id": "symptom_gi_bleeding_unexplained",
+      "type": "symptom",
+      "label": "Желудочно-кишечные кровотечения, не объясненные язвами или портальной гипертензией"
+    },
+    {
+      "id": "symptom_heavy_menstrual_bleeding",
+      "type": "symptom",
+      "label": "Обильные маточные кровотечения более 7‑10 дней"
+    },
+    {
+      "id": "symptom_mesenchymal_dysplasia",
+      "type": "symptom",
+      "label": "Признаки мезенхимальной дисплазии и ангиодисплазии"
+    },
+    {
+      "id": "symptom_retroperitoneal_hematoma",
+      "type": "symptom",
+      "label": "Забрюшинные гематомы или гемартрозы в анамнезе"
+    },
+    {
+      "id": "symptom_drug_induced_hemorrhage",
+      "type": "symptom",
+      "label": "Геморрагический синдром при приёме АСП, НПВС, клопидогрела, варфарина, гепарина"
+    },
+    {
+      "id": "symptom_cns_bleeding",
+      "type": "symptom",
+      "label": "Кровотечения/кровоизлияния в центральную нервную систему"
+    },
+    {
+      "id": "symptom_gi_critical_bleeding",
+      "type": "symptom",
+      "label": "Кровотечения/кровоизлияния в желудочно-кишечный тракт"
+    },
+    {
+      "id": "symptom_neck_throat_bleeding",
+      "type": "symptom",
+      "label": "Кровотечения/кровоизлияния в шею/горло"
+    },
+    {
+      "id": "symptom_cutaneous_hemorrhagic_syndrome",
+      "type": "symptom",
+      "label": "Множественные экхимозы и гематомы мягких тканей"
+    },
+    {
+      "id": "symptom_acute_hemarthrosis",
+      "type": "symptom",
+      "label": "Деформация, отёк и локальное повышение температуры кожи сустава (острый гемартроз)"
+    },
+    {
+      "id": "symptom_deforming_arthropathy",
+      "type": "symptom",
+      "label": "Нарушение подвижности, ограничение объёма движений сустава, гипотрофия мышц, нарушение походки"
+    },
+    {
+      "id": "symptom_mucosal_bleeding",
+      "type": "symptom",
+      "label": "Кровотечения из слизистых (носовые, десневые, луночковые, меноррагии)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_minor_cut_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечения из незначительных порезов или ран, которые длятся более 15 мин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delayed_trauma_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсрочено возникают в течение 7 дней после травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_post_surgical_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "длительного или повторного кровотечения после хирургического вмешательства или экстракции зубов, в том числе отсроченного характера в течение первых 7—10 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_soft_tissue_hematoma",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спонтанные или посттравматические гематомы мягких тканей, нехарактерные для тяжести травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epistaxis",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "носовые кровотечения, которые длятся более 10 мин, несмотря на физическую компрессию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fecal_blood",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие крови в кале без видимой причины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gi_bleeding_unexplained",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "желудочно-кишечные кровотечения, не объяснимые язвами или портальной гипертензией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_menstrual_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обильные маточные кровотечения более 7‑10 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mesenchymal_dysplasia",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки мезенхимальной дисплазии и ангиодисплазии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_retroperitoneal_hematoma",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "забрюшинные гематомы или гемартрозы в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_drug_induced_hemorrhage",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "геморрагический синдром при приёме АСП, НПВС, клопидогрела, варфарина или гепарина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cns_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияния в центральную нервную систему (ЦНС)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gi_critical_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияния в желудочно-кишечный тракт (ЖКТ)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_throat_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияния в шею/горло",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cutaneous_hemorrhagic_syndrome",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "множественные экхимозы и гематомы мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_hemarthrosis",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острый гемартроз (деформация, отёк и локальное повышение температуры кожи сустава)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deforming_arthropathy",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение подвижности, ограничение объёма движений сустава, гипотрофия мышц, нарушение походки (деформирующая артропатия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_bleeding",
+      "target": "diagnosis_vwf_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечения из слизистых (носовые, десневые, луночковые, меноррагии)",
+      "properties": {}
+    }
+  ]
+}

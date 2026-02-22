@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение живота ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диспепсические явления ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря веса ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря аппетита ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болевой синдром в животе или области таза ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "одышка ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "общая слабость ... при распространенном процессе ... РЯ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... наличие плеврита и асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... наличие плеврита и асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_c56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... увеличение периферических лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение живота ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диспепсические явления ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря веса ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря аппетита ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болевой синдром в животе или области таза ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "одышка ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "общая слабость ... при распространенном процессе ... РЯ (включая первичный перитонеальный рак)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... наличие плеврита и асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... наличие плеврита и асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_c48",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... увеличение периферических лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличение живота ... диспепсические явления ... при распространенном процессе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличение живота ... потеря веса ... при распространенном процессе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "диспепсические явления ... потеря веса ... при распространенном процессе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_9",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... наличие плеврита и асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_10",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... увеличение периферических лимфоузлов ... асцита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_10",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "оценка состояния тяжести пациента ... наличие плеврита ... увеличение периферических лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c56",
+    "target": "diagnosis_c48",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Рак яичников, маточной трубы и первичный рак брюшины – группа злокачественных опухолей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c56",
+    "target": "diagnosis_c57",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Рак яичников, маточной трубы и первичный рак брюшины – группа злокачественных опухолей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c48",
+    "target": "diagnosis_c57",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Рак яичников, маточной трубы и первичный рак брюшины – группа злокачественных опухолей",
+    "properties": {}
+  }
+]

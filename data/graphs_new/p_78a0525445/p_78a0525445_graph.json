@@ -1,0 +1,328 @@
+{
+  "protocol_id": "p_78a0525445",
+  "nodes": [
+    {
+      "id": "diagnosis_i73_8",
+      "type": "diagnosis",
+      "label": "Другие болезни периферических сосудов",
+      "icd_code": "I73.8"
+    },
+    {
+      "id": "diagnosis_i73_9",
+      "type": "diagnosis",
+      "label": "Болезнь периферических сосудов неуточненная",
+      "icd_code": "I73.9"
+    },
+    {
+      "id": "diagnosis_i74_2",
+      "type": "diagnosis",
+      "label": "Эмболия и тромбоз артерий верхних конечностей",
+      "icd_code": "I74.2"
+    },
+    {
+      "id": "diagnosis_i77",
+      "type": "diagnosis",
+      "label": "Другие поражения артерий и артериол",
+      "icd_code": "I77"
+    },
+    {
+      "id": "diagnosis_i77_3",
+      "type": "diagnosis",
+      "label": "Мышечная и соединительнотканная дисплазия артерий",
+      "icd_code": "I77.3"
+    },
+    {
+      "id": "diagnosis_i77_8",
+      "type": "diagnosis",
+      "label": "Другие уточненные изменения артерий и артериол",
+      "icd_code": "I77.8"
+    },
+    {
+      "id": "diagnosis_i77_9",
+      "type": "diagnosis",
+      "label": "Изменение артерий и артериол неуточненное",
+      "icd_code": "I77.9"
+    },
+    {
+      "id": "diagnosis_i79_star",
+      "type": "diagnosis",
+      "label": "Поражения артерий, артериол и капилляров при болезнях, классифицированных в других рубриках",
+      "icd_code": "I79*"
+    },
+    {
+      "id": "diagnosis_i79_8_star",
+      "type": "diagnosis",
+      "label": "Другие поражения артерий, артериол и капилляров при болезнях, классифицированных в других рубриках",
+      "icd_code": "I79.8*"
+    },
+    {
+      "id": "diagnosis_i82_8",
+      "type": "diagnosis",
+      "label": "Эмболия и тромбоз других уточненных вен",
+      "icd_code": "I82.8"
+    },
+    {
+      "id": "diagnosis_q68_0",
+      "type": "diagnosis",
+      "label": "Врожденная деформация грудино-ключично-сосцевидной мышцы",
+      "icd_code": "Q68.0"
+    },
+    {
+      "id": "diagnosis_q76_5",
+      "type": "diagnosis",
+      "label": "Добавочноешейное ребро",
+      "icd_code": "Q76.5"
+    },
+    {
+      "id": "symptom_onemenie_vsej_ruki",
+      "type": "symptom",
+      "label": "Онемение всей руки"
+    },
+    {
+      "id": "symptom_narushenie_sna_iz_za_onemenie_i_boli",
+      "type": "symptom",
+      "label": "Нарушение сна из‑за онемения и боли"
+    },
+    {
+      "id": "symptom_bol_v_mizinze_i_bezymyannom_palcah",
+      "type": "symptom",
+      "label": "Боль в мизинце и безымянном пальце"
+    },
+    {
+      "id": "symptom_pokalyvanie_v_mizinze_i_bezymyannom_palcah",
+      "type": "symptom",
+      "label": "Покалывание в мизинце и безымянном пальце"
+    },
+    {
+      "id": "symptom_bol_v_predplechye_vnutrennyaya",
+      "type": "symptom",
+      "label": "Боль в предплечье (внутренняя поверхность)"
+    },
+    {
+      "id": "symptom_pokalyvanie_v_predplechye_vnutrennyaya",
+      "type": "symptom",
+      "label": "Покалывание в предплечье (внутренняя поверхность)"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_shchi_i_plechi",
+      "type": "symptom",
+      "label": "Боль в области шеи и плеч"
+    },
+    {
+      "id": "symptom_usilenie_boli_pri_podeme_gruza",
+      "type": "symptom",
+      "label": "Усиление боли при подъёме груза"
+    },
+    {
+      "id": "symptom_znaki_plohogo_krovoobrashcheniya_v_kisti",
+      "type": "symptom",
+      "label": "Признаки плохого кровообращения в кисти"
+    },
+    {
+      "id": "symptom_golubovatyi_tsvet_kisti",
+      "type": "symptom",
+      "label": "Голубоватый цвет кисти"
+    },
+    {
+      "id": "symptom_holodnye_ruki",
+      "type": "symptom",
+      "label": "Холодные руки"
+    },
+    {
+      "id": "symptom_opukhshie_ruki",
+      "type": "symptom",
+      "label": "Опухшие руки"
+    },
+    {
+      "id": "symptom_slabost_myshts_ruk",
+      "type": "symptom",
+      "label": "Слабость мышц рук"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_onemenie_vsej_ruki",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "онемение всей руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna_iz_za_onemenie_i_boli",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение сна из‑за онемения и боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_mizinze_i_bezymyannom_palcah",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль, онемение и покалывание в мизинце и безымянных пальцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokalyvanie_v_mizinze_i_bezymyannom_palcah",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль, онемение и покалывание в мизинце и безымянных пальцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predplechye_vnutrennyaya",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль, онемение и покалывание в мизинце и безымянных пальцах, по внутренней поверхности предплечья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokalyvanie_v_predplechye_vnutrennyaya",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль, онемение и покалывание в мизинце и безымянных пальцах, по внутренней поверхности предплечья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_shchi_i_plechi",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль и покалывание в области шеи и плеч (подъем груза делает боль сильнее)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_usilenie_boli_pri_podeme_gruza",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подъем груза делает боль сильнее",
+      "properties": {}
+    },
+    {
+      "source": "symptom_znaki_plohogo_krovoobrashcheniya_v_kisti",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки плохого кровообращения в кисти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golubovatyi_tsvet_kisti",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "голубоватый цвет кисти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_holodnye_ruki",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "холодные руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opukhshie_ruki",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "опухшие руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost_myshts_ruk",
+      "target": "diagnosis_i73_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость мышц рук",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_mizinze_i_bezymyannom_palcah",
+      "target": "symptom_pokalyvanie_v_mizinze_i_bezymyannom_palcah",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль, онемение и покалывание в мизинце и безымянных пальцах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_predplechye_vnutrennyaya",
+      "target": "symptom_pokalyvanie_v_predplechye_vnutrennyaya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль, онемение и покалывание ... по внутренней поверхности предплечья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_holodnye_ruki",
+      "target": "symptom_opukhshie_ruki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодные, опухшие руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golubovatyi_tsvet_kisti",
+      "target": "symptom_holodnye_ruki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "голубоватый цвет, холодные, опухшие руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golubovatyi_tsvet_kisti",
+      "target": "symptom_opukhshie_ruki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "голубоватый цвет, холодные, опухшие руки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i73_8",
+      "target": "diagnosis_i73_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код МКБ: I73.8 ... I73.9 ... I74.2 ... I77 ... I77.3 ... I77.8 ... I77.9 ... I79* ... I79.8* ... I82.8 ... Q68.0 ... Q76.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i73_8",
+      "target": "diagnosis_i74_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код МКБ: I73.8 ... I73.9 ... I74.2 ... I77 ... I77.3 ... I77.8 ... I77.9 ... I79* ... I79.8* ... I82.8 ... Q68.0 ... Q76.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i73_8",
+      "target": "diagnosis_i77",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код МКБ: I73.8 ... I73.9 ... I74.2 ... I77 ... I77.3 ... I77.8 ... I77.9 ... I79* ... I79.8* ... I82.8 ... Q68.0 ... Q76.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i73_8",
+      "target": "diagnosis_i79_star",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код МКБ: I73.8 ... I73.9 ... I74.2 ... I77 ... I77.3 ... I77.8 ... I77.9 ... I79* ... I79.8* ... I82.8 ... Q68.0 ... Q76.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i73_8",
+      "target": "diagnosis_q68_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код МКБ: I73.8 ... I73.9 ... I74.2 ... I77 ... I77.3 ... I77.8 ... I77.9 ... I79* ... I79.8* ... I82.8 ... Q68.0 ... Q76.5",
+      "properties": {}
+    }
+  ]
+}

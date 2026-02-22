@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_poor_sleep",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_appetite",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_sleep",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_sleep",
+    "target": "symptom_poor_appetite",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_sleep",
+    "target": "symptom_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_poor_appetite",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poor_appetite",
+    "target": "symptom_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при поступлении: плохой сон, утомляемость, плохой аппетит, боли, и т.д.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emotional_disorder",
+    "target": "symptom_dysphoric_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "консультация психолога при наличии эмоциональных, дисфорических, депрессивных расстройств;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_emotional_disorder",
+    "target": "symptom_depressive_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "консультация психолога при наличии эмоциональных, дисфорических, депрессивных расстройств;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphoric_disorder",
+    "target": "symptom_depressive_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "консультация психолога при наличии эмоциональных, дисфорических, депрессивных расстройств;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_tubulointerstitial_nephritis_children",
+    "target": "diagnosis_obstructive_chronic_pyelonephritis_reflux_children",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "N11 Хронический ... N11.0 Необструктивный ... N11.8 Другие ... N11.9 Хронический ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_tubulointerstitial_nephritis_children",
+    "target": "diagnosis_other_chronic_tubulointerstitial_nephritis_children",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "N11 Хронический ... N11.0 Необструктивный ... N11.8 Другие ... N11.9 Хронический ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_chronic_tubulointerstitial_nephritis_children",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "N11 Хронический ... N11.0 Необструктивный ... N11.8 Другие ... N11.9 Хронический ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_obstructive_chronic_pyelonephritis_reflux_children",
+    "target": "diagnosis_other_chronic_tubulointerstitial_nephritis_children",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "N11 Хронический ... N11.0 Необструктивный ... N11.8 Другие ... N11.9 Хронический ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_obstructive_chronic_pyelonephritis_reflux_children",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "N11 Хронический ... N11.0 Необструктивный ... N11.8 Другие ... N11.9 Хронический ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_other_chronic_tubulointerstitial_nephritis_children",
+    "target": "diagnosis_unspecified_chronic_tubulointerstitial_nephritis_children",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "N11 Хронический ... N11.0 Необструктивный ... N11.8 Другие ... N11.9 Хронический ...",
+    "properties": {}
+  }
+]

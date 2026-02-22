@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_infection_inflammation",
+    "target": "diagnosis_t84_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "инфекционное воспаление ранее установленного имплантата",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aseptic_loosening",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асептическое расшатывание эндопротеза коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_instability",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нестабильность сустава из-за несостоятельности отдельных капсульно - связочных структур",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_damage",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "механическое повреждение компонентов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_movement_limitation",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выраженные ограничения движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patellar_femoral_tibia_fracture",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "травматические и усталостные переломы надколенника, бедренной и большеберцовой кости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_inflammation",
+    "target": "diagnosis_t84_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "воспалительный процесс в области коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection_foci",
+    "target": "diagnosis_t84_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "несанированные очаги острой и хронической инфекции любой локализации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis_history",
+    "target": "diagnosis_t84_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перенесенный сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_extensor_apparatus_failure",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выраженная функциональная несостоятельность разгибательного аппарата коленного сустава при его неврологических повреждениях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteopenia",
+    "target": "diagnosis_t84_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выраженная остеопения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c40_2",
+    "target": "diagnosis_d16_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "онкологические заболевания",
+    "properties": {}
+  }
+]

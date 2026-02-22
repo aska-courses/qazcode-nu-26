@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство усталости, быстрая утомляемость у детей раннего возраста",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артериальная гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артериальная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_resting_tachycardia",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия в покое",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "аритмия, брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpitations",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащенное/замедленное сердцебиение, перебои ритма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_rales",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "влажные хрипы при аускультации легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гепатоспленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение диуреза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pleuritis_signs",
+    "target": "diagnosis_i50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки плеврита (притупление звука, ослабление дыхания)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "symptom_dyspnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство усталости...; одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отеки; артериальная гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i50_0",
+    "target": "diagnosis_i50_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Коды МКБ-10: I50.0 Застойная сердечная недостаточность I50.1 Левожелудочковая недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i50_0",
+    "target": "diagnosis_i50_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Коды МКБ-10: I50.0 ... I50.9 Сердечная недостаточность неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i42_0",
+    "target": "diagnosis_i42_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "I42.0 Дилатационная кардиомиопатия I42.1 Обструктивная гипертрофическая кардиомиопатия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i42_0",
+    "target": "diagnosis_i42_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "I42.0 Дилатационная кардиомиопатия I42.2 Другая гипертрофическая кардиомиопатия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q23_0",
+    "target": "diagnosis_q25_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q23.0 врожденный стеноз аортального клапана Q25.2 Атрезия аорты",
+    "properties": {}
+  }
+]

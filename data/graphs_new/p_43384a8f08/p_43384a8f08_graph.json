@@ -1,0 +1,443 @@
+{
+  "protocol_id": "p_43384a8f08",
+  "nodes": [
+    {
+      "id": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "diagnosis",
+      "label": "Хронический тубулоинтерстициальный нефрит",
+      "icd_code": "N14"
+    },
+    {
+      "id": "diagnosis_analgesic_nephropathy",
+      "type": "diagnosis",
+      "label": "Анальгетическая нефропатия",
+      "icd_code": "N14.0"
+    },
+    {
+      "id": "diagnosis_other_drug_nephropathy",
+      "type": "diagnosis",
+      "label": "Нефропатия, вызванная другими лекарственными средствами",
+      "icd_code": "N14.1"
+    },
+    {
+      "id": "symptom_lumbar_pain",
+      "type": "symptom",
+      "label": "Коликообразные боли в поясничной области",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_kidney_tenderness",
+      "type": "symptom",
+      "label": "Болезненность при пальпации в области почек",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_arterial_hypertension",
+      "type": "symptom",
+      "label": "Артериальная гипертония",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "Гематурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_sterile_leukocyturia",
+      "type": "symptom",
+      "label": "Стерильная лейкоцитурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tubular_proteinuria",
+      "type": "symptom",
+      "label": "Канальцевая протеинурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tubular_acidosis",
+      "type": "symptom",
+      "label": "Признаки тубулярного ацидоза",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hyperkalemia",
+      "type": "symptom",
+      "label": "Гиперкалемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nephrogenic_nondiabetic_diabetes",
+      "type": "symptom",
+      "label": "Нефрогенный несахарный диабет",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_polyuria",
+      "type": "symptom",
+      "label": "Полиурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Уменьшение диуреза",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_malaise",
+      "type": "symptom",
+      "label": "Недомогание",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отёки",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_dysuria",
+      "type": "symptom",
+      "label": "Дизурия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hyperazotemia",
+      "type": "symptom",
+      "label": "Гиперазотемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_azotemia",
+      "type": "symptom",
+      "label": "Азотемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_kidney_shrinkage",
+      "type": "symptom",
+      "label": "Уменьшение размеров почек",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_kidney_cysts",
+      "type": "symptom",
+      "label": "Кисты почек",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_papillary_necrosis",
+      "type": "symptom",
+      "label": "Папиллярный некроз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_papillary_necrosis_of_renal_papillae",
+      "type": "symptom",
+      "label": "Некроз сосочков почек",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_decreased_gfr",
+      "type": "symptom",
+      "label": "Снижение скорости клубочковой фильтрации (СКФ)",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "коликообразные боли в поясничной области (при некрозе сосочков)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_tenderness",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в области проекции почек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypertension",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть артериальная гипертония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны ... гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sterile_leukocyturia",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стерильная лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tubular_proteinuria",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "канальцевая протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tubular_acidosis",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки тубулярного ацидоза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkalemia",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкалемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nephrogenic_nondiabetic_diabetes",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нефрогенный несахарный диабет (при лечении препаратами лития)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyuria",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "полиурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшение диуреза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_gfr",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогредиентное снижение почечных функций (функции концентрирования и фильтрационной функции)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperazotemia",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогредиентное снижение почечных функций ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_azotemia",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогредиентное снижение почечных функций ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_shrinkage",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшение размеров почек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_cysts",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кисты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papillary_necrosis_of_renal_papillae",
+      "target": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "папиллярный некроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papillary_necrosis_of_renal_papillae",
+      "target": "diagnosis_analgesic_nephropathy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "КТ почек без контраста при подозрении на некроз сосочков почек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_analgesic_nephropathy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "коликообразные боли в поясничной области (при некрозе сосочков)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_tenderness",
+      "target": "diagnosis_analgesic_nephropathy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации в области проекции почек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypertension",
+      "target": "diagnosis_analgesic_nephropathy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может быть артериальная гипертония",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "target": "diagnosis_analgesic_nephropathy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Формы: анальгетическая нефропатия, нефропатия при терапии препаратами лития, ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_chronic_tubulointerstitial_nephritis",
+      "target": "diagnosis_other_drug_nephropathy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Формы: анальгетическая нефропатия, нефропатия при терапии препаратами лития, ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_analgesic_nephropathy",
+      "target": "diagnosis_other_drug_nephropathy",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Формы: анальгетическая нефропатия, нефропатия при терапии препаратами лития, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_hematuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможны анемия, гематурия, стерильная лейкоцитурия, канальцевая протеинурия...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "symptom_sterile_leukocyturia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможны анемия, гематурия, стерильная лейкоцитурия, канальцевая протеинурия...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sterile_leukocyturia",
+      "target": "symptom_tubular_proteinuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможны анемия, гематурия, стерильная лейкоцитурия, канальцевая протеинурия...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tubular_proteinuria",
+      "target": "symptom_tubular_acidosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможны анемия, гематурия, стерильная лейкоцитурия, канальцевая протеинурия...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkalemia",
+      "target": "symptom_nephrogenic_nondiabetic_diabetes",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "возможны ... гиперкалемия, нефрогенный несахарный диабет...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kidney_shrinkage",
+      "target": "symptom_kidney_cysts",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "уменьшение размеров почек... кисты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperazotemia",
+      "target": "symptom_azotemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "прогредиентное снижение почечных функций ... гиперазотемия, азотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyuria",
+      "target": "symptom_oliguria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "полиурия или уменьшение диуреза",
+      "properties": {}
+    }
+  ]
+}

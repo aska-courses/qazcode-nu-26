@@ -1,0 +1,357 @@
+{
+  "protocol_id": "p_cd24a0b827",
+  "nodes": [
+    {
+      "id": "diagnosis_f23_0",
+      "type": "diagnosis",
+      "label": "Острое полиморфное психотическое расстройство без симптомов шизофрении",
+      "icd_code": "F23.0"
+    },
+    {
+      "id": "diagnosis_f23_1",
+      "type": "diagnosis",
+      "label": "Острое полиморфное психотическое расстройство с симптомами шизофрении",
+      "icd_code": "F23.1"
+    },
+    {
+      "id": "diagnosis_f23_2",
+      "type": "diagnosis",
+      "label": "Острое шизофреноформное психотическое расстройство",
+      "icd_code": "F23.2"
+    },
+    {
+      "id": "diagnosis_f53_1",
+      "type": "diagnosis",
+      "label": "Тяжелые психические расстройства и расстройства поведения, связанные с послеродовым периодом",
+      "icd_code": "F53.1"
+    },
+    {
+      "id": "symptom_paranoia",
+      "type": "symptom",
+      "label": "Ощущение преследования"
+    },
+    {
+      "id": "symptom_perceptual_disturbance",
+      "type": "symptom",
+      "label": "Нарушения восприятия"
+    },
+    {
+      "id": "symptom_delusion",
+      "type": "symptom",
+      "label": "Бред"
+    },
+    {
+      "id": "symptom_hallucination",
+      "type": "symptom",
+      "label": "Галлюцинации"
+    },
+    {
+      "id": "symptom_severe_behavior_abnormality",
+      "type": "symptom",
+      "label": "Тяжелые нарушения обычного поведения"
+    },
+    {
+      "id": "symptom_confusion",
+      "type": "symptom",
+      "label": "Растерянность"
+    },
+    {
+      "id": "symptom_bewilderment",
+      "type": "symptom",
+      "label": "Недоумение"
+    },
+    {
+      "id": "symptom_incoherent_speech",
+      "type": "symptom",
+      "label": "Бессвязная или разорванная речь"
+    },
+    {
+      "id": "symptom_severe_hallucination",
+      "type": "symptom",
+      "label": "Тяжелые галлюцинации"
+    },
+    {
+      "id": "symptom_psychomotor_agitation",
+      "type": "symptom",
+      "label": "Тяжелое психомоторное возбуждение"
+    },
+    {
+      "id": "symptom_anxiety",
+      "type": "symptom",
+      "label": "Тревожные расстройства"
+    },
+    {
+      "id": "symptom_depressive_manifestation",
+      "type": "symptom",
+      "label": "Депрессивные проявления"
+    },
+    {
+      "id": "symptom_behavioral_disturbance",
+      "type": "symptom",
+      "label": "Поведенческие нарушения"
+    },
+    {
+      "id": "symptom_biological_rhythm_disturbance",
+      "type": "symptom",
+      "label": "Нарушения биологических ритмов"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_paranoia",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы ощущение преследования",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paranoia",
+      "target": "diagnosis_f23_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы ощущение преследования",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paranoia",
+      "target": "diagnosis_f23_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "жалобы ощущение преследования",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perceptual_disturbance",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушения восприятия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perceptual_disturbance",
+      "target": "diagnosis_f23_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушения восприятия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perceptual_disturbance",
+      "target": "diagnosis_f23_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушения восприятия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perceptual_disturbance",
+      "target": "diagnosis_f53_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "послеродовым периодом ... расстройства восприятия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delusion",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бред",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delusion",
+      "target": "diagnosis_f23_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бред",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delusion",
+      "target": "diagnosis_f23_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бред",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hallucination",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hallucination",
+      "target": "diagnosis_f23_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hallucination",
+      "target": "diagnosis_f23_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_behavior_abnormality",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжелые нарушения обычного поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_behavior_abnormality",
+      "target": "diagnosis_f23_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжелые нарушения обычного поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_behavior_abnormality",
+      "target": "diagnosis_f23_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжелые нарушения обычного поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_behavior_abnormality",
+      "target": "diagnosis_f53_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тяжелые нарушения поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_confusion",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "растерянность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bewilderment",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "недоумение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_incoherent_speech",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бессвязная или разорванной речи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_hallucination",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тяжелые галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_hallucination",
+      "target": "diagnosis_f53_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тяжелые галлюцинации, послеродовым периодом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychomotor_agitation",
+      "target": "diagnosis_f23_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тяжелое психомоторное возбуждение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paranoia",
+      "target": "symptom_delusion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жалобы ощущение преследования, бред",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delusion",
+      "target": "symptom_hallucination",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "бред, галлюцинации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hallucination",
+      "target": "symptom_severe_behavior_abnormality",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "галлюцинации, тяжелые нарушения обычного поведения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f23_0",
+      "target": "diagnosis_f23_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острые психозы ... F23 F 23.1 F23.2 F53.1",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f23_0",
+      "target": "diagnosis_f23_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острые психозы ... F23 F 23.1 F23.2 F53.1",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f23_0",
+      "target": "diagnosis_f53_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острые психозы ... F23 F 23.1 F23.2 F53.1",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f23_1",
+      "target": "diagnosis_f23_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острые психозы ... F23 F 23.1 F23.2 F53.1",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f23_1",
+      "target": "diagnosis_f53_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острые психозы ... F23 F 23.1 F23.2 F53.1",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f23_2",
+      "target": "diagnosis_f53_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Острые психозы ... F23 F 23.1 F23.2 F53.1",
+      "properties": {}
+    }
+  ]
+}

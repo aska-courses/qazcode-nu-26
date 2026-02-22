@@ -1,0 +1,50 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_all",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аллогенная трансплантация стволовых клеток у детей и подростков с острым лимфобластным лейкозом ... 8. лихорадка, сыпь, гепатит, идиопатическая пневмония, энцефалит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diagnosis_all",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аллогенная трансплантация стволовых клеток у детей и подростков с острым лимфобластным лейкозом ... 8. лихорадка, сыпь, гепатит, идиопатическая пневмония, энцефалит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_skin_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "8. лихорадка, сыпь, гепатит, идиопатическая пневмония, энцефалит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_all",
+    "target": "diagnosis_aml",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "С91.0 Острый лимфобластный лейкоз [ALL] С92.0 Острый миелодный лейкоз [AML]",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_all",
+    "target": "diagnosis_cml",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "С91.0 Острый лимфобластный лейкоз [ALL] С92.1 Хронический миелобластный лейкоз [CML]",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_aml",
+    "target": "diagnosis_cml",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "С92.0 Острый миелодный лейкоз [AML] С92.1 Хронический миелобластный лейкоз [CML]",
+    "properties": {}
+  }
+]

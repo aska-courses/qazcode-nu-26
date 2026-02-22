@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_neurosensory_hearing_loss",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "проявляющееся снижением слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_neurosensory_hearing_loss",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шумом в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_discrimination",
+    "target": "diagnosis_neurosensory_hearing_loss",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неразборчивостью речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_adverse_noise_exposure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение слуха ... при длительном воздействии производственного шума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_adverse_noise_exposure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шум в ушах ... при длительном воздействии производственного шума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_discrimination",
+    "target": "diagnosis_adverse_noise_exposure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неразборчивостью речи ... при длительном воздействии производственного шума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "symptom_irritability",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушения сна, раздражительность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушения сна ... головную боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушения сна ... могут быть головокружения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irritability",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "раздражительность, головную боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irritability",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "раздражительность ... могут быть головокружения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головную боль, могут быть головокружения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_neurosensory_hearing_loss",
+    "target": "diagnosis_adverse_noise_exposure",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Нейросенсорная потеря слуха двухсторонняя ... Неблагоприятное воздействие производственного шума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "symptom_tinnitus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "проявляющееся снижением слуха, ... шумом в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "symptom_speech_discrimination",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "проявляющееся снижением слуха, ... неразборчивостью речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "symptom_speech_discrimination",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "шумом в ушах, ... неразборчивостью речи",
+    "properties": {}
+  }
+]

@@ -1,0 +1,447 @@
+{
+  "protocol_id": "p_9c6c6dc23f",
+  "nodes": [
+    {
+      "id": "diagnosis_s00_5",
+      "type": "diagnosis",
+      "label": "Поверхностная травма губы и полости рта",
+      "icd_code": "S00.5"
+    },
+    {
+      "id": "diagnosis_k06_2",
+      "type": "diagnosis",
+      "label": "Поражение десны и беззубого альвеолярного края, обусловленное травмой",
+      "icd_code": "K06.2"
+    },
+    {
+      "id": "diagnosis_k13_1",
+      "type": "diagnosis",
+      "label": "Прикусывание щеки и губ",
+      "icd_code": "K13.1"
+    },
+    {
+      "id": "diagnosis_t28_0",
+      "type": "diagnosis",
+      "label": "Термический ожог рта и глотки",
+      "icd_code": "T28.0"
+    },
+    {
+      "id": "diagnosis_t28_5",
+      "type": "diagnosis",
+      "label": "Химический ожог рта и глотки",
+      "icd_code": "T28.5"
+    },
+    {
+      "id": "symptom_ostroya_bol",
+      "type": "symptom",
+      "label": "Острая боль"
+    },
+    {
+      "id": "symptom_krovotechenie",
+      "type": "symptom",
+      "label": "Кровотечение"
+    },
+    {
+      "id": "symptom_zhzhenie_slizistoy",
+      "type": "symptom",
+      "label": "Жжение слизистой"
+    },
+    {
+      "id": "symptom_izmenenie_cvetov_slizistoy",
+      "type": "symptom",
+      "label": "Изменение цвета слизистой"
+    },
+    {
+      "id": "symptom_eritema",
+      "type": "symptom",
+      "label": "Эритема"
+    },
+    {
+      "id": "symptom_desquamacia",
+      "type": "symptom",
+      "label": "Десквамация"
+    },
+    {
+      "id": "symptom_ekskoriatsiya",
+      "type": "symptom",
+      "label": "Экскориация"
+    },
+    {
+      "id": "symptom_ssadina",
+      "type": "symptom",
+      "label": "Ссадина"
+    },
+    {
+      "id": "symptom_eroziya",
+      "type": "symptom",
+      "label": "Эрозия"
+    },
+    {
+      "id": "symptom_puzyr",
+      "type": "symptom",
+      "label": "Пузырь"
+    },
+    {
+      "id": "symptom_yazva",
+      "type": "symptom",
+      "label": "Язва"
+    },
+    {
+      "id": "symptom_nekroz",
+      "type": "symptom",
+      "label": "Некроз"
+    },
+    {
+      "id": "symptom_krovoizliyaniya",
+      "type": "symptom",
+      "label": "Кровоизлияния"
+    },
+    {
+      "id": "symptom_gematoma",
+      "type": "symptom",
+      "label": "Гематомы"
+    },
+    {
+      "id": "symptom_petehii",
+      "type": "symptom",
+      "label": "Петехии"
+    },
+    {
+      "id": "symptom_exhimozy",
+      "type": "symptom",
+      "label": "Экхимозы"
+    },
+    {
+      "id": "symptom_vospalitelny_infiltrat",
+      "type": "symptom",
+      "label": "Воспалительный инфильтрат"
+    },
+    {
+      "id": "symptom_boleznennye_pri_palpatsii",
+      "type": "symptom",
+      "label": "Болезненные при пальпации"
+    },
+    {
+      "id": "symptom_infiktsirovanie",
+      "type": "symptom",
+      "label": "Инфицирование"
+    },
+    {
+      "id": "symptom_dlitelno_nezazhivayushchaya_yazva",
+      "type": "symptom",
+      "label": "Длительно незаживающая язва"
+    },
+    {
+      "id": "symptom_koguljatsionnyy_nekroz",
+      "type": "symptom",
+      "label": "Коагуляционный (сухой) некроз"
+    },
+    {
+      "id": "symptom_kollikvatsionnyy_nekroz",
+      "type": "symptom",
+      "label": "Колликвационный (влажный) некроз"
+    },
+    {
+      "id": "symptom_giperemiya",
+      "type": "symptom",
+      "label": "Гиперемия"
+    },
+    {
+      "id": "symptom_otek",
+      "type": "symptom",
+      "label": "Отёк"
+    },
+    {
+      "id": "symptom_poverkhnostnye_erozii",
+      "type": "symptom",
+      "label": "Поверхностные эрозии"
+    },
+    {
+      "id": "symptom_uchastok_nekroza",
+      "type": "symptom",
+      "label": "Участок некроза (серо‑белый до темно‑коричневого цвета)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_ostroya_bol",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Механическая травма на острую боль, наличие усиливающуюся при повреждающего приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из поврежденного участка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie_slizistoy",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение слизистой оболочки в области травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_cvetov_slizistoy",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение цвета слизистой в месте травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematoma",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гематомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ssadina",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ссадины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eroziya",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vospalitelny_infiltrat",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "воспалительным инфильтратом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennye_pri_palpatsii",
+      "target": "diagnosis_s00_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненные при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ostroya_bol",
+      "target": "diagnosis_t28_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Химическая травма на острую боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ostroya_bol",
+      "target": "diagnosis_t28_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физическая травма на острую боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koguljatsionnyy_nekroz",
+      "target": "diagnosis_t28_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "коагуляционный (сухой) некроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kollikvatsionnyy_nekroz",
+      "target": "diagnosis_t28_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "колликвационный (влажный) некроз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya",
+      "target": "diagnosis_t28_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_t28_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyr",
+      "target": "diagnosis_t28_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пузырь (при термической травме)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poverkhnostnye_erozii",
+      "target": "diagnosis_t28_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поверхностные эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchastok_nekroza",
+      "target": "diagnosis_t28_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "участок некроза от серо‑белого до темно‑коричневого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematoma",
+      "target": "symptom_ssadina",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гематомы, ссадины, эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematoma",
+      "target": "symptom_eroziya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гематомы, ссадины, эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ssadina",
+      "target": "symptom_eroziya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гематомы, ссадины, эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya",
+      "target": "symptom_otek",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гиперемия, отек слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya",
+      "target": "symptom_puzyr",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гиперемия, отек слизистой, пузыри",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "symptom_puzyr",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отек слизистой, пузыри",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyr",
+      "target": "symptom_poverkhnostnye_erozii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пузырь ... образуются болезненные поверхностные эрозии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s00_5",
+      "target": "diagnosis_k06_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s00_5",
+      "target": "diagnosis_k13_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s00_5",
+      "target": "diagnosis_t28_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s00_5",
+      "target": "diagnosis_t28_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k06_2",
+      "target": "diagnosis_k13_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k06_2",
+      "target": "diagnosis_t28_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k06_2",
+      "target": "diagnosis_t28_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k13_1",
+      "target": "diagnosis_t28_0",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_k13_1",
+      "target": "diagnosis_t28_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_t28_0",
+      "target": "diagnosis_t28_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (коды) по МКБ-10: S 00.5 ... K 06.2 ... K 13.1 ... T 28.0 ... T 28.5",
+      "properties": {}
+    }
+  ]
+}

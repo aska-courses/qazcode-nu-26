@@ -1,0 +1,320 @@
+{
+  "protocol_id": "p_cf00f81ba5",
+  "nodes": [
+    {
+      "id": "diagnosis_j44_0",
+      "type": "diagnosis",
+      "label": "Хроническая обструктивная легочная болезнь с острой респираторной инфекцией нижних дыхательных путей",
+      "icd_code": "J44.0"
+    },
+    {
+      "id": "diagnosis_j44_1",
+      "type": "diagnosis",
+      "label": "Хроническая обструктивная легочная болезнь с обострением неуточненная",
+      "icd_code": "J44.1"
+    },
+    {
+      "id": "diagnosis_j44_8",
+      "type": "diagnosis",
+      "label": "Другая уточненная хроническая обструктивная легочная болезнь",
+      "icd_code": "J44.8"
+    },
+    {
+      "id": "diagnosis_j44_9",
+      "type": "diagnosis",
+      "label": "Хроническая обструктивная болезнь легких",
+      "icd_code": "J44.9"
+    },
+    {
+      "id": "diagnosis_i27_0",
+      "type": "diagnosis",
+      "label": "Идиопатическая легочная гипертензия",
+      "icd_code": "I27.0"
+    },
+    {
+      "id": "diagnosis_j84_8_interstitial",
+      "type": "diagnosis",
+      "label": "Другие уточненные интерстициальные легочные болезни",
+      "icd_code": "J84.8"
+    },
+    {
+      "id": "diagnosis_j84_9_fibrosis",
+      "type": "diagnosis",
+      "label": "Идиопатический легочный фиброз; Другие интерстициальные легочные болезни",
+      "icd_code": "J84.9"
+    },
+    {
+      "id": "diagnosis_e84",
+      "type": "diagnosis",
+      "label": "Кистозный фиброз с легочными проявлениями",
+      "icd_code": "E84"
+    },
+    {
+      "id": "diagnosis_d86_0",
+      "type": "diagnosis",
+      "label": "Саркоидоз",
+      "icd_code": "D86.0"
+    },
+    {
+      "id": "diagnosis_j84_8_lymphangiolymomatose",
+      "type": "diagnosis",
+      "label": "Лимфангиолейомиоматоз",
+      "icd_code": "J84.8"
+    },
+    {
+      "id": "diagnosis_d76_0",
+      "type": "diagnosis",
+      "label": "Гистиоцитоз",
+      "icd_code": "D76.0"
+    },
+    {
+      "id": "diagnosis_j47",
+      "type": "diagnosis",
+      "label": "Бронхоэктазия",
+      "icd_code": "J47"
+    },
+    {
+      "id": "diagnosis_e88_0",
+      "type": "diagnosis",
+      "label": "Дефицит альфа1-антитрипсина с формированием эмфиземы",
+      "icd_code": "E88.0"
+    },
+    {
+      "id": "diagnosis_j43_0",
+      "type": "diagnosis",
+      "label": "Синдром Мак-Леода",
+      "icd_code": "J43.0"
+    },
+    {
+      "id": "diagnosis_j43_1",
+      "type": "diagnosis",
+      "label": "Панлобулярная эмфизема",
+      "icd_code": "J43.1"
+    },
+    {
+      "id": "diagnosis_j43_8",
+      "type": "diagnosis",
+      "label": "Другая эмфизема",
+      "icd_code": "J43.8"
+    },
+    {
+      "id": "diagnosis_j43_9",
+      "type": "diagnosis",
+      "label": "Эмфизема легких",
+      "icd_code": "J43.9"
+    },
+    {
+      "id": "symptom_hyperkapniya",
+      "type": "symptom",
+      "label": "Гиперкапния"
+    },
+    {
+      "id": "symptom_gipoksemia",
+      "type": "symptom",
+      "label": "Гипоксемия"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_obostrenie",
+      "type": "symptom",
+      "label": "Обострение"
+    },
+    {
+      "id": "symptom_pnevmotoraks",
+      "type": "symptom",
+      "label": "Пневмоторакс"
+    },
+    {
+      "id": "symptom_ascit",
+      "type": "symptom",
+      "label": "Асцит"
+    },
+    {
+      "id": "symptom_shok",
+      "type": "symptom",
+      "label": "Шок"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_j44_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при наличии острой гиперкапнии (P co2 более 50 мм.рт.ст.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_j44_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при наличии острой гиперкапнии (P co2 более 50 мм.рт.ст.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_j44_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при наличии острой гиперкапнии (P co2 более 50 мм.рт.ст.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_j44_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при наличии острой гиперкапнии (P co2 более 50 мм.рт.ст.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_e84",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкапния; ... при Муковисцидозе ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_e88_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперкапния; ... Дефицит альфа1-антитрипсина с формированием эмфиземы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_j47",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперкапния; ... Бронхоэктазия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapniya",
+      "target": "diagnosis_j43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперкапния; ... Синдром Мак-Леода.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapниya",
+      "target": "diagnosis_j43_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперкапния; ... Панлобулярная эмфизема.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapниya",
+      "target": "diagnosis_j43_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперкапния; ... Другая эмфизема.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkapниya",
+      "target": "diagnosis_j43_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперкапния; ... Эмфизема легких.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoksemia",
+      "target": "diagnosis_d86_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Саркоидоз, ... гипоксемия в покое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoksemia",
+      "target": "diagnosis_j84_8_lymphangiolymomatose",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лимфангиолейомиоматоз, ... гипоксемия в покое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoksemia",
+      "target": "diagnosis_d76_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гистиоцитоз, ... гипоксемия в покое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_j44_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Dyspnoea Выраженность одышки ... в BODE индексе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_j44_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Dyspnoea Выраженность одышки ... в BODE индексе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_j44_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Dyspnoea Выраженность одышки ... в BODE индексе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_j44_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Dyspnoea Выраженность одышки ... в BODE индексе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pnevmotoraks",
+      "target": "diagnosis_e84",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пневмоторакс; ... при Муковисцидозе ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ascit",
+      "target": "diagnosis_i27_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асцит ... в критериях идиопатической легочной гипертензии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j44_9",
+      "target": "diagnosis_i27_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Хроническая обструктивная болезнь легких ... Идиопатическая легочная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e84",
+      "target": "diagnosis_j84_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Кистозный фиброз с легочными проявлениями ... Идиопатический легочный фиброз; Другие интерстициальные легочные болезни",
+      "properties": {}
+    }
+  ]
+}

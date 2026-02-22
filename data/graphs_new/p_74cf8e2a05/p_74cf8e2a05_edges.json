@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_naklon_glavy_v_porazhennuyu_storonu",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наклон головы в пораженную сторону",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_lica",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асимметрия лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ukorochennye_grudino_klyuchichno_sostevye_myshtsy",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "укорочение ... грудино‑ключично‑сосцевидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_napryazhenie_grudino_klyuchichno_sostevoy_myshty",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "напряжение грудино‑ключично‑сосцевидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_glavy",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вынужденное положение головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povorot_lica_v_protivopolozhennuyu_storonu",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "поворот лица в противоположенную сторону",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_nadkluchichnoy_oblasti",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек ... в надключичной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pripuhlost_v_nadkluchichnoy_oblasti",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "припухлость ... в надключичной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utolshennye_grudino_klyuchichno_sostevye_myshtsy",
+    "target": "diagnosis_vrozhdennaya_myshechnaya_krivoshye",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утолщение грудино‑ключично‑сосцевидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_naklon_glavy_v_porazhennuyu_storonu",
+    "target": "symptom_asimetriya_lica",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на наклон головы в пораженную сторону, асимметрия лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_naklon_glavy_v_porazhennuyu_storonu",
+    "target": "symptom_ukorochennye_grudino_klyuchichno_sostevye_myshtsy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на наклон головы в пораженную сторону, ... укорочение ... мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_naklon_glavy_v_porazhennuyu_storonu",
+    "target": "symptom_napryazhenie_grudino_klyuchichno_sostevoy_myshty",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на наклон головы в пораженную сторону, ... напряжение ... мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_lica",
+    "target": "symptom_ukorochennye_grudino_klyuchichno_sostevye_myshtsy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: асимметрия лица, укорочение ... мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_lica",
+    "target": "symptom_napryazhenie_grudino_klyuchichno_sostevoy_myshty",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: асимметрия лица, напряжение ... мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ukorochennye_grudino_klyuchichno_sostevye_myshtsy",
+    "target": "symptom_napryazhenie_grudino_klyuchichno_sostevoy_myshty",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: укорочение ... мышцы, напряжение ... мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ukorochennye_grudino_klyuchichno_sostevye_myshtsy",
+    "target": "symptom_utolshennye_grudino_klyuchichno_sostevye_myshtsy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: укорочение и утолщение грудино‑ключично‑сосцевидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_napryazhenie_grudino_klyuchichno_sostevoy_myshty",
+    "target": "symptom_utolshennye_grudino_klyuchichno_sostevye_myshtsy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: утолщение и напряжение грудино‑ключично‑сосцевидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_glavy",
+    "target": "symptom_naklon_glavy_v_porazhennuyu_storonu",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вынужденное положение головы, наклон головы в пораженную сторону",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_glavy",
+    "target": "symptom_povorot_lica_v_protivopolozhennuyu_storonu",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вынужденное положение головы, ... поворот лица в противоположенную сторону",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_glavy",
+    "target": "symptom_otek_v_nadkluchichnoy_oblasti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вынужденное положение головы, ... отек ... в надключичной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_nadkluchichnoy_oblasti",
+    "target": "symptom_pripuhlost_v_nadkluchichnoy_oblasti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек или припухлость в надключичной области",
+    "properties": {}
+  }
+]

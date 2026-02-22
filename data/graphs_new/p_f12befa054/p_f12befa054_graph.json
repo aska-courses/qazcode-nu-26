@@ -1,0 +1,539 @@
+{
+  "protocol_id": "p_f12befa054",
+  "nodes": [
+    {
+      "id": "diagnosis_monkeypox",
+      "type": "diagnosis",
+      "label": "Оспа обезьяны",
+      "icd_code": "V04"
+    },
+    {
+      "id": "diagnosis_abscess",
+      "type": "diagnosis",
+      "label": "Абсцесс",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_flegmona",
+      "type": "diagnosis",
+      "label": "Флегмона",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_keratitis",
+      "type": "diagnosis",
+      "label": "Кератит",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_encephalitis",
+      "type": "diagnosis",
+      "label": "Энцефалит",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_bronchopneumonia",
+      "type": "diagnosis",
+      "label": "Бронхопневмония",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_sepsis",
+      "type": "diagnosis",
+      "label": "Сепсис",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_its",
+      "type": "diagnosis",
+      "label": "ИТШ",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_dehydration",
+      "type": "diagnosis",
+      "label": "Дегидратация",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_airway_obstruction",
+      "type": "diagnosis",
+      "label": "Обструкция дыхательных путей",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_multi_organ_failure",
+      "type": "diagnosis",
+      "label": "Полиорганная недостаточность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Лимфаденопатия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_myalgia",
+      "type": "symptom",
+      "label": "Миалгия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "Боль в спине",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_asthenia",
+      "type": "symptom",
+      "label": "Астения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_rash",
+      "type": "symptom",
+      "label": "Сыпь",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_macule",
+      "type": "symptom",
+      "label": "Макула",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_papule",
+      "type": "symptom",
+      "label": "Папула",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vesicle",
+      "type": "symptom",
+      "label": "Везикула",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pustule",
+      "type": "symptom",
+      "label": "Пустула",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_crust",
+      "type": "symptom",
+      "label": "Корка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pruritus",
+      "type": "symptom",
+      "label": "Зуд",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Диарея",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_elevated_alt_ast",
+      "type": "symptom",
+      "label": "Повышенные АЛТ/АСТ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_low_albumin",
+      "type": "symptom",
+      "label": "Низкий уровень альбумина",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lymphocytosis",
+      "type": "symptom",
+      "label": "Лимфоцитоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_leukopenia",
+      "type": "symptom",
+      "label": "Лейкопения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Повышенная СОЭ",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "включают лихорадку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Лимфаденопатия является патогномоничным симптомом оспы обезьян",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myalgia",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миалгия (мышечная боль)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в спине",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asthenia",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "астения (выраженная астения)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rash",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "необъяснимая острая сыпь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macule",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "макула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papule",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "папула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vesicle",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "везикула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pustule",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пустула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crust",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "корка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pruritus",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_alt_ast",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенными трансаминазами (АЛТ, АСТ)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_albumin",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "низким плазменным альбумином",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphocytosis",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфоцитозом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukopenia",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_monkeypox",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_abscess",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Абсцесс",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_flegmona",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Флегмона",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_keratitis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Кератит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_encephalitis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Энцефалит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_bronchopneumonia",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Бронхопневмония",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_sepsis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Сепсис",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_its",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - ИТШ",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_dehydration",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Дегидратация",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_airway_obstruction",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Обструкция дыхательных путей",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_monkeypox",
+      "target": "diagnosis_multi_organ_failure",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Осложнения - Полиорганная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macule",
+      "target": "symptom_papule",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "необъяснимая острая сыпь на разной стадии развития (макула, папула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papule",
+      "target": "symptom_vesicle",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "папула, везикула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vesicle",
+      "target": "symptom_pustule",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "везикула, пустула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pustule",
+      "target": "symptom_crust",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "пустулы покрываются коркой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rash",
+      "target": "symptom_pruritus",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "характерен выраженный зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "острое начало лихорадки (> 38,5°C); головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_lymphadenopathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "острое начало лихорадки (> 38,5°C); лимфаденопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_myalgia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "острое начало лихорадки (> 38,5°C); миалгия",
+      "properties": {}
+    }
+  ]
+}

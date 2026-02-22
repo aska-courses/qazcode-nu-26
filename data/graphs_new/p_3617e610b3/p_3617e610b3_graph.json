@@ -1,0 +1,446 @@
+{
+  "protocol_id": "p_3617e610b3",
+  "nodes": [
+    {
+      "id": "symptom_hromota",
+      "type": "symptom",
+      "label": "хромота"
+    },
+    {
+      "id": "symptom_deformaciya_nizhnih_konechnostey",
+      "type": "symptom",
+      "label": "деформация нижних конечностей"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "боль"
+    },
+    {
+      "id": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "type": "symptom",
+      "label": "ограничение движений в суставах нижней конечности"
+    },
+    {
+      "id": "symptom_narushenie_pohodki",
+      "type": "symptom",
+      "label": "нарушение походки"
+    },
+    {
+      "id": "symptom_ogranichenie_dvizheniya_v_prilezhashchikh_sustavah",
+      "type": "symptom",
+      "label": "ограничение движения в прилежащих суставах"
+    },
+    {
+      "id": "symptom_bolevye_oshchushcheniya_v_bedrah",
+      "type": "symptom",
+      "label": "болевые ощущения в бедрах"
+    },
+    {
+      "id": "symptom_patologicheskiy_perelom",
+      "type": "symptom",
+      "label": "патологический перелом пораженной конечности"
+    },
+    {
+      "id": "symptom_progressirovanie_deformacii",
+      "type": "symptom",
+      "label": "прогрессирование деформации пораженной конечности"
+    },
+    {
+      "id": "symptom_narushenie_opornoy_funkcii",
+      "type": "symptom",
+      "label": "нарушение опорной функции нижних конечностей"
+    },
+    {
+      "id": "symptom_narushenie_lokomotornoi_funkcii",
+      "type": "symptom",
+      "label": "нарушение локомоторной функции нижних конечностей"
+    },
+    {
+      "id": "diagnosis_q68_3",
+      "type": "diagnosis",
+      "label": "Врожденное искривление бедра",
+      "icd_code": "Q68.3"
+    },
+    {
+      "id": "diagnosis_q68_4",
+      "type": "diagnosis",
+      "label": "Врожденное искривление большеберцовой и малоберцовой костей",
+      "icd_code": "Q68.4"
+    },
+    {
+      "id": "diagnosis_q68_5",
+      "type": "diagnosis",
+      "label": "Врожденное искривление длинных костей голени (неуточненное)",
+      "icd_code": "Q68.5"
+    },
+    {
+      "id": "diagnosis_q68_8",
+      "type": "diagnosis",
+      "label": "Другие уточненные врожденные костно-мышечные деформации",
+      "icd_code": "Q68.8"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_hromota",
+      "target": "symptom_deformaciya_nizhnih_konechnostey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_nizhnih_konechnostey",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_nizhnih_konechnostey",
+      "target": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_pohodki",
+      "target": "symptom_hromota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение походки (хромота при ходьбе)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizheniya_v_prilezhashchikh_sustavah",
+      "target": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ограничение движения в прилежащих суставах, ограничение движений в суставах нижней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevye_oshchushcheniya_v_bedrah",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие болевых ощущений, чаще в бедрах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressirovanie_deformacii",
+      "target": "symptom_deformaciya_nizhnih_konechnostey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "прогрессирование деформации пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_opornoy_funkcii",
+      "target": "symptom_narushenie_lokomotornoi_funkcii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "нарушение опорной и локомоторной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hromota",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_nizhnih_konechnostey",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_nizhnih_konechnostey",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_nizhnih_konechnostey",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_nizhnih_konechnostey",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту, деформацию нижних конечностей, боли и ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... боли ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... боли ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... боли ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... боли ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_dvizheniy_v_sustavah_nizhney_konechnosti",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... ограничение движений в суставах нижней конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_opornoy_funkcii",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение опорной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_opornoy_funkcii",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение опорной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_opornoy_funkcii",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение опорной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_opornoy_funkcii",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение опорной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_lokomotornoi_funkcii",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение локомоторной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_lokomotornoi_funkcii",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение локомоторной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_lokomotornoi_funkcii",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение локомоторной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_lokomotornoi_funkcii",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение локомоторной функции нижних конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressirovanie_deformacii",
+      "target": "diagnosis_q68_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирование деформации пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressirovanie_deformacii",
+      "target": "diagnosis_q68_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирование деформации пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressirovanie_deformacii",
+      "target": "diagnosis_q68_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирование деформации пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressirovanie_deformacii",
+      "target": "diagnosis_q68_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирование деформации пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q68_3",
+      "target": "diagnosis_q68_4",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q 68.3 ... Q 68.4 ... Q 68.5 ... Q 68.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q68_3",
+      "target": "diagnosis_q68_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q 68.3 ... Q 68.4 ... Q 68.5 ... Q 68.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q68_3",
+      "target": "diagnosis_q68_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q 68.3 ... Q 68.4 ... Q 68.5 ... Q 68.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q68_4",
+      "target": "diagnosis_q68_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q 68.3 ... Q 68.4 ... Q 68.5 ... Q 68.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q68_4",
+      "target": "diagnosis_q68_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q 68.3 ... Q 68.4 ... Q 68.5 ... Q 68.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q68_5",
+      "target": "diagnosis_q68_8",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: Q 68.3 ... Q 68.4 ... Q 68.5 ... Q 68.8",
+      "properties": {}
+    }
+  ]
+}

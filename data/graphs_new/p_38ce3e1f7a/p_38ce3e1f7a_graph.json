@@ -1,0 +1,508 @@
+{
+  "protocol_id": "p_38ce3e1f7a",
+  "nodes": [
+    {
+      "id": "symptom_lower_abdominal_pain",
+      "type": "symptom",
+      "label": "боль внизу живота"
+    },
+    {
+      "id": "symptom_fever_above_38",
+      "type": "symptom",
+      "label": "повышение температуры выше 38°C"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "озноб"
+    },
+    {
+      "id": "symptom_dysuria",
+      "type": "symptom",
+      "label": "дизурические явления"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "вздутие живота"
+    },
+    {
+      "id": "symptom_pathological_vaginal_discharge",
+      "type": "symptom",
+      "label": "патологические выделения из половых путей"
+    },
+    {
+      "id": "symptom_dyspareunia",
+      "type": "symptom",
+      "label": "диспареуния"
+    },
+    {
+      "id": "symptom_subfebrile_temperature",
+      "type": "symptom",
+      "label": "субфебрильная температура до 38°C"
+    },
+    {
+      "id": "symptom_intoxication",
+      "type": "symptom",
+      "label": "интоксикация"
+    },
+    {
+      "id": "diagnosis_salpingitis_and_oophoritis",
+      "type": "diagnosis",
+      "label": "сальпингит и оофорит",
+      "icd_code": "N70"
+    },
+    {
+      "id": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "diagnosis",
+      "label": "острый сальпингит и оофорит",
+      "icd_code": "N70.0"
+    },
+    {
+      "id": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "diagnosis",
+      "label": "хронический сальпингит и оофорит",
+      "icd_code": "N70.1"
+    },
+    {
+      "id": "diagnosis_hydrosalpinx",
+      "type": "diagnosis",
+      "label": "гидросальпинкс",
+      "icd_code": "N70.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_above_38",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_vaginal_discharge",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspareunia",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; вздутие живота; патологические ... выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острый сальпингоофорит с симптомами интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С; дизурические явления; вздутие живота; патологические выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С; дизурические явления; вздутие живота; патологические выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С; дизурические явления; вздутие живота; патологические выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С; дизурические явления; вздутие живота; патологические выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_vaginal_discharge",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С; дизурические явления; вздутие живота; патологические выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspareunia",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С; дизурические явления; вздутие живота; патологические выделения из половых путей; диспареуния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обострение хронического сальпингоофорита с симптомами интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_fever_above_38",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_chills",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; повышение температуры выше 38°С; озноб; дизурические явления; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; ...; вздутие живота; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; ...; патологические ... выделения из половых путей; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильные боли внизу живота; ...; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_above_38",
+      "target": "symptom_chills",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры выше 38°С; озноб;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_above_38",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры выше 38°С; ...; дизурические явления;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_above_38",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры выше 38°С; ...; вздутие живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_above_38",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры выше 38°С; ...; патологические ... выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_above_38",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры выше 38°С; ...; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "озноб; дизурические явления;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "озноб; вздутие живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "озноб; патологические ... выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "озноб; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дизурические явления; вздутие живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дизурические явления; патологические ... выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дизурические явления; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вздутие живота; патологические ... выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вздутие живота; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_vaginal_discharge",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "патологические ... выделения из половых путей; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_subfebrile_temperature",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; субфебрильная температура до 38°С;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; дизурические явления;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; вздутие живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; патологические выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_abdominal_pain",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли внизу живота; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "субфебрильная температура до 38°С; дизурические явления;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "субфебрильная температура до 38°С; вздутие живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "субфебрильная температура до 38°С; патологические выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "субфебрильная температура до 38°С; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_abdominal_distension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дизурические явления; вздутие живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дизурические явления; патологические выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дизурические явления; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "symptom_pathological_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вздутие живота; патологические выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "вздутие живота; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_vaginal_discharge",
+      "target": "symptom_dyspareunia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "патологические выделения из половых путей; диспареуния.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_salpingitis_and_oophoritis",
+      "target": "diagnosis_acute_salpingitis_and_oophoritis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: N70 сальпингит и оофорит N70.0 острый сальпингит и оофорит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_salpingitis_and_oophoritis",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: N70 сальпингит и оофорит N70.1 хронический сальпингит и оофорит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_salpingitis_and_oophoritis",
+      "target": "diagnosis_chronic_salpingitis_and_oophoritis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Клиническая классификация: • острый ...; • обострение ...; • хронический ...",
+      "properties": {}
+    }
+  ]
+}

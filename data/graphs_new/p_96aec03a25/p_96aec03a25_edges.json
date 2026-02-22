@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_odeshenie",
+    "target": "diagnosis_t33_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: на ощущение «одеревенения», холода, онемение поражённого участка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odeshenie",
+    "target": "diagnosis_t33_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: на ощущение «одеревенения», холода, онемение поражённого участка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odeshenie",
+    "target": "diagnosis_t34_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: на ощущение «одеревенения», холода, онемение поражённого участка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odeshenie",
+    "target": "symptom_kholod",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на ощущение «одеревенения», холода, онемение поражённого участка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odeshenie",
+    "target": "symptom_onemenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на ощущение «одеревенения», холода, онемение поражённого участка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kholod",
+    "target": "symptom_onemenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на ощущение «одеревенения», холода, онемение поражённого участка...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zharenie",
+    "target": "symptom_pokalyvanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство жжения, покалывания, кожный зуд и боли разной интенсивности...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zharenie",
+    "target": "symptom_kozhnoy_zud",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство жжения, покалывания, кожный зуд и боли разной интенсивности...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokalyvanie",
+    "target": "symptom_kozhnoy_zud",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство жжения, покалывания, кожный зуд и боли разной интенсивности...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnoy_zud",
+    "target": "symptom_boli",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожный зуд и боли разной интенсивности...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli",
+    "target": "symptom_utraty_chuvstvitelnosti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боли разной интенсивности, утрата чувствительности в реактивном периоде.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ote",
+    "target": "symptom_mramornyi_okras",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Поверхностные I степени ... имеет мраморный окрас, ... развивается отёк.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mramornyi_okras",
+    "target": "symptom_pokrasnenie_posle_sogrevaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "имеет мраморный окрас, после согревания покрасневший...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokrasnenie_posle_sogrevaniya",
+    "target": "symptom_bagrovyi_ottenok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "после согревания покрасневший, в некоторых случаях имеет багрово‑красный оттенок;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obrazovanie_puzyrei_prozrachnye",
+    "target": "symptom_dno_ran_otrozovoe",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "образование пузырей, наполненных прозрачным содержимым, дно ран отрозового цвета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obrazovanie_puzyrei_krovavye",
+    "target": "symptom_dno_ran_bagrovoe",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "образование пузырей, наполненных геморрагическим содержимым, дно ран ярко‑багрового цвета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chuvstvitelnost_k_razdrazheniyam",
+    "target": "symptom_nechuvstvennost_k_razdrazheniyam",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувствительность к раздражениям ... нечувствительность к раздражениям",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gibel_elementov_kozhi",
+    "target": "symptom_omertvoenie_tkanei",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гибель всех элементов кожи ... омертвение всех слоёв мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ozneb",
+    "target": "symptom_myshechnaya_drozh",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие озноба, мышечной дрожи и т.п.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "symptom_rvoa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие озноба, мышечной дрожи, тошноты, рвоты...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kopoti_na_litse",
+    "target": "symptom_simptom_blednogo_ptnya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "копоти на лице и слизистой оболочке полости носа и рта, «симптом бледного пятна»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksiya",
+    "target": "symptom_gipoksemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "показатели кислотно-основного состояния крови ... для оценки уровня гипоксии ... для оценки уровня гипоксии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "symptom_shok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сепсис ... шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epitelizatsiya_ran",
+    "target": "symptom_vosstanovlenie_krovotoka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие признаков инфицирования: эпителизация ран ... полное восстановление кровотока в пораженных участках.",
+    "properties": {}
+  }
+]

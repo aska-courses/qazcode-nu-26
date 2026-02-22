@@ -1,0 +1,47 @@
+{
+  "protocol_id": "p_d4a7ef3791",
+  "nodes": [
+    {
+      "id": "diagnosis_epilepsy",
+      "type": "diagnosis",
+      "label": "Эпилепсия",
+      "icd_code": "G40"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_epileptic_attacks",
+      "type": "symptom",
+      "label": "эпилептический приступ"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_epilepsy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение частоты/купирование судорог",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptic_attacks",
+      "target": "diagnosis_epilepsy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшение частоты приступов в динамике",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "symptom_epileptic_attacks",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "снижение частоты/купирование судорог ... уменьшение частоты приступов",
+      "properties": {}
+    }
+  ]
+}

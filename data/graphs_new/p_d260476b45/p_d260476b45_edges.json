@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_partial_incontinence",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При субтотальной форме наблюдается частичное неудержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_incontinence",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При тотальной эписпадии ... имеют недержание мочи, постоянное выделение еѐ наружу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_complete_incontinence",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полное или частичное недержание мочи (в зависимости от формы)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urine_spray",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "может отмечаться разбрызгивание струи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurogenic_detrusor_dysfunction",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "длительное наблюдение за нормализацией работы мочевого пузыря и устранение возможных нейрогенных дисфункций детрузора",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychopathological_personality",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "подвержены высокой склонностью к формированию психопатологического склада личности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressive_process",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психотерапевтическая помощь позволяет прервать патологический депрессивный процесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychic_deviations",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выявлены различные варианты психических отклонений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_complications",
+    "target": "diagnosis_epispadias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "профилактики гнойных осложнений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_partial_incontinence",
+    "target": "symptom_incontinence",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "полное или частичное недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urine_spray",
+    "target": "symptom_incontinence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "разбрызгивание струи ... при недержании мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "symptom_postoperative_state",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Ибупрофен ... с целью обезболивания; послеоперационное состояние ребенка является показанием к госпитализации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_complications",
+    "target": "symptom_postoperative_state",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "профилактики гнойных осложнений ... в предоперационный период",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychopathological_personality",
+    "target": "symptom_depressive_process",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "психопатологический склад личности ... психотерапевтическая помощь позволяет прервать патологический депрессивный процесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychopathological_personality",
+    "target": "symptom_psychic_deviations",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "выявлены различные варианты психических отклонений ... с 12 лет возможно развитие психопатологического склада личности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depressive_process",
+    "target": "symptom_psychic_deviations",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выявлены различные варианты психических отклонений ... психотерапевтическая помощь позволяет прервать патологический депрессивный процесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurogenic_detrusor_dysfunction",
+    "target": "symptom_incontinence",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "удаление возможных нейрогенных дисфункций детрузора ... при недержании мочи",
+    "properties": {}
+  }
+]

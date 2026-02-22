@@ -1,0 +1,122 @@
+{
+  "protocol_id": "p_6d285c32ae",
+  "nodes": [
+    {
+      "id": "symptom_fistula_wound",
+      "type": "symptom",
+      "label": "Свищевой рана"
+    },
+    {
+      "id": "symptom_purulent_infection",
+      "type": "symptom",
+      "label": "Гнойная инфекция"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "Сепсис"
+    },
+    {
+      "id": "symptom_septic_shock",
+      "type": "symptom",
+      "label": "Септический шок"
+    },
+    {
+      "id": "symptom_skin_purulent_inflammation",
+      "type": "symptom",
+      "label": "Гнойно‑воспалительные заболевания кожи и подкожно‑жировой клетчатки"
+    },
+    {
+      "id": "symptom_deep_vein_thrombosis",
+      "type": "symptom",
+      "label": "Острый тромбоз глубоких вен"
+    },
+    {
+      "id": "symptom_trophic_ulcer",
+      "type": "symptom",
+      "label": "Трофическая язва конечности"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_sepsis",
+      "target": "symptom_septic_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  сепсис и септический шок;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "symptom_skin_purulent_inflammation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  гнойно‑воспалительные заболевания кожи и подкожно‑жировой клетчатки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "symptom_deep_vein_thrombosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  острый тромбоз глубоких вен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "symptom_trophic_ulcer",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  трофическая язва конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_septic_shock",
+      "target": "symptom_skin_purulent_inflammation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  сепсис и септический шок;  гнойно‑воспалительные заболевания кожи и подкожно‑жировой клетчатки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_septic_shock",
+      "target": "symptom_deep_vein_thrombosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  септический шок;  острый тромбоз глубоких вен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_septic_shock",
+      "target": "symptom_trophic_ulcer",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  септический шок;  трофическая язва конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_purulent_inflammation",
+      "target": "symptom_deep_vein_thrombosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  гнойно‑воспалительные заболевания кожи и подкожно‑жировой клетчатки;  острый тромбоз глубоких вен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_purulent_inflammation",
+      "target": "symptom_trophic_ulcer",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  гнойно‑воспалительные заболевания кожи и подкожно‑жировой клетчатки;  трофическая язва конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_vein_thrombosis",
+      "target": "symptom_trophic_ulcer",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Противопоказания к процедуре/вмешательству:  острый тромбоз глубоких вен;  трофическая язва конечности.",
+      "properties": {}
+    }
+  ]
+}

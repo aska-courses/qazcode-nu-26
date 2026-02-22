@@ -1,0 +1,289 @@
+{
+  "protocol_id": "p_f088425a7c",
+  "nodes": [
+    {
+      "id": "diagnosis_mechanical_complication_T84_0",
+      "type": "diagnosis",
+      "label": "Осложнение механического происхождения, связанное с тазобедренным эндопротезом",
+      "icd_code": "T84.0"
+    },
+    {
+      "id": "diagnosis_implant_infection_T84_5",
+      "type": "diagnosis",
+      "label": "Инфекция и воспалительная реакция, обусловленные эндопротезированием",
+      "icd_code": "T84.5"
+    },
+    {
+      "id": "diagnosis_malignant_long_bone_tumor_C40_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование длинных костей нижней конечности",
+      "icd_code": "C40.2"
+    },
+    {
+      "id": "diagnosis_benign_long_bone_tumor_D16_2",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование длинных костей нижней конечности",
+      "icd_code": "D16.2"
+    },
+    {
+      "id": "symptom_asymptomatic_loosenening",
+      "type": "symptom",
+      "label": "Асептическое расшатывание компонентов эндопротеза"
+    },
+    {
+      "id": "symptom_recurrent_dislocations",
+      "type": "symptom",
+      "label": "Рецидивирующие вывихи"
+    },
+    {
+      "id": "symptom_deep_periprosthetic_infection",
+      "type": "symptom",
+      "label": "Глубокая перипротезная инфекция"
+    },
+    {
+      "id": "symptom_polyethylene_wear_osteolysis",
+      "type": "symptom",
+      "label": "Износ полиэтилена с прогрессирующим остеолизом"
+    },
+    {
+      "id": "symptom_periprosthetic_fracture_loss_fixation",
+      "type": "symptom",
+      "label": "Перипротезные переломы с потерей фиксации компонентов эндопротеза"
+    },
+    {
+      "id": "symptom_implant_breakdown",
+      "type": "symptom",
+      "label": "Разрушение конструкций"
+    },
+    {
+      "id": "symptom_joint_pain",
+      "type": "symptom",
+      "label": "Болевой синдром, обусловленный суставной причиной"
+    },
+    {
+      "id": "symptom_significant_joint_function_impairment",
+      "type": "symptom",
+      "label": "Значительное нарушение функции сустава"
+    },
+    {
+      "id": "symptom_immobility_postoperative",
+      "type": "symptom",
+      "label": "Невозможность самостоятельного передвижения (постельный режим)"
+    },
+    {
+      "id": "symptom_cardiovascular_decompensation",
+      "type": "symptom",
+      "label": "Заболевания сердечно‑сосудистой системы в стадии декомпенсации"
+    },
+    {
+      "id": "symptom_thrombophlebitis_exacerbation",
+      "type": "symptom",
+      "label": "Тромбофлебит в стадии обострения"
+    },
+    {
+      "id": "symptom_chronic_respiratory_failure",
+      "type": "symptom",
+      "label": "Патология внешнего дыхания с хронической дыхательной недостаточностью 2‑3 степени"
+    },
+    {
+      "id": "symptom_local_inflammation_signs",
+      "type": "symptom",
+      "label": "Наличие признаков воспалительного процесса в области тазобедренного сустава"
+    },
+    {
+      "id": "symptom_acute_chronic_infection_foci",
+      "type": "symptom",
+      "label": "Несанированные очаги острой и хронической инфекции любой локализации"
+    },
+    {
+      "id": "symptom_sepsis_history",
+      "type": "symptom",
+      "label": "Перенесённый сепсис"
+    },
+    {
+      "id": "symptom_hemiparesis_planned_side",
+      "type": "symptom",
+      "label": "Гемипарез на стороне планируемой операции"
+    },
+    {
+      "id": "symptom_severe_osteopenia",
+      "type": "symptom",
+      "label": "Выраженная остеопения"
+    },
+    {
+      "id": "symptom_polyvalent_allergy",
+      "type": "symptom",
+      "label": "Поливалентная аллергия"
+    },
+    {
+      "id": "symptom_absent_femoral_marrow_canal",
+      "type": "symptom",
+      "label": "Отсутствие костномозгового канала бедренной кости"
+    },
+    {
+      "id": "symptom_refusal_blood_transfusion",
+      "type": "symptom",
+      "label": "Отказ пациента от гемотрансфузий в ходе операции и в послеоперационный период"
+    },
+    {
+      "id": "symptom_psychoneuromuscular_disorders",
+      "type": "symptom",
+      "label": "Психические/нейромышечные расстройства, препятствующие восстановлению"
+    },
+    {
+      "id": "symptom_oncological_disease",
+      "type": "symptom",
+      "label": "Онкологические заболевания"
+    },
+    {
+      "id": "symptom_exacerbation_chronic_somatic",
+      "type": "symptom",
+      "label": "Обострение/декомпенсация хронических соматических заболеваний"
+    },
+    {
+      "id": "symptom_hepatic_insufficiency",
+      "type": "symptom",
+      "label": "Печеночная недостаточность"
+    },
+    {
+      "id": "symptom_hormonal_osteopathy",
+      "type": "symptom",
+      "label": "Гормональная остеопатия"
+    },
+    {
+      "id": "symptom_multiple_revisions_history",
+      "type": "symptom",
+      "label": "Наличие трёх и более ревизий тазобедренного сустава в анамнезе"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_asymptomatic_loosenening",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асептическое расшатывание компонентов эндопротеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_recurrent_dislocations",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рецидивирующие вывихи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_periprosthetic_infection",
+      "target": "diagnosis_implant_infection_T84_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глубокая перипротезная инфекция",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyethylene_wear_osteolysis",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "износ полиэтилена с прогрессирующим остеолизом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periprosthetic_fracture_loss_fixation",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перипротезные переломы с потерей фиксации компонентов эндопротеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_implant_breakdown",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "разрушение конструкций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_joint_pain",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром, обусловленный суставной причиной",
+      "properties": {}
+    },
+    {
+      "source": "symptom_significant_joint_function_impairment",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "значительное нарушение функции сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oncological_disease",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "онкологические заболевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exacerbation_chronic_somatic",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "обострение/декомпенсация хронических соматических заболеваний",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatic_insufficiency",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "печеночная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hormonal_osteopathy",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "гормональная остеопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_multiple_revisions_history",
+      "target": "diagnosis_mechanical_complication_T84_0",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "наличие трех и более ревизий тазобедренного сустава в анамнезе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asymptomatic_loosenening",
+      "target": "symptom_polyethylene_wear_osteolysis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "оба указаны в перечне показаний к ревизионному эндопротезированию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deep_periprosthetic_infection",
+      "target": "symptom_implant_breakdown",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "оба указаны в перечне показаний к ревизионному эндопротезированию",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mechanical_complication_T84_0",
+      "target": "diagnosis_implant_infection_T84_5",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "в таблице кодов МКБ-10 указаны оба как осложнения эндопротеза",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "protocol_id": "p_720ddfc4b9",
+  "nodes": [
+    {
+      "id": "diagnosis_salmonella_sepsis",
+      "type": "diagnosis",
+      "label": "Сальмонеллезный сепсис",
+      "icd_code": "A02.1"
+    },
+    {
+      "id": "diagnosis_siberian_ulcer_sepsis",
+      "type": "diagnosis",
+      "label": "Сибиреязвенный сепсис",
+      "icd_code": "A22.7"
+    },
+    {
+      "id": "diagnosis_melioidosis_sepsis",
+      "type": "diagnosis",
+      "label": "Мелиоидозный сепсис",
+      "icd_code": "A24.1"
+    },
+    {
+      "id": "diagnosis_streptococcal_septicemia",
+      "type": "diagnosis",
+      "label": "Стрептококковая септицемия",
+      "icd_code": "A40"
+    },
+    {
+      "id": "diagnosis_other_septicemia",
+      "type": "diagnosis",
+      "label": "Другая септицемия",
+      "icd_code": "A41"
+    },
+    {
+      "id": "diagnosis_toxic_shock_syndrome",
+      "type": "diagnosis",
+      "label": "Синдром токсического шока",
+      "icd_code": "A48.3"
+    },
+    {
+      "id": "diagnosis_unspecified_bacterial_infection",
+      "type": "diagnosis",
+      "label": "Бактериальная инфекция неуточненная (бактериемия)",
+      "icd_code": "A49.9"
+    },
+    {
+      "id": "diagnosis_gonococcal_sepsis",
+      "type": "diagnosis",
+      "label": "Гонококковый сепсис",
+      "icd_code": "A54.8"
+    },
+    {
+      "id": "diagnosis_herpes_sepsis",
+      "type": "diagnosis",
+      "label": "Сепсис, вызванный вирусом герпеса",
+      "icd_code": "B00.7"
+    },
+    {
+      "id": "diagnosis_candidal_septicemia",
+      "type": "diagnosis",
+      "label": "Кандидозная септицемия",
+      "icd_code": "B37.7"
+    },
+    {
+      "id": "diagnosis_infection_related_ccvo",
+      "type": "diagnosis",
+      "label": "CCВО инфекционного происхождения с органной дисфункцией",
+      "icd_code": "R65.1"
+    },
+    {
+      "id": "diagnosis_severe_sepsis_without_shock",
+      "type": "diagnosis",
+      "label": "Тяжелый сепсис без септического шока",
+      "icd_code": "R65.20"
+    },
+    {
+      "id": "diagnosis_severe_sepsis_with_shock",
+      "type": "diagnosis",
+      "label": "Тяжелый сепсис с септическим шоком",
+      "icd_code": "R65.21"
+    },
+    {
+      "id": "diagnosis_endotoxin_shock_surgical",
+      "type": "diagnosis",
+      "label": "Эндотоксический шок, развившийся вследствие хирургических процедур",
+      "icd_code": "Т81.1"
+    },
+    {
+      "id": "diagnosis_sepsis_post_immunization",
+      "type": "diagnosis",
+      "label": "Сепсис вследствие иммунизации",
+      "icd_code": "Т88.0"
+    },
+    {
+      "id": "diagnosis_other_shock",
+      "type": "diagnosis",
+      "label": "Другие виды шока. Эндотоксический шок неуточненный",
+      "icd_code": "R57.8"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_myalgia",
+      "type": "symptom",
+      "label": "Миалгия"
+    },
+    {
+      "id": "symptom_malaise",
+      "type": "symptom",
+      "label": "Недомогание"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Упадок сил"
+    },
+    {
+      "id": "symptom_passive_behavior",
+      "type": "symptom",
+      "label": "Пассивное поведение"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боль в грудной клетке"
+    },
+    {
+      "id": "symptom_palpitations",
+      "type": "symptom",
+      "label": "Сердцебиение"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "Аритмия"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_anorexia",
+      "type": "symptom",
+      "label": "Потеря аппетита"
+    },
+    {
+      "id": "symptom_jaundice_skin",
+      "type": "symptom",
+      "label": "Желтушность кожи и слизистых"
+    },
+    {
+      "id": "symptom_dry_mouth",
+      "type": "symptom",
+      "label": "Сухость во рту"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "Вздутие живота"
+    },
+    {
+      "id": "symptom_constipation",
+      "type": "symptom",
+      "label": "Задержка стула"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_euphoria",
+      "type": "symptom",
+      "label": "Эйфория"
+    },
+    {
+      "id": "symptom_agitation",
+      "type": "symptom",
+      "label": "Возбуждение"
+    },
+    {
+      "id": "symptom_delirium",
+      "type": "symptom",
+      "label": "Бред"
+    },
+    {
+      "id": "symptom_slowing",
+      "type": "symptom",
+      "label": "Заторможенность"
+    },
+    {
+      "id": "symptom_altered_consciousness",
+      "type": "symptom",
+      "label": "Нарушение сознания"
+    },
+    {
+      "id": "symptom_coma",
+      "type": "symptom",
+      "label": "Кома"
+    },
+    {
+      "id": "symptom_low_back_pain",
+      "type": "symptom",
+      "label": "Боль в пояснице"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Олигурия"
+    },
+    {
+      "id": "symptom_subcutaneous_hemorrhage",
+      "type": "symptom",
+      "label": "Кровоизлияние под кожей"
+    },
+    {
+      "id": "symptom_gum_bleeding",
+      "type": "symptom",
+      "label": "Кровоточивость десен"
+    },
+    {
+      "id": "symptom_nosebleed",
+      "type": "symptom",
+      "label": "Носовое кровотечение"
+    },
+    {
+      "id": "symptom_hot_skin",
+      "type": "symptom",
+      "label": "Горячие кожные покровы"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность кожи"
+    },
+    {
+      "id": "symptom_marmoritis",
+      "type": "symptom",
+      "label": "Мраморность кожи"
+    },
+    {
+      "id": "symptom_facial_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия лица"
+    },
+    {
+      "id": "symptom_acrocyanosis",
+      "type": "symptom",
+      "label": "Акроцианоз"
+    },
+    {
+      "id": "symptom_scleral_jaundice",
+      "type": "symptom",
+      "label": "Желтушность склер"
+    },
+    {
+      "id": "symptom_hemorrhagic_rash",
+      "type": "symptom",
+      "label": "Геморрагическая сыпь"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличение лимфоузлов"
+    },
+    {
+      "id": "symptom_polylmphadenopathy",
+      "type": "symptom",
+      "label": "Полилимфоаденопатия"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "Тахипноэ"
+    },
+    {
+      "id": "symptom_wet_rales",
+      "type": "symptom",
+      "label": "Влажные хрипы"
+    },
+    {
+      "id": "symptom_crackles",
+      "type": "symptom",
+      "label": "Крепитация"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_tachyarrhythmia",
+      "type": "symptom",
+      "label": "Тахиаритмия"
+    },
+    {
+      "id": "symptom_soft_heart_sounds",
+      "type": "symptom",
+      "label": "Ослабление звучности тонов сердца"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "Спленомегалия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_intestinal_paralysis",
+      "type": "symptom",
+      "label": "Ослабление перистальтики кишечника"
+    },
+    {
+      "id": "symptom_gastroparesis",
+      "type": "symptom",
+      "label": "Гастростаз"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_leukopenia",
+      "type": "symptom",
+      "label": "Лейкопения"
+    },
+    {
+      "id": "symptom_neutrophilia",
+      "type": "symptom",
+      "label": "Нейтрофилия"
+    },
+    {
+      "id": "symptom_lymphopenia",
+      "type": "symptom",
+      "label": "Лимфопения"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Повышенное СОЭ"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения"
+    },
+    {
+      "id": "symptom_hyperbilirubinemia",
+      "type": "symptom",
+      "label": "Гипербилирубинемия"
+    },
+    {
+      "id": "symptom_elevated_transaminases",
+      "type": "symptom",
+      "label": "Повышенные трансаминазы"
+    },
+    {
+      "id": "symptom_renal_failure",
+      "type": "symptom",
+      "label": "Почечная недостаточность"
+    },
+    {
+      "id": "symptom_hypoalbuminemia",
+      "type": "symptom",
+      "label": "Гипоальбуминемия"
+    },
+    {
+      "id": "symptom_acidosis",
+      "type": "symptom",
+      "label": "Метаболический ацидоз"
+    },
+    {
+      "id": "symptom_lactatemia",
+      "type": "symptom",
+      "label": "Повышенный лактат"
+    },
+    {
+      "id": "symptom_procalcitonin_elevated",
+      "type": "symptom",
+      "label": "Повышенный прокальцитонин"
+    },
+    {
+      "id": "symptom_crp_elevated",
+      "type": "symptom",
+      "label": "Повышенный С-реактивный белок"
+    },
+    {
+      "id": "symptom_presenpin_elevated",
+      "type": "symptom",
+      "label": "Повышенный пресепсин"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Периферический цианоз"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отеки"
+    },
+    {
+      "id": "symptom_hyperglycemia",
+      "type": "symptom",
+      "label": "Гипергликемия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "у пациентов с сепсисом, как правило, отмечаются: лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "у пациентов с сепсисом, как правило, отмечаются: ... тахикардия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "у пациентов с сепсисом, как правило, отмечаются: ... обильное потоотделение ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "у пациентов с сепсисом, как правило, отмечаются: ... тахипноэ ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Общие (неспецифические) жалобы и симптомы: • слабость, миалгия, недомогание, упадок сил, пассивное поведение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myalgia",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Общие (неспецифические) жалобы и симптомы: • слабость, миалгия, недомогание, упадок сил, пассивное поведение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Общие (неспецифические) жалобы и симптомы: • слабость, миалгия, недомогание, упадок сил, пассивное поведение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Общие (неспецифические) жалобы и симптомы: • слабость, миалгия, недомогание, упадок сил, пассивное поведение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_passive_behavior",
+      "target": "diagnosis_severe_sepsis_without_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Общие (неспецифические) жалобы и симптомы: • слабость, миалгия, недомогание, упадок сил, пассивное поведение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "АД снижается, однако кожа остается парадоксально теплой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hot_skin",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "АД снижается, однако кожа остается парадоксально теплой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на поздних стадиях конечности становятся прохладными и бледными с периферическим цианозом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на поздних стадиях конечности становятся прохладными и бледными",
+      "properties": {}
+    },
+    {
+      "source": "symptom_marmoritis",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "на поздних стадиях конечности становятся прохладными и бледными с периферическим цианозом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Дисфункция органов приводит к появлению дополнительных симптомов ... олигурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Дисфункция органов приводит к появлению дополнительных симптомов ... одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Лейкоцитоз (>12*10⁹/л) ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukopenia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкопения (<4*10⁹/л)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромбоцитопения (<100*10⁹/л)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperbilirubinemia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный билирубин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_transaminases",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенные трансаминазы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_renal_failure",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "почечная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoalbuminemia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипоальбуминемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acidosis",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "метаболический ацидоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lactatemia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный лактат",
+      "properties": {}
+    },
+    {
+      "source": "symptom_procalcitonin_elevated",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный прокальцитонин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crp_elevated",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный С-реактивный белок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_presenpin_elevated",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный пресепсин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "видимые отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperglycemia",
+      "target": "diagnosis_infection_related_ccvo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ЧСС более 90 в мин или больше",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тахипноэ > 20/мин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_altered_consciousness",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушения сознания (менее 15 баллов по ШКГ)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "у пациентов с сепсисом, как правило, отмечаются: лихорадка, ... тахикардия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "symptom_hot_skin",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "АД снижается, однако кожа остается парадоксально теплой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Дисфункция органов приводит к появлению дополнительных симптомов ... олигурия, одышка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_severe_sepsis_without_shock",
+      "target": "diagnosis_severe_sepsis_with_shock",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Тяжелый сепсис без септического шока ... Тяжелый сепсис с септическим шоком",
+      "properties": {}
+    }
+  ]
+}

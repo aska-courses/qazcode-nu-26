@@ -1,0 +1,235 @@
+{
+  "protocol_id": "p_c0bc3de202",
+  "nodes": [
+    {
+      "id": "congenital_diaphragmatic_hernia",
+      "type": "diagnosis",
+      "label": "Врожденная диафрагмальная грыжа",
+      "icd_code": "Q79.0"
+    },
+    {
+      "id": "symptom_difficult_breathing_at_birth",
+      "type": "symptom",
+      "label": "затрудненное дыхание при рождении"
+    },
+    {
+      "id": "symptom_cyanosis_skin",
+      "type": "symptom",
+      "label": "цианоз кожных покровов"
+    },
+    {
+      "id": "symptom_cyanosis_worsens_with_crying_feeding",
+      "type": "symptom",
+      "label": "усиление цианоза при крике или кормлении"
+    },
+    {
+      "id": "symptom_chest_asymmetry",
+      "type": "symptom",
+      "label": "асимметрия грудной клетки"
+    },
+    {
+      "id": "symptom_chest_protrusion_affected_side",
+      "type": "symptom",
+      "label": "выбухание грудной клетки со стороны поражения"
+    },
+    {
+      "id": "symptom_use_of_accessory_muscles",
+      "type": "symptom",
+      "label": "участие вспомогательных дыхательных мышц"
+    },
+    {
+      "id": "symptom_depressed_sternum",
+      "type": "symptom",
+      "label": "запавшая грудина"
+    },
+    {
+      "id": "symptom_inspiratory_inward_pull_epigastric",
+      "type": "symptom",
+      "label": "воронкообразное втягивание надчревной области при вдохе"
+    },
+    {
+      "id": "symptom_ladle_shaped_abdomen",
+      "type": "symptom",
+      "label": "ладьевидный живот"
+    },
+    {
+      "id": "symptom_weak_breathing_affected_side",
+      "type": "symptom",
+      "label": "ослабленное дыхание на пораженной стороне"
+    },
+    {
+      "id": "symptom_weak_breathing_contralateral_side",
+      "type": "symptom",
+      "label": "ослабленное дыхание на противоположной стороне"
+    },
+    {
+      "id": "symptom_heart_displacement",
+      "type": "symptom",
+      "label": "смещение сердца"
+    },
+    {
+      "id": "symptom_peristaltic_noises_chest",
+      "type": "symptom",
+      "label": "шумы перистальтики в грудной полости"
+    },
+    {
+      "id": "symptom_tympanitis_on_percussion",
+      "type": "symptom",
+      "label": "тимпанит при перкуссии над поражением"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_difficult_breathing_at_birth",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При рождении дыхание затрудненное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis_skin",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отмечается синюшность кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis_worsens_with_crying_feeding",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "которая усиливается при крике или попытках кормления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "асимметрия грудной клетки с выбуханием со стороны поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_protrusion_affected_side",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выбухание со стороны поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_use_of_accessory_muscles",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Заметно участие вспомогательных дыхательных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressed_sternum",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "западает грудина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratory_inward_pull_epigastric",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "при вдохе воронкообразно втягивается надчревная область",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ladle_shaped_abdomen",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Запавший «ладьевидный живот»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_breathing_affected_side",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "дыхание резко ослабленное или не прослушивается на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_breathing_contralateral_side",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "дыхание ослаблено в меньшей степени на противоположной стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_displacement",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "смещение сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peristaltic_noises_chest",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "шумы перистальтики в грудной полости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tympanitis_on_percussion",
+      "target": "congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тимпанит при перкуссии над поражением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis_skin",
+      "target": "symptom_cyanosis_worsens_with_crying_feeding",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отмечается синюшность кожных покровов, которая усиливается при крике или попытках кормления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "symptom_chest_protrusion_affected_side",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "асимметрия грудной клетки с выбуханием со стороны поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_use_of_accessory_muscles",
+      "target": "symptom_depressed_sternum",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Заметно участие вспомогательных дыхательных мышц, западает грудина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_breathing_affected_side",
+      "target": "symptom_weak_breathing_contralateral_side",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "На стороне поражения дыхание резко ослабленное... На противоположной стороне дыхание ослаблено в меньшей степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peristaltic_noises_chest",
+      "target": "symptom_tympanitis_on_percussion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "в грудной полости часто прослушиваются шумы перистальтики. Перкуторно над областью поражения отмечается тимпанит",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "protocol_id": "p_646982e1dc",
+  "nodes": [
+    {
+      "id": "diagnosis_umstvennaya_otstalost",
+      "type": "diagnosis",
+      "label": "Умственная отсталость",
+      "icd_code": "F70"
+    },
+    {
+      "id": "diagnosis_umernaya_umstvennaya_otstalost",
+      "type": "diagnosis",
+      "label": "Умеренная умственная отсталость",
+      "icd_code": "F71"
+    },
+    {
+      "id": "diagnosis_tiazhelya_umstvennaya_otstalost",
+      "type": "diagnosis",
+      "label": "Тяжелая умственная отсталость",
+      "icd_code": "F72"
+    },
+    {
+      "id": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "diagnosis",
+      "label": "Глубокая умственная отсталость",
+      "icd_code": "F73"
+    },
+    {
+      "id": "diagnosis_drugaya_umstvennaya_otstalost",
+      "type": "diagnosis",
+      "label": "Другая умственная отсталость",
+      "icd_code": "F78"
+    },
+    {
+      "id": "diagnosis_neutochnennaya_umstvennaya_otstalost",
+      "type": "diagnosis",
+      "label": "Неуточненная умственная отсталость",
+      "icd_code": "F79"
+    },
+    {
+      "id": "symptom_psychopathologicheskie_proyavleniya",
+      "type": "symptom",
+      "label": "Психопатологические проявления"
+    },
+    {
+      "id": "symptom_nevrologicheskie_narusheniya",
+      "type": "symptom",
+      "label": "Неврологические нарушения"
+    },
+    {
+      "id": "symptom_narusheniya_povedeniya",
+      "type": "symptom",
+      "label": "Нарушения поведения"
+    },
+    {
+      "id": "symptom_imitativnost",
+      "type": "symptom",
+      "label": "Имитационность"
+    },
+    {
+      "id": "symptom_vnushayemost",
+      "type": "symptom",
+      "label": "Внушаемость"
+    },
+    {
+      "id": "symptom_zaderzhka_razvitiya_rechi",
+      "type": "symptom",
+      "label": "Задержка развития речи"
+    },
+    {
+      "id": "symptom_mehanicheskaya_pamyat",
+      "type": "symptom",
+      "label": "Механическая память"
+    },
+    {
+      "id": "symptom_predmetno_konkretnoe_myshlenie",
+      "type": "symptom",
+      "label": "Предметно‑конкретное мышление"
+    },
+    {
+      "id": "symptom_nedostatochnoe_abstraktnoe_myshlenie",
+      "type": "symptom",
+      "label": "Недостаточное абстрактное мышление"
+    },
+    {
+      "id": "symptom_zaderzhka_obuchayemosti_chteniyu_i_pismu",
+      "type": "symptom",
+      "label": "Задержка обучаемости чтению и письму"
+    },
+    {
+      "id": "symptom_impulsivnost",
+      "type": "symptom",
+      "label": "Импульсивность"
+    },
+    {
+      "id": "symptom_podrazatelnost",
+      "type": "symptom",
+      "label": "Подражательность"
+    },
+    {
+      "id": "symptom_motornye_narusheniya",
+      "type": "symptom",
+      "label": "Моторные нарушения (парезы, параличи)"
+    },
+    {
+      "id": "symptom_sudorozhnye_pristupy",
+      "type": "symptom",
+      "label": "Судорожные приступы"
+    },
+    {
+      "id": "symptom_sensornaya_nedostatochnost",
+      "type": "symptom",
+      "label": "Сенсорная недостаточность (глухота, слепота)"
+    },
+    {
+      "id": "symptom_socialnaya_dezadaptatsiya",
+      "type": "symptom",
+      "label": "Социальная дезадаптация"
+    },
+    {
+      "id": "symptom_nizkiy_porog_sudorozhnoj_gotovnosti",
+      "type": "symptom",
+      "label": "Низкий порог судорожной готовности"
+    },
+    {
+      "id": "symptom_agressivnost",
+      "type": "symptom",
+      "label": "Агрессивность"
+    },
+    {
+      "id": "symptom_avtoagressiya",
+      "type": "symptom",
+      "label": "Аутоагрессия"
+    },
+    {
+      "id": "symptom_dvigatelnoe_vozbuzhdenie",
+      "type": "symptom",
+      "label": "Двигательное возбуждение"
+    },
+    {
+      "id": "symptom_strakh",
+      "type": "symptom",
+      "label": "Страх"
+    },
+    {
+      "id": "symptom_plach",
+      "type": "symptom",
+      "label": "Плач"
+    },
+    {
+      "id": "symptom_izvrashchennye_pischevye_levcheniya",
+      "type": "symptom",
+      "label": "Извращённые пищевые влечения"
+    },
+    {
+      "id": "symptom_gipersekssualnost",
+      "type": "symptom",
+      "label": "Гиперсексуальность"
+    },
+    {
+      "id": "symptom_psihoticheskoe_rasstroystvo",
+      "type": "symptom",
+      "label": "Психотическое расстройство"
+    },
+    {
+      "id": "symptom_povedencheskie_rasstroystva",
+      "type": "symptom",
+      "label": "Поведенческие расстройства"
+    },
+    {
+      "id": "symptom_komorbidnye_rasstroystva",
+      "type": "symptom",
+      "label": "Коморбидные расстройства"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_impulsivnost",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "импульсивность на фоне повышенной внушаемости и склонности к подражательству",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vnushayemost",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "импульсивность на фоне повышенной внушаемости и склонности к подражательству",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podrazatelnost",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "импульсивность на фоне повышенной внушаемости и склонности к подражательству",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mehanicheskaya_pamyat",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Характерна относительно хорошая механическая память",
+      "properties": {}
+    },
+    {
+      "source": "symptom_predmetno_konkretnoe_myshlenie",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Мышление предметно‑конкретное с имитативностью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedostatochnoe_abstraktnoe_myshlenie",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Абстрактное мышление недостаточно развито",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhka_razvitiya_rechi",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Речь развивается с задержкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhka_obuchayemosti_chteniyu_i_pismu",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка обучаемости чтению и письму",
+      "properties": {}
+    },
+    {
+      "source": "symptom_imitativnost",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "высокая степень имитативности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychopathologicheskie_proyavleniya",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психопатологические проявления умственной отсталости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_narusheniya",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврологические нарушения (очаговые нарушения и дискинезии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narusheniya_povedeniya",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения поведения (от расторможенности до аномальной реакции на стресс)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_socialnaya_dezadaptatsiya",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "социальная дезадаптация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sensornaya_nedostatochnost",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сенсорной недостаточности (глухота, слепота)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mehanicheskaya_pamyat",
+      "target": "diagnosis_umernaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "механическая память у многих из них достаточна развита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhka_razvitiya_rechi",
+      "target": "diagnosis_umernaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание в развитии речи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedostatochnoe_abstraktnoe_myshlenie",
+      "target": "diagnosis_umernaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отсутствует способность к абстрактному мышлению",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vnushayemost",
+      "target": "diagnosis_umernaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Внушаемы, нередко бывают очень неряшливы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_agressivnost",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "могут быть агрессивны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_avtoagressiya",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отмечается аутоагрессия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dvigatelnoe_vozbuzhdenie",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Состояния двигательного возбуждения возникают периодически",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strakh",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в ответ на неизвестное может наблюдаться страх",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plach",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в ответ на неизвестное может наблюдаться ... плач",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izvrashchennye_pischevye_levcheniya",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "часто отмечаются извращенные ... пищевые влечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipersekssualnost",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперсексуальность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sudorozhnye_pristupy",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны судорожные приступы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_motornye_narusheniya",
+      "target": "diagnosis_glubokaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парезы и параличи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizkiy_porog_sudorozhnoj_gotovnosti",
+      "target": "diagnosis_neutochnennaya_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "низкий порог судорожной готовности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihoticheskoe_rasstroystvo",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на фоне умственной отсталости может наблюдаться весь диапазон психических расстройств",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povedencheskie_rasstroystva",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на фоне умственной отсталости может наблюдаться весь диапазон психических расстройств",
+      "properties": {}
+    },
+    {
+      "source": "symptom_komorbidnye_rasstroystva",
+      "target": "diagnosis_umstvennaya_otstalost",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на фоне умственной отсталости может наблюдаться весь диапазон психических расстройств",
+      "properties": {}
+    },
+    {
+      "source": "symptom_imitativnost",
+      "target": "symptom_vnushayemost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "высокая степень имитативности и внушаемости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_impulsivnost",
+      "target": "symptom_vnushayemost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "импульсивность на фоне повышенной внушаемости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_impulsivnost",
+      "target": "symptom_podrazatelnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "импульсивность ... склонности к подражательству",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zaderzhka_razvitiya_rechi",
+      "target": "symptom_zaderzhka_obuchayemosti_chteniyu_i_pismu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Речь развивается с задержкой... задержка обучаемости чтению и письму",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_narusheniya",
+      "target": "symptom_sudorozhnye_pristupy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологические нарушения... возможны судорожные приступы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_socialnaya_dezadaptatsiya",
+      "target": "symptom_narusheniya_povedeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "социальная дезадаптация... нарушения поведения",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отвисание мошонки, которое особенно увеличивается при ходьбе и в жаркую погоду",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тяжесть в паху и мошонке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тупые тянущие боли в яичке, по ходу семенного канатика и в паху, усиливающиеся при ходьбе и поднятии тяжести",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "запоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "паховые грыжи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "системная недостаточность (дисплазия) соединительной ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "врожденная патология клапанов яичковой вены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "выявляется расширение вен гроздевидного сплетения в положении стоя и лежа, в том числе при натуживании (проба Вальсальвы)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у подростков гипоплазированным считается яичко, объем которого более чем с нормальным",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • отвисание мошонки...; • тяжесть в паху и мошонке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • отвисание мошонки...; • тупые тянущие боли в яичке...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • тяжесть в паху и мошонке; • тупые тянущие боли в яичке...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Анамнез: • запоры; • паховые грыжи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_6",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Анамнез: • запоры; • системная недостаточность (дисплазия) соединительной ткани;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Анамнез: • запоры; • врожденная патология клапанов яичковой вены;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "symptom_6",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Анамнез: • паховые грыжи; • системная недостаточность (дисплазия) соединительной ткани;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Анамнез: • паховые грыжи; • врожденная патология клапанов яичковой вены;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Анамнез: • системная недостаточность (дисплазия) соединительной ткани; • врожденная патология клапанов яичковой вены;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_1",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физика: выявляется расширение вен гроздевидного сплетения...; жалобы включают отвисание мошонки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физика: выявляется расширение вен гроздевидного сплетения...; жалобы включают тяжесть в паху и мошонке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физика: выявляется расширение вен гроздевидного сплетения...; жалобы включают тупые тянущие боли в яичке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_1",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Определить размеры яичек; жалобы включают отвисание мошонки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Определить размеры яичек; жалобы включают тяжесть в паху и мошонке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Определить размеры яичек; жалобы включают тупые тянущие боли в яичке",
+    "properties": {}
+  }
+]

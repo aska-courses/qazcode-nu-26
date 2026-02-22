@@ -1,0 +1,328 @@
+{
+  "protocol_id": "p_3fc520ac2f",
+  "nodes": [
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "многоводие",
+      "icd_code": "040"
+    },
+    {
+      "id": "diagnosis_2",
+      "type": "diagnosis",
+      "label": "другие нарушения со стороны амниотической жидкости и плодных оболочек",
+      "icd_code": "041"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "изменения характера шевеления плода"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "боли в животе"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "нарушения сна при положении на спине"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "быстрое увеличение живота"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "напряженная матка"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "тугоэластическая консистенция матки"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "затрудненное прощупывание плода"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "неправильное положение плода"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "подвижный плод"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "высокий предлежащий плод"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "симптом флюктуации"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "преждевременные роды"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "отслойка плаценты"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "выпадение петель пуповины"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "послеродовое кровотечение"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "эмболия"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "затрудненная аускультация сердечного ритма плода"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "укорочение шейки матки"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "напряженный плодный пузырь"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "плоский плодный пузырь"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "жажда"
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "полиурия"
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "отеки"
+    },
+    {
+      "id": "symptom_25",
+      "type": "symptom",
+      "label": "светлые кровянистые выделения"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "быстрое увеличение живота(при многоводии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появление одышки ... при многоводии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения сна при положении на спине, быстрое увеличение живота(при многоводии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны боли в животе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "матка напряжена, тугоэластической консистенции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "матка напряжена, тугоэластической консистенции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "части плода прощупываются с затруднением",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "положение плода чаще неправильное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плод подвижен",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "предлежащая часть плода высоко",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при пальпации может отмечаться симптом флюктуации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "преждевременные роды",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отслойка нормально расположенной плаценты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение петель пуповины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "послеродовое кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эмболия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аускультация сердечного ритма плода – при многоводии затруднена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при вагинальном исследовании при многоводии отмечается укорочение шейки матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "напряженный плодный пузырь",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_1",
+      "target": "diagnosis_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: 040 Многоводие 041 Другие нарушения со стороны амниотической жидкости и плодных оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "быстрое увеличение живота, одышку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_5",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможны боли в животе; быстрое увеличение живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "symptom_9",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "части плода прощупываются с затруднением, положение плода чаще неправильное",
+      "properties": {}
+    }
+  ]
+}

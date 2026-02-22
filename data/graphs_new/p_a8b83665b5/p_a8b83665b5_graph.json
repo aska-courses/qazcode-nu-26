@@ -1,0 +1,350 @@
+{
+  "protocol_id": "p_a8b83665b5",
+  "nodes": [
+    {
+      "id": "diagnosis_mezoteloma_plevry",
+      "type": "diagnosis",
+      "label": "Мезотелиома плевры",
+      "icd_code": "C45.0"
+    },
+    {
+      "id": "symptom_bol_v_grudnoj_kletke",
+      "type": "symptom",
+      "label": "Боль в грудной клетке на стороне поражения"
+    },
+    {
+      "id": "symptom_suhoy_kashl",
+      "type": "symptom",
+      "label": "Сухой кашель"
+    },
+    {
+      "id": "symptom_produktivnyy_kashl",
+      "type": "symptom",
+      "label": "Продуктивный кашель"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_obshaya_slabost",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_potlivost_nochnaya",
+      "type": "symptom",
+      "label": "Потливость по ночам"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_poteria_vesa",
+      "type": "symptom",
+      "label": "Потеря веса"
+    },
+    {
+      "id": "symptom_gemoptizis",
+      "type": "symptom",
+      "label": "Гемоптизис"
+    },
+    {
+      "id": "symptom_sindrom_gornera",
+      "type": "symptom",
+      "label": "Синдром Горнера"
+    },
+    {
+      "id": "symptom_sindrom_sdavleniya_verhney_poloi_veny",
+      "type": "symptom",
+      "label": "Синдром сдавления верхней полой вены"
+    },
+    {
+      "id": "symptom_otstavanie_dykhatelnoy_ekskursii",
+      "type": "symptom",
+      "label": "Отставание дыхательной экскурсии на стороне поражения"
+    },
+    {
+      "id": "symptom_vybuhaie_mezhrebernyh_promezhutkov",
+      "type": "symptom",
+      "label": "Выбухание межреберных промежутков на стороне поражения"
+    },
+    {
+      "id": "symptom_ukorochanie_legocnogo_tona",
+      "type": "symptom",
+      "label": "Укорочение легочного тона"
+    },
+    {
+      "id": "symptom_oslablenie_golosovogo_drozheniya",
+      "type": "symptom",
+      "label": "Ослабление голосового дрожания и дыхания на пораженной стороне"
+    },
+    {
+      "id": "symptom_gidrotoraks",
+      "type": "symptom",
+      "label": "Наличие жидкости в плевральной полости (гидроторакс)"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_sso",
+      "type": "symptom",
+      "label": "Повышенная СОЭ"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_trombotsit",
+      "type": "symptom",
+      "label": "Тромбоцитоз"
+    },
+    {
+      "id": "symptom_kogulopatiya",
+      "type": "symptom",
+      "label": "Коагулопатия с повышенной свертываемостью"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_grudnoj_kletke",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Пациенты жалуются на боль в грудной клетке на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_suhoy_kashl",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухой ... кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_produktivnyy_kashl",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "продуктивный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на одышку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshaya_slabost",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общую слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_potlivost_nochnaya",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потливость по ночам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихорадку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_vesa",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потерю веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemoptizis",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "редко гемоптизис",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_gornera",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром Горнера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_sdavleniya_verhney_poloi_veny",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром сдавления верхней полой вены",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otstavanie_dykhatelnoy_ekskursii",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отставание дыхательной экскурсии на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_mezhrebernyh_promezhutkov",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Выбухание межреберных промежутков на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochanie_legocnogo_tona",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Укорочение легочного тона",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oslablenie_golosovogo_drozheniya",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Ослабление голосового дрожания и дыхания на пораженной стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gidrotoraks",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие жидкости в плевральной полости (гидроторакс)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sso",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombotsit",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kogulopatiya",
+      "target": "diagnosis_mezoteloma_plevry",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "коагулопатия с повышенной свертываемостью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_grudnoj_kletke",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Пациенты жалуются на боль в грудной клетке ... на одышку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_suhoy_kashl",
+      "target": "symptom_produktivnyy_kashl",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухой или продуктивный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshaya_slabost",
+      "target": "symptom_potlivost_nochnaya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "общую слабость, потливость по ночам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "symptom_poteria_vesa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лихорадку, потерю веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_gornera",
+      "target": "symptom_sindrom_sdavleniya_verhney_poloi_veny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "синдром Горнера, синдром сдавления верхней полой вены",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_sso",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз, рост СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "symptom_trombotsit",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анемия, тромбоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gidrotoraks",
+      "target": "symptom_otstavanie_dykhatelnoy_ekskursii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Отставание дыхательной экскурсии ... свидетельствуют о наличии значимого количества жидкости в плевральной полости",
+      "properties": {}
+    }
+  ]
+}

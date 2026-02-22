@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_extraretinal_neovaskulyarnaya_proliferatsiya",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стадия 3: экстраретинальная неоваскулярная пролиферация от гребня в стекловидное тело.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flat_neovascularization",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стадия 3: ... Плоская экстраретинальная неоваскулярная пролиферация может наблюдаться при локализации заболевания в зоне I или задней зоне II.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tractional_retinatsionnaya_otloyka",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тракционная отслойка сетчатки ассоциируется с прогрессирующей фиброваскулярной пролиферацией, помутнением стекловидного тела и может сопровождаться наличием липидного выпота и/или кровоизлияния под сетчаткой.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exudativnaya_retinatsionnaya_otloyka",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отслойка сетчатки при 4 стадии носит экссудативный или тракционный характер.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fibrovascular_proliferation",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тракционная отслойка сетчатки ассоциируется с прогрессирующей фиброваскулярной пролиферацией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plus_bolezn",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«плюс» болезнь- признак, указывающий на тяжелое течение активной РН.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pre_plus_bolezn",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пре‑plus болезнь – промежуточная стадия, которая предшествует развитию «плюс» болезни и характеризуется сосудистой активностью заболевания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_demarkatsionnaya_liniya",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Стадия 1: демаркационная линия – тонкая белесоватая демаркационная линия, которая отделяет аваскулярную зону сетчатки от васкулярной.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_greben",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Стадия 2: гребень (вал) – объемный и проминирующий над плоскостью сетчатки, меняющий цвет от белесоватого до ярко‑розового.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vein_dilation",
+    "target": "symptom_arterial_tortuosity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "«плюс» болезнь характеризуется резким расширением вен и извитостью артерий заднего полюса сетчатки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iris_vessel_dilation",
+    "target": "symptom_iris_neovascularization",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "«плюс» болезнь может сопровождаться расширением сосудов радужки, неоваскуляризацией радужной оболочки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iris_neovascularization",
+    "target": "symptom_pupil_rigidity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "«плюс» болезнь может сопровождаться ... неоваскуляризацией радужной оболочки, ригидностью зрачка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pupil_rigidity",
+    "target": "symptom_vitreous_exudation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "«плюс» болезнь ... может сопровождаться ... экссудацией стекловидного тела, затрудняющим осмотр глазного дна.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tractional_retinatsionnaya_otloyka",
+    "target": "symptom_fibrovascular_proliferation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тракционная отслойка сетчатки ассоциируется с прогрессирующей фиброваскулярной пролиферацией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tractional_retinatsionnaya_otloyka",
+    "target": "symptom_lipid_exudate",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тракционная отслойка сетчатки ... может сопровождаться наличием липидного выпота.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tractional_retinatsionnaya_otloyka",
+    "target": "symptom_intraocular_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тракционная отслойка сетчатки ... может сопровождаться ... кровоизлияния под сетчаткой.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_fonovaya_retinopatiya",
+    "target": "diagnosis_drugaya_proliferativnaya_retinopatiya",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: H 35.0 Фоновая ретинопатия и ретинальные сосудистые изменения H 35.2 Другая пролиферативная ретинопатия",
+    "properties": {}
+  }
+]

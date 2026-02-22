@@ -1,0 +1,362 @@
+{
+  "protocol_id": "p_d0119e2713",
+  "nodes": [
+    {
+      "id": "q89_8_other_specified_congenital_anomalies",
+      "type": "diagnosis",
+      "label": "Другие уточненные врожденные аномалии",
+      "icd_code": "Q89.8"
+    },
+    {
+      "id": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "diagnosis",
+      "label": "Доброкачественные образования соединительной и других мягких тканей таза",
+      "icd_code": "D21.5"
+    },
+    {
+      "id": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "diagnosis",
+      "label": "Злокачественные образования соединительной и мягких тканей таза",
+      "icd_code": "C45.9"
+    },
+    {
+      "id": "symptom_mass_in_sacral_region",
+      "type": "symptom",
+      "label": "Выступающая масса в крестцовой области"
+    },
+    {
+      "id": "symptom_dysuria",
+      "type": "symptom",
+      "label": "Дизурия"
+    },
+    {
+      "id": "symptom_defecation_disturbance",
+      "type": "symptom",
+      "label": "Нарушение акта дефекации"
+    },
+    {
+      "id": "symptom_lower_limb_movement_disorder",
+      "type": "symptom",
+      "label": "Нарушения движения в нижних конечностях"
+    },
+    {
+      "id": "symptom_tumor_surface_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение с поверхности опухоли"
+    },
+    {
+      "id": "symptom_infection_of_tumor",
+      "type": "symptom",
+      "label": "Инфицирование опухоли"
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения"
+    },
+    {
+      "id": "symptom_coagulopathy",
+      "type": "symptom",
+      "label": "Коагулопатия"
+    },
+    {
+      "id": "symptom_elevated_afp",
+      "type": "symptom",
+      "label": "Повышенный уровень альфа‑фетопротеина"
+    },
+    {
+      "id": "symptom_elevated_beta_hcg",
+      "type": "symptom",
+      "label": "Повышенный уровень β‑хорионического гонадотропина"
+    },
+    {
+      "id": "symptom_elevated_ldh",
+      "type": "symptom",
+      "label": "Повышенный уровень лактатдегидрогеназы"
+    },
+    {
+      "id": "symptom_calcifications_on_imaging",
+      "type": "symptom",
+      "label": "Кальцинаты в опухоли (рентген/УЗИ)"
+    },
+    {
+      "id": "symptom_tissue_rupture",
+      "type": "symptom",
+      "label": "Изъявление и надрыв тканей тератомы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_mass_in_sacral_region",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• наличие выступающей массы в крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mass_in_sacral_region",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• наличие выступающей массы в крестцовой области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• дизурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• дизурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defecation_disturbance",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• нарушение акта дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defecation_disturbance",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• нарушение акта дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_limb_movement_disorder",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• нарушения движения в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lower_limb_movement_disorder",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "• нарушения движения в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_surface_bleeding",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кровотечение с поверхности опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_surface_bleeding",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кровотечение с поверхности опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_of_tumor",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Инфицирование",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_of_tumor",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Инфицирование",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coagulopathy",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "коагулопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coagulopathy",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "коагулопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_afp",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышения уровня АФП",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_afp",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышения уровня АФП",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_beta_hcg",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышения уровня β‑хорионического гонадотропина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_beta_hcg",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышения уровня β‑хорионического гонадотропина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_ldh",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышения уровня ЛДГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_ldh",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышения уровня ЛДГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_calcifications_on_imaging",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "✓ кальцинаты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_calcifications_on_imaging",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "✓ кальцинаты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tissue_rupture",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Изъявление и надрыв тканей тератомы (нарушение целостности)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tissue_rupture",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Изъявление и надрыв тканей тератомы (нарушение целостности)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mass_in_sacral_region",
+      "target": "symptom_dysuria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "• наличие выступающей массы в крестцовой области; • дизурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysuria",
+      "target": "symptom_defecation_disturbance",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "• дизурия; • нарушение акта дефекации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defecation_disturbance",
+      "target": "symptom_lower_limb_movement_disorder",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "• нарушение акта дефекации; • нарушения движения в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_surface_bleeding",
+      "target": "symptom_infection_of_tumor",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Кровотечение с поверхности опухоли; Инфицирование",
+      "properties": {}
+    },
+    {
+      "source": "symptom_calcifications_on_imaging",
+      "target": "symptom_tissue_rupture",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "✓ кальцинаты; Изъявление и надрыв тканей тератомы (нарушение целостности)",
+      "properties": {}
+    },
+    {
+      "source": "q89_8_other_specified_congenital_anomalies",
+      "target": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... Q89.8 ... D21.5 ...",
+      "properties": {}
+    },
+    {
+      "source": "q89_8_other_specified_congenital_anomalies",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... Q89.8 ... C45.9 ...",
+      "properties": {}
+    },
+    {
+      "source": "d21_5_benign_pelvic_soft_tissue_neoplasm",
+      "target": "c45_9_malignant_pelvic_soft_tissue_neoplasm",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... D21.5 ... C45.9 ...",
+      "properties": {}
+    }
+  ]
+}

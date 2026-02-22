@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_j02_9",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_dysfunction",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: нарушение носового дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sneezing",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: чихание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_discharge",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: отделение слизи из носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lassitude",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_j00",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_barking_cough",
+    "target": "diagnosis_j04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: сухой лающий кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hoarseness",
+    "target": "diagnosis_j04",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: осиплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "diagnosis_j04_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Критерии тяжести: стридор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthmoid_breathing",
+    "target": "diagnosis_j06_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические признаки: астмоидное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchiolitis",
+    "target": "diagnosis_j06_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клинические признаки: бронхиолит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела; кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_nasal_congestion",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела; заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_nasal_discharge",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: кашель; отделение слизи из носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_malaise",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: слабость; недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_barking_cough",
+    "target": "symptom_hoarseness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: сухой лающий кашель, осиплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "symptom_asthmoid_breathing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические признаки: стридор; астмоидное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "symptom_bronchiolitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические признаки: стридор; бронхиолит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j00",
+    "target": "diagnosis_j02_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 J00‑J06: Острые респираторные инфекции верхних дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j04",
+    "target": "diagnosis_j06",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 J00‑J06: Острые респираторные инфекции верхних дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j10",
+    "target": "diagnosis_j11",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код МКБ-10 J10‑J18: Грипп и пневмония",
+    "properties": {}
+  }
+]

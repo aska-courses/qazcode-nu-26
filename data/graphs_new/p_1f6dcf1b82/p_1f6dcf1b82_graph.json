@@ -1,0 +1,252 @@
+{
+  "protocol_id": "p_1f6dcf1b82",
+  "nodes": [
+    {
+      "id": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "diagnosis",
+      "label": "Хронический лимфоцитарный лейкоз",
+      "icd_code": "C91.1"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка >38°C"
+    },
+    {
+      "id": "symptom_night_sweats",
+      "type": "symptom",
+      "label": "Ночные поты"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Похудание ≥10% массы тела"
+    },
+    {
+      "id": "symptom_frequent_infections",
+      "type": "symptom",
+      "label": "Частые инфекции"
+    },
+    {
+      "id": "symptom_autoimmune_hemolytic_anemia",
+      "type": "symptom",
+      "label": "Аутоиммунная гемолитическая анемия"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "Спленомегалия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличение лимфатических узлов"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Слабость (наиболее частый симптом независимо от наличия или отсутствия анемии).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихорадка выше 38 °C более двух недель подряд без признаков воспаления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ночные профузные поты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похудание на 10% массы тела за последние 6 месяцев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_frequent_infections",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Частые инфекции.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autoimmune_hemolytic_anemia",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наиболее часто аутоиммунная гемолитическая анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "значительно реже, чем АИГА, развивается анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "иммунная тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Спленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_chronic_lymphocytic_leukemia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Увеличение лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Слабость (наиболее частый симптом ...). В-симптомы: лихорадка выше 38 °C ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_night_sweats",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Слабость (наиболее частый симптом ...). В-симптомы: ночные поты ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Слабость (наиболее частый симптом ...). В-симптомы: похудание ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_night_sweats",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В-симптомы: лихорадка выше 38 °C ...; ночные поты ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В-симптомы: лихорадка выше 38 °C ...; похудание ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В-симптомы: ночные поты ...; похудание ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "symptom_hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "спленомегалия и/или гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "symptom_lymphadenopathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "спленомегалия ... увеличение лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_lymphadenopathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гепатомегалия ... увеличение лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autoimmune_hemolytic_anemia",
+      "target": "symptom_anemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Аутоиммунные нарушения: наиболее часто аутоиммунная гемолитическая анемия ... значительно реже развивается анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autoimmune_hemolytic_anemia",
+      "target": "symptom_thrombocytopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "иммунная тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_thrombocytopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анемия ... и иммунная тромбоцитопения",
+      "properties": {}
+    }
+  ]
+}

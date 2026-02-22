@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_slezotectenie",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • слезотечение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetoboyazn",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • светобоязнь;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chuvstvo_inorodnogo_tela",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • чувство инородного тела;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_zreniya",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • снижение зрения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoy_sindrom",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otdelenie",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • отделяемое.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ptoz",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие птоза, ассиметрии лица вследствие нейротрофическая язва",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_litsa",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие птоза, ассиметрии лица вследствие нейротрофическая язва",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_rogovitsy",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие и выраженность отека роговицы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipopion",
+    "target": "diagnosis_yazva_rogovitsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипопион – с указанием уровня",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ptoz",
+    "target": "symptom_asimetriya_litsa",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие птоза, ассиметрии лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_rogovitsy",
+    "target": "symptom_gipopion",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отека роговицы ... гипопион – с указанием уровня",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slezotectenie",
+    "target": "symptom_svetoboyazn",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • слезотечение; • светобоязнь;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_zreniya",
+    "target": "symptom_bolevoy_sindrom",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • снижение зрения; • болевой синдром;",
+    "properties": {}
+  }
+]

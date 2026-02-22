@@ -1,0 +1,292 @@
+{
+  "protocol_id": "p_bed5583dcd",
+  "nodes": [
+    {
+      "id": "symptom_pain_anal",
+      "type": "symptom",
+      "label": "боль в заднем проходе"
+    },
+    {
+      "id": "symptom_pain_perineum",
+      "type": "symptom",
+      "label": "боль в промежности"
+    },
+    {
+      "id": "symptom_pain_rectum",
+      "type": "symptom",
+      "label": "боль в прямой кишке"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры тела"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "озноб"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_perianal_hyperemia",
+      "type": "symptom",
+      "label": "гиперемия кожных покровов перианальной области"
+    },
+    {
+      "id": "symptom_perianal_swelling",
+      "type": "symptom",
+      "label": "припухлость кожных покровов"
+    },
+    {
+      "id": "symptom_painful_infiltrate",
+      "type": "symptom",
+      "label": "болезненный инфильтрат"
+    },
+    {
+      "id": "symptom_fluctuation",
+      "type": "symptom",
+      "label": "флюктуация"
+    },
+    {
+      "id": "symptom_purulent_discharge",
+      "type": "symptom",
+      "label": "выделения гноя"
+    },
+    {
+      "id": "symptom_mucous_discharge",
+      "type": "symptom",
+      "label": "выделения слизи"
+    },
+    {
+      "id": "symptom_anal_fissure",
+      "type": "symptom",
+      "label": "анальная трещина"
+    },
+    {
+      "id": "symptom_hemorrhoids",
+      "type": "symptom",
+      "label": "геморрой"
+    },
+    {
+      "id": "symptom_fistula",
+      "type": "symptom",
+      "label": "свищ"
+    },
+    {
+      "id": "symptom_rectal_prolapse",
+      "type": "symptom",
+      "label": "выпадение прямой кишки"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "повышение СОЭ"
+    },
+    {
+      "id": "symptom_left_shift",
+      "type": "symptom",
+      "label": "сдвиг форменных элементов влево"
+    },
+    {
+      "id": "diagnosis_anal_abscess",
+      "type": "diagnosis",
+      "label": "анальный абсцесс",
+      "icd_code": "K61.0"
+    },
+    {
+      "id": "diagnosis_rectal_abscess",
+      "type": "diagnosis",
+      "label": "ректальный абсцесс",
+      "icd_code": "K61.1"
+    },
+    {
+      "id": "diagnosis_anorectal_abscess",
+      "type": "diagnosis",
+      "label": "аноректальный абсцесс",
+      "icd_code": "K61.2"
+    },
+    {
+      "id": "diagnosis_ischiorectal_abscess",
+      "type": "diagnosis",
+      "label": "ишиоректальный абсцесс",
+      "icd_code": "K61.3"
+    },
+    {
+      "id": "diagnosis_intracavernous_abscess",
+      "type": "diagnosis",
+      "label": "интрасфинктерный абсцесс",
+      "icd_code": "K61.4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain_anal",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы на ... боли в области заднего прохода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_perineum",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы на ... боли в области промежности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_rectum",
+      "target": "diagnosis_rectal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы на ... боли в области прямой кишке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК: лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_left_shift",
+      "target": "diagnosis_anal_abscess",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сдвиг форменных элементов влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perianal_hyperemia",
+      "target": "symptom_perianal_swelling",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гиперемию, припухлость кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_infiltrate",
+      "target": "symptom_fluctuation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "резко болезненного инфильтрата или флюктуации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_discharge",
+      "target": "symptom_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выделения гноя ... свищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucous_discharge",
+      "target": "symptom_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выделения слизи ... свищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_discharge",
+      "target": "symptom_mucous_discharge",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выделения гноя или слизи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anal_fissure",
+      "target": "symptom_hemorrhoids",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анальная трещина, геморрой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhoids",
+      "target": "symptom_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "геморрой, свищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rectal_prolapse",
+      "target": "symptom_fistula",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выпадение прямой кишки ... свищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_anal",
+      "target": "symptom_pain_perineum",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в области заднего прохода, промежности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_perineum",
+      "target": "symptom_pain_rectum",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в промежности, прямой кишке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_anal",
+      "target": "symptom_pain_rectum",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в заднем проходе, прямой кишке",
+      "properties": {}
+    }
+  ]
+}

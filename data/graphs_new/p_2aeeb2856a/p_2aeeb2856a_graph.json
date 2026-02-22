@@ -1,0 +1,983 @@
+{
+  "protocol_id": "p_2aeeb2856a",
+  "nodes": [
+    {
+      "id": "diagnosis_01",
+      "type": "diagnosis",
+      "label": "Инсулинозависимый сахарный диабет с нарушением периферического кровообращения",
+      "icd_code": "E10.5"
+    },
+    {
+      "id": "diagnosis_02",
+      "type": "diagnosis",
+      "label": "Инсулинонезависимый сахарный диабет с нарушением периферического кровообращения",
+      "icd_code": "E11.5"
+    },
+    {
+      "id": "diagnosis_03",
+      "type": "diagnosis",
+      "label": "Атеросклероз артерий конечностей",
+      "icd_code": "I70.2"
+    },
+    {
+      "id": "diagnosis_04",
+      "type": "diagnosis",
+      "label": "Другие уточненные изменения артерий и артериол",
+      "icd_code": "I77.8"
+    },
+    {
+      "id": "diagnosis_05",
+      "type": "diagnosis",
+      "label": "Периферическая ангиопатия при болезнях, классифицированных в других рубриках",
+      "icd_code": "I79.2"
+    },
+    {
+      "id": "symptom_01",
+      "type": "symptom",
+      "label": "Онемение нижних конечностей",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_02",
+      "type": "symptom",
+      "label": "Покалывание в нижних конечностях",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_03",
+      "type": "symptom",
+      "label": "Снижение чувствительности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_04",
+      "type": "symptom",
+      "label": "Похолодание ног",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_05",
+      "type": "symptom",
+      "label": "Боль в нижних конечностях",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_06",
+      "type": "symptom",
+      "label": "Судороги в ногах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_07",
+      "type": "symptom",
+      "label": "Перемежающаяся хромота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_08",
+      "type": "symptom",
+      "label": "Дистрофические изменения кожных покровов",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_09",
+      "type": "symptom",
+      "label": "Трофические язвы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "Понижение местной температуры",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "Выпадение волос на коже конечности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "Сухость и истончение кожи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "Синюшность стопы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "Покраснение стопы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "Ишемический отек",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "Трещины и мозоли",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "Гангрена пальцев (сухая)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "Гангрена пальцев (влажная)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "Отсутствие пульса при пальпации ниже уровня поражения артерий",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_01",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_01",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_01",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_01",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_01",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_02",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_02",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_02",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_02",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_02",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_03",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_03",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_03",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_03",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_03",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_04",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похолодание ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_04",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похолодание ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_04",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похолодание ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_04",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похолодание ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_04",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похолодание ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_05",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_05",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_05",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_05",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_05",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_06",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_06",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_06",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_06",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_06",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_07",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_07",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_07",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_07",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_07",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перемежающаяся хромота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_08",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дистрофические изменения кожных покровов конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_08",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дистрофические изменения кожных покровов конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_08",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дистрофические изменения кожных покровов конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_08",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дистрофические изменения кожных покровов конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_08",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дистрофические изменения кожных покровов конечностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_09",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трофические язвы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_09",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трофические язвы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_09",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трофические язвы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_09",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трофические язвы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_09",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трофические язвы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение местной температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос на коже конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос на коже конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос на коже конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос на коже конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпадение волос на коже конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и истончение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и истончение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и истончение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и истончение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость и истончение кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синюшность стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синюшность стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синюшность стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синюшность стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синюшность стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ишемический отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ишемический отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ишемический отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ишемический отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ишемический отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трещины и мозоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трещины и мозоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трещины и мозоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трещины и мозоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трещины и мозоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (сухая)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (сухая)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (сухая)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (сухая)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (сухая)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (влажная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (влажная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (влажная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (влажная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гангрена пальцев (влажная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_01",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса при пальпации ниже уровня поражения артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_02",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса при пальпации ниже уровня поражения артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_03",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса при пальпации ниже уровня поражения артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_04",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса при пальпации ниже уровня поражения артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_05",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие пульса при пальпации ниже уровня поражения артерий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_01",
+      "target": "symptom_02",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_01",
+      "target": "symptom_03",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ощущение онемения и «мурашек» в нижних конечностях; снижение чувствительности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_04",
+      "target": "symptom_05",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "похолодание ног; боль; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "symptom_11",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "понижение местной температуры; выпадение волос на коже конечности; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "symptom_18",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гангрена одного или нескольких пальцев (сухая, влажная)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_01",
+      "target": "diagnosis_02",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Е 10.5 Инсулинозависимый сахарный диабет ... Е 11.5 Инсулинонезависимый сахарный диабет ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_03",
+      "target": "diagnosis_04",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "I70.2 Атеросклероз артерий конечностей I77.8 Другие уточненные изменения артерий и артериол",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_03",
+      "target": "diagnosis_05",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "I70.2 Атеросклероз артерий конечностей ... I79.2 Периферическая ангиопатия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_04",
+      "target": "diagnosis_05",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "I77.8 Другие уточненные изменения артерий и артериол ... I79.2 Периферическая ангиопатия ...",
+      "properties": {}
+    }
+  ]
+}

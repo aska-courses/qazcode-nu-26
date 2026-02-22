@@ -1,0 +1,377 @@
+{
+  "protocol_id": "p_a30b041d7d",
+  "nodes": [
+    {
+      "id": "diagnosis_stenoz_gortani",
+      "type": "diagnosis",
+      "label": "Стеноз гортани",
+      "icd_code": "J38.6"
+    },
+    {
+      "id": "symptom_zatrudnennoe_dykhanie",
+      "type": "symptom",
+      "label": "затрудненное дыхание"
+    },
+    {
+      "id": "symptom_shumnoe_dykhanie",
+      "type": "symptom",
+      "label": "шумное дыхание"
+    },
+    {
+      "id": "symptom_osiplost_golosa",
+      "type": "symptom",
+      "label": "осиплость голоса"
+    },
+    {
+      "id": "symptom_afoniya",
+      "type": "symptom",
+      "label": "афония"
+    },
+    {
+      "id": "symptom_srygivanija",
+      "type": "symptom",
+      "label": "срыгивания"
+    },
+    {
+      "id": "symptom_disfagiya",
+      "type": "symptom",
+      "label": "дисфагия"
+    },
+    {
+      "id": "symptom_kashhel",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_chastye_orvi",
+      "type": "symptom",
+      "label": "частые ОРВИ"
+    },
+    {
+      "id": "symptom_dlitelnaia_ivl",
+      "type": "symptom",
+      "label": "длительная ИВЛ"
+    },
+    {
+      "id": "symptom_travmy_shiei",
+      "type": "symptom",
+      "label": "травмы шеи"
+    },
+    {
+      "id": "symptom_travma_gortani",
+      "type": "symptom",
+      "label": "травма гортани"
+    },
+    {
+      "id": "symptom_ogog_gortanoglotki",
+      "type": "symptom",
+      "label": "ожог гортаноглотки"
+    },
+    {
+      "id": "symptom_operacii_na_organah_shiei",
+      "type": "symptom",
+      "label": "операции на органах шеи"
+    },
+    {
+      "id": "symptom_znaki_stridora",
+      "type": "symptom",
+      "label": "признаки стридора"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "о́дышка"
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "цианоз"
+    },
+    {
+      "id": "symptom_razduvanie_krylev_nosa_pri_vdoh",
+      "type": "symptom",
+      "label": "раздувание крыльев носа при вдохе"
+    },
+    {
+      "id": "symptom_uchastie_v_akte_dykhaniia_vspomogatelnoy_muskulatury",
+      "type": "symptom",
+      "label": "участие в акте дыхания вспомогательной мускулатуры"
+    },
+    {
+      "id": "symptom_cianoz_nogtevyh_falang",
+      "type": "symptom",
+      "label": "цианоз ногтевых фаланг"
+    },
+    {
+      "id": "symptom_preryvistoe_dykhanie",
+      "type": "symptom",
+      "label": "прерывистое дыхание"
+    },
+    {
+      "id": "symptom_vtiazhenie_mezhrebernyh_promezhutkov",
+      "type": "symptom",
+      "label": "втяжение межреберных промежутков"
+    },
+    {
+      "id": "symptom_nad_i_podklyuchichnye_yamki",
+      "type": "symptom",
+      "label": "над- и подключичные ямки"
+    },
+    {
+      "id": "symptom_zemlistyi_tsvet_lica",
+      "type": "symptom",
+      "label": "землистый цвет лица"
+    },
+    {
+      "id": "symptom_kholodnyi_pot",
+      "type": "symptom",
+      "label": "холодный пот"
+    },
+    {
+      "id": "symptom_cianoz_nosogubnogo_treugolnika",
+      "type": "symptom",
+      "label": "цианоз носогубного треугольника"
+    },
+    {
+      "id": "symptom_rasstroistoe_serdechno_sosudistoe_deiatelnost",
+      "type": "symptom",
+      "label": "расстройство сердечно-сосудистой деятельности"
+    },
+    {
+      "id": "symptom_padeniie_ad",
+      "type": "symptom",
+      "label": "падение АД"
+    },
+    {
+      "id": "symptom_ostanovka_dykhaniia",
+      "type": "symptom",
+      "label": "остановка дыхания"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zatrudnennoe_dykhanie",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoe_dykhanie",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osiplost_golosa",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • осиплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_afoniya",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_srygivanija",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • срыгивания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disfagiya",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashhel",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: • кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastye_orvi",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Анамнез: • частые ОРВИ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dlitelnaia_ivl",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Анамнез: • длительная ИВЛ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_travmy_shiei",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Анамнез: • травмы шеи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_travma_gortani",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Анамнез: • травма гортани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogog_gortanoglotki",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Анамнез: • ожог гортаноглотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_operacii_na_organah_shiei",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Анамнез: • операции на органах шеи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_znaki_stridora",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • признаки стридора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razduvanie_krylev_nosa_pri_vdoh",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • раздувание крыльев носа при вдохе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchastie_v_akte_dykhaniia_vspomogatelnoy_muskulatury",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: • участие в акте дыхания вспомогательной мускулатуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz_nogtevyh_falang",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "II степень – субкомпенсации (… цианоз ногтевых фаланг)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_preryvistoe_dykhanie",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – декомпенсации (прерывистое дыхание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vtiazhenie_mezhrebernyh_promezhutkov",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – декомпенсации (втяжение межреберных промежутков)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nad_i_podklyuchichnye_yamki",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – декомпенсации (над- и подключичные ямки)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zemlistyi_tsvet_lica",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – декомпенсации (землистый цвет лица)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kholodnyi_pot",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – декомпенсации (холодный пот)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz_nosogubnogo_treugolnika",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "III степень – декомпенсации (цианоз носогубного треугольника)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasstroistoe_serdechno_sosudistoe_deiatelnost",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "IV степень – асфиксия (расстройство сердечно‑сосудистой деятельности)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_padeniie_ad",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "IV степень – асфиксия (падение АД)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ostanovka_dykhaniia",
+      "target": "diagnosis_stenoz_gortani",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "IV степень – асфиксия (остановка дыхания)",
+      "properties": {}
+    }
+  ]
+}

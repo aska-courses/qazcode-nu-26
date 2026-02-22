@@ -1,0 +1,163 @@
+{
+  "protocol_id": "p_75571918b7",
+  "nodes": [
+    {
+      "id": "zlokachestvennoe_novoobrazovanie_glavnogomozga",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование головного мозга",
+      "icd_code": "C71-C71.9"
+    },
+    {
+      "id": "novoobrazovanie_neopredelennogo_i_neizvestnogo_hlavnogomozga",
+      "type": "diagnosis",
+      "label": "Новообразование неопределенного и неизвестного характера головного мозга и центральной нервной системы",
+      "icd_code": "D43-D43.2"
+    },
+    {
+      "id": "organicheskie_psihicheskie_rasstroystva",
+      "type": "diagnosis",
+      "label": "Органические, включая симптоматические, психические расстройства",
+      "icd_code": "F00-F03"
+    },
+    {
+      "id": "shizofreniya",
+      "type": "diagnosis",
+      "label": "Шизофрения, шизофренические и бредовые расстройства",
+      "icd_code": "F20-F20.9"
+    },
+    {
+      "id": "bolezn_alzhegamera",
+      "type": "diagnosis",
+      "label": "Болезнь Альцгеймера",
+      "icd_code": "G30"
+    },
+    {
+      "id": "epilepsiya",
+      "type": "diagnosis",
+      "label": "Эпилепсия",
+      "icd_code": "G40-G41.9"
+    },
+    {
+      "id": "epilepticheskiy_status",
+      "type": "diagnosis",
+      "label": "Эпилептический статус",
+      "icd_code": "G40-G41.9"
+    },
+    {
+      "id": "esencionalnaya_gipertenziya",
+      "type": "diagnosis",
+      "label": "Эссенциальная (первичная) гипертензия",
+      "icd_code": "I10-I15.9"
+    },
+    {
+      "id": "vtorichnaya_gipertenziya",
+      "type": "diagnosis",
+      "label": "Вторичная гипертензия",
+      "icd_code": "I10-I15.9"
+    },
+    {
+      "id": "tserebrovaskulyarnye_bolezni",
+      "type": "diagnosis",
+      "label": "Цереброваскулярные болезни",
+      "icd_code": "I60-I70.0"
+    },
+    {
+      "id": "osteochondroz_pozvonochnika",
+      "type": "diagnosis",
+      "label": "Остеохондроз позвоночника",
+      "icd_code": "M42"
+    },
+    {
+      "id": "vnutricherepnaya_travma",
+      "type": "diagnosis",
+      "label": "Внутричерепная травма",
+      "icd_code": "S06,S06.9"
+    },
+    {
+      "id": "narushenie_mozgovogo_krovobrascheniya",
+      "type": "symptom",
+      "label": "Нарушение мозгового кровообращения"
+    },
+    {
+      "id": "narushenie_perfuzii_glavnogomozga",
+      "type": "symptom",
+      "label": "Нарушение перфузии головного мозга"
+    },
+    {
+      "id": "narushenie_krovosnabzheniya_struktur_glavnogomozga",
+      "type": "symptom",
+      "label": "Нарушение кровоснабжения структур головного мозга"
+    },
+    {
+      "id": "narushenie_pamyati",
+      "type": "symptom",
+      "label": "Нарушение памяти"
+    }
+  ],
+  "edges": [
+    {
+      "source": "narushenie_mozgovogo_krovobrascheniya",
+      "target": "tserebrovaskulyarnye_bolezni",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при нарушении мозгового кровообращения вследствие инсульта и других цереброваскулярных патологиях",
+      "properties": {}
+    },
+    {
+      "source": "narushenie_pamyati",
+      "target": "bolezn_alzhegamera",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при болезни Альцгеймера и других формах слабоумия (старческое слабоумие, деменция, нарушение памяти)",
+      "properties": {}
+    },
+    {
+      "source": "narushenie_perfuzii_glavnogomozga",
+      "target": "bolezn_alzhegamera",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушений перфузии при нейродегенеративных заболеваниях",
+      "properties": {}
+    },
+    {
+      "source": "narushenie_mozgovogo_krovobrascheniya",
+      "target": "narushenie_perfuzii_glavnogomozga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушения перфузии при нейродегенеративных заболеваниях; при нарушении мозгового кровообращения вследствие инсульта",
+      "properties": {}
+    },
+    {
+      "source": "narushenie_perfuzii_glavnogomozga",
+      "target": "narushenie_krovosnabzheniya_struktur_glavnogomozga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выявить нарушение кровоснабжения структур головного мозга на уровне микроциркуляции; нарушения перфузии",
+      "properties": {}
+    },
+    {
+      "source": "esencionalnaya_gipertenziya",
+      "target": "vtorichnaya_gipertenziya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "при гипертонической болезни",
+      "properties": {}
+    },
+    {
+      "source": "epilepsiya",
+      "target": "epilepticheskiy_status",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "G4–G41.9 Эпилепсия; Эпилептический статус",
+      "properties": {}
+    },
+    {
+      "source": "organicheskie_psihicheskie_rasstroystva",
+      "target": "shizofreniya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "F00-F03 Органические, включая симптоматические, психические расстройства; F20-F20.9 Шизофрения, шизофренические и бредовые расстройства",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "protocol_id": "p_108dc20221",
+  "nodes": [
+    {
+      "id": "diagnosis_flegmona_polosti_rta",
+      "type": "diagnosis",
+      "label": "Флегмона, абсцесс полости рта",
+      "icd_code": "K12.2"
+    },
+    {
+      "id": "diagnosis_flegmona_lica",
+      "type": "diagnosis",
+      "label": "Флегмона лица",
+      "icd_code": "L03.2"
+    },
+    {
+      "id": "diagnosis_abscess_kazhny_furunkul_karbunkul",
+      "type": "diagnosis",
+      "label": "Абсцесс кожи, фурункул и карбункул лица",
+      "icd_code": "L02.0"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_otek",
+      "type": "symptom",
+      "label": "Отёк"
+    },
+    {
+      "id": "symptom_ogranichenie_otkryvaniya_rta",
+      "type": "symptom",
+      "label": "Ограничение открывания рта"
+    },
+    {
+      "id": "symptom_zatrudnenie_glotania",
+      "type": "symptom",
+      "label": "Затруднение глотания"
+    },
+    {
+      "id": "symptom_zatrudnenie_zhevania",
+      "type": "symptom",
+      "label": "Затруднение жевания"
+    },
+    {
+      "id": "symptom_zatrudnenie_dykhaniya",
+      "type": "symptom",
+      "label": "Затруднение дыхания"
+    },
+    {
+      "id": "symptom_lihofadka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_leukotsit",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_uvelichenie_soe",
+      "type": "symptom",
+      "label": "Увеличение СОЭ"
+    },
+    {
+      "id": "symptom_sdvig_leykocit_formuly_vlevo",
+      "type": "symptom",
+      "label": "Сдвиг лейкоцитарной формулы влево"
+    },
+    {
+      "id": "symptom_intoksikatsionny_sindrom",
+      "type": "symptom",
+      "label": "Интоксикационный синдром"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "Сепсис"
+    },
+    {
+      "id": "symptom_gnoiny_process",
+      "type": "symptom",
+      "label": "Гнойный процесс"
+    },
+    {
+      "id": "symptom_gnoiny_ochag",
+      "type": "symptom",
+      "label": "Гнойный очаг"
+    },
+    {
+      "id": "symptom_gnoino_vospalitelny_process",
+      "type": "symptom",
+      "label": "Гнойно‑воспалительный процесс"
+    },
+    {
+      "id": "symptom_gnoino_nekroticheskoe_porazhenie_kostnoi_tkani",
+      "type": "symptom",
+      "label": "Гнойно‑некротическое поражение костной ткани"
+    },
+    {
+      "id": "symptom_limfadinit",
+      "type": "symptom",
+      "label": "Лимфаденит"
+    },
+    {
+      "id": "symptom_giperemiya",
+      "type": "symptom",
+      "label": "Гиперемия"
+    },
+    {
+      "id": "symptom_giperemiya_kozhi",
+      "type": "symptom",
+      "label": "Гиперемия кожи"
+    },
+    {
+      "id": "symptom_giperemiya_slizistoy_obolochki",
+      "type": "symptom",
+      "label": "Гиперемия слизистой оболочки"
+    },
+    {
+      "id": "symptom_bol_pri_otkryvanii_rta",
+      "type": "symptom",
+      "label": "Боль при открывании рта"
+    },
+    {
+      "id": "symptom_bol_pri_glotanii",
+      "type": "symptom",
+      "label": "Боль при глотании"
+    },
+    {
+      "id": "symptom_bol_pri_zhevanii",
+      "type": "symptom",
+      "label": "Боль при жевании"
+    },
+    {
+      "id": "symptom_ogranichenie_funkcii_glotania",
+      "type": "symptom",
+      "label": "Ограничение функции глотания"
+    },
+    {
+      "id": "symptom_ogranichenie_funkcii_zhevania",
+      "type": "symptom",
+      "label": "Ограничение функции жевания"
+    },
+    {
+      "id": "symptom_ogranichenie_funkcii_dykhaniya",
+      "type": "symptom",
+      "label": "Ограничение функции дыхания"
+    },
+    {
+      "id": "symptom_ogranichenie_funkcii_rechi",
+      "type": "symptom",
+      "label": "Ограничение функции речи"
+    },
+    {
+      "id": "symptom_otek_lica",
+      "type": "symptom",
+      "label": "Отёк лица"
+    },
+    {
+      "id": "symptom_otek_shyi",
+      "type": "symptom",
+      "label": "Отёк шеи"
+    },
+    {
+      "id": "symptom_otek_podchelyustnykh_struktur",
+      "type": "symptom",
+      "label": "Отёк подчелюстных структур"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_pri_otkryvanii_rta",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при открывании рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_otkryvaniya_rta",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение открывания рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnenie_glotania",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение глотания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnenie_zhevania",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение жевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnenie_dykhaniya",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofadka",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsit",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sdvig_leykocit_formuly_vlevo",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoksikatsionny_sindrom",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "интоксикационный синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сепсис",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoiny_process",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнойный процесс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoiny_ochag",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнойный очаг",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoino_vospalitelny_process",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнойно‑воспалительный процесс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoino_nekroticheskoe_porazhenie_kostnoi_tkani",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гнойно‑некротическое поражение костной ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limfadinit",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфаденит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy_obolochki",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия слизистой оболочки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_lica",
+      "target": "diagnosis_flegmona_lica",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёк лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_lica",
+      "target": "diagnosis_abscess_kazhny_furunkul_karbunkul",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёк лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_kozhi",
+      "target": "diagnosis_abscess_kazhny_furunkul_karbunkul",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиперемия кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_shyi",
+      "target": "diagnosis_abscess_kazhny_furunkul_karbunkul",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёк шеи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_podchelyustnykh_struktur",
+      "target": "diagnosis_flegmona_polosti_rta",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёк подчелюстных структур",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_otek",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль ... Отёк ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_otkryvanii_rta",
+      "target": "symptom_ogranichenie_otkryvaniya_rta",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль при открывании рта ... ограничение открывания рта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_flegmona_polosti_rta",
+      "target": "diagnosis_flegmona_lica",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Флегмона области рта, так же, как и флегмоны лица",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_flegmona_polosti_rta",
+      "target": "diagnosis_abscess_kazhny_furunkul_karbunkul",
+      "type": "appear-with",
+      "weight": 0.25,
+      "evidence": "абсцессы и флегмоны области рта ... абсцессы и флегмоны лица",
+      "properties": {}
+    }
+  ]
+}

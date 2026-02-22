@@ -1,0 +1,149 @@
+{
+  "protocol_id": "p_8309b62f78",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_oblasti_kljuczy",
+      "type": "symptom",
+      "label": "боль в области ключицы"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_verhnej_konechnosti",
+      "type": "symptom",
+      "label": "нарушение функции верхней конечности"
+    },
+    {
+      "id": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "type": "symptom",
+      "label": "наличие ран при открытых переломах"
+    },
+    {
+      "id": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "type": "symptom",
+      "label": "вынужденное положение конечности"
+    },
+    {
+      "id": "symptom_otek_v_oblasti_kljuczy",
+      "type": "symptom",
+      "label": "отёк в области ключицы"
+    },
+    {
+      "id": "symptom_deformaciya_v_oblasti_kljuczy",
+      "type": "symptom",
+      "label": "деформация в области ключицы"
+    },
+    {
+      "id": "symptom_krovoizlyanie_v_okruzhayushchikh_tkanyah",
+      "type": "symptom",
+      "label": "кровоизлияние в окружающие ткани в области ключицы"
+    },
+    {
+      "id": "symptom_boleznennost_pri_oshevoy_nagruzke",
+      "type": "symptom",
+      "label": "болезненность, усиливающаяся при осевой нагрузке"
+    },
+    {
+      "id": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "грубая патологическая подвижность в области ключицы"
+    },
+    {
+      "id": "symptom_kreptaciya_otlomkov",
+      "type": "symptom",
+      "label": "крепитация отломков в области ключицы"
+    },
+    {
+      "id": "diagnosis_perelom_kljuczy",
+      "type": "diagnosis",
+      "label": "Перелом ключицы",
+      "icd_code": "S42.0"
+    },
+    {
+      "id": "diagnosis_mnozh_perelom_kljuczy_lopatki_pech_kosti",
+      "type": "diagnosis",
+      "label": "Множественные переломы ключицы, лопатки и плечевой кости",
+      "icd_code": "S42.7"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_kljuczy",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на боли в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_verhnej_konechnosti",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вынужденное положение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_oblasti_kljuczy",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_v_oblasti_kljuczy",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizlyanie_v_okruzhayushchikh_tkanyah",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияние в окружающие ткани в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность, усиливающая при осевой нагрузке, в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубая патологическая подвижность в области ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_otlomkov",
+      "target": "diagnosis_perelom_kljuczy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крепитация отломков в области ключицы",
+      "properties": {}
+    }
+  ]
+}

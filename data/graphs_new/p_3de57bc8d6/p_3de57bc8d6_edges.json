@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_recurrent_dislocation",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неоднократные вывихи ... в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shoulder_instability",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неоднократные вывихи и наличия нестабильности в области плечевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_range_of_motion",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение объёма движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deltoid_muscle_atrophy",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "умеренная атрофия дельтовидной мышцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_groove_sign",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие одностороннего признака «борозды»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_on_joint_tests",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль ... при проведении тестов Joba, Leffert, Rowe",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_rotation_limitation",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничения наружной ротации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abduction_limitation",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничения ... отведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adduction_limitation",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничения ... приведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypermobile_shoulder_drawer_test",
+    "target": "diagnosis_shoulder_dislocation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипермобильность ... при проведении теста переднего и заднего выдвижного ящика",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_rotation_limitation",
+    "target": "symptom_abduction_limitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничения наружной ротации, отведения и приведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_rotation_limitation",
+    "target": "symptom_adduction_limitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничения наружной ротации, отведения и приведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abduction_limitation",
+    "target": "symptom_adduction_limitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничения наружной ротации, отведения и приведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deltoid_muscle_atrophy",
+    "target": "symptom_groove_sign",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "умеренная атрофия дельтовидной мышцы ... наличие одностороннего признака «борозды»",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_shoulder_dislocation",
+    "target": "diagnosis_consequence_dislocation",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "S43.0 Вывих плечевого сустава T92.3 Последствие вывиха, растяжения и деформации верхней конечности",
+    "properties": {}
+  }
+]

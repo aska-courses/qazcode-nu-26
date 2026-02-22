@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f80_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: отставание в психоречевом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f80_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: отставание в психоречевом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f80_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: отставание в психоречевом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f83",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: отставание в психоречевом развитии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_f80_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Навыки экспрессивной речи, определяемые по стандартизированному тесту, ниже 2 стандартных отклонений для возраста ребенка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_f80_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Навыки экспрессивной речи, по меньшей мере, на 1 стандартное отклонение ниже невербального КИ при определении по стандартизированным тестам.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_f80_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Невербальный коэффициент умственного развития по стандартизированному тесту ниже 70.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_f80_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Понимание речи, определяемое по стандартизированным тестам, ниже 2 стандартных отклонений для возраста ребенка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_f80_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Навыки рецептивной речи, по меньшей мере, на 1 стандартное отклонение ниже невербального КИ при оценке по стандартизированным тестам.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_f80_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Невербальный коэффициент умственного развития по стандартизированному тесту ниже 70.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_f83",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общим является сочетание с некоторой степенью общего нарушения когнитивных функций",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Навыки экспрессивной речи... ниже 2 стандартных отклонений ... и ... ниже 1 стандартного отклонения ниже невербального КИ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Понимание речи... ниже 2 стандартных отклонений ... и ... навыки рецептивной речи... ниже 1 стандартного отклонения ниже невербального КИ",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80_1",
+    "target": "diagnosis_f80_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: F80.1 ... F80.2 ... F80.9 ... F83",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80_1",
+    "target": "diagnosis_f80_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: F80.1 ... F80.2 ... F80.9 ... F83",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80_1",
+    "target": "diagnosis_f83",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: F80.1 ... F80.2 ... F80.9 ... F83",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80_2",
+    "target": "diagnosis_f80_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: F80.1 ... F80.2 ... F80.9 ... F83",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80_2",
+    "target": "diagnosis_f83",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: F80.1 ... F80.2 ... F80.9 ... F83",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80_9",
+    "target": "diagnosis_f83",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10: F80.1 ... F80.2 ... F80.9 ... F83",
+    "properties": {}
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "symptom_stress",
+    "target": "symptom_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "перенос является самым большим фактором потери тепла и стресса, приводящего к тахикардии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stress",
+    "target": "symptom_apnoe",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "перенос является самым большим фактором потери тепла и стресса, приводящего к ... апноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnoe",
+    "target": "symptom_bradycardia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Ребенок, имеющий приступ апное, брадикардии, требующий активной стимуляции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchospasm",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Высокий уровень шума может провоцировать приступы бронхоспазмов. Световые и звуковые раздражители ... могут провоцировать судороги",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_r05",
+    "target": "diagnosis_r05_0",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "МКБ-10 Код Название Р05 Замедленный рост и недостаточность питания плода Р05.0 Маловесный для гестационного возраста",
+    "properties": {}
+  }
+]

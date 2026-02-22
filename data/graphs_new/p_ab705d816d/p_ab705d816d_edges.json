@@ -1,0 +1,58 @@
+[
+  {
+    "source": "symptom_perlamutrovye_areas",
+    "target": "diagnosis_c44_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "полупрозрачных, «перламутровых» участков и поверхностных телеангиэктазий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_telangiectasia",
+    "target": "diagnosis_c44_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "полупрозрачных, «перламутровых» участков и поверхностных телеангиэктазий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ulceration",
+    "target": "diagnosis_c44_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характерным признаком язвенной формы является воронкообразное изъязвление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "diagnosis_c44_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "легко кровоточащего узла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nodule",
+    "target": "diagnosis_c44_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Узелок, который постепенно увеличивается в размерах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multiple_lesions",
+    "target": "symptom_nodule",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "множественные поражения кожи … Узелок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perlamutrovye_areas",
+    "target": "symptom_telangiectasia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "полупрозрачных, «перламутровых» участков и поверхностных телеангиэктазий",
+    "properties": {}
+  }
+]

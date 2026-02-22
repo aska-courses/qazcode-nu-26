@@ -1,0 +1,279 @@
+{
+  "protocol_id": "p_b3b7ecede5",
+  "nodes": [
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Доброкачественные новообразования",
+      "icd_code": "D10-D36"
+    },
+    {
+      "id": "diagnosis_2",
+      "type": "diagnosis",
+      "label": "Хронические болезни миндалин и аденоидов",
+      "icd_code": "J35"
+    },
+    {
+      "id": "diagnosis_3",
+      "type": "diagnosis",
+      "label": "Хронический тонзиллит",
+      "icd_code": "J35.0"
+    },
+    {
+      "id": "diagnosis_4",
+      "type": "diagnosis",
+      "label": "Гипертрофия миндалин",
+      "icd_code": "J35.1"
+    },
+    {
+      "id": "diagnosis_5",
+      "type": "diagnosis",
+      "label": "Гипертрофия аденоидов",
+      "icd_code": "J35.2"
+    },
+    {
+      "id": "diagnosis_6",
+      "type": "diagnosis",
+      "label": "Гипертрофия миндалин с гипертрофией аденоидов",
+      "icd_code": "J35.3"
+    },
+    {
+      "id": "diagnosis_7",
+      "type": "diagnosis",
+      "label": "Другие хронические болезни миндалин и аденоидов",
+      "icd_code": "J35.8"
+    },
+    {
+      "id": "diagnosis_8",
+      "type": "diagnosis",
+      "label": "Хроническая болезнь миндалин и аденоидов неуточненная",
+      "icd_code": "J35.9"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "Жидкий гной"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "Казеозно‑гнойные пробки"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "Стойкая гиперемия краев небно‑язычных дужек"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "Отёчность верхних отделов небных дужек"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "Сращение и спайки миндалин с дужками и треугольной складкой"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "Увеличение и болезненность регионарных лимфатических узлов при пальпации"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "Быстрая утомляемость"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "Пониженная работоспособность"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "Периодические боли в суставах"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "Периодические боли в сердце"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "Длительная субфебрильная температура"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "Нарушение сердечной деятельности (ЭКГ)"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "Кровотечение"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "Боль"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наличие жидкого гноя и/или казеозно‑гнойных пробок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наличие жидкого гноя и/или казеозно‑гнойных пробок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наличие стойкой гиперемии краев небно‑язычных дужек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Отечность верхних отделов небных дужек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Сращение и спайки миндалин с дужками и треугольной складкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Увеличение и болезненность при пальпации регионарных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Субфебрильной температурой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "признаками тонзиллогенной интоксикации (слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "быстрая утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пониженная работоспособность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Периодическими болями в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "периодических болей в сердце",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Длительной субфебрильной температурой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Нарушением сердечной деятельности, регистрируемой на ЭКГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Наличие жидкого гноя и/или казеозно‑гнойных пробок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Наличие стойкой гиперемии краев небно‑язычных дужек; Отечность верхних отделов небных дужек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Субфебрильной температурой; признаки тонзиллогенной интоксикации (слабость",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_2",
+      "target": "diagnosis_3",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10 ... J35 — Хронические болезни миндалин и аденоидов; J35.0 — Хронический тонзиллит",
+      "properties": {}
+    }
+  ]
+}

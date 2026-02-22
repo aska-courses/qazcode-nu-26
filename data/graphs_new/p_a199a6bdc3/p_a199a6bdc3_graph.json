@@ -1,0 +1,362 @@
+{
+  "protocol_id": "p_a199a6bdc3",
+  "nodes": [
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_zheltyuha",
+      "type": "symptom",
+      "label": "Желтуха"
+    },
+    {
+      "id": "symptom_kozhnij_zud",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "symptom_poteria_massy_tela",
+      "type": "symptom",
+      "label": "Потеря массы тела"
+    },
+    {
+      "id": "symptom_snizhenie_appetita",
+      "type": "symptom",
+      "label": "Снижение аппетита"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_razlitaia_bol_verhnej_polovine_zhivota",
+      "type": "symptom",
+      "label": "Разлитая боль в верхней половине живота"
+    },
+    {
+      "id": "symptom_bol_pravoe_podreberie",
+      "type": "symptom",
+      "label": "Боль в правом подреберье"
+    },
+    {
+      "id": "symptom_bol_levoe_podreberie",
+      "type": "symptom",
+      "label": "Боль в левом подреберье"
+    },
+    {
+      "id": "symptom_bol_pravoe_podrebernoe_oblast",
+      "type": "symptom",
+      "label": "Боль в правой подреберной области"
+    },
+    {
+      "id": "symptom_bol_pravaya_lopatka",
+      "type": "symptom",
+      "label": "Боль в правой лопатке"
+    },
+    {
+      "id": "symptom_bol_pozvonochnike",
+      "type": "symptom",
+      "label": "Боль в позвоночнике"
+    },
+    {
+      "id": "symptom_bol_mezhlopatocnaya_oblast",
+      "type": "symptom",
+      "label": "Боль в межлопаточной области"
+    },
+    {
+      "id": "symptom_izmenenie_cveta_mukhi",
+      "type": "symptom",
+      "label": "Изменение цвета мочи"
+    },
+    {
+      "id": "symptom_obescvechenie_kala",
+      "type": "symptom",
+      "label": "Обесцвечивание кала"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_chuvstvo_tjazhesti_posle_edy",
+      "type": "symptom",
+      "label": "Чувство тяжести после еды"
+    },
+    {
+      "id": "symptom_izjoga",
+      "type": "symptom",
+      "label": "Изжога"
+    },
+    {
+      "id": "symptom_metiorizm",
+      "type": "symptom",
+      "label": "Метеоризм"
+    },
+    {
+      "id": "symptom_zapory",
+      "type": "symptom",
+      "label": "Запоры"
+    },
+    {
+      "id": "symptom_posos",
+      "type": "symptom",
+      "label": "Понос"
+    },
+    {
+      "id": "symptom_bradikardiya",
+      "type": "symptom",
+      "label": "Брадикардия"
+    },
+    {
+      "id": "symptom_golovnaya_bol",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_apatiya",
+      "type": "symptom",
+      "label": "Апатия"
+    },
+    {
+      "id": "symptom_povyshennaya_razdritelnost",
+      "type": "symptom",
+      "label": "Повышенная раздражительность"
+    },
+    {
+      "id": "symptom_bessonnitsa",
+      "type": "symptom",
+      "label": "Бессонница"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_utomlenie",
+      "type": "symptom",
+      "label": "Утомляемость"
+    },
+    {
+      "id": "diagnosis_rax_pzh",
+      "type": "diagnosis",
+      "label": "Рак поджелудочной железы",
+      "icd_code": "C25.0"
+    },
+    {
+      "id": "diagnosis_rax_tela_pzh",
+      "type": "diagnosis",
+      "label": "Рак тела поджелудочной железы",
+      "icd_code": "C25.1"
+    },
+    {
+      "id": "diagnosis_rax_hvosta_pzh",
+      "type": "diagnosis",
+      "label": "Рак хвоста поджелудочной железы",
+      "icd_code": "C25.2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Боль — самый частый симптом, наблюдается у 70–85% больных.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltyuha",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Желтуха – наиболее яркий симптом рака головки поджелудочной железы. Встречается у 70–80% больных.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnij_zud",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кожный зуд ... при желтухе ... встречается у большинства заболевших.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_massy_tela",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Потеря массы тела является одним из наиболее важных симптомов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_appetita",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Снижение аппетита встречается более чем у половины больных.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Характерными симптомами ... лихорадка.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pravoe_podreberie",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При раке головки боль ощущается в правом подреберье.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_levoe_podreberie",
+      "target": "diagnosis_rax_tela_pzh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рак тела и хвоста характеризуется болью в левом подреберье.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_levoe_podreberie",
+      "target": "diagnosis_rax_hvosta_pzh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рак тела и хвоста характеризуется болью в левом подреберье.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razlitaia_bol_verhnej_polovine_zhivota",
+      "target": "diagnosis_rax_pzh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Разлитая боль в верхней половине живота.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pozvonochnike",
+      "target": "symptom_bol_mezhlopatocnaya_oblast",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Иррадиирует в позвоночник или в межлопаточную область.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_mezhlopatocnaya_oblast",
+      "target": "symptom_bol_pravaya_lopatka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "реже — в правую лопатку.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltyuha",
+      "target": "symptom_izmenenie_cveta_mukhi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Желтуха сопровождается изменением цвета мочи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltyuha",
+      "target": "symptom_obescvechenie_kala",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Желтуха ... сопровождается ... обесцвечиванием кала.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnij_zud",
+      "target": "symptom_bessonnitsa",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кожный зуд ... вызывает бессонницу.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnij_zud",
+      "target": "symptom_povyshennaya_razdritelnost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Кожный зуд ... повышенную раздражительность.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_massy_tela",
+      "target": "symptom_slabost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Похудание ... сочетается с ... слабостью.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_massy_tela",
+      "target": "symptom_utomlenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Похудание ... утомляемостью.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "иногда — тошнотой и рвотой.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tjazhesti_posle_edy",
+      "target": "symptom_izjoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство тяжести после еды, изжога.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tjazhesti_posle_edy",
+      "target": "symptom_metiorizm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство тяжести после еды ... метеоризм.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tjazhesti_posle_edy",
+      "target": "symptom_zapory",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "часто ... запоры.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tjazhesti_posle_edy",
+      "target": "symptom_posos",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "изредка — поносы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_rax_tela_pzh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль сильнее при раке тела железы.",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "source": "symptom_pokrasnenie_kozhi",
+    "target": "symptom_oteok",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "I степень – покраснение кожи с четкими контурами, иногда на отёчной основе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obrazovanie_puzyrei",
+    "target": "symptom_obilnaya_ekssudaciya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "II степень – наличие тонкостенных пузырей ... Обильная экссудация сохраняется 2-4 суток",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obrazovanie_puzyrei",
+    "target": "symptom_bolevaya_chuvstvitelnist",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "III‑А степень – наличие толстостенных пузырей ... болевая чувствительность сохранена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otssutstvie_sosudistoy_reakcii",
+    "target": "symptom_bolevaya_chuvstvitelnist",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Сосудистая и болевая реакция отсутствуют",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistykh_obolochok",
+    "target": "symptom_koshchel_s_kopotoi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Кашель с копотью в мокроте – 22,6%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistykh_obolochok",
+    "target": "symptom_disfonija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Дисфония (осиплость голоса) – в 16,8%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistykh_obolochok",
+    "target": "symptom_stridor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Стридор (шумное дыхание) – в 6,9% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistykh_obolochok",
+    "target": "symptom_bronkhospazm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: бронхоспазм – в 6,9% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistykh_obolochok",
+    "target": "symptom_gipoksemija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: пониженый PaO2/FiO2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koshchel_s_kopotoi",
+    "target": "symptom_disfonija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Кашель с копотью и дисфония встречаются совместно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koshchel_s_kopotoi",
+    "target": "symptom_stridor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Кашель с копотью и стридор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koshchel_s_kopotoi",
+    "target": "symptom_bronkhospazm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Кашель с копотью и бронхоспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koshchel_s_kopotoi",
+    "target": "symptom_gipoksemija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Кашель с копотью и пониженный PaO2/FiO2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfonija",
+    "target": "symptom_stridor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Дисфония и стридор часто сопутствуют",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfonija",
+    "target": "symptom_bronkhospazm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Дисфония и бронхоспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfonija",
+    "target": "symptom_gipoksemija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Дисфония и пониженный PaO2/FiO2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "symptom_bronkhospazm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Стридор и бронхоспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "symptom_gipoksemija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Стридор и пониженный PaO2/FiO2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronkhospazm",
+    "target": "symptom_gipoksemija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Бронхоспазм и пониженный PaO2/FiO2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_gipoksemija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Одышка и пониженный PaO2/FiO2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_stridor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Одышка и стридор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_disfonija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Одышка и дисфония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_koshchel_s_kopotoi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Одышка и кашель с копотью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_giperemiya_slizistykh_obolochok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Критерии ТИТ: Одышка и гиперемия слизистых оболочек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_slizistykh_obolochok",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ожоги лица, шеи, полости рта – в 97% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koshchel_s_kopotoi",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кашель с копотью в мокроте – 22,6% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfonija",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Дисфония (осиплость голоса) – в 16,8% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stridor",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Стридор (шумное дыхание) – в 6,9% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronkhospazm",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Бронхоспазм – в 6,9% случаев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksemija",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пониженный PaO2/FiO2 – критерий ТИТ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "diagnosis_t20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одышка – один из признаков термоингаляционной травмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhguchie_boli",
+    "target": "diagnosis_t31_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жгучие боли в области воздействия термического агента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_t31_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Больные испытывают сильную боль и жжение в местах ожогов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obrazovanie_puzyrei",
+    "target": "diagnosis_t31_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "II степень – наличие тонкостенных пузырей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnaya_ekssudaciya",
+    "target": "diagnosis_t31_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "II степень – обильная экссудация сохраняется 2-4 суток",
+    "properties": {}
+  }
+]

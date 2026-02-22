@@ -1,0 +1,295 @@
+{
+  "protocol_id": "p_659cc18736",
+  "nodes": [
+    {
+      "id": "diagnosis_c11_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки – верхняя стенка (свод)",
+      "icd_code": "C11.0"
+    },
+    {
+      "id": "diagnosis_c11_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки – задняя стенка (аденоидная ткань, глоточная миндалина)",
+      "icd_code": "C11.1"
+    },
+    {
+      "id": "diagnosis_c11_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки – боковая стенка (ямки Розенмюллера, отверстия слуховой трубы, глоточный карман)",
+      "icd_code": "C11.2"
+    },
+    {
+      "id": "diagnosis_c11_3",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки – дно (поверхность мягкого неба, задний край носовых)",
+      "icd_code": "C11.3"
+    },
+    {
+      "id": "diagnosis_c11_8",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки – поражения, выходящие за пределы указанных локализаций",
+      "icd_code": "C11.8"
+    },
+    {
+      "id": "diagnosis_c11_9",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование носоглотки – неуточненное",
+      "icd_code": "C11.9"
+    },
+    {
+      "id": "symptom_presence_of_tumor_neck_or_nose",
+      "type": "symptom",
+      "label": "Наличие опухоли на шее или в носу"
+    },
+    {
+      "id": "symptom_sore_throat",
+      "type": "symptom",
+      "label": "Боль в горле"
+    },
+    {
+      "id": "symptom_nosebleed",
+      "type": "symptom",
+      "label": "Носовые кровотечения"
+    },
+    {
+      "id": "symptom_speech_disturbance",
+      "type": "symptom",
+      "label": "Нарушения речи"
+    },
+    {
+      "id": "symptom_breathing_difficulty",
+      "type": "symptom",
+      "label": "Нарушения дыхания"
+    },
+    {
+      "id": "symptom_tinnitus",
+      "type": "symptom",
+      "label": "Звон в ушах"
+    },
+    {
+      "id": "symptom_ear_pain",
+      "type": "symptom",
+      "label": "Боль в ушах"
+    },
+    {
+      "id": "symptom_hearing_loss",
+      "type": "symptom",
+      "label": "Нарушение слуха"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_lymph_node_enlargement_upper_neck",
+      "type": "symptom",
+      "label": "Увеличение лимфатических узлов в верхней трети шеи"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Выраженный болевой синдром"
+    },
+    {
+      "id": "symptom_tumor_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение из опухоли"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_presence_of_tumor_neck_or_nose",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: наличие опухоли на шее или в носу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sore_throat",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... боль в горле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nosebleed",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... носовые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_speech_disturbance",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... нарушения речи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_breathing_difficulty",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... нарушения дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tinnitus",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... звон в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_pain",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... боль в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hearing_loss",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... нарушение слуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... головные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymph_node_enlargement_upper_neck",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на: ... увеличение лимфатических узлов в верхней трети шеи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_c11_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для экстренной госпитализации: • выраженный болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumor_bleeding",
+      "target": "diagnosis_c11_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для экстренной госпитализации: • кровотечение из опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sore_throat",
+      "target": "symptom_nosebleed",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: ... боль в горле; ... носовые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sore_throat",
+      "target": "symptom_breathing_difficulty",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: ... боль в горле; ... нарушения дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tinnitus",
+      "target": "symptom_hearing_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: ... звон в ушах; ... нарушение слуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ear_pain",
+      "target": "symptom_tinnitus",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: ... боль в ушах; ... звон в ушах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: ... головные боли; Показания для экстренной госпитализации: • выраженный болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymph_node_enlargement_upper_neck",
+      "target": "symptom_tumor_bleeding",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: ... увеличение лимфатических узлов в верхней трети шеи; Показания для экстренной госпитализации: • кровотечение из опухоли",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c11_0",
+      "target": "diagnosis_c11_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Поражения носоглотки, выходящие за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c11_0",
+      "target": "diagnosis_c11_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Поражения носоглотки, выходящие за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c11_0",
+      "target": "diagnosis_c11_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Поражения носоглотки, выходящие за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c11_1",
+      "target": "diagnosis_c11_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Поражения носоглотки, выходящие за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c11_1",
+      "target": "diagnosis_c11_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Поражения носоглотки, выходящие за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c11_2",
+      "target": "diagnosis_c11_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Поражения носоглотки, выходящие за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    }
+  ]
+}

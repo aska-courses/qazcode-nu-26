@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в горле;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • повышение температуры (субфебрильная или фебрильная, до 2-4 недель, иногда больше);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • головная боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sweating",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • потливость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • утомляемость (синдром «хронической усталости»);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • увеличение лимфоузлов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_obstruction",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • затрудненное носовое дыхание;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боли в суставах, мышцах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боли в суставах, мышцах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "сыпь, чаще пятнисто-папулезного характера (у 10% больных, а при лечении ампициллином – у 80%);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonsillitis",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • ангина;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • спленомегалия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • гепатомегалия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adenoiditis",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • аденоидит;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periorbital_edema",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • периорбитальный отек;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palate_exanthema",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • высыпания на небе;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_labial_herpes",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • лабиальный/половой герпес;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_genital_herpes",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • лабиальный/половой герпес;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_infectious_mononucleosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • желтуха (непостоянный признак).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "symptom_tonsillitis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • боль в горле; ... Физикальное обследование: • ангина;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "symptom_hepatomegaly",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • спленомегалия; • гепатомегалия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_obstruction",
+    "target": "symptom_adenoiditis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • затрудненное носовое дыхание; ... Физикальное обследование: • аденоидит;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ebv_mononucleosis",
+    "target": "diagnosis_cmv_mononucleosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "По этиологии: вирус Эпштейна-Барр (ВЭБ); цитомегаловирус;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ebv_mononucleosis",
+    "target": "diagnosis_other_infectious_mononucleosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "По этиологии: вирус Эпштейна-Барр (ВЭБ); цитомегаловирус; ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cmv_mononucleosis",
+    "target": "diagnosis_other_infectious_mononucleosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "По этиологии: вирус Эпштейна-Барр (ВЭБ); цитомегаловирус; ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ebv_mononucleosis",
+    "target": "diagnosis_unspecified_infectious_mononucleosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Классификация: ... инфекционный мононуклеоз неуточнённый;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_cmv_mononucleosis",
+    "target": "diagnosis_unspecified_infectious_mononucleosis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Классификация: ... инфекционный мононуклеоз неуточнённый;",
+    "properties": {}
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_fokalnye_pristupy",
+    "target": "diagnosis_g40_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.0 Локализованная (фокальная) (парциальная) идиопатическая эпилепсия ... с судорожными приступами с фокальным началом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_g40_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.0 ... с судорожными приступами с фокальным началом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fokalnye_pristupy",
+    "target": "diagnosis_g40_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.1 Локализованная (фокальная) (парциальная) симптоматическая эпилепсия ... с простыми парциальными приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prostye_parcialnye_pristupy",
+    "target": "diagnosis_g40_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.1 ... с простыми парциальными приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fokalnye_pristupy",
+    "target": "diagnosis_g40_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.2 ... с комплексными парциальными судорожными приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slozhnye_parcialnye_pristupy",
+    "target": "diagnosis_g40_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.2 ... с комплексными парциальными судорожными приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonikicheskie_pristupy",
+    "target": "diagnosis_g40_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тонико‑клонные приступы – типичный признак генерализованной эпилепсии (G40.3)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_klochnye_pristupy",
+    "target": "diagnosis_g40_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Клонические судороги – типичный признак генерализованной эпилепсии (G40.3)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonikicheskie_pristupy",
+    "target": "diagnosis_g40_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.6 Приступы grand mal неуточненные (с малыми приступами [petit mal] или без них)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_klochnye_pristupy",
+    "target": "diagnosis_g40_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.6 Приступы grand mal ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absansy",
+    "target": "diagnosis_g40_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.6 ... с малыми приступами [petit mal] ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absansy",
+    "target": "diagnosis_g40_7",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "G40.7 Малые приступы [petit mal] неуточненные без приступов grand mal",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fokalnye_pristupy",
+    "target": "symptom_sudorogi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "G40.0 ... с судорожными приступами с фокальным началом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prostye_parcialnye_pristupy",
+    "target": "symptom_fokalnye_pristupy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "G40.1 ... с простыми парциальными приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slozhnye_parcialnye_pristupy",
+    "target": "symptom_fokalnye_pristupy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "G40.2 ... с комплексными парциальными судорожными приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonikicheskie_pristupy",
+    "target": "symptom_klochnye_pristupy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тонико‑клонные приступы включают как тоническую, так и клоническую фазу",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_0",
+    "target": "diagnosis_g40_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Локализованная (фокальная) (парциальная) ... (G40.0, G40.1, G40.2) – общий классификационный блок",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_0",
+    "target": "diagnosis_g40_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Локализованная (фокальная) (парциальная) ... (G40.0, G40.1, G40.2)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_1",
+    "target": "diagnosis_g40_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Локализованная (фокальная) (парциальная) ... (G40.0, G40.1, G40.2)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_3",
+    "target": "diagnosis_g40_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Генерализованная ... (G40.3, G40.4, G40.5) – общий классификационный блок",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_3",
+    "target": "diagnosis_g40_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Генерализованная ... (G40.3, G40.4, G40.5)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_4",
+    "target": "diagnosis_g40_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Генерализованная ... (G40.3, G40.4, G40.5)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40_6",
+    "target": "diagnosis_g40_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Приступы grand mal ... и Малые приступы [petit mal] ... (G40.6, G40.7) – соседние коды в классификации",
+    "properties": {}
+  }
+]

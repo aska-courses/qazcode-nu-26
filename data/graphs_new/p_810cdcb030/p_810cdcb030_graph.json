@@ -1,0 +1,537 @@
+{
+  "protocol_id": "p_810cdcb030",
+  "nodes": [
+    {
+      "id": "diagnosis_uretrit",
+      "type": "diagnosis",
+      "label": "Уретрит",
+      "icd_code": "L63.8"
+    },
+    {
+      "id": "diagnosis_cervitsit",
+      "type": "diagnosis",
+      "label": "Цервицит",
+      "icd_code": "L63.8"
+    },
+    {
+      "id": "diagnosis_vaginit",
+      "type": "diagnosis",
+      "label": "Вагинит",
+      "icd_code": "L63.8"
+    },
+    {
+      "id": "diagnosis_mikoplasmennaia_infektsia",
+      "type": "diagnosis",
+      "label": "Микоплазменная инфекция урогенитальная",
+      "icd_code": "L63.8"
+    },
+    {
+      "id": "diagnosis_vzomt",
+      "type": "diagnosis",
+      "label": "Воспалительные заболевания органов малого таза",
+      "icd_code": "L63.8"
+    },
+    {
+      "id": "symptom_slizistognoinye_vydele_niz",
+      "type": "symptom",
+      "label": "Слизисто‑гнойные выделения из половых путей"
+    },
+    {
+      "id": "symptom_krovotochivost_posle_akta",
+      "type": "symptom",
+      "label": "Кровоточивость после полового акта"
+    },
+    {
+      "id": "symptom_dispareunia",
+      "type": "symptom",
+      "label": "Болезненность во время половых контактов (диспареуния)"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "Зуд"
+    },
+    {
+      "id": "symptom_zhzhenie",
+      "type": "symptom",
+      "label": "Жжение"
+    },
+    {
+      "id": "symptom_dizuriya",
+      "type": "symptom",
+      "label": "Болезненность при мочеиспускании (дизурия)"
+    },
+    {
+      "id": "symptom_diskomfort_niz_zhivot",
+      "type": "symptom",
+      "label": "Дискомфорт или боль в нижней части живота"
+    },
+    {
+      "id": "symptom_giperemiya_otek",
+      "type": "symptom",
+      "label": "Гиперемия и отёчность слизистой оболочки наружного отверстия мочеиспускательного канала"
+    },
+    {
+      "id": "symptom_infiltratsiya_uret",
+      "type": "symptom",
+      "label": "Инфильтрация стенок уретры"
+    },
+    {
+      "id": "symptom_slizistognoinye_uretralnoe_otdelenie",
+      "type": "symptom",
+      "label": "Слизисто‑гнойное уретральное отделяемое"
+    },
+    {
+      "id": "symptom_rykhlost_otek_shcheki",
+      "type": "symptom",
+      "label": "Рыхлость и отёк шейки матки"
+    },
+    {
+      "id": "symptom_slizistognoinye_iz_cervikalnogo_kanala",
+      "type": "symptom",
+      "label": "Слизисто‑гнойные выделения из цервикального канала"
+    },
+    {
+      "id": "symptom_urotrnye_neobilnye_vydele_muzh",
+      "type": "symptom",
+      "label": "Слизисто‑гнойные или слизистые необильные выделения из уретры (мужчины)"
+    },
+    {
+      "id": "symptom_uchaennoe_mocheispuskaniye",
+      "type": "symptom",
+      "label": "Учащённое мочеиспускание"
+    },
+    {
+      "id": "symptom_urgentnye_pozivy",
+      "type": "symptom",
+      "label": "Ургентные позывы на мочеиспускание"
+    },
+    {
+      "id": "symptom_boli_v_promezhnosti",
+      "type": "symptom",
+      "label": "Боли в промежности с иррадиацией в прямую кишку"
+    },
+    {
+      "id": "symptom_giperemiya_vulvy",
+      "type": "symptom",
+      "label": "Гиперемия слизистой оболочки вульвы"
+    },
+    {
+      "id": "symptom_giperemiya_vlaginiva",
+      "type": "symptom",
+      "label": "Гиперемия слизистой оболочки влагалища"
+    },
+    {
+      "id": "symptom_slizistognoinye_vydele_zadnyh_svodov",
+      "type": "symptom",
+      "label": "Слизисто‑гнойные выделения в заднем и боковых сводах влагалища"
+    },
+    {
+      "id": "symptom_zud_i_zhzhenie_naruzhnye_polovyye_organy_detey",
+      "type": "symptom",
+      "label": "Зуд и/или жжение в области наружных половых органов (дети)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_slizistognoinye_vydele_niz",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_vydele_niz",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_vydele_niz",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_vydele_niz",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_posle_akta",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "2) кровоточивость после полового акта или между менструациями;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_posle_akta",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "2) кровоточивость после полового акта или между менструациями;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_posle_akta",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "2) кровоточивость после полового акта или между менструациями;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispareunia",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "3) болезненность во время половых контактов (диспареуния);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispareunia",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "3) болезненность во время половых контактов (диспареуния);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispareunia",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "3) болезненность во время половых контактов (диспареуния);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispareunia",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "3) болезненность во время половых контактов (диспареуния);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diskomfort_niz_zhivot",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diskomfort_niz_zhivot",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diskomfort_niz_zhivot",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diskomfort_niz_zhivot",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия), дискомфорт или боль в нижней части живота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_otek",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "5) гиперемия и отечность слизистой оболочки наружного отверстия мочеиспускательного канала, инфильтрация стенок уретры, слизисто‑гнойное уретральное отделяемое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_uret",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "5) гиперемия и отечность слизистой оболочки наружного отверстия мочеиспускательного канала, инфильтрация стенок уретры, слизисто‑гнойное уретральное отделяемое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_uretralnoe_otdelenie",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "5) гиперемия и отечность слизистой оболочки наружного отверстия мочеиспускательного канала, инфильтрация стенок уретры, слизисто‑гнойное уретральное отделяемое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rykhlost_otek_shcheki",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "6) рыхлость и отек шейки матки, слизисто‑гнойные выделения из цервикального канала.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_iz_cervikalnogo_kanala",
+      "target": "diagnosis_cervitsit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "6) рыхлость и отек шейки матки, слизисто‑гнойные выделения из цервикального канала.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urotrnye_neobilnye_vydele_muzh",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные или слизистые необильные выделения из уретры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchaennoe_mocheispuskaniye",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "5) учащенное мочеиспускание и ургентные позывы на мочеиспускание (при проксимальном распространении воспалительного процесса);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urgentnye_pozivy",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "5) учащенное мочеиспускание и ургентные позывы на мочеиспускание (при проксимальном распространении воспалительного процесса);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_promezhnosti",
+      "target": "diagnosis_uretrit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "6) боли в промежности с иррадиацией в прямую кишку;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_vulvy",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гиперемия слизистой оболочки вульвы, влагалища;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_vlaginiva",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гиперемия слизистой оболочки вульвы, влагалища;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_vydele_zadnyh_svodov",
+      "target": "diagnosis_vaginit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Слизисто‑гнойные выделения в заднем и боковых сводах влагалища и из цервикального канала;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_i_zhzhenie_naruzhnye_polovyye_organy_detey",
+      "target": "diagnosis_vzomt",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные выделения из половых путей; 2) зуд и/или жжение в области наружных половых органов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_i_zhzhenie_naruzhnye_polovyye_organy_detey",
+      "target": "diagnosis_mikoplasmennaia_infektsia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "1) слизисто‑гнойные выделения из половых путей; 2) зуд и/или жжение в области наружных половых органов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_zhzhenie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_dizuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie",
+      "target": "symptom_dizuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "4) зуд, жжение, болезненность при мочеиспускании (дизурия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_otek",
+      "target": "symptom_infiltratsiya_uret",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "5) гиперемия и отечность ... инфильтрация стенок уретры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slizistognoinye_uretralnoe_otdelenie",
+      "target": "symptom_infiltratsiya_uret",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "5) гиперемия и отечность ... инфильтрация стенок уретры, слизисто‑гнойное уретральное отделяемое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rykhlost_otek_shcheki",
+      "target": "symptom_slizistognoinye_iz_cervikalnogo_kanala",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "6) рыхлость и отек шейки матки, слизисто‑гнойные выделения из цервикального канала",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_uretrit",
+      "target": "diagnosis_cervitsit",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "неосложнённую (уретрит у мужчин и уретрит и/или цервицит у женщин)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_cervitsit",
+      "target": "diagnosis_vzomt",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "осложнённую (развитие воспалительных заболеваний органов малого таза)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_uretrit",
+      "target": "diagnosis_vzomt",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "осложнённую (развитие воспалительных заболеваний органов малого таза)",
+      "properties": {}
+    }
+  ]
+}

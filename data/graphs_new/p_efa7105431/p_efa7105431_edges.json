@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "схваткообразная боль за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphagia",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дисфагия твердой и жидкой пищей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regurgitation",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "регургитация «пищевая рвота»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_food_retention",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "задержка пищи в пищеводе (за грудиной) с последующим проваливанием её в желудок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_globus_hystericus",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "globus hystericus, т.е. чувство образующего «комка в горле»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дефицит массы тела (вплоть до кахексии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипо- и/или диспротеинемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение креатинина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperuremia",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение креатинина, мочевины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипогликемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acid_base_disorder",
+    "target": "diagnosis_achalasia_kardia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_dysphagia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • схваткообразная боль за грудиной; • дисфагия твердой и жидкой пищей; • регургитация «пищевая рвота»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_regurgitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • схваткообразная боль за грудиной; • дисфагия твердой и жидкой пищей; • регургитация «пищевая рвота»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphagia",
+    "target": "symptom_regurgitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • схваткообразная боль за грудиной; • дисфагия твердой и жидкой пищей; • регургитация «пищевая рвота»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемия или гемоконцентрация, лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "symptom_hypercreatinemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "symptom_hyperuremia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "symptom_hypoglycemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "symptom_acid_base_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "symptom_hyperuremia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "symptom_hypoglycemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "symptom_acid_base_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperuremia",
+    "target": "symptom_hypoglycemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperuremia",
+    "target": "symptom_acid_base_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia",
+    "target": "symptom_acid_base_disorder",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипо- и/или диспротеинемия, увеличение креатинина, мочевины, гипогликемии, нарушение КЩС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_food_retention",
+    "target": "symptom_globus_hystericus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "задержка пищи в пищеводе ... более половины пациентов ... с диагнозом «истерический комок» (globus hystericus), т.е. чувство образующего «комка в горле»",
+    "properties": {}
+  }
+]

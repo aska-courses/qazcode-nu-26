@@ -1,0 +1,709 @@
+{
+  "protocol_id": "p_abfa6a8ee1",
+  "nodes": [
+    {
+      "id": "diagnosis_q90",
+      "type": "diagnosis",
+      "label": "Синдром Дауна",
+      "icd_code": "Q90"
+    },
+    {
+      "id": "diagnosis_q91",
+      "type": "diagnosis",
+      "label": "Синдром Эдвардса и синдром Патау",
+      "icd_code": "Q91"
+    },
+    {
+      "id": "diagnosis_q92",
+      "type": "diagnosis",
+      "label": "Другие трисомии и частичные трисомии аутосом, не классифицированные в других рубриках",
+      "icd_code": "Q92"
+    },
+    {
+      "id": "diagnosis_q93",
+      "type": "diagnosis",
+      "label": "Моносомии и утраты части аутосом, не классифицированные в других рубриках",
+      "icd_code": "Q93"
+    },
+    {
+      "id": "diagnosis_q95",
+      "type": "diagnosis",
+      "label": "Сбалансированные перестройки и структурные маркеры, не классифицированные в других рубриках",
+      "icd_code": "Q95"
+    },
+    {
+      "id": "diagnosis_q96",
+      "type": "diagnosis",
+      "label": "Синдром Тернера",
+      "icd_code": "Q96"
+    },
+    {
+      "id": "diagnosis_q97",
+      "type": "diagnosis",
+      "label": "Другие аномалии половых хромосом, женский фенотип, не классифицированные в других рубриках",
+      "icd_code": "Q97"
+    },
+    {
+      "id": "diagnosis_q98",
+      "type": "diagnosis",
+      "label": "Другие аномалии половых хромосом, мужской фенотип, не классифицированные в других рубриках",
+      "icd_code": "Q98"
+    },
+    {
+      "id": "diagnosis_q99",
+      "type": "diagnosis",
+      "label": "Другие аномалии хромосом, не классифицированные в других рубриках",
+      "icd_code": "Q99"
+    },
+    {
+      "id": "diagnosis_g71_0",
+      "type": "diagnosis",
+      "label": "Мышечная дистрофия Дюшенна или Беккера",
+      "icd_code": "G71.0"
+    },
+    {
+      "id": "diagnosis_g12_0",
+      "type": "diagnosis",
+      "label": "Детская спинальная мышечная атрофия, I тип (Верднига)",
+      "icd_code": "G12.0"
+    },
+    {
+      "id": "diagnosis_e84",
+      "type": "diagnosis",
+      "label": "Муковисцидоз",
+      "icd_code": "E84"
+    },
+    {
+      "id": "diagnosis_e70_0",
+      "type": "diagnosis",
+      "label": "Фенилкетонурия",
+      "icd_code": "E70.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q91",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q91 Синдром Эдвардса и синдром Патау ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q92",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q92 Другие трисомии и частичные трисомии аутосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q93",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q93 Моносомии и утраты части аутосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q95",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q95 Сбалансированные перестройки и структурные маркеры ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q96",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q96 Синдром Тернера ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q97",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q97 Другие аномалии половых хромосом, женский фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна G71.0 Мышечная дистрофия Дюшенна или Беккера ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна G12.0 Детская спинальная мышечная атрофия, I тип (Верднига) ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q90",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q90 Синдром Дауна E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q92",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q92 Другие трисомии ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q93",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q93 Моносомии ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q95",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q95 Сбалансированные перестройки ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q96",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q96 Синдром Тернера ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q97",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q97 Другие аномалии половых хромосом, женский фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q91",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q91 Синдром Эдвардса и синдром Патау E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_q93",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... Q93 Моносомии ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_q95",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... Q95 Сбалансированные перестройки ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_q96",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... Q96 Синдром Тернера ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_q97",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... Q97 Другие аномалии половых хромосом, женский фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q92",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q92 Другие трисомии ... E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_q95",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... Q95 Сбалансированные перестройки ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_q96",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... Q96 Синдром Тернера ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_q97",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... Q97 Другие аномалии половых хромосом, женский фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q93",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q93 Моносомии ... E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_q96",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... Q96 Синдром Тернера ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_q97",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... Q97 Другие аномалии половых хромосом, женский фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q95",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q95 Сбалансированные перестройки ... E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_q97",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера Q97 Другие аномалии половых хромосом, женский фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q96",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q96 Синдром Тернера E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q97",
+      "target": "diagnosis_q98",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q97 Другие аномалии половых хромосом, женский фенотип Q98 Другие аномалии половых хромосом, мужской фенотип ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q97",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q97 Другие аномалии половых хромосом, женский фенотип Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q97",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q97 Другие аномалии половых хромосом, женский фенотип G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q97",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q97 Другие аномалии половых хромосом, женский фенотип G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q97",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q97 Другие аномалии половых хромосом, женский фенотип E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q97",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q97 Другие аномалии половых хромосом, женский фенотип E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q98",
+      "target": "diagnosis_q99",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q98 Другие аномалии половых хромосом, мужской фенотип Q99 Другие аномалии хромосом ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q98",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q98 Другие аномалии половых хромосом, мужской фенотип G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q98",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q98 Другие аномалии половых хромосом, мужской фенотип G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q98",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q98 Другие аномалии половых хромосом, мужской фенотип E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q98",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q98 Другие аномалии половых хромосом, мужской фенотип E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q99",
+      "target": "diagnosis_g71_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q99 Другие аномалии хромосом G71.0 Мышечная дистрофия Дюшенна ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q99",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q99 Другие аномалии хромосом G12.0 Детская спинальная мышечная атрофия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q99",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q99 Другие аномалии хромосом E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_q99",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Q99 Другие аномалии хромосом E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g71_0",
+      "target": "diagnosis_g12_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "при известном семейном носительстве патологичных генов некоторых моногенных заболеваний, таких как Спинальная мышечная амиотрофия, миодистрофия Дюшенна-Беккера и др.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g71_0",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: G71.0 Мышечная дистрофия Дюшенна или Беккера E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g71_0",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: G71.0 Мышечная дистрофия Дюшенна или Беккера E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g12_0",
+      "target": "diagnosis_e84",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: G12.0 Детская спинальная мышечная атрофия, I тип (Верднига) E84 Муковисцидоз ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g12_0",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: G12.0 Детская спинальная мышечная атрофия, I тип (Верднига) E70.0 Фенилкетонурия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e84",
+      "target": "diagnosis_e70_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: E84 Муковисцидоз E70.0 Фенилкетонурия ...",
+      "properties": {}
+    }
+  ]
+}

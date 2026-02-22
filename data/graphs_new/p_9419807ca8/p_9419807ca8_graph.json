@@ -1,0 +1,400 @@
+{
+  "protocol_id": "p_9419807ca8",
+  "nodes": [
+    {
+      "id": "symptom_ustalost",
+      "type": "symptom",
+      "label": "усталость"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_bol_v_sustavah",
+      "type": "symptom",
+      "label": "боль в суставах"
+    },
+    {
+      "id": "symptom_grippopodobnye_simptomy",
+      "type": "symptom",
+      "label": "гриппоподобные симптомы"
+    },
+    {
+      "id": "symptom_narushenie_sna",
+      "type": "symptom",
+      "label": "нарушение сна"
+    },
+    {
+      "id": "symptom_narushenie_appetita",
+      "type": "symptom",
+      "label": "нарушение аппетита"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_snizhenie_rabotosposobnosti",
+      "type": "symptom",
+      "label": "снижение работоспособности"
+    },
+    {
+      "id": "symptom_meteorizm",
+      "type": "symptom",
+      "label": "метеоризм"
+    },
+    {
+      "id": "symptom_rasstroystvo_stula",
+      "type": "symptom",
+      "label": "расстройство стула"
+    },
+    {
+      "id": "symptom_tyazhest_v_pravom_podrebere",
+      "type": "symptom",
+      "label": "тяжесть и распирание в правом подреберье"
+    },
+    {
+      "id": "symptom_depressiya",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_zheltushnost",
+      "type": "symptom",
+      "label": "желтушность кожных покровов и склер"
+    },
+    {
+      "id": "symptom_potemnienie_mochi",
+      "type": "symptom",
+      "label": "потемнение мочи"
+    },
+    {
+      "id": "symptom_obescvechenie_kala",
+      "type": "symptom",
+      "label": "обесцвечивание кала"
+    },
+    {
+      "id": "symptom_kozhnoy_zud",
+      "type": "symptom",
+      "label": "кожный зуд"
+    },
+    {
+      "id": "symptom_epizodicheskie_nosovye_krovotecheniya",
+      "type": "symptom",
+      "label": "эпизодические носовые кровотечения"
+    },
+    {
+      "id": "symptom_sinyachki_na_ude",
+      "type": "symptom",
+      "label": "синячки на месте удара"
+    },
+    {
+      "id": "symptom_poliartalgii",
+      "type": "symptom",
+      "label": "полиартралгии"
+    },
+    {
+      "id": "symptom_mialgiya",
+      "type": "symptom",
+      "label": "миалгия"
+    },
+    {
+      "id": "symptom_vaskulit_kozhi",
+      "type": "symptom",
+      "label": "васкулиты кожи"
+    },
+    {
+      "id": "symptom_gipertomegaliya",
+      "type": "symptom",
+      "label": "увеличение и уплотнение печени (гепатомегалия)"
+    },
+    {
+      "id": "symptom_splenomegaliya",
+      "type": "symptom",
+      "label": "увеличение селезенки (спленомегалия)"
+    },
+    {
+      "id": "symptom_aszit",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_perifericheskie_oteki",
+      "type": "symptom",
+      "label": "периферические отеки"
+    },
+    {
+      "id": "symptom_teleangiektazii",
+      "type": "symptom",
+      "label": "сосудистые звездочки (телеангиоэктазии)"
+    },
+    {
+      "id": "symptom_palmarnaia_eritema",
+      "type": "symptom",
+      "label": "пальмарная эритема"
+    },
+    {
+      "id": "symptom_varikoznye_veny",
+      "type": "symptom",
+      "label": "расширение вен пищевода и желудка (варикозные вены)"
+    },
+    {
+      "id": "symptom_narushenie_kognitivnyh_funkcij",
+      "type": "symptom",
+      "label": "нарушение когнитивных функций"
+    },
+    {
+      "id": "diagnosis_hv_b",
+      "type": "diagnosis",
+      "label": "Хронический вирусный гепатит В",
+      "icd_code": "В18"
+    },
+    {
+      "id": "diagnosis_hv_c",
+      "type": "diagnosis",
+      "label": "Хронический вирусный гепатит С",
+      "icd_code": "В18.2"
+    },
+    {
+      "id": "diagnosis_hvg_other_specified",
+      "type": "diagnosis",
+      "label": "Другие уточненные вирусные гепатиты",
+      "icd_code": "В18.8"
+    },
+    {
+      "id": "diagnosis_hvg_other_unspecified",
+      "type": "diagnosis",
+      "label": "Другие неуточненные вирусные гепатиты",
+      "icd_code": "В18.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_ustalost",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "усталость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в суставах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grippopodobnye_simptomy",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гриппоподобные симптомы;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_sna",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение сна и аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_rabotosposobnosti",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение работоспособности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meteorizm",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метеоризм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasstroystvo_stula",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расстройство стула;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tyazhest_v_pravom_podrebere",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжесть и распирание в правом подреберье;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depressiya",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "депрессия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltushnost",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "желтушность кожных покровов, склер (редко);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_potemnienie_mochi",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "потемнение мочи и обесцвечивание кала (редко);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obescvechenie_kala",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "потемнение мочи и обесцвечивание кала (редко);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnoy_zud",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "кожный зуд (редко);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epizodicheskie_nosovye_krovotecheniya",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эпизодические носовые кровотечения;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sinyachki_na_ude",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«синячки» на месте удара;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poliartalgii",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "полиартралгии (редко);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mialgiya",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миалгия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaskulit_kozhi",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "васкулиты кожи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertomegaliya",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение и уплотнение печени (гепатомегалия);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение селезенки (спленомегалия);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aszit",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асцит;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perifericheskie_oteki",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "периферические отеки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_teleangiektazii",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сосудистые звездочки (телеангиоэктазии);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palmarnaia_eritema",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пальмарная эритема;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_varikoznye_veny",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение вен по ходу пищевода и желудка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_kognitivnyh_funkcij",
+      "target": "diagnosis_hv_c",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение когнитивных функций.",
+      "properties": {}
+    }
+  ]
+}

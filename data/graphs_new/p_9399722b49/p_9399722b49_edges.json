@@ -1,0 +1,298 @@
+[
+  {
+    "source": "symptom_nasal_breathing_difficulty",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на затруднение носового дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_discharge",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение из носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_throat_irritation",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "першение и «царапания» в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hoarseness",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "осиплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphonia",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "(дисфония, афония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aphonia",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "(дисфония, афония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasopharyngeal_burning",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость и жжение в носоглотке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "развитие острого токсического конъюнктивита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eye_irritation",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "резь в глазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eyelid_spasm",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "блефароспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иногда с рвотой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosebleed",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Возможны носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_manifestations",
+    "target": "diagnosis_j68_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожные проявления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_breathing_difficulty",
+    "target": "symptom_nasal_discharge",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на затруднение носового дыхания, выделение из носа, першение и «царапания» в горле, сухой кашель, осиплость голоса (дисфония, афония), сухость и жжение в носоглотке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_throat_irritation",
+    "target": "symptom_dry_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: на затруднение носового дыхания, выделение из носа, першение и «царапания» в горле, сухой кашель, осиплость голоса (дисфония, афония), сухость и жжение в носоглотке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hoarseness",
+    "target": "symptom_dysphonia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: ... осиплость голоса (дисфония, афония), ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dysphonia",
+    "target": "symptom_aphonia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "(дисфония, афония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasopharyngeal_burning",
+    "target": "symptom_throat_irritation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: ... сухость и жжение в носоглотке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "symptom_eye_irritation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "развитие острого токсического конъюнктивита (резь в глазах, слезотечение, блефароспазм).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eye_irritation",
+    "target": "symptom_tearing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "(резь в глазах, слезотечение)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "symptom_eyelid_spasm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "(слезотечение, блефароспазм)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_dry_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кашель, сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_foreign_body_sensation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "чувство инородного тела, одышка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j68_2",
+    "target": "diagnosis_j68_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j68_2",
+    "target": "diagnosis_j68_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j68_2",
+    "target": "diagnosis_j68_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j68_2",
+    "target": "diagnosis_j68_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j00",
+    "target": "diagnosis_j02_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j04_0",
+    "target": "diagnosis_j04_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j31_0",
+    "target": "diagnosis_j31_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j31_0",
+    "target": "diagnosis_j31_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j37_0",
+    "target": "diagnosis_j37_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10:",
+    "properties": {}
+  }
+]

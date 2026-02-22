@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышением температуры, локальной или генерализованной лимфаденопатией ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышением температуры, локальной или генерализованной лимфаденопатией ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль ... при остром и хроническом токсоплазмозе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myocarditis",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "миокардит ... возможны ... миокардит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chorioretinitis",
+    "target": "diagnosis_toxoplasmosis_oculopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "хориоретинит ... проявляются хориоретинитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_keratosclerosis",
+    "target": "diagnosis_toxoplasmosis_oculopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кератосклеритом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_keratouveitis",
+    "target": "diagnosis_toxoplasmosis_oculopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кератоувеитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningoencephalitis",
+    "target": "diagnosis_toxoplasmosis_meningoencephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "менингоэнцефалит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalitis",
+    "target": "diagnosis_toxoplasmosis_meningoencephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "энцефалит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_toxoplasmosis_hepatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_toxoplasmosis_hepatitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение селезенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение стула (диарея)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "миалгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_lung_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumonia",
+    "target": "diagnosis_lung_toxoplasmosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пневмония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_toxoplasmosis_meningoencephalitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_disturbance",
+    "target": "diagnosis_toxoplasmosis_oculopathy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrual_disorder",
+    "target": "diagnosis_toxoplasmosis_other_organs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расстройством менструального цикла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_impotence",
+    "target": "diagnosis_toxoplasmosis_other_organs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "импотенцией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adrenal_insufficiency",
+    "target": "diagnosis_toxoplasmosis_other_organs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вторичной надпочечниковой недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyroid_dysfunction",
+    "target": "diagnosis_toxoplasmosis_other_organs",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижением функции щитовидной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_lymphadenopathy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышением температуры, локальной или генерализованной лимфаденопатией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головная боль ... повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "миалгия ... повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сыпь ... повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalitis",
+    "target": "symptom_meningoencephalitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "энцефалит, менингоэнцефалит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_toxoplasmosis",
+    "target": "diagnosis_toxoplasmosis_oculopathy",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код МКБ Наименование заболеваний и состояний B58 Токсоплазмоз B58.0 Токсоплазмозная окулопатия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_toxoplasmosis",
+    "target": "diagnosis_toxoplasmosis_hepatitis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код МКБ Наименование заболеваний и состояний B58 Токсоплазмоз B58.1 Токсоплазмозный гепатит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_toxoplasmosis",
+    "target": "diagnosis_toxoplasmosis_meningoencephalitis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код МКБ Наименование заболеваний и состояний B58 Токсоплазмоз B58.2 Токсоплазмозный менингоэнцефалит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_toxoplasmosis",
+    "target": "diagnosis_lung_toxoplasmosis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код МКБ Наименование заболеваний и состояний B58 Токсоплазмоз B58.3 Легочный токсоплазмоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_toxoplasmosis",
+    "target": "diagnosis_toxoplasmosis_other_organs",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код МКБ Наименование заболеваний и состояний B58 Токсоплазмоз B58.8 Токсоплазмоз с поражением других органов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_toxoplasmosis",
+    "target": "diagnosis_toxoplasmosis_unspecified",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код МКБ Наименование заболеваний и состояний B58 Токсоплазмоз B58.9 Токсоплазмоз неуточненный",
+    "properties": {}
+  }
+]

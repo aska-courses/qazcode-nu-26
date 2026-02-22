@@ -1,0 +1,386 @@
+[
+  {
+    "source": "symptom_acute_respiratory_insufficiency",
+    "target": "diag_j96_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Острая респираторная недостаточность ... J96.0 – острая респирaторнaя недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_cardiac_insufficiency",
+    "target": "diag_i50",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Острая сердечная недостаточность ... I50 – Сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_arrest",
+    "target": "diag_i46_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Остановка сердца ... I46.0 – Остановка сердца с восстановлением сердечной деятельности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_respiratory_insufficiency",
+    "target": "symptom_hypoxemia_50",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "PaO < 50 mmHg x 4 часа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_respiratory_insufficiency",
+    "target": "symptom_acidosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "pH < 7,2 в течении 2 часов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_respiratory_insufficiency",
+    "target": "symptom_hypercapnia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "PaCO2 >55-60 мм.рт.ст.",
+    "properties": {}
+  },
+  {
+    "source": "diag_c38",
+    "target": "diag_i05",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код по МКБ-10: C38 – … I05 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i05",
+    "target": "diag_i06",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I05 – … I06 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i06",
+    "target": "diag_i07",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I06 – … I07 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i07",
+    "target": "diag_i08",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I07 – … I08 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i08",
+    "target": "diag_i09",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I08 – … I09 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i09",
+    "target": "diag_i10",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I09 – … I10 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i10",
+    "target": "diag_i13",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I10 – … I13 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i13",
+    "target": "diag_i24",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I13 – … I24 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i24",
+    "target": "diag_i25",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I24 – … I25 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i25",
+    "target": "diag_i34",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I25 – … I34 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i34",
+    "target": "diag_i35",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I34 – … I35 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i35",
+    "target": "diag_i36",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I35 – … I36 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i36",
+    "target": "diag_i41",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I36 – … I41 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i41",
+    "target": "diag_i42",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I41 – … I42 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i42",
+    "target": "diag_i43",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I42 – … I43 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i43",
+    "target": "diag_i46_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I43 – … I46.0 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i46_0",
+    "target": "diag_i48",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I46.0 – … I48 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i48",
+    "target": "diag_i49",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I48 – … I49 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i49",
+    "target": "diag_i50",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I49 – … I50 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i50",
+    "target": "diag_i51",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I50 – … I51 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i51",
+    "target": "diag_i52",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I51 – … I52 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i52",
+    "target": "diag_i97",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I52 – … I97 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i97",
+    "target": "diag_i97_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I97 – … I97.0 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i97_0",
+    "target": "diag_i97_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I97.0 – … I97.1 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i97_1",
+    "target": "diag_i99",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I97.1 – … I99 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_i99",
+    "target": "diag_j10",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I99 – … J10 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j10",
+    "target": "diag_j18",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J10 – … J18 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j18",
+    "target": "diag_j20",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J18 – … J20 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j20",
+    "target": "diag_j22",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J20 – … J22 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j22",
+    "target": "diag_j80",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J22 – … J80 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j80",
+    "target": "diag_j84",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J80 – … J84 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j84",
+    "target": "diag_j96_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J84 – … J96.0 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j96_0",
+    "target": "diag_j96_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J96.0 – … J96.1 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j96_1",
+    "target": "diag_j96_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J96.1 – … J96.9 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_j96_9",
+    "target": "diag_k44",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "J96.9 – … K44 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_k44",
+    "target": "diag_o74",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "K44 – … O74 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_o74",
+    "target": "diag_o75_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "O74 – … O75.0 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_o75_0",
+    "target": "diag_o75_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "O75.0 – … O75.1 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_o75_1",
+    "target": "diag_o75_4",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "O75.1 – … O75.4 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_o75_4",
+    "target": "diag_p24_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "O75.4 – … P24.0 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_p24_0",
+    "target": "diag_q20",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "P24.0 – … Q20 – …",
+    "properties": {}
+  },
+  {
+    "source": "diag_q20",
+    "target": "diag_q21",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q20 – … Q21 – …",
+    "properties": {}
+  }
+]

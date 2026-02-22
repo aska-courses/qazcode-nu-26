@@ -1,0 +1,394 @@
+{
+  "protocol_id": "p_056d1490b1",
+  "nodes": [
+    {
+      "id": "diagnosis_c54",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование тела матки",
+      "icd_code": "C54"
+    },
+    {
+      "id": "diagnosis_c54_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование перешейка тела матки",
+      "icd_code": "C54.0"
+    },
+    {
+      "id": "diagnosis_c54_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование эндометрия тела матки",
+      "icd_code": "C54.1"
+    },
+    {
+      "id": "diagnosis_c54_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование миометрия тела матки",
+      "icd_code": "C54.2"
+    },
+    {
+      "id": "diagnosis_c54_3",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование дна тела матки",
+      "icd_code": "C54.3"
+    },
+    {
+      "id": "diagnosis_c54_8",
+      "type": "diagnosis",
+      "label": "Поражение тела матки, выходящее за пределы одной и более вышеуказанных локализаций",
+      "icd_code": "C54.8"
+    },
+    {
+      "id": "diagnosis_c54_9",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование тела матки неуточненной локализации",
+      "icd_code": "C54.9"
+    },
+    {
+      "id": "diagnosis_c55",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование матки неуточненной локализации",
+      "icd_code": "C55"
+    },
+    {
+      "id": "symptom_akiklicheskie_krovyanistye_vydeleniya",
+      "type": "symptom",
+      "label": "Ациклические кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_vodyanistye_vydeleniya",
+      "type": "symptom",
+      "label": "Водянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_gnoevidnye_vydeleniya",
+      "type": "symptom",
+      "label": "Гноевидные выделения из половых путей"
+    },
+    {
+      "id": "symptom_krovozhdenie_menopauza",
+      "type": "symptom",
+      "label": "Кровотечения на фоне менопаузы"
+    },
+    {
+      "id": "symptom_akiklicheskie_matochniye_krovozhdeniya",
+      "type": "symptom",
+      "label": "Ациклические маточные кровотечения"
+    },
+    {
+      "id": "symptom_ojireniye",
+      "type": "symptom",
+      "label": "Ожирение"
+    },
+    {
+      "id": "symptom_saharniy_diabet",
+      "type": "symptom",
+      "label": "Сахарный диабет"
+    },
+    {
+      "id": "symptom_gipertenzia",
+      "type": "symptom",
+      "label": "Гипертоническая болезнь"
+    },
+    {
+      "id": "symptom_infiltiratsiya_vlaginiva",
+      "type": "symptom",
+      "label": "Инфильтрация влагалища"
+    },
+    {
+      "id": "symptom_metastaticheskie_ochagi_vlaginiva",
+      "type": "symptom",
+      "label": "Метастатические очаги на стенках влагалища"
+    },
+    {
+      "id": "symptom_patologicheskie_vydeleniya",
+      "type": "symptom",
+      "label": "Патологические выделения (гнойные, кровянистые)"
+    },
+    {
+      "id": "symptom_uvelichenie_razmerov_matki",
+      "type": "symptom",
+      "label": "Увеличение размеров матки"
+    },
+    {
+      "id": "symptom_izmenenie_formy_matki",
+      "type": "symptom",
+      "label": "Изменение формы матки"
+    },
+    {
+      "id": "symptom_infiltiraty_v_parametriyah",
+      "type": "symptom",
+      "label": "Инфильтраты в параметриях"
+    },
+    {
+      "id": "symptom_infiltiratsiya_perednego_zadnego_svoda",
+      "type": "symptom",
+      "label": "Инфильтрация переднего и заднего влагалищного свода"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_akiklicheskie_krovyanistye_vydeleniya",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения из половых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vodyanistye_vydeleniya",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения из половых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydeleniya",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения из половых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovozhdenie_menopauza",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечения на фоне менопаузы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltiratsiya_vlaginiva",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "осмотр влагалища и шейки матки ... наличие инфильтрации влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastaticheskie_ochagi_vlaginiva",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие ... метастатических очагов на стенках влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskie_vydeleniya",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие патологических выделений (гнойные, кровянистые)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_razmerov_matki",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "размеры ... (Увеличение размеров матки)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_formy_matki",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение формы матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltiraty_v_parametriyah",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфильтраты в параметриях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltiratsiya_perednego_zadnego_svoda",
+      "target": "diagnosis_c54",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфильтрация переднего и заднего влагалищного свода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_akiklicheskie_krovyanistye_vydeleniya",
+      "target": "symptom_vodyanistye_vydeleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_akiklicheskie_krovyanistye_vydeleniya",
+      "target": "symptom_gnoevidnye_vydeleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vodyanistye_vydeleniya",
+      "target": "symptom_gnoevidnye_vydeleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые, водянистые, гноевидные выделения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_akiklicheskie_krovyanistye_vydeleniya",
+      "target": "symptom_krovozhdenie_menopauza",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые ... кровотечения на фоне менопаузы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vodyanistye_vydeleniya",
+      "target": "symptom_krovozhdenie_menopauza",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые ... кровотечения на фоне менопаузы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydeleniya",
+      "target": "symptom_krovozhdenie_menopauza",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на ациклические кровянистые ... кровотечения на фоне менопаузы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltiratsiya_vlaginiva",
+      "target": "symptom_metastaticheskie_ochagi_vlaginiva",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие инфильтрации влагалища, метастатических очагов на стенках влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltiratsiya_vlaginiva",
+      "target": "symptom_patologicheskie_vydeleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие инфильтрации влагалища ... наличие патологических выделений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastaticheskie_ochagi_vlaginiva",
+      "target": "symptom_patologicheskie_vydeleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "метастатических очагов на стенках влагалища ... патологических выделений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_razmerov_matki",
+      "target": "symptom_izmenenie_formy_matki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "размеры и форма матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_razmerov_matki",
+      "target": "symptom_infiltiraty_v_parametriyah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "размеры матки ... инфильтраты в параметриях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_formy_matki",
+      "target": "symptom_infiltiraty_v_parametriyah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменение формы матки ... инфильтраты в параметриях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltiraty_v_parametriyah",
+      "target": "symptom_infiltiratsiya_perednego_zadnego_svoda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "инфильтраты в параметриях, инфильтрация переднего и заднего влагалищного свода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_razmerov_matki",
+      "target": "symptom_infiltiratsiya_perednego_zadnego_svoda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "размеры матки ... инфильтрация переднего и заднего влагалищного свода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_formy_matki",
+      "target": "symptom_infiltiratsiya_perednego_zadnego_svoda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменение формы матки ... инфильтрация переднего и заднего влагалищного свода",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c54_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 Злокачественное новообразование тела матки C54.0 Злокачественное новообразование перешейка тела матки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c54_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 Злокачественное новообразование тела матки C54.1 Злокачественное новообразование эндометрия тела матки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c54_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 Злокачественное новообразование тела матки C54.2 Злокачественное новообразование миометрия тела матки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c54_3",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 Злокачественное новообразование тела матки C54.3 Злокачественное новообразование дна тела матки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c54_8",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 Злокачественное новообразование тела матки C54.8 Поражение тела матки, выходящее за пределы одной и более вышеуказанных локализаций",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c54_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 Злокачественное новообразование тела матки C54.9 Злокачественное новообразование тела матки неуточненной локализации",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c54",
+      "target": "diagnosis_c55",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Коды МКБ-10: C54 ... C55 Злокачественное новообразование матки неуточненной локализации",
+      "properties": {}
+    }
+  ]
+}

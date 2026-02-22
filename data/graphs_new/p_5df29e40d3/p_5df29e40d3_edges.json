@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острый боль, покраснение, ... зуд ... неловкости в десне ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokrasnenie_desny",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острый боль, покраснение, ... зуд ... неловкости в десне ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острый боль, покраснение, ... зуд ... неловкости в десне ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nelovkost_v_desne",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острый боль, покраснение, ... зуд ... неловкости в десне ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovochivost",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Острый боль, покраснение, ... зуд ... неловкости в десне ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_desny",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слизистая десны ярко гиперемирована и отечна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otichnost",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слизистая десны ярко гиперемирована и отечна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovochivost",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоточат даже при легком касании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zubny_nalet",
+    "target": "diagnosis_ostryi_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на зубах обильные отложения мягкого зубного налета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovochivost",
+    "target": "diagnosis_khronicheskii_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Хронический ... кровоточивость ... неприятные ощущения в десне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nelovkost_v_desne",
+    "target": "diagnosis_khronicheskii_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Хронический ... кровоточивость ... неприятные ощущения в десне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zubny_nalet",
+    "target": "diagnosis_khronicheskii_gingivit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на зубах определяются зубные отложения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_pokrasnenie_desny",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Острый боль, покраснение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_zud",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Острый боль, ... зуд ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_krovochivost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Острый боль, ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokrasnenie_desny",
+    "target": "symptom_zud",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Острый боль, покраснение, ... зуд ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud",
+    "target": "symptom_krovochivost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Острый ... зуд ... кровоточивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovochivost",
+    "target": "symptom_nelovkost_v_desne",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Хронический ... кровоточивость ... неприятные ощущения в десне",
+    "properties": {}
+  }
+]

@@ -1,0 +1,349 @@
+{
+  "protocol_id": "p_c57404704c",
+  "nodes": [
+    {
+      "id": "diagnosis_autoimmune_hepatitis",
+      "type": "diagnosis",
+      "label": "аутоиммунный гепатит",
+      "icd_code": "K75.4"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_epigastric_discomfort",
+      "type": "symptom",
+      "label": "дискомфорт в эпигастрии"
+    },
+    {
+      "id": "symptom_skin_itch",
+      "type": "symptom",
+      "label": "кожный зуд"
+    },
+    {
+      "id": "symptom_anorexia",
+      "type": "symptom",
+      "label": "анорексия"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_myalgia",
+      "type": "symptom",
+      "label": "миалгия"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "диарея"
+    },
+    {
+      "id": "symptom_kushinoid",
+      "type": "symptom",
+      "label": "кушингоид"
+    },
+    {
+      "id": "symptom_arthralgia",
+      "type": "symptom",
+      "label": "артралгия"
+    },
+    {
+      "id": "symptom_acne",
+      "type": "symptom",
+      "label": "акне"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_hirsutism",
+      "type": "symptom",
+      "label": "гирсутизм"
+    },
+    {
+      "id": "symptom_amenorrhea",
+      "type": "symptom",
+      "label": "аменорея"
+    },
+    {
+      "id": "symptom_pleuritic_chest_pain",
+      "type": "symptom",
+      "label": "боль в груди при плеврите"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "желтуха"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_telangiectasia",
+      "type": "symptom",
+      "label": "телеангиоэктазы"
+    },
+    {
+      "id": "symptom_ascites",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_encephalopathy",
+      "type": "symptom",
+      "label": "энцефалопатия"
+    },
+    {
+      "id": "symptom_hypersplenism",
+      "type": "symptom",
+      "label": "гиперспленизм"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_right_upper_quadrant_pain",
+      "type": "symptom",
+      "label": "боль в правом подреберье"
+    },
+    {
+      "id": "symptom_eosinophilia",
+      "type": "symptom",
+      "label": "эозинофилия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_discomfort",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дискомфорт в эпигастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_itch",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легкий кожный зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anorexia",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анорексия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_myalgia",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миалгия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diarrhea",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диарея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kushinoid",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кушингоид",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артралгии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acne",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "акне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hirsutism",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гирсутизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amenorrhea",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аменорея",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pleuritic_chest_pain",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в груди при плеврите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "желтуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_telangiectasia",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "телеангиоэктазы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ascites",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асцит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_encephalopathy",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "энцефалопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypersplenism",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперспленизм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_right_upper_quadrant_pain",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в правом подреберье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eosinophilia",
+      "target": "diagnosis_autoimmune_hepatitis",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "эозинофилия (редко)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "symptom_myalgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "артралгии, миалгии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выраженная желтуха, иногда лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_splenomegaly",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гепатомегалия; спленомегалия",
+      "properties": {}
+    }
+  ]
+}

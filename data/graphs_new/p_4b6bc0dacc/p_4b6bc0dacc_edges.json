@@ -1,0 +1,74 @@
+[
+  {
+    "source": "symptom_slezotechie",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение - при трихиазе ... при энтропионе ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetoboyazn",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "светобоязнь – при трихиазе и энтропионе ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_zreniya",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение зрения – за счет поражения роговой оболочки и слезостояния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nespravnij_rost_resnic",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неправильный рост ресниц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neravnomernost_shiriny_glaznoj_shcheli",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неравномерности ширины глазной щели обоих глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chuvstvo_inorodnogo_tela",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чувство инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya",
+    "target": "diagnosis_entropion_trihaiz_veka",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_entropion_trihaiz_veka",
+    "target": "diagnosis_ektropion_veka",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Энтропион и трихиаз века, эктропион века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slezotechie",
+    "target": "symptom_svetoboyazn",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слезотечение - при трихиазе ...; светобоязнь – при трихиазе и энтропионе ...",
+    "properties": {}
+  }
+]

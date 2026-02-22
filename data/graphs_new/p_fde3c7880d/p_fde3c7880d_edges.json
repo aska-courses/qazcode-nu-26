@@ -1,0 +1,314 @@
+[
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stool_delay",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gas_delay",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_colicky_pain",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "особенность при обтурационной ОКН- схваткообразные боли.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constant_pain",
+    "target": "diagnosis_k56_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При паралитической ... боли постоянные, распирающие, умеренной интенсивности.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_distending_pain",
+    "target": "diagnosis_k56_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При паралитической ... боли постоянные, распирающие, умеренной интенсивности.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis",
+    "target": "diagnosis_k56_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при паралитической ... наступает парез.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dead_silence",
+    "target": "diagnosis_k56_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при развитии пареза ... «мёртвая тишина».",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intense_pain",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "при странгуляционной ОКН - боли бывают чрезвычайно интенсивными, вплоть до картины шока.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "при странгуляционной ОКН - боли бывают чрезвычайно интенсивными, вплоть до картины шока.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_valya_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "симптом Валя – является ранним симптомом ОКН.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shiman_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Шимана – ... от правого подреберья к левой подвздошной области.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shlange_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Шланге – более отчетливо определятся при медленно развивающейся обтурационной непроходимости.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tevenar_sign",
+    "target": "diagnosis_k56_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "симптом Тевенара – ... особенно характерен для заворота тонкого кишечника.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skljaro_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптом Склярова – указывает на наличие перерастянутой паретичной петли кишки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_beyli_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Бейли – выслушивание дыхательных шумов и сердечных тонов через живот.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spasokukov_vilms_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Спасокукоцкого‑Вильмса – шум падающей капли.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cage_manteifel_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Цаге‑Мантейфеля – малый объём воды в прямой кишке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obukhov_hospital_sign",
+    "target": "diagnosis_k56",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Обуховской больницы – ограниченный ввод воды в прямую кишку.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_schetkin_blyumb_sign",
+    "target": "diagnosis_k56",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "симптом Щеткина‑Блюмберга отрицательный.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_stool_delay",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_gas_delay",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_stool_delay",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "symptom_gas_delay",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stool_delay",
+    "target": "symptom_gas_delay",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль, рвота, задержка стула и газов - наиболее достоверная триада.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_constant_pain",
+    "target": "symptom_distending_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При паралитической ... боли постоянные, распирающие, умеренной интенсивности.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intense_pain",
+    "target": "symptom_shock",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "при странгуляционной ОКН - боли бывают чрезвычайно интенсивными, вплоть до картины шока.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paralysis",
+    "target": "symptom_dead_silence",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при развитии пареза ... «мёртвая тишина».",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К56 Паралитический илеус и непроходимость кишечника без грыжи К56.0 Паралитический илеус.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К56.1 Инвагинация кишечника.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К56.2 Заворот кишок.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К56.3 Илеус, вызванный желчным камнем.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "K56.4 Другой вид закрытия просвета кишечника.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_5",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "K56.5 Кишечные сращения (спайки) с непроходимостью.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_6",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "K56.6 Другая и неуточнённая кишечная непроходимость.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k56_7",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "K56.7 Илеус неуточненный.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k56",
+    "target": "diagnosis_k91_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "K56 ... K91.3 Послеоперационная кишечная непроходимость.",
+    "properties": {}
+  }
+]

@@ -1,0 +1,342 @@
+{
+  "protocol_id": "p_072e2c0efc",
+  "nodes": [
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "повышенная утомляемость"
+    },
+    {
+      "id": "symptom_nausea_vomiting",
+      "type": "symptom",
+      "label": "тошнота/рвота"
+    },
+    {
+      "id": "symptom_arthralgia",
+      "type": "symptom",
+      "label": "артралгии"
+    },
+    {
+      "id": "symptom_myalgia",
+      "type": "symptom",
+      "label": "миалгии"
+    },
+    {
+      "id": "symptom_pruritus",
+      "type": "symptom",
+      "label": "кожный зуд"
+    },
+    {
+      "id": "symptom_rash",
+      "type": "symptom",
+      "label": "сыпь"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "отеки"
+    },
+    {
+      "id": "symptom_anorexia",
+      "type": "symptom",
+      "label": "анорексия"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "абдоминалгия"
+    },
+    {
+      "id": "symptom_amenorrhea",
+      "type": "symptom",
+      "label": "аменорея"
+    },
+    {
+      "id": "symptom_hirsutism",
+      "type": "symptom",
+      "label": "гирсутизм"
+    },
+    {
+      "id": "symptom_alopecia",
+      "type": "symptom",
+      "label": "алопеция"
+    },
+    {
+      "id": "symptom_cushingoid",
+      "type": "symptom",
+      "label": "кушингоид"
+    },
+    {
+      "id": "symptom_acne",
+      "type": "symptom",
+      "label": "акне"
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "желтуха"
+    },
+    {
+      "id": "symptom_telangiectasia",
+      "type": "symptom",
+      "label": "телеангиоэктазии"
+    },
+    {
+      "id": "symptom_ascites",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_encephalopathy",
+      "type": "symptom",
+      "label": "энцефалопатия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "diagnosis_other_liver_diseases",
+      "type": "diagnosis",
+      "label": "Другие болезни печени",
+      "icd_code": "K76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_fatigue",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_nausea_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_arthralgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_myalgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_pruritus",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_rash",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_edema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_nausea_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_arthralgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_myalgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_vomiting",
+      "target": "symptom_arthralgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea_vomiting",
+      "target": "symptom_myalgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arthralgia",
+      "target": "symptom_myalgia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  слабость;  повышенная утомляемость;  тошнота/рвота;  артралгии;  миалгии;  кожный зуд;  сыпь;  отеки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anorexia",
+      "target": "symptom_abdominal_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anorexia",
+      "target": "symptom_amenorrhea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_amenorrhea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amenorrhea",
+      "target": "symptom_hirsutism",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hirsutism",
+      "target": "symptom_alopecia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alopecia",
+      "target": "symptom_cushingoid",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cushingoid",
+      "target": "symptom_acne",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Анамнез:  анорексия;  абдоминалгия;  аменорея;  гирсутизм;  алопеция;  кушингоид;  акне.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "symptom_telangiectasia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр:  желтуха (69%);  телеангиоэктазии (58%); Асцит (20%); Энцефалопатия (14%). Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "symptom_ascites",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр:  желтуха (69%);  телеангиоэктазии (58%); Асцит (20%); Энцефалопатия (14%). Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "symptom_encephalopathy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр:  желтуха (69%);  телеангиоэктазии (58%); Асцит (20%); Энцефалопатия (14%). Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_telangiectasia",
+      "target": "symptom_ascites",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр:  желтуха (69%);  телеангиоэктазии (58%); Асцит (20%); Энцефалопатия (14%). Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_telangiectasia",
+      "target": "symptom_encephalopathy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр:  желтуха (69%);  телеангиоэктазии (58%); Асцит (20%); Энцефалопатия (14%). Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ascites",
+      "target": "symptom_encephalopathy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр:  желтуха (69%);  телеангиоэктазии (58%); Асцит (20%); Энцефалопатия (14%). Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_encephalopathy",
+      "target": "symptom_hepatomegaly",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "symptom_splenomegaly",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Пальпация:  гепатомегалия (83%);  спленомегалия (32%).",
+      "properties": {}
+    }
+  ]
+}

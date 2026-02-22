@@ -1,0 +1,157 @@
+{
+  "protocol_id": "p_d1ba2936a3",
+  "nodes": [
+    {
+      "id": "diagnosis_deformation_fingers",
+      "type": "diagnosis",
+      "label": "Деформация пальцев",
+      "icd_code": "M20.0"
+    },
+    {
+      "id": "diagnosis_hallux_valgus",
+      "type": "diagnosis",
+      "label": "Наружное искривление большого пальца (hallux valgus)",
+      "icd_code": "M20.1"
+    },
+    {
+      "id": "diagnosis_rigid_big_toe",
+      "type": "diagnosis",
+      "label": "Ригидный большой палец стопы",
+      "icd_code": "M20.2"
+    },
+    {
+      "id": "diagnosis_other_big_toe_deformations",
+      "type": "diagnosis",
+      "label": "Другие деформации большого пальца стопы (приобретенные)",
+      "icd_code": "M20.3"
+    },
+    {
+      "id": "diagnosis_other_toe_deformations",
+      "type": "diagnosis",
+      "label": "Другие деформации пальца стопы (приобретенные)",
+      "icd_code": "M20.4"
+    },
+    {
+      "id": "diagnosis_unspecified_acquired_toe_deformations",
+      "type": "diagnosis",
+      "label": "Приобретенные деформации пальца стопы неуточненные",
+      "icd_code": "M20.5"
+    },
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_discomfort_wearing_shoes",
+      "type": "symptom",
+      "label": "Дискомфорт при ношении обуви"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_deformation_fingers",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_hallux_valgus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_rigid_big_toe",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_other_big_toe_deformations",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_other_toe_deformations",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_unspecified_acquired_toe_deformations",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_wearing_shoes",
+      "target": "diagnosis_deformation_fingers",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_wearing_shoes",
+      "target": "diagnosis_hallux_valgus",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_wearing_shoes",
+      "target": "diagnosis_rigid_big_toe",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_wearing_shoes",
+      "target": "diagnosis_other_big_toe_deformations",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_wearing_shoes",
+      "target": "diagnosis_other_toe_deformations",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_wearing_shoes",
+      "target": "diagnosis_unspecified_acquired_toe_deformations",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "symptom_discomfort_wearing_shoes",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли, дискомфорт при ношении обуви",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... при осмотре — бледность или цианоз, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... при осмотре — бледность или цианоз, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_sosudov_shchi",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... при осмотре — набухание и пульсация сосудов шеи, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_grudnoi_kletki",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... деформация грудной клетки по типу сердечного горба, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_pulsa",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... изменения АД и характеристик периферического пульса, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_verkhush_tolchka",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... изменение характеристик верхушечного толчка при гипертрофии/дилатации левого желудочка, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shumy_serdca",
+    "target": "diagnosis_q20",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... появление характерных для каждого порока шумов ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_q21_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сопровождающиеся цианозом - ... тетрада Фалло",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "diagnosis_q21_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "одышка при физической нагрузке ... в сочетании с ВПС (в том числе тетрадой Фалло)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "diagnosis_q21_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при осмотре — бледность или цианоз ... тетрада Фалло",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utomlenie",
+    "target": "diagnosis_q21_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "утомляемость ... в клинических проявлениях ВПС, в том числе тетрады Фалло",
+    "properties": {}
+  },
+  {
+    "source": "symptom_davjashchie_boli_za_grudinoi",
+    "target": "diagnosis_q21_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые респираторные заболевания в сочетании с давящими болями за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_resp_zabolevaniya",
+    "target": "diagnosis_q21_3",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые респираторные заболевания в сочетании с давящими болями за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_odyskha",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_cianoz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... при осмотре — бледность или цианоз, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_cianoz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кардиальный синдром (жалобы на боли в области сердца, одышку, ... при осмотре — бледность или цианоз, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyskha",
+    "target": "symptom_utomlenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клинические проявления ВПС: одышка, утомляемость, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_blednost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при осмотре — бледность или цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_davjashchie_boli_za_grudinoi",
+    "target": "symptom_chastye_resp_zabolevaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "частые респираторные заболевания в сочетании с давящими болями за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q21_3",
+    "target": "diagnosis_q21",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Тетрада Фалло — подвид Врожденных аномалий перегородки сердца (diagnosis_q21)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q25_0",
+    "target": "diagnosis_q21_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "не сопровождающиеся ранним цианозом - открытый артериальный проток, ... 3 дефекты межпредсердной и межжелудочковой перегородок, ... тетрада Фалло",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q22_6",
+    "target": "diagnosis_q21_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "анномалия Эбштейна ... тетрада Фалло (в группе III пороков с гиповолемией малого круга кровообращения)",
+    "properties": {}
+  }
+]

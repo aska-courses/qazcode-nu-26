@@ -1,0 +1,50 @@
+[
+  {
+    "source": "symptom_dvoenie",
+    "target": "diagnosis_paralytic_strabismus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "призматическая коррекция при паралитических (паретических) косоглазиях … устранения двоения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "target": "diagnosis_paralytic_strabismus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "призматическая коррекция при паралитических (паретических) косоглазиях … устранения … вынужденного положения головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvoenie",
+    "target": "diagnosis_other_strabismus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к плановой госпитализации: наличие двоения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "target": "diagnosis_other_strabismus",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания к плановой госпитализации: наличие вынужденного положения головы (глазной тортиколлис)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvoenie",
+    "target": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "призматическая коррекция при паралитических (паретических) косоглазиях … устранения двоения и вынужденного положения головы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_paralytic_strabismus",
+    "target": "diagnosis_other_strabismus",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Н 49 –Паралитическое косоглазие Н 50.0-Другие формы косоглазия",
+    "properties": {}
+  }
+]

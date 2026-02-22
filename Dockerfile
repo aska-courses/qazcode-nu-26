@@ -2,15 +2,32 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+# system deps
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential curl git \
+ && rm -rf /var/lib/apt/lists/*
 
-COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev
+# install uv
+RUN pip install --no-cache-dir uv
 
-COPY src/ ./src/
+# copy dependency files first (for cache)
+COPY pyproject.toml uv.lock* requirements.txt* ./
 
-ENV PYTHONUNBUFFERED=1
+ENV UV_PROJECT_ENVIRONMENT=/opt/venv
 
-EXPOSE 8000
+ENV UV_PYTHON=python3.12
 
-CMD ["uv", "run", "uvicorn", "src.mock_server:app", "--host", "0.0.0.0", "--port", "8000"]
+# install python deps via uv
+RUN uv sync --no-dev
+
+# install additional requirements.txt if present
+RUN if [ -f requirements.txt ]; then uv pip install --python /opt/venv/bin/python -r requirements.txt; fi
+
+# copy source code
+COPY . .
+
+# env vars
+ENV GRAPH_DIR=./data/graphs_new
+ENV CHROMA_DIR=./chroma_db
+ENV DEVICE=CPU
+ENV TOP_N=3

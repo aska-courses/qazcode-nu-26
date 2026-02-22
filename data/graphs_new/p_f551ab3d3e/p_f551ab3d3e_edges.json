@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_symmetrical_cosmetic_defects",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: множественные симметричные косметические дефекты, связанные с нарушением цвета и структуры коронок зубов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_striated_form",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "штриховая форма – при визуальном осмотре ... выявляются слабовыраженные меловидные полоски в виде тонких штрихов. Гладкость и блеск эмали сохраняется.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spotted_form",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "пятнистая форма – при визуальном осмотре ... обнаруживаются меловидные, светло‑коричневые и темно‑коричневые пятна. Гладкость и блеск эмали сохраняется. При зондировании зонд скользит. Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mottled_striated_form",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "меловидно‑крапчатая форма – ... обнаруживаются поверхностные дефекты эмали ... Эмаль теряет блеск и прозрачность. Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mottled_striated_form",
+    "target": "diagnosis_endemic_fluorotic_mottling_k00_30",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "меловидно‑крапчатая форма – ... обнаруживаются поверхностные дефекты эмали ... Эмаль теряет блеск и прозрачность.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erosive_form",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "эрозивная форма – ... выявляются дефекты эмали в виде эрозий. Отмечается выраженное стирание тканей зубов. Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_destructive_form",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "деструктивная форма – ... значительная деформация формы коронок зубов за счет повышенной хрупкости и истирания тканей зуба. Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painless_percussion",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_slides",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "при зондировании по поверхности дефектов зонд скользит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_catches",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "При зондировании происходит застревание зонда.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_matte_enamel",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Эмаль теряет блеск и прозрачность.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_roughness_probe",
+    "target": "diagnosis_fluorosis_k00_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Шероховатость при зондировании.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painless_percussion",
+    "target": "symptom_striated_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "штриховая форма … Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painless_percussion",
+    "target": "symptom_spotted_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пятнистая форма … Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painless_percussion",
+    "target": "symptom_mottled_striated_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "меловидно‑крапчатая форма … Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painless_percussion",
+    "target": "symptom_erosive_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "эрозивная форма … Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painless_percussion",
+    "target": "symptom_destructive_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "деструктивная форма … Перкуссия зубов безболезненная.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_slides",
+    "target": "symptom_striated_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "штриховая форма … при зондировании зонд скользит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_slides",
+    "target": "symptom_spotted_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пятнистая форма … При зондировании зонд скользит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_slides",
+    "target": "symptom_mottled_striated_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "меловидно‑крапчатая форма … при зондировании по поверхности дефектов зонд скользит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_slides",
+    "target": "symptom_erosive_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "эрозивная форма … при зондировании по поверхности дефектов зонд скользит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_probe_catches",
+    "target": "symptom_destructive_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "деструктивная форма … При зондировании происходит застревание зонда.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_matte_enamel",
+    "target": "symptom_mottled_striated_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "меловидно‑крапчатая форма … Эмаль теряет блеск и прозрачность.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_roughness_probe",
+    "target": "symptom_destructive_form",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "деструктивная форма … Шероховатость при зондировании.",
+    "properties": {}
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_absence_filled_bladder",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Отсутствие заполненного мочевого пузыря считается основной симптом экстрофии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbosacral_separation",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Она сопровождается расхождением лонных костей.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_complete_epispadias",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "и, как правило, полной эписпадией.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cryptorchidism",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Экстрофия мочевого пузыря сочетается с ... крипторхизм ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anorectal_fistula",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Экстрофия мочевого пузыря сочетается с ... анальные свищи ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rectal_prolapse",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Экстрофия мочевого пузыря сочетается с ... выпадение прямой кишки.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microphallus",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "уменьшенный пенис – 50%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_umbilical_cord",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "низкое отхождение пуповины – 30%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wide_pelvic_bones",
+    "target": "diagnosis_exstrophy_bladder",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "широкое стояние тазовых костей – 18%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cryptorchidism",
+    "target": "symptom_anorectal_fistula",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крипторхизм, анальные свищи, ... выпадение прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cryptorchidism",
+    "target": "symptom_rectal_prolapse",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крипторхизм, анальные свищи, ... выпадение прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anorectal_fistula",
+    "target": "symptom_rectal_prolapse",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крипторхизм, анальные свищи, ... выпадение прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microphallus",
+    "target": "symptom_low_umbilical_cord",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "уменьшенный пенис – 50%, низкое отхождение пуповины – 30%, широкое стояние тазовых костей – 18%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_microphallus",
+    "target": "symptom_wide_pelvic_bones",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "уменьшенный пенис – 50%, низкое отхождение пуповины – 30%, широкое стояние тазовых костей – 18%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_umbilical_cord",
+    "target": "symptom_wide_pelvic_bones",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "уменьшенный пенис – 50%, низкое отхождение пуповины – 30%, широкое стояние тазовых костей – 18%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbosacral_separation",
+    "target": "symptom_complete_epispadias",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "расхождением лонных костей, и, как правило, полной эписпадией",
+    "properties": {}
+  }
+]

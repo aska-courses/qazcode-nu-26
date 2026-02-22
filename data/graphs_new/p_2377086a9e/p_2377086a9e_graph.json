@@ -1,0 +1,269 @@
+{
+  "protocol_id": "p_2377086a9e",
+  "nodes": [
+    {
+      "id": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "diagnosis",
+      "label": "Преждевременная отслойка нормально расположенной плаценты",
+      "icd_code": "O45"
+    },
+    {
+      "id": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty_s_narusheniem_svertivaniya",
+      "type": "diagnosis",
+      "label": "Преждевременная отслойка нормально расположенной плаценты с нарушением свертываемости",
+      "icd_code": "O45.0"
+    },
+    {
+      "id": "diagnosis_drugaya_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "diagnosis",
+      "label": "Другая преждевременная отслойка нормально расположенной плаценты",
+      "icd_code": "O45.8"
+    },
+    {
+      "id": "diagnosis_prezhdevremennaya_otsloyka_neutochnennaya",
+      "type": "diagnosis",
+      "label": "Преждевременная отслойка неуточненная",
+      "icd_code": "O45.9"
+    },
+    {
+      "id": "symptom_krovotechenie_iz_polovyh_putey",
+      "type": "symptom",
+      "label": "Кровотечение из половых путей"
+    },
+    {
+      "id": "symptom_bol_v_zhivote",
+      "type": "symptom",
+      "label": "Боль в животе"
+    },
+    {
+      "id": "symptom_gipertonus_i_boleznennost_matki",
+      "type": "symptom",
+      "label": "Гипертонус и болезненность матки"
+    },
+    {
+      "id": "symptom_tahikardia_ploda",
+      "type": "symptom",
+      "label": "Тахикардия плода"
+    },
+    {
+      "id": "symptom_bradikardia_ploda",
+      "type": "symptom",
+      "label": "Брадикардия плода"
+    },
+    {
+      "id": "symptom_absentsiya_serdtsebnogo_rihtma_ploda",
+      "type": "symptom",
+      "label": "Отсутствие сердцебиения плода"
+    },
+    {
+      "id": "symptom_tetania_matki",
+      "type": "symptom",
+      "label": "Тетания матки"
+    },
+    {
+      "id": "symptom_bol_v_proekcii_placenty",
+      "type": "symptom",
+      "label": "Острая боль в проекции плаценты"
+    },
+    {
+      "id": "symptom_bol_v_spine_i_poyasnice",
+      "type": "symptom",
+      "label": "Боль в спине и пояснице"
+    },
+    {
+      "id": "symptom_bol_imituiruyushchaya_pochechnuyu_koliku",
+      "type": "symptom",
+      "label": "Боль, имитирующая почечную колику"
+    },
+    {
+      "id": "symptom_ortostatic_gipotoniya",
+      "type": "symptom",
+      "label": "Ортостатическая гипотония"
+    },
+    {
+      "id": "symptom_nizkoe_arterialnoe_davlenie",
+      "type": "symptom",
+      "label": "Низкое артериальное давление"
+    },
+    {
+      "id": "symptom_gemoragicheskij_shok",
+      "type": "symptom",
+      "label": "Геморрагический шок"
+    },
+    {
+      "id": "symptom_dvs_sindrom",
+      "type": "symptom",
+      "label": "ДВС‑синдром"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_krovotechenie_iz_polovyh_putey",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ✓ кровотечение из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_zhivote",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ✓ боли в животе;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertonus_i_boleznennost_matki",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ✓ напряжение и болезненность матки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia_ploda",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отмечаются аномалии сердечного ритма плода (тахикардия, брадикардия), иногда отсутствие сердцебиения плода;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradikardia_ploda",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отмечаются аномалии сердечного ритма плода (тахикардия, брадикардия), иногда отсутствие сердцебиения плода;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absentsiya_serdtsebnogo_rihtma_ploda",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда отсутствие сердцебиения плода;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tetania_matki",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гипертонус матки вплоть до тетании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemoragicheskij_shok",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "у беременной развивается геморрагический шок, ДВС‑ синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dvs_sindrom",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "у беременной развивается геморрагический шок, ДВС‑ синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ortostatic_gipotoniya",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "у беременной отмечается тахикардия, ортостатическая гипотония и низкое артериальное и пульсовое давление;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizkoe_arterialnoe_davlenie",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "у беременной отмечается тахикардия, ортостатическая гипотония и низкое артериальное и пульсовое давление;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertonus_i_boleznennost_matki",
+      "target": "symptom_tetania_matki",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Гипертонус матки вплоть до тетании.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ortostatic_gipotoniya",
+      "target": "symptom_nizkoe_arterialnoe_davlenie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "ортостатическая гипотония и низкое артериальное и пульсовое давление;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemoragicheskij_shok",
+      "target": "symptom_dvs_sindrom",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "у беременной развивается геморрагический шок, ДВС‑ синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_zhivote",
+      "target": "symptom_bol_v_proekcii_placenty",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Болевой синдром: острая боль в проекции локализации плаценты, которая затем распространяется на всю матку, поясницу, спину и становится диффузной.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_proekcii_placenty",
+      "target": "symptom_bol_v_spine_i_poyasnice",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль распространяется на всю матку, поясницу, спину",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_spine_i_poyasnice",
+      "target": "symptom_bol_imituiruyushchaya_pochechnuyu_koliku",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при отслойке плаценты, расположенной по задней стенке матки, боль может имитировать почечную колику.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardia_ploda",
+      "target": "symptom_bradikardia_ploda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отмечаются аномалии сердечного ритма плода (тахикардия, брадикардия)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty_s_narusheniem_svertivaniya",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: О45 – Преждевременная отслойка нормально расположенной плаценты; О45.0 – Преждевременная отслойка нормально расположенной плаценты с нарушением свертываемости",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "target": "diagnosis_drugaya_prezhdevremennaya_otsloyka_norm_plasenty",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: О45 – Преждевременная отслойка нормально расположенной плаценты; О45.8 – Другая преждевременная отслойка нормально расположенной плаценты",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_prezhdevremennaya_otsloyka_norm_plasenty",
+      "target": "diagnosis_prezhdevremennaya_otsloyka_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: О45 – Преждевременная отслойка нормально расположенной плаценты; О45.9 – Преждевременная отслойка неуточненная",
+      "properties": {}
+    }
+  ]
+}

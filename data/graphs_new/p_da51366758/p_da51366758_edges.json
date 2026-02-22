@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symptom_odyshka",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одышка при физических нагрузках является наиболее частым симптомом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, повышенная утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudnoj_kletke",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в области сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perifericheskie_otei",
+    "target": "diagnosis_i27_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки правожелудочковой сердечной недостаточности: периферические отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gepatomegaliya",
+    "target": "diagnosis_i27_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки правожелудочковой сердечной недостаточности: гепатомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asits",
+    "target": "diagnosis_i27_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Признаки правожелудочковой сердечной недостаточности: асцит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akrocianoz",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у большинства пациентов ИЛГ наиболее часто выявляется акроцианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_baronchnye_palochki_v_nogtyah",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение фаланг пальцев по типу «барабанных палочек»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bochnkoobraznaya_grudnaya_kletka",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение формы грудной клетки («бочкообразная грудная клетка»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perikardialny_vypot",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "перикардиальный выпот",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_pravyh_otdelov_serdca",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение правых отделов сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_pravogo_zheludochka",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение правого желудочка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_pravogo_predserdija",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение правого предсердия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shum_trikuspidalnoj_nedostatochnosti",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шум трикуспидальной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shum_grehama_stilla",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шум Грэхема Стилла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osiplost_golosa",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "осиплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovokharkanie",
+    "target": "diagnosis_i27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровохаркание у пациентов ЛГ может быть связано с разрывом бронхиальных артерий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ortopnoe",
+    "target": "diagnosis_i27_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ортопноэ ... указывает на повышение венозного давления ... при патологии левых отделов сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teleangiektazii",
+    "target": "symptom_sindrom_reyno",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Телеангиэктазии, синдром Рейно и отек пальцев кистей характерны для системной склеродермии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_teleangiektazii",
+    "target": "symptom_otek_paliczev_kistey",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Телеангиэктазии, синдром Рейно и отек пальцев кистей характерны для системной склеродермии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sindrom_reyno",
+    "target": "symptom_otek_paliczev_kistey",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Телеангиэктазии, синдром Рейно и отек пальцев кистей характерны для системной склеродермии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sosudistye_zvezdochki",
+    "target": "symptom_pechenochniy_zapakh",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Сосудистые звездочки ... печеночный запах и пальмарная эритема предполагают заболевание печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sosudistye_zvezdochki",
+    "target": "symptom_palmarnaya_eritema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Сосудистые звездочки ... печеночный запах и пальмарная эритема предполагают заболевание печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pechenochniy_zapakh",
+    "target": "symptom_palmarnaya_eritema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Сосудистые звездочки ... печеночный запах и пальмарная эритема предполагают заболевание печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_khrab",
+    "target": "symptom_nochnoye_apnoe",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "храп, ночное апноэ, дневная сонливость, ожирение, гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nochnoye_apnoe",
+    "target": "symptom_dnevnaya_sonlivost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "храп, ночное апноэ, дневная сонливость, ожирение, гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dnevnaya_sonlivost",
+    "target": "symptom_ozhirenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "храп, ночное апноэ, дневная сонливость, ожирение, гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ozhirenie",
+    "target": "symptom_gipoksemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "храп, ночное апноэ, дневная сонливость, ожирение, гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksemia",
+    "target": "symptom_khrab",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "храп, ночное апноэ, дневная сонливость, ожирение, гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i27_0",
+    "target": "diagnosis_i27_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "I27.0 Первичная легочная гипертензия I27.2 Другая вторичная легочная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i27_0",
+    "target": "diagnosis_i28_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "I27.0 ... I28.1 Аневризма легочной артерии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i27_0",
+    "target": "diagnosis_i28_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "I27.0 ... I28.8 Другие уточненные болезни легочных сосудов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i27_0",
+    "target": "diagnosis_i28_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "I27.0 ... I28.9 Болезнь легочных сосудов неуточненная",
+    "properties": {}
+  }
+]

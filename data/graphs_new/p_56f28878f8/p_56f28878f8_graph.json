@@ -1,0 +1,195 @@
+{
+  "protocol_id": "p_56f28878f8",
+  "nodes": [
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Перекручивание яичка",
+      "icd_code": "N44"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "резкие боли в тестикуле",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "боль иррадиирует в паховую область",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "тошнота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "рвота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "лихорадка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "интоксикация",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "коллаптоидное состояние",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "увеличение яичка в размерах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "уплотнённая консистенция яичка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "болезненность яичка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "отёчность мошонки",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "гиперемия мошонки",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "болевой синдром",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "резкие боли в тестикуле (в соответствующей половине мошонки), которые иррадиируют в паховую область",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "резкие боли в тестикуле ... иррадиируют в паховую область",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "интоксикация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "коллаптоидное состояние",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "яичко обычно увеличивается в размерах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "с уплотнённой консистенцией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отечность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "гиперемия мошонки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выраженный болевой синдром",
+      "properties": {}
+    }
+  ]
+}

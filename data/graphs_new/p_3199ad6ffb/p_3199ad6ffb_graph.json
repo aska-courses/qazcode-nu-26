@@ -1,0 +1,520 @@
+{
+  "protocol_id": "p_3199ad6ffb",
+  "nodes": [
+    {
+      "id": "diagnosis_t56_0",
+      "type": "diagnosis",
+      "label": "Токсическое действие соединений свинца",
+      "icd_code": "T56.0"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "боль в суставах"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "повышенная утомляемость"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "раздражительность"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "нарушение сна"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "снижение аппетита"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "запор"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "понос"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "металлический вкус во рту"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "ухудшение памяти"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "абдоминальная колика"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "повышенная температура"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "лабильное артериальное давление"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "сердцебиение"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "тревога"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "онемение"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "тремор"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "бессоница"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "судороги в икроножных мышцах"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "отрыжка"
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "изжога"
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_25",
+      "type": "symptom",
+      "label": "потливость"
+    },
+    {
+      "id": "symptom_26",
+      "type": "symptom",
+      "label": "красный цвет мочи"
+    },
+    {
+      "id": "symptom_27",
+      "type": "symptom",
+      "label": "свинцовая кайма на деснах"
+    },
+    {
+      "id": "symptom_28",
+      "type": "symptom",
+      "label": "дермографизм"
+    },
+    {
+      "id": "symptom_29",
+      "type": "symptom",
+      "label": "гипергидроз"
+    },
+    {
+      "id": "symptom_30",
+      "type": "symptom",
+      "label": "болезненность в эпигиастральной области"
+    },
+    {
+      "id": "symptom_31",
+      "type": "symptom",
+      "label": "болезненность в области сухожильных"
+    },
+    {
+      "id": "symptom_32",
+      "type": "symptom",
+      "label": "тремор век"
+    },
+    {
+      "id": "symptom_33",
+      "type": "symptom",
+      "label": "тремор пальцев рук"
+    },
+    {
+      "id": "symptom_34",
+      "type": "symptom",
+      "label": "снижение чувствительности"
+    },
+    {
+      "id": "symptom_35",
+      "type": "symptom",
+      "label": "асимметрия иннервации черепных нервов"
+    },
+    {
+      "id": "symptom_36",
+      "type": "symptom",
+      "label": "язык обложен"
+    },
+    {
+      "id": "symptom_37",
+      "type": "symptom",
+      "label": "диффузная болезненность живота"
+    },
+    {
+      "id": "symptom_38",
+      "type": "symptom",
+      "label": "увеличение печени"
+    },
+    {
+      "id": "symptom_39",
+      "type": "symptom",
+      "label": "стул в виде «овечьего кала»"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли в конечностях в суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенная утомляемость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раздражительность;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение сна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры или понос;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры или понос;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "металлический вкус во рту;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ухудшение памяти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "резкие схваткообразные боли в животе, кишечная колика;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лабильность артериального давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сердцебиение, неприятные ощущения в области сердца;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тревога, депрессия, раздражительность;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тревога, депрессия, раздражительность;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боли, онемение, повышенная;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тремор (дрожание) в конечностях;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бессоница;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "судороги в икроножных мышцах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отрыжка,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_23",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "изжога,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда рвота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_25",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потливость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_26",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "красный цвет мочи.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_27",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "свинцовая кайма на деснах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_28",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "дермографизм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_29",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий гипергидроз;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_30",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность в эпигиастральной области,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_31",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "болезненность в области сухожильных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_32",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тремор век,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_33",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тремор пальцев рук;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_34",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_35",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "асимметрия иннервации черепных нервов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_36",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "язык обложен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_37",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "диффузная болезненность живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_38",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение печени;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_39",
+      "target": "diagnosis_t56_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "стул в виде «овечьего кала».",
+      "properties": {}
+    }
+  ]
+}

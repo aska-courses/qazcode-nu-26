@@ -1,0 +1,288 @@
+{
+  "protocol_id": "p_fde5eb9ad7",
+  "nodes": [
+    {
+      "id": "diagnosis_immune_thrombocytopenia",
+      "type": "diagnosis",
+      "label": "иммунная тромбоцитопения",
+      "icd_code": "D69.3"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "повышенная кровоточивость из слизистых оболочек"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "геморрагические высыпания (петехии и экхимозы)"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "бледность"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "утомляемость"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "носовые кровотечения"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "десневые кровотечения"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "меноррагии"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "метроррагии"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "кровоизлияния в склеру"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "кровоизлияния в головной мозг"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "гематурия"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "кровотечения из ЖКТ (кровавая рвота, мелена)"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "тахикардия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная кровоточивость из слизистых оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "геморрагические высыпания (петехии и экхимозы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "носовые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "десневые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "меноррагии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метроррагии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияния в склеру",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоизлияния в головной мозг",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечения из ЖКТ (кровавая рвота, мелена)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_immune_thrombocytopenia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышенная кровоточивость из слизистых оболочек; геморрагические высыпания (петехии и экхимозы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышенная кровоточивость из слизистых оболочек; слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "геморрагические высыпания (петехии и экхимозы); слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "носовые кровотечения; десневые кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "носовые кровотечения; меноррагии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "десневые кровотечения; меноррагии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_10",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "метроррагии; кровоизлияния в склеру",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_12",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кровоизлияния в головной мозг; гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гематурия; кровотечения из ЖКТ (кровавая рвота, мелена)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "symptom_15",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка; тахикардия",
+      "properties": {}
+    }
+  ]
+}

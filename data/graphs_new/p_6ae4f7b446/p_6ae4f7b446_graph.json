@@ -1,0 +1,225 @@
+{
+  "protocol_id": "p_6ae4f7b446",
+  "nodes": [
+    {
+      "id": "k43",
+      "type": "diagnosis",
+      "label": "Грыжа передней брюшной стенки",
+      "icd_code": "K43"
+    },
+    {
+      "id": "k43_0",
+      "type": "diagnosis",
+      "label": "Грыжа передней брюшной стенки с непроходимостью без гангрены",
+      "icd_code": "K43.0"
+    },
+    {
+      "id": "k43_1",
+      "type": "diagnosis",
+      "label": "Грыжа передней брюшной стенки с гангреной",
+      "icd_code": "K43.1"
+    },
+    {
+      "id": "k43_9",
+      "type": "diagnosis",
+      "label": "Грыжа передней брюшной стенки без непроходимости или гангрены",
+      "icd_code": "K43.9"
+    },
+    {
+      "id": "tumor_like_postop_scar",
+      "type": "symptom",
+      "label": "Опухолевидное образование в области послеоперационного рубца",
+      "icd_code": null
+    },
+    {
+      "id": "pain_hernia_bulge",
+      "type": "symptom",
+      "label": "Боль в области грыжевого выпячивания",
+      "icd_code": null
+    },
+    {
+      "id": "obstruction_symptoms",
+      "type": "symptom",
+      "label": "Симптомы непроходимости",
+      "icd_code": null
+    },
+    {
+      "id": "organ_gangrene",
+      "type": "symptom",
+      "label": "Гангрена внутреннего органа",
+      "icd_code": null
+    },
+    {
+      "id": "cough_impulse",
+      "type": "symptom",
+      "label": "Кашлевой толчок",
+      "icd_code": null
+    },
+    {
+      "id": "tenderness",
+      "type": "symptom",
+      "label": "Боль при пальпации",
+      "icd_code": null
+    },
+    {
+      "id": "bowel_rumbling",
+      "type": "symptom",
+      "label": "Урчание кишечника",
+      "icd_code": null
+    },
+    {
+      "id": "tympanic_percussion",
+      "type": "symptom",
+      "label": "Тимпанический звук при перкуссии",
+      "icd_code": null
+    },
+    {
+      "id": "bulge_on_cough",
+      "type": "symptom",
+      "label": "Увеличение выпячивания при кашле (Вальсальва)",
+      "icd_code": null
+    },
+    {
+      "id": "reducible_hernia",
+      "type": "symptom",
+      "label": "Вправимая грыжа",
+      "icd_code": null
+    },
+    {
+      "id": "irreducible_hernia",
+      "type": "symptom",
+      "label": "Невправимая грыжа",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "tumor_like_postop_scar",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "опухолевидное образование в области послеоперационного рубца",
+      "properties": {}
+    },
+    {
+      "source": "pain_hernia_bulge",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "могут наблюдаться боли в области грыжевого выпячивания",
+      "properties": {}
+    },
+    {
+      "source": "obstruction_symptoms",
+      "target": "k43_0",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "реже появляются симптомы, связанные с непроходимостью",
+      "properties": {}
+    },
+    {
+      "source": "organ_gangrene",
+      "target": "k43_1",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "реже появляются ... гангреной внутреннего органа",
+      "properties": {}
+    },
+    {
+      "source": "cough_impulse",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Пальпаторно определяют симптом кашлевого толчка",
+      "properties": {}
+    },
+    {
+      "source": "bulge_on_cough",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "его увеличение при кашле пациента",
+      "properties": {}
+    },
+    {
+      "source": "reducible_hernia",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вправимая грыжа",
+      "properties": {}
+    },
+    {
+      "source": "irreducible_hernia",
+      "target": "k43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "невправимая грыжа",
+      "properties": {}
+    },
+    {
+      "source": "irreducible_hernia",
+      "target": "k43_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "невправимая грыжа",
+      "properties": {}
+    },
+    {
+      "source": "tenderness",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "bowel_rumbling",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "урчание кишечника",
+      "properties": {}
+    },
+    {
+      "source": "tympanic_percussion",
+      "target": "k43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тимпанический звук при перкуссии",
+      "properties": {}
+    },
+    {
+      "source": "cough_impulse",
+      "target": "bulge_on_cough",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Пальпаторно определяют симптом кашлевого толчка ... увеличение при кашле пациента",
+      "properties": {}
+    },
+    {
+      "source": "obstruction_symptoms",
+      "target": "organ_gangrene",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптомы, связанные с непроходимостью и гангреной",
+      "properties": {}
+    },
+    {
+      "source": "pain_hernia_bulge",
+      "target": "tenderness",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли в области грыжевого выпячивания ... Боль при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "bowel_rumbling",
+      "target": "tympanic_percussion",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "урчание ... и тимпанический звук при перкуссии",
+      "properties": {}
+    }
+  ]
+}

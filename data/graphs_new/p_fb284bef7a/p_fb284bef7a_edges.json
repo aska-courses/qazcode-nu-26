@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f43_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ухудшение психического состояния, возникшие после воздействия стрессового фактора.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f43_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ухудшение психического состояния, возникшие после воздействия стрессового фактора.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_f43_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ухудшение психического состояния, возникшие после воздействия стрессового фактора.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "symptom_8",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "психопатологические расстройства ... с десоциализирующими проявлениями",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f43_0",
+    "target": "diagnosis_f43_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: ... F43.0 Реакция на острый стресс F43.8 Другие реакции на тяжелый стресс.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f43_0",
+    "target": "diagnosis_f43_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: ... F43.0 Реакция на острый стресс ... F43.9 Реакция на тяжелый стресс, неуточненная.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f43_8",
+    "target": "diagnosis_f43_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: ... F43.8 Другие реакции на тяжелый стресс. F43.9 Реакция на тяжелый стресс, неуточненная.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f44_0",
+    "target": "diagnosis_f44_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "F44.0 Диссоциaтивнaя aмнезия F44.1 Диссоциaтивнaя фугa",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f44_1",
+    "target": "diagnosis_f44_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "F44.1 Диссоциaтивнaя фугa F44.2 Диссоциaтивный ступор",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f44_2",
+    "target": "diagnosis_f44_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "F44.2 Диссоциaтивный ступор F44.3 Трaнс и одержимость",
+    "properties": {}
+  }
+]

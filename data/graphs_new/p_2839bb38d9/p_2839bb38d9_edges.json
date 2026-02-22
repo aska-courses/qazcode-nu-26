@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_cough_purulent",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кашель с гнойной мокротой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_pneumonia",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повторные и рецидивирующие пневмонии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain_breathing",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в грудной клетке при дыхании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foul_sputum",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мокрота с гнилостным запахом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemoptysis",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_barrel_chest",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация грудной клетки (бочкообразная)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clubbing_nails",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ногти в форме «часовых стёкол»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_digital_clubbing",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация пальцев в виде «барабанных палочек»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crackles",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "односторонние крепитирующие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_wet_rales",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "влажных хрипов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_insufficiency",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптомы дыхательной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxia_signs",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки хронической гипоксии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxemia",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asphyxia",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки удушья",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_bronchiectasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общая интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_purulent",
+    "target": "symptom_foul_sputum",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при обострении мокрота с гнилостным запахом, кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_purulent",
+    "target": "symptom_hemoptysis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при обострении мокрота с гнилостным запахом, кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_purulent",
+    "target": "symptom_asphyxia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кашель с приступами признаков удушья",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_pneumonia",
+    "target": "symptom_chest_pain_breathing",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повторные и рецидивирующие пневмонии ... боли в грудной клетке при дыхании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clubbing_nails",
+    "target": "symptom_digital_clubbing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "признаки хронической гипоксии: ногти в форме «часовых стёкол», деформация пальцев в виде «барабанных палочек»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crackles",
+    "target": "symptom_wet_rales",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "односторонние крепитирующие хрипы ... характерна стабильная локализация влажных хрипов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_insufficiency",
+    "target": "symptom_hypoxemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "симптомы дыхательной недостаточности ... гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_insufficiency",
+    "target": "symptom_intoxication",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ликвидация симптомов дыхательной недостаточности, общей интоксикации",
+    "properties": {}
+  }
+]

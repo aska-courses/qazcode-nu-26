@@ -1,0 +1,383 @@
+{
+  "protocol_id": "p_9ba48a1f96",
+  "nodes": [
+    {
+      "id": "diagnosis_l43",
+      "type": "diagnosis",
+      "label": "красный плоский лишай",
+      "icd_code": "L43"
+    },
+    {
+      "id": "diagnosis_l43_0",
+      "type": "diagnosis",
+      "label": "лишай гипертрофический красный плоский",
+      "icd_code": "L43.0"
+    },
+    {
+      "id": "diagnosis_l43_1",
+      "type": "diagnosis",
+      "label": "лишай красный плоский буллезный",
+      "icd_code": "L43.1"
+    },
+    {
+      "id": "diagnosis_l43_2",
+      "type": "diagnosis",
+      "label": "лишаевидная реакция на лекарственное средство",
+      "icd_code": "L43.2"
+    },
+    {
+      "id": "diagnosis_l43_3",
+      "type": "diagnosis",
+      "label": "лишай красный плоский подострый (активный)",
+      "icd_code": "L43.3"
+    },
+    {
+      "id": "diagnosis_l43_8",
+      "type": "diagnosis",
+      "label": "другой красный плоский лишай",
+      "icd_code": "L43.8"
+    },
+    {
+      "id": "diagnosis_l43_9",
+      "type": "diagnosis",
+      "label": "лишай красный плоский неуточненный",
+      "icd_code": "L43.9"
+    },
+    {
+      "id": "symptom_feeling_tightness_mucosa",
+      "type": "symptom",
+      "label": "чувство стянутости слизистой оболочки рта"
+    },
+    {
+      "id": "symptom_pain_hot_food",
+      "type": "symptom",
+      "label": "боль при приеме горячей пищи"
+    },
+    {
+      "id": "symptom_pain_spicy_food",
+      "type": "symptom",
+      "label": "боль при приеме острой пищи"
+    },
+    {
+      "id": "symptom_pain_hard_food",
+      "type": "symptom",
+      "label": "боль при приеме жесткой пищи"
+    },
+    {
+      "id": "symptom_burning_mucosa",
+      "type": "symptom",
+      "label": "жжение слизистой оболочки рта"
+    },
+    {
+      "id": "symptom_paresthesia",
+      "type": "symptom",
+      "label": "парестезии"
+    },
+    {
+      "id": "symptom_edema_mucosa",
+      "type": "symptom",
+      "label": "отечность слизистой оболочки рта"
+    },
+    {
+      "id": "symptom_hyperemia_mucosa",
+      "type": "symptom",
+      "label": "гиперемия слизистой оболочки рта"
+    },
+    {
+      "id": "symptom_bubbles",
+      "type": "symptom",
+      "label": "образование пузырей (пузырьки) в полости рта"
+    },
+    {
+      "id": "symptom_erosions",
+      "type": "symptom",
+      "label": "образование эрозий в полости рта"
+    },
+    {
+      "id": "symptom_ulcers",
+      "type": "symptom",
+      "label": "язвы в полости рта"
+    },
+    {
+      "id": "symptom_papules",
+      "type": "symptom",
+      "label": "серао-белые папулы размером до 2 мм на слизистой"
+    },
+    {
+      "id": "symptom_skin_papules",
+      "type": "symptom",
+      "label": "папулы 2–3 мм полигональной формы на коже (предплечья, запястья, бедра, голени)"
+    },
+    {
+      "id": "symptom_weave_pattern",
+      "type": "symptom",
+      "label": "сетка Уикхема (причудливый кружевной рисунок) на папулярных поражениях"
+    },
+    {
+      "id": "symptom_rough_mucosa",
+      "type": "symptom",
+      "label": "шероховатость слизистой оболочки рта"
+    },
+    {
+      "id": "symptom_unusual_mucosa_appearance",
+      "type": "symptom",
+      "label": "необычный вид слизистой оболочки рта"
+    },
+    {
+      "id": "symptom_bleeding_gums",
+      "type": "symptom",
+      "label": "кровоточивость десны"
+    },
+    {
+      "id": "symptom_gum_pain",
+      "type": "symptom",
+      "label": "болезненность десны"
+    },
+    {
+      "id": "symptom_gum_swelling",
+      "type": "symptom",
+      "label": "отечность десны"
+    },
+    {
+      "id": "symptom_hyperkeratosis",
+      "type": "symptom",
+      "label": "гиперкератоз (гиперкератотические участки) слизистой"
+    },
+    {
+      "id": "symptom_difficulty_speaking",
+      "type": "symptom",
+      "label": "затруднение речи при приеме пищи"
+    },
+    {
+      "id": "symptom_difficulty_eating",
+      "type": "symptom",
+      "label": "затруднение приема пищи"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_feeling_tightness_mucosa",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обычно не предъявляют или могут быть жалобы на чувство стянутости слизистой оболочки рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papules",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "На слизистой оболочке рта имеются серовато-белые папулы размером до 2 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_papules",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на сгибательной поверхности предплечий, лучезапястных суставах, внутренней поверхности бедер, разгибательной поверхности голеней имеются папулы диаметром 2—3 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weave_pattern",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "На поверхности папул может быть сетчатый рисунок — сетка Уикхема",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hot_food",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при приеме горячей ... пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_spicy_food",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при приеме острой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hard_food",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при приеме жесткой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_burning_mucosa",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда чувство жжения слизистой оболочки рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "парестезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erosions",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образование эрозий в полости рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ulcers",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "реже язвы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_difficulty_speaking",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудняется речь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_difficulty_eating",
+      "target": "diagnosis_l43",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bubbles",
+      "target": "diagnosis_l43_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Образование пузырей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hot_food",
+      "target": "diagnosis_l43_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при приеме горячей пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_spicy_food",
+      "target": "diagnosis_l43_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль при приеме острой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rough_mucosa",
+      "target": "diagnosis_l43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шероховатость ... слизистой оболочки рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unusual_mucosa_appearance",
+      "target": "diagnosis_l43_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "необычный вид слизистой оболочки рта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_burning_mucosa",
+      "target": "diagnosis_l43_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение ... в области передней группы зубов верхней челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_pain",
+      "target": "diagnosis_l43_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность десны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding_gums",
+      "target": "diagnosis_l43_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоточивость десны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_swelling",
+      "target": "diagnosis_l43_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отечность десны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hot_food",
+      "target": "symptom_pain_spicy_food",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль при приеме горячей, острой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_spicy_food",
+      "target": "symptom_pain_hard_food",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль при приеме горячей, острой, жесткой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hard_food",
+      "target": "symptom_pain_hot_food",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль при приеме горячей, острой, жесткой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_difficulty_speaking",
+      "target": "symptom_difficulty_eating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "затрудняется речь и прием пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_pain",
+      "target": "symptom_bleeding_gums",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жжение, болезненность, кровоточивость десны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rough_mucosa",
+      "target": "symptom_unusual_mucosa_appearance",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "шероховатость, необычный вид слизистой оболочки рта",
+      "properties": {}
+    }
+  ]
+}

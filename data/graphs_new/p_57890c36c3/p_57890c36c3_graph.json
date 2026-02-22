@@ -1,0 +1,519 @@
+{
+  "protocol_id": "p_57890c36c3",
+  "nodes": [
+    {
+      "id": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "diagnosis",
+      "label": "Хронический миелоидный лейкоз, BCR-ABL1‑позитивный",
+      "icd_code": "C92.1"
+    },
+    {
+      "id": "symptom_poteri_massy_tela",
+      "type": "symptom",
+      "label": "потеря массы тела"
+    },
+    {
+      "id": "symptom_potlivost",
+      "type": "symptom",
+      "label": "потливость"
+    },
+    {
+      "id": "symptom_subfebrilnaya_temperatura",
+      "type": "symptom",
+      "label": "субфебрильная температура"
+    },
+    {
+      "id": "symptom_bol_v_levom_boku",
+      "type": "symptom",
+      "label": "боль в левом боку"
+    },
+    {
+      "id": "symptom_chuvstvo_tyazhesti_v_levom_boku",
+      "type": "symptom",
+      "label": "чувство тяжести в левом боку"
+    },
+    {
+      "id": "symptom_obshchaya_slabost",
+      "type": "symptom",
+      "label": "общая слабость"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_snizhenie_tolerantnosti_k_fizicheskoy_nagruzke",
+      "type": "symptom",
+      "label": "снижение толерантности к физической нагрузке"
+    },
+    {
+      "id": "symptom_blednost_kozhi_i_slizistykh_obolochok",
+      "type": "symptom",
+      "label": "бледность кожи и слизистых оболочек"
+    },
+    {
+      "id": "symptom_tahikardiya",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_trombicheskie_komplikatsii_pri_gipertrombotsitose",
+      "type": "symptom",
+      "label": "тромботические осложнения при гипертромбоцитозе"
+    },
+    {
+      "id": "symptom_gemorragicheskiy_sindrom_obuslovlennyy_trombotsitopeniei",
+      "type": "symptom",
+      "label": "геморрагический синдром, обусловленный тромбоцитопенией"
+    },
+    {
+      "id": "symptom_splenomegaliya",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_gepatomegaliya",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_uvelichenie_limfaticheskikh_uzlov",
+      "type": "symptom",
+      "label": "увеличение лимфатических узлов"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_trombotsitoz",
+      "type": "symptom",
+      "label": "тромбоцитоз"
+    },
+    {
+      "id": "symptom_leukotsitoz",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_levkotsitarnyi_sdvig_vlevo",
+      "type": "symptom",
+      "label": "лейкоцитарный сдвиг влево"
+    },
+    {
+      "id": "symptom_blastnye_kletki_v_perifericheskoy_krovi",
+      "type": "symptom",
+      "label": "бластные клетки в периферической крови"
+    },
+    {
+      "id": "symptom_gipertrombotsitoz",
+      "type": "symptom",
+      "label": "гипертромбоцитоз"
+    },
+    {
+      "id": "symptom_trombotsitopeniya",
+      "type": "symptom",
+      "label": "тромбоцитопения"
+    },
+    {
+      "id": "symptom_leykostaz",
+      "type": "symptom",
+      "label": "лейкостаз"
+    },
+    {
+      "id": "symptom_entsefalopatiya",
+      "type": "symptom",
+      "label": "энцефалопатия"
+    },
+    {
+      "id": "symptom_snizhenie_zreniya",
+      "type": "symptom",
+      "label": "снижение зрения"
+    },
+    {
+      "id": "symptom_pochechnaya_nedostatochnost",
+      "type": "symptom",
+      "label": "почечная недостаточность"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_poteri_massy_tela",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой интоксикации (потеря массы тела, потливость, субфебрильная температура)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_potlivost",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой интоксикации (потеря массы тела, потливость, субфебрильная температура)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrilnaya_temperatura",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой интоксикации (потеря массы тела, потливость, субфебрильная температура)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_levom_boku",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой пролиферации (боль и чувство тяжести в левом боку при спленомегалии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_tyazhesti_v_levom_boku",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой пролиферации (боль и чувство тяжести в левом боку при спленомегалии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchaya_slabost",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, бледность кожи и слизистых оболочек, тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, бледность кожи и слизистых оболочек, тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_tolerantnosti_k_fizicheskoy_nagruzke",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, бледность кожи и слизистых оболочек, тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blednost_kozhi_i_slizistykh_obolochok",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, бледность кожи и слизистых оболочек, тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardiya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, бледность кожи и слизистых оболочек, тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombicheskie_komplikatsii_pri_gipertrombotsitose",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромботические осложнения при гипертромбоцитозе и геморрагический синдром, обусловленный тромбоцитопенией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemorragicheskiy_sindrom_obuslovlennyy_trombotsitopeniei",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромботические осложнения при гипертромбоцитозе и геморрагический синдром, обусловленный тромбоцитопенией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "признаки пролиферативного синдрома (спленомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "иногда гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_limfaticheskikh_uzlov",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "включают симптомы, связанные с анемией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombotsitoz",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "включают симптомы, связанные с ... тромбоцитозом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukotsitoz",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз со сдвигом влево – характерный признак",
+      "properties": {}
+    },
+    {
+      "source": "symptom_levkotsitarnyi_sdvig_vlevo",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитарный сдвиг влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blastnye_kletki_v_perifericheskoy_krovi",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бластные клетки в периферической крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertrombotsitoz",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тромботические осложнения при гипертромбоцитозе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombotsitopeniya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "геморрагический синдром, обусловленный тромбоцитопенией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykostaz",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entsefalopatiya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_zreniya",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pochechnaya_nedostatochnost",
+      "target": "diagnosis_hro_mieloidnyj_leykoz",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteri_massy_tela",
+      "target": "symptom_potlivost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой интоксикации (потеря массы тела, потливость, субфебрильная температура)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteri_massy_tela",
+      "target": "symptom_subfebrilnaya_temperatura",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой интоксикации (потеря массы тела, потливость, субфебрильная температура)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_potlivost",
+      "target": "symptom_subfebrilnaya_temperatura",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой интоксикации (потеря массы тела, потливость, субфебрильная температура)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_levom_boku",
+      "target": "symptom_chuvstvo_tyazhesti_v_levom_boku",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "синдром опухолевой пролиферации (боль и чувство тяжести в левом боку при спленомегалии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchaya_slabost",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchaya_slabost",
+      "target": "symptom_snizhenie_tolerantnosti_k_fizicheskoy_nagruzke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchaya_slabost",
+      "target": "symptom_blednost_kozhi_i_slizistykh_obolochok",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, ... бледность кожи и слизистых оболочек, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchaya_slabost",
+      "target": "symptom_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, ... тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_snizhenie_tolerantnosti_k_fizicheskoy_nagruzke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_blednost_kozhi_i_slizistykh_obolochok",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, ... бледность кожи и слизистых оболочек, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, ... тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_tolerantnosti_k_fizicheskoy_nagruzke",
+      "target": "symptom_blednost_kozhi_i_slizistykh_obolochok",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, бледность кожи и слизистых оболочек, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_tolerantnosti_k_fizicheskoy_nagruzke",
+      "target": "symptom_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, снижение толерантности к физической нагрузке, ... тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blednost_kozhi_i_slizistykh_obolochok",
+      "target": "symptom_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "анемический синдром (общая слабость, одышка, ... бледность кожи и слизистых оболочек, тахикардия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombicheskie_komplikatsii_pri_gipertrombotsitose",
+      "target": "symptom_gemorragicheskiy_sindrom_obuslovlennyy_trombotsitopeniei",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тромботические осложнения при гипертромбоцитозе и геморрагический синдром, обусловленный тромбоцитопенией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "symptom_gepatomegaliya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки пролиферативного синдрома (спленомегалия), иногда гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaliya",
+      "target": "symptom_uvelichenie_limfaticheskikh_uzlov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки пролиферативного синдрома (спленомегалия), иногда гепатомегалия и увеличение лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gepatomegaliya",
+      "target": "symptom_uvelichenie_limfaticheskikh_uzlov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки пролиферативного синдрома (спленомегалия), иногда гепатомегалия и увеличение лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entsefalopatiya",
+      "target": "symptom_snizhenie_zreniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entsefalopatiya",
+      "target": "symptom_pochechnaya_nedostatochnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_zreniya",
+      "target": "symptom_pochechnaya_nedostatochnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "при наличии клинических признаков лейкостаза (энцефалопатия, снижение зрения, почечная недостаточность)",
+      "properties": {}
+    }
+  ]
+}

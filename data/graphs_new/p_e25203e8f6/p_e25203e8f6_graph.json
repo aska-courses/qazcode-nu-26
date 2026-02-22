@@ -1,0 +1,403 @@
+{
+  "protocol_id": "p_e25203e8f6",
+  "nodes": [
+    {
+      "id": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "diagnosis",
+      "label": "Железистая гиперплазия эндометрия",
+      "icd_code": "N85.0"
+    },
+    {
+      "id": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "diagnosis",
+      "label": "Аденоматозная гиперплазия эндометрия",
+      "icd_code": "N85.1"
+    },
+    {
+      "id": "symptom_anormalnye_matocnye_krovotecheniya",
+      "type": "symptom",
+      "label": "анормальные маточные кровотечения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_obilnye_matocnye_krovotecheniya",
+      "type": "symptom",
+      "label": "обильные маточные кровотечения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_mezhmenstrualnye_krovotecheniya",
+      "type": "symptom",
+      "label": "межменструальные кровотечения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_neravnyie_krovotecheniya",
+      "type": "symptom",
+      "label": "нерегулярные кровотечения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_aklitscheskie_krovotecheniya",
+      "type": "symptom",
+      "label": "ациклические кровотечения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_postmenopauzalnye_krovotecheniya",
+      "type": "symptom",
+      "label": "постменопаузальные кровотечения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povyshennii_indeks_massy_tela",
+      "type": "symptom",
+      "label": "повышенный индекс массы тела",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_arterialnaya_gipertenziia",
+      "type": "symptom",
+      "label": "артериальная гипертензия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_saharnii_diabet",
+      "type": "symptom",
+      "label": "сахарный диабет",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_disfunkciia_shchitovidnoi_zhelezy",
+      "type": "symptom",
+      "label": "дисфункция щитовидной железы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_sindrom_polikistoznykh_iaichnikov",
+      "type": "symptom",
+      "label": "синдром поликистозных яичников",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lekarskaia_stimulatsiia_iaichnikov",
+      "type": "symptom",
+      "label": "лекарственная стимуляция яичников",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_monogormonoterapia_estrogenami",
+      "type": "symptom",
+      "label": "моногормонотерапия эстрогенами",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_dlitelnoe_primenenie_tamoksifena",
+      "type": "symptom",
+      "label": "длительное применение тамоксифена",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_anemiia",
+      "type": "symptom",
+      "label": "анемия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotienie_iz_polovykh_putei",
+      "type": "symptom",
+      "label": "кровотечение из половых путей",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ведущий симптом: аномальные маточные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ведущий симптом: аномальные маточные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnye_matocnye_krovotecheniya",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "включая обильные маточные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnye_matocnye_krovotecheniya",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "включая обильные маточные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mezhmenstrualnye_krovotecheniya",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "межменструальные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mezhmenstrualnye_krovotecheniya",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "межменструальные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neravnyie_krovotecheniya",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нерегулярные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neravnyie_krovotecheniya",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нерегулярные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aklitscheskie_krovotecheniya",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ациклические кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aklitscheskie_krovotecheniya",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ациклические кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postmenopauzalnye_krovotecheniya",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "постменопаузальные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_postmenopauzalnye_krovotecheniya",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "постменопаузальные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennii_indeks_massy_tela",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный индекс массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennii_indeks_massy_tela",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный индекс массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterialnaya_gipertenziia",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterialnaya_gipertenziia",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_saharnii_diabet",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сахарный диабет",
+      "properties": {}
+    },
+    {
+      "source": "symptom_saharnii_diabet",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сахарный диабет",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disfunkciia_shchitovidnoi_zhelezy",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфункция щитовидной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disfunkciia_shchitovidnoi_zhelezy",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дисфункция щитовидной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_polikistoznykh_iaichnikov",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром поликистозных яичников",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sindrom_polikistoznykh_iaichnikov",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром поликистозных яичников",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lekarskaia_stimulatsiia_iaichnikov",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лекарственная стимуляция яичников",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lekarskaia_stimulatsiia_iaichnikov",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лекарственная стимуляция яичников",
+      "properties": {}
+    },
+    {
+      "source": "symptom_monogormonoterapia_estrogenami",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "моногормонотерапия эстрогенами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_monogormonoterapia_estrogenami",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "моногормонотерапия эстрогенами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dlitelnoe_primenenie_tamoksifena",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "длительное применение тамоксифена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dlitelnoe_primenenie_tamoksifena",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "длительное применение тамоксифена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotienie_iz_polovykh_putei",
+      "target": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из половых путей, сочетающееся с выраженной анемией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotienie_iz_polovykh_putei",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из половых путей, сочетающееся с выраженной анемией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "symptom_obilnye_matocnye_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "включая обильные маточные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "symptom_mezhmenstrualnye_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "включая ... межменструальные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "symptom_neravnyie_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "включая ... нерегулярные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "symptom_aklitscheskie_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "включая ... ациклические кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anormalnye_matocnye_krovotecheniya",
+      "target": "symptom_postmenopauzalnye_krovotecheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "включая ... постменопаузальные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_zhelezoistaya_giperplaziya_endometrija",
+      "target": "diagnosis_adenomatoznaia_giperplaziya_endometrija",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "1 группа – гиперплазия без атипии (железистая гиперплазия эндометрия); 2 группа – атипичная гиперплазия (аденоматозная гиперплазия эндометрия)",
+      "properties": {}
+    }
+  ]
+}

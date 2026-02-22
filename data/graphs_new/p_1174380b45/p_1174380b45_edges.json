@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_ostraia_infekcia",
+    "target": "symptom_bakterialnyj_sepsis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острые инфекционные и контагиозные заболевания; неконтролируемый бактериальный сепсис;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positive_ifa_hiv",
+    "target": "symptom_positive_ifa_hepatit_b",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "положительный маркер ИФА на ВИЖ; положительный ИФА на маркеры вируса гепатита В (HBsAg, DNA‑HBV) или С (anti‑HCV, RNA‑HCV, HCVAg);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positive_ifa_hepatit_c",
+    "target": "symptom_positive_ifa_blednaya_treponema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "положительный ИФА на маркеры вируса гепатита В ... или С (anti‑HCV, RNA‑HCV, HCVAg); положительный ИФА результат на выявление бледной трепонемы;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zlokachestvennoe_novoobrazovanie_s_metastazami",
+    "target": "symptom_otravlenie_ugarom_karboksigemoglobin_20",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "любое злокачественное новообразование с метастазами ...; смерть от отравления угарным газом и уровнем карбоксигемоглобина более 20%;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uchastok_ochagovye_zabolevaniya_glaza",
+    "target": "symptom_utoplenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие установленных очаговых и/или диффузных заболеваний глаза; утопление;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pomutnenie_opticheskoy_zony_rogovitsy",
+    "target": "symptom_posttravmatichij_rubets",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие каких-либо помутнений в оптической зоне роговицы; наличие посттравматических рубцов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_keratotomicheskij_rubets",
+    "target": "symptom_iridokornealnye_srashcheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие кератотомических рубцов после радиальной/тангенциальной кератотомии; наличие спаечных изменений (иридокорнеальных сращений).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arcus_senilis",
+    "target": "symptom_intrastromalnye_pomutneniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "на предмет наличия глубоких интрастромальных помутнений, выраженных Arcus senilis (Дуга Старческая).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n16_0",
+    "target": "diagnosis_n17_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: N16.0 Язва роговицы N17.0 Слипчивая лейкома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_h18_1",
+    "target": "diagnosis_h18_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "H18.1 Буллезная кератопатия H18.2 Другие отеки роговицы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_h18_6",
+    "target": "diagnosis_h18_7",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "H18.6 Кератоконус H18.7 Другие деформации роговой оболочки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_h18_5",
+    "target": "diagnosis_h18_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "H18.5 Наследственные дистрофии роговицы H18.8 Другие уточненные болезни роговицы",
+    "properties": {}
+  }
+]

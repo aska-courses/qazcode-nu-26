@@ -1,0 +1,266 @@
+[
+  {
+    "source": "symptom_sudorazny_sindrom",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судорожный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priutsy_goloda",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "приступы голода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_appetita",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperpigmentatsiya",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гиперпигментация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkaya_massa_tela",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "низкая масса тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postoyannaya_slaboct",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "постоянная слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennaya_utomlenost",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенная утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повторная тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diareya",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tyaga_k_solennoy_pishe",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тяга к соленой пище",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost_kozhi",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бледность/сероватый оттенок кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkoe_ad",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "низкое АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotenzia",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoglikemiya",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иногда гипогликемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhelenochno_kishechnaya_dispepsia",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "желудочно-кишечная диспепсия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_v_myskah_i_sustavah",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "боли в мышцах и суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkaliemiya",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперкалиемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giponatriemiya",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипонатриемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipokhloremia",
+    "target": "diagnosis_primary_adrenal_insufficiency",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипохлоремия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "symptom_rvota",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторная тошнота, рвота, диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "symptom_diareya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторная тошнота, рвота, диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "symptom_diareya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повторная тошнота, рвота, диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkaliemiya",
+    "target": "symptom_giponatriemiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперкалиемия, гипонатриемия, гипохлоремия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkaliemiya",
+    "target": "symptom_gipokhloremia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперкалиемия, гипонатриемия, гипохлоремия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giponatriemiya",
+    "target": "symptom_gipokhloremia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперкалиемия, гипонатриемия, гипохлоремия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkoe_ad",
+    "target": "symptom_gipotenzia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "низкое АД ... гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorazny_sindrom",
+    "target": "symptom_priutsy_goloda",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "судорожный синдром; приступы голода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priutsy_goloda",
+    "target": "symptom_snizhenie_appetita",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "приступы голода; снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_appetita",
+    "target": "symptom_giperpigmentatsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "снижение аппетита; гиперпигментация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperpigmentatsiya",
+    "target": "symptom_nizkaya_massa_tela",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперпигментация; низкая масса тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkaya_massa_tela",
+    "target": "symptom_postoyannaya_slaboct",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "низкая масса тела; постоянная слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postoyannaya_slaboct",
+    "target": "symptom_povyshennaya_utomlenost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "постоянная слабость; повышенная утомляемость",
+    "properties": {}
+  }
+]

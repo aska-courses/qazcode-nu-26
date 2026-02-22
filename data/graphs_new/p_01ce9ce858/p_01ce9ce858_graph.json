@@ -1,0 +1,441 @@
+{
+  "protocol_id": "p_01ce9ce858",
+  "nodes": [
+    {
+      "id": "diagnosis_gnoiny_endoftalmite",
+      "type": "diagnosis",
+      "label": "Гнойный эндофтальмит",
+      "icd_code": "Н 44.0"
+    },
+    {
+      "id": "diagnosis_other_endoftalmites",
+      "type": "diagnosis",
+      "label": "Другие эндофтальмиты",
+      "icd_code": "Н 44.1"
+    },
+    {
+      "id": "symptom_decrease_visual_acuity",
+      "type": "symptom",
+      "label": "снижение остроты зрения"
+    },
+    {
+      "id": "symptom_eye_pain",
+      "type": "symptom",
+      "label": "боль в глазу"
+    },
+    {
+      "id": "symptom_eye_pain_radiation",
+      "type": "symptom",
+      "label": "боль в глазу с иррадиацией"
+    },
+    {
+      "id": "symptom_limited_eye_movement",
+      "type": "symptom",
+      "label": "ограничение подвижности глазного яблока"
+    },
+    {
+      "id": "symptom_eye_redness",
+      "type": "symptom",
+      "label": "покраснение глазного яблока"
+    },
+    {
+      "id": "symptom_conjunctival_edema",
+      "type": "symptom",
+      "label": "отек слизистой"
+    },
+    {
+      "id": "symptom_purulent_discharge",
+      "type": "symptom",
+      "label": "гнойный отделяемый"
+    },
+    {
+      "id": "symptom_tearing",
+      "type": "symptom",
+      "label": "слезотечение"
+    },
+    {
+      "id": "symptom_eyelid_edema",
+      "type": "symptom",
+      "label": "отек век"
+    },
+    {
+      "id": "symptom_eyelid_pasty_tissue",
+      "type": "symptom",
+      "label": "пастозность тканей век"
+    },
+    {
+      "id": "symptom_general_malaise",
+      "type": "symptom",
+      "label": "общее недомогание"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры тела"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_inflammatory_eyelid_skin",
+      "type": "symptom",
+      "label": "воспалительные изменения кожи век"
+    },
+    {
+      "id": "symptom_eyelid_tenderness",
+      "type": "symptom",
+      "label": "болезненность при пальпации век"
+    },
+    {
+      "id": "symptom_elevated_leukocytes",
+      "type": "symptom",
+      "label": "повышенное содержание лейкоцитов"
+    },
+    {
+      "id": "symptom_anterior_chamber_precipitates",
+      "type": "symptom",
+      "label": "преципитаты в передней камере"
+    },
+    {
+      "id": "symptom_hypopyon",
+      "type": "symptom",
+      "label": "гипопион"
+    },
+    {
+      "id": "symptom_absent_red_reflex",
+      "type": "symptom",
+      "label": "отсутствие красного рефлекса с глазного дна"
+    },
+    {
+      "id": "symptom_vitreous_haze",
+      "type": "symptom",
+      "label": "помутнение в стекловидном теле"
+    },
+    {
+      "id": "symptom_retinal_infiltrates",
+      "type": "symptom",
+      "label": "воспалительные инфильтраты сетчатки"
+    },
+    {
+      "id": "symptom_retinal_hemorrhage",
+      "type": "symptom",
+      "label": "кровоизлияния в сетчатку"
+    },
+    {
+      "id": "symptom_intraocular_pressure_elevated",
+      "type": "symptom",
+      "label": "повышение внутриглазного давления"
+    },
+    {
+      "id": "symptom_pathological_scotoma",
+      "type": "symptom",
+      "label": "патологические скотомы"
+    },
+    {
+      "id": "symptom_visual_field_constriction",
+      "type": "symptom",
+      "label": "сужение поля зрения"
+    },
+    {
+      "id": "symptom_vitreous_gray_white_haze",
+      "type": "symptom",
+      "label": "помутнение стекловидного тела сероватобелого цвета"
+    },
+    {
+      "id": "symptom_vitreous_diffuse_yellow_haze",
+      "type": "symptom",
+      "label": "диффузное помутнение стекловидного тела с желтоватым оттенком"
+    },
+    {
+      "id": "symptom_orbital_foreign_body",
+      "type": "symptom",
+      "label": "наличие инородных тел в орбите"
+    },
+    {
+      "id": "symptom_orbital_soft_tissue_damage",
+      "type": "symptom",
+      "label": "повреждения мягких тканей орбиты и глазного яблока"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_eye_pain",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "сильная боль в глазу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_pain_radiation",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "боль в глазу без/с иррадиацией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение остроты зрения (иногда до светоощущения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_limited_eye_movement",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ограничение подвижности глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_redness",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "покраснение глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_conjunctival_edema",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_discharge",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может сопровождаться гнойным отделямым",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eyelid_edema",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек век",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eyelid_pasty_tissue",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пастозность тканей век",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_malaise",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "общее недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inflammatory_eyelid_skin",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "воспалительные изменения кожи век",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eyelid_tenderness",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность при пальпации век",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_leukocytes",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышенного содержания лейкоцитов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anterior_chamber_precipitates",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "преципитаты в передней камере",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypopyon",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "гипопион",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absent_red_reflex",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отсутствие красного рефлекса с глазного дна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vitreous_haze",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "помутнение в стекловидном теле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_retinal_infiltrates",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "воспалительные инфильтраты сетчатки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_retinal_hemorrhage",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияния в сетчатку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intraocular_pressure_elevated",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение внутриглазного давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_scotoma",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "появление патологических скотом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_field_constriction",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "сужение поля зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vitreous_gray_white_haze",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "помутнение стекловидного тела сероватобелого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vitreous_diffuse_yellow_haze",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "диффузное помутнение стекловидного тела с желтоватым оттенком",
+      "properties": {}
+    },
+    {
+      "source": "symptom_orbital_foreign_body",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "наличие и локализация инородных тел",
+      "properties": {}
+    },
+    {
+      "source": "symptom_orbital_soft_tissue_damage",
+      "target": "diagnosis_gnoiny_endoftalmite",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повреждения мягких тканей орбиты и глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gnoiny_endoftalmite",
+      "target": "diagnosis_other_endoftalmites",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: Н 44.0 Гнойный эндофтальмит; Н 44.1 Другие эндофтальмиты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_pain",
+      "target": "symptom_eye_pain_radiation",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "боль в глазу без/с иррадиацией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_redness",
+      "target": "symptom_conjunctival_edema",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "покраснение глазного яблока, отек слизистой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eyelid_edema",
+      "target": "symptom_eyelid_pasty_tissue",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "отек век, иногда пастозность тканей век",
+      "properties": {}
+    }
+  ]
+}

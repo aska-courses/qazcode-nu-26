@@ -1,0 +1,421 @@
+{
+  "protocol_id": "p_28f8a0971e",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "Запор"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "Задержка стула более 3 дней"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "Острая боль в животе (схваткообразная)"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "Метеоризм"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "Вздутие живота"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "Ухудшение общего самочувствия"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "Социальная дезадаптация"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "Приступы острой кишечной непроходимости"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "Каломазание"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "Перитонит"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "Перфорация кишки"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "Заворот кишки"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "Инвагинация"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "Узлообразование"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "Звуки тимпанита при перкуссии"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "Болезненность при пальпации"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "Тупой реберный угол"
+    },
+    {
+      "id": "symptom_23",
+      "type": "symptom",
+      "label": "Снижение тонуса анального жома"
+    },
+    {
+      "id": "symptom_24",
+      "type": "symptom",
+      "label": "Каловые камни"
+    },
+    {
+      "id": "diagnosis_megacolon",
+      "type": "diagnosis",
+      "label": "Идиопатический мегаколон",
+      "icd_code": "K59.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ведущим клиническим проявлением является запор.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При задержке стула свыше 3 дней запоры сочетаются с ... метеоризмом вплоть до ухудшения общего самочувствия, социальной дезадаптации, развития приступов кишечной непроходимости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "характерно появление острой боли в животе, обычно первоначально схваткообразной, в сочетании с вздутием живота и прекращением отхождения газов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... метеоризмом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... вздутием живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... ухудшением общего самочувствия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... социальной дезадаптации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... развитием приступов кишечной непроходимости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наличие следов кала на перианальной коже является подтверждением каломазания, характерного для идиопатического мегаректум",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие лихорадки, тахикардии, озноба, тошноты, рвоты, перитонеальных симптомов свидетельствует о вторичном мегаколон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие лихорадки, тахикардии, озноба, тошноты, рвоты, перитонеальных симптомов свидетельствует о вторичном мегаколон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие лихорадки, тахикардии, озноба, тошноты, рвоты, перитонеальных симптомов свидетельствует о вторичном мегаколон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие лихорадки, тахикардии, озноба, тошноты, рвоты, перитонеальных симптомов свидетельствует о вторичном мегаколон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие лихорадки, тахикардии, озноба, тошноты, рвоты, перитонеальных симптомов свидетельствует о вторичном мегаколон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в случае развития перфорации ... возникает клиника перфоративного перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в случае развития перфорации ... возникает клиника перфоративного перитонита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осложнениями долихоколон являются заворот кишки, инвагинация и узлообразование.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осложнениями долихоколон являются заворот кишки, инвагинация и узлообразование.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осложнениями долихоколон являются заворот кишки, инвагинация и узлообразование.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "При долихоколон определяется вздутие, при перкуссии - звук тимпанита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при пальпации – умеренная болезненность в околопупочной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при осмотре и пальпации часто выявляется ... тупой реберный угол",
+      "properties": {}
+    },
+    {
+      "source": "symptom_24",
+      "target": "diagnosis_megacolon",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Каловые камни могут определяться через переднюю брюшную стенку и в вышележащих отделах ободочной кишки.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_2",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... задержкой стула до 3 дней",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_4",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... метеоризмом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_5",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... вздутием живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... ухудшением общего самочувствия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... социальной дезадаптации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_8",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... развитием приступов кишечной непроходимости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "symptom_5",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... метеоризмом ... вздутием живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... метеоризмом ... ухудшением общего самочувствия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "запоры сочетаются с ... вздутием живота ... ухудшением общего самочувствия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "symptom_18",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осложнениями долихоколон являются заворот кишки, инвагинация и узлообразование.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "symptom_19",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осложнениями долихоколон являются заворот кишки, инвагинация и узлообразование.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "symptom_19",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осложнениями долихоколон являются заворот кишки, инвагинация и узлообразование.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "symptom_22",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "при осмотре и пальпации часто выявляется ... тупой реберный угол, болезненность",
+      "properties": {}
+    }
+  ]
+}

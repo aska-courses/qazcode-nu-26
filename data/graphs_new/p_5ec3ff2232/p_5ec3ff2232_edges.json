@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_early_pain",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характер боли: ранняя (при гастрите)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_late_pain",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при дуодените: поздняя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiating_pain",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможна иррадиация в левое подреберье, левую половину грудной клетки и руку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiating_pain",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможна иррадиация в левое подреберье, левую половину грудной клетки и руку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belching",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heartburn",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "редко – рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belching",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heartburn",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "редко – рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meteorism",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "метеоризм, урчание и ощущение «переливания» в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meteorism",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "метеоризм, урчание и ощущение «переливания» в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_borborygmus",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "метеоризм, урчание и ощущение «переливания» в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeling_of_shift",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "метеоризм, урчание и ощущение «переливания» в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_epigastric",
+    "target": "diagnosis_chronic_superficial_gastritis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в эпигастральной, пилородуоденальной и в области пупка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_pyloroduodenal",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в эпигастральной, пилородуоденальной и в области пупка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_umbilical",
+    "target": "diagnosis_duodenitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в эпигастральной, пилородуоденальной и в области пупка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belching",
+    "target": "symptom_heartburn",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heartburn",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_decreased_appetite",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belching",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "диспепсический синдром (отрыжка, изжога, тошнота, снижение аппетита, редко – рвота)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meteorism",
+    "target": "symptom_borborygmus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "метеоризм, урчание и ощущение «переливания» в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_feeling_of_shift",
+    "target": "symptom_meteorism",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "метеоризм, урчание и ощущение «переливания» в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_epigastric",
+    "target": "symptom_tenderness_pyloroduodenal",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болезненность в эпигастральной, пилородуоденальной и в области пупка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_pyloroduodenal",
+    "target": "symptom_tenderness_umbilical",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болезненность в эпигастральной, пилородуоденальной и в области пупка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "умеренно выраженные симптомы хронической интоксикации и вегетативные нарушения: слабость, утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_sleep_disturbance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "умеренно выраженные симптомы хронической интоксикации и вегетативные нарушения: головная боль, нарушение сна",
+    "properties": {}
+  }
+]

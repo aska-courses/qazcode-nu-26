@@ -1,0 +1,257 @@
+{
+  "protocol_id": "p_6d707d33d2",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "изменения цвета мочи"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "отсутствие ануса на типичном месте"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "наличие колостомы"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "тератогенные факторы во время беременности"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "инфекционные заболевания матери в I триместре"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "вредные привычки матери"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "применение тератогенных лекарственных препаратов"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "отсутствие наружного кишечного свища"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "ускорение СОЭ"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "лейкоцитурия"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "изменения креатинина"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "изменения мочевины"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "изменения клиренса креатинина"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "пороки развития сердечно-сосудистой системы"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "пороки развития органов мочевыделительной системы"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "аномалии крестца или позвоночника"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "отсутствие наружного отверстия уретры у мальчиков"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "отсутствие наружного сфинктера"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Атрезия ануса с ректоуретральным свищем",
+      "icd_code": "Q42.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения цвета мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие ануса на типичном месте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие колостомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие тератогенных факторов во время беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфекционные заболевания матери в I триместре",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вредные привычки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "применение тератогенных лекарственных препаратов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие наружного кишечного свища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ОАК – возможно анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения креатинина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения мочевины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения клиренса креатинина",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анатомические аномалии крестца или позвоночника",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие наружного отверстия уретры у мальчиков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие наружного сфинктера",
+      "properties": {}
+    }
+  ]
+}

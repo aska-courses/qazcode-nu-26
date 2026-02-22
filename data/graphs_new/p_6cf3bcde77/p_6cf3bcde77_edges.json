@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_nedomoganie",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на недомогание, головную боль, озноб, подъем температуры...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на недомогание, головную боль, озноб, подъем температуры...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oznob",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на недомогание, головную боль, озноб, подъем температуры...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_podem_temperatury",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на недомогание, головную боль, озноб, подъем температуры...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nevralgicheskie_boli",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "позднее появляются жгучие приступообразные невралгические боли по ходу пораженных нервов...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_vo_rtu",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "... боли во рту.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vesikuly",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "На слизистой оболочке полости рта и коже пораженной стороны появляются везикулы диаметром от 1 до 6 мм...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erozii",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "... которые быстро лопаются, образуя единичные или сливные эрозии...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fibrinozny_nalet",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "... покрытые фибринозным налетом.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regional_lymphadenitis",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отмечается регионарный лимфаденит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pigmentatsiya_kozhi",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "После их отпадения остается пигментация кожи.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemorragicheskaya_forma",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Реже пузырьки могут иметь геморрагическое содержимое (геморрагическая форма)...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gangrenoznaya_forma",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "... или некротизируются (гангренозная форма).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postgerpeticheskaya_nevralgiya_trigeminnyy",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "В 02.20 Постгерпетическая невралгия тройничного нерва",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postgerpeticheskaya_nevralgiya_drugikh_cherpnykh_nervov",
+    "target": "diagnosis_opoyasivayushchiy_lishay",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "В 02.21 Постгерпетическая невралгия других черепных нервов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedomoganie",
+    "target": "symptom_golovnaya_bol",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на недомогание, головную боль, озноб, подъем температуры...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oznob",
+    "target": "symptom_podem_temperatury",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на недомогание, головную боль, озноб, подъем температуры...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vesikuly",
+    "target": "symptom_erozii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "появляются везикулы ... которые быстро лопаются, образуя ... эрозии...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fibrinozny_nalet",
+    "target": "symptom_erozii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "эрозии, покрытые фибринозным налетом.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemorragicheskaya_forma",
+    "target": "symptom_gangrenoznaya_forma",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Реже пузырьки могут иметь геморрагическое содержимое (геморрагическая форма) или некротизируются (гангренозная форма).",
+    "properties": {}
+  }
+]

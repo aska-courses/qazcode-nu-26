@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_melovidnoe_ptyno",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "меловидные пятна ... (эстетический дефект)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pigmentirovannoe_ptyno",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пигментированные пятна (эстетический дефект)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_esteticheskii_defekt",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пигментированные пятна (эстетический дефект)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsutstvie_boli",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отсутствие боли в стадии пятна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razmyagchennyi_sloj_emali",
+    "target": "diagnosis_karies_emali",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Размягченный слой эмали при кариесе эмали",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polost",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Полость при среднем кариесе дентина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razrushenie_dentina",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Разрушение дентина при среднем кариесе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_temperaturnykh_i_khimicheskikh_razdrazhitelei",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль от температурных и химических раздражителей при среднем кариесе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_mehanicheskikh_razdrazhitelei",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль от механических раздражителей при среднем кариесе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razmyagchennyi_dentin",
+    "target": "diagnosis_karies_dentina",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Размягченный дентин при среднем кариесе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_nachalnyi_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль как проявление начального пульпита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_razdrazhitelei",
+    "target": "diagnosis_nachalnyi_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль от раздражителей при начальном пульпите",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsutstvie_vospalitelnoi_reaktsii_pulp",
+    "target": "diagnosis_nachalnyi_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отсутствие воспалительной реакции пульпы при начальном пульпите",
+    "properties": {}
+  },
+  {
+    "source": "symptom_melovidnoe_ptyno",
+    "target": "symptom_pigmentirovannoe_ptyno",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "меловидные или пигментированные пятна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_melovidnoe_ptyno",
+    "target": "symptom_esteticheskii_defekt",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "меловидные пятна ... (эстетический дефект)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pigmentirovannoe_ptyno",
+    "target": "symptom_esteticheskii_defekt",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пигментированные пятна (эстетический дефект)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_razdrazhitelei",
+    "target": "symptom_bol",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль от раздражителей часто сопровождается общей болью",
+    "properties": {}
+  }
+]

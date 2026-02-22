@@ -1,0 +1,266 @@
+[
+  {
+    "source": "symptom_kozhnye_vysypaniya",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожные высыпания в виде папулёзной сыпи ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_papuloznaya_syp",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожные высыпания в виде папулёзной сыпи ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "зуд различной интенсивности (у детей зуд регистрируется в 90% случаев)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_psoriasis_artropaticheskij",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "• боли;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pripuhlost_v_oblasti_sustavov",
+    "target": "diagnosis_psoriasis_artropaticheskij",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "• припухлость в области суставов;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_dvizheniya",
+    "target": "diagnosis_psoriasis_artropaticheskij",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "• ограничение движения.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nail_poraženie",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "псориатическое поражение ногтевых пластинок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nail_poraženie",
+    "target": "diagnosis_psoriasis_artropaticheskij",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "псориатическое поражение ногтевых пластинок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shelushenie",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "серебристо‑белыми чешуйками на поверхности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infiltrirovannye_blyashki",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сливающиеся в инфильтрированные бляшки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eritma",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эритема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perifericheskaya_eritma",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "периферическая эритема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_moknutost",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мокнутость – на в/ч головы, лицо, шея, складки кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exsudativnyy_komponent",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выраженным экссудативным компонентом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fenomen_stearinnogo_ptnya",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "феномен стеаринового пятна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fenomen_terminalnoy_plenki",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "феномен терминальной пленки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fenomen_krovyanoy_rosy",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "феномен кровяной росы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koebner_fenomen",
+    "target": "diagnosis_psoriasis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Кебнера (изоморфная реакция)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fenomen_stearinnogo_ptnya",
+    "target": "symptom_fenomen_terminalnoy_plenki",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "псориатическая триада ... («феномен стеаринового пятна», «феномен терминальной пленки», «феномен кровяной росы»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fenomen_stearinnogo_ptnya",
+    "target": "symptom_fenomen_krovyanoy_rosy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "псориатическая триада ... («феномен стеаринового пятна», «феномен терминальной пленки», «феномен кровяной росы»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fenomen_terminalnoy_plenki",
+    "target": "symptom_fenomen_krovyanoy_rosy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "псориатическая триада ... («феномен стеаринового пятна», «феномен терминальной пленки», «феномен кровяной росы»)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnye_vysypaniya",
+    "target": "symptom_papuloznaya_syp",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожные высыпания в виде папулёзной сыпи ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnye_vysypaniya",
+    "target": "symptom_shelushenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожные высыпания в виде папулёзной сыпи ... с серебристо‑белыми чешуйками",
+    "properties": {}
+  },
+  {
+    "source": "symptom_papuloznaya_syp",
+    "target": "symptom_shelushenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожные высыпания в виде папулёзной сыпи ... с серебристо‑белыми чешуйками",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perifericheskaya_eritma",
+    "target": "symptom_shelushenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие зоны роста папулы – периферическая эритема, свободная от шелушения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_monetovidnyy_psoriasis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • вульгарный (обыкновенный, бляшечный); • каплевидный; ... • артропатический (псориатический артрит);",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_impetigo_gerpetiformnoe",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • вульгарный (обыкновенный, бляшечный); • каплевидный; ... • импетиго герпетиформное (Больница Цумбуша);",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_acrodermatit_stoykiy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • вульгарный (обыкновенный, бляшечный); • ... • акродерматит стойкий (Аллопо);",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_pustulez_ladonnij_i_podshv",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • ... • пустулез ладонный и подошвенный;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_psoriasis_kaplevidnyy",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • ... • каплевидный;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_psoriasis_artropaticheskij",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • ... • артропатический (псориатический артрит);",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_drugoy_psoriasis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • ... • Другой псориаз;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_psoriasis",
+    "target": "diagnosis_sgibatelnyj_inversnyj_psoriasis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Клинически псориаз подразделяют на следующие формы: • ... • Сгибательный инверсный псориаз;",
+    "properties": {}
+  }
+]

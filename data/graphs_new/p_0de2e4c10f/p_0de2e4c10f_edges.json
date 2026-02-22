@@ -1,0 +1,498 @@
+[
+  {
+    "source": "symptom_chastye_anginy",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые ангины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prostudnye_zabolevaniya",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые простудные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prostudnye_zabolevaniya",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые простудные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prostudnye_zabolevaniya",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые простудные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_gorle",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nepriyatnye_oshushcheniya_v_glotke",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неприятные ощущения в глотке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_myskah",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_sustavah",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vyalost",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bystraya_utomlyaemost",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "быстрая утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bystraya_utomlyaemost",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "быстрая утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrilnaya_temperatura",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "субфебрильная температура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_dykhaniya",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_glotaniya",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_rechi",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_khrap_nochyu",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "храп ночью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_khrap_nochyu",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "храп ночью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zalozhennost_nosa",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_nosovogo_dykhaniya",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднение носового дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postoyannye_nasmorki",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "постоянные насморки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnusavost",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гнусавость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obstrukcionnoe_apnoe_sna",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обструктивное апноэ сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_otity",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частые отиты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_slucha",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enurez",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "энурез",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhidkiy_gnoi_kazoezno_gnoi_probki",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жидкий гной или казеозно-гнойные пробки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razrykh_napravlenie_mindalin",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разрыхленная поверхность миндалин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznak_gize",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признак Гизе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznak_zaka",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признак Зака",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznak_preobrazhenskom",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признак Преображенского",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonzilogennaya_intoksikatsiya",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тонзилогенная интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shyechnyi_limfadenit",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шейный лимфаденит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_funkcionalnye_narusheniya_pochek",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "функциональные нарушения почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_funkcionalnye_narusheniya_serdtsa",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "функциональные нарушения сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_funkcionalnye_narusheniya_sosudov",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "функциональные нарушения сосудистой системы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_sna",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_rosta_licevogo_cherpka",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение роста лицевого черепа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasstroystvo_slucha",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расстройство слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasstroystvo_rechi",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расстройство речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasstroystvo_rechi",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расстройство речи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasseyannost",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рассеянность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zabyvchivost",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "забывчивость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nochnoye_nedržanie_mochi",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ночное недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elektrolitnye_narusheniya",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "электролитные нарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoy_sindrom",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipertermia",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипертермия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paratonzilliarnyi_abscess",
+    "target": "diagnosis_hronichnyj_tonzillit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "паратонический абсцесс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_anginy",
+    "target": "symptom_prostudnye_zabolevaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "частые ангины; частые простудные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_gorle",
+    "target": "symptom_nepriyatnye_oshushcheniya_v_glotke",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль в горле; неприятные ощущения в глотке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_myskah",
+    "target": "symptom_bol_v_sustavah",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль в мышцах, суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "symptom_vyalost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слабость, вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_dykhaniya",
+    "target": "symptom_zatrudnenie_glotaniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "затруднение дыхания, глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnenie_rechi",
+    "target": "symptom_khrap_nochyu",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "затруднение речи; храп ночью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zalozhennost_nosa",
+    "target": "symptom_zatrudnenie_nosovogo_dykhaniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "заложенность носа; затруднение носового дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postoyannye_nasmorki",
+    "target": "symptom_gnusavost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "постоянные насморки; гнусавость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_otity",
+    "target": "symptom_snizhenie_slucha",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "частые отиты; снижение слуха",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "target": "diagnosis_gipertrofia_adenoidov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Гипертрофия миндалин с аденоидами и Гипертрофия аденоидов упомянуты в классификации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hronichnyj_tonzillit",
+    "target": "diagnosis_gipertrofia_mindalin_i_adenoidov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Все три диагноза рассматриваются в одном протоколе как хронические болезни миндалин и аденоидов",
+    "properties": {}
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "source": "symptom_noujushchaya_bol_v_kistyah",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ноющие и тянущие боли в ... кистях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tyanushchaya_bol_v_kistyah",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Ноющие и тянущие боли в ... кистях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pristupy",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Характеризуется приступами 10-15 минут.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_parestezii",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pobelenie_palcev",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "побеления пальцев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipergidroz",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипергидроз кистей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zyabkost_konechnostey",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Характерна зябкость конечностей.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotermiya",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_sily_mysc",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение силы ... мышц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_vynoslivosti_mysc",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение выносливости мышц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_chuvstvitelnosti",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Снижение чувствительности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spazmy",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "спазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akrospazm",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "акроспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otechi",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отёки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skrytye_otechi",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "скрытые отёки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skonnost_k_otekam",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "склонность к отёкам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkaya_temperatura_kozhi",
+    "target": "diagnosis_vibratsionnaya_bolezn",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пониженная температура кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_noujushchaya_bol_v_kistyah",
+    "target": "symptom_tyanushchaya_bol_v_kistyah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Ноющие и тянущие боли в ... кистях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pobelenie_palcev",
+    "target": "symptom_parestezii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Периодически побеления пальцев, парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "symptom_gipergidroz",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз и гипергидроз кистей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otechi",
+    "target": "symptom_skrytye_otechi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёки, скрытые отёки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otechi",
+    "target": "symptom_skonnost_k_otekam",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёки ... склонность к отёкам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skrytye_otechi",
+    "target": "symptom_skonnost_k_otekam",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "скрытые отёки ... склонность к отёкам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_sily_mysc",
+    "target": "symptom_snizhenie_vynoslivosti_mysc",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Снижение силы и выносливости мышц",
+    "properties": {}
+  }
+]

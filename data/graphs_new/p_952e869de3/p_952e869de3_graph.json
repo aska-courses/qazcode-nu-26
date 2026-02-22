@@ -1,0 +1,305 @@
+{
+  "protocol_id": "p_952e869de3",
+  "nodes": [
+    {
+      "id": "diagnosis_bolezni_gub",
+      "type": "diagnosis",
+      "label": "Болезни губ",
+      "icd_code": "K13.0"
+    },
+    {
+      "id": "symptom_otek_gub",
+      "type": "symptom",
+      "label": "отёк губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_boleznennost_gub",
+      "type": "symptom",
+      "label": "болезненность губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_suhost_gub",
+      "type": "symptom",
+      "label": "сухость губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zhzhenie_gub",
+      "type": "symptom",
+      "label": "жжение губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cheshuki_gub",
+      "type": "symptom",
+      "label": "наличие чешуек на губах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pokrasknenie_gub",
+      "type": "symptom",
+      "label": "покраснение губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_puzyrki_gub",
+      "type": "symptom",
+      "label": "образование пузырьков на губах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_treshiny_gub",
+      "type": "symptom",
+      "label": "образование трещин на губах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_korki_gub",
+      "type": "symptom",
+      "label": "образование корок на губах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_erozii_gub",
+      "type": "symptom",
+      "label": "эрозии на губах",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_giperemiya_kajmy_gub",
+      "type": "symptom",
+      "label": "гиперемия красной каймы губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_giperkeratiz",
+      "type": "symptom",
+      "label": "пара- и гиперкератоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zud_gub",
+      "type": "symptom",
+      "label": "зуд губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovotochivost_gub",
+      "type": "symptom",
+      "label": "кровоточивость губ при приёме пищи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_chuvstvo_diskomforta",
+      "type": "symptom",
+      "label": "чувство дискомфорта в области губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_shelushenie_gub",
+      "type": "symptom",
+      "label": "шелушение губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lihenizatsiya_gub",
+      "type": "symptom",
+      "label": "лихенизация губ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipovitaminoz",
+      "type": "symptom",
+      "label": "гиповитаминоз (недостаточность витаминов)",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_otek_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек губы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность губ при смыкании, разговоре, при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_suhost_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhzhenie_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cheshuki_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие чешуек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrasknenie_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyrki_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образование пузырьков на губах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_treshiny_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образование трещин на губах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_korki_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "образование корок на губах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_erozii_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозии на губах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_kajmy_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия красной каймы губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperkeratiz",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пара- и гиперкератоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоточивость губ при приёме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_diskomforta",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство дискомфорта в области губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shelushenie_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шелушение губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihenizatsiya_gub",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихенизация губ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipovitaminoz",
+      "target": "diagnosis_bolezni_gub",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиповитаминозы (недостаточность витаминов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_gub",
+      "target": "symptom_boleznennost_gub",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек губы; болезненность губ при смыкании, разговоре, при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_suhost_gub",
+      "target": "symptom_zhzhenie_gub",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость губ; жжение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cheshuki_gub",
+      "target": "symptom_korki_gub",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "обилие чешуек и корок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_puzyrki_gub",
+      "target": "symptom_erozii_gub",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "образование пузырьков, которые быстро вскрываются, образуя эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_treshiny_gub",
+      "target": "symptom_korki_gub",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "образование трещин... корок",
+      "properties": {}
+    }
+  ]
+}

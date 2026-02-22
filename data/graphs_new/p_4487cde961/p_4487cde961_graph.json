@@ -1,0 +1,115 @@
+{
+  "protocol_id": "p_4487cde961",
+  "nodes": [
+    {
+      "id": "diagnosis_g93_1",
+      "type": "diagnosis",
+      "label": "Аноксическое поражение головного мозга, не классифицированное в других рубриках",
+      "icd_code": "G93.1"
+    },
+    {
+      "id": "diagnosis_g93_6",
+      "type": "diagnosis",
+      "label": "Отек головного мозга",
+      "icd_code": "G93.6"
+    },
+    {
+      "id": "diagnosis_i46_0",
+      "type": "diagnosis",
+      "label": "Остановка сердца с успешным восстановлением сердечной деятельности",
+      "icd_code": "I46.0"
+    },
+    {
+      "id": "diagnosis_i60",
+      "type": "diagnosis",
+      "label": "Субарахноидальное кровоизлияние",
+      "icd_code": "I60"
+    },
+    {
+      "id": "diagnosis_i61",
+      "type": "diagnosis",
+      "label": "Внутримозговое кровоизлияние",
+      "icd_code": "I61"
+    },
+    {
+      "id": "diagnosis_i62",
+      "type": "diagnosis",
+      "label": "Другое нетравматическое внутричерепное кровоизлияние",
+      "icd_code": "I62"
+    },
+    {
+      "id": "diagnosis_i63",
+      "type": "diagnosis",
+      "label": "Инфаркт мозга",
+      "icd_code": "I63"
+    },
+    {
+      "id": "diagnosis_i64",
+      "type": "diagnosis",
+      "label": "Инсульт, неуточненный как инфаркт мозга или кровоизлияние",
+      "icd_code": "I64"
+    },
+    {
+      "id": "diagnosis_s06",
+      "type": "diagnosis",
+      "label": "Внутричерепная травма",
+      "icd_code": "S06"
+    },
+    {
+      "id": "diagnosis_s06_1",
+      "type": "diagnosis",
+      "label": "Травматический отек головного мозга",
+      "icd_code": "S06.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "diagnosis_g93_1",
+      "target": "diagnosis_g93_6",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: G93.1 ... G93.6",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i60",
+      "target": "diagnosis_i61",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: I60 ... I61",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i61",
+      "target": "diagnosis_i62",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: I61 ... I62",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i62",
+      "target": "diagnosis_i63",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: I62 ... I63",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i63",
+      "target": "diagnosis_i64",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: I63 ... I64",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s06",
+      "target": "diagnosis_s06_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: S06 ... S06.1",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы больного на косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_impacted_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жалобы больного на косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_partially_erupted_tooth",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на наличие в полости рта частично прорезавшегося зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_partially_erupted_tooth",
+    "target": "diagnosis_impacted_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на наличие в полости рта частично прорезавшегося зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_incorrect_eighth_tooth",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на боли в области не правильно прорезающегося восьмого зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_incorrect_eighth_tooth",
+    "target": "diagnosis_impacted_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на боли в области не правильно прорезающегося восьмого зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_tooth",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре отсутствие зуба в зубном ряду",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_tooth",
+    "target": "diagnosis_impacted_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре отсутствие зуба в зубном ряду",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pressure_on_adjacent_teeth",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ретенированные зубы могут давить на соседние зубы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pressure_on_adjacent_teeth",
+    "target": "diagnosis_impacted_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ретенированные зубы могут давить на соседние зубы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_sensation",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вызывая болевые ощущения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresthesia",
+    "target": "diagnosis_retained_teeth",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pressure_on_adjacent_teeth",
+    "target": "symptom_pain_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Ретенированные зубы могут давить на соседние зубы, ... вызывая болевые ощущения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pressure_on_adjacent_teeth",
+    "target": "symptom_paresthesia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Ретенированные зубы могут давить на соседние зубы, нервные окончания, вызывая ... парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_sensation",
+    "target": "symptom_paresthesia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вызывая болевые ощущения, парестезии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_retained_teeth",
+    "target": "diagnosis_impacted_teeth",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "РЕТЕНИРОВАННЫЕ И ИМПАКТНЫЕ ЗУБЫ У ДЕТЕЙ",
+    "properties": {}
+  }
+]

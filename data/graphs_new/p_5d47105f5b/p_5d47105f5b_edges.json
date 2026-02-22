@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symp_hypothermia",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypoglycemia",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_acidosis",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_hyperbilirubinemia",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_coma",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_renal_failure",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypotension",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_mechanical_ventilation",
+    "target": "diag_k72_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3), ... гипербилирубинемия, ... кома, почечная недостаточность, гипотония, механическая вентиляция",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypothermia",
+    "target": "symp_hypoglycemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypothermia",
+    "target": "symp_acidosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypoglycemia",
+    "target": "symp_acidosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотермия, гипогликемия, метаболический ацидоз (pH менее 7,3)",
+    "properties": {}
+  },
+  {
+    "source": "symp_tachycardia",
+    "target": "symp_low_cvp",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тахикардия, низкий ЦВД, снижение АД, бледность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symp_tachycardia",
+    "target": "symp_low_bp",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тахикардия, низкий ЦВД, снижение АД, бледность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symp_tachycardia",
+    "target": "symp_pallor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тахикардия, низкий ЦВД, снижение АД, бледность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symp_low_cvp",
+    "target": "symp_low_bp",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тахикардия, низкий ЦВД, снижение АД, бледность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symp_low_cvp",
+    "target": "symp_pallor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тахикардия, низкий ЦВД, снижение АД, бледность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symp_low_bp",
+    "target": "symp_pallor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тахикардия, низкий ЦВД, снижение АД, бледность кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "diag_k70_3",
+    "target": "diag_k70_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К70.3 Алкогольный цирроз печени К70.2 Алкогольный фиброз и склероз печени",
+    "properties": {}
+  },
+  {
+    "source": "diag_k74_3",
+    "target": "diag_k74_4",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К74.3 Первичный билиарный цирроз К74.4 Вторичный билиарный цирроз",
+    "properties": {}
+  },
+  {
+    "source": "diag_k74_0",
+    "target": "diag_k74_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К74.0 Фиброз печени К74.1 Склероз печени",
+    "properties": {}
+  },
+  {
+    "source": "diag_k74_1",
+    "target": "diag_k74_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К74.1 Склероз печени К74.2 Фиброз печени со склерозом",
+    "properties": {}
+  },
+  {
+    "source": "diag_k72_0",
+    "target": "diag_k72_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "K72.0 Острая и подострая печеночная недостаточность К72.1 Хроническая печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "diag_k76_5",
+    "target": "diag_k83",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "К76.5 Веноокклюзивная болезнь печени К83 Вторичный склерозирующий холангит",
+    "properties": {}
+  },
+  {
+    "source": "diag_q44_5_karl",
+    "target": "diag_q44_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Q44.5 Врожденные аномалии желчных протоков ... Q44.5 Болезнь Кароли",
+    "properties": {}
+  }
+]

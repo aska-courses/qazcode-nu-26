@@ -1,0 +1,427 @@
+{
+  "protocol_id": "p_25a37fe164",
+  "nodes": [
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_sputum",
+      "type": "symptom",
+      "label": "Мокрота"
+    },
+    {
+      "id": "symptom_hemoptysis",
+      "type": "symptom",
+      "label": "Кровохарканье"
+    },
+    {
+      "id": "symptom_dyspnea_exertion",
+      "type": "symptom",
+      "label": "Одышка при физической нагрузке"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_night_sweats",
+      "type": "symptom",
+      "label": "Потливость по ночам"
+    },
+    {
+      "id": "symptom_subfebrile_temperature",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Похудание"
+    },
+    {
+      "id": "symptom_hypoventilation",
+      "type": "symptom",
+      "label": "Гиповентиляция"
+    },
+    {
+      "id": "symptom_atelectasis",
+      "type": "symptom",
+      "label": "Ателектаз"
+    },
+    {
+      "id": "symptom_purulent_sputum",
+      "type": "symptom",
+      "label": "Гнойная мокрота"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_general_malaise",
+      "type": "symptom",
+      "label": "Общее недомогание"
+    },
+    {
+      "id": "symptom_cancer_pneumonia",
+      "type": "symptom",
+      "label": "Раковая пневмония"
+    },
+    {
+      "id": "symptom_cancer_pleuritis",
+      "type": "symptom",
+      "label": "Раковый плеврит"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_hoarseness",
+      "type": "symptom",
+      "label": "Осиплость голоса"
+    },
+    {
+      "id": "symptom_facial_edema",
+      "type": "symptom",
+      "label": "Отёк лица"
+    },
+    {
+      "id": "symptom_cyanotic_hue",
+      "type": "symptom",
+      "label": "Цианотический оттенок"
+    },
+    {
+      "id": "symptom_swollen_veins",
+      "type": "symptom",
+      "label": "Набухшие вены"
+    },
+    {
+      "id": "diagnosis_c33",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование трахеи",
+      "icd_code": "C33"
+    },
+    {
+      "id": "diagnosis_c34",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование бронхов и легкого",
+      "icd_code": "C34"
+    },
+    {
+      "id": "diagnosis_c34_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование главных бронхов, киля трахеи, корня легкого",
+      "icd_code": "C34.0"
+    },
+    {
+      "id": "diagnosis_c34_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование верхней доли, бронхов или легкого",
+      "icd_code": "C34.1"
+    },
+    {
+      "id": "diagnosis_c34_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование средней доли, бронхов или легкого",
+      "icd_code": "C34.2"
+    },
+    {
+      "id": "diagnosis_c34_3",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование нижней доли, бронхов или легкого",
+      "icd_code": "C34.3"
+    },
+    {
+      "id": "diagnosis_c34_8",
+      "type": "diagnosis",
+      "label": "Поражение бронхов или легкого, выходящее за пределы одной и более вышеуказанных локализаций",
+      "icd_code": "C34.8"
+    },
+    {
+      "id": "diagnosis_c34_9",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование бронхов или легкого неуточненной локализации",
+      "icd_code": "C34.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кашель с мокротой или без; ... одышка при физической нагрузке; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sputum",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кашель с мокротой или без; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие или отсутствие прожилок крови в мокроте (кровохарканье);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea_exertion",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "одышка при физической нагрузке;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потливость по ночам;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "субфебрильная температура;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoventilation",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиповентиляция сегмента лёгкого",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atelectasis",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ателектаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_sputum",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мокрота становится гнойной",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_malaise",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общим недомоганием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hoarseness",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "присоединяется осиплость ввиду паралича голосовых мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лицо больного становится одутловатым",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanotic_hue",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "с цианотическим оттенком",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swollen_veins",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "набухают вены на шее, руках, грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cancer_pneumonia",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "присоединяется раковая пневмония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cancer_pleuritis",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "к раковому плевриту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_c34",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром ... при раковой пневмонии и плеврите",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_sputum",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "когда опухоль прорастает бронх, появляется кашель, вначале сухой, затем со светлой мокротой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_hemoptysis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "иногда с примесью крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_dyspnea_exertion",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "появляется кашель ... возникает одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sputum",
+      "target": "symptom_purulent_sputum",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "мокрота становится гнойной",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_sputum",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "гнойной, что сопровождается повышением температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_sputum",
+      "target": "symptom_general_malaise",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гнойной, ... общим недомоганием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_general_malaise",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышением температуры тела, общим недомоганием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_dyspnea_exertion",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышением температуры тела, ... одышкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_malaise",
+      "target": "symptom_dyspnea_exertion",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "общим недомоганием, одышкой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "symptom_cyanotic_hue",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лицо ... одутловатым, с цианотическим оттенком",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_edema",
+      "target": "symptom_swollen_veins",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "лицо ... набухают вены",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanotic_hue",
+      "target": "symptom_swollen_veins",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "набухают вены ... с цианотическим оттенком",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cancer_pneumonia",
+      "target": "symptom_pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "к раковой пневмонии может присоединиться болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cancer_pleuritis",
+      "target": "symptom_pain_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "к раковому плевриту, сопровождающемуся болевым синдромом",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_urticaria",
+    "target": "diagnosis_l27_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Крапивница ... генерализованная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "diagnosis_l27_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Крапивница ... локализованная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "diagnosis_l50_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Аллергическая крапивница",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angioedema",
+    "target": "diagnosis_t78_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ангиоотек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anaphylactic_shock",
+    "target": "diagnosis_t80_5",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Анафилактический шок, связанный с введением сыворотки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anaphylactic_shock",
+    "target": "diagnosis_t88_6",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Анафилактический шок, обусловленный патологической реакцией на адекватно назначенное и правильно примененное лекарственное средство",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photodermatitis",
+    "target": "diagnosis_l56_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Фотодерматиты ... Лекарственная фотоаллергическая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_contact_allergic_dermatitis",
+    "target": "diagnosis_l24_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Контактный дерматит, вызванный лекарственными средствами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_multiform_exudative_erythema",
+    "target": "diagnosis_l51",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Многоформная эритема / Многоформная экссудативная эритема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toxic_epidermal_necrolysis",
+    "target": "diagnosis_l51_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Токсический эпидермальный некролиз (синдром Лайелла)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_angioedema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крапивница ... может сопровождаться ... ангиоотеком",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_bronchospasm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крапивница ... бронхоспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_rhinorrhea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крапивница ... ринит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_conjunctivitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "крапивница ... конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "symptom_anaphylactic_shock",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гиповолемия ... при анафилактическом шоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoproteinemia",
+    "target": "symptom_anaphylactic_shock",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гипопротеинемия ... при анафилактическом шоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiovascular_failure",
+    "target": "symptom_anaphylactic_shock",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Сердечнососудистая недостаточность ... при анафилактическом шоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonic_clonic_seizure",
+    "target": "symptom_anaphylactic_shock",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тонические судороги ... при анафилактическом шоке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polysaritis",
+    "target": "symptom_anaphylactic_shock",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Полисерозит ... при анафилактическом шоке",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l24_4",
+    "target": "diagnosis_l27_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) МКБ-10: L24.4 ... L27.0 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l27_0",
+    "target": "diagnosis_l27_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код (ы) МКБ-10: L27.0 ... L27.1 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l27_1",
+    "target": "diagnosis_l50_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "L27.1 ... L50.0 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_l51",
+    "target": "diagnosis_l56_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "L51 ... L56.1 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t78_3",
+    "target": "diagnosis_t80_5",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Т78.3 ... Т80.5 ...",
+    "properties": {}
+  }
+]

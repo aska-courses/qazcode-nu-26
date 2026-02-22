@@ -1,0 +1,565 @@
+{
+  "protocol_id": "p_726c1817e5",
+  "nodes": [
+    {
+      "id": "diagnosis_gipertroficheskij_pilorostenz",
+      "type": "diagnosis",
+      "label": "Гипертрофический пилоростеноз",
+      "icd_code": "K31.1"
+    },
+    {
+      "id": "diagnosis_striktura_zheludka",
+      "type": "diagnosis",
+      "label": "Стриктура желудка",
+      "icd_code": "K31.2"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Потеря веса"
+    },
+    {
+      "id": "symptom_electrolyte_balance_disorder",
+      "type": "symptom",
+      "label": "Нарушение водно-электролитного баланса"
+    },
+    {
+      "id": "symptom_hypovolemic_shock",
+      "type": "symptom",
+      "label": "Гиповолемический шок"
+    },
+    {
+      "id": "symptom_gi_hemorrhage",
+      "type": "symptom",
+      "label": "Острое желудочно-кишечное кровотечение"
+    },
+    {
+      "id": "symptom_perforation",
+      "type": "symptom",
+      "label": "Перфорация язвы или опухоли"
+    },
+    {
+      "id": "symptom_spontaneous_gastric_rupture",
+      "type": "symptom",
+      "label": "Спонтанный разрыв желудка"
+    },
+    {
+      "id": "symptom_epigastric_pain",
+      "type": "symptom",
+      "label": "Боль в эпигастрии"
+    },
+    {
+      "id": "symptom_belching",
+      "type": "symptom",
+      "label": "Отрыжка"
+    },
+    {
+      "id": "symptom_feeling_of_fullness",
+      "type": "symptom",
+      "label": "Чувство переполнения в эпигастрии"
+    },
+    {
+      "id": "symptom_asthenia",
+      "type": "symptom",
+      "label": "Астенизация"
+    },
+    {
+      "id": "symptom_dry_mouth",
+      "type": "symptom",
+      "label": "Сухость языка"
+    },
+    {
+      "id": "symptom_dry_skin",
+      "type": "symptom",
+      "label": "Сухость кожи"
+    },
+    {
+      "id": "symptom_skin_pallor",
+      "type": "symptom",
+      "label": "Землистая окраска кожи, снижение тургора"
+    },
+    {
+      "id": "symptom_tetany",
+      "type": "symptom",
+      "label": "Судорожный синдром (хлоропривная тетания)"
+    },
+    {
+      "id": "symptom_trusso_sign",
+      "type": "symptom",
+      "label": "Труссо (рука акушера)"
+    },
+    {
+      "id": "symptom_hvosteka_sign",
+      "type": "symptom",
+      "label": "Хвостека (подергивание мышц лица)"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотония"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_hypokalemia",
+      "type": "symptom",
+      "label": "Гипокалиемия"
+    },
+    {
+      "id": "symptom_muscle_weakness",
+      "type": "symptom",
+      "label": "Мышечная слабость"
+    },
+    {
+      "id": "symptom_paralysis",
+      "type": "symptom",
+      "label": "Парезы, параличи"
+    },
+    {
+      "id": "symptom_diaphragm_paralysis",
+      "type": "symptom",
+      "label": "Парез диафрагмы, остановка дыхания"
+    },
+    {
+      "id": "symptom_respiratory_arrest",
+      "type": "symptom",
+      "label": "Остановка дыхания"
+    },
+    {
+      "id": "symptom_metabolic_hypochloremic_alkalosis",
+      "type": "symptom",
+      "label": "Метаболический гипохлоремический алкалоз"
+    },
+    {
+      "id": "symptom_hypoproteinemia",
+      "type": "symptom",
+      "label": "Гипопротеинемия"
+    },
+    {
+      "id": "symptom_azotemia",
+      "type": "symptom",
+      "label": "Азотемия"
+    },
+    {
+      "id": "symptom_metabolic_alkalosis",
+      "type": "symptom",
+      "label": "Метаболический алкалоз"
+    },
+    {
+      "id": "symptom_thirst",
+      "type": "symptom",
+      "label": "Жажда"
+    },
+    {
+      "id": "symptom_hoarseness",
+      "type": "symptom",
+      "label": "Осиплость голоса"
+    },
+    {
+      "id": "symptom_malaise",
+      "type": "symptom",
+      "label": "Недомогание"
+    },
+    {
+      "id": "symptom_apathy",
+      "type": "symptom",
+      "label": "Апатия"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Вялость"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на тошноту и рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на тошноту и рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается астенизация, потеря в весе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_electrolyte_balance_disorder",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клинические – наличие симптомов нарушения эвакуации из желудка, потеря в весе, признаки нарушения водно-электролитного баланса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypovolemic_shock",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осложнения: гиповолемический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gi_hemorrhage",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осложнения: Острое желудочно-кишечное кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perforation",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осложнения: перфорация язвы или опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spontaneous_gastric_rupture",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осложнения: спонтанный разрыв желудка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль в эпигастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_belching",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeling_of_fullness",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Чувство переполнения в эпигастрии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asthenia",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отмечается астенизация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_mouth",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_skin",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pallor",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Землистая окраска кожи, снижение тургора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tetany",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Судорожный синдром (хлоропривная тетания)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trusso_sign",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомами Труссо («рука акушера»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hvosteka_sign",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Хвостека (подергивание мышц лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гипотония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypokalemia",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гипокалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_weakness",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Мышечная слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paralysis",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Парезы, параличи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diaphragm_paralysis",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Парез диафрагмы, остановка дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_arrest",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Остановка дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_hypochloremic_alkalosis",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метаболический гипохлоремический алкалоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoproteinemia",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гипопротеинемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_azotemia",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Азотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_alkalosis",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Метаболический алкалоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thirst",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жажда",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hoarseness",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Осиплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apathy",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Апатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вялость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_gipertroficheskij_pilorostenz",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "от них следует отличать понятие пилоростеноза, (гипертрофический врожденный пилоростеноз), который наблюдается исключительно у новорожденных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_gipertroficheskij_pilorostenz",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "от них следует отличать понятие пилоростеноза, (гипертрофический врожденный пилоростеноз), который наблюдается исключительно у новорожденных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_gipertroficheskij_pilorostenz",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "от них следует отличать понятие пилоростеноза, (гипертрофический врожденный пилоростеноз), который наблюдается исключительно у новорожденных",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на тошноту и рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "постоянная рвота ... пациент отмечает похудание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypovolemic_shock",
+      "target": "symptom_hypotension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Нарастающая гиповолемия сопровождается гипотонией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypokalemia",
+      "target": "symptom_muscle_weakness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Гипокалиемия приводит к мышечной слабости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trusso_sign",
+      "target": "symptom_hvosteka_sign",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомами Труссо («рука акушера») и Хвостека (подергивание мышц лица)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_mouth",
+      "target": "symptom_dry_skin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухость кожи и языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pallor",
+      "target": "symptom_dry_skin",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Землистая окраска кожи, снижение тургора и сухость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "symptom_apathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Недомогание, апатия и вялость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apathy",
+      "target": "symptom_fatigue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Недомогание, апатия и вялость",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipertroficheskij_pilorostenz",
+      "target": "diagnosis_striktura_zheludka",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "от них следует отличать понятие пилоростеноза ... и Стриктура желудка",
+      "properties": {}
+    }
+  ]
+}

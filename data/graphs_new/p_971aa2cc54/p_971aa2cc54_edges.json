@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symp_unilateral_headache",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "односторонняя локализация головной боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_pulsating_pain",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "пульсирующий характер боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_nausea",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наличие хотя бы одного из следующих симптомов: тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symp_vomiting",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наличие хотя бы одного из следующих симптомов: рвота",
+    "properties": {}
+  },
+  {
+    "source": "symp_photophobia",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наличие хотя бы одного из следующих симптомов: светобоязнь (фотофобия)",
+    "properties": {}
+  },
+  {
+    "source": "symp_phonophobia",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "наличие хотя бы одного из следующих симптомов: звукобоязнь (фонофобия)",
+    "properties": {}
+  },
+  {
+    "source": "symp_aura",
+    "target": "diag_g43_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Для мигрени с аурой: ... полная обратимость одного или более симптомов ауры",
+    "properties": {}
+  },
+  {
+    "source": "symp_visual_disturbances",
+    "target": "diag_g43_1",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "обычно визуальная (вспышки, блески, искры света, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_fatigue",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в межприступном периоде отмечается усталость",
+    "properties": {}
+  },
+  {
+    "source": "symp_concentration_difficulty",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в межприступном периоде отмечается ... трудности концентрации",
+    "properties": {}
+  },
+  {
+    "source": "symp_ptosis",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: птоз",
+    "properties": {}
+  },
+  {
+    "source": "symp_pupil_changes",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: изменения зрачков",
+    "properties": {}
+  },
+  {
+    "source": "symp_emotional_lability",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: эмоциональная лабильность (подавленность)",
+    "properties": {}
+  },
+  {
+    "source": "symp_intellectual_decline",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: снижение интеллектуальных способностей",
+    "properties": {}
+  },
+  {
+    "source": "symp_aggressiveness",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: агрессивность",
+    "properties": {}
+  },
+  {
+    "source": "symp_speech_disorder",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: нарушение речи",
+    "properties": {}
+  },
+  {
+    "source": "symp_nuchal_muscle_rigidity",
+    "target": "diag_g43",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: ригидность мышц затылка",
+    "properties": {}
+  },
+  {
+    "source": "symp_photophobia",
+    "target": "diag_g44_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Головная боль напряженного типа ... со светобоязнь",
+    "properties": {}
+  },
+  {
+    "source": "symp_nausea",
+    "target": "diag_g44_2",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Головная боль напряженного типа ... без тошноты",
+    "properties": {}
+  },
+  {
+    "source": "symp_nausea",
+    "target": "symp_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие хотя бы одного из следующих симптомов: тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symp_photophobia",
+    "target": "symp_phonophobia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие хотя бы одного из следующих симптомов: светобоязнь (фотофобия), звукобоязнь (фонофобия)",
+    "properties": {}
+  }
+]

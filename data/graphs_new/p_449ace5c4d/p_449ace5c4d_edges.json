@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_povyshennoe_davlenie_kapillarov_legkikh",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенное давление в капиллярах легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zastoy_v_tkanyah",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "застой в тканях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkiy_sv",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение сердечного выброса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkiy_si",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение сердечного индекса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ortopnoe",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отек легких ... ортопноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vlagnye_hripy",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "влажные хрипы в легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkaya_sat",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "уровень сатурации ... менее 90 %",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахи- или брадиаритмии ... могут способствовать",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradikardia",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахи- или брадиаритмии ... могут способствовать",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aritmia",
+    "target": "diagnosis_i50",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахи- или брадиаритмии ... могут способствовать",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kholodnye_kozhnyye_pokrovy",
+    "target": "diagnosis_r57_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "холодные кожные покровы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oligoanuriya",
+    "target": "diagnosis_r57_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "олигоанурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vyalis_i_zatormozhennost",
+    "target": "diagnosis_r57_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "вялость и заторможенность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennoye_dzl",
+    "target": "diagnosis_r57_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенное давление заклинивания легочной артерии (> 18–20 мм рт.ст.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshennoye_cvd",
+    "target": "diagnosis_r57_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "повышенное центральное венозное давление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ortopnoe",
+    "target": "symptom_vlagnye_hripy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек легких ... ортопноэ, хрипами в легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ortopnoe",
+    "target": "symptom_nizkaya_sat",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек легких ... ортопноэ ... уровень сатурации ... менее 90 %",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vlagnye_hripy",
+    "target": "symptom_nizkaya_sat",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек легких ... влажные хрипы ... уровень сатурации ... менее 90 %",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kholodnye_kozhnyye_pokrovy",
+    "target": "symptom_oligoanuriya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "признаки снижения перфузии ... (холодные кожные покровы, олигоанурия, вялость и заторможенность)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kholodnye_kozhnyye_pokrovy",
+    "target": "symptom_vyalis_i_zatormozhennost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "признаки снижения перфузии ... (холодные кожные покровы, олигоанурия, вялость и заторможенность)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oligoanuriya",
+    "target": "symptom_vyalis_i_zatormozhennost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "признаки снижения перфузии ... (холодные кожные покровы, олигоанурия, вялость и заторможенность)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i21_0",
+    "target": "diagnosis_i50",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый коронарный синдром ... является провоцирующим фактором острой сердечной недостаточности",
+    "properties": {}
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "diagnosis_pilonidal_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия на коже крестцово‑копчиковой области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия на коже крестцово‑копчиковой области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_serous_discharge",
+    "target": "diagnosis_pilonidal_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения из свищевого отверстия: серозные, гнойные или сукровичные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_discharge",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения из свищевого отверстия: серозные, гнойные или сукровичные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sanguineous_discharge",
+    "target": "diagnosis_pilonidal_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделения из свищевого отверстия: серозные, гнойные или сукровичные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painful_infiltrate",
+    "target": "diagnosis_pilonidal_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "периодически возникающий болезненный инфильтрат в крестцово‑копчиковой области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при инфицировании ... появляется ... повышается температура тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожа над инфильтратом становится отечной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожа над инфильтратом становится гиперемированной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_discharge_anus",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты предъявляют жалобы на небольшие постоянные гнойные выделения над задним проходом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_burning_sensation",
+    "target": "symptom_wet_feeling",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ощущение жжения в области отверстия … чувство влажности в области отверстия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_on_palpation",
+    "target": "symptom_painful_infiltrate",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Боль при пальпации (волнообразном исследовании) … болезненный инфильтрат",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_tracts",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие гнойных затеков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_complications",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гнойные осложнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "развитие различных видов шока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deterioration",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ухудшение состояния пациента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "symptom_serous_discharge",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия … выделения из свищевого отверстия: серозные, гнойные или сукровичные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "symptom_purulent_discharge",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия … выделения из свищевого отверстия: серозные, гнойные или сукровичные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "symptom_painful_infiltrate",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия … болезненный инфильтрат",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "symptom_discomfort",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия … дискомфорт в крестцово‑копчиковой области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_presence_of_sinus_opening",
+    "target": "symptom_pain_sacrococcygeal",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие свищевого отверстия … боли в крестцово‑копчиковой, ягодичной области и промежности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pilonidal_cyst",
+    "target": "diagnosis_pilonidal_sinus_abscess",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Классификация … пилонидальная киста с абсцессом, пилонидальная киста без абсцесса",
+    "properties": {}
+  }
+]

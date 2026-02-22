@@ -1,0 +1,290 @@
+[
+  {
+    "source": "symptom_fetal_movement_reduction",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение интенсивности шевелений в случаях тяжелой анемии и водянки плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "развивается при гемолитической болезни ... проявляющееся развитием анемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "желтуха ... гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отёчная (тяжелая анемия с водянкой)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperbilirubinemia",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипербилирубинемии при гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "развившейся сердечной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ascites",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асцит ... являются запоздалой диагностикой тяжелого течения гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anasarca",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анасарка являются запоздалой диагностикой тяжелого течения гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperdynamic_circulation",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипердинамического типа кровообращения, характерного для тяжелой анемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_sma_velocity",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение максимальной скорости кровотока в СМА ... свидетельствует о развитии у плода гипердинамического типа кровообращения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_fetal_hemoglobin",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "низкий уровень гемоглобина плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_fetal_hematocrit",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "низкий уровень гематокрита плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_maternal_bleeding",
+    "target": "diagnosis_rhesus_immunization",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Для беременной: кровотечение, преждевременные роды, хориоамнионит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_antenatal_bleeding",
+    "target": "diagnosis_rhesus_immunization",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анте... кровотечение указано в перечне жалоб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ectopic_pregnancy",
+    "target": "diagnosis_rhesus_immunization",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "внематочная беременность указана в перечне жалоб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_threatened_abortion",
+    "target": "diagnosis_rhesus_immunization",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "угрожающий аборт с кровотечением указан в перечне жалоб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_preterm_labor",
+    "target": "diagnosis_rhesus_immunization",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "преждевременные роды – риск резус конфликтной беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stillbirth",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мёртворожденность – осложнение резус конфликтной беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prematurity",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недоношенность – риск для плода при резус конфликтной беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection",
+    "target": "diagnosis_other_immunizations",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "инфицирование указано как риск для плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_distress_syndrome",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Респираторный дистресс‑синдром новорожденного – осложнение гемолитической болезни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_newborn_disability",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инвалидизация новорожденных – осложнение резус конфликтной беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_anemia",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тяжелая анемия – одна из клинических форм гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_moderate_anemia",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Умеренно тяжелая анемия – классификация гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mild_anemia",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Легкая анемия – классификация гемолитической болезни плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sinusoidal_rhythm",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при отёчной форме ГБП – «синусоидальный» ритм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_monotonic_rhythm",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при среднетяжёлой и тяжёлой формах ГБП – монотонный ритм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_jaundice",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "анемия с желтухой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_edema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Отёчная (тяжелая анемия с водянкой)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "symptom_edema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "желтуха ... отёчная форма гемолитической болезни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperbilirubinemia",
+    "target": "symptom_jaundice",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипербилирубинемия сопровождается желтухой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperdynamic_circulation",
+    "target": "symptom_increased_sma_velocity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличение максимальной скорости кровотока в СМА свидетельствует о гипердинамическом типе кровообращения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_fetal_hemoglobin",
+    "target": "symptom_low_fetal_hematocrit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "низкий уровень гемоглобина плода и низкий уровень гематокрита плода",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rhesus_immunization",
+    "target": "diagnosis_other_immunizations",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "О36.0 Резус-иммунизация ... О36.1 Другие формы иммунизации ... О36.2 Водянка плода",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rhesus_immunization",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "О36.0 Резус-иммунизация ... О36.2 Водянка плода",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_other_immunizations",
+    "target": "diagnosis_fetal_hydrops",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "О36.1 Другие формы иммунизации ... О36.2 Водянка плода",
+    "properties": {}
+  }
+]

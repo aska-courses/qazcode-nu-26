@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль – диффузного характера, может быть давящей, распирающей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота и рвота, не приносящая облегчения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота и рвота, не приносящая облегчения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, снижение трудоспособности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_soznaniya",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение сознания, эпилептические приступы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepticheskie_pristupy",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение сознания, эпилептические приступы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lihofordka",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningealnye_znaki",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие менингеальных знаков (ригидность затылочных мышц, симптомы Кернига, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ognovye_nervnye_simptomy",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие очаговых неврологических симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_nabuhanie_golovnogo_mozga",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Осложнения: отёк‑набухание головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dislokatsiya_mozgovyh_struktur",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Осложнения: дислокация мозговых структур",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mozgovaya_koma",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Осложнения: мозговая кома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepticheskiy_sindrom",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Осложнения: эпилептический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kistoz",
+    "target": "diagnosis_g04",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Осложнения: кистоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "symptom_lihofordka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головная боль …; лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g04",
+    "target": "diagnosis_g04_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Другой энцефалит, миелит (энцефаломиелит) – G04.8; Энцефалит, миелит и – энцефаломиелит – G04",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g04",
+    "target": "diagnosis_g05",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Энцефаломиелит при болезнях, классифицированных в других рубриках – G05",
+    "properties": {}
+  }
+]

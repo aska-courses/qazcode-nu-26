@@ -1,0 +1,138 @@
+[
+  {
+    "source": "pain",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "joint_pain",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "movement_restriction_joint",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "range_of_motion_restriction",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "limp",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "gait_disturbance",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • нарушение походки; • ограничение движения в суставе.",
+    "properties": {}
+  },
+  {
+    "source": "pain_syndrome",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "limb_function_impairment",
+    "target": "m24_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • нарушение функций конечности, хромота.",
+    "properties": {}
+  },
+  {
+    "source": "pain",
+    "target": "movement_restriction_joint",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "pain",
+    "target": "limp",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "movement_restriction_joint",
+    "target": "limp",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: боли и ограничение движений в суставе (суставах), на хромоту.",
+    "properties": {}
+  },
+  {
+    "source": "pain",
+    "target": "pain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "movement_restriction_joint",
+    "target": "pain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • ограничение объёма движений в суставе; • болевой синдром;",
+    "properties": {}
+  },
+  {
+    "source": "pain_syndrome",
+    "target": "limb_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • болевой синдром; • нарушение функций конечности, хромота.",
+    "properties": {}
+  },
+  {
+    "source": "movement_restriction_joint",
+    "target": "limb_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • ограничение объёма движений в суставе; • нарушение функций конечности, хромота.",
+    "properties": {}
+  },
+  {
+    "source": "limp",
+    "target": "limb_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Показания для плановой госпитализации: • нарушение функций конечности, хромота.",
+    "properties": {}
+  },
+  {
+    "source": "gait_disturbance",
+    "target": "movement_restriction_joint",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: • нарушение походки; • ограничение движения в суставе.",
+    "properties": {}
+  }
+]

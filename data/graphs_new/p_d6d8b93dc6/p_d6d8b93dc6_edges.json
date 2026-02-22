@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы на:  приступы сердцебиения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы на:  слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы на:  потеря сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы на:  головокружение до предобморочного состояния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы на:  чувство нехватки воздуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.9,
+    "evidence": "Жалобы на:  одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Во время приступа отмечается похолодание конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Во время приступа отмечается ... потливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Во время приступа отмечается ... гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "могут появляться признаки застоя в лёгких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение АД < 80 мм. рт. ст., которая сопровождается потерей сознания, ишемией миокарда, острой левожелудочковой недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение АД < 80 мм. рт. ст., которая сопровождается ... ишемией миокарда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_i45_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение АД < 80 мм. рт. ст., которая сопровождается ... острой левожелудочковой недостаточностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на:  приступы сердцебиения;  слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы на:  приступы сердцебиения;  потеря сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "symptom_8",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Во время приступа отмечается похолодание конечностей, потливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "symptom_13",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение АД < 80 мм. рт. ст., которая сопровождается потерей сознания, ишемией миокарда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "symptom_14",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение АД < 80 мм. рт. ст., которая сопровождается ... острой левожелудочковой недостаточностью",
+    "properties": {}
+  }
+]

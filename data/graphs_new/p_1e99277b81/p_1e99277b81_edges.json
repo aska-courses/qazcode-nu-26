@@ -1,0 +1,82 @@
+[
+  {
+    "source": "diagnosis_c43",
+    "target": "diagnosis_c50",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "при раке молочной железы и меланоме",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n00_n08",
+    "target": "diagnosis_n20",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... N00-N08 Гломерулярные болезни ... N20 Камни почек и мочеточника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n00_n08",
+    "target": "diagnosis_q60",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... N00-N08 ... Q60 Агенезия и другие редукционные дефекты почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n20",
+    "target": "diagnosis_q60",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... N20 Камни почек и мочеточника ... Q60 Агенезия и другие редукционные дефекты почек",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i15_1",
+    "target": "diagnosis_i70_1",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... I15.1 Реноваскулярная гипертензия ... I70.1 Атеросклероз почечной артерии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e21",
+    "target": "diagnosis_m83",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... E21 Гиперпаратиреоз ... M.83 Остеомаляция у взрослых",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e21",
+    "target": "diagnosis_e05",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... E21 Гиперпаратиреоз ... E05 Тиреотоксикоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m88",
+    "target": "diagnosis_m85_0",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... M88 Болезнь Педжета ... M85.0 Фиброзная дисплазия (избирательная, одной кости)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c40",
+    "target": "diagnosis_c79_5",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... C40 Злокачественное новообразование костей и суставных хрящей ... C79.5 Вторичное злокачественное новообразование костей и костного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s92",
+    "target": "diagnosis_m87",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: ... S92 Перелом стопы ... M87 Остеонекроз",
+    "properties": {}
+  }
+]

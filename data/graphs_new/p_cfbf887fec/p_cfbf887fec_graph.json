@@ -1,0 +1,178 @@
+{
+  "protocol_id": "p_cfbf887fec",
+  "nodes": [
+    {
+      "id": "diagnosis_myopia",
+      "type": "diagnosis",
+      "label": "Миопия",
+      "icd_code": "H52.1"
+    },
+    {
+      "id": "diagnosis_hypermetropia",
+      "type": "diagnosis",
+      "label": "Гиперметропия",
+      "icd_code": "H52.0"
+    },
+    {
+      "id": "diagnosis_astigmatism",
+      "type": "diagnosis",
+      "label": "Астигматизм",
+      "icd_code": "H52.2"
+    },
+    {
+      "id": "symptom_decrease_distance_vision",
+      "type": "symptom",
+      "label": "постепенное безболезненное снижение зрения вдаль"
+    },
+    {
+      "id": "symptom_decrease_visual_acuity",
+      "type": "symptom",
+      "label": "снижение остроты зрения"
+    },
+    {
+      "id": "symptom_eye_fatigue",
+      "type": "symptom",
+      "label": "утомляемость зрения"
+    },
+    {
+      "id": "symptom_eye_pain",
+      "type": "symptom",
+      "label": "боль в глазах"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головная боль"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_decrease_distance_vision",
+      "target": "diagnosis_myopia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при миопии: постепенное безболезненное снижение зрения вдаль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "diagnosis_hypermetropia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: снижение остроты зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_fatigue",
+      "target": "diagnosis_hypermetropia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: утомляемость зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_pain",
+      "target": "diagnosis_hypermetropia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: болью в глазах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_hypermetropia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: головной болью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "diagnosis_astigmatism",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при астигматизме: снижение зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_fatigue",
+      "target": "diagnosis_astigmatism",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при астигматизме: утомляемость зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "symptom_eye_fatigue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: снижение остроты зрения, утомляемость зрения, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "symptom_eye_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: снижение остроты зрения, ... болью в глазах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: снижение остроты зрения, ... головной болью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_fatigue",
+      "target": "symptom_eye_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: утомляемость зрения, ... болью в глазах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_fatigue",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: утомляемость зрения, ... головной болью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_pain",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при гиперметропии: болью в глазах, головной болью",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_myopia",
+      "target": "diagnosis_hypermetropia",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: 52.1 Миопия, 52.0 Гиперметропия, 52.2 Астигматизм",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_myopia",
+      "target": "diagnosis_astigmatism",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: 52.1 Миопия, 52.0 Гиперметропия, 52.2 Астигматизм",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hypermetropia",
+      "target": "diagnosis_astigmatism",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: 52.1 Миопия, 52.0 Гиперметропия, 52.2 Астигматизм",
+      "properties": {}
+    }
+  ]
+}

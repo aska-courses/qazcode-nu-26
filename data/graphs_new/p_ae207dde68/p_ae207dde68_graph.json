@@ -1,0 +1,325 @@
+{
+  "protocol_id": "p_ae207dde68",
+  "nodes": [
+    {
+      "id": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "diagnosis",
+      "label": "Врожденная диафрагмальная грыжа",
+      "icd_code": "Q79.0"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_vomiting_post_meal",
+      "type": "symptom",
+      "label": "рвота после приёма пищи"
+    },
+    {
+      "id": "symptom_frequent_pneumonia",
+      "type": "symptom",
+      "label": "частые пневмонии"
+    },
+    {
+      "id": "symptom_chest_asymmetry",
+      "type": "symptom",
+      "label": "асимметрия грудной клетки с выбуханием на стороне поражения"
+    },
+    {
+      "id": "symptom_inspiratory_dyspnea",
+      "type": "symptom",
+      "label": "инспираторная одышка с участием вспомогательных дыхательных мышц"
+    },
+    {
+      "id": "symptom_sunken_bell_shaped_abdomen",
+      "type": "symptom",
+      "label": "запавший «ладьевидный живот»"
+    },
+    {
+      "id": "symptom_tympanitis_percussion",
+      "type": "symptom",
+      "label": "тимпанит при перкуссии со смещением органов средостения"
+    },
+    {
+      "id": "symptom_intestinal_breath_sounds",
+      "type": "symptom",
+      "label": "кишечные шумы в грудной клетке при аускультации"
+    },
+    {
+      "id": "symptom_weak_breath_side_affected",
+      "type": "symptom",
+      "label": "ослабленное дыхание на стороне поражения"
+    },
+    {
+      "id": "symptom_weak_breath_side_opposite",
+      "type": "symptom",
+      "label": "ослабленное дыхание на противоположной стороне"
+    },
+    {
+      "id": "symptom_mediastinal_shift",
+      "type": "symptom",
+      "label": "смещение органов средостения в противоположную сторону"
+    },
+    {
+      "id": "symptom_cavitary_lesions_on_xray",
+      "type": "symptom",
+      "label": "ячеистые полости на рентгенографии грудной клетки"
+    },
+    {
+      "id": "symptom_abdominal_organ_shift_to_pleural",
+      "type": "symptom",
+      "label": "смещение органов брюшной полости в плевральную полость"
+    },
+    {
+      "id": "symptom_heart_shift_opposite_hernia",
+      "type": "symptom",
+      "label": "смещение сердца в противоположную от грыжи сторону"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting_post_meal",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_frequent_pneumonia",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые пневмонии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асимметрия грудной клетки с выбуханием на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratory_dyspnea",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инспираторная одышка с участием вспомогательных дыхательных мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sunken_bell_shaped_abdomen",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запавший «ладьевидный живот»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tympanitis_percussion",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тимпанит при перкуссии со смещением органов средостения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_breath_sounds",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кишечные шумы в грудной клетке при аускультации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_breath_side_affected",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабленное дыхание на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_breath_side_opposite",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабленное дыхание на противоположной стороне",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mediastinal_shift",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение органов средостения в противоположную сторону",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cavitary_lesions_on_xray",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ячеистые полости на рентгенографии грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_organ_shift_to_pleural",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение органов брюшной полости в плевральную полость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_shift_opposite_hernia",
+      "target": "diagnosis_congenital_diaphragmatic_hernia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение сердца в противоположную от грыжи сторону",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кашель; одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кашель; тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_vomiting_post_meal",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кашель; рвота после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_frequent_pneumonia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кашель; частые пневмонии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка; тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_vomiting_post_meal",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка; рвота после приема пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_frequent_pneumonia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "одышка; частые пневмонии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "symptom_inspiratory_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "асимметрия грудной клетки...; инспираторная одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_asymmetry",
+      "target": "symptom_weak_breath_side_affected",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "асимметрия грудной клетки...; ослабленное дыхание на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspiratory_dyspnea",
+      "target": "symptom_weak_breath_side_affected",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "инспираторная одышка...; ослабленное дыхание на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tympanitis_percussion",
+      "target": "symptom_mediastinal_shift",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тимпанит при перкуссии со смещением органов средостения; смещение органов средостения в противоположную сторону",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intestinal_breath_sounds",
+      "target": "symptom_abdominal_organ_shift_to_pleural",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кишечные шумы в грудной клетке...; смещение органов брюшной полости в плевральную полость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_shift_opposite_hernia",
+      "target": "symptom_mediastinal_shift",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "смещение сердца в противоположную от грыжи сторону; смещение органов средостения в противоположную сторону",
+      "properties": {}
+    }
+  ]
+}

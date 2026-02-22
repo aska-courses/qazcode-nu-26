@@ -1,0 +1,66 @@
+[
+  {
+    "source": "symptom_intestinal_ischemia",
+    "target": "diagnosis_gastroschisis",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Риск ишемии кишечника … Высокий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intestinal_ischemia",
+    "target": "diagnosis_omphalocele",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Риск ишемии кишечника … Низкий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_apgar",
+    "target": "diagnosis_gastroschisis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Детям с низкой оценкой по шкале Апгар (1-3 балла) могут быть необходимы реанимационные мероприятия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_apgar",
+    "target": "diagnosis_omphalocele",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Детям с низкой оценкой по шкале Апгар (1-3 балла) могут быть необходимы реанимационные мероприятия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_sepsis",
+    "target": "symptom_necrotic_enterocolitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие послеоперационных осложнений – абдоминального сепсиса, некротического энтероколита с перфорацией кишечника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_sepsis",
+    "target": "symptom_intestinal_perforation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие послеоперационных осложнений – абдоминального сепсиса, некротического энтероколита с перфорацией кишечника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_necrotic_enterocolitis",
+    "target": "symptom_intestinal_perforation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие послеоперационных осложнений – абдоминального сепсиса, некротического энтероколита с перфорацией кишечника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "symptom_cardiovascular_instability",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Если есть гипотензия или плохая перфузия …",
+    "properties": {}
+  }
+]

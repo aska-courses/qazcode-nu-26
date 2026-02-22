@@ -1,0 +1,409 @@
+{
+  "protocol_id": "p_d3d337efbd",
+  "nodes": [
+    {
+      "id": "renovascular_hypertension",
+      "type": "diagnosis",
+      "label": "Реноваскулярная гипертензия",
+      "icd_code": "I15.0"
+    },
+    {
+      "id": "golovnye_boli",
+      "type": "symptom",
+      "label": "головные боли",
+      "icd_code": null
+    },
+    {
+      "id": "shum_v_ushah",
+      "type": "symptom",
+      "label": "шум в ушах",
+      "icd_code": null
+    },
+    {
+      "id": "melkanie_mushek_pered_glazami",
+      "type": "symptom",
+      "label": "мелькание «мушек» перед глазами",
+      "icd_code": null
+    },
+    {
+      "id": "chuvstvo_tyazhesti",
+      "type": "symptom",
+      "label": "чувство тяжести",
+      "icd_code": null
+    },
+    {
+      "id": "tupye_boli_v_poyasnichnoi_oblasti",
+      "type": "symptom",
+      "label": "тупые боли в поясничной области",
+      "icd_code": null
+    },
+    {
+      "id": "gematuria",
+      "type": "symptom",
+      "label": "гематурия",
+      "icd_code": null
+    },
+    {
+      "id": "priznaki_vospalitelnoi_reaktsii",
+      "type": "symptom",
+      "label": "признаки воспалительной реакции",
+      "icd_code": null
+    },
+    {
+      "id": "vysokoe_arterialnoe_davlenie",
+      "type": "symptom",
+      "label": "высокое артериальное давление",
+      "icd_code": null
+    },
+    {
+      "id": "vysokie_diastolicheskie_znacheniya_davleniya",
+      "type": "symptom",
+      "label": "высокие показатели диастолической артериального давления",
+      "icd_code": null
+    },
+    {
+      "id": "sistolicheskij_shum_v_verhnih_kvadrantah_zhivota_i_zadnej_stenke_grudnoj_kletki",
+      "type": "symptom",
+      "label": "систолический шум в правом или левом верхнем квадранте живота и по задней стенке грудной клетки",
+      "icd_code": null
+    },
+    {
+      "id": "gipotkaliemiya",
+      "type": "symptom",
+      "label": "гипокалиемия",
+      "icd_code": null
+    },
+    {
+      "id": "ponizhenie_urovnya_lpvP",
+      "type": "symptom",
+      "label": "понижение уровня ЛПВП",
+      "icd_code": null
+    },
+    {
+      "id": "povyshenie_lpnP",
+      "type": "symptom",
+      "label": "повышение ЛПНП",
+      "icd_code": null
+    },
+    {
+      "id": "povyshenie_tgd",
+      "type": "symptom",
+      "label": "повышение ТГД",
+      "icd_code": null
+    },
+    {
+      "id": "povyshenie_koeffitsienta_aterogennosti",
+      "type": "symptom",
+      "label": "повышение коэффициента атерогенности",
+      "icd_code": null
+    },
+    {
+      "id": "povyshenie_urovnya_mocheviny",
+      "type": "symptom",
+      "label": "повышение уровней мочевины",
+      "icd_code": null
+    },
+    {
+      "id": "povyshenie_kreatinina",
+      "type": "symptom",
+      "label": "повышение уровней креатинина",
+      "icd_code": null
+    },
+    {
+      "id": "assimetriya_pochek",
+      "type": "symptom",
+      "label": "ассиметрия почек",
+      "icd_code": null
+    },
+    {
+      "id": "nefroptoz",
+      "type": "symptom",
+      "label": "нефроптоз",
+      "icd_code": null
+    },
+    {
+      "id": "okklyuziya",
+      "type": "symptom",
+      "label": "отсутствие кровотока по сосуду (окклюзия)",
+      "icd_code": null
+    },
+    {
+      "id": "nalichie_trombov_v_sosudakh",
+      "type": "symptom",
+      "label": "наличие тромбов в сосудах",
+      "icd_code": null
+    },
+    {
+      "id": "anevrizma_pochechnoy_arterii",
+      "type": "symptom",
+      "label": "аневризма почечной артерии",
+      "icd_code": null
+    },
+    {
+      "id": "utolshenie_stenki_arterii",
+      "type": "symptom",
+      "label": "утолщение стенки артерии",
+      "icd_code": null
+    },
+    {
+      "id": "turbulentsiya_potoka_krovi",
+      "type": "symptom",
+      "label": "турбулентность потока крови",
+      "icd_code": null
+    },
+    {
+      "id": "izmenenie_skorosti_krovi",
+      "type": "symptom",
+      "label": "изменение скорости кровотока",
+      "icd_code": null
+    },
+    {
+      "id": "anomalii_othozhdeniya_sosudov",
+      "type": "symptom",
+      "label": "аномалии отхождения сосудов",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "golovnye_boli",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "shum_v_ushah",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  шум в ушах;",
+      "properties": {}
+    },
+    {
+      "source": "melkanie_mushek_pered_glazami",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  мелькание «мушек» перед глазами;",
+      "properties": {}
+    },
+    {
+      "source": "chuvstvo_tyazhesti",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  чувство тяжести, либо тупые боли в поясничной области;",
+      "properties": {}
+    },
+    {
+      "source": "tupye_boli_v_poyasnichnoi_oblasti",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  чувство тяжести, либо тупые боли в поясничной области;",
+      "properties": {}
+    },
+    {
+      "source": "gematuria",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  в случае острого инфаркта почки – гематурия;",
+      "properties": {}
+    },
+    {
+      "source": "priznaki_vospalitelnoi_reaktsii",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  признаки воспалительной реакции (при неспецифическом аортоартериите);",
+      "properties": {}
+    },
+    {
+      "source": "vysokoe_arterialnoe_davlenie",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аускультация:  высокое значение АД;",
+      "properties": {}
+    },
+    {
+      "source": "vysokie_diastolicheskie_znacheniya_davleniya",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто высокие показатели диастолической АД;",
+      "properties": {}
+    },
+    {
+      "source": "sistolicheskij_shum_v_verhnih_kvadrantah_zhivota_i_zadnej_stenke_grudnoj_kletki",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аускультация:  систолический шум в правом или левом верхнем квадранте живота и по задней стенке грудной клетки;",
+      "properties": {}
+    },
+    {
+      "source": "gipotkaliemiya",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  гипокалиемия (на фоне избыточной секреции альдостерона);",
+      "properties": {}
+    },
+    {
+      "source": "ponizhenie_urovnya_lpvP",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  понижение уровня ЛПВП, повышение ЛПНП, повышение ТГД, повышение коэффициента атерогенности;",
+      "properties": {}
+    },
+    {
+      "source": "povyshenie_lpnP",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  понижение уровня ЛПВП, повышение ЛПНП, повышение ТГД, повышение коэффициента атерогенности;",
+      "properties": {}
+    },
+    {
+      "source": "povyshenie_tgd",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  понижение уровня ЛПВП, повышение ЛПНП, повышение ТГД, повышение коэффициента атерогенности;",
+      "properties": {}
+    },
+    {
+      "source": "povyshenie_koeffitsienta_aterogennosti",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  понижение уровня ЛПВП, повышение ЛПНП, повышение ТГД, повышение коэффициента атерогенности;",
+      "properties": {}
+    },
+    {
+      "source": "povyshenie_urovnya_mocheviny",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  повышение уровней мочевины, креатинина (при ишемии почечных тканей);",
+      "properties": {}
+    },
+    {
+      "source": "povyshenie_kreatinina",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  повышение уровней мочевины, креатинина (при ишемии почечных тканей);",
+      "properties": {}
+    },
+    {
+      "source": "assimetriya_pochek",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ брюшной полости:  ассиметрия почек;",
+      "properties": {}
+    },
+    {
+      "source": "nefroptoz",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ брюшной полости:  возможен нефроптоз;",
+      "properties": {}
+    },
+    {
+      "source": "okklyuziya",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗАС почечных артерий:  отсутствие кровотока по сосуду (окклюзия);",
+      "properties": {}
+    },
+    {
+      "source": "nalichie_trombov_v_sosudakh",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗАС почечных артерий:  наличие тромбов в сосудах;",
+      "properties": {}
+    },
+    {
+      "source": "anevrizma_pochechnoy_arterii",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Классификация: аневризма почечной артерии;",
+      "properties": {}
+    },
+    {
+      "source": "utolshenie_stenki_arterii",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗАС почечных артерий:  утолщение стенки артерии, выявление атеросклеротических бляшек;",
+      "properties": {}
+    },
+    {
+      "source": "turbulentsiya_potoka_krovi",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗАС почечных артерий:  изменения потока крови (турбулентность, т.е. «завихрение» потока крови при прохождении её через сужение сосуда);",
+      "properties": {}
+    },
+    {
+      "source": "izmenenie_skorosti_krovi",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗАС почечных артерий:  увеличение скорости кровотока в местах препятствия току крови – стеноз, перегиб сосуда;",
+      "properties": {}
+    },
+    {
+      "source": "anomalii_othozhdeniya_sosudov",
+      "target": "renovascular_hypertension",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗАС почечных артерий:  наличие аномалий отхождения сосудов;",
+      "properties": {}
+    },
+    {
+      "source": "golovnye_boli",
+      "target": "shum_v_ushah",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  головные боли;  шум в ушах;",
+      "properties": {}
+    },
+    {
+      "source": "golovnye_boli",
+      "target": "melkanie_mushek_pered_glazami",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  головные боли;  мелькание «мушек» перед глазами;",
+      "properties": {}
+    },
+    {
+      "source": "chuvstvo_tyazhesti",
+      "target": "tupye_boli_v_poyasnichnoi_oblasti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  чувство тяжести, либо тупые боли в поясничной области;",
+      "properties": {}
+    },
+    {
+      "source": "gipotkaliemiya",
+      "target": "vysokoe_arterialnoe_davlenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования:  гипокалиемия ...; аускультация:  высокое значение АД;",
+      "properties": {}
+    }
+  ]
+}

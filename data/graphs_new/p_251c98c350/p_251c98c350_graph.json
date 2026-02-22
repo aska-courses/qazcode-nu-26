@@ -1,0 +1,65 @@
+{
+  "protocol_id": "p_251c98c350",
+  "nodes": [
+    {
+      "id": "diagnosis_macrocosmia",
+      "type": "diagnosis",
+      "label": "Крупные размеры плода",
+      "icd_code": "O33.5"
+    },
+    {
+      "id": "symptom_diabetes_type1_2",
+      "type": "symptom",
+      "label": "Сахарный диабет 1 или 2 типа"
+    },
+    {
+      "id": "symptom_previous_macrocosmia",
+      "type": "symptom",
+      "label": "Наличие в анамнезе родов крупным плодом"
+    },
+    {
+      "id": "symptom_excessive_weight_gain",
+      "type": "symptom",
+      "label": "Чрезмерная прибавка в весе (более 6 кг) в III триместре"
+    },
+    {
+      "id": "symptom_obesity",
+      "type": "symptom",
+      "label": "Ожирение"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_diabetes_type1_2",
+      "target": "diagnosis_macrocosmia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "имеющийся у беременной сахарный диабет 1 или 2 типа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_previous_macrocosmia",
+      "target": "diagnosis_macrocosmia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие в анамнезе родов крупным плодом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excessive_weight_gain",
+      "target": "diagnosis_macrocosmia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чрезмерная прибавка в весе у беременной, особенно в III триместре (более 6 кг)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obesity",
+      "target": "diagnosis_macrocosmia",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Профилактика макросомии плода проводится в случае, если у беременной наблюдаются ожирение",
+      "properties": {}
+    }
+  ]
+}

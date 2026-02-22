@@ -1,0 +1,209 @@
+{
+  "protocol_id": "p_8e50a021c9",
+  "nodes": [
+    {
+      "id": "zaikanie_f98_5",
+      "type": "diagnosis",
+      "label": "Заикание",
+      "icd_code": "F98.5"
+    },
+    {
+      "id": "zapinki_v_rechi",
+      "type": "symptom",
+      "label": "Запинки в речи"
+    },
+    {
+      "id": "povtorenie_zvukov",
+      "type": "symptom",
+      "label": "Частое повторение звуков"
+    },
+    {
+      "id": "prolonhaciya_zvukov",
+      "type": "symptom",
+      "label": "Пролонгация звуков"
+    },
+    {
+      "id": "povtorenie_slogov",
+      "type": "symptom",
+      "label": "Частое повторение слогов"
+    },
+    {
+      "id": "prolonhaciya_slogov",
+      "type": "symptom",
+      "label": "Пролонгация слогов"
+    },
+    {
+      "id": "povtorenie_slov",
+      "type": "symptom",
+      "label": "Частое повторение слов"
+    },
+    {
+      "id": "prolonhaciya_slov",
+      "type": "symptom",
+      "label": "Пролонгация слов"
+    },
+    {
+      "id": "pauzy_v_rechi",
+      "type": "symptom",
+      "label": "Частые паузы в речи"
+    },
+    {
+      "id": "kolyebania_v_rechi",
+      "type": "symptom",
+      "label": "Колебания в речи"
+    },
+    {
+      "id": "narushenie_ritma_rechi",
+      "type": "symptom",
+      "label": "Нарушение ритмичного течения речи"
+    },
+    {
+      "id": "epilepticheskie_paroksizmy",
+      "type": "symptom",
+      "label": "Эпилептические пароксизмы"
+    },
+    {
+      "id": "epileptiformnye_paroksizmy",
+      "type": "symptom",
+      "label": "Эпилептиформные пароксизмы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "zapinki_v_rechi",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: запинки в речи.",
+      "properties": {}
+    },
+    {
+      "source": "povtorenie_zvukov",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частым повторением ... звуков",
+      "properties": {}
+    },
+    {
+      "source": "prolonhaciya_zvukov",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пролонгированием ... звуков",
+      "properties": {}
+    },
+    {
+      "source": "povtorenie_slogov",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частым повторением ... слогов",
+      "properties": {}
+    },
+    {
+      "source": "prolonhaciya_slogov",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пролонгированием ... слогов",
+      "properties": {}
+    },
+    {
+      "source": "povtorenie_slov",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частым повторением ... слов",
+      "properties": {}
+    },
+    {
+      "source": "prolonhaciya_slov",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пролонгированием ... слов",
+      "properties": {}
+    },
+    {
+      "source": "pauzy_v_rechi",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частыми ... паузами",
+      "properties": {}
+    },
+    {
+      "source": "kolyebania_v_rechi",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частыми ... колебаниями",
+      "properties": {}
+    },
+    {
+      "source": "narushenie_ritma_rechi",
+      "target": "zaikanie_f98_5",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "разрывает ритмичное течение речи",
+      "properties": {}
+    },
+    {
+      "source": "povtorenie_zvukov",
+      "target": "prolonhaciya_zvukov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частым повторением или пролонгированием звуков",
+      "properties": {}
+    },
+    {
+      "source": "povtorenie_slogov",
+      "target": "prolonhaciya_slogov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частым повторением или пролонгированием слогов",
+      "properties": {}
+    },
+    {
+      "source": "povtorenie_slov",
+      "target": "prolonhaciya_slov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частым повторением или пролонгированием слов",
+      "properties": {}
+    },
+    {
+      "source": "zapinki_v_rechi",
+      "target": "pauzy_v_rechi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частыми запинаниями или паузами",
+      "properties": {}
+    },
+    {
+      "source": "zapinki_v_rechi",
+      "target": "kolyebania_v_rechi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "частыми ... колебаниями",
+      "properties": {}
+    },
+    {
+      "source": "zapinki_v_rechi",
+      "target": "narushenie_ritma_rechi",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "разрывает ритмичное течение речи",
+      "properties": {}
+    },
+    {
+      "source": "epilepticheskie_paroksizmy",
+      "target": "epileptiformnye_paroksizmy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ЭЭГ – при эпилептических и эпилептиформных пароксизмах",
+      "properties": {}
+    }
+  ]
+}

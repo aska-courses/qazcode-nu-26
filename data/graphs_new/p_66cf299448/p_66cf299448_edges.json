@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_deformaciya_lica",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "На деформацию лица Выраженность деформации зависит от времени прошедшего с момента обнаружения...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_podvizhnosti_yazyka",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение подвижности языка, глотания, речи, при достижении кистой больших размеров...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_glotania",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение подвижности языка, глотания, речи, при достижении кистой больших размеров...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_rechi",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение подвижности языка, глотания, речи, при достижении кистой больших размеров...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При нагноении кисты появляется боль, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При нагноении кисты появляется боль, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nagnovenie_kisty",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нагноение дермоидной кисты лица и шеи, асфиксия на фоне больших размеров кисты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asfiksiya",
+    "target": "diagnosis_dermoidnaya_kista",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нагноение дермоидной кисты лица и шеи, асфиксия на фоне больших размеров кисты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_povysenie_temperatury_tela",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "При нагноении кисты появляется боль, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_nagnovenie_kisty",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нагноение дермоидной кисты лица и шеи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "symptom_nagnovenie_kisty",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нагноение дермоидной кисты лица и шеи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_podvizhnosti_yazyka",
+    "target": "symptom_narushenie_glotania",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нарушение подвижности языка, глотания, речи, при достижении кистой больших размеров",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_podvizhnosti_yazyka",
+    "target": "symptom_narushenie_rechi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нарушение подвижности языка, глотания, речи, при достижении кистой больших размеров",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_glotania",
+    "target": "symptom_narushenie_rechi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Нарушение подвижности языка, глотания, речи, при достижении кистой больших размеров",
+    "properties": {}
+  }
+]

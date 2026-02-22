@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_deformaciya_bedra",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Абсолютные (прямые) признаки переломов: - деформация бедра;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kostnaya_krepitatsiya",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Абсолютные (прямые) признаки переломов: - костная крепитация;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_podvizhnost",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Абсолютные (прямые) признаки переломов: - патологическая подвижность;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vystoyanie_otlomkov",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Абсолютные (прямые) признаки переломов: - выстояние костных отломков из раны;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ukorocheniye_konechnosti",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Абсолютные (прямые) признаки переломов: - укорочение конечности;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lokalizirovannaya_bol",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Относительные (косвенные) признаки переломов: - боль (совпадение локализованной боли и локализованной болезненности при пальпации);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolestnost_pri_palpatsii",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Относительные (косвенные) признаки переломов: - боль (совпадение локализованной боли и локализованной болезненности при пальпации);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptom_oschey_nagruzki",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Относительные (косвенные) признаки переломов: - симптом осевой нагрузки – усиление локализованной боли при нагрузке конечности по оси;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pripuhlost",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Относительные (косвенные) признаки переломов: - наличие припухлости (гематомы);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funktsii_konechnosti",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Относительные (косвенные) признаки переломов: - нарушение (отсутствие) функции конечности.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жалобы: на боли, нарушение опороспособности конечности, наличие ран при открытых переломах.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_opor",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жалобы: на боли, нарушение опороспособности конечности, наличие ран при открытых переломах.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nalichie_ran",
+    "target": "diagnosis_perelom_bedra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жалобы: на боли, нарушение опороспособности конечности, наличие ран при открытых переломах.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_bedra",
+    "target": "symptom_kostnaya_krepitatsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Абсолютные (прямые) признаки переломов: - деформация бедра; - костная крепитация;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lokalizirovannaya_bol",
+    "target": "symptom_bolestnost_pri_palpatsii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Относительные (косвенные) признаки переломов: - боль (совпадение локализованной боли и локализованной болезненности при пальпации);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptom_oschey_nagruzki",
+    "target": "symptom_pripuhlost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Относительные (косвенные) признаки переломов: - симптом осевой нагрузки …; - наличие припухлости (гематомы);",
+    "properties": {}
+  }
+]

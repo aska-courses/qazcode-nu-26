@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symptom_bol_v_pravom_podrebere",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При повреждении печени боли отдают в надплечье справа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_levom_pleche",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при травме селезенки – слева",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhaya_jazyk",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухость языка – частый симптом при травме полых органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_makrogematuriya",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "макрогематурия – признак кровотечения, обусловленное травмой почки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipovolemiicheskij_shok",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиповолемический шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotenzia",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Низкое (менее 100 мм рт. ст.) артериальное давление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardia",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частый (более 100 уд. в минуту) пульс слабого наполнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Грея Тернера (цианоз боковой поверхности живота) ... указывают на забрюшинную гематому",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhod_joysa",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом Джойса (укорочение перкуторного звука, границы не меняются при повороте) – характерный признак забрюшинной гематомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ukorochenie_perkutornoho_zvuka_v_bokovyh_otdelah",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Укорочение перкуторного звука в боковых отделах живота указывает на скопление ... свободной жидкости (кровь, экссудат, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shchetka_blyumberga",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом Щеткина‑Блюмберга указывает на развитие перитонита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kulenkampfa",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом Куленкампфа – болезненность ... характерны для гемоперитонеума",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocitosis",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лейкоцитоз свыше 20х10⁹/л ... свидетельствует о ... разрыве селезенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_amylazy",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение активности сывороточной амилазы – признак повреждения поджелудочной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_transaminaz",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение активности сывороточных трансаминаз характерно для повреждения печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemoglobin_snizhenie",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение гемоглобина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gematokrit_snizhenie",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение гематокрита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krov_v_moche",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровь в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krov_v_peritonealnoj_zhidkosti",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровь в перитонеальной жидкости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eritrocyty_lavazh",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эритроциты >10⁸/л в диагностическом перитонеальном лаваже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocyty_lavazh",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лейкоциты >5×10⁵/л в диагностическом перитонеальном лаваже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peritonit",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Перитонит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pnevmo_peritonium",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Пневмоперитонум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gidroperitonium",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гидроперитонум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zapah_gnoja",
+    "target": "diagnosis_s36",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Запах гноя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obshchaya_krovopoteria",
+    "target": "diagnosis_s35",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Общая кровопотеря",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vydayenie_vnutrennih_orgonov_iz_rany",
+    "target": "diagnosis_s38",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Выпадение из раны внутренних органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_pravom_podrebere",
+    "target": "symptom_bol_v_levom_pleche",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Боли в ране и (или) в животе ... при повреждении печени боли отдают в надплечье справа, при травме селезенки – слева",
+    "properties": {}
+  },
+  {
+    "source": "symptom_makrogematuriya",
+    "target": "symptom_krov_v_moche",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "макрогематурия – признак кровотечения ... Кровь в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peritonit",
+    "target": "symptom_pnevmo_peritonium",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Перитонит ... Пневмоперитонум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peritonit",
+    "target": "symptom_gidroperitonium",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Перитонит ... Гидроперитонум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipovolemiicheskij_shok",
+    "target": "symptom_gipotenzia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гиповолемический шок ... низкое (менее 100 мм рт. ст.) артериальное давление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipovolemiicheskij_shok",
+    "target": "symptom_tahikardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гиповолемический шок ... частый (более 100 уд. в минуту) пульс слабого наполнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipovolemiicheskij_shok",
+    "target": "symptom_holodnyj_pot",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповолемический шок ... холодный пот",
+    "properties": {}
+  }
+]

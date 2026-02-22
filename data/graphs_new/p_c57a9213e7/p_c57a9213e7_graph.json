@@ -1,0 +1,371 @@
+{
+  "protocol_id": "p_c57a9213e7",
+  "nodes": [
+    {
+      "id": "symptom_pain_projection_lacrimal_gland",
+      "type": "symptom",
+      "label": "Боль в проекции слезной железы"
+    },
+    {
+      "id": "symptom_redness_projection_lacrimal_gland",
+      "type": "symptom",
+      "label": "Покраснение кожи в проекции слезной железы"
+    },
+    {
+      "id": "symptom_eyelid_edema",
+      "type": "symptom",
+      "label": "Отёк кожи века"
+    },
+    {
+      "id": "symptom_ptosis_upper_eyelid",
+      "type": "symptom",
+      "label": "Опущение верхнего века"
+    },
+    {
+      "id": "symptom_swelling_lacrimal_gland_area",
+      "type": "symptom",
+      "label": "Припухлость в области слезной железы"
+    },
+    {
+      "id": "symptom_eye_displacement",
+      "type": "symptom",
+      "label": "Смещение глазного яблока"
+    },
+    {
+      "id": "symptom_diplopia",
+      "type": "symptom",
+      "label": "Двоение"
+    },
+    {
+      "id": "symptom_stinging_eye",
+      "type": "symptom",
+      "label": "Рези в области глаз"
+    },
+    {
+      "id": "symptom_dry_eye_sensation",
+      "type": "symptom",
+      "label": "Чувство сухости глаз"
+    },
+    {
+      "id": "symptom_foreign_body_sensation",
+      "type": "symptom",
+      "label": "Чувство инородного тела в глазу"
+    },
+    {
+      "id": "symptom_visual_fatigue",
+      "type": "symptom",
+      "label": "Быстрая зрительная утомляемость"
+    },
+    {
+      "id": "symptom_tearing",
+      "type": "symptom",
+      "label": "Слезотечение"
+    },
+    {
+      "id": "symptom_excessive_tearing",
+      "type": "symptom",
+      "label": "Слезостояние"
+    },
+    {
+      "id": "symptom_conjunctival_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия конъюнктивы"
+    },
+    {
+      "id": "symptom_proptosis",
+      "type": "symptom",
+      "label": "Экзофтальм"
+    },
+    {
+      "id": "symptom_narrow_palpebral_fissure",
+      "type": "symptom",
+      "label": "Сужение глазной щели"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_micro_xerosis_signs",
+      "type": "symptom",
+      "label": "Микропризнаки ксероза"
+    },
+    {
+      "id": "symptom_macro_xerosis_signs",
+      "type": "symptom",
+      "label": "Макропризнаки ксероза"
+    },
+    {
+      "id": "symptom_reduced_visual_acuity",
+      "type": "symptom",
+      "label": "Снижение остроты зрения"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_increased_intraocular_pressure",
+      "type": "symptom",
+      "label": "Повышение внутриглазного давления"
+    },
+    {
+      "id": "symptom_eye_itching",
+      "type": "symptom",
+      "label": "Зуд глаз"
+    },
+    {
+      "id": "symptom_eye_burning",
+      "type": "symptom",
+      "label": "Жжение в глазу"
+    },
+    {
+      "id": "symptom_purulent_discharge",
+      "type": "symptom",
+      "label": "Гнойное отделяемое из глаза"
+    },
+    {
+      "id": "symptom_eyelid_infiltration",
+      "type": "symptom",
+      "label": "Инфильтрация в области века"
+    },
+    {
+      "id": "diagnosis_dacrioadenit",
+      "type": "diagnosis",
+      "label": "Дакриоаденит",
+      "icd_code": "N04.0"
+    },
+    {
+      "id": "diagnosis_other_lacrimal_gland_diseases",
+      "type": "diagnosis",
+      "label": "Другие болезни слезной железы",
+      "icd_code": "N04.1"
+    },
+    {
+      "id": "diagnosis_epiphora",
+      "type": "diagnosis",
+      "label": "Эпифора",
+      "icd_code": "N04.2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain_projection_lacrimal_gland",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль и покраснение кожи в проекции слезной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_redness_projection_lacrimal_gland",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль и покраснение кожи в проекции слезной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eyelid_edema",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кожи века",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ptosis_upper_eyelid",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "опущение верхнего века",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling_lacrimal_gland_area",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие припухлости в области слезной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_displacement",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diplopia",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "двоение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_dacrioadenit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stinging_eye",
+      "target": "diagnosis_other_lacrimal_gland_diseases",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рези в области глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_eye_sensation",
+      "target": "diagnosis_other_lacrimal_gland_diseases",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство сухости глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_conjunctival_hyperemia",
+      "target": "diagnosis_other_lacrimal_gland_diseases",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия конъюнктивы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foreign_body_sensation",
+      "target": "diagnosis_other_lacrimal_gland_diseases",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство инородного тела, «песка» в области глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_fatigue",
+      "target": "diagnosis_other_lacrimal_gland_diseases",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "быстрая зрительная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "diagnosis_epiphora",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excessive_tearing",
+      "target": "diagnosis_epiphora",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слезостояние",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_projection_lacrimal_gland",
+      "target": "symptom_redness_projection_lacrimal_gland",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боль и покраснение кожи в проекции слезной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eyelid_edema",
+      "target": "symptom_ptosis_upper_eyelid",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек кожи века; опущение верхнего века",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling_lacrimal_gland_area",
+      "target": "symptom_eye_displacement",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие припухлости в области слезной железы; смещение глазного яблока",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling_lacrimal_gland_area",
+      "target": "symptom_diplopia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие припухлости в области слезной железы; двоение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_displacement",
+      "target": "symptom_diplopia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "смещение глазного яблока; двоение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stinging_eye",
+      "target": "symptom_dry_eye_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рези в области глаз; чувство сухости глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stinging_eye",
+      "target": "symptom_conjunctival_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рези в области глаз; гиперемия конъюнктивы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stinging_eye",
+      "target": "symptom_foreign_body_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рези в области глаз; чувство инородного тела, «песка» в области глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_eye_sensation",
+      "target": "symptom_conjunctival_hyperemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство сухости глаз; гиперемия конъюнктивы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_eye_sensation",
+      "target": "symptom_foreign_body_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство сухости глаз; чувство инородного тела, «песка» в области глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_conjunctival_hyperemia",
+      "target": "symptom_foreign_body_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гиперемия конъюнктивы; чувство инородного тела, «песка» в области глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "symptom_excessive_tearing",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "слезотечение, слезостояние",
+      "properties": {}
+    }
+  ]
+}

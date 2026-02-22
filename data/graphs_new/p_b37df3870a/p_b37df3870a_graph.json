@@ -1,0 +1,313 @@
+{
+  "protocol_id": "p_b37df3870a",
+  "nodes": [
+    {
+      "id": "symptom_iskrivlenie_polovogo_chlena",
+      "type": "symptom",
+      "label": "искривление полового члена"
+    },
+    {
+      "id": "symptom_smeschenie_naruzhnego_otverstiya_uretroy",
+      "type": "symptom",
+      "label": "смещение наружного отверстия уретры"
+    },
+    {
+      "id": "symptom_zatrudnennoe_mocheispuskanie",
+      "type": "symptom",
+      "label": "затрудненное мочеиспускание"
+    },
+    {
+      "id": "symptom_atipichnoe_raspolozhenie_otverstiya_uretroy",
+      "type": "symptom",
+      "label": "атипичное расположение наружного отверстия уретры"
+    },
+    {
+      "id": "symptom_kapushon_prepuzy",
+      "type": "symptom",
+      "label": "крайняя плоть в виде «капюшона»"
+    },
+    {
+      "id": "symptom_mocheispuskanie_v_sidayushchem_polozhenii",
+      "type": "symptom",
+      "label": "мочеиспускание в сидячем положении"
+    },
+    {
+      "id": "symptom_stenoz_ustya_mocheispuskatelnogo_kanala",
+      "type": "symptom",
+      "label": "стеноз устья мочеиспускательного канала"
+    },
+    {
+      "id": "symptom_ventralnoe_otklonenie_strui_mochi",
+      "type": "symptom",
+      "label": "вентральное отклонение струи мочи"
+    },
+    {
+      "id": "symptom_nedorazvitie_moshonki",
+      "type": "symptom",
+      "label": "недоразвитие мошонки"
+    },
+    {
+      "id": "symptom_nedorazvitie_polovogo_chlena",
+      "type": "symptom",
+      "label": "недоразвитие полового члена"
+    },
+    {
+      "id": "diagnosis_gipospadiya_q54",
+      "type": "diagnosis",
+      "label": "Гипоспадия",
+      "icd_code": "Q54"
+    },
+    {
+      "id": "diagnosis_gipospadiya_glavki_q54_0",
+      "type": "diagnosis",
+      "label": "Гипоспадия головки полового члена",
+      "icd_code": "Q54.0"
+    },
+    {
+      "id": "diagnosis_gipospadiya_polovogo_chlena_q54_1",
+      "type": "diagnosis",
+      "label": "Гипоспадия полового члена",
+      "icd_code": "Q54.1"
+    },
+    {
+      "id": "diagnosis_gipospadiya_chlen_moshonochnaya_q54_2",
+      "type": "diagnosis",
+      "label": "Гипоспадия члено‑мошоночная",
+      "icd_code": "Q54.2"
+    },
+    {
+      "id": "diagnosis_gipospadiya_promezhnostnaya_q54_3",
+      "type": "diagnosis",
+      "label": "Гипоспадия промежностная",
+      "icd_code": "Q54.3"
+    },
+    {
+      "id": "diagnosis_vrozhdennoe_iskrivlenie_polovogo_chlena_q54_4",
+      "type": "diagnosis",
+      "label": "Врожденное искривление полового члена",
+      "icd_code": "Q54.4"
+    },
+    {
+      "id": "diagnosis_drugaya_gipospadiya_q54_8",
+      "type": "diagnosis",
+      "label": "Другая гипоспадия",
+      "icd_code": "Q54.8"
+    },
+    {
+      "id": "diagnosis_gipospadiya_neutochnaya_q54_9",
+      "type": "diagnosis",
+      "label": "Гипоспадия неуточненная",
+      "icd_code": "Q54.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_iskrivlenie_polovogo_chlena",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: • искривление полового члена;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smeschenie_naruzhnego_otverstiya_uretroy",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: • смещение наружного отверстия уретры на нижнюю поверхность члена, мошонку или промежность;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_mocheispuskanie",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: • затрудненное мочеиспускание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atipichnoe_raspolozhenie_otverstiya_uretroy",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: • атипичное расположение наружное отверстие уретры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kapushon_prepuzy",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: • крайняя плоть в виде «капюшона»;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mocheispuskanie_v_sidayushchem_polozhenii",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: • мочеиспускание производится в сидячем положении.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ventralnoe_otklonenie_strui_mochi",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Показания к оперативному лечению: • вентральное отклонение струи мочи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stenoz_ustya_mocheispuskatelnogo_kanala",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Показания к оперативному лечению: • стеноз устья мочеиспускательного канала;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedorazvitie_moshonki",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "УЗИ органов мошонки – определяется недоразвитие мошонки;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedorazvitie_polovogo_chlena",
+      "target": "diagnosis_gipospadiya_q54",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "сам половой член при этом может быть анатомически недоразвитым, изогнутым, маленьким, тонким или приросшим к мошонке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iskrivlenie_polovogo_chlena",
+      "target": "symptom_smeschenie_naruzhnego_otverstiya_uretroy",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы: • искривление полового члена; • смещение наружного отверстия уретры ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iskrivlenie_polovogo_chlena",
+      "target": "symptom_zatrudnennoe_mocheispuskanie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы: • искривление полового члена; • затрудненное мочеиспускание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smeschenie_naruzhnego_otverstiya_uretroy",
+      "target": "symptom_zatrudnennoe_mocheispuskanie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы: • смещение наружного отверстия уретры ...; • затрудненное мочеиспускание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atipichnoe_raspolozhenie_otverstiya_uretroy",
+      "target": "symptom_kapushon_prepuzy",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: • атипичное расположение наружное отверстие уретры; • крайняя плоть в виде «капюшона»;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atipichnoe_raspolozhenie_otverstiya_uretroy",
+      "target": "symptom_mocheispuskanie_v_sidayushchem_polozhenii",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: • атипичное расположение наружное отверстие уретры; • мочеиспускание производится в сидячем положении.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kapushon_prepuzy",
+      "target": "symptom_mocheispuskanie_v_sidayushchem_polozhenii",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: • крайняя плоть в виде «капюшона»; • мочеиспускание производится в сидячем положении.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ventralnoe_otklonenie_strui_mochi",
+      "target": "symptom_stenoz_ustya_mocheispuskatelnogo_kanala",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Показания к оперативному лечению: • вентральное отклонение струи мочи; • стеноз устья мочеиспускательного канала;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ventralnoe_otklonenie_strui_mochi",
+      "target": "symptom_iskrivlenie_polovogo_chlena",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Показания к оперативному лечению: • вентральное отклонение струи мочи; • искривление полового члена.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stenoz_ustya_mocheispuskatelnogo_kanala",
+      "target": "symptom_iskrivlenie_polovogo_chlena",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Показания к оперативному лечению: • стеноз устья мочеиспускательного канала; • искривление полового члена.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_gipospadiya_glavki_q54_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.0 Гипоспадия головки полового ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_gipospadiya_polovogo_chlena_q54_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.1 Гипоспадия полового члена ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_gipospadiya_chlen_moshonochnaya_q54_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.2 Гипоспадия члено‑мошоночная ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_gipospadiya_promezhnostnaya_q54_3",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.3 Гипоспадия промежностная ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_vrozhdennoe_iskrivlenie_polovogo_chlena_q54_4",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.4 Врожденное искривление полового члена ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_drugaya_gipospadiya_q54_8",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.8 Другая гипоспадия ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_gipospadiya_q54",
+      "target": "diagnosis_gipospadiya_neutochnaya_q54_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "МКБ-10 ... Q54 Гипоспадия ... Q54.9 Гипоспадия неуточненная ...",
+      "properties": {}
+    }
+  ]
+}

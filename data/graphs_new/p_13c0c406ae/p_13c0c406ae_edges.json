@@ -1,0 +1,242 @@
+[
+  {
+    "source": "symptom_chastoe_dnevnoe_mocheispuskaniye",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "это синдром частого дневного мочеиспускания, стрессовое недержание мочи, ночное недержание (энурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stressovoe_nedrzhanie",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "это синдром частого дневного мочеиспускания, стрессовое недержание мочи, ночное недержание (энурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nochnoye_enurez",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "это синдром частого дневного мочеиспускания, стрессовое недержание мочи, ночное недержание (энурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_imperativnye_pozyvy",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "императивные позывы к мочеиспусканию ... малый объем выделяемой мочи; ночное и/или дневное недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malyy_obem_mochi",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "императивные позывы к мочеиспусканию ... малый объем выделяемой мочи; ночное и/или дневное недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedrzhanie_moch",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hronicheskie_zapory",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "хронические запоры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_artyerialnaya_gipertenziya",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артериальная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hronicheskaya_bolezn_pochek",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "хроническая болезнь почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leykotsit",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАК – лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uскорennaya_so",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАК – ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bakteriuriya",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАМ – бактериурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leykotsituria",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАМ – лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eritrotsituria",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАМ – эритроцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuriya",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАМ – протеинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoizosteniya",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАМ – гипоизостенурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_azotemiya",
+    "target": "diagnosis_neurogennaya_dysfunkciya_moch",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ОАМ – азотемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastoe_dnevnoe_mocheispuskaniye",
+    "target": "symptom_stressovoe_nedrzhanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "это синдром частого дневного мочеиспускания, стрессовое недержание мочи, ночное недержание (энурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastoe_dnevnoe_mocheispuskaniye",
+    "target": "symptom_nochnoye_enurez",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "это синдром частого дневного мочеиспускания, стрессовое недержание мочи, ночное недержание (энурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stressovoe_nedrzhanie",
+    "target": "symptom_nochnoye_enurez",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "это синдром частого дневного мочеиспускания, стрессовое недержание мочи, ночное недержание (энурез)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_imperativnye_pozyvy",
+    "target": "symptom_malyy_obem_mochi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "императивные позывы к мочеиспусканию ... малый объем выделяемой мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_imperativnye_pozyvy",
+    "target": "symptom_nochnoye_enurez",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "императивные позывы к мочеиспусканию ... ночное и/или дневное недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malyy_obem_mochi",
+    "target": "symptom_nochnoye_enurez",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "малый объем выделяемой мочи; ночное и/или дневное недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leykotsit",
+    "target": "symptom_uскорennaya_so",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАК – лейкоцитоз, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bakteriuriya",
+    "target": "symptom_leykotsituria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – бактериурия, лейкоцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leykotsituria",
+    "target": "symptom_eritrotsituria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – лейкоцитурия, эритроцитурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eritrotsituria",
+    "target": "symptom_proteinuriya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – эритроцитурия, протеинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuriya",
+    "target": "symptom_gipoizosteniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – протеинурия, гипоизостенурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoizosteniya",
+    "target": "symptom_azotemiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ОАМ – гипоизостенурия, азотемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priznaki_obstruktsionnogo_pielonefrita",
+    "target": "symptom_hronicheskaya_bolezn_pochek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "признаки обструктивного пиелонефрита ... хронической болезни почек",
+    "properties": {}
+  }
+]

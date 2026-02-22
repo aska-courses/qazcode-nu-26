@@ -1,0 +1,353 @@
+{
+  "protocol_id": "p_cb6a809d17",
+  "nodes": [
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "одышка (прогрессирующая инспираторная одышка)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "длительный непродуктивный кашель",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_exertion_intolerance",
+      "type": "symptom",
+      "label": "снижение толерантности к физическим нагрузкам",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_decreased_appetite",
+      "type": "symptom",
+      "label": "снижение аппетита",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "потеря веса",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nail_clubbing",
+      "type": "symptom",
+      "label": "изменение ногтевых фаланг (барабанные палочки)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_crackles_velcro",
+      "type": "symptom",
+      "label": "крепитация (хрипы «Velcro»)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "диффузный серо‑пепельный цианоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_accentuated_second_heart_sound",
+      "type": "symptom",
+      "label": "усиление II тона над легочной артерией",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_peripheral_edema",
+      "type": "symptom",
+      "label": "периферические отёки",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_j84_1",
+      "type": "diagnosis",
+      "label": "Идиопатический легочный фиброз",
+      "icd_code": "J84.1"
+    },
+    {
+      "id": "diagnosis_j67",
+      "type": "diagnosis",
+      "label": "Гиперчувствительный пневмонит",
+      "icd_code": "J67"
+    },
+    {
+      "id": "diagnosis_j67_9",
+      "type": "diagnosis",
+      "label": "Гиперчувствительный пневмонит (подкласс J67.9)",
+      "icd_code": "J67.9"
+    },
+    {
+      "id": "diagnosis_j67_8",
+      "type": "diagnosis",
+      "label": "Гиперчувствительный пневмонит (подкласс J67.8)",
+      "icd_code": "J67.8"
+    },
+    {
+      "id": "diagnosis_d86_0",
+      "type": "diagnosis",
+      "label": "Саркоидоз легких",
+      "icd_code": "D86.0"
+    },
+    {
+      "id": "diagnosis_d86_2",
+      "type": "diagnosis",
+      "label": "Саркоидоз легких и лимфатических узлов",
+      "icd_code": "D86.2"
+    },
+    {
+      "id": "diagnosis_j99_0",
+      "type": "diagnosis",
+      "label": "Ревматоидная болезнь легкого",
+      "icd_code": "J99.0"
+    },
+    {
+      "id": "diagnosis_j99_1",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при других диффузных нарушениях соединительной ткани",
+      "icd_code": "J99.1"
+    },
+    {
+      "id": "diagnosis_m32_1",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при системной красной волчанке",
+      "icd_code": "M32.1"
+    },
+    {
+      "id": "diagnosis_m33_0",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при дерматомиозе (M33.0)",
+      "icd_code": "M33.0"
+    },
+    {
+      "id": "diagnosis_m33_1",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при дерматомиозе (M33.1)",
+      "icd_code": "M33.1"
+    },
+    {
+      "id": "diagnosis_m33_2",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при полимиозите",
+      "icd_code": "M33.2"
+    },
+    {
+      "id": "diagnosis_m35_0",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при синдроме Шегрена",
+      "icd_code": "M35.0"
+    },
+    {
+      "id": "diagnosis_m34_8",
+      "type": "diagnosis",
+      "label": "Респираторные нарушения при системном склерозе",
+      "icd_code": "M34.8"
+    },
+    {
+      "id": "diagnosis_j60_j70",
+      "type": "diagnosis",
+      "label": "Болезни легких, вызванные внешними агентами",
+      "icd_code": "J60-J70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "постепенно нарастающая преимущественно инспираторная одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "длительный непродуктивный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exertion_intolerance",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение толерантности к физическим нагрузкам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_appetite",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nail_clubbing",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "изменение ногтевых фаланг в виде «барабанных палочек»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crackles_velcro",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация (хрипы «Velcro»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "диффузный серо‑пепельный цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_accentuated_second_heart_sound",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "усиление II тона над легочной артерией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_peripheral_edema",
+      "target": "diagnosis_j84_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "периферические отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_cough",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "постепенно нарастающая ... одышка ... длительный непродуктивный кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_exertion_intolerance",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "длительный непродуктивный кашель, снижение толерантности к физическим нагрузкам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_decreased_appetite",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "неспецифические симптомы - слабость, снижение аппетита, потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_appetite",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "неспецифические симптомы - слабость, снижение аппетита, потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nail_clubbing",
+      "target": "symptom_crackles_velcro",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменение ногтевых фаланг ...; крепитация (хрипы «Velcro»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "symptom_accentuated_second_heart_sound",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "диффузный серо‑пепельный цианоз, усиление II тона над легочной артерией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "диффузный серо‑пепельный цианоз, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "symptom_peripheral_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "диффузный серо‑пепельный цианоз, периферические отёки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j84_1",
+      "target": "diagnosis_j67",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: J84.1 ... J67 ... (перечислены вместе как возможные диагнозы)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j84_1",
+      "target": "diagnosis_d86_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: J84.1 ... D86.0 ... (перечислены вместе в таблице)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_j84_1",
+      "target": "diagnosis_j99_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: J84.1 ... J99.0 ... (перечислены вместе в таблице)",
+      "properties": {}
+    }
+  ]
+}

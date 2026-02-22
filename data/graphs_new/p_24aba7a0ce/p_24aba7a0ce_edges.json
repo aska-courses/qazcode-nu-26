@@ -1,0 +1,58 @@
+[
+  {
+    "source": "symptom_limitation_joint_movement",
+    "target": "diagnosis_contracture",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  на ограничение движений в пораженном суставе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_passive_movement_limitation",
+    "target": "diagnosis_contracture",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Контрактура сустава — ограничение пассивных движений в суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_movement_limitation",
+    "target": "diagnosis_contracture",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Ограничение активных движений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_functional_limitation",
+    "target": "diagnosis_contracture",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение движений в пораженном суставе с нарушением функции конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_movement_limitation",
+    "target": "symptom_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Ограничение активных ... болевого синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_movement_limitation",
+    "target": "symptom_swelling",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Ограничение активных ... отек мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limitation_joint_movement",
+    "target": "symptom_functional_limitation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничение движений в пораженном суставе с нарушением функции конечности",
+    "properties": {}
+  }
+]

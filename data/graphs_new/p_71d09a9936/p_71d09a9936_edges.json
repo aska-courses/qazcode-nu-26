@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_productive_cough",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "проявляющееся продуктивным кашлем",
+    "properties": {}
+  },
+  {
+    "source": "symptom_productive_cough",
+    "target": "diagnosis_j42_unspecified_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "проявляющееся продуктивным кашлем",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_over_3_weeks",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кашель более 3‑х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_over_3_weeks",
+    "target": "diagnosis_j42_unspecified_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кашель более 3‑х недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrile_temperature",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в периоды обострения могут возникать озноб, субфебрильная температура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_temperature",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "фебрильная лихорадка более 38,0 С",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в периоды обострения появляется и прогрессирует одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общая слабость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общая слабость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_rales",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жесткое дыхание, рассеянные сухие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rigid_breathing",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жесткое дыхание, рассеянные сухие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucoid_sputum",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мокрота слизистая",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muco_purulent_sputum",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в периоды обострения – слизисто‑гнойная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sputum",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гнойная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в общем анализе крови – лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koch_bacilli_presence",
+    "target": "diagnosis_j41_simple_chronic_bronchitis",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "при наличии мокроты обязательно 3‑х кратное исследование на БК",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_over_3_weeks",
+    "target": "symptom_productive_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кашель более 3‑х недель",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j41_simple_chronic_bronchitis",
+    "target": "diagnosis_j42_unspecified_chronic_bronchitis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10 J41 ... J42",
+    "properties": {}
+  }
+]

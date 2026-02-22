@@ -1,0 +1,106 @@
+[
+  {
+    "source": "zhguchie_boli_v_oblasti_ogoba",
+    "target": "termi4cheskiy_ogob_20_29",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на жгучие боли в области воздействия термического агента",
+    "properties": {}
+  },
+  {
+    "source": "zhguchie_boli_chemicheskikh_veshchestv",
+    "target": "termi4cheskiй_ogob_20_29",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на жгучие боли в области воздействия химических веществ",
+    "properties": {}
+  },
+  {
+    "source": "pokrasnenie_kozhi",
+    "target": "otek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "I степень – покраснение кожи ... иногда на отёчной основе",
+    "properties": {}
+  },
+  {
+    "source": "giperemiya_slezistoi",
+    "target": "otek_slezistoi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Выраженная гиперемия и отёк слизистой",
+    "properties": {}
+  },
+  {
+    "source": "kashel",
+    "target": "kopot_v_mokrote",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Кашель с копотью в мокроте – в 22,6% случаев",
+    "properties": {}
+  },
+  {
+    "source": "disfonija",
+    "target": "stridor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дисфония (осиплость голоса) – в 16,8% случаев. Стридор (шумное дыхание) – в 6,9% случаев",
+    "properties": {}
+  },
+  {
+    "source": "povyshenie_temperatury",
+    "target": "sepsis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жжение и боли в области ожоговых ран, озноб, повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "ozneb",
+    "target": "sepsis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жжение и боли в области ожоговых ран, озноб, повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "bolevaya_chuvstvitelnost_sokhranena",
+    "target": "bolevaya_chuvstvitelnost_otsutstvuet",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "III‑А степень – болевая чувствительность сохранена; III‑Б степень – болевая реакция отсутствует",
+    "properties": {}
+  },
+  {
+    "source": "sosudistaya_reakciia_otstutstvuet",
+    "target": "bolevaya_chuvstvitelnost_otsutstvuet",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "III‑Б степень – сосудистая и болевая реакция отсутствуют",
+    "properties": {}
+  },
+  {
+    "source": "povyshenie_temperatury",
+    "target": "gipovolemiia_shok",
+    "type": "contradicts",
+    "weight": 0.25,
+    "evidence": "При тяжёлом ОШ температура тела падает ниже 36°",
+    "properties": {}
+  },
+  {
+    "source": "ozneb",
+    "target": "gipovolemiia_shok",
+    "type": "contradicts",
+    "weight": 0.25,
+    "evidence": "При тяжёлом ОШ температура тела падает ниже 36°",
+    "properties": {}
+  },
+  {
+    "source": "termoinhalia_travma",
+    "target": "termi4cheskiy_ogob_20_29",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Термоингаляционные травмы (ТИТ) – осложнение ожогов",
+    "properties": {}
+  }
+]

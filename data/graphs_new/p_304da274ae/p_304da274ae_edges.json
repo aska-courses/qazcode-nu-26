@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "diagnosis_c34",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "diagnosis_c50",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "diagnosis_c61",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "diagnosis_c73",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rezistentnyj_k_narkoticheskim_analgetikam",
+    "target": "diagnosis_c34",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rezistentnyj_k_narkoticheskim_analgetikam",
+    "target": "diagnosis_c50",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rezistentnyj_k_narkoticheskim_analgetikam",
+    "target": "diagnosis_c61",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rezistentnyj_k_narkoticheskim_analgetikam",
+    "target": "diagnosis_c73",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressirovanie_kostnyh_metastazov",
+    "target": "diagnosis_c34",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Прогрессирование костных метастазов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressirovanie_kostnyh_metastazov",
+    "target": "diagnosis_c50",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Прогрессирование костных метастазов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressirovanie_kostnyh_metastazov",
+    "target": "diagnosis_c61",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Прогрессирование костных метастазов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_progressirovanie_kostnyh_metastazov",
+    "target": "diagnosis_c73",
+    "type": "supports",
+    "weight": 0.6,
+    "evidence": "• Прогрессирование костных метастазов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "symptom_rezistentnyj_k_narkoticheskim_analgetikam",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "symptom_progressirovanie_kostnyh_metastazov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "• Болевой синдром ... • Прогрессирование костных метастазов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rezistentnyj_k_narkoticheskim_analgetikam",
+    "target": "symptom_progressirovanie_kostnyh_metastazov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "• Болевой синдром, в том числе резистентный к наркотическим анальгетикам; • Прогрессирование костных метастазов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_c50",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C34 Злокачественное новообразование бронхов и легкого C50 Злокачественное новообразование молочной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_c61",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C34 ... C61 Злокачественное новообразование предстательной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_c73",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C34 ... C73 Злокачественное новообразование щитовидной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c50",
+    "target": "diagnosis_c61",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C50 Злокачественное новообразование молочной железы C61 Злокачественное новообразование предстательной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c50",
+    "target": "diagnosis_c73",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C50 ... C73 Злокачественное новообразование щитовидной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c61",
+    "target": "diagnosis_c73",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C61 ... C73 Злокачественное новообразование щитовидной железы",
+    "properties": {}
+  }
+]

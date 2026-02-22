@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_otstutstvie_detey_v_brake",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "с жалобами на отсутствие детей в браке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_beremennosti_12_mesyatsev",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отсутствие беременности в течение 12 месяцев",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedorazvitie_vtorichnyh_polovyh_znakov",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недоразвитие вторичных половых признаков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_umenshenie_razmerov_yaichek",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уменьшение в размерах яичек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poterja_elastichnosti_yaichek",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потеря эластичности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_prolaktina",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение Пролактина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_fsh",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение ФСГ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_lh",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение ЛГ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_testosterona",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_azoospermia",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "азооспермия (отсутствие сперматозоидов в эякуляте)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasshirenie_semennykh_puchkov",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "может быть расширение семенных пузырьков",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_semennykh_puchkov",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "их отсутствие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strukturnye_izmeneniya_yaichek_i_pridatkov",
+    "target": "diagnosis_muzhskoe_bespodobie",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Структурные изменения в яичках и придатках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_prolaktina",
+    "target": "symptom_povyshenie_fsh",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение Пролактина, ФСГ, ЛГ, снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_prolaktina",
+    "target": "symptom_povyshenie_lh",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение Пролактина, ФСГ, ЛГ, снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_prolaktina",
+    "target": "symptom_snizhenie_testosterona",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение Пролактина, ФСГ, ЛГ, снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_fsh",
+    "target": "symptom_povyshenie_lh",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение Пролактина, ФСГ, ЛГ, снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_fsh",
+    "target": "symptom_snizhenie_testosterona",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение Пролактина, ФСГ, ЛГ, снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_lh",
+    "target": "symptom_snizhenie_testosterona",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение Пролактина, ФСГ, ЛГ, снижение тестостерона",
+    "properties": {}
+  },
+  {
+    "source": "symptom_umenshenie_razmerov_yaichek",
+    "target": "symptom_poterja_elastichnosti_yaichek",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "уменьшение в размерах яичек, потеря эластичности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasshirenie_semennykh_puchkov",
+    "target": "symptom_otstutstvie_semennykh_puchkov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "расширение семенных пузырьков, их отсутствие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strukturnye_izmeneniya_yaichek_i_pridatkov",
+    "target": "symptom_umenshenie_razmerov_yaichek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Структурные изменения в яичках и придатках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_podvizhnosti_spermatozoidov",
+    "target": "symptom_snizhenie_zhiznesposobnosti_spermatozoidov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Подвижность сперматозоидов 50 % ... Жизнеспособность сперматозоидов 50 %",
+    "properties": {}
+  }
+]

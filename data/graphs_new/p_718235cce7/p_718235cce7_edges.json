@@ -1,0 +1,58 @@
+[
+  {
+    "source": "vrozhdennoe_iskrivlenie_polovogo_chlena",
+    "target": "drugie_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "анномалии полового члена у мальчиков, в данную группу входят такие патологии, как искривление ствола члена",
+    "properties": {}
+  },
+  {
+    "source": "drugie_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "target": "drugie_vrozhdennye_anomalii_polovogo_chlena",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q55.6 Другие врожденные аномалии полового члена",
+    "properties": {}
+  },
+  {
+    "source": "drugie_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "target": "drugie_utochnennye_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q55.8 Другие уточненные врожденные аномалии мужских половых органов",
+    "properties": {}
+  },
+  {
+    "source": "drugie_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "target": "neutochnennaya_vrozhdennaya_anomaliya_muzhskikh_polovyh_organov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q55.9 Врожденная аномалия мужских половых органов неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "drugie_vrozhdennye_anomalii_polovogo_chlena",
+    "target": "drugie_utochnennye_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q55.6 Другие врожденные аномалии полового члена ... Q55.8 Другие уточненные врожденные аномалии мужских половых органов",
+    "properties": {}
+  },
+  {
+    "source": "drugie_vrozhdennye_anomalii_polovogo_chlena",
+    "target": "neutochnennaya_vrozhdennaya_anomaliya_muzhskikh_polovyh_organov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q55.6 Другие врожденные аномалии полового члена ... Q55.9 Врожденная аномалия мужских половых органов неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "drugie_utochnennye_vrozhdennye_anomalii_muzhskikh_polovyh_organov",
+    "target": "neutochnennaya_vrozhdennaya_anomaliya_muzhskikh_polovyh_organov",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Q55.8 Другие уточненные врожденные аномалии мужских половых органов ... Q55.9 Врожденная аномалия мужских половых органов неуточненная",
+    "properties": {}
+  }
+]

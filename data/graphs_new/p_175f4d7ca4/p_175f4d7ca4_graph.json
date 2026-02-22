@@ -1,0 +1,323 @@
+{
+  "protocol_id": "p_175f4d7ca4",
+  "nodes": [
+    {
+      "id": "diagnosis_n06_0",
+      "type": "diagnosis",
+      "label": "Незначительные гломерулярные нарушения",
+      "icd_code": "N06.0"
+    },
+    {
+      "id": "diagnosis_n06_1",
+      "type": "diagnosis",
+      "label": "Очаговые и сегментарные гломерулярные повреждения",
+      "icd_code": "N06.1"
+    },
+    {
+      "id": "diagnosis_n06_2",
+      "type": "diagnosis",
+      "label": "Диффузный мембранозный гломерулонефрит",
+      "icd_code": "N06.2"
+    },
+    {
+      "id": "diagnosis_n06_3",
+      "type": "diagnosis",
+      "label": "Диффузный мезангиальный пролиферативный гломерулонефрит",
+      "icd_code": "N06.3"
+    },
+    {
+      "id": "diagnosis_n06_4",
+      "type": "diagnosis",
+      "label": "Диффузный эндокапилярный пролиферативный гломерулонефрит",
+      "icd_code": "N06.4"
+    },
+    {
+      "id": "diagnosis_n06_5",
+      "type": "diagnosis",
+      "label": "Диффузный мезангиокапилярный гломерулонефрит",
+      "icd_code": "N06.5"
+    },
+    {
+      "id": "diagnosis_n06_6",
+      "type": "diagnosis",
+      "label": "Болезнь плотного осадка",
+      "icd_code": "N06.6"
+    },
+    {
+      "id": "diagnosis_n06_7",
+      "type": "diagnosis",
+      "label": "Диффузный серповидный гломерулонефрит",
+      "icd_code": "N06.7"
+    },
+    {
+      "id": "diagnosis_n06_8",
+      "type": "diagnosis",
+      "label": "Другие изменения",
+      "icd_code": "N06.8"
+    },
+    {
+      "id": "diagnosis_n06_9",
+      "type": "diagnosis",
+      "label": "Неуточненное изменение",
+      "icd_code": "N06.9"
+    },
+    {
+      "id": "diagnosis_n39_1",
+      "type": "diagnosis",
+      "label": "Стойкая протеинурия неуточненная",
+      "icd_code": "N39.1"
+    },
+    {
+      "id": "diagnosis_n39_2",
+      "type": "diagnosis",
+      "label": "Ортостатическая протеинурия неуточненная",
+      "icd_code": "N39.2"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Абдоминальные боли"
+    },
+    {
+      "id": "symptom_lumbar_pain",
+      "type": "symptom",
+      "label": "Поясничные боли"
+    },
+    {
+      "id": "symptom_decreased_diuresis",
+      "type": "symptom",
+      "label": "Снижение диуреза"
+    },
+    {
+      "id": "symptom_polyuria",
+      "type": "symptom",
+      "label": "Полиурия"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_arterial_hypertension",
+      "type": "symptom",
+      "label": "Артериальная гипертензия"
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "Гематурия"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "symptom_intoxication",
+      "type": "symptom",
+      "label": "Интоксикация"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность"
+    },
+    {
+      "id": "symptom_hearing_loss",
+      "type": "symptom",
+      "label": "Тугоухость"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.0 Незначительные гломерулярные нарушения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.1 Очаговые и сегментарные гломерулярные повреждения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.2 Диффузный мембранозный гломерулонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.3 Диффузный мезангиальный пролиферативный гломерулонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.4 Диффузный эндокапилярный пролиферативный гломерулонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.5 Диффузный мезангиокапилярный гломерулонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_6",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.6 Болезнь плотного осадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_7",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.7 Диффузный серповидный гломерулонефрит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.8 Другие изменения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n06_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N06 Изолированная протеинурия с уточненным морфологическим поражением N06.9 Неуточненное изменение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n39_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N39.1 Стойкая протеинурия неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_n39_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N39.2 Ортостатическая протеинурия неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия с/без гематурии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypertension",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия с/без артериальной гипертензии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hearing_loss",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия с/без тугоухости",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "абдоминальные или поясничные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lumbar_pain",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "абдоминальные или поясничные боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_diuresis",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение диуреза/полиурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polyuria",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение диуреза/полиурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "symptom_arterial_hypertension",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "головные боли на фоне артериальной гипертензии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "интоксикация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_n06_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность",
+      "properties": {}
+    }
+  ]
+}

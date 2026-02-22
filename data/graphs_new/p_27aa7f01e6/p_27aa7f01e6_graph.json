@@ -1,0 +1,967 @@
+{
+  "protocol_id": "p_27aa7f01e6",
+  "nodes": [
+    {
+      "id": "diagnosis_i61",
+      "type": "diagnosis",
+      "label": "Внутримозговое кровоизлияние",
+      "icd_code": "I61"
+    },
+    {
+      "id": "diagnosis_i62",
+      "type": "diagnosis",
+      "label": "Другое нетравматическое внутричерепное кровоизлияние",
+      "icd_code": "I62"
+    },
+    {
+      "id": "symptom_severe_headache",
+      "type": "symptom",
+      "label": "очень сильная головная боль"
+    },
+    {
+      "id": "symptom_consciousness_impairment",
+      "type": "symptom",
+      "label": "угнетение сознания"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_focal_neurologic_symptoms",
+      "type": "symptom",
+      "label": "грубые очаговые неврологические симптомы"
+    },
+    {
+      "id": "symptom_meningeal_symptoms",
+      "type": "symptom",
+      "label": "менингеальные симптомы"
+    },
+    {
+      "id": "symptom_seizure_activity",
+      "type": "symptom",
+      "label": "судорожные припадки"
+    },
+    {
+      "id": "symptom_skin_hyperemia",
+      "type": "symptom",
+      "label": "кожные покровы багрово‑красные"
+    },
+    {
+      "id": "symptom_excessive_sweating",
+      "type": "symptom",
+      "label": "повышенное потоотделение"
+    },
+    {
+      "id": "symptom_noisy_breathing",
+      "type": "symptom",
+      "label": "шумное дыхание (стридорозное, тип Чейн‑Стокса)"
+    },
+    {
+      "id": "symptom_tension_pulse",
+      "type": "symptom",
+      "label": "напряжённый пульс"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "замедленный пульс (брадикардия)"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "повышенное артериальное давление"
+    },
+    {
+      "id": "symptom_hyperthermia",
+      "type": "symptom",
+      "label": "гипертермия"
+    },
+    {
+      "id": "symptom_general_brain_symptoms",
+      "type": "symptom",
+      "label": "выраженная общемозговая симптоматика"
+    },
+    {
+      "id": "symptom_coma",
+      "type": "symptom",
+      "label": "коматозное состояние"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_psychomotor_agitation",
+      "type": "symptom",
+      "label": "психомоторное возбуждение"
+    },
+    {
+      "id": "symptom_epileptic_seizures",
+      "type": "symptom",
+      "label": "эпилептические припадки"
+    },
+    {
+      "id": "symptom_gaze_deviation",
+      "type": "symptom",
+      "label": "отклонение взгляда в сторону поражения"
+    },
+    {
+      "id": "symptom_respiratory_disturbance",
+      "type": "symptom",
+      "label": "нарушения дыхания"
+    },
+    {
+      "id": "symptom_perilesional_edema",
+      "type": "symptom",
+      "label": "отёк вокруг очага поражения"
+    },
+    {
+      "id": "symptom_increased_icp",
+      "type": "symptom",
+      "label": "повышение внутричерепного давления"
+    },
+    {
+      "id": "symptom_herniation_signs",
+      "type": "symptom",
+      "label": "симптомы вклинения"
+    },
+    {
+      "id": "symptom_ventricular_rupture",
+      "type": "symptom",
+      "label": "прорыв крови в желудочки"
+    },
+    {
+      "id": "symptom_subarachnoid_hemorrhage",
+      "type": "symptom",
+      "label": "прорыв крови в субарахноидальное пространство"
+    },
+    {
+      "id": "symptom_acute_hydrocephalus",
+      "type": "symptom",
+      "label": "острая внутренняя гидроцефалия"
+    },
+    {
+      "id": "symptom_contralateral_paralysis",
+      "type": "symptom",
+      "label": "паралич/парез противоположной стороны"
+    },
+    {
+      "id": "symptom_pathological_foot_reflex",
+      "type": "symptom",
+      "label": "патологические стопные рефлексы"
+    },
+    {
+      "id": "symptom_hyperkinesia",
+      "type": "symptom",
+      "label": "гиперкинез"
+    },
+    {
+      "id": "symptom_contralateral_homonymous_anopsia",
+      "type": "symptom",
+      "label": "контралатеральная гемианопсия"
+    },
+    {
+      "id": "symptom_contralateral_hemiparesis",
+      "type": "symptom",
+      "label": "контралатеральный гемипарез"
+    },
+    {
+      "id": "symptom_homonymous_anesthesia",
+      "type": "symptom",
+      "label": "гемианестезия"
+    },
+    {
+      "id": "symptom_thalamic_hand",
+      "type": "symptom",
+      "label": "«таламическая рука»"
+    },
+    {
+      "id": "symptom_hyperglycemia",
+      "type": "symptom",
+      "label": "гипергликемия"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "нарушения сердечного ритма"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "цианоз"
+    },
+    {
+      "id": "symptom_acute_headache",
+      "type": "symptom",
+      "label": "резкая головная боль (удар в затылок)"
+    },
+    {
+      "id": "symptom_eye_pain",
+      "type": "symptom",
+      "label": "боль в глазу"
+    },
+    {
+      "id": "symptom_visual_floater",
+      "type": "symptom",
+      "label": "мелькание мушек перед глазами"
+    },
+    {
+      "id": "symptom_tinnitus",
+      "type": "symptom",
+      "label": "шум в голове (тиннитус)"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "учащённое дыхание"
+    },
+    {
+      "id": "symptom_obstructed_breathing",
+      "type": "symptom",
+      "label": "затруднённый вдох/выдох (храпящее дыхание)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_severe_headache",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острейшее начало с очень сильной головной болью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острейшее начало с очень сильной головной болью",
+      "properties": {}
+    },
+    {
+      "source": "symptom_consciousness_impairment",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "угнетение сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_consciousness_impairment",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "угнетение сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurologic_symptoms",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубые очаговые неврологические симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_focal_neurologic_symptoms",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "грубые очаговые неврологические симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningeal_symptoms",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны менингеальные симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningeal_symptoms",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны менингеальные симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure_activity",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны судорожные припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure_activity",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны судорожные припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "приводящая нередко уже через несколько минут к коматозному состоянию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "приводящая нередко уже через несколько минут к коматозному состоянию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychomotor_agitation",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психомоторное возбуждение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychomotor_agitation",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "психомоторное возбуждение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptic_seizures",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "могут быть эпилептические припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptic_seizures",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "могут быть эпилептические припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_hyperemia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные покровы, как правило, багрово‑красные",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_hyperemia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные покровы, как правило, багрово‑красные",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excessive_sweating",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные покровы, как правило, багрово‑красные, покрытые потом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excessive_sweating",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожные покровы, как правило, багрово‑красные, покрытые потом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tension_pulse",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пульс напряженный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tension_pulse",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пульс напряженный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "брадикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "брадикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальное давление обычно высокое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальное давление обычно высокое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperthermia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "быстро возникает гипертермия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperthermia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "быстро возникает гипертермия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_icp",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение внутричерепного давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_icp",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение внутричерепного давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perilesional_edema",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк вокруг очага поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perilesional_edema",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк вокруг очага поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ventricular_rupture",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прорыв крови в желудочки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ventricular_rupture",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прорыв крови в желудочки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subarachnoid_hemorrhage",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прорыв крови в субарахноидальное пространство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subarachnoid_hemorrhage",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прорыв крови в субарахноидальное пространство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_hydrocephalus",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "развитие острой внутренней гидроцефалии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_hydrocephalus",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "развитие острой внутренней гидроцефалии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_homonymous_anopsia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контралатеральная гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_homonymous_anopsia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контралатеральная гемианопсия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_hemiparesis",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контралатеральный гемипарез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_hemiparesis",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "контралатеральный гемипарез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_homonymous_anesthesia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемианестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_homonymous_anesthesia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гемианестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thalamic_hand",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«таламическая рука»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thalamic_hand",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«таламическая рука»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkinesia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда на стороне поражения возникает гиперкинез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkinesia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда на стороне поражения возникает гиперкинез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_disturbance",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_disturbance",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения сердечного ритма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения сердечного ритма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperglycemia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperglycemia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "учащённое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "учащённое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obstructed_breathing",
+      "target": "diagnosis_i61",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднённый вдох/выдох (храпящее дыхание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obstructed_breathing",
+      "target": "diagnosis_i62",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднённый вдох/выдох (храпящее дыхание)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "symptom_consciousness_impairment",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "острейшее начало с очень сильной головной болью; угнетение сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "острейшее начало с очень сильной головной болью; рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "symptom_focal_neurologic_symptoms",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "очень сильная головная боль; грубые очаговые неврологические симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "symptom_meningeal_symptoms",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "очень сильная головная боль; возможны менингеальные симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_severe_headache",
+      "target": "symptom_seizure_activity",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "очень сильная головная боль; возможны судорожные припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_consciousness_impairment",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "угнетение сознания; рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_consciousness_impairment",
+      "target": "symptom_focal_neurologic_symptoms",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "угнетение сознания; грубые очаговые неврологические симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "symptom_focal_neurologic_symptoms",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "рвота; грубые очаговые неврологические симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningeal_symptoms",
+      "target": "symptom_seizure_activity",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "возможны менингеальные симптомы; возможны судорожные припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "коматозное состояние; тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "symptom_psychomotor_agitation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "коматозное состояние; психомоторное возбуждение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coma",
+      "target": "symptom_epileptic_seizures",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "коматозное состояние; эпилептические припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_hyperemia",
+      "target": "symptom_excessive_sweating",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кожные покровы, как правило, багрово‑красные, покрытые потом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tension_pulse",
+      "target": "symptom_bradycardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пульс напряженный, замедленный",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "symptom_hyperthermia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "артериальное давление обычно высокое, быстро возникает гипертермия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_icp",
+      "target": "symptom_perilesional_edema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение внутричерепного давления и отек вокруг очага поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ventricular_rupture",
+      "target": "symptom_subarachnoid_hemorrhage",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "прорыв крови в желудочки и субарахноидальное пространство",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_homonymous_anopsia",
+      "target": "symptom_contralateral_hemiparesis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "контралатеральная гемианопсия; контралатеральный гемипарез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_homonymous_anopsia",
+      "target": "symptom_homonymous_anesthesia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "контралатеральная гемианопсия; гемианестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_contralateral_homonymous_anopsia",
+      "target": "symptom_thalamic_hand",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "контралатеральная гемианопсия; «таламическая рука»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkinesia",
+      "target": "symptom_thalamic_hand",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "иногда на стороне поражения возникает гиперкинез; «таламическая рука»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_disturbance",
+      "target": "symptom_arrhythmia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушения дыхания; нарушения сердечного ритма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "symptom_tachypnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тахикардия; учащённое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obstructed_breathing",
+      "target": "symptom_noisy_breathing",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "затруднённый вдох/выдох (храпящее дыхание); шумное дыхание (стридорозное, тип Чейн‑Стокса)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i61",
+      "target": "diagnosis_i62",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: I 61 Внутримозговое кровоизлияние I 62 Другое нетравматическое внутричерепное кровоизлияние",
+      "properties": {}
+    }
+  ]
+}

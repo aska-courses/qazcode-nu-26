@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_krovotechenie",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "часто повторяющиеся или обильные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepticheskie_pristupy",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "эпилепсия с частыми приступами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "частые генерализованные судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infektsiya",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuberkulez",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "активная стадия всех форм туберкулеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zlokamennaya_opukhol",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "злокачественные новообразования (III-IV стадии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyhatelnaya_nedostatochnost",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "недостаточность функции дыхания III степени и более",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lihorodka",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfevrialnaya_lihorodka",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnoinye_kozhnye_porazheniya",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chesotka",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "чесотка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gribochnoe_zabolevanie",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "грибковые заболевания кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psihologicheskoe_rasstroystvo",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "психологические заболевания с десоциализацией личности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aritmija",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "осложненные нарушения ритма сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_serdechnaya_nedostatochnost",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "сердечная недостаточность IV функционального класса (NYHA)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_legkaya_infektsiya",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "различные гнойные (легочные) заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomielit",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острый остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tromboz_glubokih_ven",
+    "target": "diagnosis_perenesenyj_infarkt_miokarda",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острый тромбоз глубоких вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnoinye_kozhnye_porazheniya",
+    "target": "symptom_chesotka",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnoinye_kozhnye_porazheniya",
+    "target": "symptom_gribochnoe_zabolevanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chesotka",
+    "target": "symptom_gribochnoe_zabolevanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+    "properties": {}
+  }
+]

@@ -1,0 +1,462 @@
+{
+  "protocol_id": "p_bea71ed892",
+  "nodes": [
+    {
+      "id": "diagnosis_e10",
+      "type": "diagnosis",
+      "label": "сахарный диабет 1 типа",
+      "icd_code": "E10"
+    },
+    {
+      "id": "diagnosis_e10_0",
+      "type": "diagnosis",
+      "label": "диабетическая кома",
+      "icd_code": "E10.0"
+    },
+    {
+      "id": "diagnosis_e10_1",
+      "type": "diagnosis",
+      "label": "кетоацидоз",
+      "icd_code": "E10.1"
+    },
+    {
+      "id": "diagnosis_e11_2",
+      "type": "diagnosis",
+      "label": "поражение почек при диабете",
+      "icd_code": "E11.2"
+    },
+    {
+      "id": "diagnosis_e11_3",
+      "type": "diagnosis",
+      "label": "поражение глаз при диабете",
+      "icd_code": "E11.3"
+    },
+    {
+      "id": "diagnosis_e11_4",
+      "type": "diagnosis",
+      "label": "неврологические осложнения при диабете",
+      "icd_code": "E11.4"
+    },
+    {
+      "id": "diagnosis_e11_5",
+      "type": "diagnosis",
+      "label": "нарушения периферического кровообращения при диабете",
+      "icd_code": "E11.5"
+    },
+    {
+      "id": "diagnosis_e11_6",
+      "type": "diagnosis",
+      "label": "другие уточненные осложнения при диабете",
+      "icd_code": "E11.6"
+    },
+    {
+      "id": "diagnosis_e11_7",
+      "type": "diagnosis",
+      "label": "множественные осложнения при диабете",
+      "icd_code": "E11.7"
+    },
+    {
+      "id": "diagnosis_e11_8",
+      "type": "diagnosis",
+      "label": "неуточненные осложнения при диабете",
+      "icd_code": "E11.8"
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_boli_v_zhivote",
+      "type": "symptom",
+      "label": "боли в животе"
+    },
+    {
+      "id": "symptom_zhazda",
+      "type": "symptom",
+      "label": "жажда"
+    },
+    {
+      "id": "symptom_poliuria",
+      "type": "symptom",
+      "label": "полиурия"
+    },
+    {
+      "id": "symptom_pohudenie",
+      "type": "symptom",
+      "label": "похудание"
+    },
+    {
+      "id": "symptom_sukhost_kozhi_i_slivistykh_obolochok",
+      "type": "symptom",
+      "label": "сухость кожи и слизистых оболочек"
+    },
+    {
+      "id": "symptom_snizhenie_massy_tela",
+      "type": "symptom",
+      "label": "снижение массы тела"
+    },
+    {
+      "id": "symptom_odyskha",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_tahikardiya",
+      "type": "symptom",
+      "label": "тахикардия"
+    },
+    {
+      "id": "symptom_zapax_acetona",
+      "type": "symptom",
+      "label": "запах ацетона в выдыхаемом воздухе"
+    },
+    {
+      "id": "symptom_uvelichenie_razmera_pecheni",
+      "type": "symptom",
+      "label": "увеличение размеров печени"
+    },
+    {
+      "id": "symptom_soporoze_sostoyanie",
+      "type": "symptom",
+      "label": "сопорозное состояние"
+    },
+    {
+      "id": "symptom_komа",
+      "type": "symptom",
+      "label": "кома"
+    },
+    {
+      "id": "symptom_giperglikemiya",
+      "type": "symptom",
+      "label": "гипергликемия"
+    },
+    {
+      "id": "symptom_giperketonemiya",
+      "type": "symptom",
+      "label": "гиперкетонемия"
+    },
+    {
+      "id": "symptom_giperazotemiya",
+      "type": "symptom",
+      "label": "гиперазотемия"
+    },
+    {
+      "id": "symptom_gipokaliemiya",
+      "type": "symptom",
+      "label": "гипокалиемия"
+    },
+    {
+      "id": "symptom_snizhenie_ph_krovi",
+      "type": "symptom",
+      "label": "снижение pH крови"
+    },
+    {
+      "id": "symptom_glukozuriya",
+      "type": "symptom",
+      "label": "глюкозурия"
+    },
+    {
+      "id": "symptom_ketonuriya",
+      "type": "symptom",
+      "label": "кетонурия"
+    },
+    {
+      "id": "symptom_proteinuriya",
+      "type": "symptom",
+      "label": "протеинурия"
+    },
+    {
+      "id": "symptom_mikrogematuriya",
+      "type": "symptom",
+      "label": "микрогематурия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, тошноту, боли в животе, жажду, полиурию, похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, тошноту, боли в животе, жажду, полиурию, похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boli_v_zhivote",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, тошноту, боли в животе, жажду, полиурию, похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhazda",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, тошноту, боли в животе, жажду, полиурию, похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poliuria",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, тошноту, боли в животе, жажду, полиурию, похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pohudenie",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на слабость, тошноту, боли в животе, жажду, полиурию, похудание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_kozhi_i_slivistykh_obolochok",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость кожи и слизистых оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyskha",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahikardiya",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapax_acetona",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запах ацетона в выдыхаемом воздухе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_razmera_pecheni",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение размеров печени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_soporoze_sostoyanie",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при кетоацидозе 2 – сопорозное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_komа",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при 3 степени – кома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperglikemiya",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperketonemiya",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при кетоацидозе – гиперкетонемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperazotemiya",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при кетоацидозе – гиперазотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipokaliemiya",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при кетоацидозе – гипокалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_ph_krovi",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при кетоацидозе снижение рН крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_glukozuriya",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глюкозурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ketonuriya",
+      "target": "diagnosis_e10_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кетонурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuriya",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikrogematuriya",
+      "target": "diagnosis_e10",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "микрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e10_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 10.0 с комой",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e10_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 10.1 с кетоацидозом",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.2 с поражением почек",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.3 с поражением глаз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_4",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.4 с неврологическими осложнениями",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_5",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.5 с нарушениями периферического кровообращения",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_6",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.6 с другими уточненными осложнениями",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_7",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.7 с множественными осложнениями",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e10",
+      "target": "diagnosis_e11_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "E 11.8 с неуточненными осложнениями",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperglikemiya",
+      "target": "symptom_giperketonemiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипергликемия, при кетоацидозе – гиперкетонемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperglikemiya",
+      "target": "symptom_giperazotemiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипергликемия, при кетоацидозе – гиперазотемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperglikemiya",
+      "target": "symptom_gipokaliemiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипергликемия, при кетоацидозе – гипокалиемия",
+      "properties": {}
+    }
+  ]
+}

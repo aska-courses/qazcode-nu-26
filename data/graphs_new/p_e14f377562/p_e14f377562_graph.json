@@ -1,0 +1,476 @@
+{
+  "protocol_id": "p_e14f377562",
+  "nodes": [
+    {
+      "id": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "type": "symptom",
+      "label": "слизистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "type": "symptom",
+      "label": "гноевидные выделения из половых путей"
+    },
+    {
+      "id": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "symptom",
+      "label": "межменструальные кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "symptom",
+      "label": "контактные кровянистые выделения из половых путей"
+    },
+    {
+      "id": "symptom_giperemiya",
+      "type": "symptom",
+      "label": "гиперемия"
+    },
+    {
+      "id": "symptom_otek",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_vyvorot_slagistoy_obolochki_cervikalnogo_kanala",
+      "type": "symptom",
+      "label": "выворот слизистой оболочки цервикального канала"
+    },
+    {
+      "id": "symptom_gipertrofia_shcheki_matki",
+      "type": "symptom",
+      "label": "гипертрофия шейки матки"
+    },
+    {
+      "id": "symptom_rubtsovaya_deformatsiya_shcheki_matki",
+      "type": "symptom",
+      "label": "рубцовая деформация шейки матки"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "боль"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_zharenie",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_krovo_krashenie",
+      "type": "symptom",
+      "label": "кровотечение"
+    },
+    {
+      "id": "symptom_vaginalnye_vydele",
+      "type": "symptom",
+      "label": "выделения из влагалища"
+    },
+    {
+      "id": "symptom_izzyavleniya_iz_yazvy_ili_papuly",
+      "type": "symptom",
+      "label": "изъязвления, язвы или папулы"
+    },
+    {
+      "id": "diagnosis_erozia_shcheki_matki",
+      "type": "diagnosis",
+      "label": "Эрозия шейки матки",
+      "icd_code": "N86"
+    },
+    {
+      "id": "diagnosis_ektopiya_shcheki_matki",
+      "type": "diagnosis",
+      "label": "Эктопия шейки матки",
+      "icd_code": "N86"
+    },
+    {
+      "id": "diagnosis_ektropion_shcheki_matki",
+      "type": "diagnosis",
+      "label": "Эктропион шейки матки",
+      "icd_code": "N86"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слизистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слизистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слизистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • гноевидные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • гноевидные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • гноевидные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • межменструальные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • межменструальные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • межменструальные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • контактные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • контактные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • контактные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эктопия: ... Возможна значительная гиперемия, ... отек.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эктопия: ... Возможна значительная гиперемия, ... отек.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyvorot_slagistoy_obolochki_cervikalnogo_kanala",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эктропион – это выворот слизистой оболочки цервикального канала.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertrofia_shcheki_matki",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Шейки матки может быть гипертрофирована с наличием рубцовой деформации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rubtsovaya_deformatsiya_shcheki_matki",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Шейки матки может быть гипертрофирована с наличием рубцовой деформации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "характер возникновения и проявления болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "характер возникновения и проявления болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "характер возникновения и проявления болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... и жжение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... и жжение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... и жжение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... и жжение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... и жжение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд ... и жжение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovo_krashenie",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эрозия: ... кровоточит.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovo_krashenie",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эрозия: ... кровоточит.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginalnye_vydele",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginalnye_vydele",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginalnye_vydele",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izzyavleniya_iz_yazvy_ili_papuly",
+      "target": "diagnosis_erozia_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изъязвления, язвы или папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izzyavleniya_iz_yazvy_ili_papuly",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изъязвления, язвы или папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izzyavleniya_iz_yazvy_ili_papuly",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изъязвления, язвы или папулы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "target": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слизистые выделения из половых путей; • гноевидные выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "target": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слизистые выделения из половых путей; • межменструальные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slagistye_vydele_iz_polovyh_putey",
+      "target": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • слизистые выделения из половых путей; • контактные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "target": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • гноевидные выделения из половых путей; • межменструальные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gnoevidnye_vydele_iz_polovyh_putey",
+      "target": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • гноевидные выделения из половых путей; • контактные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mezhmenstrualnye_krovyanistye_vydele_iz_polovyh_putey",
+      "target": "symptom_kontaktniye_krovyanistye_vydele_iz_polovyh_putey",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • межменструальные кровянистые выделения из половых путей; • контактные кровянистые выделения из половых путей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya",
+      "target": "symptom_otek",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эктопия: ... Возможна значительная гиперемия, ... отек.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyvorot_slagistoy_obolochki_cervikalnogo_kanala",
+      "target": "symptom_gipertrofia_shcheki_matki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эктропион – это выворот слизистой оболочки цервикального канала. Шейки матки может быть гипертрофирована с наличием рубцовой деформации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vyvorot_slagistoy_obolochki_cervikalnogo_kanala",
+      "target": "symptom_rubtsovaya_deformatsiya_shcheki_matki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эктропион – это выворот слизистой оболочки цервикального канала. Шейки матки может быть гипертрофирована с наличием рубцовой деформации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertrofia_shcheki_matki",
+      "target": "symptom_rubtsovaya_deformatsiya_shcheki_matki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Шейки матки может быть гипертрофирована с наличием рубцовой деформации.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_erozia_shcheki_matki",
+      "target": "diagnosis_ektopiya_shcheki_matki",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Эрозия, эктопия и эктропион шейки матки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_erozia_shcheki_matki",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Эрозия, эктопия и эктропион шейки матки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ektopiya_shcheki_matki",
+      "target": "diagnosis_ektropion_shcheki_matki",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Эрозия, эктопия и эктропион шейки матки",
+      "properties": {}
+    }
+  ]
+}

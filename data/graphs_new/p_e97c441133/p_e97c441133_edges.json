@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symp_progressive_visual_acuity_loss",
+    "target": "diag_h25",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "безболезненное прогрессирующее снижение НКОЗД, МКОЗД, МКОЗБ",
+    "properties": {}
+  },
+  {
+    "source": "symp_progressive_visual_acuity_loss",
+    "target": "diag_n25_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "безболезненное прогрессирующее снижение НКОЗД, МКОЗД, МКОЗБ",
+    "properties": {}
+  },
+  {
+    "source": "symp_visual_blur",
+    "target": "diag_h25",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затуманивание зрения",
+    "properties": {}
+  },
+  {
+    "source": "symp_visual_blur",
+    "target": "diag_n25_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затуманивание зрения",
+    "properties": {}
+  },
+  {
+    "source": "symp_object_shape_distortion",
+    "target": "diag_h25",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "искажение формы предметов",
+    "properties": {}
+  },
+  {
+    "source": "symp_object_shape_distortion",
+    "target": "diag_n25_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "искажение формы предметов",
+    "properties": {}
+  },
+  {
+    "source": "symp_refractive_change",
+    "target": "diag_h25",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение рефракции",
+    "properties": {}
+  },
+  {
+    "source": "symp_refractive_change",
+    "target": "diag_n25_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение рефракции",
+    "properties": {}
+  },
+  {
+    "source": "symp_color_perception_worsening",
+    "target": "diag_n25_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение цвета зрачка ... в случаях с перезревающими формами катаракт",
+    "properties": {}
+  },
+  {
+    "source": "symp_eye_pain_with_radiation",
+    "target": "diag_n25_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при набухающей катаракте наличие острых сильных болей в глазу, с иррадиацией в соответствующую половину головы",
+    "properties": {}
+  },
+  {
+    "source": "symp_endophthalmitis",
+    "target": "symp_retinal_detachment",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Интра- и послеоперационные осложнения катарактальной хирургии: ● эндофтальмит; … ● отслоение сетчатки",
+    "properties": {}
+  },
+  {
+    "source": "diag_n25_0",
+    "target": "diag_n25_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Старческая катаракта – подтипы: начальная, ядерная, морганиева, другие, неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diag_n25_0",
+    "target": "diag_n25_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Старческая катаракта – подтипы: начальная, ядерная, морганиева, другие, неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diag_n26_0",
+    "target": "diag_n26_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Другие катаракты – подтипы: детская, травматическая, осложненная, вызванная лекарствами, вторичная",
+    "properties": {}
+  }
+]

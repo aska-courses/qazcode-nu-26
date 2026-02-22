@@ -1,0 +1,297 @@
+{
+  "protocol_id": "p_4a954c08cb",
+  "nodes": [
+    {
+      "id": "diagnosis_d16_4",
+      "type": "diagnosis",
+      "label": "Доброкачественные новообразования костей черепа и лица",
+      "icd_code": "D16.4"
+    },
+    {
+      "id": "diagnosis_d16_5",
+      "type": "diagnosis",
+      "label": "Доброкачественные новообразования нижней челюсти костной части",
+      "icd_code": "D16.5"
+    },
+    {
+      "id": "symptom_deformaciya_lica",
+      "type": "symptom",
+      "label": "Деформация лица"
+    },
+    {
+      "id": "symptom_zubnaya_bol",
+      "type": "symptom",
+      "label": "Зубная боль"
+    },
+    {
+      "id": "symptom_zatрудnennoe_nosovoe_dykhanie",
+      "type": "symptom",
+      "label": "Затрудненное носовое дыхание"
+    },
+    {
+      "id": "symptom_slezotchenie",
+      "type": "symptom",
+      "label": "Слезотечение"
+    },
+    {
+      "id": "symptom_diplopiya",
+      "type": "symptom",
+      "label": "Диплопия"
+    },
+    {
+      "id": "symptom_parestezii",
+      "type": "symptom",
+      "label": "Парестезии (покалывание, снижение чувствительности)"
+    },
+    {
+      "id": "symptom_bol_pri_palpatsii_opukholi",
+      "type": "symptom",
+      "label": "Боль при пальпации опухоли"
+    },
+    {
+      "id": "symptom_oteok_verhney_gubyi",
+      "type": "symptom",
+      "label": "Отёк верхней губы"
+    },
+    {
+      "id": "symptom_ekzoftalm",
+      "type": "symptom",
+      "label": "Экзофтальм"
+    },
+    {
+      "id": "symptom_gipoksija",
+      "type": "symptom",
+      "label": "Гипоксия (дыхательная недостаточность)"
+    },
+    {
+      "id": "symptom_krovotechenie_iz_opukholi",
+      "type": "symptom",
+      "label": "Кровотечение из опухоли"
+    },
+    {
+      "id": "symptom_nagnovenie_opukholi",
+      "type": "symptom",
+      "label": "Нагноение опухоли"
+    },
+    {
+      "id": "symptom_onemenie_nizhney_gubyi_i_podbordka",
+      "type": "symptom",
+      "label": "Онемение нижней губы и подбородка"
+    },
+    {
+      "id": "symptom_boleznennye_limfaticheskie_uzly",
+      "type": "symptom",
+      "label": "Болезненные лимфатические узлы"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: На деформацию лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: На деформацию лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zubnaya_bol",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Зубная боль Носит вторичный характер.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zubnaya_bol",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Зубная боль Носит вторичный характер.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Затрудненное носовое дыхание При прорастании опухоли в верхнечелюстную пазуху",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slezotchenie",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diplopiya",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диплопия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parestezii",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Парестезии При сдавлении опухолью нервных стволов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_palpatsii_opukholi",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль при пальпации опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_palpatsii_opukholi",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль при пальпации опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteok_verhney_gubyi",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отечность верхней губы разлитого характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Экзофтальм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipoksija",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипоксия (дыхательная недостаточность)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_opukholi",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotechenie_iz_opukholi",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровотечение из опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nagnovenie_opukholi",
+      "target": "diagnosis_d16_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нагноение опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nagnovenie_opukholi",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нагноение опухоли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_onemenie_nizhney_gubyi_i_podbordka",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "онемение соответствующей половины нижней губы и подбородка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennye_limfaticheskie_uzly",
+      "target": "diagnosis_d16_5",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненные поднижнечелюстные лимфатические узлы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_slezotchenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Затрудненное носовое дыхание ... слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_diplopiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Затрудненное носовое дыхание ... диплопия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slezotchenie",
+      "target": "symptom_diplopiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "слезотечение ... диплопия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Экзофтальм ... затрудненное носовое дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "symptom_slezotchenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Экзофтальм ... слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "symptom_diplopiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Экзофтальм ... диплопия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d16_4",
+      "target": "diagnosis_d16_5",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: D16.4 Доброкачественные новообразования костей черепа и лица D16.5 Доброкачественные новообразования нижней челюсти костной части",
+      "properties": {}
+    }
+  ]
+}

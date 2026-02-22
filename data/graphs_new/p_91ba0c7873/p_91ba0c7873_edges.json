@@ -1,0 +1,58 @@
+[
+  {
+    "source": "symptom_vnutricherepnaia_gipertenziia",
+    "target": "diagnosis_c71_zlokach_golovnogo_mozga",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разрешение внутричерепной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nevrologicheskii_defitsit",
+    "target": "diagnosis_c71_zlokach_golovnogo_mozga",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "достижение полной или частичной регрессии неврологического дефицита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevoi_sindrom",
+    "target": "diagnosis_c71_zlokach_golovnogo_mozga",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уменьшить болевой синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sudorogi",
+    "target": "diagnosis_c71_zlokach_golovnogo_mozga",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "риск ... судорог",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutricherepnaia_gipertenziia",
+    "target": "symptom_nevrologicheskii_defitsit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "разрешение внутричерепной гипертензии; достижение полной или частичной регрессии неврологического дефицита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nevrologicheskii_defitsit",
+    "target": "symptom_iatricheskij_nevrologicheskii_defitsit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "предотвращение хирургически обусловленных выпадений функции",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c71_zlokach_golovnogo_mozga",
+    "target": "diagnosis_c70_zlokach_mozgovyh_obolochek",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Злокачественное новообразование мозговых оболочек ... Злокачественное новообразование головного мозга",
+    "properties": {}
+  }
+]

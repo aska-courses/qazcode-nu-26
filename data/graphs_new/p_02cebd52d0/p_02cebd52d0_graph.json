@@ -1,0 +1,284 @@
+{
+  "protocol_id": "p_02cebd52d0",
+  "nodes": [
+    {
+      "id": "diagnosis_chronic_apical_periodontitis",
+      "type": "diagnosis",
+      "label": "Хронический апикальный периодонтит",
+      "icd_code": "К04.5"
+    },
+    {
+      "id": "symptom_pain_general",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_pain_hard_food",
+      "type": "symptom",
+      "label": "Боль при приёме жёсткой пищи"
+    },
+    {
+      "id": "symptom_feeling_heaviness",
+      "type": "symptom",
+      "label": "Чувство тяжести зуба"
+    },
+    {
+      "id": "symptom_pressure_sensation",
+      "type": "symptom",
+      "label": "Ощущение распирания зуба"
+    },
+    {
+      "id": "symptom_unpleasant_sensation",
+      "type": "symptom",
+      "label": "Неудобные ощущения при приёме пищи"
+    },
+    {
+      "id": "symptom_fistula",
+      "type": "symptom",
+      "label": "Свищевой ход"
+    },
+    {
+      "id": "symptom_purulent_exudate",
+      "type": "symptom",
+      "label": "Гнойное отделяемое"
+    },
+    {
+      "id": "symptom_tooth_mobility",
+      "type": "symptom",
+      "label": "Подвижность зуба"
+    },
+    {
+      "id": "symptom_soft_tissue_swelling",
+      "type": "symptom",
+      "label": "Отёк мягких тканей"
+    },
+    {
+      "id": "symptom_fever_subfebrile",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_sleep_disturbance",
+      "type": "symptom",
+      "label": "Нарушение сна"
+    },
+    {
+      "id": "symptom_appetite_disturbance",
+      "type": "symptom",
+      "label": "Нарушение аппетита"
+    },
+    {
+      "id": "symptom_palpation_pain",
+      "type": "symptom",
+      "label": "Болезненность при пальпации"
+    },
+    {
+      "id": "symptom_percussion_pain",
+      "type": "symptom",
+      "label": "Болезненность при перкуссии"
+    },
+    {
+      "id": "symptom_probe_pain",
+      "type": "symptom",
+      "label": "Болезненность при зондировании"
+    },
+    {
+      "id": "symptom_biting_pain",
+      "type": "symptom",
+      "label": "Боль при накусывании"
+    },
+    {
+      "id": "symptom_thermal_sensitivity",
+      "type": "symptom",
+      "label": "Чувствительность к температурным раздражителям"
+    },
+    {
+      "id": "symptom_gum_hyperemia",
+      "type": "symptom",
+      "label": "Гиперемия десны"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain_general",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Хронический периодонтит характеризуется скудной симптоматикой. ... боль ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hard_food",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неприятные ощущения при приёме жесткой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unpleasant_sensation",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неприятные ощущения при приёме жесткой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeling_heaviness",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство тяжести, распирания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pressure_sensation",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство тяжести, распирания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fistula",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может появляется свищ с гнойным отделяемым",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_exudate",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "может появляется свищ с гнойным отделяемым",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tooth_mobility",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможна подвижность зуба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_soft_tissue_swelling",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_subfebrile",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Субфебрильная температура",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sleep_disturbance",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение сна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_appetite_disturbance",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpation_pain",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_percussion_pain",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при перкуссии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_probe_pain",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при зондировании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_biting_pain",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность при накусывании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thermal_sensitivity",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "реакцию зуба на температурные раздражители",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gum_hyperemia",
+      "target": "diagnosis_chronic_apical_periodontitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперемия десны",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_hard_food",
+      "target": "symptom_unpleasant_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неприятные ощущения при приёме жесткой пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeling_heaviness",
+      "target": "symptom_pressure_sensation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "чувство тяжести, распирания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fistula",
+      "target": "symptom_purulent_exudate",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "может появляется свищ с гнойным отделяемым",
+      "properties": {}
+    }
+  ]
+}

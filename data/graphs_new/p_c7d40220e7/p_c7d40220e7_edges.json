@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_lymph_node_enlargement",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Как правило, заболевание манифестирует безболезненным увеличением лимфатических узлов, чаще всего шейных",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy_neck",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличением лимфатических узлов шейных",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy_paraaortic",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "поражение парааортальных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy_mediastinum",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение лимфатических узлов средостения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Изредка увеличиваются селезѐнка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "Изредка увеличиваются печень",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимая персистенция или повторное появление лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_sweats",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "проливные ночные поты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимая потеря веса на >10% за последние 6 мес",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одновременно могут проявляться общие симптомы ... слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_itching",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одновременно могут проявляться общие симптомы ... зуд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pallor",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одновременно могут проявляться общие симптомы ... бледность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_esr",
+    "target": "diagnosis_hodgkin_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анемический синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_night_sweats",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Б — при наличии определённых общих симптомов: ... лихорадка ... проливные ночные поты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Б — при наличии определённых общих симптомов: ... лихорадка ... потеря веса >10%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_sweats",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Б — при наличии определённых общих симптомов: ... проливные ночные поты ... потеря веса >10%",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_thrombocytopenia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемический синдром, тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемический синдром, лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемический синдром, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "symptom_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемический синдром, тромбоцитопения, лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемический синдром, тромбоцитопения, ускоренное СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukocytosis",
+    "target": "symptom_elevated_esr",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемический синдром, лейкоцитоз, ускоренное СОЭ",
+    "properties": {}
+  }
+]

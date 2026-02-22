@@ -1,0 +1,50 @@
+[
+  {
+    "source": "symptom_knee_pain_syndrome",
+    "target": "diagnosis_rupture_meniscus_fresh",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повреждения менисков (медиального, наружного), сопровождающиеся болевым синдромом в коленном суставе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_knee_pain_syndrome",
+    "target": "diagnosis_meniscus_old_tear",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повреждения менисков (медиального, наружного), сопровождающиеся болевым синдромом в коленном суставе.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_blockade",
+    "target": "diagnosis_rupture_meniscus_fresh",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Экстренные: блокада сустава; свежий разрыв менисков.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_inflammation",
+    "target": "diagnosis_rupture_meniscus_fresh",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "воспалительные поражения кожи в области вмешательства.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_locked_instability",
+    "target": "diagnosis_rupture_meniscus_fresh",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "хроническая заблокированная нестабильность;",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rupture_meniscus_fresh",
+    "target": "diagnosis_meniscus_old_tear",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: S83.2 Разрыв мениска свежий, M23.2 Поражение мениска в результате старого разрыва или травмы.",
+    "properties": {}
+  }
+]

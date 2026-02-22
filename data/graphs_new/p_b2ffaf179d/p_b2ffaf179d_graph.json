@@ -1,0 +1,620 @@
+{
+  "protocol_id": "p_b2ffaf179d",
+  "nodes": [
+    {
+      "id": "diagnosis_cardiogenic_shock",
+      "type": "diagnosis",
+      "label": "Кардиогенный шок",
+      "icd_code": "R57.0"
+    },
+    {
+      "id": "symptom_sad_lt_90",
+      "type": "symptom",
+      "label": "САД < 90 мм рт. ст."
+    },
+    {
+      "id": "symptom_mean_bp_lt_65",
+      "type": "symptom",
+      "label": "Среднее АД < 65 мм рт. ст."
+    },
+    {
+      "id": "symptom_vasopressor_needed",
+      "type": "symptom",
+      "label": "Необходимость применения вазопрессоров"
+    },
+    {
+      "id": "symptom_lung_congestion",
+      "type": "symptom",
+      "label": "Признаки застоя в легких"
+    },
+    {
+      "id": "symptom_lvedd_increase",
+      "type": "symptom",
+      "label": "Повышение давления наполнения левого желудочка"
+    },
+    {
+      "id": "symptom_consciousness_impairment",
+      "type": "symptom",
+      "label": "Нарушение сознания"
+    },
+    {
+      "id": "symptom_cold_wet_skin",
+      "type": "symptom",
+      "label": "Холодная влажная кожа"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Олигурия"
+    },
+    {
+      "id": "symptom_lactate_increase",
+      "type": "symptom",
+      "label": "Повышение сывороточного лактата > 2 ммоль/л"
+    },
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "Выраженная общая слабость"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_visual_disturbance",
+      "type": "symptom",
+      "label": "Туман перед глазами"
+    },
+    {
+      "id": "symptom_palpitations",
+      "type": "symptom",
+      "label": "Сердцебиение"
+    },
+    {
+      "id": "symptom_cardiac_interruption",
+      "type": "symptom",
+      "label": "Ощущение перебоев в области сердца"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Удушье"
+    },
+    {
+      "id": "symptom_gray_cyanosis",
+      "type": "symptom",
+      "label": "Серый цианоз"
+    },
+    {
+      "id": "symptom_pale_cyanotic_skin",
+      "type": "symptom",
+      "label": "Бледно-цианотичная кожа"
+    },
+    {
+      "id": "symptom_marmor_skin",
+      "type": "symptom",
+      "label": "Мраморная кожа"
+    },
+    {
+      "id": "symptom_acrocyanosis",
+      "type": "symptom",
+      "label": "Акроцианоз"
+    },
+    {
+      "id": "symptom_distended_veins",
+      "type": "symptom",
+      "label": "Спавшиеся вены"
+    },
+    {
+      "id": "symptom_cold_extremities",
+      "type": "symptom",
+      "label": "Холодные кисти и стопы"
+    },
+    {
+      "id": "symptom_nailbed_capillary_refill",
+      "type": "symptom",
+      "label": "Проба ногтевого ложа > 2 с"
+    },
+    {
+      "id": "symptom_slow_thinking",
+      "type": "symptom",
+      "label": "Заторможенность"
+    },
+    {
+      "id": "symptom_confusion",
+      "type": "symptom",
+      "label": "Спутанность сознания"
+    },
+    {
+      "id": "symptom_excitation",
+      "type": "symptom",
+      "label": "Возбуждение (реже)"
+    },
+    {
+      "id": "symptom_shallow_breathing",
+      "type": "symptom",
+      "label": "Поверхностное дыхание"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "Учащенное дыхание"
+    },
+    {
+      "id": "symptom_foamy_hemoptysis",
+      "type": "symptom",
+      "label": "Кашель с розовой пенистой мокротой"
+    },
+    {
+      "id": "symptom_dull_percussion",
+      "type": "symptom",
+      "label": "Притупление перкуторного звука в нижних отделах легких"
+    },
+    {
+      "id": "symptom_crepitation",
+      "type": "symptom",
+      "label": "Крепитация"
+    },
+    {
+      "id": "symptom_fine_rales",
+      "type": "symptom",
+      "label": "Мелкопузырчатые хрипы"
+    },
+    {
+      "id": "symptom_extensive_rales",
+      "type": "symptom",
+      "label": "Хрипы более 50% поверхности легких"
+    },
+    {
+      "id": "symptom_metabolic_acidosis",
+      "type": "symptom",
+      "label": "Метаболический ацидоз (pH < 7,35)"
+    },
+    {
+      "id": "symptom_lactate_high",
+      "type": "symptom",
+      "label": "Повышение плазменного лактата"
+    },
+    {
+      "id": "symptom_BNP_high",
+      "type": "symptom",
+      "label": "Повышение BNP или NT-proBNP"
+    },
+    {
+      "id": "symptom_creatinine_high",
+      "type": "symptom",
+      "label": "Повышение креатинина в плазме"
+    },
+    {
+      "id": "symptom_hypoxemia",
+      "type": "symptom",
+      "label": "PaO2 < 80 мм рт. ст."
+    },
+    {
+      "id": "symptom_hypercapnia",
+      "type": "symptom",
+      "label": "PaCO2 > 45 мм рт. ст."
+    },
+    {
+      "id": "symptom_SaO2_low",
+      "type": "symptom",
+      "label": "SaO2 < 90 %"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "Аритмии"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардии"
+    },
+    {
+      "id": "symptom_gallop_rhythm",
+      "type": "symptom",
+      "label": "Протодиастолический ритм галопа"
+    },
+    {
+      "id": "symptom_left_ventricular_failure",
+      "type": "symptom",
+      "label": "Признаки левожелудочковой недостаточности"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_sad_lt_90",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Снижением САД <90 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mean_bp_lt_65",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "среднего АД менее 65 мм рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vasopressor_needed",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "необходимости применения вазопрессоров для поддержания САД≥90 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_congestion",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "признаками застоя в легких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lvedd_increase",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышением давления наполнения левого желудочка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_consciousness_impairment",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нарушение сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_wet_skin",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "холодная влажная кожа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "олигурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lactate_increase",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение сывороточного лактата плазмы > 2ммоль/л",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выраженная общая слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_disturbance",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "туман перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpitations",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "сердцебиение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiac_interruption",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "ощущение перебоев в области сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "удушье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gray_cyanosis",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "серый цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pale_cyanotic_skin",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "бледно-цианотичная кожа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_marmor_skin",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "мраморная кожа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acrocyanosis",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "акроцианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_distended_veins",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "спавшиеся вены",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_extremities",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "холодные кисти и стопы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nailbed_capillary_refill",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "проба ногтевого ложа > 2 с",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slow_thinking",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "заторможенность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_confusion",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "спутанность сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_excitation",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "возбуждение (реже)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shallow_breathing",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "поверхностное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "учащенное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_foamy_hemoptysis",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кашель с розовой пенистой мокротой",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dull_percussion",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "притупление перкуторного звука в нижних отделах легких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crepitation",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fine_rales",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "мелкопузырчатые хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensive_rales",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "хрипы более 50% поверхности легких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_acidosis",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "метаболический ацидоз (pH < 7,35)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lactate_high",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение плазменного лактата",
+      "properties": {}
+    },
+    {
+      "source": "symptom_BNP_high",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение BNP или NT-proBNP",
+      "properties": {}
+    },
+    {
+      "source": "symptom_creatinine_high",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение креатинина в плазме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxemia",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "PaO2 < 80 мм рт. ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypercapnia",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "PaCO2 > 45 мм рт. ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_SaO2_low",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "SaO2 < 90 %",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "аритмии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тахикардии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gallop_rhythm",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "протодиастолический ритм галопа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_left_ventricular_failure",
+      "target": "diagnosis_cardiogenic_shock",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "признаки левожелудочковой недостаточности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_wet_skin",
+      "target": "symptom_oliguria",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодная влажная кожа; олигурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_wet_skin",
+      "target": "symptom_consciousness_impairment",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "холодная влажная кожа; нарушение сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gray_cyanosis",
+      "target": "symptom_marmor_skin",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "серый цианоз или бледно-цианотичная, «мраморная», влажная кожа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shallow_breathing",
+      "target": "symptom_tachypnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "поверхностное дыхание, учащенное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fine_rales",
+      "target": "symptom_extensive_rales",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "мелкопузырчатые хрипы; хрипы более 50% поверхности легких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "аритмии; тахикардии",
+      "properties": {}
+    }
+  ]
+}

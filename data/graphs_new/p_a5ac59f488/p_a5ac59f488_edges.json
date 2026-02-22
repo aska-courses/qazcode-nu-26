@@ -1,0 +1,434 @@
+[
+  {
+    "source": "diagnosis_a84",
+    "target": "diagnosis_a85",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "A84 Клещевой вирусный энцефалит A85Другие вирусные энцефалиты",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a85",
+    "target": "diagnosis_a87",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "A85Другие вирусные энцефалиты A87 Вирусный менингит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a87",
+    "target": "diagnosis_a89",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "A87 Вирусный менингит A89 Вирусная инфекция центральной нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_a89",
+    "target": "diagnosis_b67_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "A89 Вирусная инфекция центральной нервной системы B67.9 Эхинококкоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_b67_9",
+    "target": "diagnosis_b69_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "B67.9 Эхинококкоз B69.0 Цистицеркоз центральной нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_b69_0",
+    "target": "diagnosis_b94",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "B69.0 Цистицеркоз центральной нервной системы B94 Последствия других и неуточненных инфекционных и паразитарных болезней",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c41_2",
+    "target": "diagnosis_c70_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C41.2 Злокачественное новообразование позвоночного столба C70.0 Злокачественное новообразование оболочек головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c70_0",
+    "target": "diagnosis_c70_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C70.0 ... C70.1 Злокачественное новообразование оболочек спинного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c70_1",
+    "target": "diagnosis_c71",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C70.1 ... C71 Злокачественное новообразование головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c71",
+    "target": "diagnosis_c72_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C71 ... C72.0 Злокачественное новообразование спинного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c72_0",
+    "target": "diagnosis_c72_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C72.0 ... C72.1 Злокачественное новообразование конского хвоста",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c72_1",
+    "target": "diagnosis_c72_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C72.1 ... C72.2 Злокачественное новообразование обонятельного нерва",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c72_2",
+    "target": "diagnosis_c72_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C72.2 ... C72.3 Злокачественное новообразование зрительного нерва",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c72_3",
+    "target": "diagnosis_c72_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C72.3 ... C72.4 Злокачественное новообразование слухового нерва",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c72_4",
+    "target": "diagnosis_c72_5",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C72.4 ... C72.5 Злокачественное новообразование других и неуточненных черепных нервов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c72_5",
+    "target": "diagnosis_c72_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C72.5 ... C72.8 Злокачественное новообразование и других отделов центральной нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d16_6",
+    "target": "diagnosis_d32_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D16.6 Доброкачественное новообразование позвоночного столба D32.0 Доброкачественное новообразование оболочек головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d32_0",
+    "target": "diagnosis_d32_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D32.0 ... D32.1 Доброкачественное новообразование оболочек спинного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d32_1",
+    "target": "diagnosis_d33_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D32.1 ... D33.0 Доброкачественное новообразование головного мозга над мозговым наметом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d33_0",
+    "target": "diagnosis_d33_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D33.0 ... D33.1 Доброкачественное новообразование головного мозга под мозговым наметом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d33_1",
+    "target": "diagnosis_d33_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D33.1 ... D33.3 Доброкачественное новообразование черепных нервов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d33_3",
+    "target": "diagnosis_d33_4",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D33.3 ... D33.4 Доброкачественное новообразование спинного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d33_4",
+    "target": "diagnosis_d36_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "D33.4 ... D36.1 Доброкачественное новообразование периферических нервов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f48",
+    "target": "diagnosis_f80",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "F48 Невротические ... F80 Специфические расстройства развития речи и языка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f80",
+    "target": "diagnosis_f81",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "F80 ... F81 Специфические расстройства развития учебных навыков",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f81",
+    "target": "diagnosis_f82",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "F81 ... F82 Специфические расстройства моторной функции",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f82",
+    "target": "diagnosis_f83",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "F82 ... F83 Смешанные специфические расстройства психологического развития",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f83",
+    "target": "diagnosis_f84",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "F83 ... F84 Общие расстройства психологического развития",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m43_1",
+    "target": "diagnosis_m47_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "M43.1 Спондилолистез M47.1 Другие спондилезы с миелопатией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m47_1",
+    "target": "diagnosis_m48_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "M47.1 ... M48.0 Спинальный стеноз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m48_0",
+    "target": "diagnosis_m50_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "M48.0 ... M50.0 Поражение межпозвоночного диска шейного отдела с миелопатией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m50_0",
+    "target": "diagnosis_m51_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "M50.0 ... M51.0 Поражения межпозвоночных дисков поясничного и других отделов с миелопатией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m51_0",
+    "target": "diagnosis_m51_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "M51.0 ... M51.3 Другая уточненная дегенерации межпозвоночного диска",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m51_3",
+    "target": "diagnosis_m53_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "M51.3 ... M53.2 Спинальная нестабильность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q02",
+    "target": "diagnosis_q03",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q02 Микроцефалия Q03 Врожденная гидроцефалия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q03",
+    "target": "diagnosis_q04",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q03 ... Q04 Другие врожденные аномалии (пороки развития) мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q04",
+    "target": "diagnosis_q05",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q04 ... Q05 Spina bifida (неполное закрытие позвоночного канала)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q05",
+    "target": "diagnosis_q06",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q05 ... Q06 Другие врожденные аномалии (пороки развития) спинного мозга",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q06",
+    "target": "diagnosis_q07",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q06 ... Q07 Другие врожденные аномалии нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q07",
+    "target": "diagnosis_q28_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q07 ... Q28.2 Артериовенозные пороки развития центральных сосудов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q28_2",
+    "target": "diagnosis_q28_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q28.2 ... Q28.3 Другие пороки развития центральных сосудов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q28_3",
+    "target": "diagnosis_q90",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q28.3 ... Q90 Синдром Дауна",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q90",
+    "target": "diagnosis_q91",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q90 ... Q91 Синдром Эдвардса и синдром Патау",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q91",
+    "target": "diagnosis_q99",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Q91 ... Q99 Другие аномалии хромосом, не классифицированные в других рубриках",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g00",
+    "target": "diagnosis_g02_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G00 Бактериальный менингит G02.0 Менингит при вирусных болезнях",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g02_0",
+    "target": "diagnosis_g03",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G02.0 ... G03 Менингит, обусловленный другими и неуточненными причинами",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g03",
+    "target": "diagnosis_g04",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G03 ... G04 Энцефалит, миелит и энцефаломиелит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g04",
+    "target": "diagnosis_g06_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G04 ... G06.0 Внутричерепной абсцесс и гранулема",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g06_0",
+    "target": "diagnosis_g06_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G06.0 ... G06.1 Внутрипозвоночный абсцесс и гранулема",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g06_1",
+    "target": "diagnosis_g06_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G06.1 ... G06.2 Экстрадуральный и субдуральный абсцесс неуточненный",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g06_2",
+    "target": "diagnosis_g09",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G06.2 ... G09 Последствия воспалительных болезней центральной нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g35",
+    "target": "diagnosis_g37",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G35 Рассеянный склероз G37 Другие демиелинизирующие болезни нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g37",
+    "target": "diagnosis_g46",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G37 ... G46 Сосудистые мозговые синдромы при цереброваскулярных болезнях",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g46",
+    "target": "diagnosis_i69",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "G46 ... I69 Последствия цереброваскулярных болезней",
+    "properties": {}
+  }
+]

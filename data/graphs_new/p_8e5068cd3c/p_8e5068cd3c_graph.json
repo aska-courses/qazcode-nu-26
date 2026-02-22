@@ -1,0 +1,347 @@
+{
+  "protocol_id": "p_8e5068cd3c",
+  "nodes": [
+    {
+      "id": "diagnosis_hodgkin_lymphoma",
+      "type": "diagnosis",
+      "label": "Лимфома Ходжкина",
+      "icd_code": "C81"
+    },
+    {
+      "id": "diagnosis_hodgkin_lymphoma_c81_0",
+      "type": "diagnosis",
+      "label": "Лимфома Ходжкина – лимфоидное преобладание лимфатического узла",
+      "icd_code": "C81.0"
+    },
+    {
+      "id": "diagnosis_hodgkin_lymphoma_c81_1",
+      "type": "diagnosis",
+      "label": "Лимфома Ходжкина – подмышечный лимфатический узел",
+      "icd_code": "C81.1"
+    },
+    {
+      "id": "diagnosis_hodgkin_lymphoma_c81_2",
+      "type": "diagnosis",
+      "label": "Лимфома Ходжкина – паховый лимфатический узел",
+      "icd_code": "C81.2"
+    },
+    {
+      "id": "diagnosis_hodgkin_lymphoma_c81_3",
+      "type": "diagnosis",
+      "label": "Лимфома Ходжкина – простой лимфатический узел",
+      "icd_code": "C81.3"
+    },
+    {
+      "id": "diagnosis_hodgkin_lymphoma_c81_7",
+      "type": "diagnosis",
+      "label": "Другие формы лимфомы Ходжкина",
+      "icd_code": "C81.7"
+    },
+    {
+      "id": "diagnosis_hodgkin_lymphoma_c81_9",
+      "type": "diagnosis",
+      "label": "Лимфома Ходжкина – неуточненная форма",
+      "icd_code": "C81.9"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "Увеличение лимфоузлов"
+    },
+    {
+      "id": "symptom_cough_without_sputum",
+      "type": "symptom",
+      "label": "Кашель без мокроты"
+    },
+    {
+      "id": "symptom_facial_neck_arm_edema",
+      "type": "symptom",
+      "label": "Отёк лица, шеи и рук"
+    },
+    {
+      "id": "symptom_left_upper_quadrant_heaviness",
+      "type": "symptom",
+      "label": "Тяжесть в левом подреберье"
+    },
+    {
+      "id": "symptom_skin_pruritus",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "symptom_fever_nocturnal",
+      "type": "symptom",
+      "label": "Повышение температуры тела, ночное"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Снижение массы тела (>10‑15 кг за 2‑3 мес.)"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Общая слабость, повышенная утомляемость"
+    },
+    {
+      "id": "symptom_night_sweats",
+      "type": "symptom",
+      "label": "Ночные поты"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность кожных покровов"
+    },
+    {
+      "id": "symptom_skin_excoriations",
+      "type": "symptom",
+      "label": "Следы расчесов на коже"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "Увеличение селезёнки"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Учащённый пульс"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Сниженное артериальное давление"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Ускорение СОЭ"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия"
+    },
+    {
+      "id": "symptom_elevated_ldh",
+      "type": "symptom",
+      "label": "Повышенный уровень лактатдегидрогеназы (ЛДГ)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение лимфоузлов (чаще безболезненное)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough_without_sputum",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кашель без выделения мокроты – возникает за счет сдавления дыхательных путей увеличенными лимфоузлами средостения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_neck_arm_edema",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёки лица, шеи, рук – возникают за счет сдавления верхней полой вены",
+      "properties": {}
+    },
+    {
+      "source": "symptom_left_upper_quadrant_heaviness",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжесть в левом подреберье – за счет увеличения селезёнки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pruritus",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кожный зуд, преимущественно в области увеличенных лимфоузлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_nocturnal",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела, преимущественно в вечернее и ночное время",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение массы тела (более 10‑15 кг за 2‑3 мес.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общая слабость, повышенная утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "усиленное потоотделение, особенно в ночное время",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тяжесть в левом подреберье – за счет увеличения селезёнки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "умеренный лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто отмечается ускорение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "анемия наблюдается редко",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_hodgkin_lymphoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пульс может быть учащенным",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_pruritus",
+      "target": "symptom_skin_excoriations",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при кожном зуде на коже могут быть следы расчесов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_nocturnal",
+      "target": "symptom_night_sweats",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела...; усиленное потоотделение, особенно в ночное время",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_nocturnal",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела...; снижение массы тела (более 10‑15 кг за 2‑3 мес.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_night_sweats",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "усиленное потоотделение, особенно в ночное время; снижение массы тела (более 10‑15 кг за 2‑3 мес.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "общая слабость, повышенная утомляемость; снижение массы тела (более 10‑15 кг за 2‑3 мес.)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "symptom_fever_nocturnal",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "общая слабость, повышенная утомляемость; повышение температуры тела, преимущественно в вечернее и ночное время",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hodgkin_lymphoma",
+      "target": "diagnosis_hodgkin_lymphoma_c81_0",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Лимфома Ходжкина – лимфоидное преобладание лимфатического узла",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hodgkin_lymphoma",
+      "target": "diagnosis_hodgkin_lymphoma_c81_1",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Лимфома Ходжкина – подмышечный лимфатический узел",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hodgkin_lymphoma",
+      "target": "diagnosis_hodgkin_lymphoma_c81_2",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Лимфома Ходжкина – паховый лимфатический узел",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hodgkin_lymphoma",
+      "target": "diagnosis_hodgkin_lymphoma_c81_3",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Лимфома Ходжкина – простой лимфатический узел",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hodgkin_lymphoma",
+      "target": "diagnosis_hodgkin_lymphoma_c81_7",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Другие формы лимфомы Ходжкина",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hodgkin_lymphoma",
+      "target": "diagnosis_hodgkin_lymphoma_c81_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Лимфома Ходжкина – неуточненная форма",
+      "properties": {}
+    }
+  ]
+}

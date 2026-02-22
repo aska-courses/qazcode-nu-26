@@ -1,0 +1,600 @@
+{
+  "protocol_id": "p_d1c6cfc57d",
+  "nodes": [
+    {
+      "id": "diagnosis_holecistitis",
+      "type": "diagnosis",
+      "label": "Холецистит",
+      "icd_code": "K81"
+    },
+    {
+      "id": "diagnosis_acute_holecistitis",
+      "type": "diagnosis",
+      "label": "Острый холецистит",
+      "icd_code": "K81.0"
+    },
+    {
+      "id": "diagnosis_chronic_holecistitis",
+      "type": "diagnosis",
+      "label": "Хронический холецистит",
+      "icd_code": "K81.1"
+    },
+    {
+      "id": "diagnosis_other_holecistitis_forms",
+      "type": "diagnosis",
+      "label": "Другие формы холецистита",
+      "icd_code": "K81.8"
+    },
+    {
+      "id": "diagnosis_unspecified_holecistitis",
+      "type": "diagnosis",
+      "label": "Холецистит неуточненный",
+      "icd_code": "K81.9"
+    },
+    {
+      "id": "symptom_bol_pravoe_podreberie",
+      "type": "symptom",
+      "label": "Боль в правом подреберье"
+    },
+    {
+      "id": "symptom_zhelchnaya_kolika",
+      "type": "symptom",
+      "label": "Желчная колика"
+    },
+    {
+      "id": "symptom_lihozhka",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_ozdob",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_zheltuha",
+      "type": "symptom",
+      "label": "Желтуха"
+    },
+    {
+      "id": "symptom_ikterichnost_sklier",
+      "type": "symptom",
+      "label": "Иктеричность склер"
+    },
+    {
+      "id": "symptom_obeschevanie_kala",
+      "type": "symptom",
+      "label": "Обесцвечивание кала"
+    },
+    {
+      "id": "symptom_potemnennaya_mukha",
+      "type": "symptom",
+      "label": "Потемнение мочи"
+    },
+    {
+      "id": "symptom_dyspepsia",
+      "type": "symptom",
+      "label": "Диспепсия"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_izzhoga",
+      "type": "symptom",
+      "label": "Изжога"
+    },
+    {
+      "id": "symptom_suhost_vo_rou",
+      "type": "symptom",
+      "label": "Сухость во рту"
+    },
+    {
+      "id": "symptom_otrjka",
+      "type": "symptom",
+      "label": "Отрыжка"
+    },
+    {
+      "id": "symptom_snizhenie_apetita",
+      "type": "symptom",
+      "label": "Снижение аппетита"
+    },
+    {
+      "id": "symptom_zapory",
+      "type": "symptom",
+      "label": "Запор"
+    },
+    {
+      "id": "symptom_pososy",
+      "type": "symptom",
+      "label": "Понос"
+    },
+    {
+      "id": "symptom_vzdutie_bricha",
+      "type": "symptom",
+      "label": "Вздутие живота"
+    },
+    {
+      "id": "symptom_merfi",
+      "type": "symptom",
+      "label": "Болезненность при пальпации (симптом Мерфи)"
+    },
+    {
+      "id": "symptom_kera",
+      "type": "symptom",
+      "label": "Боль при вдохе (симптом Кера)"
+    },
+    {
+      "id": "symptom_alieva",
+      "type": "symptom",
+      "label": "Иррадиирующая боль (симптом Алиева)"
+    },
+    {
+      "id": "symptom_ayzenberg",
+      "type": "symptom",
+      "label": "Боль при ударе ребром (симптом Айзенберга I)"
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_padeniye_ad",
+      "type": "symptom",
+      "label": "Падение артериального давления"
+    },
+    {
+      "id": "symptom_narusheniya_ritma",
+      "type": "symptom",
+      "label": "Нарушения сердечного ритма"
+    },
+    {
+      "id": "symptom_subikterichnost",
+      "type": "symptom",
+      "label": "Субиктеричность склер"
+    },
+    {
+      "id": "symptom_kozhnoy_zud",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "symptom_mucha_cvet_piva",
+      "type": "symptom",
+      "label": "Моча цвета пива"
+    },
+    {
+      "id": "symptom_aholichnyy_kal",
+      "type": "symptom",
+      "label": "Ахоличный кал"
+    },
+    {
+      "id": "symptom_povyshennaya_temperatura",
+      "type": "symptom",
+      "label": "Повышение температуры"
+    },
+    {
+      "id": "symptom_bol_irradiiruyushchaya_v_pravoe_plato_i_spinu",
+      "type": "symptom",
+      "label": "Боль, иррадиирующая в правое плечо, спину и шею"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_pravoe_podreberie",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые (1–2 раза в месяц), быстро купирующиеся, частые, продолжительные, трудно купирующиеся приступы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zhelchnaya_kolika",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "приступ желчной колики: острая, интенсивная, нетерпимая, жгучая, распирающая ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhka",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лихорадка с повышением температуры тела не выше 38 °C",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ozdob",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сопровождается ознобом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Рвота. Обильная, не приносящая облегчения, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тоснота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Желтуха.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ikterichnost_sklier",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Иктеричность склер",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obeschevanie_kala",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обесцвечивание кала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_potemnennaya_mukha",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потемнение мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucha_cvet_piva",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "моча цвета пива",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aholichnyy_kal",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ахоличный кал",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnoy_zud",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кожный зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Диспептические явления часто предшествуют развитию приступа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izzhoga",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изжога",
+      "properties": {}
+    },
+    {
+      "source": "symptom_suhost_vo_rou",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость во рту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otrjka",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_apetita",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zapory",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запор",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pososy",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понос",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vzdutie_bricha",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_merfi",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Мерфи - болезненность при пальпации в правом подреберье на вдохе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kera",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кера - боль в правом подреберье во время глубокого вдоха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alieva",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Алиева - появление ... иррадирующей боли по направлению к желчному пузырю",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ayzenberg",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Айзенберга I – удар ребром ... вызывает умеренную локальную боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "у лиц пожилого возраста ... могут наблюдаться ... цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_padeniye_ad",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "падение АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narusheniya_ritma",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения сердечного ритма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subikterichnost",
+      "target": "diagnosis_chronic_holecistitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда выявляется субиктеричность склер",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pravoe_podreberie",
+      "target": "symptom_zhelchnaya_kolika",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль ... и приступ желчной колики",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "диспептические явления ... тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "диспептические явления ... изжога",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_suhost_vo_rou",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "диспептические явления ... сухость во рту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_otrjka",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "диспептические явления ... отрыжка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_snizhenie_apetita",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "диспептические явления ... снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_zapory",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "неустойчивый стул со склонностью к запорам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_pososy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "неустойчивый стул со склонностью к поносам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspepsia",
+      "target": "symptom_vzdutie_bricha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "вздутие живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_ikterichnost_sklier",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Желтуха. Иктеричность склер",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_obeschevanie_kala",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кратковременное обесцвечивание кала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_potemnennaya_mukha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "потемнение мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_mucha_cvet_piva",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "моча цвета пива",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_aholichnyy_kal",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ахоличный кал",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_kozhnoy_zud",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "кожный зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_merfi",
+      "target": "symptom_kera",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы: Мерфи - ... Кера - ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_merfi",
+      "target": "symptom_alieva",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы: Мерфи - ... Алиева - ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_merfi",
+      "target": "symptom_ayzenberg",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы: Мерфи - ... Айзенберга I – ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kera",
+      "target": "symptom_alieva",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы: Кера - ... Алиева - ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kera",
+      "target": "symptom_ayzenberg",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы: Кера - ... Айзенберга I – ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_alieva",
+      "target": "symptom_ayzenberg",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы: Алиева - ... Айзенберга I – ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_chronic_holecistitis",
+      "target": "diagnosis_acute_holecistitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "острый холецистит: – эмпиема желчного пузыря; – околопузырный инфильтрат; …",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "protocol_id": "p_fd03b3b5d4",
+  "nodes": [
+    {
+      "id": "symptom_scrotal_swelling",
+      "type": "symptom",
+      "label": "увеличение мошонки"
+    },
+    {
+      "id": "symptom_scrotal_pain",
+      "type": "symptom",
+      "label": "боль в мошонке"
+    },
+    {
+      "id": "symptom_scrotal_fluid",
+      "type": "symptom",
+      "label": "наличие жидкости в оболочках яичка"
+    },
+    {
+      "id": "diagnosis_hydrocele",
+      "type": "diagnosis",
+      "label": "Гидроцеле и сперматоцеле",
+      "icd_code": "N43"
+    },
+    {
+      "id": "diagnosis_encapsulated_hydrocele",
+      "type": "diagnosis",
+      "label": "Гидроцеле осумкованное оболочки семенного канатика",
+      "icd_code": "N43.0"
+    },
+    {
+      "id": "diagnosis_infected_hydrocele",
+      "type": "diagnosis",
+      "label": "Инфицированное гидроцеле",
+      "icd_code": "N43.1"
+    },
+    {
+      "id": "diagnosis_other_hydrocele_forms",
+      "type": "diagnosis",
+      "label": "Другие формы гидроцеле",
+      "icd_code": "N43.2"
+    },
+    {
+      "id": "diagnosis_unspecified_hydrocele",
+      "type": "diagnosis",
+      "label": "Гидроцеле неуточненное",
+      "icd_code": "N43.3"
+    },
+    {
+      "id": "diagnosis_spermatoceles",
+      "type": "diagnosis",
+      "label": "Сперматоцеле",
+      "icd_code": "N43.4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "diagnosis_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: увеличение мошонки в объеме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "diagnosis_encapsulated_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: увеличение мошонки в объеме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "diagnosis_infected_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: увеличение мошонки в объеме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "diagnosis_other_hydrocele_forms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: увеличение мошонки в объеме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "diagnosis_unspecified_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: увеличение мошонки в объеме",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "diagnosis_spermatoceles",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гидроцеле и сперматоцеле",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_fluid",
+      "target": "diagnosis_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ органов мошонки – свободная жидкость в оболочках яичка; Диафаноскопия – наличие жидкости в оболочках яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_fluid",
+      "target": "diagnosis_encapsulated_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ органов мошонки – свободная жидкость в оболочках яичка; Диафаноскопия – наличие жидкости в оболочках яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_fluid",
+      "target": "diagnosis_infected_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ органов мошонки – свободная жидкость в оболочках яичка; Диафаноскопия – наличие жидкости в оболочках яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_fluid",
+      "target": "diagnosis_other_hydrocele_forms",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ органов мошонки – свободная жидкость в оболочках яичка; Диафаноскопия – наличие жидкости в оболочках яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_fluid",
+      "target": "diagnosis_unspecified_hydrocele",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "УЗИ органов мошонки – свободная жидкость в оболочках яичка; Диафаноскопия – наличие жидкости в оболочках яичка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scrotal_swelling",
+      "target": "symptom_scrotal_fluid",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Увеличение мошонки ... УЗИ органов мошонки – свободная жидкость в оболочках яичка",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hydrocele",
+      "target": "diagnosis_spermatoceles",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Гидроцеле и сперматоцеле",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hydrocele",
+      "target": "diagnosis_encapsulated_hydrocele",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N43.0 Гидроцеле осумкованное оболочки семенного канатика",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hydrocele",
+      "target": "diagnosis_infected_hydrocele",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N43.1 Инфицированное гидроцеле",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hydrocele",
+      "target": "diagnosis_other_hydrocele_forms",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N43.2 Другие формы гидроцеле",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hydrocele",
+      "target": "diagnosis_unspecified_hydrocele",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N43.3 Гидроцеле неуточненное",
+      "properties": {}
+    }
+  ]
+}

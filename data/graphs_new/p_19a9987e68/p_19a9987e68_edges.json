@@ -1,0 +1,306 @@
+[
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_bradycardia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "транфузионные реакции: тахикардия, брадикардия или аритмия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_arrhythmia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "транфузионные реакции: тахикардия, брадикардия или аритмия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "symptom_arrhythmia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "транфузионные реакции: тахикардия, брадикардия или аритмия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... тахипноэ; повышение температуры выше 38 °C; цианоз; кожная сыпь, крапивница, гиперемия; гематурия/гемоглобинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_systolic_bp_increase",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... повышение температуры выше 38 °C; ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... повышение температуры выше 38 °C; ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... цианоз; ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... кожная сыпь, крапивница, гиперемия; ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... крапивница; ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... гиперемия; ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... гематурия/гемоглобинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemoglobinuria",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... гематурия/гемоглобинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_volume_overload",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Перегрузка объемом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnea",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Апноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_rhythm_disturbance",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Нарушения сердечного ритма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_embolism",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Эмболия (воздух/тромб)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemodynamic_instability",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Гемодинамические нарушения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infection",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Инфекция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_temperature_instability",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Нестабильность температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_cardiac_failure",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Острая сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_citrate_intoxication",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... Цитратная интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_graft_vs_host_disease",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... синдром гомологичной крови (трансплантат против хозяина)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperkalemia",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... гиперкалиемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypokalemia",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... гипокальциемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coagulation_disorder",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... нарушение коагуляционного состояния крови (КОС)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trali",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... острый легочный травматический реакция (TRALI)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_posttransfusion_thrombotic_purpura",
+    "target": "symptom_allergic_reaction",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Трансфузия ... при появлении следующих побочных реакций: ... посттрансфузионная тромбоцитопеническая пурпура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_necrotizing_enterocolitis",
+    "target": "symptom_bronchopulmonary_dysplasia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "риски развития некротизирующего энтероколита, бронхолегочной дисплазии, ретинопатии недоношенных, внутрижелудочкового кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_necrotizing_enterocolitis",
+    "target": "symptom_retinopathy_preterm",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "риски развития некротизирующего энтероколита, бронхолегочной дисплазии, ретинопатии недоношенных, внутрижелудочкового кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_necrotizing_enterocolitis",
+    "target": "symptom_intracardiac_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "риски развития некротизирующего энтероколита, бронхолегочной дисплазии, ретинопатии недоношенных, внутрижелудочкового кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchopulmonary_dysplasia",
+    "target": "symptom_retinopathy_preterm",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "риски развития некротизирующего энтероколита, бронхолегочной дисплазии, ретинопатии недоношенных, внутрижелудочкового кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchopulmonary_dysplasia",
+    "target": "symptom_intracardiac_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "риски развития некротизирующего энтероколита, бронхолегочной дисплазии, ретинопатии недоношенных, внутрижелудочкового кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_retinopathy_preterm",
+    "target": "symptom_intracardiac_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "риски развития некротизирующего энтероколита, бронхолегочной дисплазии, ретинопатии недоношенных, внутрижелудочкового кровоизлияния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock_acute_blood_loss",
+    "target": "symptom_dvs_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания: Шок при острой кровопотере; ДВС синдром с массивными кровотечениями; Тяжелая анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock_acute_blood_loss",
+    "target": "symptom_severe_anemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания: Шок при острой кровопотере; ДВС синдром с массивными кровотечениями; Тяжелая анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dvs_syndrome",
+    "target": "symptom_severe_anemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Показания: Шок при острой кровопотере; ДВС синдром с массивными кровотечениями; Тяжелая анемия",
+    "properties": {}
+  }
+]

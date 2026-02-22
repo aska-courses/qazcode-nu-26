@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_reduced_kidney_function",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение или отсутствие функции обеих почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_kidney_function",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "снижение или отсутствие функции обеих почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_creatinine",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "показатели креатинина ... выше нормы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_urea",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "показатели креатинина, мочевины в крови выше нормы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "критическая или нестабильная клиническая ситуация (шок, искусственная вентиляция легких, экстракорпоральная мембранная оксигенация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_ventilation",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "критическая или нестабильная клиническая ситуация (шок, искусственная вентиляция легких, экстракорпоральная мембранная оксигенация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ecmo",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "критическая или нестабильная клиническая ситуация (шок, искусственная вентиляция легких, экстракорпоральная мембранная оксигенация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brain_damage",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "необратимые поражения головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_anemia",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "анемия тяжелой степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_thrombocytopenia",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "тяжелая тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoalbuminemia",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гипоальбуминемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "артериальная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pyuria",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "пиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_proteinuria",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "протеинурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_leukocyte_antibodies",
+    "target": "diagnosis_terminal_kidney_disease",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "повышенный уровень лейкоцитарных антител",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "symptom_mechanical_ventilation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "критическая или нестабильная клиническая ситуация (шок, искусственная вентиляция легких",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_ventilation",
+    "target": "symptom_ecmo",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "критическая или нестабильная клиническая ситуация (..., экстракорпоральная мембранная оксигенация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_anemia",
+    "target": "symptom_severe_thrombocytopenia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "анемия тяжелой степени, тяжелая тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoalbuminemia",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипоальбуминемии, артериальная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pyuria",
+    "target": "symptom_proteinuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пиурия, протеинурия",
+    "properties": {}
+  }
+]

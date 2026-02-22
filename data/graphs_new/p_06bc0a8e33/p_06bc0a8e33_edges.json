@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_low_vision",
+    "target": "diagnosis_h17_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_vision",
+    "target": "diagnosis_h17_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect_cornea_opacity",
+    "target": "diagnosis_h17_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_vision",
+    "target": "diagnosis_h17_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_vision",
+    "target": "diagnosis_h17_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect_cornea_opacity",
+    "target": "diagnosis_h17_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_vision",
+    "target": "symptom_absence_of_vision",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_low_vision",
+    "target": "symptom_cosmetic_defect_cornea_opacity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_of_vision",
+    "target": "symptom_cosmetic_defect_cornea_opacity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: на низкое зрение либо отсутствие зрения, косметический дефект в виде помутнения роговицы.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_h17_1",
+    "target": "diagnosis_h17_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "H17.1 Другие центральные помутнения роговицы ... H17.8 Рубцы и помутнения роговицы",
+    "properties": {}
+  }
+]

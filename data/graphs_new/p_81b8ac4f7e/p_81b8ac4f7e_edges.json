@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_pneumothorax",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "специфическими осложнениями являются кровотечение, пневмоторакс, образование бронхиальных свищей, перикардит и медиастинит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_bronchial_fistula",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "специфическими осложнениями являются кровотечение, пневмоторакс, образование бронхиальных свищей, перикардит и медиастинит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_pericarditis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "специфическими осложнениями являются кровотечение, пневмоторакс, образование бронхиальных свищей, перикардит и медиастинит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_mediastinitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "специфическими осложнениями являются кровотечение, пневмоторакс, образование бронхиальных свищей, перикардит и медиастинит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_shock",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнения во время процедуры: • кровотечение; • пневмоторакс; • шок; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_cardiac_arrhythmia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнения во время процедуры: • кровотечение; • пневмоторакс; • шок; • сердечная аритмия; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_oxygen_saturation_change",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнения во время процедуры: • кровотечение; • пневмоторакс; • шок; • изменение насыщения кислородом; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_bronchospasm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнения во время процедуры: • кровотечение; • пневмоторакс; • шок; • бронхоспазм.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_high_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнение после процедуры: • высокая температура; • кровотечение; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_hemothorax",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнение после процедуры: … пневмо и гематоракс.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "symptom_hemomediastinum",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Возможные осложнение после процедуры: … пневмо и гемамедиастинит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemoptysis",
+    "target": "symptom_hypoxia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Пациенты с гипоксией, значительным кровохарканьем или длительной лихорадкой подлежат срочному обследованию.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemoptysis",
+    "target": "symptom_prolonged_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Пациенты с гипоксией, значительным кровохарканьем или длительной лихорадкой подлежат срочному обследованию.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxia",
+    "target": "symptom_prolonged_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Пациенты с гипоксией, значительным кровохарканьем или длительной лихорадкой подлежат срочному обследованию.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_c38",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к проведению процедуры/вмешательства: Онкологический процесс легкого, органов и структур средостения; Медиастинальная и внутригрудная лимфаденопатия; …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_c39",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к проведению процедуры/вмешательства: Онкологический процесс легкого, органов и структур средостения; …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c38",
+    "target": "diagnosis_c39",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к проведению процедуры/вмешательства: Онкологический процесс легкого, органов и структур средостения; …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_c81",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к проведению процедуры/вмешательства: Онкологический процесс легкого, органов и структур средостения; Медиастинальная и внутригрудная лимфаденопатия; …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_d86",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к проведению процедуры/вмешательства: Онкологический процесс легкого, органов и структур средостения; Медиастинальная и внутригрудная лимфаденопатия; …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c34",
+    "target": "diagnosis_d38",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Показания к проведению процедуры/вмешательства: Онкологический процесс легкого, органов и структур средостения; Медиастинальная и внутригрудная лимфаденопатия; …",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d86",
+    "target": "diagnosis_a16",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Диагностика при подозрении на гранулематозную лимфаденопатию",
+    "properties": {}
+  }
+]

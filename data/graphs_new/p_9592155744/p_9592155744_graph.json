@@ -1,0 +1,400 @@
+{
+  "protocol_id": "p_9592155744",
+  "nodes": [
+    {
+      "id": "diagnosis_g61_8",
+      "type": "diagnosis",
+      "label": "Другие воспалительные полинейропатии",
+      "icd_code": "G61.8"
+    },
+    {
+      "id": "diagnosis_g61_9",
+      "type": "diagnosis",
+      "label": "Воспалительная полиневропатия неуточненная",
+      "icd_code": "G61.9"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_numbness",
+      "type": "symptom",
+      "label": "Онемение"
+    },
+    {
+      "id": "symptom_paresthesia",
+      "type": "symptom",
+      "label": "Парестезии"
+    },
+    {
+      "id": "symptom_hyperesthesia",
+      "type": "symptom",
+      "label": "Гиперестезия"
+    },
+    {
+      "id": "symptom_anesthesia",
+      "type": "symptom",
+      "label": "Анестезия"
+    },
+    {
+      "id": "symptom_hyperpathia",
+      "type": "symptom",
+      "label": "Гиперпатия"
+    },
+    {
+      "id": "symptom_hyperalgesia",
+      "type": "symptom",
+      "label": "Гипералгезия"
+    },
+    {
+      "id": "symptom_decreased_tendon_reflexes",
+      "type": "symptom",
+      "label": "Снижение сухожильных рефлексов"
+    },
+    {
+      "id": "symptom_absent_achilles_reflex",
+      "type": "symptom",
+      "label": "Отсутствие ахиллова рефлекса"
+    },
+    {
+      "id": "symptom_paresis",
+      "type": "symptom",
+      "label": "Парез"
+    },
+    {
+      "id": "symptom_falls",
+      "type": "symptom",
+      "label": "Падения"
+    },
+    {
+      "id": "symptom_gait_instability",
+      "type": "symptom",
+      "label": "Неустойчивость при ходьбе"
+    },
+    {
+      "id": "symptom_decreased_consciousness",
+      "type": "symptom",
+      "label": "Снижение уровня сознания"
+    },
+    {
+      "id": "symptom_meningeal_signs",
+      "type": "symptom",
+      "label": "Менингеальные знаки"
+    },
+    {
+      "id": "symptom_coordination_disorder",
+      "type": "symptom",
+      "label": "Нарушения координации"
+    },
+    {
+      "id": "symptom_autonomic_dysfunction",
+      "type": "symptom",
+      "label": "Вегетативные нарушения"
+    },
+    {
+      "id": "symptom_general_hyperhidrosis",
+      "type": "symptom",
+      "label": "Общий гипергидроз"
+    },
+    {
+      "id": "symptom_acral_hyperhidrosis",
+      "type": "symptom",
+      "label": "Акрогипергидроз"
+    },
+    {
+      "id": "symptom_transient_arrhythmia",
+      "type": "symptom",
+      "label": "Преходящая аритмия"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Гипотензия"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Снижение массы тела"
+    },
+    {
+      "id": "symptom_respiratory_insufficiency",
+      "type": "symptom",
+      "label": "Дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_muscle_hypotonia",
+      "type": "symptom",
+      "label": "Гипотония мышц"
+    },
+    {
+      "id": "symptom_muscle_atrophy",
+      "type": "symptom",
+      "label": "Мышечная атрофия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симметричные проксимальная и дистальная слабость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_g61_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "симметричные проксимальная и дистальная слабость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_numbness",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на онемение и парестезии в кистях и стопах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_numbness",
+      "target": "diagnosis_g61_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на онемение и парестезии в кистях и стопах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "парестезии в кончиках пальцев рук и ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "diagnosis_g61_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "парестезии в кончиках пальцев рук и ног",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperesthesia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувствительные нарушения в виде гиперестезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anesthesia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувствительные нарушения в виде анестезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperpathia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувствительные нарушения в виде гиперпатии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperalgesia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувствительные нарушения в виде гипералгезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_tendon_reflexes",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение сухожильных рефлексов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absent_achilles_reflex",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отсутствие ахиллова рефлекса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresis",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "парезы всегда преобладают в ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_falls",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возникают падения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gait_instability",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неустойчивость при ходьбе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autonomic_dysfunction",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вегетативные нарушения (общий и акрогипергидроз ...) отмечаются в большинстве случаев",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_hyperhidrosis",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вегетативные нарушения (общий ... гипергидроз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acral_hyperhidrosis",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вегетативные нарушения (... акрогипергидроз)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_transient_arrhythmia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "преходящая сердечная аритмия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующее уменьшение массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_insufficiency",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Дыхательная недостаточность при ХВДП встречается редко",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_syndrome",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Выраженный болевой синдром встречается нечасто",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_hypotonia",
+      "target": "diagnosis_g61_8",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Характерны диффузная гипотония мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_atrophy",
+      "target": "diagnosis_g61_8",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "выраженные парезы не сопровождаются нарастающей атрофией",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_g61_8",
+      "target": "diagnosis_g61_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "КодМКБ-10 G61.8 Другие воспалительные полинейропатии; G61.9 Воспалительная полиневропатия неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_decreased_tendon_reflexes",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симметричные ... слабость ... сопровождающиеся отсутствием или снижением сухожильных рефлексов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_gait_instability",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Слабость ... приводит к неустойчивости при ходьбе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_falls",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Слабость ... возникают падения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "symptom_hyperesthesia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "чувствительные нарушения (парестезии, гиперестезии ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperesthesia",
+      "target": "symptom_hyperalgesia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гиперестезии или гипералгезии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_autonomic_dysfunction",
+      "target": "symptom_general_hyperhidrosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "вегетативные нарушения (общий и акрогипергидроз ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_hyperhidrosis",
+      "target": "symptom_acral_hyperhidrosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "вегетативные нарушения (общий и акрогипергидроз ...)",
+      "properties": {}
+    }
+  ]
+}

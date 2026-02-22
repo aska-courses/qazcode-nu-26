@@ -1,0 +1,410 @@
+[
+  {
+    "source": "symptom_intoksikatsiya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация (вялость, приступы апноэ, бледность, сероватый оттенок окраски кожи, отказ от сосания)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vyalost",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вялость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prikopy_apnoe",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "приступы апноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бледность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_serovatyi_ottenok_kozhi",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сероватый оттенок окраски кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otkaz_ot_sosaniya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отказ от сосания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uchashchenie_dykhaniya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащение дыхания (>60/мин)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vtyazhenie_uglov_gk",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "втяжение уступчивых мест грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razduvanie_krilei_nosa",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "раздувание крыльев носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stonushchee_dykhanie",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стонущее дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krakhtjashchee_dykhanie",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кряхтящее дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akrotsianoz",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "акроцианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razlitoj_cianoz",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разлитой цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardiya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gluhost_tonov",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глухость тонов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterialnaya_gipotoniya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артериальная гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otechnost",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёчность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoniya_nevrologicheskaya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипотония (неврологическая)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_srygivanje",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "срыгивание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bespokoystvo",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "может отмечаться беспокойство",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vozbuzhdenie",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возбуждение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nestabilnaya_temperatura",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нестабильная температура (>37,9c или <36,0c)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_desaturatsiya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "десатурация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uchashchennoe_dykhanie",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащенное дыхание >60/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epizody_apnoe",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эпизоды апноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exspiratornyj_ston",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "экспираторный стон",
+    "properties": {}
+  },
+  {
+    "source": "symptom_silnoe_vtyazhenie_gk",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сильное втяжение податливых участков грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oslablennoe_dykhanie",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ослабленное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krepitiruushchie_hripy",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "крепитирующие хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_shumov_gk",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асимметрия дыхательных шумов и экскурсий грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sonlivost",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сонливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_nevrologicheskogo_sostoyaniya",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменения неврологического состояния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vzdutie_zhivota",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздутие живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ne_usvoenie_pishchi",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "не усвоение пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardiya_180",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия >180 уд/мин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnoe_soderzhimoe_iz_trakhei",
+    "target": "diagnosis_vrozhdennaya_pnevmoniya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гнойное содержимое из трахеи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoksikatsiya",
+    "target": "symptom_vyalost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "интоксикация (вялость, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoksikatsiya",
+    "target": "symptom_prikopy_apnoe",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "интоксикация (вялость, приступы апноэ, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uchashchenie_dykhaniya",
+    "target": "symptom_vtyazhenie_uglov_gk",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "учащение дыхания, втяжение уступчивых мест грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stonushchee_dykhanie",
+    "target": "symptom_krakhtjashchee_dykhanie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "стонущее, кряхтящее дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akrotsianoz",
+    "target": "symptom_razlitoj_cianoz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "акроцианоз и разлитой цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardiya",
+    "target": "symptom_gluhost_tonov",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тахикардия, глухость тонов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotoniya_nevrologicheskaya",
+    "target": "symptom_srygivanje",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипотония (неврологическая), срыгивание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bespokoystvo",
+    "target": "symptom_vozbuzhdenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "может отмечаться беспокойство, возбуждение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nestabilnaya_temperatura",
+    "target": "symptom_desaturatsiya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нестабильная температура, десатурация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uchashchennoe_dykhanie",
+    "target": "symptom_epizody_apnoe",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "учащенное дыхание >60/мин или эпизоды апноэ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exspiratornyj_ston",
+    "target": "symptom_silnoe_vtyazhenie_gk",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "экспираторный стон, сильное втяжение податливых участков грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krepitiruushchie_hripy",
+    "target": "symptom_asimetriya_shumov_gk",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "крепитирующие хрипы, асимметрия дыхательных шумов и экскурсий грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sonlivost",
+    "target": "symptom_izmenenie_nevrologicheskogo_sostoyaniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сонливость или изменения неврологического состояния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vzdutie_zhivota",
+    "target": "symptom_ne_usvoenie_pishchi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "вздутие живота, не усвоение пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tahikardiya_180",
+    "target": "symptom_gnoe_soderzhimoe_iz_trakhei",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "тахикардия >180 уд/мин, гнойное содержимое из трахеи",
+    "properties": {}
+  }
+]

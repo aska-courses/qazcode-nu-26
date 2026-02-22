@@ -1,0 +1,433 @@
+{
+  "protocol_id": "p_be7e63fc4e",
+  "nodes": [
+    {
+      "id": "symptom_pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_svvp",
+      "type": "symptom",
+      "label": "Синдром сдавления верхней полой вены"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "Дисфагия"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "Потливость"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_upper_limb_pain",
+      "type": "symptom",
+      "label": "Боль в верхних конечностях"
+    },
+    {
+      "id": "symptom_hoarseness",
+      "type": "symptom",
+      "label": "Охриплость голоса"
+    },
+    {
+      "id": "symptom_soft_tissue_edema",
+      "type": "symptom",
+      "label": "Отек мягких тканей"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_paresthesia",
+      "type": "symptom",
+      "label": "Парестезия"
+    },
+    {
+      "id": "symptom_dermographism_change",
+      "type": "symptom",
+      "label": "Изменение дермографизма"
+    },
+    {
+      "id": "symptom_intoxication",
+      "type": "symptom",
+      "label": "Интоксикация"
+    },
+    {
+      "id": "symptom_subfebrile_temp",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_general_condition_worsening",
+      "type": "symptom",
+      "label": "Ухудшение общего состояния"
+    },
+    {
+      "id": "symptom_appetite_loss",
+      "type": "symptom",
+      "label": "Потеря аппетита"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Падение массы тела"
+    },
+    {
+      "id": "symptom_poor_sleep",
+      "type": "symptom",
+      "label": "Плохой сон"
+    },
+    {
+      "id": "symptom_general_edema",
+      "type": "symptom",
+      "label": "Отек"
+    },
+    {
+      "id": "symptom_venous_pressure_increase",
+      "type": "symptom",
+      "label": "Увеличение венозного давления в верхней половине тела"
+    },
+    {
+      "id": "symptom_chest_wall_deformation",
+      "type": "symptom",
+      "label": "Деформация передней грудной стенки"
+    },
+    {
+      "id": "diagnosis_d15_2",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование средостения (заднее)",
+      "icd_code": "D15.2"
+    },
+    {
+      "id": "diagnosis_d15_7",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование средостения (другие)",
+      "icd_code": "D15.7"
+    },
+    {
+      "id": "diagnosis_d15_9",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование средостения (неуточненное)",
+      "icd_code": "D15.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pain",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Клиническая картина складывается из симптомов компрессии новообразовании ... (болей, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svvp",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при больших новообразованиях средостения возникает так называемый ССВПВ, который чаще всего развивается при новообразованиях переднего средостения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "больные жалуются ... нередко на кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомов компрессии ... одышки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомов компрессии ... дисфагии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общих проявлений (слабости, повышение температуры, потливости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общих проявлений (слабости, повышение температуры, потливости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общих проявлений (слабости, повышение температуры, потливости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Больные жалуются на головную боль ... при ССВПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upper_limb_pain",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Больные жалуются на боли в верхних конечностях ... при ССВПВ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hoarseness",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Больные жалуются ... охриплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_soft_tissue_edema",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на лице, затылочной области, шее, в плечевой области и на верхних конечностях одновременно с цианозом появляется отек мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при ССВПВ ... появляется отек мягких тканей. Цианоз более выражен ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейрогенных опухолях ... парестезия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dermographism_change",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При нейрогенных опухолях ... изменение дермографизма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "diagnosis_d15_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При системных поражениях ... появляются симптомы интоксикации: слабость, потливость, одышка, лихорадка, похудание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "symptom_cough",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомов компрессии ... (болей, синдрома верхней полой вены, кашля, одышки, дисфагии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain",
+      "target": "symptom_svvp",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомов компрессии ... (болей, синдрома верхней полой вены, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомов компрессии ... (кашля, одышки, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "symptom_dysphagia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомов компрессии ... (оdyшки, дисфагии)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "общих проявлений (слабости, повышение температуры, потливости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_sweating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "общих проявлений (слабости, повышение температуры, потливости)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_venous_pressure_increase",
+      "target": "symptom_cyanosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение венозного давления в верхней половине тела ... одновременно с цианозом появляется отек мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "symptom_soft_tissue_edema",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при ССВПВ ... появляется отек мягких тканей. Цианоз более выражен ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_soft_tissue_edema",
+      "target": "symptom_chest_wall_deformation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "в ряде случаев отмечается деформация передней грудной стенки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upper_limb_pain",
+      "target": "symptom_headache",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Больные жалуются на головную боль, боли в верхних конечностях",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upper_limb_pain",
+      "target": "symptom_hoarseness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Больные жалуются ... нередко на кашель и охриплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_paresthesia",
+      "target": "symptom_dermographism_change",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "При нейрогенных опухолях ... парестезия, изменение дермографизма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "symptom_weakness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы интоксикации: слабость, потливость, одышка, лихорадка, похудание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "symptom_sweating",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы интоксикации: ... потливость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы интоксикации: ... одышка ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "symptom_fever",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы интоксикации: ... лихорадка ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intoxication",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симптомы интоксикации: ... похудание",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d15_2",
+      "target": "diagnosis_d15_7",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Доброкачественное новообразование средостения (заднее), (другие), (неуточненное)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d15_2",
+      "target": "diagnosis_d15_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Доброкачественное новообразование средостения (заднее), (неуточненное)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d15_7",
+      "target": "diagnosis_d15_9",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Доброкачественное новообразование средостения (другие), (неуточненное)",
+      "properties": {}
+    }
+  ]
+}

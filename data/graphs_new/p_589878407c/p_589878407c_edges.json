@@ -1,0 +1,458 @@
+[
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Диарея обусловлена нарушением всасывания ... стул обильный (полифекалия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Потеря массы тела ... от 5 до 30 кг, ... кахексия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neuropathy",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteoporosis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fracture_risk",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthritis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атипичная ... артрит ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tooth_enamel_defect",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атипичная ... дефекты зубной эмали ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infertility",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атипичная ... бесплодие ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurological_symptoms",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атипичная ... неврологические симптомы ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_a_deficiency",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз A ... развивается в сухостью и шелушением, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_d_deficiency",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз D ... нарушение кальциевого обмена ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_e_deficiency",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз E ... сухостью и шелушением, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_k_deficiency",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз K ... сухостью и шелушением, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_b12_deficiency",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Дефицит витамина B12 ... обусловлен нарушением синтеза и всасывания витамина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль в животе ... связаны с воспалением ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_bloating",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Вздутие живота ... связаны с воспалением ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspepsia",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Диспепсические симптомы: Гастродуоденит ... нарушение аппетита, тошнота / рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота / рвота ... являются причинами диспепсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тошнота / рвота ... являются причинами диспепсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gastric_duodenitis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гастродуоденит с развитием атрофических процессов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypochlorhydria",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипохлоргидрия ... являются причинами диспепсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гепатомегалия, ... может быть ассоциирована с повышением трансаминаз печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_transaminases",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение трансаминаз печени ... с первичным билиарным циррозом, аутоиммунным гепатитом, первичным склерозирующим холангитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_primary_biliary_cirrhosis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение трансаминаз печени ... с первичным билиарным циррозом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_autoimmune_hepatitis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение трансаминаз печени ... с аутоиммунным гепатитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_primary_sclerosing_cholangitis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение трансаминаз печени ... с первичным склерозирующим холангитом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresthesia",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... боли в мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomalacia",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... остеомаляцию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_short_stature",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения нутритивного статуса (снижение массы тела, низкорослость)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dermatitis_herpetiformis",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Герпетиформный дерматит ... характерен для целиакии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... нарушения сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_depression",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... депрессия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyneuropathy",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неврологические ... полинейропатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_delayed_puberty",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушения задержка полового развития",
+    "properties": {}
+  },
+  {
+    "source": "symptom_miscarriage",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спонтанные аборты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stillbirth",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мертворождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_steatorrhea",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Стеаторея – характерный признак мальабсорбции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_stool",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Частый стул (2‑10 раз в сутки) – часть синдрома мальабсорбции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_stool",
+    "target": "diagnosis_celiac_disease",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жидкий стул – часть синдрома мальабсорбции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_neuropathy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_osteoporosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neuropathy",
+    "target": "symptom_osteoporosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Внекишечные симптомы (анемия, нейропатия, остеопороз, повышенный риск переломов)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_a_deficiency",
+    "target": "symptom_vitamin_d_deficiency",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз A, D, Е и К ... проявляются совместно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_a_deficiency",
+    "target": "symptom_vitamin_e_deficiency",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз A, D, Е и К ... проявляются совместно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vitamin_d_deficiency",
+    "target": "symptom_vitamin_k_deficiency",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Гиповитаминоз A, D, Е и К ... проявляются совместно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_sleep_disturbance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Неврологические ... головная боль, нарушения сна, депрессия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_depression",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Неврологические ... головная боль, нарушения сна, депрессия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "symptom_depression",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Неврологические ... нарушения сна, депрессия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_paresthesia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Неврологические ... судороги, парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_pain",
+    "target": "symptom_osteomalacia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Неврологические ... боли в мышцах, остеомаляцию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_arthritis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Внекишечные ... артралгии, артрит",
+    "properties": {}
+  }
+]

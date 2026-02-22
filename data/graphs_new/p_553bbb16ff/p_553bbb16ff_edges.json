@@ -1,0 +1,282 @@
+[
+  {
+    "source": "symptom_long_pain_cold",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Длительная боль от холодного ... от механических ... раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mechanical_irritant_pain",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Длительная боль от холодного ... от механических ... раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_long_pain_hot",
+    "target": "diagnosis_necrosis_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "длительная боль ... от горячего, смены температур, неприятный запах из зуба, изменение цвета коронки зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unpleasant_odor",
+    "target": "diagnosis_necrosis_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неприятный запах из зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_crown_color_change",
+    "target": "diagnosis_necrosis_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение цвета коронки зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gum_bleeding_mechanical",
+    "target": "diagnosis_degeneration_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоточивость при механическом раздражении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulp_overgrowth",
+    "target": "diagnosis_degeneration_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разросшейся пульпы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_chewing_hard_food",
+    "target": "diagnosis_degeneration_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль при жевании жесткой пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unusual_tooth_appearance",
+    "target": "diagnosis_degeneration_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "необычный вид зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontaneous_pain",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "самопроизвольная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiating_pain",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "иррадиирующая боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_pain",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "приступообразная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_pain",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ночная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosa_pale_rose",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слизистая в проекции причинного зуба бледно-розового цвета",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosa_gray",
+    "target": "diagnosis_necrosis_pulp",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Слизистая ... серый",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_on_probe",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненное зондирование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_on_percussion",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненная перкуссия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_on_palpation",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезнительная пальпация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_caries_pocket",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кариозная полость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_long_pain_cold",
+    "target": "symptom_mechanical_irritant_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Длительная боль от холодного ... от механических ... раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_long_pain_hot",
+    "target": "symptom_unpleasant_odor",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "длительная боль ... от горячего ... неприятный запах из зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_long_pain_hot",
+    "target": "symptom_crown_color_change",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "длительная боль ... от горячего ... изменение цвета коронки зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unpleasant_odor",
+    "target": "symptom_crown_color_change",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "неприятный запах из зуба, изменение цвета коронки зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gum_bleeding_mechanical",
+    "target": "symptom_pulp_overgrowth",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кровоточивость при механическом раздражении ... разросшейся пульпы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gum_bleeding_mechanical",
+    "target": "symptom_pain_chewing_hard_food",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кровоточивость при механическом раздражении ... боль при жевании жесткой пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gum_bleeding_mechanical",
+    "target": "symptom_unusual_tooth_appearance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кровоточивость при механическом раздражении ... необычный вид зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulp_overgrowth",
+    "target": "symptom_pain_chewing_hard_food",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "разросшейся пульпы ... боль при жевании жесткой пищи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulp_overgrowth",
+    "target": "symptom_unusual_tooth_appearance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "разросшейся пульпы ... необычный вид зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_chewing_hard_food",
+    "target": "symptom_unusual_tooth_appearance",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боль при жевании жесткой пищи ... необычный вид зуба",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontaneous_pain",
+    "target": "symptom_radiating_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "самопроизвольная ... иррадиирующая боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontaneous_pain",
+    "target": "symptom_paroxysmal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "самопроизвольная ... приступообразная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontaneous_pain",
+    "target": "symptom_night_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "самопроизвольная ... ночная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiating_pain",
+    "target": "symptom_paroxysmal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "иррадиирующая боль ... приступообразная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_radiating_pain",
+    "target": "symptom_night_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "иррадиирующая боль ... ночная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_pain",
+    "target": "symptom_night_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "приступообразная боль ... ночная боль",
+    "properties": {}
+  }
+]

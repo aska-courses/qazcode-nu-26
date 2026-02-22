@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_krovoetechenie",
+    "target": "diagnosis_s06_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Внутричерепные гематомы (эпидуральные, внутримозговые, субдуральные).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoetechenie",
+    "target": "diagnosis_s06_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Внутричерепные гематомы (эпидуральные, внутримозговые, субдуральные).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoetechenie",
+    "target": "diagnosis_s06_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кровотечение и/или ликворея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_likvoerea",
+    "target": "diagnosis_s06_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кровотечение и/или ликворея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vegativnoe_sostoyanie",
+    "target": "diagnosis_s06_7",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "вегетативное состояние при диффузном аксональном повреждении головного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkinezy",
+    "target": "symptom_povyshenie_myshechnogo_tonusa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гиперкинезы, повышение мышечного тонуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkinezy",
+    "target": "symptom_ponizhenie_myshechnogo_tonusa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нередко сменяющееся понижением мышечного тонуса (гипотонией)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkinezy",
+    "target": "symptom_gipotoniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нередко сменяющееся понижением мышечного тонуса (гипотонией)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkinezy",
+    "target": "symptom_dvigatelnoe_vozbuzhdenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "иногда двигательным возбуждением",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperkinezy",
+    "target": "symptom_priznaki_porazheniya_promezhutochnogo_i_srednego_mozga",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "часто признаки поражения промежуточного и среднего мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatormozhennost",
+    "target": "symptom_sonlivost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Заторможенность, сонливость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_amneziya",
+    "target": "symptom_galjukatsii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Амнезия, помутнение сознания: галлюцинации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_amneziya",
+    "target": "symptom_bred",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Амнезия, помутнение сознания: ... бред",
+    "properties": {}
+  },
+  {
+    "source": "symptom_amneziya",
+    "target": "symptom_neadekvatnoe_povedenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Амнезия, помутнение сознания: ... неадекватное поведение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_soznaniya",
+    "target": "symptom_amneziya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Нарушения сознания — потеря сознания, ... амнезия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_soznaniya",
+    "target": "symptom_koma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Нарушения сознания — ... кома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_soznaniya",
+    "target": "symptom_sopor",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Нарушения сознания — ... сопор",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_soznaniya",
+    "target": "symptom_somnolenie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Нарушения сознания — ... сомноленция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_soznaniya",
+    "target": "symptom_sputannost_soznaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Нарушения сознания — ... спутанность сознания",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s06_4",
+    "target": "diagnosis_s06_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Внутричерепные гематомы (эпидуральные, внутримозговые, субдуральные).",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s06_5",
+    "target": "diagnosis_s06_6",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Кровотечение и/или ликворея",
+    "properties": {}
+  }
+]

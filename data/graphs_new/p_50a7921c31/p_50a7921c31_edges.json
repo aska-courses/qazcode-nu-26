@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_q33_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "У детей по 1 типу - беспокоит кашель с отхождением гнойной мокроты.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sputum",
+    "target": "diagnosis_q33_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "У детей по 1 типу - беспокоит кашель с отхождением гнойной мокроты.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_lung_inflammation",
+    "target": "diagnosis_q33_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наблюдаются частые, иногда непрерывные рецидивирующие вспышки воспалительного процесса в легких.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_distress_syndrome",
+    "target": "diagnosis_q33_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у новорожденных с 11 и 111 типом врожденного аденоматоза чаще проявляется респираторным дистресс‑синдромом.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_q33_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "могут быть признаки ДН, водянки плода, объемного образования в грудной клетке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_hydrops",
+    "target": "diagnosis_q33_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "могут быть признаки ДН, водянки плода, объемного образования в грудной клетке.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_q33_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "может вызвать повышение температуры тела, кашель, выделение гноевидной мокроты.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sputum",
+    "target": "diagnosis_q33_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "может вызвать повышение температуры тела, кашель, выделение гноевидной мокроты.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_q33_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "может вызвать повышение температуры тела, кашель, выделение гноевидной мокроты.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumothorax",
+    "target": "diagnosis_q33_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "разрыв с образованием пневмоторакса.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intrathoracic_tension_syndrome",
+    "target": "diagnosis_q33_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "может развиться симптом «синдром внутригрудного напряжения» (смещения средостения).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_q33_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "резко выраженная одышка (до 80—100 дыханий в минуту).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_q33_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "резко выраженная одышка ... цианоз.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_agitation",
+    "target": "diagnosis_q33_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "резко выраженная одышка ... двигательное беспокойство.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnea",
+    "target": "diagnosis_q33_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "тяжёлые приступы асфиксии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_consciousness",
+    "target": "diagnosis_q33_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "могут сопровождаться потерей сознания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_q33_8",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "и судорогами.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_purulent_sputum",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кашель с отхождением гнойной мокроты.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "может вызвать повышение температуры тела, кашель.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_cyanosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "резко выраженная одышка ... цианоз.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_motor_agitation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "резко выраженная одышка ... двигательное беспокойство.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_apnea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тяжёлые приступы асфиксии.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_loss_of_consciousness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "могут сопровождаться потерей сознания.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "и судорогами.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumothorax",
+    "target": "symptom_intrathoracic_tension_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "разрыв с образованием пневмоторакса... может развиться симптом «синдром внутригрудного напряжения».",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q33_6",
+    "target": "diagnosis_q33_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Врожденные пороки развития легких: Q33.6 гипоплазия и дисплазия легкого, Q33.2 секвестрация легкого.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q33_6",
+    "target": "diagnosis_q33_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Врожденные пороки развития легких: Q33.6, Q33.0, Q33.2, Q33.8.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q33_6",
+    "target": "diagnosis_q33_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Врожденные пороки развития легких: Q33.6, Q33.0, Q33.2, Q33.8.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q33_2",
+    "target": "diagnosis_q33_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Врожденные пороки развития легких: Q33.6, Q33.0, Q33.2, Q33.8.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q33_2",
+    "target": "diagnosis_q33_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Врожденные пороки развития легких: Q33.6, Q33.0, Q33.2, Q33.8.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q33_0",
+    "target": "diagnosis_q33_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Врожденные пороки развития легких: Q33.6, Q33.0, Q33.2, Q33.8.",
+    "properties": {}
+  }
+]

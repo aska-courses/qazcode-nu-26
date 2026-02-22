@@ -1,0 +1,261 @@
+{
+  "protocol_id": "p_e60cbce2cd",
+  "nodes": [
+    {
+      "id": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "diagnosis",
+      "label": "Диабетическая ретинопатия",
+      "icd_code": "36.0"
+    },
+    {
+      "id": "diagnosis_insulinozavisimiy_sakharnyi_diabet_glaza",
+      "type": "diagnosis",
+      "label": "Инсулинозависимый сахарный диабет с поражением глаз",
+      "icd_code": "E10.3"
+    },
+    {
+      "id": "diagnosis_insulinniezavisimy_sakharnyi_diabet_glaza",
+      "type": "diagnosis",
+      "label": "Инсулиннезависимый сахарный диабет с поражением глаз",
+      "icd_code": "E11.3"
+    },
+    {
+      "id": "diagnosis_drugie_ukazannye_formy_sakharnogo_diabeta_glaza",
+      "type": "diagnosis",
+      "label": "Другие уточненные формы сахарного диабета с поражением глаз",
+      "icd_code": "E13.3"
+    },
+    {
+      "id": "symptom_razmytoe_zrenie",
+      "type": "symptom",
+      "label": "Размытое зрение"
+    },
+    {
+      "id": "symptom_pelena",
+      "type": "symptom",
+      "label": "Пелена перед глазами"
+    },
+    {
+      "id": "symptom_plavayushchie_temnye_pten_a",
+      "type": "symptom",
+      "label": "Плавающие темные пятна"
+    },
+    {
+      "id": "symptom_setka",
+      "type": "symptom",
+      "label": "«Сетка» в зрительном поле"
+    },
+    {
+      "id": "symptom_mushki",
+      "type": "symptom",
+      "label": "«Мушки» в зрительном поле"
+    },
+    {
+      "id": "symptom_molnii",
+      "type": "symptom",
+      "label": "«Молнии» перед глазами"
+    },
+    {
+      "id": "symptom_ptno_pered_glazom",
+      "type": "symptom",
+      "label": "Пятно перед глазом"
+    },
+    {
+      "id": "symptom_iskazhenie_predmetov",
+      "type": "symptom",
+      "label": "Искажение предметов (метаморфопсии)"
+    },
+    {
+      "id": "symptom_snizhenie_ostrot_i_zreniya",
+      "type": "symptom",
+      "label": "Снижение остроты зрения"
+    },
+    {
+      "id": "symptom_vnezapnoe_snizhenie_zreniya",
+      "type": "symptom",
+      "label": "Внезапное и значительное снижение зрения"
+    },
+    {
+      "id": "symptom_zavesa_v_pole_zreniya",
+      "type": "symptom",
+      "label": "Появление «завесы» в поле зрения"
+    },
+    {
+      "id": "symptom_otklonenie_glaznogo_yabloka",
+      "type": "symptom",
+      "label": "Отклонение глазного яблока"
+    },
+    {
+      "id": "symptom_dvoenie",
+      "type": "symptom",
+      "label": "Двоение"
+    },
+    {
+      "id": "symptom_opushchenie_verhnego_veka",
+      "type": "symptom",
+      "label": "Опущение верхнего века"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_razmytoe_zrenie",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «размытое» зрение, появление пелены, плавающих темных пятен, «сетки», «мушки» и «молнии» перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pelena",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «размытое» зрение, появление пелены, плавающих темных пятен, «сетки», «мушки» и «молнии» перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_plavayushchie_temnye_pten_a",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «размытое» зрение, появление пелены, плавающих темных пятен, «сетки», «мушки» и «молнии» перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_setka",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «размытое» зрение, появление пелены, плавающих темных пятен, «сетки», «мушки» и «молнии» перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mushki",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «размытое» зрение, появление пелены, плавающих темных пятен, «сетки», «мушки» и «молнии» перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_molnii",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «размытое» зрение, появление пелены, плавающих темных пятен, «сетки», «мушки» и «молнии» перед глазами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ptno_pered_glazom",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «пятно» перед глазом, искажение предметов (метаморфопсии), снижение остроты зрения (при ДМО)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_iskazhenie_predmetov",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «пятно» перед глазом, искажение предметов (метаморфопсии), снижение остроты зрения (при ДМО)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_ostrot_i_zreniya",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: • «пятно» перед глазом, искажение предметов (метаморфопсии), снижение остроты зрения (при ДМО)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vnezapnoe_snizhenie_zreniya",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "внезапное и значительное снижение зрения (при гемофтальме)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zavesa_v_pole_zreniya",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появление «завесы» в поле зрения (при отслойке сетчатки)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otklonenie_glaznogo_yabloka",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отклонение глазного яблока, двоение и/или опущение верхнего века (при нейропатии III и VI пар черепно-мозговых нервов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dvoenie",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отклонение глазного яблока, двоение и/или опущение верхнего века (при нейропатии III и VI пар черепно-мозговых нервов)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opushchenie_verhnego_veka",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отклонение глазного яблока, двоение и/или опущение верхнего века (при нейропатии III и VI пар черепно-мозговых нервов)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_insulinozavisimiy_sakharnyi_diabet_glaza",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: E10.3 Инсулинозависимый сахарный диабет с поражением глаз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_insulinniezavisimy_sakharnyi_diabet_glaza",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: E11.3 Инсулиннезависимый сахарный диабет с поражением глаз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_drugie_ukazannye_formy_sakharnogo_diabeta_glaza",
+      "target": "diagnosis_diabeticheskaya_retinopatiya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: E13.3 Другие уточненные формы сахарного диабета с поражением глаз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_insulinozavisimiy_sakharnyi_diabet_glaza",
+      "target": "diagnosis_insulinniezavisimy_sakharnyi_diabet_glaza",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: E10.3 Инсулинозависимый сахарный диабет с поражением глаз ... E11.3 Инсулиннезависимый сахарный диабет с поражением глаз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_insulinozavisimiy_sakharnyi_diabet_glaza",
+      "target": "diagnosis_drugie_ukazannye_formy_sakharnogo_diabeta_glaza",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: E10.3 Инсулинозависимый сахарный диабет с поражением глаз ... E13.3 Другие уточненные формы сахарного диабета с поражением глаз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_insulinniezavisimy_sakharnyi_diabet_glaza",
+      "target": "diagnosis_drugie_ukazannye_formy_sakharnogo_diabeta_glaza",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: E11.3 Инсулиннезависимый сахарный диабет с поражением глаз ... E13.3 Другие уточненные формы сахарного диабета с поражением глаз",
+      "properties": {}
+    }
+  ]
+}

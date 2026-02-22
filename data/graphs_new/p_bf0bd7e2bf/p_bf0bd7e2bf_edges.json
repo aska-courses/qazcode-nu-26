@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "symptom_decreased_appetite",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в поствакцинальном периоде ... лихорадка, ... снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_sleep_disturbance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в поствакцинальном периоде ... лихорадка, ... расстройство сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_appetite",
+    "target": "symptom_sleep_disturbance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в поствакцинальном периоде ... снижение аппетита и расстройство сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_hyperemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "местные реакции в виде отека, гиперемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_pain_at_injection_site",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "местные реакции в виде отека, ... болезненности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_hardening_at_injection_site",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "местные реакции в виде отека, ... уплотнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_pain_at_injection_site",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "местные реакции в виде гиперемии, болезненности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "symptom_hardening_at_injection_site",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "местные реакции в виде гиперемии, уплотнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_at_injection_site",
+    "target": "symptom_hardening_at_injection_site",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "местные реакции в виде болезненности, уплотнения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adenopathy",
+    "target": "symptom_arthralgia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... аденопатий, артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adenopathy",
+    "target": "symptom_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... аденопатий, ... сыпи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adenopathy",
+    "target": "symptom_urticaria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... аденопатий, ... крапивница",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adenopathy",
+    "target": "symptom_angioedema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... аденопатий, ... отек Квинке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adenopathy",
+    "target": "symptom_anaphylactic_reaction",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... аденопатий, ... анафилактическая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... артралгии, сыпи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_urticaria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... артралгии, крапивница",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_angioedema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... артралгии, отек Квинке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_anaphylactic_reaction",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... артралгии, анафилактическая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "symptom_urticaria",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... сыпи и аллергических реакций (крапивница)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "symptom_angioedema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... сыпи и аллергических реакций (отек Квинке)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "symptom_anaphylactic_reaction",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... сыпи и аллергических реакций (анафилактическая реакция)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_angioedema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... крапивница, отек Квинке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticaria",
+    "target": "symptom_anaphylactic_reaction",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... крапивница, анафилактическая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angioedema",
+    "target": "symptom_anaphylactic_reaction",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "в редких случаях ... отек Квинке, анафилактическая реакция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthus_phenomenon",
+    "target": "symptom_hardening_at_injection_site",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "Редко: тяжелые местные реакции типа феномена Артюса",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pneumococcal_meningitis",
+    "target": "diagnosis_pneumonia_streptococcus_pneumoniae",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "инвазивные (иПИ) (менингит, пневмония с бактериемий, ...)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pneumococcal_meningitis",
+    "target": "diagnosis_septicemia_streptococcus_pneumoniae",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "инвазивные (иПИ) (менингит, ... септицемия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pneumococcal_meningitis",
+    "target": "diagnosis_pneumococcal_arthritis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "инвазивные (иПИ) (менингит, ... септический артрит, ...)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pneumonia_streptococcus_pneumoniae",
+    "target": "diagnosis_septicemia_streptococcus_pneumoniae",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "инвазивные (иПИ) (пневмония с бактериемий, септицемия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pneumonia_streptococcus_pneumoniae",
+    "target": "diagnosis_pneumococcal_arthritis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "инвазивные (иПИ) (пневмония с бактериемий, ... септический артрит, ...)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_septicemia_streptococcus_pneumoniae",
+    "target": "diagnosis_pneumococcal_arthritis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "инвазивные (иПИ) (септицемия, септический артрит, ...)",
+    "properties": {}
+  }
+]

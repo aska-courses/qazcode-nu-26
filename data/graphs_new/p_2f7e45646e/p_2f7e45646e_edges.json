@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_paroxysmal_state",
+    "target": "symptom_loss_of_consciousness",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "характер приступа: с утратой сознания, без утраты сознания, судорожные, бессудорожные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_state",
+    "target": "symptom_seizure",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "характер приступа: с утратой сознания, без утраты сознания, судорожные, бессудорожные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_state",
+    "target": "symptom_nonconvulsive_seizure",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "характер приступа: с утратой сознания, без утраты сознания, судорожные, бессудорожные",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paroxysmal_state",
+    "target": "symptom_aura",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "характер приступа: с утратой сознания, без утраты сознания, судорожные, бессудорожные), частота, продолжительность, наличие ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_alcohol_trigger",
+    "target": "g40_epilepsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "алкоголь может провоцировать эпилептические приступы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "g40_7_petit_mal_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гипервентиляция ... провоцируют абсансы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_deprivation",
+    "target": "g40_7_petit_mal_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "депривация сна ... провоцируют абсансы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "g40_3_generalized_idiopathic",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничить ... при фотосенситивных формах эпилепсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_seizure",
+    "target": "g40_5_special_syndromes",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Фебрильные судороги; – Приступы, связанные исключительно с острым воздействием ... депривация сна, алкоголь, лекарства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "symptom_absence",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гипервентиляция ... провоцируют абсансы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_deprivation",
+    "target": "symptom_absence",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "депривация сна ... провоцируют абсансы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "symptom_seizure",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ограничить ... при фотосенситивных формах эпилепсии",
+    "properties": {}
+  },
+  {
+    "source": "g40_0_localized_idiopathic",
+    "target": "g40_3_generalized_idiopathic",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вместе генерализованные и фокальные приступы",
+    "properties": {}
+  },
+  {
+    "source": "g40_6_grand_mal_unspecified",
+    "target": "g40_7_petit_mal_unspecified",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Приступы grand mal – неуточненные (с малыми припадками [petit mal] или без них)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_nausea_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Головная боль, Тошнота и рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_alcohol_trigger",
+    "target": "symptom_seizure",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "алкоголь может провоцировать эпилептические приступы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aura",
+    "target": "g40_0_localized_idiopathic",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Фокальные ... аура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aura",
+    "target": "g40_1_localized_symptomatic",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Фокальные ... аура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aura",
+    "target": "g40_2_localized_complex",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Фокальные ... аура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_consciousness",
+    "target": "g40_6_grand_mal_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Приступы grand mal ... с малыми припадками ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonic_seizure",
+    "target": "g40_6_grand_mal_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тонические судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clonic_seizure",
+    "target": "g40_6_grand_mal_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клонические судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myoclonia",
+    "target": "g40_3_generalized_idiopathic",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Миоклонические судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence",
+    "target": "g40_7_petit_mal_unspecified",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Абсансы (petit mal)",
+    "properties": {}
+  }
+]

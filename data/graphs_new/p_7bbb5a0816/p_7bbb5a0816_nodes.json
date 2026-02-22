@@ -1,0 +1,638 @@
+[
+  {
+    "id": "a84_kleshchevoy_virusnyy_encephalit",
+    "type": "diagnosis",
+    "label": "Клещевой вирусный энцефалит",
+    "icd_code": "A84"
+  },
+  {
+    "id": "a85_drugie_virusnye_encephality",
+    "type": "diagnosis",
+    "label": "Другие вирусные энцефалиты, не классифицированные в других рубриках",
+    "icd_code": "A85"
+  },
+  {
+    "id": "a87_virusnyy_meningit",
+    "type": "diagnosis",
+    "label": "Вирусный менингит",
+    "icd_code": "A87"
+  },
+  {
+    "id": "a89_virusnaya_infekciya_cns",
+    "type": "diagnosis",
+    "label": "Вирусная инфекция центральной нервной системы",
+    "icd_code": "A89"
+  },
+  {
+    "id": "b67_9_ehino_kokkoz",
+    "type": "diagnosis",
+    "label": "Эхинококкоз других органов и неуточненный",
+    "icd_code": "B67.9"
+  },
+  {
+    "id": "b69_0_cistikerkoz_cns",
+    "type": "diagnosis",
+    "label": "Цистицеркоз центральной нервной системы",
+    "icd_code": "B69.0"
+  },
+  {
+    "id": "b94_posledstviya_infect",
+    "type": "diagnosis",
+    "label": "Последствия других и неуточненных инфекционных и паразитарных болезней",
+    "icd_code": "B94"
+  },
+  {
+    "id": "c41_2_zlokach_novoobrazovanie_pozv_stolba",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование позвоночного столба (G I-II)",
+    "icd_code": "C41.2"
+  },
+  {
+    "id": "c70_0_zlokach_novoobrazovanie_oboloc_gb",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование оболочек головного мозга (G I-II)",
+    "icd_code": "C70.0"
+  },
+  {
+    "id": "c70_1_zlokach_novoobrazovanie_oboloc_sb",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование оболочек спинного мозга (G I-II)",
+    "icd_code": "C70.1"
+  },
+  {
+    "id": "c71_zlokach_novoobrazovanie_gb",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование головного мозга (G I-II)",
+    "icd_code": "C71"
+  },
+  {
+    "id": "c72_0_zlokach_novoobrazovanie_sb",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование спинного мозга (G I-II)",
+    "icd_code": "C72.0"
+  },
+  {
+    "id": "c72_1_zlokach_novoobrazovanie_kon_hvosta",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование конского хвоста (G I-II)",
+    "icd_code": "C72.1"
+  },
+  {
+    "id": "c72_2_zlokach_novoobrazovanie_obon_nerv",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование обонятельного нерва (G I-II)",
+    "icd_code": "C72.2"
+  },
+  {
+    "id": "c72_3_zlokach_novoobrazovanie_zritel_nerv",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование зрительного нерва (G I-II)",
+    "icd_code": "C72.3"
+  },
+  {
+    "id": "c72_4_zlokach_novoobrazovanie_sluh_nerv",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование слухового нерва (G I-II)",
+    "icd_code": "C72.4"
+  },
+  {
+    "id": "c72_5_zlokach_novoobrazovanie_other_nerve",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование других и неуточненных черепных нервов (G I-II)",
+    "icd_code": "C72.5"
+  },
+  {
+    "id": "c72_8_zlokach_novoobrazovanie_cns_multi",
+    "type": "diagnosis",
+    "label": "Злокачественное новообразование и других отделов центральной нервной системы, выходящее за пределы одной и более вышеуказанных локализаций (G I-II)",
+    "icd_code": "C72.8"
+  },
+  {
+    "id": "d16_6_dobrokach_novoobrazovanie_pozv_stolba",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование позвоночного столба",
+    "icd_code": "D16.6"
+  },
+  {
+    "id": "d32_0_dobrokach_novoobrazovanie_oboloc_gb",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование оболочек головного мозга",
+    "icd_code": "D32.0"
+  },
+  {
+    "id": "d32_1_dobrokach_novoobrazovanie_oboloc_sb",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование оболочек спинного мозга",
+    "icd_code": "D32.1"
+  },
+  {
+    "id": "d33_0_dobrokach_novoobrazovanie_gb_nad",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование головного мозга над мозговым наметом",
+    "icd_code": "D33.0"
+  },
+  {
+    "id": "d33_1_dobrokach_novoobrazovanie_gb_pod",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование головного мозга под мозговым наметом",
+    "icd_code": "D33.1"
+  },
+  {
+    "id": "d33_3_dobrokach_novoobrazovanie_cherpn_nerv",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование черепных нервов",
+    "icd_code": "D33.3"
+  },
+  {
+    "id": "d33_4_dobrokach_novoobrazovanie_spin_nerv",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование спинного мозга",
+    "icd_code": "D33.4"
+  },
+  {
+    "id": "d36_1_dobrokach_novoobrazovanie_perifer_nerv",
+    "type": "diagnosis",
+    "label": "Доброкачественное новообразование периферических нервов",
+    "icd_code": "D36.1"
+  },
+  {
+    "id": "f48_nevroticheskie_rasstroystva",
+    "type": "diagnosis",
+    "label": "Невротические, связанные со стрессом и соматоформные расстройства (неврастения, другие уточненные невротические расстройства)",
+    "icd_code": "F48"
+  },
+  {
+    "id": "f80_rasstroystva_razvitiya_rechi",
+    "type": "diagnosis",
+    "label": "Специфические расстройства развития речи и языка",
+    "icd_code": "F80"
+  },
+  {
+    "id": "f81_rasstroystva_razvitiya_uch",
+    "type": "diagnosis",
+    "label": "Специфические расстройства развития учебных навыков",
+    "icd_code": "F81"
+  },
+  {
+    "id": "f82_rasstroystva_motor_funk",
+    "type": "diagnosis",
+    "label": "Специфические расстройства моторной функции",
+    "icd_code": "F82"
+  },
+  {
+    "id": "f83_smeshenie_rasstroystva_psih_razv",
+    "type": "diagnosis",
+    "label": "Смешанные специфические расстройства психологического развития",
+    "icd_code": "F83"
+  },
+  {
+    "id": "f84_obshie_rasstroystva_psih_razv",
+    "type": "diagnosis",
+    "label": "Общие расстройства психологического развития (детский аутизм, синдром Ретта, Аспергера)",
+    "icd_code": "F84"
+  },
+  {
+    "id": "g00_bakterialnyy_meningit",
+    "type": "diagnosis",
+    "label": "Бактериальный менингит, не классифицированных в других рубриках",
+    "icd_code": "G00"
+  },
+  {
+    "id": "g02_0_meningit_virusnyy",
+    "type": "diagnosis",
+    "label": "Менингит при вирусных болезнях, классифицированных в других рубриках",
+    "icd_code": "G02.0"
+  },
+  {
+    "id": "g03_meningit_neukazannye_prichiny",
+    "type": "diagnosis",
+    "label": "Менингит, обусловленный другими и неуточненными причинами",
+    "icd_code": "G03"
+  },
+  {
+    "id": "g04_encephalit_mielit_encephalomielit",
+    "type": "diagnosis",
+    "label": "Энцефалит, миелит и энцефаломиелит",
+    "icd_code": "G04"
+  },
+  {
+    "id": "g06_0_vnutricherep_abcess",
+    "type": "diagnosis",
+    "label": "Внутричерепной абсцесс и гранулема",
+    "icd_code": "G06.0"
+  },
+  {
+    "id": "g06_1_vnutripozv_abcess",
+    "type": "diagnosis",
+    "label": "Внутрипозвоночный абсцесс и гранулема",
+    "icd_code": "G06.1"
+  },
+  {
+    "id": "g06_2_ekstradural_abcess",
+    "type": "diagnosis",
+    "label": "Экстрадуральный и субдуральный абсцесс неуточненный",
+    "icd_code": "G06.2"
+  },
+  {
+    "id": "g09_posledstviya_vospalitelnyh_bolezney_cns",
+    "type": "diagnosis",
+    "label": "Последствия воспалительных болезней центральной нервной системы",
+    "icd_code": "G09"
+  },
+  {
+    "id": "g11_sistemnye_atrofii_ekstrapiramidnye",
+    "type": "diagnosis",
+    "label": "Системные атрофии, экстрапирамидные и другие двигательные нарушения",
+    "icd_code": "G11"
+  },
+  {
+    "id": "g12_nasledstvennaya_ataksiya",
+    "type": "diagnosis",
+    "label": "Наследственная атаксия",
+    "icd_code": "G12"
+  },
+  {
+    "id": "g13_sistemnye_atrofii_cns",
+    "type": "diagnosis",
+    "label": "Системные атрофии, поражающие преимущественно центральную нервную систему при болезнях, классифицируемых в других рубриках",
+    "icd_code": "G13"
+  },
+  {
+    "id": "g23_drugie_degenerativnye_bolezni_baz_gangl",
+    "type": "diagnosis",
+    "label": "Другие дегенеративные болезни базальных ганглиев",
+    "icd_code": "G23"
+  },
+  {
+    "id": "g24_distoniya",
+    "type": "diagnosis",
+    "label": "Дистония",
+    "icd_code": "G24"
+  },
+  {
+    "id": "g35_rasseyannyy_skleroz",
+    "type": "diagnosis",
+    "label": "Рассеянный склероз",
+    "icd_code": "G35"
+  },
+  {
+    "id": "g37_drugie_demi_eliniziruyushie_bolezni",
+    "type": "diagnosis",
+    "label": "Другие демиелинизирующие болезни нервной системы",
+    "icd_code": "G37"
+  },
+  {
+    "id": "g40_epilepsiya_symptomaticheskaya",
+    "type": "diagnosis",
+    "label": "Симптоматическая эпилепсия (при отсутствии приступов и пароксизмов в течение последних 6 месяцев)",
+    "icd_code": "G40"
+  },
+  {
+    "id": "g46_sosudistye_mozgovye_sindromy",
+    "type": "diagnosis",
+    "label": "Сосудистые мозговые синдромы при цереброваскулярных болезнях (I60-I67)",
+    "icd_code": "G46"
+  },
+  {
+    "id": "g50_porazhenie_trojichnogo_nerva",
+    "type": "diagnosis",
+    "label": "Поражения тройничного нерва",
+    "icd_code": "G50"
+  },
+  {
+    "id": "g51_porazhenie_litshevnogo_nerva",
+    "type": "diagnosis",
+    "label": "Поражения лицевого нерва",
+    "icd_code": "G51"
+  },
+  {
+    "id": "g52_porazhenie_drugih_cherpn_nervov",
+    "type": "diagnosis",
+    "label": "Поражения других черепных нервов",
+    "icd_code": "G52"
+  },
+  {
+    "id": "g54_porazhenie_koreshkov_i_spleteniy",
+    "type": "diagnosis",
+    "label": "Поражения нервных корешков и сплетений",
+    "icd_code": "G54"
+  },
+  {
+    "id": "g56_mono_neuropatii_verh_kon",
+    "type": "diagnosis",
+    "label": "Мононевропатии верхней конечности",
+    "icd_code": "G56"
+  },
+  {
+    "id": "g57_mono_neuropatii_niz_kon",
+    "type": "diagnosis",
+    "label": "Мононевропатии нижней конечности",
+    "icd_code": "G57"
+  },
+  {
+    "id": "g60_nasledstvennaya_idiopatiicheskaya_nevropatiya",
+    "type": "diagnosis",
+    "label": "Наследственная и идиопатическая невропатия",
+    "icd_code": "G60"
+  },
+  {
+    "id": "g61_vospalitelnaya_polinevropatiya",
+    "type": "diagnosis",
+    "label": "Воспалительная полиневропатия",
+    "icd_code": "G61"
+  },
+  {
+    "id": "g62_drugie_polinevropatii",
+    "type": "diagnosis",
+    "label": "Другие полиневропатии",
+    "icd_code": "G62"
+  },
+  {
+    "id": "g63_polinevropatiya_pri_boleznykh",
+    "type": "diagnosis",
+    "label": "Полиневропатия при болезнях, классифицируемых в других рубриках",
+    "icd_code": "G63"
+  },
+  {
+    "id": "g70_myastenia_gravis_i_drugie",
+    "type": "diagnosis",
+    "label": "Myasthenia gravis и другие нарушения нервно-мышечного синапса",
+    "icd_code": "G70"
+  },
+  {
+    "id": "g71_pervichnye_porazheniya_mysht",
+    "type": "diagnosis",
+    "label": "Первичные поражения мышц",
+    "icd_code": "G71"
+  },
+  {
+    "id": "g72_drugie_miopatii",
+    "type": "diagnosis",
+    "label": "Другие миопатии",
+    "icd_code": "G72"
+  },
+  {
+    "id": "g80_detkiy_cerebralnyy_paralich",
+    "type": "diagnosis",
+    "label": "Детский церебральный паралич (в том числе после оперативного вмешательства)",
+    "icd_code": "G80"
+  },
+  {
+    "id": "g81_gemiplegiya",
+    "type": "diagnosis",
+    "label": "Гемиплегия",
+    "icd_code": "G81"
+  },
+  {
+    "id": "g82_paraplegiya_i_tetraplegiya",
+    "type": "diagnosis",
+    "label": "Параплегия и тетраплегия",
+    "icd_code": "G82"
+  },
+  {
+    "id": "g83_drugie_paraliticheskie_sindromy",
+    "type": "diagnosis",
+    "label": "Другие паралитические синдромы",
+    "icd_code": "G83"
+  },
+  {
+    "id": "g91_0_gidrocefalija_soglasovannaya",
+    "type": "diagnosis",
+    "label": "Сообщающаяся гидроцефалия",
+    "icd_code": "G91.0"
+  },
+  {
+    "id": "g91_2_gidrocefalija_normalnogo_davleniya",
+    "type": "diagnosis",
+    "label": "Гидроцефалия нормального давления",
+    "icd_code": "G91.2"
+  },
+  {
+    "id": "g91_3_posttravmaticheskaya_gidrocefalija",
+    "type": "diagnosis",
+    "label": "Посттравматическая гидроцефалия неуточненная",
+    "icd_code": "G91.3"
+  },
+  {
+    "id": "g93_0_cerebralnaya_kista",
+    "type": "diagnosis",
+    "label": "Церебральная киста",
+    "icd_code": "G93.0"
+  },
+  {
+    "id": "g93_1_anoksicheskoe_porazhenie_gb",
+    "type": "diagnosis",
+    "label": "Аноксическое поражение головного мозга, не классифицированное в других рубриках",
+    "icd_code": "G93.1"
+  },
+  {
+    "id": "g95_0_siringomieliya_i_siringobulbiya",
+    "type": "diagnosis",
+    "label": "Сирингомиелия и сирингобульбия",
+    "icd_code": "G95.0"
+  },
+  {
+    "id": "g95_1_sosudistye_mielopatii",
+    "type": "diagnosis",
+    "label": "Сосудистые миелопатии",
+    "icd_code": "G95.1"
+  },
+  {
+    "id": "g95_2_sdavlenie_spinnoho_mozga",
+    "type": "diagnosis",
+    "label": "Сдавление спинного мозга неуточненное",
+    "icd_code": "G95.2"
+  },
+  {
+    "id": "g95_8_drugie_ukazannye_bolezni_spinnoho_mozga",
+    "type": "diagnosis",
+    "label": "Другие уточненные болезни спинного мозга",
+    "icd_code": "G95.8"
+  },
+  {
+    "id": "g97_2_vnutricherep_gipertenziya_shunt",
+    "type": "diagnosis",
+    "label": "Внутричерепная гипертензия после шунтирования желудочков",
+    "icd_code": "G97.2"
+  },
+  {
+    "id": "g99_drugie_porazheniya_nerv_sist",
+    "type": "diagnosis",
+    "label": "Другие поражения нервной системы при болезнях, классифицируемых в других рубриках",
+    "icd_code": "G99"
+  },
+  {
+    "id": "h90_3_neurosensornaya_poterja_slucha_dvustoronnaya",
+    "type": "diagnosis",
+    "label": "Нейросенсорная потеря слуха двусторонняя",
+    "icd_code": "H90.3"
+  },
+  {
+    "id": "h90_5_neurosensornaya_poterja_slucha_neukazannaya",
+    "type": "diagnosis",
+    "label": "Нейросенсорная потеря слуха неуточненная",
+    "icd_code": "H90.5"
+  },
+  {
+    "id": "i69_posledstviya_cerebrovaskularnyh_bolezney",
+    "type": "diagnosis",
+    "label": "Последствия цереброваскулярных болезней",
+    "icd_code": "I69"
+  },
+  {
+    "id": "m43_1_spondilolistez",
+    "type": "diagnosis",
+    "label": "Спондилолистез",
+    "icd_code": "M43.1"
+  },
+  {
+    "id": "m47_1_drugie_spondilezy_s_mielopatiey",
+    "type": "diagnosis",
+    "label": "Другие спондилезы с миелопатией",
+    "icd_code": "M47.1"
+  },
+  {
+    "id": "m48_0_spinalnyy_stenoz",
+    "type": "diagnosis",
+    "label": "Спинальный стеноз",
+    "icd_code": "M48.0"
+  },
+  {
+    "id": "m50_0_pozharenie_mezpozv_diska_shye",
+    "type": "diagnosis",
+    "label": "Поражение межпозвоночного диска шейного отдела с миелопатией",
+    "icd_code": "M50.0"
+  },
+  {
+    "id": "m51_0_pozharenie_mezpozv_diska_pozv",
+    "type": "diagnosis",
+    "label": "Поражения межпозвоночных дисков поясничного и других отделов с миелопатией",
+    "icd_code": "M51.0"
+  },
+  {
+    "id": "m51_3_drugie_degeneracii_mezpozv_diska",
+    "type": "diagnosis",
+    "label": "Другая уточненная дегенерации межпозвоночного диска",
+    "icd_code": "M51.3"
+  },
+  {
+    "id": "m53_2_spinalnaya_nestabilnost",
+    "type": "diagnosis",
+    "label": "Спинальная нестабильность",
+    "icd_code": "M53.2"
+  },
+  {
+    "id": "q02_mikrocefalija",
+    "type": "diagnosis",
+    "label": "Микроцефалия",
+    "icd_code": "Q02"
+  },
+  {
+    "id": "q03_vrozhdennaya_gidrocefalija",
+    "type": "diagnosis",
+    "label": "Врожденная гидроцефалия",
+    "icd_code": "Q03"
+  },
+  {
+    "id": "q04_drugie_vrozhdennye_anomalii_mozga",
+    "type": "diagnosis",
+    "label": "Другие врожденные аномалии (пороки развития) мозга",
+    "icd_code": "Q04"
+  },
+  {
+    "id": "q05_spina_bifida",
+    "type": "diagnosis",
+    "label": "Spina bifida (неполное закрытие позвоночного канала)",
+    "icd_code": "Q05"
+  },
+  {
+    "id": "q06_drugie_vrozhdennye_anomalii_spinnoho_mozga",
+    "type": "diagnosis",
+    "label": "Другие врожденные аномалии (пороки развития) спинного мозга",
+    "icd_code": "Q06"
+  },
+  {
+    "id": "q07_drugie_vrozhdennye_anomalii_nerv_sist",
+    "type": "diagnosis",
+    "label": "Другие врожденные аномалии нервной системы",
+    "icd_code": "Q07"
+  },
+  {
+    "id": "q28_2_arterioveneznye_poroki_centralnyh_suslov",
+    "type": "diagnosis",
+    "label": "Артериовенозные пороки развития центральных сосудов",
+    "icd_code": "Q28.2"
+  },
+  {
+    "id": "q28_3_drugie_poroki_razv_centralnyh_suslov",
+    "type": "diagnosis",
+    "label": "Другие пороки развития центральных сосудов",
+    "icd_code": "Q28.3"
+  },
+  {
+    "id": "q90_sindrom_dauna",
+    "type": "diagnosis",
+    "label": "Синдром Дауна",
+    "icd_code": "Q90"
+  },
+  {
+    "id": "q91_sindrom_edvardsa_i_patou",
+    "type": "diagnosis",
+    "label": "Синдром Эдвардса и синдром Патау",
+    "icd_code": "Q91"
+  },
+  {
+    "id": "q99_drugie_anomalii_hromosom",
+    "type": "diagnosis",
+    "label": "Другие аномалии хромосом, не классифицированные в других рубриках",
+    "icd_code": "Q99"
+  },
+  {
+    "id": "s06_vnutricherep_travma",
+    "type": "diagnosis",
+    "label": "Внутричерепная травма",
+    "icd_code": "S06"
+  },
+  {
+    "id": "t90_5_posledstviya_vnutricherep_travmy",
+    "type": "diagnosis",
+    "label": "Последствия внутричерепной травмы",
+    "icd_code": "T90.5"
+  },
+  {
+    "id": "s14_travma_nervov_shi",
+    "type": "diagnosis",
+    "label": "Травма нервов и спинного мозга на уровне шеи",
+    "icd_code": "S14"
+  },
+  {
+    "id": "s24_travma_nervov_grudnyj_otdel",
+    "type": "diagnosis",
+    "label": "Травма нервов и спинного мозга в грудном отделе",
+    "icd_code": "S24"
+  },
+  {
+    "id": "s34_travma_nervov_pozv_otdel",
+    "type": "diagnosis",
+    "label": "Травма нервов и поясничного отдела спинного мозга на уровне живота, нижней части спины и таза",
+    "icd_code": "S34"
+  },
+  {
+    "id": "t91_3_posledstviya_travmy_spinnoho_mozga",
+    "type": "diagnosis",
+    "label": "Последствия травмы спинного мозга",
+    "icd_code": "T91.3"
+  },
+  {
+    "id": "t92_4_posledstviya_travmy_nerva_verh_kon",
+    "type": "diagnosis",
+    "label": "Последствия травма нерва верхней конечности",
+    "icd_code": "T92.4"
+  },
+  {
+    "id": "t93_4_posledstviya_travmy_nerva_niz_kon",
+    "type": "diagnosis",
+    "label": "Последствия травма нерва нижней конечности",
+    "icd_code": "T93.4"
+  }
+]

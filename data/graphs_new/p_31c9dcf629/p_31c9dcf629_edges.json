@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_optushenie_verhnego_veka",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Птоз (блефароптоз) – аномально низкое положение верхнего века",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kosmeticheskiy_defekt",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "опущение верхнего века, косметический дефект",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neravnomernost_shiriny_glaznoi_shcheli",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "неравномерности ширины глазной щели обоих глаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izmenenie_polozheniya_vek_retrakciya_ptoz",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "изменения положения век – (ретракция и птоз)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_visiona",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение зрения за счет частичного или полного перекрытия зрительной оси веком",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastichnoe_perekrytie_zritelnoy_osy",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частичное перекрытие зрительной оси",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polnoe_perekrytie_zritelnoy_osy",
+    "target": "diagnosis_ptoz_veka",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "полное перекрытие зрительной оси",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sindrom_gornera",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "синдром Горнера: птоз верхнего века, миоз, энофтальм",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_fenomen_markusa_gunna",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "феномен Маркуса - Гунна: птоз верхнего века; движение нижней челюсти ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_fenomen_psevdo_grefe",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "феномен псевдо Грефе: ... сохраняется легкий птоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sindrom_grefe",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "синдром Грефе: птоз верхнего века, атрофия наружных мышц глаза",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_miastenia",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "птоз, сочетающийся с миастенией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_vneshnia_oftalmplegiya",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "птоз, вызванный внешней офтальмоплегией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_paralich_simpaticheskikh_nervov",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "птоз, вызванный параличом симпатических нервов",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sinkineticheskiy_ptoz",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "синкинетический птоз, в основе которого лежат межядерные связи леватора и жевательных мышц",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_travmaticheskiy_ptoz",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "вследствие травматических поражений",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_ptoz_zabolevaniya_cns",
+    "target": "diagnosis_ptoz_veka",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "вследствие заболеваний ЦНС",
+    "properties": {}
+  }
+]

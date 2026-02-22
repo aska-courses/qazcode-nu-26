@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symp_atelektaza",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Осложнения БЛД: ... ателектаз ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypotrophy",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Осложнения БЛД: ... гипотрофия.",
+    "properties": {}
+  },
+  {
+    "source": "symp_tachypnea",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Грудная клетка эмфизематозно вздута, тахипноэ, одышка ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_dyspnea",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Грудная клетка эмфизематозно вздута, тахипноэ, одышка ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_intercostal_retraction",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Грудная клетка эмфизематозно вздута, ... с западением межреберных промежутков ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_chest_retreat",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Грудная клетка эмфизематозно вздута, ... втяжением грудины ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_rocking_sign",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом «качелей»",
+    "properties": {}
+  },
+  {
+    "source": "symp_prolonged_expiration",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затрудненный удлиненный выдох",
+    "properties": {}
+  },
+  {
+    "source": "symp_weak_breathing",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аускультативная картина: ослабление дыхания ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_crackles",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аускультативная картина: ... крепитация ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_wheezing_crackles",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аускультативная картина: ... свистящие ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_fine_bubble_rales",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Аускультативная картина: ... мелкопузырчатые хрипы.",
+    "properties": {}
+  },
+  {
+    "source": "symp_oxygen_saturation_drop",
+    "target": "symp_bronchial_obstructive_syndrome",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Бронхообструктивный синдром: эпизоды падения сатурации кислорода крови, клинически сопровождающиеся свистящими хрипами ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_cardiomegaly",
+    "target": "diag_cor_pulmonale",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы правожелудочковой сердечной недостаточности (кардиомегалия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_tachycardia",
+    "target": "diag_cor_pulmonale",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы правожелудочковой сердечной недостаточности ( ... тахикардия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hepatosplenomegaly",
+    "target": "diag_cor_pulmonale",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы правожелудочковой сердечной недостаточности ( ... гепатоспленомегалия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_tricuspid_regurgitation_murmur",
+    "target": "diag_cor_pulmonale",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы правожелудочковой сердечной недостаточности ( ... шум трикуспидальной регургитации)",
+    "properties": {}
+  },
+  {
+    "source": "symp_right_ventricular_failure",
+    "target": "diag_cor_pulmonale",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Симптомы правожелудочковой сердечной недостаточности (правожелудочковая сердечная недостаточность)",
+    "properties": {}
+  },
+  {
+    "source": "symp_pulmonary_hypertension",
+    "target": "diag_secondary_pulmonary_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Осложнения БЛД: ... легочная гипертензия ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_systemic_hypertension",
+    "target": "diag_secondary_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Осложнения БЛД: ... системная артериальная гипертензия ...",
+    "properties": {}
+  },
+  {
+    "source": "diag_chronic_respiratory_failure",
+    "target": "diag_acute_respiratory_failure",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Осложнения БЛД: хроническая дыхательная недостаточность, острая дыхательная недостаточность ...",
+    "properties": {}
+  },
+  {
+    "source": "diag_secondary_pulmonary_hypertension",
+    "target": "diag_cor_pulmonale",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Осложнения БЛД: ... легочная гипертензия, легочное сердце ...",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypoxemia",
+    "target": "diag_chronic_respiratory_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "КОС (гипоксемия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypercapnia",
+    "target": "diag_chronic_respiratory_failure",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "КоС (гиперкапния, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_acidosis",
+    "target": "diag_chronic_respiratory_failure",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "КоС (ацидоз, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_regurgitation",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кормление ... сопровождается срыгиванием",
+    "properties": {}
+  },
+  {
+    "source": "symp_anemia",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАК (анемия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hyponatremia",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Биохимические анализы крови (гипонатриемия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypokalemia",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Биохимические анализы крови (гипокалиемия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypochloremia",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Биохимические анализы крови (гипохлоремия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_elevated_urea_nitrogen",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Биохимические анализы крови (повышение азота ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_elevated_urea",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Биохимические анализы крови (повышение мочевины ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_elevated_creatinine",
+    "target": "diag_bld_perinatal",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Биохимические анализы крови (повышение креатинина ...)",
+    "properties": {}
+  },
+  {
+    "source": "symp_hypoproteinemia",
+    "target": "diag_mild_protein_energy_deficiency",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Биохимические анализы крови (гипопротеинемия)",
+    "properties": {}
+  }
+]

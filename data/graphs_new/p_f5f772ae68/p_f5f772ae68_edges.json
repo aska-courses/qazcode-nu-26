@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_bol_v_oblasti_loktevogo_sustava",
+    "target": "diagnosis_vyvikh_v_loktevom_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в области локтевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_dvigatelnoj_funkcii_loktevogo_sustava",
+    "target": "diagnosis_vyvikh_v_loktevom_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение двигательной функции в локтевом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nalichie_travmy_s_nepryamym_mehanizmom",
+    "target": "diagnosis_vyvikh_v_loktevom_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие травмы с непрямым механизмом",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_verhnej_konechnosti",
+    "target": "diagnosis_vyvikh_v_loktevom_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вынужденное положение верхней конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_loktevogo_sustava",
+    "target": "diagnosis_vyvikh_v_loktevom_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация локтевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_oblasti_loktevogo_sustava",
+    "target": "diagnosis_vyvikh_v_loktevom_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк в области локтевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_aktivnyh_i_pasivnyh_dvizhenij",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение активных и пассивных движений в локтевом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoizliyavanie_v_okruzhayuschie_tkani",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровоизлияние в окружающие ткани в области локтевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_silnaya_bol_v_oblasti_loktevogo_sustava",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сильная боль в области локтевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_usilivayushchaya_pri_dvizheniyah",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность, усиливающаяся при движениях в локтевом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pozitivnyj_simptom_pruzhinistogo_soprotivleniya",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом «пружинистого сопротивления»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_treugolnika_gyutera",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформация треугольника Гютера",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_loktevogo_sustava",
+    "target": "symptom_silnaya_bol_v_oblasti_loktevogo_sustava",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в области локтевого сустава; сильная боль в области локтевого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_loktevogo_sustava",
+    "target": "symptom_deformaciya_treugolnika_gyutera",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "деформация локтевого сустава; деформация треугольника Гютера",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_vyvikh_golovki_luchnoi",
+    "target": "diagnosis_vyvikh_v_loktevом_sustave",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "вывих головки лучевой кости ... является типом вывиха в локтевом суставе",
+    "properties": {}
+  }
+]

@@ -1,0 +1,948 @@
+{
+  "protocol_id": "p_879b556eae",
+  "nodes": [
+    {
+      "id": "diagnosis_s82_1",
+      "type": "diagnosis",
+      "label": "Перелом проксимального отдела большеберцовой кости",
+      "icd_code": "S82.1"
+    },
+    {
+      "id": "diagnosis_s82_2",
+      "type": "diagnosis",
+      "label": "Перелом тела (диафиза) большеберцовой кости",
+      "icd_code": "S82.2"
+    },
+    {
+      "id": "diagnosis_s82_3",
+      "type": "diagnosis",
+      "label": "Перелом дистального отдела большеберцовой кости",
+      "icd_code": "S82.3"
+    },
+    {
+      "id": "diagnosis_s82_4",
+      "type": "diagnosis",
+      "label": "Перелом только малоберцовой кости",
+      "icd_code": "S82.4"
+    },
+    {
+      "id": "diagnosis_s82_5",
+      "type": "diagnosis",
+      "label": "Перелом внутренней (медиальной) лодыжки",
+      "icd_code": "S82.5"
+    },
+    {
+      "id": "diagnosis_s82_6",
+      "type": "diagnosis",
+      "label": "Перелом наружной (латеральной) лодыжки",
+      "icd_code": "S82.6"
+    },
+    {
+      "id": "diagnosis_s82_7",
+      "type": "diagnosis",
+      "label": "Множественные переломы голени",
+      "icd_code": "S82.7"
+    },
+    {
+      "id": "diagnosis_s82_8",
+      "type": "diagnosis",
+      "label": "Переломы других отделов голени",
+      "icd_code": "S82.8"
+    },
+    {
+      "id": "diagnosis_s82_9",
+      "type": "diagnosis",
+      "label": "Перелом неуточненного отдела голени",
+      "icd_code": "S82.9"
+    },
+    {
+      "id": "symptom_bol_v_goleni",
+      "type": "symptom",
+      "label": "Боль в голени"
+    },
+    {
+      "id": "symptom_narushenie_oporospobnosti_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение опороспособности конечности"
+    },
+    {
+      "id": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "type": "symptom",
+      "label": "Наличие ран при открытых переломах"
+    },
+    {
+      "id": "symptom_otek",
+      "type": "symptom",
+      "label": "Отёк в месте перелома"
+    },
+    {
+      "id": "symptom_deformatsiya",
+      "type": "symptom",
+      "label": "Деформация конечности"
+    },
+    {
+      "id": "symptom_krovoizliyeniye",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "symptom_ukorocheniye_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение конечности"
+    },
+    {
+      "id": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность при осевой нагрузке"
+    },
+    {
+      "id": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Грубая патологическая подвижность"
+    },
+    {
+      "id": "symptom_krepitatsiya_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация отломков"
+    },
+    {
+      "id": "symptom_nevozmozhnost_podnyat_nogu",
+      "type": "symptom",
+      "label": "Невозможность самостоятельно поднять ногу"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на боли в голени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_oporospobnosti_konechnosti",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... нарушение опороспособности конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_ran_otkrytyh_perelomov",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: ... наличие ран при открытых переломах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyeniye",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "грубая патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomkov",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomkov",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krepitatsiya_otlomков",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "крепитация отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_s82_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_s82_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nogu",
+      "target": "diagnosis_s82_3",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nогу",
+      "target": "diagnosis_s82_4",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhnost_podnyat_nогу",
+      "target": "diagnosis_s82_5",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevozmozhност_podnyat_nогу",
+      "target": "diagnosis_s82_6",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neвозmozhnost_podnyat_nогу",
+      "target": "diagnosis_s82_7",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neвозmozhност_podnyat_nогу",
+      "target": "diagnosis_s82_8",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neвозmozhност_podnyat_nогу",
+      "target": "diagnosis_s82_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "symptom_deformatsiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отек в месте перелома, деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "symptom_krovoizliyeniye",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "деформация, кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_goleni",
+      "target": "symptom_boleznennost_pri_osovoy_nagruzke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "на боли в голени... болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "symptom_nevozmozhnost_podnyat_nogu",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "укорочение конечности; ... не может самостоятельно поднять ногу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_grubaya_patologicheskaya_podvizhnost",
+      "target": "symptom_krepitatsiya_otlomков",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "грубая патологическая подвижность, ... крепитация отломков",
+      "properties": {}
+    }
+  ]
+}

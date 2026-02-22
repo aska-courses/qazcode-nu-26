@@ -1,0 +1,994 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптомы интоксикации: слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптомы интоксикации: слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптомы интоксикации: слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "миалгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "миалгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль (чаще у детей старшего возраста)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль (чаще у детей старшего возраста)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухой, непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухой, непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nonproductive_cough",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухой, непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nonproductive_cough",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "сухой, непродуктивный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxemia",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxemia",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "учащенное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "учащенное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "учащенное сердцебиение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "учащенное сердцебиение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_hands_feet",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отеки ладоней и стоп",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_hands_feet",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отеки ладоней и стоп",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polymorph_rash",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полиморфная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polymorph_rash",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полиморфная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechial_rash",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пятнистая сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petechial_rash",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пятнистая сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticarial_rash",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticarial_rash",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лимфаденопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лимфаденопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_scleritis",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "склерит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_scleritis",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "склерит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_mucosa_lesion",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "поражение слизистой ротовой полости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oral_mucosa_lesion",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "поражение слизистой ротовой полости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia_lips",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипермия губ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia_lips",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипермия губ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strawberry_tongue",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "малиновый язык",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strawberry_tongue",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "малиновый язык",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дыхательная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дыхательная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_embolism",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тромбоэмболия легочной артерии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_embolism",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тромбоэмболия легочной артерии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hs_syndrome",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гемофагоцитарный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hs_syndrome",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гемофагоцитарный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_exanthema",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожные высыпания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_exanthema",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожные высыпания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артралгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артралгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_involvement",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "поражение печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_involvement",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "поражение печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_failure",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_failure",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "печеночная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_encephalopathy",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "печеночная энцефалопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_encephalopathy",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "печеночная энцефалопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздутие живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_distension",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вздутие живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_covid_fingers",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«ковидные» пальцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_covid_fingers",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«ковидные» пальцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_taste",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушения вкуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_taste",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушения вкуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_smell",
+    "target": "diagnosis_u07_1",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушения обоняния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_smell",
+    "target": "diagnosis_u07_2",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушения обоняния",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weakness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы интоксикации: слабость, вялость, недомогание; • повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_myalgia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомы интоксикации: ... • миалгия; • повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_sore_throat",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кашель, боль в горле, заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_nasal_congestion",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кашель, боль в горле, заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боли в животе, диарея, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боли в животе, диарея, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polymorph_rash",
+    "target": "symptom_petechial_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "полиморфная сыпь, пятнистая сыпь, уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polymorph_rash",
+    "target": "symptom_urticarial_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "полиморфная сыпь, пятнистая сыпь, уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "symptom_edema_hands_feet",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "не гнойный конъюнктивит, отеки кистей, стоп",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "symptom_hypoxemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "цианоз, одышка, гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головная боль, судороги, менингеальные знаки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_meningeal_signs",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "судороги, менингеальные знаки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meningeal_signs",
+    "target": "symptom_decreased_consciousness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "менингеальные знаки, угнетение сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_covid_fingers",
+    "target": "symptom_loss_of_taste",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "«ковидные» пальцы; нарушения вкуса и обоняния встречаются редко",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_taste",
+    "target": "symptom_loss_of_smell",
+    "type": "co-occurs",
+    "weight": 0.25,
+    "evidence": "нарушения вкуса и обоняния встречаются редко",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_u07_1",
+    "target": "diagnosis_u07_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 U07.1 ... U07.2 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_u07_1",
+    "target": "diagnosis_m35_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "мультисистемный воспалительный синдром ... у детей ... (МВС) относится к коду M35.8",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лихорадка >38°C в течение ≥24 часов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "миалгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затрудненное дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxemia",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипоксемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema_hands_feet",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отеки ладоней и стоп",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polymorph_rash",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полиморфная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "конъюнктивит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "лимфаденопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артралгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hs_syndrome",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гемофагоцитарный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_covid_fingers",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "«ковидные» пальцы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_taste",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушения вкуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_smell",
+    "target": "diagnosis_m35_8",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "нарушения обоняния",
+    "properties": {}
+  }
+]

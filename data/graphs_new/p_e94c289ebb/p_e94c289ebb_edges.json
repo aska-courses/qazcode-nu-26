@@ -1,0 +1,282 @@
+[
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "внезапные, резкие, нарастающие по интенсивности боли в 1-м плюснефаланговом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отёк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokr",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "покраснение кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_mobility",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ограничение подвижности поражённого сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperemia",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гиперемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tophi",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тофусы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urate_crystals",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кристаллы уратов в синовиальной жидкости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperuricemia",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гиперурикемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subcortical_cysts",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Субкортикальные кисты без эрозии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asymmetric_inflammation",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Асимметричное воспаление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unilateral_tarsal",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Одностороннее поражение тарзальных суставов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_suspected_tophi",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Подозрение на тофусы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_microorganisms",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Отсутствие микроорганизмов в культуре синовиальной жидкости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_gout_arthritis",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Острый подагрический артрит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_tophi_gout",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Хроническая тофусная подагра",
+    "properties": {}
+  },
+  {
+    "source": "symptom_inflammation_mtp1",
+    "target": "diagnosis_podagra",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Боль и воспаление ПФС 1‑го пальца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_otek",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль... отёк... покраснение кожи, местное повышение температуры и ограничение подвижности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_pokr",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль... отёк... покраснение кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль... отёк... местное повышение температуры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_limited_mobility",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль... ограничение подвижности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "symptom_hyperemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль... гиперемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "symptom_pokr",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёк... покраснение кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёк... повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokr",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "покраснение кожи... повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asymmetric_inflammation",
+    "target": "symptom_unilateral_tarsal",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Асимметричное воспаление... Одностороннее поражение тарзальных суставов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tophi",
+    "target": "symptom_chronic_tophi_gout",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Тофусы... Хроническая тофусная подагра",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperuricemia",
+    "target": "symptom_urate_crystals",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Гиперурикемия... кристаллы уратов в синовиальной жидкости",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra",
+    "target": "diagnosis_idiopodagra",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Подагра, Идиопатическая подагра, Свинцовая подагра, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra",
+    "target": "diagnosis_svinpodagra",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Подагра, Идиопатическая подагра, Свинцовая подагра, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra",
+    "target": "diagnosis_lekpodagra",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Подагра, Идиопатическая подагра, Свинцовая подагра, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra",
+    "target": "diagnosis_podagra_renal",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Подагра, Идиопатическая подагра, Свинцовая подагра, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra",
+    "target": "diagnosis_other_secondary_podagra",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Подагра, Идиопатическая подагра, Свинцовая подагра, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra",
+    "target": "diagnosis_podagra_unspecified",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Подагра, Идиопатическая подагра, Свинцовая подагра, ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_podagra_renal",
+    "target": "diagnosis_other_secondary_podagra",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вторичная (на фоне другого заболевания или других причин ГУ): - почечная; - лекарственная; - свинцовая.",
+    "properties": {}
+  }
+]

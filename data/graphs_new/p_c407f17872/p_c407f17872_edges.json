@@ -1,0 +1,250 @@
+[
+  {
+    "source": "symptom_hirsutism",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гирсутизм по шкале Ферримана – Галлвея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acne",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "акне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_male_pattern_hair_growth",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "оволосение по мужскому типу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clinical_hyperandrogenism",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гиперандрогения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_biochemical_hyperandrogenism",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "биохимическая гиперандрогения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_total_testosterone",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенный общий тестостерон",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_free_testosterone",
+    "target": "diagnosis_androgen_excess",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенный свободный тестостерон",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_lh",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенный уровень лютеинизирующего гормона (ЛГ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_amg",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенный уровень антимюллерового гормона (АМГ >4 нг/мл)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_follicular_ultrasound_findings",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "12 и более фолликулов диаметром до 10 мм в УЗИ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ovarian_volume_increased",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "увеличенный объём яичника (>9‑10 см³)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thickened_ovarian_cortex",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "утолщение белой оболочки яичника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_dominant_follicle",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "не наблюдается созревание доминантного фолликула",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrual_cycle_disorder",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушение или отсутствие менструального цикла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_amenorrhea",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие менструального цикла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oligomenorrhea",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "олигоменорея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infertility",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "бесплодие",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obesity",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенный ИМТ, ожирение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_central_obesity",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "центральное ожирение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_bmi",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ИМТ более 30 кг/м2",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышенное артериальное давление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lipid_disorder",
+    "target": "diagnosis_pcos",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "липидемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hirsutism",
+    "target": "symptom_acne",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гирсутизм, акне",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hirsutism",
+    "target": "symptom_male_pattern_hair_growth",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гирсутизм, оволосение по мужскому типу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acne",
+    "target": "symptom_male_pattern_hair_growth",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "акне, оволосение по мужскому типу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obesity",
+    "target": "symptom_central_obesity",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ожирение, центральное ожирение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obesity",
+    "target": "symptom_high_bmi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышенный ИМТ, ожирение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_central_obesity",
+    "target": "symptom_high_bmi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "центральное ожирение, ИМТ более 30",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clinical_hyperandrogenism",
+    "target": "symptom_biochemical_hyperandrogenism",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперандрогения; биохимическая гиперандрогения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pcos",
+    "target": "diagnosis_androgen_excess",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Синдром поликистозных яичников часто сопровождается гиперандрогенией",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_pcos",
+    "target": "diagnosis_dysfunction_ovaries",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Синдром поликистозных яичников – полигенное эндокринное расстройство, обусловленное патологией структур и функции яичников",
+    "properties": {}
+  }
+]

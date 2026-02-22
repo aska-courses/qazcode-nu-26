@@ -1,0 +1,242 @@
+[
+  {
+    "source": "symptom_cough",
+    "target": "b20_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "b20_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_sweats",
+    "target": "b20_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "b20_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_night_sweats",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_night_sweats",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "symptom_night_sweats",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Проводится активный скрининг на туберкулёз по четырем клиническим симптомам: кашель, лихорадка, ночная потливость и потеря массы тела.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_candidal_stomatitis",
+    "target": "b20_4",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "персистирующий кандидозный стоматит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_onychomycosis",
+    "target": "b20_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "онихомикозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seborrheic_dermatitis",
+    "target": "b20_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "себорейный дерматит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_onychomycosis",
+    "target": "symptom_seborrheic_dermatitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 2: ... онихомикозы; ... себорейный дерматит.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "b23_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимые анемия (<80 г/л)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neutropenia",
+    "target": "b23_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нейтропения (<0.5 x 10^9/л)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "b23_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "хроническая тромбоцитопения (<50 x 10^9/л)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_neutropenia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 3: ... анемия; ... нейтропения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_thrombocytopenia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 3: ... анемия; ... тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neutropenia",
+    "target": "symptom_thrombocytopenia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 3: ... нейтропения; ... тромбоцитопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_weight_loss",
+    "target": "b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимая сильная потеря веса (>10% от предполагаемой или измеренной массы тела)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_diarrhea",
+    "target": "b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимая хроническая диарея длительностью более месяца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_fever",
+    "target": "b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "необъяснимая персистирующая лихорадка (перемежающаяся или постоянная, длительностью более месяца)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_weight_loss",
+    "target": "symptom_chronic_diarrhea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 3: ... сильная потеря веса; ... хроническая диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_weight_loss",
+    "target": "symptom_persistent_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 3: ... сильная потеря веса; ... персистирующая лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_diarrhea",
+    "target": "symptom_persistent_fever",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 3: ... хроническая диарея; ... персистирующая лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "b23_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "персистирующая генерализованная лимфаденопатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "b20_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Клиническая стадия 4: ... пневмоцистная пневмония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "b20_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальные обследования: ... кашель, одышка, хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальные обследования: ... кашель, одышка, хрипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cachexia",
+    "target": "b22_2",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "синдром кахексии, обусловленный ВИЧ",
+    "properties": {}
+  }
+]

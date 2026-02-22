@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_weakness",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мышечная слабость, особенно в икроножных мышцах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "судороги",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paraesthesia",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парастезии в ногах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polyuria",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_urination",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "никтурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_polydipsia",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "полидипсия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypokalemia",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "приводит к гипокалиемии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_syndrome",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипертонический ... синдромы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurological_syndrome",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неврологический ... синдромы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_syndrome",
+    "target": "diagnosis_primary_hyperaldosteronism",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "мочевой ... синдромы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_muscle_weakness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_seizures",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, судороги, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_paraesthesia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, судороги, парастезии в ногах, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_polyuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, судороги, парастезии в ногах, полиурия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_night_urination",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, судороги, парастезии в ногах, полиурия, никтурия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_polydipsia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головные боли, повышение АД, мышечная слабость, судороги, парастезии в ногах, полиурия, никтурия, полидипсия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_syndrome",
+    "target": "symptom_neurological_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипертонический, неврологический и мочевой синдромы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertensive_syndrome",
+    "target": "symptom_urinary_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипертонический, неврологический и мочевой синдромы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neurological_syndrome",
+    "target": "symptom_urinary_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипертонический, неврологический и мочевой синдромы",
+    "properties": {}
+  }
+]

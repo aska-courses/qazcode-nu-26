@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_samoproizvolnaya_bol",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "самопроизвольная боль, возникающая без воздействия внешних раздражителей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pristupobraznaya_bol",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "приступообразный характер боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bezbolevye_promezhutki",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "со светлыми промежутками (без боли)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_uvelichivaetsya_nochyu",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "усиление боли в ночное время",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_holodnogo_razdritelya",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль от холодного раздражителя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_ot_goryachego_razdritelya",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль от горячего раздражителя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulsiruyushchaya_bol",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "пульсирующая боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lokalizaciya_boli",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Локализованная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iritaciya_boli_po_vetvjam_trojnichnogo_nerva",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Иррадиация боли по ветвям тройничного нерва",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bledno_rozovyi_tsvet_slizistoi_desny",
+    "target": "diagnosis_pulpit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Бледно-розового цвета слизистой десны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_samoproizvolnaya_bol",
+    "target": "symptom_pristupobraznaya_bol",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Для всех острых форм пульпита характерны общие симптомы: самопроизвольная боль …, приступообразный характер боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pristupobraznaya_bol",
+    "target": "symptom_bezbolevye_promezhutki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "приступообразный характер боли со светлыми промежутками (без боли)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pristupobraznaya_bol",
+    "target": "symptom_bol_uvelichivaetsya_nochyu",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "приступообразный характер боли … усиление боли в ночное время",
+    "properties": {}
+  }
+]

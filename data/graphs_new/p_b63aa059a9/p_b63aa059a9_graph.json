@@ -1,0 +1,830 @@
+{
+  "protocol_id": "p_b63aa059a9",
+  "nodes": [
+    {
+      "id": "pompe_disease",
+      "type": "diagnosis",
+      "label": "Болезнь Помпе",
+      "icd_code": "Е74.0"
+    },
+    {
+      "id": "muscle_weakness",
+      "type": "symptom",
+      "label": "мышечная слабость"
+    },
+    {
+      "id": "head_tilt",
+      "type": "symptom",
+      "label": "запрокидывание головы"
+    },
+    {
+      "id": "feeding_difficulty",
+      "type": "symptom",
+      "label": "трудности при кормлении"
+    },
+    {
+      "id": "breathing_difficulty",
+      "type": "symptom",
+      "label": "затрудненное дыхание"
+    },
+    {
+      "id": "motor_development_delay",
+      "type": "symptom",
+      "label": "задержка моторного развития"
+    },
+    {
+      "id": "psychomotor_development_delay",
+      "type": "symptom",
+      "label": "задержка психомоторного развития"
+    },
+    {
+      "id": "respiratory_dysfunction",
+      "type": "symptom",
+      "label": "нарушения дыхания"
+    },
+    {
+      "id": "recurrent_respiratory_infections",
+      "type": "symptom",
+      "label": "частые респираторные инфекции"
+    },
+    {
+      "id": "daytime_sleepiness",
+      "type": "symptom",
+      "label": "дневная сонливость"
+    },
+    {
+      "id": "gait_disturbance",
+      "type": "symptom",
+      "label": "нарушение походки"
+    },
+    {
+      "id": "standing_difficulty",
+      "type": "symptom",
+      "label": "затруднение при вставании"
+    },
+    {
+      "id": "muscle_hypotonia",
+      "type": "symptom",
+      "label": "мышечная гипотония"
+    },
+    {
+      "id": "muscle_atonia",
+      "type": "symptom",
+      "label": "мышечная атония"
+    },
+    {
+      "id": "progressive_trunk_leg_weakness",
+      "type": "symptom",
+      "label": "нарастающая слабость мышц туловища и ног"
+    },
+    {
+      "id": "lumbar_myopathy",
+      "type": "symptom",
+      "label": "поясная форма миопатии"
+    },
+    {
+      "id": "muscle_hypotrophy",
+      "type": "symptom",
+      "label": "гипотрофия мышц"
+    },
+    {
+      "id": "hyporeflexia",
+      "type": "symptom",
+      "label": "гипорефлексия"
+    },
+    {
+      "id": "stair_climbing_difficulty",
+      "type": "symptom",
+      "label": "затруднение при подъеме по лестнице"
+    },
+    {
+      "id": "pelvic_shoulder_weakness",
+      "type": "symptom",
+      "label": "снижение силы в мышцах тазового и плечевого пояса"
+    },
+    {
+      "id": "proximal_movement_limitation",
+      "type": "symptom",
+      "label": "ограничение движений в проксимальных отделах"
+    },
+    {
+      "id": "falls_due_to_weakness",
+      "type": "symptom",
+      "label": "падения из‑за мышечной слабости"
+    },
+    {
+      "id": "winged_scapula",
+      "type": "symptom",
+      "label": "крыловидные лопатки"
+    },
+    {
+      "id": "myopathic_gait",
+      "type": "symptom",
+      "label": "миопатическая походка"
+    },
+    {
+      "id": "pseudo_hypertrophy_calf",
+      "type": "symptom",
+      "label": "псевдогипертрофия икроножных мышц"
+    },
+    {
+      "id": "motor_function_loss",
+      "type": "symptom",
+      "label": "потеря двигательных функций"
+    },
+    {
+      "id": "muscle_pain",
+      "type": "symptom",
+      "label": "боль в мышцах"
+    },
+    {
+      "id": "sensory_disturbance",
+      "type": "symptom",
+      "label": "нарушение чувствительности"
+    },
+    {
+      "id": "isolated_muscle_involvement",
+      "type": "symptom",
+      "label": "изолированное поражение мышцы (поднимающей верхнее веко, диафрагмы)"
+    },
+    {
+      "id": "respiratory_tract_infections",
+      "type": "symptom",
+      "label": "частые инфекции дыхательных путей"
+    },
+    {
+      "id": "respiratory_failure",
+      "type": "symptom",
+      "label": "дыхательная недостаточность"
+    },
+    {
+      "id": "orthopnea",
+      "type": "symptom",
+      "label": "ортопноэ"
+    },
+    {
+      "id": "stridor",
+      "type": "symptom",
+      "label": "стонущее дыхание"
+    },
+    {
+      "id": "dyspnea_on_exertion",
+      "type": "symptom",
+      "label": "одышка при легкой физической нагрузке"
+    },
+    {
+      "id": "nocturnal_hypoventilation",
+      "type": "symptom",
+      "label": "ночная гиповентиляция"
+    },
+    {
+      "id": "pallor",
+      "type": "symptom",
+      "label": "бледность кожи"
+    },
+    {
+      "id": "acrocyanosis",
+      "type": "symptom",
+      "label": "акроцианоз"
+    },
+    {
+      "id": "morning_headache",
+      "type": "symptom",
+      "label": "утренняя головная боль"
+    },
+    {
+      "id": "sleep_related_breathing_disorder",
+      "type": "symptom",
+      "label": "нарушения дыхания во сне"
+    },
+    {
+      "id": "tachypnea",
+      "type": "symptom",
+      "label": "тахипноэ"
+    },
+    {
+      "id": "left_lung_atelectasis",
+      "type": "symptom",
+      "label": "ателектазы левого легкого"
+    },
+    {
+      "id": "rigid_breathing_lungs",
+      "type": "symptom",
+      "label": "жесткое дыхание в легких"
+    },
+    {
+      "id": "conductive_rales",
+      "type": "symptom",
+      "label": "проводные хрипы"
+    },
+    {
+      "id": "reduced_breathing_left",
+      "type": "symptom",
+      "label": "ослабление дыхания слева"
+    },
+    {
+      "id": "severe_cardiomegaly",
+      "type": "symptom",
+      "label": "тяжёлая кардиомегалия"
+    },
+    {
+      "id": "cardiomyopathy",
+      "type": "symptom",
+      "label": "кардиомиопатия"
+    },
+    {
+      "id": "conduction_abnormalities",
+      "type": "symptom",
+      "label": "нарушения проводимости сердца"
+    },
+    {
+      "id": "chest_deformation_heart_hump",
+      "type": "symptom",
+      "label": "деформация грудной клетки «сердечного горба»"
+    },
+    {
+      "id": "relative_cardiac_dullness_expansion",
+      "type": "symptom",
+      "label": "расширение границ относительной сердечной тупости"
+    },
+    {
+      "id": "peripheral_pulse_weakening",
+      "type": "symptom",
+      "label": "ослабление периферической пульсации"
+    },
+    {
+      "id": "heart_failure",
+      "type": "symptom",
+      "label": "сердечная недостаточность"
+    },
+    {
+      "id": "heart_tones_muffled",
+      "type": "symptom",
+      "label": "глухие тоны сердца"
+    },
+    {
+      "id": "systolic_murmur",
+      "type": "symptom",
+      "label": "систолический шум"
+    },
+    {
+      "id": "arrhythmia",
+      "type": "symptom",
+      "label": "нарушение ритма сердца"
+    },
+    {
+      "id": "feeding_problems",
+      "type": "symptom",
+      "label": "проблемы при кормлении"
+    },
+    {
+      "id": "chewing_difficulty",
+      "type": "symptom",
+      "label": "затруднение при жевании"
+    },
+    {
+      "id": "hepatomegaly",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "chewing_muscle_fatigue",
+      "type": "symptom",
+      "label": "быстрая утомляемость жевательных мышц"
+    },
+    {
+      "id": "splenomegaly",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "swallowing_difficulty",
+      "type": "symptom",
+      "label": "затруднение глотания"
+    },
+    {
+      "id": "macroglossia",
+      "type": "symptom",
+      "label": "макроглоссия"
+    },
+    {
+      "id": "poor_weight_gain",
+      "type": "symptom",
+      "label": "плохая прибавка в весе / потеря веса"
+    }
+  ],
+  "edges": [
+    {
+      "source": "muscle_weakness",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышечная слабость",
+      "properties": {}
+    },
+    {
+      "source": "head_tilt",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "запрокидывание головы",
+      "properties": {}
+    },
+    {
+      "source": "feeding_difficulty",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трудности при кормлении",
+      "properties": {}
+    },
+    {
+      "source": "breathing_difficulty",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "motor_development_delay",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка моторного развития",
+      "properties": {}
+    },
+    {
+      "source": "psychomotor_development_delay",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка психомоторного развития",
+      "properties": {}
+    },
+    {
+      "source": "respiratory_dysfunction",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения дыхания",
+      "properties": {}
+    },
+    {
+      "source": "recurrent_respiratory_infections",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые респираторные инфекции",
+      "properties": {}
+    },
+    {
+      "source": "daytime_sleepiness",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дневная сонливость",
+      "properties": {}
+    },
+    {
+      "source": "gait_disturbance",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение походки",
+      "properties": {}
+    },
+    {
+      "source": "standing_difficulty",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение при вставании",
+      "properties": {}
+    },
+    {
+      "source": "muscle_hypotonia",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышечная гипотония",
+      "properties": {}
+    },
+    {
+      "source": "muscle_atonia",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мышечная атония",
+      "properties": {}
+    },
+    {
+      "source": "progressive_trunk_leg_weakness",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарастающая слабость мышц туловища и ног",
+      "properties": {}
+    },
+    {
+      "source": "lumbar_myopathy",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поясная форма миопатии",
+      "properties": {}
+    },
+    {
+      "source": "muscle_hypotrophy",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипотрофия мышц",
+      "properties": {}
+    },
+    {
+      "source": "hyporeflexia",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипорефлексия",
+      "properties": {}
+    },
+    {
+      "source": "stair_climbing_difficulty",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение при подъеме по лестнице",
+      "properties": {}
+    },
+    {
+      "source": "pelvic_shoulder_weakness",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение силы в мышцах тазового и плечевого пояса",
+      "properties": {}
+    },
+    {
+      "source": "proximal_movement_limitation",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение движений в проксимальных отделах",
+      "properties": {}
+    },
+    {
+      "source": "falls_due_to_weakness",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "падения из‑за мышечной слабости",
+      "properties": {}
+    },
+    {
+      "source": "winged_scapula",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крыловидные лопатки",
+      "properties": {}
+    },
+    {
+      "source": "myopathic_gait",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "миопатическая походка",
+      "properties": {}
+    },
+    {
+      "source": "pseudo_hypertrophy_calf",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "псевдогипертрофия икроножных мышц",
+      "properties": {}
+    },
+    {
+      "source": "motor_function_loss",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря двигательных функций",
+      "properties": {}
+    },
+    {
+      "source": "muscle_pain",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боль в мышцах",
+      "properties": {}
+    },
+    {
+      "source": "sensory_disturbance",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "isolated_muscle_involvement",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изолированное поражение мышцы (поднимающей верхнее веко, диафрагмы)",
+      "properties": {}
+    },
+    {
+      "source": "respiratory_tract_infections",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частые инфекции дыхательных путей",
+      "properties": {}
+    },
+    {
+      "source": "respiratory_failure",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дыхательная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "orthopnea",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ортопноэ",
+      "properties": {}
+    },
+    {
+      "source": "stridor",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "стонущее дыхание",
+      "properties": {}
+    },
+    {
+      "source": "dyspnea_on_exertion",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "одышка при легкой физической нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "nocturnal_hypoventilation",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ночная гиповентиляция",
+      "properties": {}
+    },
+    {
+      "source": "pallor",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледность кожи",
+      "properties": {}
+    },
+    {
+      "source": "acrocyanosis",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "акроцианоз",
+      "properties": {}
+    },
+    {
+      "source": "morning_headache",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "утренняя головная боль",
+      "properties": {}
+    },
+    {
+      "source": "sleep_related_breathing_disorder",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения дыхания во сне",
+      "properties": {}
+    },
+    {
+      "source": "tachypnea",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахипноэ",
+      "properties": {}
+    },
+    {
+      "source": "left_lung_atelectasis",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ателектазы левого легкого",
+      "properties": {}
+    },
+    {
+      "source": "rigid_breathing_lungs",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жесткое дыхание в легких",
+      "properties": {}
+    },
+    {
+      "source": "conductive_rales",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "проводные хрипы",
+      "properties": {}
+    },
+    {
+      "source": "reduced_breathing_left",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабление дыхания слева",
+      "properties": {}
+    },
+    {
+      "source": "severe_cardiomegaly",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжёлая кардиомегалия",
+      "properties": {}
+    },
+    {
+      "source": "cardiomyopathy",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кардиомиопатия",
+      "properties": {}
+    },
+    {
+      "source": "conduction_abnormalities",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения проводимости сердца",
+      "properties": {}
+    },
+    {
+      "source": "chest_deformation_heart_hump",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация грудной клетки «сердечного горба»",
+      "properties": {}
+    },
+    {
+      "source": "relative_cardiac_dullness_expansion",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение границ относительной сердечной тупости",
+      "properties": {}
+    },
+    {
+      "source": "peripheral_pulse_weakening",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ослабление периферической пульсации",
+      "properties": {}
+    },
+    {
+      "source": "heart_failure",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сердечная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "heart_tones_muffled",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глухие тоны сердца",
+      "properties": {}
+    },
+    {
+      "source": "systolic_murmur",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "систолический шум",
+      "properties": {}
+    },
+    {
+      "source": "arrhythmia",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение ритма сердца",
+      "properties": {}
+    },
+    {
+      "source": "feeding_problems",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "проблемы при кормлении",
+      "properties": {}
+    },
+    {
+      "source": "chewing_difficulty",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение при жевании",
+      "properties": {}
+    },
+    {
+      "source": "hepatomegaly",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "chewing_muscle_fatigue",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "быстрая утомляемость жевательных мышц",
+      "properties": {}
+    },
+    {
+      "source": "splenomegaly",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "swallowing_difficulty",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "затруднение глотания",
+      "properties": {}
+    },
+    {
+      "source": "macroglossia",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "макроглоссия",
+      "properties": {}
+    },
+    {
+      "source": "poor_weight_gain",
+      "target": "pompe_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "плохая прибавка в весе / потеря веса",
+      "properties": {}
+    },
+    {
+      "source": "muscle_hypotonia",
+      "target": "muscle_atonia",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "выраженная мышечная гипотония/атония",
+      "properties": {}
+    },
+    {
+      "source": "gait_disturbance",
+      "target": "myopathic_gait",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение походки; миопатическая походка",
+      "properties": {}
+    },
+    {
+      "source": "muscle_hypotrophy",
+      "target": "pseudo_hypertrophy_calf",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипотрофия мышц; псевдогипертрофия икроножных мышц",
+      "properties": {}
+    }
+  ]
+}

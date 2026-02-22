@@ -1,0 +1,383 @@
+{
+  "protocol_id": "p_b3626beca7",
+  "nodes": [
+    {
+      "id": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "diagnosis",
+      "label": "острые воспалительные болезни матки",
+      "icd_code": "N71.0"
+    },
+    {
+      "id": "diagnosis_other_postpartum_infections",
+      "type": "diagnosis",
+      "label": "другие послеродовые инфекции",
+      "icd_code": "O86"
+    },
+    {
+      "id": "diagnosis_other_genital_tract_infections_postpartum",
+      "type": "diagnosis",
+      "label": "другие инфекции половых путей после родов",
+      "icd_code": "O86.1"
+    },
+    {
+      "id": "diagnosis_other_specified_postpartum_infections",
+      "type": "diagnosis",
+      "label": "другие уточненные послеродовые инфекции",
+      "icd_code": "O86.8"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры тела (≥38°C)",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_pelvic_pain",
+      "type": "symptom",
+      "label": "боль в тазу / болезненная матка при пальпации",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_unpleasant_discharge",
+      "type": "symptom",
+      "label": "выделения из половых путей с неприятным запахом",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_purulent_vaginal_discharge",
+      "type": "symptom",
+      "label": "гнойные выделения из влагалища",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_subinvolution",
+      "type": "symptom",
+      "label": "субинволюция матки (задержка уменьшения размеров)",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_moderate_bleeding",
+      "type": "symptom",
+      "label": "умеренное кровотечение из половых путей",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_malaise",
+      "type": "symptom",
+      "label": "недомогание",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_decreased_appetite",
+      "type": "symptom",
+      "label": "снижение аппетита",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "озноб",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головная боль",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "вздутие живота",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_absence_stool_gas",
+      "type": "symptom",
+      "label": "отсутствие стула и отхождения газов",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_decreased_urine_output",
+      "type": "symptom",
+      "label": "снижение количества мочи за сутки",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия (ЧСС >100 уд/мин)",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_subfebrile_temperature",
+      "type": "symptom",
+      "label": "субфебрильная температура тела до 37,5°C",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "лейкоцитоз ≥12·10⁹/л",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_band_neutrophils",
+      "type": "symptom",
+      "label": "повышение палочкоядерных нейтрофилов ≥10%",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_hypochromic_anemia",
+      "type": "symptom",
+      "label": "гипохромная анемия",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "повышение СОЭ",
+      "icd_code": ""
+    },
+    {
+      "id": "symptom_low_total_protein",
+      "type": "symptom",
+      "label": "снижение уровня общего белка плазмы крови",
+      "icd_code": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "повышение Т* тела ( 38* и выше)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pelvic_pain",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "тазовая боль или болезненная матка при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_unpleasant_discharge",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выделения из половых путей с необычным/неприятным запахом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_purulent_vaginal_discharge",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "гнойные выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subinvolution",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "субинволюция матки – задержка в темпах уменьшения размеров матки < 2 см/ сутки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_moderate_bleeding",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "возможно умеренное кровотечение из половых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_appetite",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение аппетита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "при субфебрильной температуре тела до 37,5° ... при отсутствии клинических признаков эндометрита",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитоз 12,0 ·10 /л и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_band_neutrophils",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "палочкоядерные нейтрофилы 10 % и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypochromic_anemia",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипохромная анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "увеличение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_total_protein",
+      "target": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение уровня общего белка плазмы крови",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_pelvic_pain",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "повышение Т* тела ( 38* и выше); ... тазовая боль или болезненная матка при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_unpleasant_discharge",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "повышение Т* тела ( 38* и выше); ... выделения из половых путей с необычным/неприятным запахом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_purulent_vaginal_discharge",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "повышение Т* тела ( 38* и выше); ... гнойные выделения из влагалища",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pelvic_pain",
+      "target": "symptom_unpleasant_discharge",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "тазовая боль или болезненная матка при пальпации; ... выделения из половых путей с необычным/неприятным запахом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malaise",
+      "target": "symptom_chills",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "недомогание, ... озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_band_neutrophils",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "лейкоцитоз 12,0 ·10 /л и более; палочкоядерные нейтрофилы 10 % и более",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "symptom_low_total_protein",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "увеличение СОЭ; снижение уровня общего белка плазмы крови",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "target": "diagnosis_other_postpartum_infections",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: N.71.0 – Острые воспалительные болезни матки О.86 – Другие послеродовые инфекции",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "target": "diagnosis_other_genital_tract_infections_postpartum",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: N.71.0 – Острые воспалительные болезни матки О.86.1 – Другие инфекции половых путей после родов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_acute_inflammatory_diseases_of_uterus",
+      "target": "diagnosis_other_specified_postpartum_infections",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: N.71.0 – Острые воспалительные болезни матки О.86.8 – Другие уточненные послеродовые инфекции",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_other_postpartum_infections",
+      "target": "diagnosis_other_genital_tract_infections_postpartum",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: О.86 – Другие послеродовые инфекции О.86.1 – Другие инфекции половых путей после родов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_other_postpartum_infections",
+      "target": "diagnosis_other_specified_postpartum_infections",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: О.86 – Другие послеродовые инфекции О.86.8 – Другие уточненные послеродовые инфекции",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_other_genital_tract_infections_postpartum",
+      "target": "diagnosis_other_specified_postpartum_infections",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: О.86.1 – Другие инфекции половых путей после родов О.86.8 – Другие уточненные послеродовые инфекции",
+      "properties": {}
+    }
+  ]
+}

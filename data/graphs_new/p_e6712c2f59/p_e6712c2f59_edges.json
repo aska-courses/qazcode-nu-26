@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_neperenosimost_kormleniya",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• непереносимость кормления;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vzdutie_bruta",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• вздутие живота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skrytaya_krov_v_stule",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• наличие «скрытой» крови;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boleznennost_bruta",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "вздутие живота, сопровождающееся болезненностью;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_peredney_stenki_bruta",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• отек передней стенки живота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedostupnost_peristaltiki",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• отсутствие или снижение перистальтики;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aspiraciya_zhyelchu_iz_zhudka",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• аспирaция из желудка с желчью;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krov_v_stule",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• наличие крови в стуле.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nestabilnaya_temperatura",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• нестабильная температура;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnoe",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "• апное;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stoykiy_atsidoz",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "стойкий ацидоз,",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trombocitopeniya",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "тромбоцитопения,",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemiya",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "анемия,",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neutropeniya",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "нейтропения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterialnaya_gipotenzia",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "артериальная гипотензия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oligouriya",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "олигоурия,",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shok",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "шок,",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belye_ptso",
+    "target": "diagnosis_nekr_oticheskij_enterokolit",
+    "type": "supports",
+    "weight": 0.85,
+    "evidence": "симптом «белого пятна» > 3 сек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vzdutie_bruta",
+    "target": "symptom_boleznennost_bruta",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "вздутие живота, сопровождающееся болезненностью;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arterialnaya_gipotenzia",
+    "target": "symptom_shok",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "артериальная гипотензия; • олигоурия, шок, симптом «белого пятна»> 3 сек",
+    "properties": {}
+  }
+]

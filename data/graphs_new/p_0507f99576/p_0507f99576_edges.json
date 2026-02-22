@@ -1,0 +1,402 @@
+[
+  {
+    "source": "symptom_frequent_bleeding",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "часто повторяющиеся или обильные кровотечения различного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_bleeding",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "часто повторяющиеся или обильные кровотечения различного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_fever",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "фебрильная лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_fever",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "фебрильная лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrile_fever",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "субфебрильная лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrile_fever",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "субфебрильная лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_infectious_disease",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_infectious_disease",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_osteomyelitis",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острый остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_osteomyelitis",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острый остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deep_vein_thrombosis",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острый тромбоз глубоких вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deep_vein_thrombosis",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острый тромбоз глубоких вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_rhythm_disturbance",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "осложненные нарушения ритма сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_rhythm_disturbance",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "осложненные нарушения ритма сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure_nyha_iv",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "сердечной недостаточности согласно IV функционального класса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure_nyha_iv",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "сердечной недостаточности согласно IV функционального класса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_tuberculosis",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "активная стадия всех форм туберкулеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_tuberculosis",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "активная стадия всех форм туберкулеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_neoplasm_iv_group",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "злокачественные новообразования (IV клиническая группа)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_neoplasm_iv_group",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "злокачественные новообразования (IV клиническая группа)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_insufficiency",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "недостаточность функции дыхания III степени и более",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_insufficiency",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "недостаточность функции дыхания III степени и более",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_lung_disease",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_lung_disease",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decompensated_diabetes",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decompensated_diabetes",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myxedema",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "микседема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myxedema",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "микседема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyrotoxicosis",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "тиреотоксикоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyrotoxicosis",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "тиреотоксикоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_failure",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "функциональная недостаточность печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_failure",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "функциональная недостаточность печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pancreatic_insufficiency",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "функциональная недостаточность поджелудочной железы III степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pancreatic_insufficiency",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "функциональная недостаточность поджелудочной железы III степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepsy_seizure",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "эпилепсия в приступный период",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepsy_seizure",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "эпилепсия в приступный период",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychiatric_disorder_desocialization",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "психические заболевания с десоциализацией личности, с расстройством эмоций и поведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychiatric_disorder_desocialization",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "психические заболевания с десоциализацией личности, с расстройством эмоций и поведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_skin_disease",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_skin_disease",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_scabies",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "чесотка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_scabies",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "чесотка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_skin_disease",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "грибковые заболевания кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fungal_skin_disease",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "грибковые заболевания кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia_grade_2_3",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "анемия 2‑3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia_grade_2_3",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "анемия 2‑3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dystrophy_grade_3",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "дистрофия 3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dystrophy_grade_3",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "дистрофия 3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_other_comorbidities_prevent_participation",
+    "target": "diagnosis_z50_8",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "иные сопутствующие заболевания, которые препятствуют активному участию в программе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_other_comorbidities_prevent_participation",
+    "target": "diagnosis_z92_5",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "иные сопутствующие заболевания, которые препятствуют активному участию в программе",
+    "properties": {}
+  }
+]

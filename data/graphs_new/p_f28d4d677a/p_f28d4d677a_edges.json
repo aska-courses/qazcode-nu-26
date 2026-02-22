@@ -1,0 +1,378 @@
+[
+  {
+    "source": "symptom_reduced_bhcg_rise",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сниженный или малый прирост βХГЧ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_gestational_sac_uterus",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при трансвагинальном УЗИ плодное яйцо в полости матки не визуализируется",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain_syndrome",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "абдоминальный болевой синдром в сочетании с положительным результатом теста на беременность в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_positive_urine_pregnancy_test",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "абдоминальный болевой синдром в сочетании с положительным результатом теста на беременность в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_abdomen",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "клиника «острого живота»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lower_abdominal_pain",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли внизу живота на фоне нарушений менструального цикла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrual_cycle_disturbance",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушений менструального цикла",
+    "properties": {}
+  },
+  {
+    "source": "symptom_menstrual_delay",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "после задержки менструации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spotting_bloody_discharge",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "мажущие кровянистые выделения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_mass",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "объёмное образование, тестоватой консистенции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tender_on_palpation",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненное при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_soft_uterus",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "матка увеличена в размерах и размягчена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_flattened_posterior_fornix",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "задний свод уплощён",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tender_posterior_fornix",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Болезненно при пальпации заднего свода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dark_brown_cervical_discharge",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "темно‑коричневые выделения из цервикального канала",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cervical_cyanosis",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цианоз шейки матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_gestational_sac_uterus",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При трубной беременности: отсутствие плодного яйца в полости матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_adnexa",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение придатков матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cul_de_sac_fluid",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "скопление жидкости в позадиматочном пространстве",
+    "properties": {}
+  },
+  {
+    "source": "symptom_empty_uterus",
+    "target": "diagnosis_o00_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пустая матка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_barrel_shaped_cervix",
+    "target": "diagnosis_o00_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бочкообразная шейка матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gestational_sac_below_internal_os",
+    "target": "diagnosis_o00_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плодное яйцо ниже уровня внутреннего зева шейки матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_blood_flow_around_sac",
+    "target": "diagnosis_o00",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие кровотока вокруг плодного мешка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visualized_interstitial_tube",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Визуализирована интерстициальная часть маточной трубы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mobile_sac_surrounded_myometrium",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "плодное яйцо подвижно, полностью окружено миометрием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vascular_pedicle",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Сосудистая ножка к плодному яйцу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_empty_uterine_cavity",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Пустая полость матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_interstitial_sac_thickness_less_5mm",
+    "target": "diagnosis_o00_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "окружено миометрием толщиной менее 5 мм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_abdomen",
+    "target": "symptom_lower_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "клиника «острого живота»; • боли внизу живота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_abdomen",
+    "target": "symptom_spotting_bloody_discharge",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "клиника «острого живота»; • мажущие кровянистые выделения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lower_abdominal_pain",
+    "target": "symptom_spotting_bloody_discharge",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "• боли внизу живота …; • мажущие кровянистые выделения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_mass",
+    "target": "symptom_tender_on_palpation",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "объёмное образование, тестоватой консистенции, болезненное при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpable_mass",
+    "target": "symptom_enlarged_soft_uterus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "объёмное образование …; матка увеличена в размерах и размягчена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tender_on_palpation",
+    "target": "symptom_enlarged_soft_uterus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "болезненное при пальпации; матка увеличена в размерах и размягчена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dark_brown_cervical_discharge",
+    "target": "symptom_cervical_cyanosis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "темно‑коричневые выделения …; цианоз шейки матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_gestational_sac_uterus",
+    "target": "symptom_enlarged_adnexa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие плодного яйца …; увеличение придатков матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_gestational_sac_uterus",
+    "target": "symptom_cul_de_sac_fluid",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отсутствие плодного яйца …; скопление жидкости в позадиматочном пространстве",
+    "properties": {}
+  },
+  {
+    "source": "symptom_empty_uterus",
+    "target": "symptom_barrel_shaped_cervix",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пустая матка; бочкообразная шейка матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_empty_uterus",
+    "target": "symptom_gestational_sac_below_internal_os",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пустая матка; плодное яйцо ниже уровня внутреннего зева шейки матки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visualized_interstitial_tube",
+    "target": "symptom_mobile_sac_surrounded_myometrium",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Визуализирована интерстициальная часть …; плодное яйцо подвижно, полностью окружено миометрием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visualized_interstitial_tube",
+    "target": "symptom_vascular_pedicle",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Визуализирована интерстициальная часть …; Сосудистая ножка к плодному яйцу",
+    "properties": {}
+  },
+  {
+    "source": "symptom_empty_uterine_cavity",
+    "target": "symptom_interstitial_sac_thickness_less_5mm",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Пустая полость матки; окружено миометрием толщиной менее 5 мм",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o00",
+    "target": "diagnosis_o00_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: О00 ... О00.0 Абдоминальная (брюшная) беременность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o00",
+    "target": "diagnosis_o00_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: О00 ... О00.1 Трубная беременность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o00",
+    "target": "diagnosis_o00_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: О00 ... О00.2 Яичниковая беременность",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o00",
+    "target": "diagnosis_o00_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: О00 ... О00.8 Другие формы внематочной беременности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_o00",
+    "target": "diagnosis_o00_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: О00 ... О00.9 Внематочная беременность неуточненная",
+    "properties": {}
+  }
+]

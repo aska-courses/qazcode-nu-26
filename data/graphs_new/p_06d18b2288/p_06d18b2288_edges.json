@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_gesatsionnyy_vozrast_ot_22_do_28_nedeli",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "К детям с крайней незрелостью относятся новорожденные с гестационным возрастом от 22 до 28 недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ekstremalno_nizkaya_massa_tela_pri_rozhdenii",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "К детям с крайней незрелостью относятся новорожденные ... массой тела 500-999г",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ochen_malaya_massa_tela_pri_rozhdenii",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "очень малая масса тела при рождении - масса тела при рождении менее 1500 г",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaya_massa_tela_pri_rozhdenii",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "малая масса тела при рождении – масса менее 2500г",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gesatsionnyy_vozrast_menee_28_nedeli",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: гестационный возраст менее 28 недель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_saharniy_diabet_u_matki",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: сахарный диабет у матери",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gesatsionnyy_diabet_u_matki",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: гестационный диабет у матери",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kesarevoe_sechenie",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: кесарево сечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_u_matki_vo_vremya_beremennosti",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: кровотечение у матери во время беременности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perinatalnaya_asfiksia",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: перинатальная асфиксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muzhskoy_pol",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: мужской пол",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mnogoplodnaya_beremennost",
+    "target": "diagnosis_roztrudstva_svyazannye_s_ukorocheniem_sroka_beremennosti_i_maloy_massoy_tela_pri_rozhdenii",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Факторы риска: многоплодная беременность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperoksikemiya",
+    "target": "symptom_bronkholegnaya_dispazija",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Следует избегать гипокапнии, поскольку она связана с повышенным риском бронхолегочной дисплазии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipotermiya_u_novorozhdennyh",
+    "target": "symptom_gesatsionnyy_vozrast_menee_28_nedeli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Для профилактики гипотермии новорожденных с гестационным возрастом менее 28 недель следует...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pnevmoniya",
+    "target": "symptom_sepsis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дифференциальный диагноз: ТТН, СУВ, пневмония, сепсис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pnevmoniya",
+    "target": "symptom_meningit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дифференциальный диагноз: ТТН, СУВ, пневмония, сепсис, менингит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "symptom_meningit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Дифференциальный диагноз: ТТН, СУВ, пневмония, сепсис, менингит",
+    "properties": {}
+  }
+]

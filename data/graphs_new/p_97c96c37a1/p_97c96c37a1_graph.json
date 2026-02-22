@@ -1,0 +1,303 @@
+{
+  "protocol_id": "p_97c96c37a1",
+  "nodes": [
+    {
+      "id": "diagnosis_c15",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование пищевода",
+      "icd_code": "C15"
+    },
+    {
+      "id": "diagnosis_c15_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование шейного отдела пищевода",
+      "icd_code": "C15.0"
+    },
+    {
+      "id": "diagnosis_c15_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование грудного отдела пищевода",
+      "icd_code": "C15.1"
+    },
+    {
+      "id": "diagnosis_c15_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование абдоминального отдела пищевода",
+      "icd_code": "C15.2"
+    },
+    {
+      "id": "diagnosis_c15_3",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование верхней трети пищевода",
+      "icd_code": "C15.3"
+    },
+    {
+      "id": "diagnosis_c15_4",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование средней трети пищевода",
+      "icd_code": "C15.4"
+    },
+    {
+      "id": "diagnosis_c15_5",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование нижней трети пищевода",
+      "icd_code": "C15.5"
+    },
+    {
+      "id": "diagnosis_c15_8",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование пищевода, выходящие за пределы одной и более локализаций",
+      "icd_code": "C15.8"
+    },
+    {
+      "id": "diagnosis_c15_9",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование пищевода, неуточненное",
+      "icd_code": "C15.9"
+    },
+    {
+      "id": "symptom_discomfort",
+      "type": "symptom",
+      "label": "Дискомфорт в грудной области"
+    },
+    {
+      "id": "symptom_heartburn",
+      "type": "symptom",
+      "label": "Жжение за грудиной при приеме пищи"
+    },
+    {
+      "id": "symptom_dysphagia",
+      "type": "symptom",
+      "label": "Дисфагия"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боли в грудной области"
+    },
+    {
+      "id": "symptom_regurgitation",
+      "type": "symptom",
+      "label": "Срыгивание только что съеденной пищи"
+    },
+    {
+      "id": "symptom_loss_of_appetite",
+      "type": "symptom",
+      "label": "Потеря аппетита"
+    },
+    {
+      "id": "symptom_weight_loss",
+      "type": "symptom",
+      "label": "Снижение веса"
+    },
+    {
+      "id": "symptom_adiamnia",
+      "type": "symptom",
+      "label": "Выраженная адинамия"
+    },
+    {
+      "id": "symptom_decreased_eye_luster",
+      "type": "symptom",
+      "label": "Уменьшение блеска и живости глаз"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность кожных покровов"
+    },
+    {
+      "id": "symptom_skin_dryness",
+      "type": "symptom",
+      "label": "Сухость кожи"
+    },
+    {
+      "id": "symptom_decreased_skin_turgor",
+      "type": "symptom",
+      "label": "Снижение тургора кожи"
+    },
+    {
+      "id": "symptom_cachexia",
+      "type": "symptom",
+      "label": "Кахексия"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Безбелковые отеки"
+    },
+    {
+      "id": "symptom_foul_breath",
+      "type": "symptom",
+      "label": "Зловонный запах изо рта"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_bleeding",
+      "type": "symptom",
+      "label": "Кровотечение"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_discomfort",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на дискомфорт ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heartburn",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на чувство жжение за грудиной при приеме пищи ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на дисфагию ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на боли в грудной области ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_regurgitation",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на срыгивание только что съеденной пищи ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_loss_of_appetite",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на потерю аппетита ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weight_loss",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на снижение веса ... при раке пищевода",
+      "properties": {}
+    },
+    {
+      "source": "symptom_adiamnia",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Положение больного при поздних стадиях рака пищевода, чаще вынужденное с выраженной адинамией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_eye_luster",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При осмотре лица – может встречаться уменьшение блеска и живости глаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Бледность кожных покровов может быть указанием на внутреннее кровотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_dryness",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В далеко зашедших стадиях рака пищевода отмечаются также сухость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_skin_turgor",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В далеко зашедших стадиях рака пищевода отмечаются также ... снижение её тургора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cachexia",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Выраженное похудание, достигающее степени кахексии, встречается при длительной дисфагии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В таких случаях у больных появляются и безбелковые отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bleeding",
+      "target": "diagnosis_c15",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Кровотечение – показание для экстренной госпитализации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort",
+      "target": "symptom_heartburn",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на дискомфорт, чувство жжение за грудиной при приеме пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort",
+      "target": "symptom_dysphagia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на дискомфорт ... дисфагию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heartburn",
+      "target": "symptom_dysphagia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на чувство жжение за грудиной ... дисфагию",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dysphagia",
+      "target": "symptom_weight_loss",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на дисфагию, снижение веса",
+      "properties": {}
+    }
+  ]
+}

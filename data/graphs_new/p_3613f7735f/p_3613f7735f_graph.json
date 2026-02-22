@@ -1,0 +1,231 @@
+{
+  "protocol_id": "p_3613f7735f",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "diagnosis",
+      "label": "Острый и подострый иридоциклит",
+      "icd_code": "Н20.0"
+    },
+    {
+      "id": "symptom_svetoboyazn",
+      "type": "symptom",
+      "label": "светобоязнь",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_slezotectenie",
+      "type": "symptom",
+      "label": "слезотечение",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_blefarospazm",
+      "type": "symptom",
+      "label": "блефароспазм",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bol_v_glazu",
+      "type": "symptom",
+      "label": "боль в глазу",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_snizhenie_ostrotosti_zreniya",
+      "type": "symptom",
+      "label": "снижение остроты зрения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ciliarnaia_boleznennost",
+      "type": "symptom",
+      "label": "цилиарная болезненность",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_povyshenie_oftalmotonusa",
+      "type": "symptom",
+      "label": "повышение офтальмотонуса",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ponizhenie_oftalmotonusa",
+      "type": "symptom",
+      "label": "понижение офтальмотонуса",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipopion",
+      "type": "symptom",
+      "label": "гипопион",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipertenzia",
+      "type": "symptom",
+      "label": "гипертензия (повышенное внутриглазное давление)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gipotenzia",
+      "type": "symptom",
+      "label": "гипотензия (пониженное внутриглазное давление)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zadnie_sinehii",
+      "type": "symptom",
+      "label": "задние синехии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_golovnye_boli",
+      "type": "symptom",
+      "label": "головные боли",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pretsipitaty",
+      "type": "symptom",
+      "label": "преципитаты",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_svetoboyazn",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: светобоязнь; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slezotectenie",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... слезотечение; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blefarospazm",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... блефароспазм; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_glazu",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... боль в глазу; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_ostrotosti_zreniya",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... снижение остроты зрения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ciliarnaia_boleznennost",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пальпация глазного яблока: цилиарная болезненность, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_oftalmotonusa",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение ... офтальмотонуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ponizhenie_oftalmotonusa",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "понижение ... офтальмотонуса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipopion",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Показания для плановой госпитализации: гипопион, гифема;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertenzia",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная гипо- или гипертензия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipotenzia",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженная гипо- или гипертензия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zadnie_sinehii",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задние синехии;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pretsipitaty",
+      "target": "diagnosis_ostryi_i_podostryi_iridotsiklit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие преципитатов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_svetoboyazn",
+      "target": "symptom_slezotectenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: светобоязнь; слезотечение; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blefarospazm",
+      "target": "symptom_bol_v_glazu",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: блефароспазм; боль в глазу; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_ostrotosti_zreniya",
+      "target": "symptom_bol_v_glazu",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... снижение остроты зрения; ... боль в глазу;",
+      "properties": {}
+    }
+  ]
+}

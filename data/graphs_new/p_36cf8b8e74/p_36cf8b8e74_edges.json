@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_visible_soft_tissue_injury_head",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие видимых повреждений мягких тканей головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_closed_superficial_soft_tissue_injury_head",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие закрытых поверхностных повреждений мягких тканей головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_soft_tissue_wound_head",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие раны мягких тканей головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_injury_site",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность в области повреждения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_presence",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "определения наличия инородных тел",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mild_anemia",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки анемии легкой степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slight_leukocytosis",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "незначительный лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_systemic_inflammatory_response",
+    "target": "diagnosis_open_wound_head",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "системных проявлений воспалительной реакции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_closed_superficial_soft_tissue_injury_head",
+    "target": "symptom_soft_tissue_wound_head",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наличие закрытых поверхностных повреждений мягких тканей головы … наличие раны мягких тканей головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mild_anemia",
+    "target": "symptom_slight_leukocytosis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "признаки анемии легкой степени, незначительный лейкоцитоз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_open_wound_head",
+    "target": "diagnosis_open_wound_scalp",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "S01 Открытая рана головы; S01.0 Открытая рана волосистой части головы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_open_wound_head",
+    "target": "diagnosis_multiple_open_wound_head",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "S01 Открытая рана головы; S01.7 Множественные открытые раны головы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_open_wound_head",
+    "target": "diagnosis_open_wound_other_head",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "S01 Открытая рана головы; S01.8 Открытая рана других частей головы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_open_wound_head",
+    "target": "diagnosis_open_wound_unspecified_head",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "S01 Открытая рана головы; S01.9 Открытая рана головы неуточненной локализации",
+    "properties": {}
+  }
+]

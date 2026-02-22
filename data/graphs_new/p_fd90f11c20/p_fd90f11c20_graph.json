@@ -1,0 +1,233 @@
+{
+  "protocol_id": "p_fd90f11c20",
+  "nodes": [
+    {
+      "id": "diagnosis_s00_0",
+      "type": "diagnosis",
+      "label": "Поверхностная травма волосистой части головы",
+      "icd_code": "S00.0"
+    },
+    {
+      "id": "diagnosis_s00_2",
+      "type": "diagnosis",
+      "label": "Поверхностные травмы века и окологлазничной области",
+      "icd_code": "S00.2"
+    },
+    {
+      "id": "diagnosis_s00_3",
+      "type": "diagnosis",
+      "label": "Поверхностная травма носа",
+      "icd_code": "S00.3"
+    },
+    {
+      "id": "diagnosis_s00_4",
+      "type": "diagnosis",
+      "label": "Поверхностная травма уха",
+      "icd_code": "S00.4"
+    },
+    {
+      "id": "diagnosis_s00_5",
+      "type": "diagnosis",
+      "label": "Поверхностная травма губы и полости рта",
+      "icd_code": "S00.5"
+    },
+    {
+      "id": "diagnosis_s00_7",
+      "type": "diagnosis",
+      "label": "Множественные поверхностные травмы головы",
+      "icd_code": "S00.7"
+    },
+    {
+      "id": "diagnosis_s00_8",
+      "type": "diagnosis",
+      "label": "Поверхностная травма других частей головы",
+      "icd_code": "S00.8"
+    },
+    {
+      "id": "diagnosis_s00_9",
+      "type": "diagnosis",
+      "label": "Поверхностная травма головы неуточненной локализации",
+      "icd_code": "S00.9"
+    },
+    {
+      "id": "symptom_boleznennost_v_oblasti_povrezhdeniya",
+      "type": "symptom",
+      "label": "Болезненность в области повреждения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nalichie_fluqtacii",
+      "type": "symptom",
+      "label": "Наличие флюктуации",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_napryazhennost_podkozhnoy_gematomy",
+      "type": "symptom",
+      "label": "Напряженность подкожной гематомы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_otssutstvie_klinicheskih_dannyh_za_cmt",
+      "type": "symptom",
+      "label": "Отсутствие клинических данных за ЧМТ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_tsvet_gematomy",
+      "type": "symptom",
+      "label": "Оценка цвета гематомы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ploschad_povrezhdeniya",
+      "type": "symptom",
+      "label": "Оценка площади повреждения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zakrytye_povrezhdeniya_mekkoj_tkany_glavy",
+      "type": "symptom",
+      "label": "Закрытые поверхностные повреждения мягких тканей головы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_otssutstvie_nevrologicheskoy_sintomatiky",
+      "type": "symptom",
+      "label": "Отсутствие неврологической симптоматики",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_anemiya_legkoy_stupeni",
+      "type": "symptom",
+      "label": "Признаки анемии легкой степени",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_neznachitelnyj_leukocitoz",
+      "type": "symptom",
+      "label": "Незначительный лейкоцитоз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_podkozhnye_gematomy",
+      "type": "symptom",
+      "label": "Подкожные гематомы",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_otssutstvie_nevrologicheskoy_sintomatiky",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Поверхностная травма головы – это повреждение волосистой части головы, без повреждений кожных покровов и отсутствие неврологической симптоматики.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zakrytye_povrezhdeniya_mekkoj_tkany_glavy",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие закрытых поверхностных повреждений мягких тканей головы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ploschad_povrezhdeniya",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "оценка ... площади повреждения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tsvet_gematomy",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "оценка цвета гематомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_povrezhdeniya",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в области повреждения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_fluqtacii",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие флюктуации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_napryazhennost_podkozhnoy_gematomy",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "напряженность подкожной гематомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podkozhnye_gematomy",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "по характеру повреждений: • подкожные гематомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya_legkoy_stupeni",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки анемии легкой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neznachitelnyj_leukocitoz",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "незначительный лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otssutstvie_klinicheskih_dannyh_za_cmt",
+      "target": "diagnosis_s00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отсутствие клинических данных за ЧМТ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_v_oblasti_povrezhdeniya",
+      "target": "symptom_nalichie_fluqtacii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болезненность в области повреждения; наличие флюктуации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_napryazhennost_podkozhnoy_gematomy",
+      "target": "symptom_podkozhnye_gematomy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "напряженность подкожной гематомы … подкожные гематомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemiya_legkoy_stupeni",
+      "target": "symptom_neznachitelnyj_leukocitoz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "признаки анемии легкой степени, незначительный лейкоцитоз",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "protocol_id": "p_acfa58bd5b",
+  "nodes": [
+    {
+      "id": "symptom_obmorok",
+      "type": "symptom",
+      "label": "обморок",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_polurobmorok",
+      "type": "symptom",
+      "label": "полуобморочное состояние",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_golovokruzhenie",
+      "type": "symptom",
+      "label": "головокружение",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pristupy_serdtsebieniya",
+      "type": "symptom",
+      "label": "приступы сердцебиения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_odyskha",
+      "type": "symptom",
+      "label": "одышка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bol_v_grudnoi_kletke",
+      "type": "symptom",
+      "label": "боль в грудной клетке",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ustalost",
+      "type": "symptom",
+      "label": "усталость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nevrologicheskie_komplikatsii",
+      "type": "symptom",
+      "label": "неврологические осложнения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_transientnaya_fibrillatsiya_predserdii",
+      "type": "symptom",
+      "label": "транзиторная фибрилляция предсердий",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_trepetanie_predserdii",
+      "type": "symptom",
+      "label": "трепетание предсердия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_jizneugrozhaushchie_aritmii",
+      "type": "symptom",
+      "label": "жизнеугрожающие аритмии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_av_blokada",
+      "type": "symptom",
+      "label": "АВ-блокада",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_zheluochkovaya_tahikardiya",
+      "type": "symptom",
+      "label": "желудочковая тахикардия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_chastoje_synkope",
+      "type": "symptom",
+      "label": "частое синкопэ",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_koagulopatii",
+      "type": "symptom",
+      "label": "коагулопатии",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lihozhadka_neyasnogo_genez",
+      "type": "symptom",
+      "label": "лихорадка неясного генеза",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_aktivnyj_infekcionnyj_protsess",
+      "type": "symptom",
+      "label": "активный инфекционный процесс",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_ritma_serdtsa",
+      "type": "symptom",
+      "label": "нарушение ритма сердца",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_simptomy_podobnye_obmoroku",
+      "type": "symptom",
+      "label": "симптомы, подобные обмороку",
+      "icd_code": null
+    },
+    {
+      "id": "diagnosis_syncope",
+      "type": "diagnosis",
+      "label": "синкопа",
+      "icd_code": "R55"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_obmorok",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "обмороки неясного генеза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polurobmorok",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "полуобморочные состояния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovokruzhenie",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эпизодические головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupy_serdtsebieniya",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Приступы сердцебиения с редкими синкопальными эпизодами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyskha",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эпизодическая кратковременная одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_grudnoi_kletke",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в грудной клетке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ustalost",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "усталость, которая не имеет объяснений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_komplikatsii",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврологические осложнения, которые вызваны транзиторной фибрилляцией и трепетанием предсердия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_transientnaya_fibrillatsiya_predserdii",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "транзиторная фибрилляция предсердий",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trepetanie_predserdii",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "трепетание предсердия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_simptomy_podobnye_obmoroku",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомами, подобными обморку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_ritma_serdtsa",
+      "target": "diagnosis_syncope",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушений ритма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obmorok",
+      "target": "symptom_polurobmorok",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "обмороки неясного генеза, полуобморочные состояния и эпизодические головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obmorok",
+      "target": "symptom_golovokruzhenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "обмороки неясного генеза, полуобморочные состояния и эпизодические головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polurobmorok",
+      "target": "symptom_golovokruzhenie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "обмороки неясного генеза, полуобморочные состояния и эпизодические головокружения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyskha",
+      "target": "symptom_bol_v_grudnoi_kletke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эпизодическая кратковременная одышка, боли в грудной клетке или усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyskha",
+      "target": "symptom_ustalost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эпизодическая кратковременная одышка, боли в грудной клетке или усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_grudnoi_kletke",
+      "target": "symptom_ustalost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "эпизодическая кратковременная одышка, боли в грудной клетке или усталость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_komplikatsii",
+      "target": "symptom_transientnaya_fibrillatsiya_predserdii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологические осложнения, которые вызваны транзиторной фибрилляцией и трепетанием предсердия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevrologicheskie_komplikatsii",
+      "target": "symptom_trepetanie_predserdii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологические осложнения, которые вызваны транзиторной фибрилляцией и трепетанием предсердия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_transientnaya_fibrillatsiya_predserdii",
+      "target": "symptom_trepetanie_predserdii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "неврологические осложнения, которые вызваны транзиторной фибрилляцией и трепетанием предсердия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jizneugrozhaushchie_aritmii",
+      "target": "symptom_av_blokada",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие жизнеугрожающих аритмий: АВ-блокада, желудочковая тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jizneugrozhaushchie_aritmii",
+      "target": "symptom_zheluochkovaya_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие жизнеугрожающих аритмий: АВ-блокада, желудочковая тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_av_blokada",
+      "target": "symptom_zheluochkovaya_tahikardiya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "наличие жизнеугрожающих аритмий: АВ-блокада, желудочковая тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koagulopatii",
+      "target": "symptom_lihozhadka_neyasnogo_genez",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при тяжёлых коагулопатиях; при лихорадках неясного генеза, возможно инфекционная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koagulopatii",
+      "target": "symptom_aktivnyj_infekcionnyj_protsess",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при тяжёлых коагулопатиях; при лихорадках неясного генеза, возможно инфекционная; не леченный активный инфекционный процесс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihozhadka_neyasnogo_genez",
+      "target": "symptom_aktivnyj_infekcionnyj_protsess",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при лихорадках неясного генеза, возможно инфекционная; не леченный активный инфекционный процесс",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "protocol_id": "p_399de5c43f",
+  "nodes": [
+    {
+      "id": "diagnosis_congenital_bladder_diverticulum",
+      "type": "diagnosis",
+      "label": "Врожденный дивертикул мочевого пузыря",
+      "icd_code": "Q64.6"
+    },
+    {
+      "id": "symptom_dizuriya",
+      "type": "symptom",
+      "label": "дизурия"
+    },
+    {
+      "id": "symptom_double_micturition",
+      "type": "symptom",
+      "label": "симптом двойного мочеиспускания"
+    },
+    {
+      "id": "symptom_muddy_urine",
+      "type": "symptom",
+      "label": "мутная моча"
+    },
+    {
+      "id": "symptom_sac_like_protrusion",
+      "type": "symptom",
+      "label": "мешковидное выпячивание при пальпации"
+    },
+    {
+      "id": "symptom_emptied_on_pressure",
+      "type": "symptom",
+      "label": "опорожнение при надавливании"
+    },
+    {
+      "id": "symptom_leukocyturia",
+      "type": "symptom",
+      "label": "лейкоцитурия"
+    },
+    {
+      "id": "symptom_bacteriuria",
+      "type": "symptom",
+      "label": "бактериурия"
+    },
+    {
+      "id": "symptom_cystic_formation",
+      "type": "symptom",
+      "label": "округлое кистозное образование в паравезикальном пространстве"
+    },
+    {
+      "id": "symptom_recurrent_uw_infections",
+      "type": "symptom",
+      "label": "рецидивирующие воспаления мочевыводящих путей"
+    },
+    {
+      "id": "symptom_residual_urine",
+      "type": "symptom",
+      "label": "остаточная моча"
+    },
+    {
+      "id": "symptom_concrements",
+      "type": "symptom",
+      "label": "конкременты"
+    },
+    {
+      "id": "symptom_tumors",
+      "type": "symptom",
+      "label": "опухоли"
+    },
+    {
+      "id": "symptom_large_diverticulum",
+      "type": "symptom",
+      "label": "большой размер дивертикула"
+    },
+    {
+      "id": "symptom_compression_of_adjacent_organs",
+      "type": "symptom",
+      "label": "сдавление соседних органов"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_dizuriya",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дизурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_double_micturition",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптом двойного мочеиспускания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muddy_urine",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменения цвета мочи (мутная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sac_like_protrusion",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мешковидное выпячивание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emptied_on_pressure",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "опорожнение при надавливании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bacteriuria",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cystic_formation",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "округлого кистозного образование в паравезикальном пространстве",
+      "properties": {}
+    },
+    {
+      "source": "symptom_recurrent_uw_infections",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рецидивирующие воспаления мочевыводящих путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_residual_urine",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие остаточной мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_concrements",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие конкрементов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tumors",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие опухолей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_large_diverticulum",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "большой размер дивертикула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_compression_of_adjacent_organs",
+      "target": "diagnosis_congenital_bladder_diverticulum",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сдавление соседних органов",
+      "properties": {}
+    }
+  ]
+}

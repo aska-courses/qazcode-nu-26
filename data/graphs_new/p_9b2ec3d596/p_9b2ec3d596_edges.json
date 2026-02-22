@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_bol_v_oblasti_anat_tab",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль и отек в области «анатомической табакерки» у основания большого пальца или другой части костей запястья кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_oblasti_anat_tab",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль и отек в области «анатомической табакерки» у основания большого пальца или другой части костей запястья кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_kisti",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "нарушение функции кисти (ограничения движения в суставах, снижение/отсутствие хватательной способности кисти)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_otkrytyh_perelomov",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кровотечение при открытых переломах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pozitivnyy_simptom_osovoi_nagruzki",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "положительный симптом осевой нагрузки на 1 палец",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolestnaya_palpatsiya",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "болезненная пальпация сломанной кости ... в зоне «анатомической табакерки»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichennye_dvizheniya_luchezapastnyh_sustavov",
+    "target": "diagnosis_perelom_ladvyevnoy_kosti",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "ограниченные и болезненные движения в лучезапястном суставе, особенно при отклонении кисти в лучевую и тыльную стороны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_anat_tab",
+    "target": "diagnosis_perelom_kosti_zapjasti_i_pjastnyh_kostey",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль и отек в области «анатомической табакерки» у основания большого пальца или другой части костей запястья кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_v_oblasti_anat_tab",
+    "target": "diagnosis_perelom_kosti_zapjasti_i_pjastnyh_kostey",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "боль и отек в области «анатомической табакерки» у основания большого пальца или другой части костей запястья кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_funkcii_kisti",
+    "target": "diagnosis_perelom_kosti_zapjasti_i_pjastnyh_kostey",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "нарушение функции кисти (ограничения движения в суставах, снижение/отсутствие хватательной способности кисти)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_anat_tab",
+    "target": "diagnosis_perelom_drugoy_i_neutochnennoy_kosti_zapjastya_i_pjastnoy_chasti",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль и отек в области «анатомической табакерки» у основания большого пальца или другой части костей запястья кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_anat_tab",
+    "target": "symptom_otek_v_oblasti_anat_tab",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "боль и отек в области «анатомической табакерки» у основания большого пальца или другой части костей запястья кисти",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_anat_tab",
+    "target": "symptom_narushenie_funkcii_kisti",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль и отек ...; нарушение функции кисти (ограничения движения ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_otkrytyh_perelomov",
+    "target": "symptom_pozitivnyy_simptom_osovoi_nagruzki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровотечение при открытых переломах; положительный симптом осевой нагрузки на 1 палец",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_perelom_ladvyevnoy_kosti",
+    "target": "diagnosis_perelom_kosti_zapjasti_i_pjastnyh_kostey",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "перелом ладьевидной кости, костей запястья",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_perelom_ladvyevnoy_kosti",
+    "target": "diagnosis_perelom_drugoy_i_neutochnennoy_kosti_zapjastya_i_pjastnoy_chasti",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Перелом ладьевидной кости, костей запястья ... Перелом другой и неуточнённой кости запястья и пястной части",
+    "properties": {}
+  }
+]

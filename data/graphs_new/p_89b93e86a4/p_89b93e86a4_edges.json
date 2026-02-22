@@ -1,0 +1,458 @@
+[
+  {
+    "source": "diagnosis_c20",
+    "target": "diagnosis_c21",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C20 ... C21 ... пациенты ... имеющие ... код МКБ С 20-21",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_bleeding",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "часто повторяющиеся или обильные кровотечения различного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_frequent_bleeding",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "часто повторяющиеся или обильные кровотечения различного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_fever",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_fever",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_diseases",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острый остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osteomyelitis",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острый остеомиелит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deep_vein_thrombosis",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острый тромбоз глубоких вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deep_vein_thrombosis",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острый тромбоз глубоких вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_arrhythmia",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "осложненные нарушения ритма сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_arrhythmia",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "осложненные нарушения ритма сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "сердечной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "сердечной недостаточности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuberculosis_active",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "активная стадия всех форм туберкулеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuberculosis_active",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "активная стадия всех форм туберкулеза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "недостаточность функции дыхания III степени и более",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "недостаточность функции дыхания III степени и более",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_infections",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_infections",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "различные гнойные (легочные) заболевания, при значительной интоксикации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metabolic_diseases",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metabolic_diseases",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_failure",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "функциональная недостаточность печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_failure",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "функциональная недостаточность печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pancreas_failure",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "функциональная недостаточность поджелудочной железы III степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pancreas_failure",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "функциональная недостаточность поджелудочной железы III степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepsy",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "эпилепсия в приступный период",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepsy",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "эпилепсия в приступный период",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychic_disorders",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "психические заболевания с десоциализацией личности, с расстройством эмоций и поведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychic_disorders",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "психические заболевания с десоциализацией личности, с расстройством эмоций и поведения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_infections",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_infections",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "анемия 2‑3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "анемия 2‑3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_distrophy",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "дистрофия 3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_distrophy",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "дистрофия 3 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_concomitant_diseases",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "сопутствующие заболевания, препятствующие активному участию в программе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_concomitant_diseases",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "сопутствующие заболевания, препятствующие активному участию в программе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_stomatitis",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "рецидивирующее рожистое воспаление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_stomatitis",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "рецидивирующее рожистое воспаление",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphedema_therapy_contraindication",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "противопоказание к терапии снятия лимфатических отеков при рецидиве или метастазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphedema_therapy_contraindication",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "противопоказание к терапии снятия лимфатических отеков при рецидиве или метастазах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_heart_failure",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "декомпенсированная хроническая сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_heart_failure",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "декомпенсированная хроническая сердечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "неконтролируемая артериальная гипертензия (АД > 180/110 мм рт. ст.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "неконтролируемая артериальная гипертензия (АД > 180/110 мм рт. ст.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_arrhythmia",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "злокачественные аритмии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_arrhythmia",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "злокачественные аритмии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_vessel_pathology",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "выраженная патология периферических сосудов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_vessel_pathology",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "выраженная патология периферических сосудов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_hypertension",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "легочная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_hypertension",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "легочная гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aortic_aneurysm",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "аневризма и тромбозы различных отделов аорты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aortic_aneurysm",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "аневризма и тромбозы различных отделов аорты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_neoplasms_stageIII",
+    "target": "diagnosis_c20",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "злокачественные новообразования III клинической группы при подозрении на наличие метастазирования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_neoplasms_stageIII",
+    "target": "diagnosis_c21",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "злокачественные новообразования III клинической группы при подозрении на наличие метастазирования",
+    "properties": {}
+  }
+]

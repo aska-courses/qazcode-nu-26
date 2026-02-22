@@ -1,0 +1,579 @@
+{
+  "protocol_id": "p_5f2e0faaa5",
+  "nodes": [
+    {
+      "id": "diagnosis_gaucher_disease",
+      "type": "diagnosis",
+      "label": "Болезнь Гоше",
+      "icd_code": "E75.2"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "повышенная утомляемость"
+    },
+    {
+      "id": "symptom_infection_susceptibility",
+      "type": "symptom",
+      "label": "повышенная восприимчивость к инфекциям"
+    },
+    {
+      "id": "symptom_respiratory_infection",
+      "type": "symptom",
+      "label": "респираторные инфекции"
+    },
+    {
+      "id": "symptom_bacterial_infection",
+      "type": "symptom",
+      "label": "бактериальные инфекции"
+    },
+    {
+      "id": "symptom_hemorrhagic_syndrome",
+      "type": "symptom",
+      "label": "геморрагический синдром"
+    },
+    {
+      "id": "symptom_subcutaneous_hematoma",
+      "type": "symptom",
+      "label": "подкожные гематомы"
+    },
+    {
+      "id": "symptom_mucosal_bleeding",
+      "type": "symptom",
+      "label": "кровоточивость слизистых оболочек"
+    },
+    {
+      "id": "symptom_prolonged_bleeding",
+      "type": "symptom",
+      "label": "длительные кровотечения"
+    },
+    {
+      "id": "symptom_bone_joint_pain",
+      "type": "symptom",
+      "label": "болевой синдром в костях и суставах"
+    },
+    {
+      "id": "symptom_delayed_physical_development",
+      "type": "symptom",
+      "label": "задержка физического развития"
+    },
+    {
+      "id": "symptom_delayed_sexual_development",
+      "type": "symptom",
+      "label": "задержка полового развития"
+    },
+    {
+      "id": "symptom_gaze_apraxia",
+      "type": "symptom",
+      "label": "глазодвигательная апраксия"
+    },
+    {
+      "id": "symptom_convergent_strabismus",
+      "type": "symptom",
+      "label": "сходящееся косоглазие"
+    },
+    {
+      "id": "symptom_muscle_hypertonia",
+      "type": "symptom",
+      "label": "гипертонус мышц"
+    },
+    {
+      "id": "symptom_ataxia",
+      "type": "symptom",
+      "label": "атаксия"
+    },
+    {
+      "id": "symptom_intellectual_loss",
+      "type": "symptom",
+      "label": "потеря интеллекта"
+    },
+    {
+      "id": "symptom_sensory_disturbance",
+      "type": "symptom",
+      "label": "нарушения чувствительности"
+    },
+    {
+      "id": "symptom_abdominal_distension",
+      "type": "symptom",
+      "label": "увеличение объема живота"
+    },
+    {
+      "id": "symptom_hepatosplenomegaly",
+      "type": "symptom",
+      "label": "гепатоспленомегалия"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "лимфаденопатия"
+    },
+    {
+      "id": "symptom_skin_hyperpigmentation",
+      "type": "symptom",
+      "label": "гиперпигментация кожи"
+    },
+    {
+      "id": "symptom_edema_of_feet_and_hands",
+      "type": "symptom",
+      "label": "отек стоп и кистей"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_delayed_psychomotor_skills",
+      "type": "symptom",
+      "label": "задержка психомоторных навыков"
+    },
+    {
+      "id": "symptom_collodial_skin",
+      "type": "symptom",
+      "label": "коллодиевая кожа"
+    },
+    {
+      "id": "symptom_cirrhosis",
+      "type": "symptom",
+      "label": "цирроз печени"
+    },
+    {
+      "id": "symptom_abnormal_eye_movements",
+      "type": "symptom",
+      "label": "аномальные движения глазных яблок"
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_pancytopenia",
+      "type": "symptom",
+      "label": "панцитопения"
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "тромбоцитопения"
+    },
+    {
+      "id": "symptom_leukopenia",
+      "type": "symptom",
+      "label": "лейкопения"
+    },
+    {
+      "id": "symptom_kyphosis",
+      "type": "symptom",
+      "label": "кифоз"
+    },
+    {
+      "id": "symptom_osteoporosis",
+      "type": "symptom",
+      "label": "остеопороз"
+    },
+    {
+      "id": "symptom_bone_fractures",
+      "type": "symptom",
+      "label": "переломы костей"
+    },
+    {
+      "id": "symptom_restrictive_lung_disease",
+      "type": "symptom",
+      "label": "рестриктивная болезнь легких"
+    },
+    {
+      "id": "symptom_pulmonary_hypertension",
+      "type": "symptom",
+      "label": "легочная гипертензия"
+    },
+    {
+      "id": "symptom_early_death",
+      "type": "symptom",
+      "label": "ранняя смерть"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• слабость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• повышенная утомляемость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_susceptibility",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "• повышенная восприимчивость к инфекциям (респираторные инфекций, бактериальные);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_infection",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "респираторные инфекций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bacterial_infection",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бактериальные",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "проявления геморрагического синдрома (подкожные гематомы, кровоточивости слизистых оболочек), и/или длительные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subcutaneous_hematoma",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "подкожные гематомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucosal_bleeding",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровоточивости слизистых оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_prolonged_bleeding",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "длительные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_joint_pain",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженный болевой синдром в костях и суставах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delayed_physical_development",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка физического и полового развития",
+      "properties": {}
+    },
+    {
+      "source": "symptom_delayed_sexual_development",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка физического и полового развития",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gaze_apraxia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "глазодвигательная апраксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_convergent_strabismus",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сходящееся косоглазие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_muscle_hypertonia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гипертонус мышц",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ataxia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "атаксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intellectual_loss",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потеря интеллекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sensory_disturbance",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушения чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_distension",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение объема живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatosplenomegaly",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выявление гепатоспленомегалии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лимфаденопатии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_hyperpigmentation",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперпигментации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pancytopenia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "панцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukopenia",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kyphosis",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кифоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osteoporosis",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "остеопороз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bone_fractures",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "переломы костей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_restrictive_lung_disease",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рестриктивная болезнь легких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_hypertension",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легочная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_early_death",
+      "target": "diagnosis_gaucher_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ранняя смерть",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "symptom_fatigue",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "• слабость; • повышенная утомляемость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_susceptibility",
+      "target": "symptom_respiratory_infection",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышенная восприимчивость к инфекциям (респираторные инфекций, бактериальные)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infection_susceptibility",
+      "target": "symptom_bacterial_infection",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышенная восприимчивость к инфекциям (респираторные инфекций, бактериальные)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "symptom_subcutaneous_hematoma",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "проявления геморрагического синдрома (подкожные гематомы, кровоточивости слизистых оболочек)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "symptom_mucosal_bleeding",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "проявления геморрагического синдрома (подкожные гематомы, кровоточивости слизистых оболочек)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "symptom_prolonged_bleeding",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "и/или длительные кровотечения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gaze_apraxia",
+      "target": "symptom_convergent_strabismus",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "глазодвигательная апраксия или сходящееся косоглазие",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ataxia",
+      "target": "symptom_intellectual_loss",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "атаксия, потеря интеллекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ataxia",
+      "target": "symptom_sensory_disturbance",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "атаксия, нарушения чувствительности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatosplenomegaly",
+      "target": "symptom_lymphadenopathy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "выявление гепатоспленомегалии, лимфаденопатии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_pancytopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анемия, панцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_thrombocytopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анемия, тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anemia",
+      "target": "symptom_leukopenia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "анемия, лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kyphosis",
+      "target": "symptom_osteoporosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "кифоз, остеопороз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_restrictive_lung_disease",
+      "target": "symptom_pulmonary_hypertension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рестриктивная болезнь легких, легочная гипертензия",
+      "properties": {}
+    }
+  ]
+}

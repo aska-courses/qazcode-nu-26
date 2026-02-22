@@ -1,0 +1,463 @@
+{
+  "protocol_id": "p_83dcf8744c",
+  "nodes": [
+    {
+      "id": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "diagnosis",
+      "label": "Височно-нижнечелюстный артрит",
+      "icd_code": "K07.6"
+    },
+    {
+      "id": "symptom_skonost_cheludi",
+      "type": "symptom",
+      "label": "Ощущение скованности и нарушение подвижности нижней челюсти"
+    },
+    {
+      "id": "symptom_nepodyemnost_cheludi",
+      "type": "symptom",
+      "label": "Полная неподвижность нижней челюсти после покоя"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_sustava",
+      "type": "symptom",
+      "label": "Болевые ощущения в области сустава"
+    },
+    {
+      "id": "symptom_bol_v_uhu",
+      "type": "symptom",
+      "label": "Боль, перекидывающаяся в область уха"
+    },
+    {
+      "id": "symptom_bol_v_jazyke",
+      "type": "symptom",
+      "label": "Боль, перекидывающаяся в область языка"
+    },
+    {
+      "id": "symptom_bol_v_viske",
+      "type": "symptom",
+      "label": "Боль, перекидывающаяся в область виска"
+    },
+    {
+      "id": "symptom_narushenie_zhevatelnoy_funkcii",
+      "type": "symptom",
+      "label": "Нарушение жевательных функций"
+    },
+    {
+      "id": "symptom_narushenie_rechovoy_funkcii",
+      "type": "symptom",
+      "label": "Нарушение речевых функций"
+    },
+    {
+      "id": "symptom_obshchee_nedomoganie",
+      "type": "symptom",
+      "label": "Общее недомогание"
+    },
+    {
+      "id": "symptom_golovokruzhenie",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_asimetriya_lica",
+      "type": "symptom",
+      "label": "Умеренная асимметрия лица"
+    },
+    {
+      "id": "symptom_otek_mekhkih_tkanei",
+      "type": "symptom",
+      "label": "Отёк мягких тканей в области сустава"
+    },
+    {
+      "id": "symptom_pokraskivenie_kozhi",
+      "type": "symptom",
+      "label": "Покраснение кожных покровов"
+    },
+    {
+      "id": "symptom_diskomfort_pri_palpatsii",
+      "type": "symptom",
+      "label": "Дискомфорт при пальпации области сустава"
+    },
+    {
+      "id": "symptom_shurshanie_hrust_shelkanye",
+      "type": "symptom",
+      "label": "Шуршание, хруст, щелканье сустава при движении"
+    },
+    {
+      "id": "symptom_smeshenie_podborodka",
+      "type": "symptom",
+      "label": "Смещение подбородка в сторону повреждённого сустава"
+    },
+    {
+      "id": "symptom_ne_ravnomernoe_rasshirenie_sustavnoj_shcheli",
+      "type": "symptom",
+      "label": "Неравномерное расширение или сужение суставной щели на рентгенограмме"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_lica",
+      "type": "symptom",
+      "label": "Боль в области лица"
+    },
+    {
+      "id": "symptom_bol_odnostoronnyaya",
+      "type": "symptom",
+      "label": "Односторонняя боль"
+    },
+    {
+      "id": "symptom_bol_strielayushchaya",
+      "type": "symptom",
+      "label": "Стреляющая боль"
+    },
+    {
+      "id": "symptom_bol_vnizhenie_vruchnaya",
+      "type": "symptom",
+      "label": "Внезапно наступающая боль"
+    },
+    {
+      "id": "symptom_bol_na_sekundy",
+      "type": "symptom",
+      "label": "Боль длительностью несколько секунд"
+    },
+    {
+      "id": "symptom_bol_na_dni_nedeli",
+      "type": "symptom",
+      "label": "Боль длительная несколько дней или недель"
+    },
+    {
+      "id": "symptom_bol_rasprostranenie_trypichny_nerv",
+      "type": "symptom",
+      "label": "Боль, распространяющаяся в области, иннервируемой тройничным нервом"
+    },
+    {
+      "id": "symptom_chastota_pristupov",
+      "type": "symptom",
+      "label": "Частота приступов боли"
+    },
+    {
+      "id": "symptom_obostrenie_hozy",
+      "type": "symptom",
+      "label": "Обострение в холодное время года"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_skonost_cheludi",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы на ощущение скованности и нарушение нормальной подвижности нижней челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepodyemnost_cheludi",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "вплоть до полной неподвижности после продолжительного состояния покоя челюсти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_sustava",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевые ощущения различной силы и продолжительности в области сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_uhu",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перекидывающиеся иногда в область уха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_jazyke",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перекидывающиеся иногда в область языка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_viske",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перекидывающиеся иногда в область виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevatelnoy_funkcii",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на нарушение жевательных ... функций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_rechovoy_funkcii",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на нарушение речевых функций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchee_nedomoganie",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общее недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovokruzhenie",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_lica",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "умеренная асимметрия лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_mekhkih_tkanei",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк мягких тканей в области воспаленного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokraskivenie_kozhi",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "покраснение кожных покров",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diskomfort_pri_palpatsii",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ощущение дискомфорта при пальпации области сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shurshanie_hrust_shelkanye",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "шуршание, хруст, щелканье сустава при движении",
+      "properties": {}
+    },
+    {
+      "source": "symptom_smeshenie_podborodka",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "смещение подбородка в сторону поврежденного сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ne_ravnomernoe_rasshirenie_sustavnoj_shcheli",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неравномерное расширение или сужение суставной щели",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_lica",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль в области лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_odnostoronnyaya",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Односторонняя боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_strielayushchaya",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Стреляющая боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_vnizhenie_vruchnaya",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Внезапно наступающая боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_na_sekundy",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль длительностью несколько секунд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_na_dni_nedeli",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль длительная несколько дней или недель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_rasprostranenie_trypichny_nerv",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боль, распространяющаяся в области, иннервируемой тройничным нервом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chastota_pristupov",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Частота приступов боли",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obostrenie_hozy",
+      "target": "diagnosis_visochno_nizhnechelyustny_artirit",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "в холодное время года",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_uhu",
+      "target": "symptom_bol_v_jazyke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перекидывающиеся иногда в область уха, языка, виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_uhu",
+      "target": "symptom_bol_v_viske",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перекидывающиеся иногда в область уха, языка, виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_jazyke",
+      "target": "symptom_bol_v_viske",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перекидывающиеся иногда в область уха, языка, виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_lica",
+      "target": "symptom_otek_mekhkih_tkanei",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "умеренная асимметрия лица за счет отека мягких тканей в области воспаленного сустава, покраснение кожных покров",
+      "properties": {}
+    },
+    {
+      "source": "symptom_asimetriya_lica",
+      "target": "symptom_pokraskivenie_kozhi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "умеренная асимметрия лица за счет отека мягких тканей в области воспаленного сустава, покраснение кожных покров",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_mekhkih_tkanei",
+      "target": "symptom_pokraskivenie_kozhi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "умеренная асимметрия лица за счет отека мягких тканей в области воспаленного сустава, покраснение кожных покров",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skonost_cheludi",
+      "target": "symptom_nepodyemnost_cheludi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жалобы на ощущение скованности и нарушение нормальной подвижности нижней челюсти, вплоть до полной неподвижности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_zhevatelnoy_funkcii",
+      "target": "symptom_narushenie_rechovoy_funkcii",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на нарушение жевательных и речевых функций",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_sustava",
+      "target": "symptom_bol_v_uhu",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болевые ощущения ... в области сустава, перекидывающиеся иногда в область уха, языка, виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_sustava",
+      "target": "symptom_bol_v_jazyke",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болевые ощущения ... в области сустава, перекидывающиеся иногда в область уха, языка, виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_sustava",
+      "target": "symptom_bol_v_viske",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болевые ощущения ... в области сустава, перекидывающиеся иногда в область уха, языка, виска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_лица",
+      "target": "symptom_bol_odnostoronnyaya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боль в области лица ... обычно односторонняя, стреляющая, внезапно наступающая",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_лица",
+      "target": "symptom_bol_strielayushchaya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боль в области лица ... обычно односторонняя, стреляющая, внезапно наступающая",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_лица",
+      "target": "symptom_bol_vnizhenie_vruchnaya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боль в области лица ... обычно односторонняя, стреляющая, внезапно наступающая",
+      "properties": {}
+    }
+  ]
+}

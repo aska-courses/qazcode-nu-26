@@ -1,0 +1,345 @@
+{
+  "protocol_id": "p_799c44a99d",
+  "nodes": [
+    {
+      "id": "diagnosis_impetigo",
+      "type": "diagnosis",
+      "label": "Импетиго",
+      "icd_code": "L01.0"
+    },
+    {
+      "id": "diagnosis_other_local_infections",
+      "type": "diagnosis",
+      "label": "Другие местные инфекции кожи и подкожной клетчатки",
+      "icd_code": "L08.0"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "Кожные высыпания"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "Болезненность в области очагов поражения"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "Зуд"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "Местное повышение температуры"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "Везикулы/буллы (пузырьки)"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "Слизисто‑гнойный экссудат"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "Корки медово‑желтого цвета"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "Пустулы"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "Эрозии"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "Покраснение кожи"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "Отек"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "Жжение"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "Лихорадка"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "Гиперемия кожи"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "Сухость кожи и трещины"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "Конъюнктивит"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "Пятнистые высыпания"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "Полиморфная сыпь"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "Папулы"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "Инфильтраты"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "Субэпидермальные пузырьки"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "Отечность ладоней и подошв"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кожные высыпания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кожные высыпания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Реже: болезненность в области очагов поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Реже: болезненность в области очагов поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Реже: зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Реже: зуд",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Реже: местное повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Реже: местное повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "везикулы / буллы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "везикулы / буллы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слизисто‑гнойный экссудат",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "слизисто‑гнойный экссудат",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_impetigo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "корки медово‑желтого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_other_local_infections",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "корки медово‑желтого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "везикулы / буллы, слизисто‑гнойный экссудат",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "везикулы / буллы, корки медово‑желтого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "слизисто‑гнойный экссудат, корки медово‑желтого цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_21",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "внутриэпидермальные пузырьки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "symptom_20",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "папулы, папулезные инфильтраты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "symptom_22",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наряду с пустулами имеются папулы, папулезные инфильтраты; отечность ладоней и подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "symptom_22",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наряду с пустулами имеются папулы, папулезные инфильтраты; отечность ладоней и подошв",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "symptom_11",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "покраснение кожи, отек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "symptom_14",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "покраснение кожи ... гиперемия кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_14",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отек ... гиперемия кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_9",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "На месте вскрывшихся пузырьков образуются эрозии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_21",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "внутриэпидермальные пузырьки ... эрозии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_impetigo",
+      "target": "diagnosis_other_local_infections",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ–10: L01.0 Импетиго; L08.0 Другие местные инфекции кожи и подкожной клетчатки",
+      "properties": {}
+    }
+  ]
+}

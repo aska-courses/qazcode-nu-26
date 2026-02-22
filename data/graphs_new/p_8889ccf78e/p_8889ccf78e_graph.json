@@ -1,0 +1,434 @@
+{
+  "protocol_id": "p_8889ccf78e",
+  "nodes": [
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры"
+    },
+    {
+      "id": "symptom_high_fever",
+      "type": "symptom",
+      "label": "высокая температура"
+    },
+    {
+      "id": "symptom_moderate_intoxication",
+      "type": "symptom",
+      "label": "умеренно выраженная интоксикация"
+    },
+    {
+      "id": "symptom_weak_intoxication",
+      "type": "symptom",
+      "label": "слабая интоксикация"
+    },
+    {
+      "id": "symptom_rash",
+      "type": "symptom",
+      "label": "высыпания (сыпь)"
+    },
+    {
+      "id": "symptom_maculopapulovesicular_rash",
+      "type": "symptom",
+      "label": "макуло‑папуло‑везикулезная сыпь"
+    },
+    {
+      "id": "symptom_vesicular_lesions",
+      "type": "symptom",
+      "label": "везикулярные элементы"
+    },
+    {
+      "id": "symptom_false_polymorphism",
+      "type": "symptom",
+      "label": "ложный полиморфизм сыпи"
+    },
+    {
+      "id": "symptom_papule",
+      "type": "symptom",
+      "label": "папула"
+    },
+    {
+      "id": "symptom_vesicle",
+      "type": "symptom",
+      "label": "везикула"
+    },
+    {
+      "id": "symptom_crust",
+      "type": "symptom",
+      "label": "корочка"
+    },
+    {
+      "id": "symptom_brain_edema",
+      "type": "symptom",
+      "label": "отёк головного мозга"
+    },
+    {
+      "id": "symptom_seizures",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "головная боль"
+    },
+    {
+      "id": "symptom_dic",
+      "type": "symptom",
+      "label": "ДВС‑синдром"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "сепсис"
+    },
+    {
+      "id": "symptom_multi_organ_failure",
+      "type": "symptom",
+      "label": "полиорганная патология"
+    },
+    {
+      "id": "symptom_hemorrhagic_syndrome",
+      "type": "symptom",
+      "label": "геморрагический синдром"
+    },
+    {
+      "id": "symptom_skin_bleeding",
+      "type": "symptom",
+      "label": "кровоизлияния в кожу"
+    },
+    {
+      "id": "symptom_nasal_bleeding",
+      "type": "symptom",
+      "label": "кровоизлияния из носа"
+    },
+    {
+      "id": "symptom_gastrointestinal_bleeding",
+      "type": "symptom",
+      "label": "кровоизлияния в ЖКТ"
+    },
+    {
+      "id": "symptom_hemoptysis",
+      "type": "symptom",
+      "label": "кровохарканье"
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "гематурия"
+    },
+    {
+      "id": "symptom_neuralgia",
+      "type": "symptom",
+      "label": "болевой синдром (опоясывающий герпес)"
+    },
+    {
+      "id": "symptom_consciousness_disturbance",
+      "type": "symptom",
+      "label": "нарушение сознания"
+    },
+    {
+      "id": "symptom_respiratory_failure",
+      "type": "symptom",
+      "label": "острая дыхательная недостаточность"
+    },
+    {
+      "id": "symptom_cardiovascular_failure",
+      "type": "symptom",
+      "label": "острая сердечно‑сосудистая недостаточность"
+    },
+    {
+      "id": "diagnosis_varicella",
+      "type": "diagnosis",
+      "label": "Ветряная оспа",
+      "icd_code": "В01"
+    },
+    {
+      "id": "diagnosis_varicella_without_complications",
+      "type": "diagnosis",
+      "label": "Ветряная оспа без осложнений",
+      "icd_code": "В01.0"
+    },
+    {
+      "id": "diagnosis_varicella_meningitis",
+      "type": "diagnosis",
+      "label": "Ветряная оспа с менингитом",
+      "icd_code": "В01.1"
+    },
+    {
+      "id": "diagnosis_varicella_encephalitis",
+      "type": "diagnosis",
+      "label": "Ветряная оспа с энцефалитом",
+      "icd_code": "В01.2"
+    },
+    {
+      "id": "diagnosis_varicella_pneumonia",
+      "type": "diagnosis",
+      "label": "Ветряная оспа с пневмонией",
+      "icd_code": "В01.8"
+    },
+    {
+      "id": "diagnosis_varicella_other_complications",
+      "type": "diagnosis",
+      "label": "Ветряная оспа с другими осложнениями",
+      "icd_code": "В01.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rash",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "появление высыпаний.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_moderate_intoxication",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "умеренно выраженная интоксикация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_intoxication",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие слабой интоксикации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maculopapulovesicular_rash",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сыпь макуло‑папуло‑везикулезная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vesicular_lesions",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "везикулярные элементы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papule",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "папула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vesicle",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "везикула",
+      "properties": {}
+    },
+    {
+      "source": "symptom_crust",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "корочка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_false_polymorphism",
+      "target": "diagnosis_varicella",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "«ложного полиморфизма»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_syndrome",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженным геморрагическим синдромом, который проявляется в виде геморрагического содержимого пузырьков, кровоизлияний в кожу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_brain_edema",
+      "target": "diagnosis_varicella_encephalitis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при отеке головного мозга – оксигенотерапия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizures",
+      "target": "diagnosis_varicella_encephalitis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "при судорогах – диазепам",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_varicella_meningitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сильная головная боль",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dic",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ДВС‑синдром",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нередко заболевание осложняется сепсисом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_multi_organ_failure",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "полиорганной патологией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_skin_bleeding",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияний в кожу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_bleeding",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияний из носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gastrointestinal_bleeding",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровоизлияний в ЖКТ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemoptysis",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровохарканье",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hematuria",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_failure",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "острая дыхательная недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cardiovascular_failure",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "острая сердечно‑сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_varicella",
+      "target": "diagnosis_varicella_meningitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Ветряная оспа с менингитом – В01.1",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_varicella",
+      "target": "diagnosis_varicella_encephalitis",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Ветряная оспа с энцефалитом – В01.2",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_varicella",
+      "target": "diagnosis_varicella_pneumonia",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Ветряная оспа с пневмонией – В01.8",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_varicella",
+      "target": "diagnosis_varicella_other_complications",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Ветряная оспа с другими осложнениями – В01.9",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_rash",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры; появление высыпаний.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rash",
+      "target": "symptom_false_polymorphism",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«ложного полиморфизма» сыпи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vesicle",
+      "target": "symptom_crust",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "везикула ... корочка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papule",
+      "target": "symptom_vesicle",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "папула, которая в свою очередь через несколько часов превращается в везикулу",
+      "properties": {}
+    }
+  ]
+}

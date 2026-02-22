@@ -1,0 +1,370 @@
+[
+  {
+    "source": "symptom_snizhenie_zhvision",
+    "target": "symptom_plenka_pered_glazami",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: • снижение зрения; • пленка перед глазами;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_zhvision",
+    "target": "symptom_pokrastenie_glaza",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: • снижение зрения; • покраснение глаза;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_zhvision",
+    "target": "symptom_bol_v_glazu",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: • снижение зрения; • боль в глазу;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plenka_pered_glazami",
+    "target": "symptom_pokrastenie_glaza",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: • пленка перед глазами; • покраснение глаза;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plenka_pered_glazami",
+    "target": "symptom_bol_v_glazu",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: • пленка перед глазами; • боль в глазу;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokrastenie_glaza",
+    "target": "symptom_bol_v_glazu",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: • покраснение глаза; • боль в глазу;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vysokaya_ostrot_a_zhvision",
+    "target": "symptom_neeffektivnost_opticheskoy_korrektcii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "высокая острота зрения/низкая острота зрения/отсутствие зрения, с неэффективностью оптической коррекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkaya_ostrot_a_zhvision",
+    "target": "symptom_neeffektivnost_opticheskoy_korrektcii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "высокая острота зрения/низкая острота зрения/отсутствие зрения, с неэффективностью оптической коррекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_zhvision",
+    "target": "symptom_neeffektivnost_opticheskoy_korrektcii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "высокая острота зрения/низкая острота зрения/отсутствие зрения, с неэффективностью оптической коррекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_konjunktiva_bledno_rozovaya",
+    "target": "symptom_konjunktiva_zastoynaya_injektsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "конъюнктива бледно-розовая/застойная инъекция",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasshirenie_sklereynyh_sosudov",
+    "target": "symptom_izvitost_sklereynyh_sosudov",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "локальное расширение и извитость склеральных сосудов соответственно локализации образования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_prozrachnaya",
+    "target": "symptom_rogovitsa_otechnaia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица прозрачная/отечная при сопутствующей глаукоме",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_prozrachnaya",
+    "target": "symptom_rogovitsa_imbibirovannaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица прозрачная/имбибирована при гифеме",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_prozrachnaya",
+    "target": "symptom_rogovitsa_sukhaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица прозрачная/сухая, изъязвлена при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_prozrachnaya",
+    "target": "symptom_rogovitsa_izyazvlennaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица прозрачная/изъязвленная при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_otechnaia",
+    "target": "symptom_rogovitsa_imbibirovannaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица отечная при сопутствующей глаукоме/имбибирована при гифеме",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_otechnaia",
+    "target": "symptom_rogovitsa_sukhaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица отечная/сухая, изъязвлена при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_otechnaia",
+    "target": "symptom_rogovitsa_izyazvlennaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "роговица отечная/изъязвленная при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_imbibirovannaya",
+    "target": "symptom_rogovitsa_sukhaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "имбибирована при гифеме/сухая, изъязвлена при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_imbibirovannaya",
+    "target": "symptom_rogovitsa_izyazvlennaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "имбибирована при гифеме/изъязвленная при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rogovitsa_sukhaya",
+    "target": "symptom_rogovitsa_izyazvlennaya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сухая, изъязвлена при прорастании в орбиту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prominiruyushchee_obrazovanie_na_raduzhke",
+    "target": "symptom_chetkiye_granitsy_obrazovaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "проминирующее образование ... с четкими границами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_prominiruyushchee_obrazovanie_na_raduzhke",
+    "target": "symptom_nechetkiye_granitsy_obrazovaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "проминирующее образование ... с нечеткими границами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ploskoe_obrazovanie_na_raduzhke",
+    "target": "symptom_chetkiye_granitsy_obrazovaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "плоское образование с четкими границами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ploskoe_obrazovanie_na_raduzhke",
+    "target": "symptom_nechetkiye_granitsy_obrazovaniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "плоское образование с нечеткими границами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chetkiye_granitsy_obrazovaniya",
+    "target": "symptom_pigmentirovannoe_obrazovanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "четкие границы образования, пигментированное",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chetkiye_granitsy_obrazovaniya",
+    "target": "symptom_rozovatoe_obrazovanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "четкие границы образования, розоватое образование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nechetkiye_granitsy_obrazovaniya",
+    "target": "symptom_pigmentirovannoe_obrazovanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нечеткие границы образования, пигментированное",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nechetkiye_granitsy_obrazovaniya",
+    "target": "symptom_rozovatoe_obrazovanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нечеткие границы образования, розоватое образование",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pigmentirovannoe_obrazovanie",
+    "target": "symptom_sobstvennye_sosudy_v_obrazovanii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пигментированное образование с собственными сосудами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rozovatoe_obrazovanie",
+    "target": "symptom_sobstvennye_sosudy_v_obrazovanii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "розоватое образование с собственными сосудами",
+    "properties": {}
+  },
+  {
+    "source": "symptom_novoobrazovannye_sosudy_na_raduzhke",
+    "target": "symptom_sobstvennye_sosudy_v_obrazovanii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "новообразованные сосуды на радужке ... собственные сосуды в образовании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovoplivanie_v_peredney_kamere",
+    "target": "symptom_krovoplivanie_v_steklovidnom_tеле",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровоизлияния в передней камере/стекловидном теле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otsloika_nad_opukholeyu",
+    "target": "symptom_intraretinalnyj_otek",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "серозная отслойка над опухолью; интраретинальный отек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intraretinalnyj_otek",
+    "target": "symptom_utolshenie_pigmentnogo_epitelija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "интраретинальный отек, утолщение пигментного эпителия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utolshenie_pigmentnogo_epitelija",
+    "target": "symptom_utolshenie_neuroepitelija",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "утолщение пигментного эпителия, утолщение нейроэпителия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utolshenie_neuroepitelija",
+    "target": "symptom_kisty",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "утолщение нейроэпителия, кисты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kisty",
+    "target": "symptom_druzy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кисты, друзы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_druzy",
+    "target": "symptom_uvelichenie_tolshchiny_setchatki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "друзы, увеличение толщины сетчатки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_tolshchiny_setchatki",
+    "target": "symptom_prominirovanie_horoidalnogo_profila",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличение толщины сетчатки; проминирование хориоидального профиля",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutrioglavnoe_davlenie_povysheno",
+    "target": "symptom_vnutrioglavnoe_davlenie_norma",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "внутриглазное давление в пределах нормы/повышено при сопутствующей глаукоме",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tena_na_sklere",
+    "target": "symptom_prorastanie_v_ugol_peredney_kamery",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тень на склере соответственно локализации образования; прорастание в угол передней камеры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plus_tkany_v_polosti_steklovidnogo_tела",
+    "target": "symptom_horoidalnaya_ekskavatsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "«плюс»-ткань в полости стекловидного тела ... хориоидальная экскавация в зоне «плюс»-ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutritkanevyy_potok",
+    "target": "symptom_variabelnye_skory_krovotoka",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "внутритканевой поток ... вариабельные скорости кровотока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_variabelnye_skory_krovotoka",
+    "target": "symptom_retinotumoralnye_anastomozy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "вариабельные скорости кровотока ... ретинотуморальные анастомозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plus_tkany_pri_ciliokhoroidalnoj_lokalizatsii",
+    "target": "symptom_horoidalnaya_ekskavatsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "«плюс»-ткань при цилиохориоидальной локализации ... хориоидальная экскавация",
+    "properties": {}
+  }
+]

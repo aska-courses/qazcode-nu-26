@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_deformatsiya_sheni",
+    "target": "diagnosis_vrozhdennaya_deformatsiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  деформация шеи;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_dvizheniya_golovy",
+    "target": "diagnosis_vrozhdennaya_deformatsiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  ограничение движения головы;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_lica",
+    "target": "diagnosis_vrozhdennaya_deformatsiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы:  асимметрия лица.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "target": "diagnosis_vrozhdennaya_deformatsiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При осмотре отмечается:  вынужденное положение головы больного;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_upolotnenie_grudno_klyuchichno_soscevijdnoj_myshtsy",
+    "target": "diagnosis_vrozhdennaya_deformatsiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации отмечается:  уплотнение и укорочение грудино-ключично-сосцевидной мышцы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ukorochenie_grudno_klyuchichno_soscevijdnoj_myshtsy",
+    "target": "diagnosis_vrozhdennaya_deformatsiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "При пальпации отмечается:  уплотнение и укорочение грудино-ключично-сосцевидной мышцы.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformatsiya_sheni",
+    "target": "symptom_ogranichenie_dvizheniya_golovy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  деформация шеи;  ограничение движения головы;  асимметрия лица.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformatsiya_sheni",
+    "target": "symptom_asimetriya_lica",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  деформация шеи;  ограничение движения головы;  асимметрия лица.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ogranichenie_dvizheniya_golovy",
+    "target": "symptom_asimetriya_lica",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы:  деформация шеи;  ограничение движения головы;  асимметрия лица.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "target": "symptom_asimetriya_lica",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При осмотре отмечается:  вынужденное положение головы больного;  асимметрия лица;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vynuzhdennoe_polozhenie_golovy",
+    "target": "symptom_ogranichenie_dvizheniya_golovy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При осмотре отмечается:  вынужденное положение головы больного;  ограничения движения головой.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_upolotnenie_grudno_klyuchichno_soscevijdnoj_myshtsy",
+    "target": "symptom_ukorochenie_grudno_klyuchichno_soscevijdnoj_myshtsy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "При пальпации отмечается:  уплотнение и укорочение грудино-ключично-сосцевидной мышцы.",
+    "properties": {}
+  }
+]

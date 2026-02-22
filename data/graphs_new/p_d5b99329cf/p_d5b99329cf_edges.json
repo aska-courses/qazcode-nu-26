@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_bol_v_oblasti_kosti",
+    "target": "diagnosis_d16_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в области пораженного участка кости или сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_patologicheskaya_podvizhnost",
+    "target": "diagnosis_d16_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "патологическую подвижность в пораженном сегменте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_dvigatelnoj_funkcii",
+    "target": "diagnosis_d16_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение двигательной функции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_mekhkih_tkanei",
+    "target": "diagnosis_d16_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек мягких тканей пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osovye_deformatsii",
+    "target": "diagnosis_d16_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "осевая деформация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_oblasti_kosti",
+    "target": "symptom_patologicheskaya_podvizhnost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в области пораженного участка кости или сустава; патологическую подвижность в пораженном сегменте",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_mekhkih_tkanei",
+    "target": "symptom_vynuzdennoe_polozhenie_konechnosti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек мягких тканей пораженной конечности; вынужденное положение пораженной конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osovye_deformatsii",
+    "target": "symptom_ukorocheniye_konechnosti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "осевая деформация; укорочение конечности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d16_0",
+    "target": "diagnosis_d16_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ-10: D 16.0 ... D 16.1 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d16_2",
+    "target": "diagnosis_d16_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Коды по МКБ-10: D 16.2 ... D 16.3 ...",
+    "properties": {}
+  }
+]

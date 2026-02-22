@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_odyshka",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "индекс одышки по Шкале Борга> 3 ... стеснение в груди, одышка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stesnenie_v_grudi",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стеснение в груди, одышка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, головная боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovnaya_bol",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, головная боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pomutnenie_zreniya",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "помутнение зрения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uchashchennoe_serdtsebitie",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "учащенное сердцебиение, не уменьшающееся при остановке;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnaya_potlivost",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обильная потливость и нарушение баланса;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_balansa",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обильная потливость и нарушение баланса;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в груди;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_nogah",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боль в ногах;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysennaya_temperatura",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "температура> 38,0 ° C;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gipoksiya",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипоксия (низкая сатурация крови кислородом);",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachikardia",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тахикардия;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_sat_kr",
+    "target": "j18_pneumonia_without_pathogen_specification",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уровень насыщения крови кислородом ≤91%;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odyshka",
+    "target": "symptom_stesnenie_v_grudi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "стеснение в груди, одышка;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "symptom_golovnaya_bol",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "головокружение, головная боль;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obilnaya_potlivost",
+    "target": "symptom_narushenie_balansa",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "обильная потливость и нарушение баланса;",
+    "properties": {}
+  }
+]

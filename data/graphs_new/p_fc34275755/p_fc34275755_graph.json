@@ -1,0 +1,902 @@
+{
+  "protocol_id": "p_fc34275755",
+  "nodes": [
+    {
+      "id": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "type": "symptom",
+      "label": "затрудненное носовое дыхание"
+    },
+    {
+      "id": "symptom_krovotochivost_iz_nosa",
+      "type": "symptom",
+      "label": "кровоточивость из носа"
+    },
+    {
+      "id": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "type": "symptom",
+      "label": "обильное слизистое отделяемое из полости носа"
+    },
+    {
+      "id": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "type": "symptom",
+      "label": "появление опухолевого образования в просвете полости носа"
+    },
+    {
+      "id": "symptom_golovnye_boli",
+      "type": "symptom",
+      "label": "головные боли"
+    },
+    {
+      "id": "symptom_zlovonnyj_zapakh",
+      "type": "symptom",
+      "label": "зловонный запах"
+    },
+    {
+      "id": "symptom_deformaciya_lica",
+      "type": "symptom",
+      "label": "деформация лица"
+    },
+    {
+      "id": "symptom_ekzoftalm",
+      "type": "symptom",
+      "label": "экзофтальм"
+    },
+    {
+      "id": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "type": "symptom",
+      "label": "костный дефект твердого неба и альвеолярного отростка верхней челюсти"
+    },
+    {
+      "id": "diagnosis_sz0_0_hriusha_nosa",
+      "type": "diagnosis",
+      "label": "Хряща носа",
+      "icd_code": "СЗ0.0"
+    },
+    {
+      "id": "diagnosis_sz0_0_rakovin_nosovyh",
+      "type": "diagnosis",
+      "label": "Раковин носовых",
+      "icd_code": "СЗ0.0"
+    },
+    {
+      "id": "diagnosis_sz0_0_vnutrennej_chasti_nosa",
+      "type": "diagnosis",
+      "label": "Внутренней части носа",
+      "icd_code": "СЗ0.0"
+    },
+    {
+      "id": "diagnosis_sz0_0_pergorodki_nosa",
+      "type": "diagnosis",
+      "label": "Перегородки носа",
+      "icd_code": "СЗ0.0"
+    },
+    {
+      "id": "diagnosis_sz0_0_preddviriya_nosa",
+      "type": "diagnosis",
+      "label": "Преддверия носа",
+      "icd_code": "СЗ0.0"
+    },
+    {
+      "id": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "diagnosis",
+      "label": "Верхнечелюстной пазухи",
+      "icd_code": "С31.0"
+    },
+    {
+      "id": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "diagnosis",
+      "label": "Решетчатой пазухи",
+      "icd_code": "С31.1"
+    },
+    {
+      "id": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "diagnosis",
+      "label": "Лобной пазухи",
+      "icd_code": "С31.2"
+    },
+    {
+      "id": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "diagnosis",
+      "label": "Клиновидной пазухи",
+      "icd_code": "С31.3"
+    },
+    {
+      "id": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "diagnosis",
+      "label": "Поражение придаточных пазух, выходящее за пределы одной и более вышеуказанных локализаций",
+      "icd_code": "С31.8"
+    },
+    {
+      "id": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "diagnosis",
+      "label": "Придаточной пазухи неуточненное",
+      "icd_code": "С31.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  на затрудненное носовое дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  на затрудненное носовое дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  на затрудненное носовое дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  на затрудненное носовое дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  на затрудненное носовое дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  на затрудненное носовое дыхание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы:  головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  зловонный запах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  зловонный запах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  зловонный запах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  зловонный запах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  зловонный запах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  зловонный запах;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ekzoftalm",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы:  экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "target": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  костный дефект твердого неба и альвеолярного отростка верхней челюсти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  костный дефект твердого неба и альвеолярного отростка верхней челюсти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  костный дефект твердого неба и альвеолярного отростка верхней челюсти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  костный дефект твердого неба и альвеолярного отростка верхней челюсти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  костный дефект твердого неба и альвеолярного отростка верхней челюсти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  костный дефект твердого неба и альвеолярного отростка верхней челюсти.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_krovotochivost_iz_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • кровоточивость из носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_golovnye_boli",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_zlovonnyj_zapakh",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • зловонный запах (упоминается в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_deformaciya_lica",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • деформация лица (упоминается в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • экзофтальм (упоминается в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_nosovoe_dykhanie",
+      "target": "symptom_kostnyj_defekt_tverdogo_neba_i_alveolarnogo_otrostka_verhnej_cheludi",
+      "type": "co-occurs",
+      "weight": 0.25,
+      "evidence": "Жалобы: • на затрудненное носовое дыхание; • костный дефект твердого неба и альвеолярного отростка верхней челюсти (упоминается только в IV стадии).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • кровоточивость из носа; • обильное слизистое отделяемое из полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • кровоточивость из носа; • появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "symptom_golovnye_boli",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • кровоточивость из носа; • головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "symptom_zlovonnyj_zapakh",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость из носа; • зловонный запах (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "symptom_deformaciya_lica",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость из носа; • деформация лица (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_iz_nosa",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • кровоточивость из носа; • экзофтальм (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "symptom_poyavlenie_opukholnogo_obrazovaniya_v_prosvete_polosti_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • обильное слизистое отделяемое из полости носа; • появление опухолевого образования в просвете полости носа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "symptom_golovnye_boli",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • обильное слизистое отделяемое из полости носа; • головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "symptom_zlovonnyj_zapakh",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • обильное слизистое отделяемое из полости носа; • зловонный запах (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "symptom_deformaciya_lica",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • обильное слизистое отделяемое из полости носа; • деформация лица (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obilnoe_slizistoe_otdelenie_iz_polosti_nosa",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • обильное слизистое отделяемое из полости носа; • экзофтальм (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "symptom_golovnye_boli",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • появление опухолевого образования в просвете полости носа; • головные боли;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "symptom_zlovonnyj_zapakh",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление опухолевого образования в просвете полости носа; • зловонный запах (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "symptom_deformaciya_lica",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление опухолевого образования в просвете полости носа; • деформация лица (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poyavlenie_opukholnogo_obrazovaniя_v_prosvete_polosti_nosa",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • появление опухолевого образования в просвете полости носа; • экзофтальм (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "symptom_zlovonnyj_zapakh",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • головные боли; • зловонный запах (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "symptom_deformaciya_lica",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • головные боли; • деформация лица (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_golovnye_boli",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: • головные боли; • экзофтальм (в более поздних стадиях).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "symptom_deformaciya_lica",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • зловонный запах; • деформация лица;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zlovonnyj_zapakh",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • зловонный запах; • экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformaciya_lica",
+      "target": "symptom_ekzoftalm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • деформация лица; • экзофтальм;",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "target": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_0_verhnejchelyustnoj_pazuhy",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "target": "diagnosis_c31_2_lobnoj_pazuhy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_1_reshetchatoy_pazuhy",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_2_lobnoj_pazuhy",
+      "target": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_2_lobnoj_pazuhy",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_2_lobnoj_pazuhy",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "target": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_3_klinovidnoj_pazuhy",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c31_8_porazhenie_pridatochnyh_pazuh",
+      "target": "diagnosis_c31_9_pridatochnaya_pazuh_neutochnennaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "злокачественные опухоли полости носа, придаточных пазух и клетки решетчатого лабиринта",
+      "properties": {}
+    }
+  ]
+}

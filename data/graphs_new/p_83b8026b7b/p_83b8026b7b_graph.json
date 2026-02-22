@@ -1,0 +1,521 @@
+{
+  "protocol_id": "p_83b8026b7b",
+  "nodes": [
+    {
+      "id": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "diagnosis",
+      "label": "Токсическое действие разъедающих веществ",
+      "icd_code": "T54"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_throat_pain",
+      "type": "symptom",
+      "label": "Боль в горле"
+    },
+    {
+      "id": "symptom_esophageal_pain",
+      "type": "symptom",
+      "label": "Боль в пищеводе"
+    },
+    {
+      "id": "symptom_epigastric_pain",
+      "type": "symptom",
+      "label": "Боль в эпигастрии"
+    },
+    {
+      "id": "symptom_general_weakness",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Затруднённое дыхание"
+    },
+    {
+      "id": "symptom_oral_mucosa_edema",
+      "type": "symptom",
+      "label": "Отёк слизистой ротовой полости"
+    },
+    {
+      "id": "symptom_zeva",
+      "type": "symptom",
+      "label": "Зева"
+    },
+    {
+      "id": "symptom_laryngeal_edema",
+      "type": "symptom",
+      "label": "Отёк гортани"
+    },
+    {
+      "id": "symptom_studnev_surface",
+      "type": "symptom",
+      "label": "Студневидная поверхность слизистой"
+    },
+    {
+      "id": "symptom_hemorrhagic_vomitus",
+      "type": "symptom",
+      "label": "Кровавые рвотные массы"
+    },
+    {
+      "id": "symptom_epigastric_tenderness",
+      "type": "symptom",
+      "label": "Болезненность в эпигастрии при пальпации"
+    },
+    {
+      "id": "symptom_lung_auscultation_abnormal",
+      "type": "symptom",
+      "label": "Аускультативные изменения в лёгких"
+    },
+    {
+      "id": "symptom_reduced_breathing",
+      "type": "symptom",
+      "label": "Ослабленное дыхание"
+    },
+    {
+      "id": "symptom_dry_rales",
+      "type": "symptom",
+      "label": "Сухие хрипы"
+    },
+    {
+      "id": "symptom_wet_rales",
+      "type": "symptom",
+      "label": "Влажные хрипы"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_painful_shock",
+      "type": "symptom",
+      "label": "Болевой шок"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_metabolic_acidosis",
+      "type": "symptom",
+      "label": "Метаболический ацидоз"
+    },
+    {
+      "id": "symptom_elevated_transaminases",
+      "type": "symptom",
+      "label": "Повышенные трансаминазы (АЛТ, АСТ)"
+    },
+    {
+      "id": "symptom_elevated_urea_creatinine",
+      "type": "symptom",
+      "label": "Повышенные азотистые шлаки (мочевина, креатинин)"
+    },
+    {
+      "id": "symptom_increased_hematocrit",
+      "type": "symptom",
+      "label": "Увеличенный гематокрит"
+    },
+    {
+      "id": "symptom_coagulogram_changes",
+      "type": "symptom",
+      "label": "Изменения в коагулограмме"
+    },
+    {
+      "id": "symptom_colliquative_necrosis",
+      "type": "symptom",
+      "label": "Колликвационный некроз (при ожогах щелочами)"
+    },
+    {
+      "id": "symptom_coagulative_necrosis",
+      "type": "symptom",
+      "label": "Коагуляционный некроз (при ожогах кислотами)"
+    },
+    {
+      "id": "symptom_postburn_complications",
+      "type": "symptom",
+      "label": "Постожоговые осложнения"
+    },
+    {
+      "id": "symptom_hypoxia_brain",
+      "type": "symptom",
+      "label": "Гипоксия мозга"
+    },
+    {
+      "id": "symptom_headache",
+      "type": "symptom",
+      "label": "Головная боль"
+    },
+    {
+      "id": "symptom_seizure",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "Патологическая аритмия"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "Брадикардия"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Артериальная гипертензия"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Артериальная гипотензия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: тошнота, рвота, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: тошнота, рвота, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_throat_pain",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мучительные боли в горле, по ходу пищевода, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_esophageal_pain",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мучительные боли в горле, по ходу пищевода, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "мучительные боли в горле, по ходу пищевода, эпигастрии, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_weakness",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общую слабость, головокружение, затруднённое дыхание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizziness",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общую слабость, головокружение, затруднённое дыхание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общую слабость, головокружение, затруднённое дыхание.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oral_mucosa_edema",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк и набухание слизистой ротовой полости, зева, гортани, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zeva",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк и набухание слизистой ротовой полости, зева, гортани, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_laryngeal_edema",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёк и набухание слизистой ротовой полости, зева, гортани, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_studnev_surface",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рыхлая, пораженная поверхность – студневидная, со стекловидным оттенком, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hemorrhagic_vomitus",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кровавые рвотные массы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_tenderness",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность в эпигастрии при пальпации, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lung_auscultation_abnormal",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аускультативно в лёгких, ослабленное дыхание, сухие и влажные хрипы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_breathing",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аускультативно в лёгких, ослабленное дыхание, сухие и влажные хрипы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_rales",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухие и влажные хрипы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_wet_rales",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухие и влажные хрипы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия, болевой шок.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_painful_shock",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тахикардия, болевой шок.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз (при присоединении бактериальной инфекции);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_acidosis",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метаболический ацидоз;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_transaminases",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение трансаминаз (АЛТ, АСТ), ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_urea_creatinine",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение трансаминаз (АЛТ, АСТ), азотистых шлаков (мочевина, креатинин);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_hematocrit",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение гематокрита (при гиповолемии);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coagulogram_changes",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение в коагулограмме.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxia_brain",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ГБО: Показания: при развитии гипоксии мозга.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_headache",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тошнота, рвота, головная боль, головокружение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "судороги",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая аритмия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Брадикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_toxic_effect_corrosive_substances",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: тошнота, рвота, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_throat_pain",
+      "target": "symptom_esophageal_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "мучительные боли в горле, по ходу пищевода, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epigastric_pain",
+      "target": "symptom_epigastric_tenderness",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "болезненность в эпигастрии при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_rales",
+      "target": "symptom_wet_rales",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сухие и влажные хрипы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "symptom_painful_shock",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "тахикардия, болевой шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "symptom_metabolic_acidosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "лейкоцитоз ...; метаболический ацидоз;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_transaminases",
+      "target": "symptom_elevated_urea_creatinine",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение трансаминаз (АЛТ, АСТ), азотистых шлаков (мочевина, креатинин);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_increased_hematocrit",
+      "target": "symptom_coagulogram_changes",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "увеличение гематокрита ...; изменение в коагулограмме.",
+      "properties": {}
+    }
+  ]
+}

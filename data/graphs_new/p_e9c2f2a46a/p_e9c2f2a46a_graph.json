@@ -1,0 +1,408 @@
+{
+  "protocol_id": "p_e9c2f2a46a",
+  "nodes": [
+    {
+      "id": "diagnosis_subarachnoid_hemorrhage",
+      "type": "diagnosis",
+      "label": "Субарахноидальное кровоизлияние",
+      "icd_code": "I60"
+    },
+    {
+      "id": "symptom_strong_headache",
+      "type": "symptom",
+      "label": "Сильнейшая головная боль"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_photophobia",
+      "type": "symptom",
+      "label": "Светобоязнь"
+    },
+    {
+      "id": "symptom_emotional_excitation",
+      "type": "symptom",
+      "label": "Эмоциональное возбуждение"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Повышение артериального давления"
+    },
+    {
+      "id": "symptom_hyperthermia",
+      "type": "symptom",
+      "label": "Гипертермия"
+    },
+    {
+      "id": "symptom_meningeal_symptoms",
+      "type": "symptom",
+      "label": "Менингеальные симптомы"
+    },
+    {
+      "id": "symptom_seizure_activity",
+      "type": "symptom",
+      "label": "Судорожные припадки"
+    },
+    {
+      "id": "symptom_pale_skin",
+      "type": "symptom",
+      "label": "Бледные кожные покровы"
+    },
+    {
+      "id": "symptom_cold_sweat",
+      "type": "symptom",
+      "label": "Холодный пот"
+    },
+    {
+      "id": "symptom_loss_of_consciousness",
+      "type": "symptom",
+      "label": "Потеря сознания"
+    },
+    {
+      "id": "symptom_surface_consciousness_disturbance",
+      "type": "symptom",
+      "label": "Поверхностные нарушения сознания"
+    },
+    {
+      "id": "symptom_drowsiness",
+      "type": "symptom",
+      "label": "Сомнолентность"
+    },
+    {
+      "id": "symptom_confusion",
+      "type": "symptom",
+      "label": "Спутанность сознания"
+    },
+    {
+      "id": "symptom_deep_stupor",
+      "type": "symptom",
+      "label": "Глубокое оглушение"
+    },
+    {
+      "id": "symptom_moderate_neurological_deficit",
+      "type": "symptom",
+      "label": "Умеренная или выраженная очаговая неврологическая симптоматика"
+    },
+    {
+      "id": "symptom_deep_coma",
+      "type": "symptom",
+      "label": "Глубокая кома"
+    },
+    {
+      "id": "symptom_deceleration_symptom",
+      "type": "symptom",
+      "label": "Децеребрационная симптоматика"
+    },
+    {
+      "id": "symptom_focal_neurological_deficit",
+      "type": "symptom",
+      "label": "Очаговый неврологический дефицит"
+    },
+    {
+      "id": "symptom_hypertension_history",
+      "type": "symptom",
+      "label": "Артериальная гипертензия"
+    },
+    {
+      "id": "symptom_dizziness",
+      "type": "symptom",
+      "label": "Головокружение"
+    },
+    {
+      "id": "symptom_hypoglycemia",
+      "type": "symptom",
+      "label": "Гипогликемия"
+    },
+    {
+      "id": "symptom_hyperglycemia",
+      "type": "symptom",
+      "label": "Гипергликемия"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "Тахипноэ"
+    },
+    {
+      "id": "symptom_bradypnea",
+      "type": "symptom",
+      "label": "Брадипноэ"
+    },
+    {
+      "id": "symptom_hypoxemia",
+      "type": "symptom",
+      "label": "Снижение PaO2"
+    },
+    {
+      "id": "symptom_hypercapnia",
+      "type": "symptom",
+      "label": "Повышение PaCO2"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "symptom_brain_edema",
+      "type": "symptom",
+      "label": "Отёк головного мозга"
+    },
+    {
+      "id": "symptom_hydrocephalus",
+      "type": "symptom",
+      "label": "Гидроцефалия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_strong_headache",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "сильнейшая головная боль (85-100% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "светобоязнь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_excitation",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "частое развитие эмоционального возбуждения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "подъема АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperthermia",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "иногда гипертермии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meningeal_symptoms",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны менингеальные симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seizure_activity",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "возможны судорожные припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension_history",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артериальная гипертензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pale_skin",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "бледные кожные покровы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_sweat",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "холодный пот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахипноэ 35-40 в 1 минуту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradypnea",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "брадипноэ менее 12 в 1 минуту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxemia",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение рО2 менее 60 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_subarachnoid_hemorrhage",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарастающий цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сильнейшая головная боль ...; тошнота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сильнейшая головная боль ...; рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_photophobia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сильнейшая головная боль ...; светобоязнь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_emotional_excitation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сильнейшая головная боль ...; частое развитие эмоционального возбуждения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_hypertension",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "сильнейшая головная боль ...; подъема АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_hyperthermia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильнейшая головная боль ...; иногда гипертермии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_meningeal_symptoms",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильнейшая головная боль ...; возможны менингеальные симптомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_strong_headache",
+      "target": "symptom_seizure_activity",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сильнейшая головная боль ...; возможны судорожные припадки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тошнота, рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pale_skin",
+      "target": "symptom_cold_sweat",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "бледные кожные покровы; холодный пот",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "symptom_bradypnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тахипноэ 35-40 в 1 минуту, брадипноэ менее 12 в 1 минуту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "symptom_hypoxemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "тахипноэ 35-40 в 1 минуту; снижение рО2 менее 60 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradypnea",
+      "target": "symptom_hypoxemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "брадипноэ менее 12 в 1 минуту; снижение рО2 менее 60 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxemia",
+      "target": "symptom_cyanosis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "снижение рО2 менее 60 мм.рт.ст.; нарастающий цианоз",
+      "properties": {}
+    }
+  ]
+}

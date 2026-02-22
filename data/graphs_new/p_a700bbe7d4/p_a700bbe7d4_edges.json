@@ -1,0 +1,362 @@
+[
+  {
+    "source": "symptom_unilateral_location",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "односторонняя локализация",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulsating_quality",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пульсирующий характер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_moderate_high_intensity",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "умеренная или высокая интенсивность боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_worsens_with_physical_activity",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль ухудшается при обычной физической активности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "фотофобия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_phonophobia",
+    "target": "diagnosis_migraine_without_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "фонофобия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зрительные симптомы ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sensory_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сенсорные симптомы ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "речевые/языковые симптомы ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_motor_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "двигательные симптомы ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brainstem_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стволовые симптомы ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_retinal_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ретинальные симптомы ауры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vertigo",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головокружение (вертиго)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Шум в ушах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoacusis",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипоакузия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diplopia",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Диплопия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_consciousness",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Снижение уровня сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epileptic_seizure",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Эпилептический приступ, вызванный мигренозной аурой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Миалгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Кожная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_worsens_with_cough_exacerbated_headache",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Головная боль при кашле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sneeze_exacerbated_headache",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Головная боль при чихании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_straining_exacerbated_headache",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Головная боль при натуживании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thunderclap_headache",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Громоподобная головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_worsens_with_posture_change",
+    "target": "diagnosis_migraine",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Усиление при изменении позы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_atypical_aura",
+    "target": "diagnosis_migraine_with_aura",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "аура с атипичной аурой",
+    "properties": {}
+  },
+  {
+    "source": "symptom_persistent_aura",
+    "target": "diagnosis_complicated_migraine",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Персистирующая аура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_migraine_infarct",
+    "target": "diagnosis_complicated_migraine",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Мигренозный инфаркт",
+    "properties": {}
+  },
+  {
+    "source": "symptom_medication_overuse_headache",
+    "target": "diagnosis_complicated_migraine",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лекарственно индуцированная головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache_due_to_medication_overuse",
+    "target": "diagnosis_complicated_migraine",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Головная боль при избыточном применении лекарственных препаратов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_migraine_status",
+    "target": "diagnosis_migraine_status",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Мигренозный статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тошнота и/или рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "symptom_phonophobia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "фотофобия и фонофобия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unilateral_location",
+    "target": "symptom_pulsating_quality",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "односторонняя локализация; пульсирующий характер",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unilateral_location",
+    "target": "symptom_moderate_high_intensity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "односторонняя локализация; умеренная или высокая интенсивность боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unilateral_location",
+    "target": "symptom_worsens_with_physical_activity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "односторонняя локализация; ухудшается при обычной физической активности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulsating_quality",
+    "target": "symptom_moderate_high_intensity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пульсирующий характер; умеренная или высокая интенсивность боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulsating_quality",
+    "target": "symptom_worsens_with_physical_activity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пульсирующий характер; ухудшается при обычной физической активности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_moderate_high_intensity",
+    "target": "symptom_worsens_with_physical_activity",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "умеренная или высокая интенсивность боли; ухудшается при обычной физической активности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_aura",
+    "target": "symptom_sensory_aura",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "зрительные; сенсорные",
+    "properties": {}
+  }
+]

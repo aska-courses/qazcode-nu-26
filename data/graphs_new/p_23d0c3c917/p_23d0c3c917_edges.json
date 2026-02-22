@@ -1,0 +1,298 @@
+[
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anuria",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • уменьшение выделения мочи, отсутствие мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urine_color_change",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • изменение цвета мочи (мясные помои)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macroscopic_hematuria",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: Почечные симптомы: макрогематурия, олигурия, гипертензия и отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: Почечные симптомы: макрогематурия, олигурия, гипертензия и отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: Почечные симптомы: макрогематурия, олигурия, гипертензия и отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypercreatinemia",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Таблица сравнения: Гиперкреатининемия – Основной признак, часто, регрессирует",
+    "properties": {}
+  },
+  {
+    "source": "symptom_esr_elevated",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: ОАК: повышение СОЭ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: ОАК: анемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_rash",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: кожная сыпь/пурпура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: артралгия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: ринорея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_polyps",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: полипы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sinusitis",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: синуситы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumonia",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: пневмония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_nodules",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: легочные узелки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthma",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: астма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_hemorrhage",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_rash",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: геморрагическая сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coughing_blood",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: боли в горле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pyo_derma",
+    "target": "diagnosis_n01",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Внепочечные симптомы: пиодермия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Почечные симптомы: макрогематурия, олигурия, гипертензия и отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_macroscopic_hematuria",
+    "target": "symptom_oliguria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Почечные симптомы: макрогематурия, олигурия, гипертензия и отеки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "symptom_nasal_polyps",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении верхних дыхательных путей: ринорея, полипы, синуситы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "symptom_sinusitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении верхних дыхательных путей: ринорея, полипы, синуситы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_polyps",
+    "target": "symptom_sinusitis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении верхних дыхательных путей: ринорея, полипы, синуситы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumonia",
+    "target": "symptom_lung_nodules",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении нижних дыхательных путей: пневмония, легочные узелки, астма, легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumonia",
+    "target": "symptom_asthma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении нижних дыхательных путей: пневмония, легочные узелки, астма, легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumonia",
+    "target": "symptom_lung_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении нижних дыхательных путей: пневмония, легочные узелки, астма, легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_nodules",
+    "target": "symptom_asthma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении нижних дыхательных путей: пневмония, легочные узелки, астма, легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_nodules",
+    "target": "symptom_lung_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении нижних дыхательных путей: пневмония, легочные узелки, астма, легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asthma",
+    "target": "symptom_lung_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при вовлечении нижних дыхательных путей: пневмония, легочные узелки, астма, легочные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_rash",
+    "target": "symptom_skin_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "геморрагическая сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coughing_blood",
+    "target": "symptom_lung_hemorrhage",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровохарканье, легочное кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "symptom_pyo_derma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боли в горле, пиодермия",
+    "properties": {}
+  }
+]

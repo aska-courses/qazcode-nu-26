@@ -1,0 +1,249 @@
+{
+  "protocol_id": "p_1e99277b81",
+  "nodes": [
+    {
+      "id": "diagnosis_c43",
+      "type": "diagnosis",
+      "label": "Злокачественная меланома кожи",
+      "icd_code": "C43"
+    },
+    {
+      "id": "diagnosis_c50",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования молочной железы",
+      "icd_code": "C50"
+    },
+    {
+      "id": "diagnosis_n00_n08",
+      "type": "diagnosis",
+      "label": "Гломерулярные болезни",
+      "icd_code": "N00-N08"
+    },
+    {
+      "id": "diagnosis_n20",
+      "type": "diagnosis",
+      "label": "Камни почек и мочеточника",
+      "icd_code": "N20"
+    },
+    {
+      "id": "diagnosis_q60",
+      "type": "diagnosis",
+      "label": "Агенезия и другие редукционные дефекты почек",
+      "icd_code": "Q60"
+    },
+    {
+      "id": "diagnosis_q62",
+      "type": "diagnosis",
+      "label": "Врожденные нарушения проходимости почечной лоханки и врожденные аномалии мочеточника",
+      "icd_code": "Q62"
+    },
+    {
+      "id": "diagnosis_q63",
+      "type": "diagnosis",
+      "label": "Другие врожденные аномалии почки",
+      "icd_code": "Q63"
+    },
+    {
+      "id": "diagnosis_i15_1",
+      "type": "diagnosis",
+      "label": "Реноваскулярная гипертензия",
+      "icd_code": "I15.1"
+    },
+    {
+      "id": "diagnosis_i70_1",
+      "type": "diagnosis",
+      "label": "Атеросклероз почечной артерии",
+      "icd_code": "I70.1"
+    },
+    {
+      "id": "diagnosis_t86_1",
+      "type": "diagnosis",
+      "label": "Отмирание и отторжение трансплантированной почки",
+      "icd_code": "T86.1"
+    },
+    {
+      "id": "diagnosis_z94_0",
+      "type": "diagnosis",
+      "label": "Наличие трансплантированной почки",
+      "icd_code": "Z94.0"
+    },
+    {
+      "id": "diagnosis_e21",
+      "type": "diagnosis",
+      "label": "Гиперпаратиреоз",
+      "icd_code": "E21"
+    },
+    {
+      "id": "diagnosis_m83",
+      "type": "diagnosis",
+      "label": "Остеомаляция у взрослых",
+      "icd_code": "M83"
+    },
+    {
+      "id": "diagnosis_e05",
+      "type": "diagnosis",
+      "label": "Тиреотоксикоз",
+      "icd_code": "E05"
+    },
+    {
+      "id": "diagnosis_d56",
+      "type": "diagnosis",
+      "label": "Талассемия",
+      "icd_code": "D56"
+    },
+    {
+      "id": "diagnosis_d16",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование костей и суставных хрящей",
+      "icd_code": "D16"
+    },
+    {
+      "id": "diagnosis_m88",
+      "type": "diagnosis",
+      "label": "Болезнь Педжета (костей) [деформирующий остеит]",
+      "icd_code": "M88"
+    },
+    {
+      "id": "diagnosis_m85_0",
+      "type": "diagnosis",
+      "label": "Фиброзная дисплазия (избирательная, одной кости)",
+      "icd_code": "M85.0"
+    },
+    {
+      "id": "diagnosis_q78_1",
+      "type": "diagnosis",
+      "label": "Полиостозная фиброзная дисплазия",
+      "icd_code": "Q78.1"
+    },
+    {
+      "id": "diagnosis_c00_c97",
+      "type": "diagnosis",
+      "label": "Злокачественные новообразования",
+      "icd_code": "C00-C97"
+    },
+    {
+      "id": "diagnosis_c40",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование костей и суставных хрящей",
+      "icd_code": "C40"
+    },
+    {
+      "id": "diagnosis_c79_5",
+      "type": "diagnosis",
+      "label": "Вторичное злокачественное новообразование костей и костного мозга",
+      "icd_code": "C79.5"
+    },
+    {
+      "id": "diagnosis_d37_48",
+      "type": "diagnosis",
+      "label": "Новообразования неопределенного или неизвестного характера",
+      "icd_code": "D37-48"
+    },
+    {
+      "id": "diagnosis_s92",
+      "type": "diagnosis",
+      "label": "Перелом стопы",
+      "icd_code": "S92"
+    },
+    {
+      "id": "diagnosis_m87",
+      "type": "diagnosis",
+      "label": "Остеонекроз",
+      "icd_code": "M87"
+    },
+    {
+      "id": "diagnosis_m86_0",
+      "type": "diagnosis",
+      "label": "Острый гематогенный остеомиелит",
+      "icd_code": "M86.0"
+    },
+    {
+      "id": "diagnosis_m86_1",
+      "type": "diagnosis",
+      "label": "Другие формы острого остеомиелита",
+      "icd_code": "M86.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "diagnosis_c43",
+      "target": "diagnosis_c50",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "при раке молочной железы и меланоме",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n00_n08",
+      "target": "diagnosis_n20",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... N00-N08 Гломерулярные болезни ... N20 Камни почек и мочеточника",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n00_n08",
+      "target": "diagnosis_q60",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... N00-N08 ... Q60 Агенезия и другие редукционные дефекты почек",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n20",
+      "target": "diagnosis_q60",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... N20 Камни почек и мочеточника ... Q60 Агенезия и другие редукционные дефекты почек",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_i15_1",
+      "target": "diagnosis_i70_1",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... I15.1 Реноваскулярная гипертензия ... I70.1 Атеросклероз почечной артерии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e21",
+      "target": "diagnosis_m83",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... E21 Гиперпаратиреоз ... M.83 Остеомаляция у взрослых",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_e21",
+      "target": "diagnosis_e05",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... E21 Гиперпаратиреоз ... E05 Тиреотоксикоз",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_m88",
+      "target": "diagnosis_m85_0",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... M88 Болезнь Педжета ... M85.0 Фиброзная дисплазия (избирательная, одной кости)",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c40",
+      "target": "diagnosis_c79_5",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... C40 Злокачественное новообразование костей и суставных хрящей ... C79.5 Вторичное злокачественное новообразование костей и костного мозга",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_s92",
+      "target": "diagnosis_m87",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... S92 Перелом стопы ... M87 Остеонекроз",
+      "properties": {}
+    }
+  ]
+}

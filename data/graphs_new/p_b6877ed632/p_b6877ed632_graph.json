@@ -1,0 +1,403 @@
+{
+  "protocol_id": "p_b6877ed632",
+  "nodes": [
+    {
+      "id": "symptom_decrease_visual_acuity",
+      "type": "symptom",
+      "label": "снижение остроты зрения"
+    },
+    {
+      "id": "symptom_fog",
+      "type": "symptom",
+      "label": "туман"
+    },
+    {
+      "id": "symptom_curtain",
+      "type": "symptom",
+      "label": "пелена"
+    },
+    {
+      "id": "symptom_floating_dots",
+      "type": "symptom",
+      "label": "плавающие точки"
+    },
+    {
+      "id": "symptom_flickering",
+      "type": "symptom",
+      "label": "мерцание"
+    },
+    {
+      "id": "symptom_distortion",
+      "type": "symptom",
+      "label": "искажение предметов"
+    },
+    {
+      "id": "symptom_macro_psia",
+      "type": "symptom",
+      "label": "макропсия"
+    },
+    {
+      "id": "symptom_micro_psia",
+      "type": "symptom",
+      "label": "микропсия"
+    },
+    {
+      "id": "symptom_photopsia",
+      "type": "symptom",
+      "label": "фотопсия"
+    },
+    {
+      "id": "symptom_visual_field_loss",
+      "type": "symptom",
+      "label": "выпадение поля зрения"
+    },
+    {
+      "id": "symptom_hypermetropia",
+      "type": "symptom",
+      "label": "гиперметропия"
+    },
+    {
+      "id": "symptom_macular_edema",
+      "type": "symptom",
+      "label": "макулярный отёк"
+    },
+    {
+      "id": "symptom_subretinal_fluid",
+      "type": "symptom",
+      "label": "субретинальная жидкость"
+    },
+    {
+      "id": "symptom_retinal_detachment",
+      "type": "symptom",
+      "label": "отслойка сетчатки"
+    },
+    {
+      "id": "symptom_neuroepithelial_detachment",
+      "type": "symptom",
+      "label": "отслойка нейроэпителия"
+    },
+    {
+      "id": "symptom_neuropathy",
+      "type": "symptom",
+      "label": "нейропатия"
+    },
+    {
+      "id": "symptom_optic_nerve_atrophy",
+      "type": "symptom",
+      "label": "атрофия зрительного нерва"
+    },
+    {
+      "id": "symptom_intraretinal_hemorrhage",
+      "type": "symptom",
+      "label": "интраретинальные геморрагии"
+    },
+    {
+      "id": "symptom_hard_exudate_deposition",
+      "type": "symptom",
+      "label": "отложение твердого экссудата"
+    },
+    {
+      "id": "symptom_capillary_occlusion_zones",
+      "type": "symptom",
+      "label": "зоны капиллярооклюзии"
+    },
+    {
+      "id": "symptom_hemorrhage",
+      "type": "symptom",
+      "label": "кровоизлияния"
+    },
+    {
+      "id": "symptom_hyperfluorescence",
+      "type": "symptom",
+      "label": "гиперфлюоресценция"
+    },
+    {
+      "id": "symptom_hypofluorescence",
+      "type": "symptom",
+      "label": "гипофлюоресценция"
+    },
+    {
+      "id": "symptom_scotoma",
+      "type": "symptom",
+      "label": "скотомы"
+    },
+    {
+      "id": "diagnosis_h30_0",
+      "type": "diagnosis",
+      "label": "Очаговое хориоретинальное воспаление",
+      "icd_code": "H30.0"
+    },
+    {
+      "id": "diagnosis_h30_1",
+      "type": "diagnosis",
+      "label": "Диссеминированное хориоретинальное воспаление",
+      "icd_code": "H30.1"
+    },
+    {
+      "id": "diagnosis_h30_2",
+      "type": "diagnosis",
+      "label": "Задний циклит",
+      "icd_code": "H30.2"
+    },
+    {
+      "id": "diagnosis_h30_8",
+      "type": "diagnosis",
+      "label": "Другие хориоретинальные воспаления",
+      "icd_code": "H30.8"
+    },
+    {
+      "id": "diagnosis_h30_9",
+      "type": "diagnosis",
+      "label": "Хориоретинальное воспаление неуточненное",
+      "icd_code": "H30.9"
+    },
+    {
+      "id": "diagnosis_h32_0",
+      "type": "diagnosis",
+      "label": "Хориоретинальное воспаление при инфекционных и паразитарных болезнях, классифицированных в других рубриках",
+      "icd_code": "H32.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_decrease_visual_acuity",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: снижение остроты зрения различной степени выраженности, нередко быстро прогрессирующее, «туман», пелена, плавающие точки, мерцание, искажение предметов (макро- и микропсии), фотопсии, выпадение поля зрения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fog",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... «туман», пелена, плавающие точки, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_curtain",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... пелена, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_floating_dots",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... плавающие точки, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_flickering",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... мерцание, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_distortion",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... искажение предметов (макро- и микропсии), ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macro_psia",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... (макро- и микропсии), ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_micro_psia",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... (макро- и микропсии), ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photopsia",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... фотопсии, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_visual_field_loss",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы: ... выпадение поля зрения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intraretinal_hemorrhage",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – позволяет выявлять ... интраретинальные геморрагии, отложение твердого экссудата, зоны капиллярооклюзии, макулярный отёк, нейропатию или атрофию ЗН.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hard_exudate_deposition",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... отложение твердого экссудата, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_capillary_occlusion_zones",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... зоны капиллярооклюзии, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_macular_edema",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... макулярный отёк, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neuropathy",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... нейропатию ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_optic_nerve_atrophy",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... атрофию ЗН ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subretinal_fluid",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... субретинальная жидкость ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_retinal_detachment",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... отслойку сетчатки ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neuroepithelial_detachment",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Офтальмоскопия – ... отслойку нейроэпителия ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperfluorescence",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Флюоресцентная ангиография – ... гиперфлюоресценция ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypofluorescence",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Флюоресцентная ангиография – ... гипофлюоресценция ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_scotoma",
+      "target": "diagnosis_h30_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Периметрия – возможны скотомы ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fog",
+      "target": "symptom_curtain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«туман», пелена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fog",
+      "target": "symptom_floating_dots",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "«туман», ... плавающие точки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_curtain",
+      "target": "symptom_floating_dots",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "пелена, ... плавающие точки",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h30_0",
+      "target": "diagnosis_h30_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код H30.0 – Очаговое хориоретинальное воспаление; H30.1 – Диссеминированное хориоретинальное воспаление",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h30_1",
+      "target": "diagnosis_h30_2",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код H30.1 – Диссеминированное ...; H30.2 – Задний циклит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h30_2",
+      "target": "diagnosis_h30_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код H30.2 – Задний циклит; H30.8 – Другие хориоретинальные воспаления",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h30_8",
+      "target": "diagnosis_h30_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код H30.8 – Другие ...; H30.9 – Хориоретинальное воспаление неуточненное",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_h30_9",
+      "target": "diagnosis_h32_0",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "H30.9 – Хориоретинальное воспаление неуточненное; H32.0 – Хориоретинальное воспаление при инфекционных и паразитарных болезнях",
+      "properties": {}
+    }
+  ]
+}

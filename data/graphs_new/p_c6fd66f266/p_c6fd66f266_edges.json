@@ -1,0 +1,26 @@
+[
+  {
+    "source": "diagnosis_i26",
+    "target": "diagnosis_i26_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: I 26 Легочная эмболия I 26.0 Легочная эмболия с упоминанием об остром легочном сердце",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i26",
+    "target": "diagnosis_i26_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: I 26 Легочная эмболия I 26.9 Легочная эмболия без упоминания об остром легочном сердце",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_i26_0",
+    "target": "diagnosis_i26_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "I 26.0 Легочная эмболия с упоминанием об остром легочном сердце ... I 26.9 Легочная эмболия без упоминания об остром легочном сердце",
+    "properties": {}
+  }
+]

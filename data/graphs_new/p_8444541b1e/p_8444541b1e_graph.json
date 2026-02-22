@@ -1,0 +1,207 @@
+{
+  "protocol_id": "p_8444541b1e",
+  "nodes": [
+    {
+      "id": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "diagnosis",
+      "label": "множественная миелома",
+      "icd_code": "C90.0"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "одышка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_serdtsebienie",
+      "type": "symptom",
+      "label": "серцебиение",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_slabost",
+      "type": "symptom",
+      "label": "слабость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_utomlenost",
+      "type": "symptom",
+      "label": "утомляемость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_poteria_massy_tela",
+      "type": "symptom",
+      "label": "потеря массы тела",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_lihofradka",
+      "type": "symptom",
+      "label": "лихорадка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_dizuricheskie_rasstroystva",
+      "type": "symptom",
+      "label": "дизурические расстройства",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_oznob",
+      "type": "symptom",
+      "label": "озноб",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_dispespicheskie_yavleniya",
+      "type": "symptom",
+      "label": "диспепсические явления",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bol_v_pravoi_podvzdoshnoi_oblasti",
+      "type": "symptom",
+      "label": "боль в правой подвздошной области",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_urchanie",
+      "type": "symptom",
+      "label": "урчание",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_serdtsebienie",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • сердцебиение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utomlenost",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_massy_tela",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • потеря массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofradka",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • лихорадка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuricheskie_rasstroystva",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • дизурические расстройства",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oznob",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: следует обратить внимание на: • наличие ознобов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispespicheskie_yavleniya",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: следует обратить внимание на: • дизурические и диспепсические явления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pravoi_podvzdoshnoi_oblasti",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тщательная пальпация живота. Первые симптомы псевдомембранозного колита — это появление боли ... в правой подвздошной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urchanie",
+      "target": "diagnosis_mnozhestvennaya_mieloma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Тщательная пальпация живота. Первые симптомы псевдомембранозного колита — это появление боли ... «урчание» при пальпации в правой подвздошной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_serdtsebienie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • одышка; • сердцебиение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabost",
+      "target": "symptom_utomленост",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • слабость; • утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihofradka",
+      "target": "symptom_oznob",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Анамнез: следует обратить внимание на: • время появления лихорадки; • наличие ознобов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dizuricheskie_rasstroystva",
+      "target": "symptom_dispespicheskie_yavleniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Анамнез: следует обратить внимание на: • дизурические и диспепсические явления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pravoi_podvzdoshnoi_oblasti",
+      "target": "symptom_urchanie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Тщательная пальпация живота. ... боль ... в правой подвздошной области ... «урчание» при пальпации",
+      "properties": {}
+    }
+  ]
+}

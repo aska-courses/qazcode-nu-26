@@ -1,0 +1,346 @@
+[
+  {
+    "source": "symp_parestezia",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты с СДС предъявляют жалобы на парестезии",
+    "properties": {}
+  },
+  {
+    "source": "symp_omenenie",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пациенты с СДС предъявляют жалобы на ... онемение",
+    "properties": {}
+  },
+  {
+    "source": "symp_zhguchie_boli",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жгучие ... боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_koluchie_boli",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "колющие боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_narushenie_hodby",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения ходьбы",
+    "properties": {}
+  },
+  {
+    "source": "symp_bol",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наличие и выраженность болевого синдрома зависит от состояния периферической чувствительности",
+    "properties": {}
+  },
+  {
+    "source": "symp_taktichnaya_chuvst_chuvstvitelnost",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценки тактильной чувствительности",
+    "properties": {}
+  },
+  {
+    "source": "symp_vibratsionnaya_chuvst",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценки вибрационной чувствительности",
+    "properties": {}
+  },
+  {
+    "source": "symp_temperaturnaya_chuvst",
+    "target": "diag_g63_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "оценки температурной чувствительности",
+    "properties": {}
+  },
+  {
+    "source": "symp_kholodnaya_kozha",
+    "target": "diag_i70_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стопа холодная, кожа бледная",
+    "properties": {}
+  },
+  {
+    "source": "symp_blednost_kozhi",
+    "target": "diag_i70_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кожа бледная",
+    "properties": {}
+  },
+  {
+    "source": "symp_giperkeroz",
+    "target": "diag_i70_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "участки гиперкератоза",
+    "properties": {}
+  },
+  {
+    "source": "symp_otech",
+    "target": "diag_i70_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк",
+    "properties": {}
+  },
+  {
+    "source": "symp_deformatsii_stop",
+    "target": "diag_i79_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "деформации стоп любого генеза",
+    "properties": {}
+  },
+  {
+    "source": "symp_troficheckie_yazvy",
+    "target": "diag_i79_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "трофические язвы",
+    "properties": {}
+  },
+  {
+    "source": "symp_akralnyy_nekrоz",
+    "target": "diag_i79_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "акральный некроз",
+    "properties": {}
+  },
+  {
+    "source": "symp_gangrena",
+    "target": "diag_i79_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гангрена",
+    "properties": {}
+  },
+  {
+    "source": "symp_otсутstvie_pulsacii_arteriy",
+    "target": "diag_i70_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие пульсации артерий",
+    "properties": {}
+  },
+  {
+    "source": "symp_snizhenie_pulsacii_arteriy_stop",
+    "target": "diag_i70_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение пульсации артерий стоп",
+    "properties": {}
+  },
+  {
+    "source": "diag_i70_2",
+    "target": "diag_i77_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i70_2",
+    "target": "diag_i79_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i70_2",
+    "target": "diag_g63_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i70_2",
+    "target": "diag_g99_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i77_8",
+    "target": "diag_i79_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i77_8",
+    "target": "diag_g63_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i77_8",
+    "target": "diag_g99_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i79_2",
+    "target": "diag_g63_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_i79_2",
+    "target": "diag_g99_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "diag_g63_2",
+    "target": "diag_g99_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы)МКБ-10 ... I70.2 ... I77.8 ... I79.2 ... G63.2 ... G99.0",
+    "properties": {}
+  },
+  {
+    "source": "symp_parestezia",
+    "target": "symp_omenenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пациенты с СДС предъявляют жалобы на парестезии, онемение",
+    "properties": {}
+  },
+  {
+    "source": "symp_parestezia",
+    "target": "symp_zhguchie_boli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пациенты с СДС предъявляют жалобы на парестезии ... жгучие ... боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_omenenie",
+    "target": "symp_zhguchie_boli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пациенты с СДС предъявляют жалобы на онемение, жгучие ... боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_zhguchie_boli",
+    "target": "symp_koluchie_boli",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "жгучие и колющие боли",
+    "properties": {}
+  },
+  {
+    "source": "symp_koluchie_boli",
+    "target": "symp_narushenie_hodby",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "колющие боли, нарушения ходьбы",
+    "properties": {}
+  },
+  {
+    "source": "symp_giperalgaziya",
+    "target": "symp_snizhenie_chuvstvitelnosti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможна гипералгезия или снижение чувствительности",
+    "properties": {}
+  },
+  {
+    "source": "symp_giperalgaziya",
+    "target": "symp_polnaya_anesteziya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможна гипералгезия ... вплоть до полной анестезии",
+    "properties": {}
+  },
+  {
+    "source": "symp_snizhenie_chuvstvitelnosti",
+    "target": "symp_polnaya_anesteziya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение чувствительности, вплоть до полной анестезии",
+    "properties": {}
+  },
+  {
+    "source": "symp_kholodnaya_kozha",
+    "target": "symp_blednost_kozhi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожа холодная, бледность кожи",
+    "properties": {}
+  },
+  {
+    "source": "symp_kholodnaya_kozha",
+    "target": "symp_giperkeroz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожа холодная, участки гиперкератоза",
+    "properties": {}
+  },
+  {
+    "source": "symp_blednost_kozhi",
+    "target": "symp_giperkeroz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "бледность кожи, гиперкератоз",
+    "properties": {}
+  },
+  {
+    "source": "symp_troficheckie_yazvy",
+    "target": "symp_akralnyy_nekrоz",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "трофические язвы ... акральный некроз",
+    "properties": {}
+  },
+  {
+    "source": "symp_troficheckie_yazvy",
+    "target": "symp_gangrena",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "трофические язвы ... гангрена",
+    "properties": {}
+  },
+  {
+    "source": "symp_akralnyy_nekrоz",
+    "target": "symp_gangrena",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "акральный некроз, гангрена",
+    "properties": {}
+  }
+]

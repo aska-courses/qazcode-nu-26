@@ -1,0 +1,170 @@
+[
+  {
+    "source": "diagnosis_hodgkin_disease",
+    "target": "diagnosis_hodgkin_lymphoma_lymphoid_predominance",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C81 Болезнь Ходжкина (лимфогранулематоз) C81.0 Лимфоидное преобладание",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hodgkin_disease",
+    "target": "diagnosis_hodgkin_lymphoma_nodular_sclerosis",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C81 Болезнь Ходжкина (лимфогранулематоз) C81.1 Нодулярный склероз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hodgkin_disease",
+    "target": "diagnosis_hodgkin_lymphoma_mixed_cellular",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C81 Болезнь Ходжкина (лимфогранулематоз) C81.2 Смешанно‑клеточный вариант",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hodgkin_disease",
+    "target": "diagnosis_hodgkin_lymphoma_lymphoid_depletion",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C81 Болезнь Ходжкина (лимфогранулематоз) C81.3 Лимфоидное истощение",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hodgkin_disease",
+    "target": "diagnosis_hodgkin_lymphoma_other_forms",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C81 Болезнь Ходжкина (лимфогранулематоз) C81.7 Другие формы болезни Ходжкина",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hodgkin_disease",
+    "target": "diagnosis_hodgkin_lymphoma_unspecified",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C81 Болезнь Ходжкина (лимфогранулематоз) C81.9 Болезнь Ходжкина неуточнённая",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_follicular_nhl",
+    "target": "diagnosis_diffuse_nhl",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "C82 Фолликулярная (нодулярная) неходжкинская лимфома C83 Диффузная неходжкинская лимфома",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_diffuse_nhl",
+    "target": "diagnosis_diffuse_nhl_large_cell",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83 Диффузная неходжкинская лимфома C83.3 Крупноклеточная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_diffuse_nhl",
+    "target": "diagnosis_diffuse_nhl_other_types",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83 Диффузная неходжкинская лимфома C83.8 Другие типы диффузных неходжкинских лимфом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_diffuse_nhl",
+    "target": "diagnosis_diffuse_nhl_unspecified",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83 Диффузная неходжкинская лимфома C83.9 Диффузная неходжкинская лимфома неуточнённая",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_multiple_sclerosis",
+    "target": "diagnosis_rheumatoid_arthritis",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "G35 Рассеянный склероз M06.9 Ревматоидный артрит неуточнённый",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_multiple_sclerosis",
+    "target": "diagnosis_systemic_lupus_erythematosus",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "G35 Рассеянный склероз M32 Системная красная волчанка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_multiple_sclerosis",
+    "target": "diagnosis_juvenile_dermatomyositis",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "G35 Рассеянный склероз M33.0 Юношеский дерматомиозит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_multiple_sclerosis",
+    "target": "diagnosis_polymyositis",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "G35 Рассеянный склероз M33.2 Полимиозит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_multiple_sclerosis",
+    "target": "diagnosis_systemic_sclerosis",
+    "type": "appear-with",
+    "weight": 0.9,
+    "evidence": "G35 Рассеянный склероз M34 Системный склероз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_rash",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Лихорадка выше 39°C, эритематозная сыпь, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_edema",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Лихорадка выше 39°C, ... отек ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_hemoptysis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "непродуктивный кашель ... редко – кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "symptom_hypoxemia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "одышка ... гипоксемия (возможно необходимость кислородной поддержки)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "symptom_thrombocytopenia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "анемия, требующая трансфузионной поддержки; тромбоцитопения <50",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_neutropenia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "фебрильная нейтропения (ФН) – повышение температуры тела более 38°C",
+    "properties": {}
+  }
+]

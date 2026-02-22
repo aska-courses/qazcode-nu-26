@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_1",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "на нарушение формы нижней конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "искривление конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_3",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "ограничение движений в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "наблюдается переразгибание голени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_5",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "угол сустава открыт кпереди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "область коленного сустава приобретает «ступенеобразную» форму",
+    "properties": {}
+  },
+  {
+    "source": "symptom_7",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "резкое ограничение сгибания коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "мыщелки бедра, которые разобщены с голенью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "углублена межмыщелковая впадина",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кожа над этой областью натянута",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "на передней поверхности сустава визуализируются несколько поперечных складок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "сгибателям голени препятствуют сгибанию",
+    "properties": {}
+  },
+  {
+    "source": "symptom_13",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Объём движения в суставе составляет не более 15-20º",
+    "properties": {}
+  },
+  {
+    "source": "symptom_14",
+    "target": "diagnosis_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "нарушение функции нижней конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_2",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на нарушение формы нижней конечности, искривление конечности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_1",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на нарушение формы нижней конечности, ... ограничение движений в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_2",
+    "target": "symptom_3",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "искривление конечности, ограничение движений в коленном суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_4",
+    "target": "symptom_5",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "наблюдается переразгибание голени, при этом угол сустава открыт кпереди",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_7",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "область коленного сустава приобретает «ступенеобразную» форму... резкое ограничение сгибания коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_6",
+    "target": "symptom_8",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ступенеобразную форму... при пальпации ... разобщены с голенью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_8",
+    "target": "symptom_9",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "разобщены с голенью. Межмыщелковая впадина углублена",
+    "properties": {}
+  },
+  {
+    "source": "symptom_9",
+    "target": "symptom_10",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "углублена, кожа над этой областью натянута",
+    "properties": {}
+  },
+  {
+    "source": "symptom_10",
+    "target": "symptom_11",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "кожа над этой областью натянута, а на передней поверхности сустава визуализируются несколько поперечных складок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_11",
+    "target": "symptom_12",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "поперечных складок... Сгибанию коленного сустава препятствуют сгибатели голени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_12",
+    "target": "symptom_13",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "препятствуют сгибанию... Объём движения в суставе составляет не более 15-20º",
+    "properties": {}
+  }
+]

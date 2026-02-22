@@ -1,0 +1,514 @@
+[
+  {
+    "source": "symptom_chest_side_pain",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сильная, колющая боль в боку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_side_pain",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сильная, колющая боль в боку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исхудание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исхудание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_appetite",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потеря аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_appetite",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потеря аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частый сухой, навязчивый, мучительный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частый сухой, навязчивый, мучительный кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_productive_cough",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение мокроты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_productive_cough",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение мокроты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sputum",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение гноя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_sputum",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение гноя",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_fever",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рецидивирующая лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recurrent_fever",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рецидивирующая лихорадка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "температура тела 39‑40 °C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_fever",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "температура тела 39‑40 °C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shallow_breathing",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частое, неполное (поверхностное) дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shallow_breathing",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "частое, неполное (поверхностное) дыхание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_fistula_discharge",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гнойные выделения из свища грудной стенки (если такой имеется)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_fistula_discharge",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гнойные выделения из свища грудной стенки (если такой имеется)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_chest_expansion",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "западение грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_chest_expansion",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "западение грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intercostal_narrowing",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сужение межреберий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intercostal_narrowing",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сужение межреберий",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kyphoscoliosis",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кифосколиоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kyphoscoliosis",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кифосколиоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_chest_excursion",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение дыхательной экскурсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_limited_chest_excursion",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ограничение дыхательной экскурсии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dullness_on_percussion",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "притупление при перкуссии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dullness_on_percussion",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "притупление при перкуссии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_breath_sounds",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ослабленные дыхательные шумы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decreased_breath_sounds",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ослабленные дыхательные шумы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clubbing",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утолщение ногтевых фаланг",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clubbing",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утолщение ногтевых фаланг",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение селезёнки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение селезёнки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_hyperemia",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_hyperemia",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_edema",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отёк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_forced_position",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вынужденное положение из‑за боли и одышки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_forced_position",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вынужденное положение из‑за боли и одышки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psych_disturbances",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психические расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psych_disturbances",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психические расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irritability",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возбудимость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irritability",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возбудимость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "цианоз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_piotorax_with_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шоковое состояние",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_piotorax_without_fistula",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "шоковое состояние",
+    "properties": {}
+  }
+]

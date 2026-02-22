@@ -1,0 +1,186 @@
+{
+  "protocol_id": "p_426f0f8d97",
+  "nodes": [
+    {
+      "id": "diagnosis_other_specified",
+      "type": "diagnosis",
+      "label": "Другие уточненные",
+      "icd_code": "62.8"
+    },
+    {
+      "id": "diagnosis_temporary_colostomy",
+      "type": "diagnosis",
+      "label": "Временная колостомия",
+      "icd_code": "46.11"
+    },
+    {
+      "id": "diagnosis_closure_stoma",
+      "type": "diagnosis",
+      "label": "Закрытие стомы толстой кишки",
+      "icd_code": "46.52"
+    },
+    {
+      "id": "diagnosis_other_restorative_operations",
+      "type": "diagnosis",
+      "label": "Другие восстановительные операции на прямой кишке",
+      "icd_code": "48.79"
+    },
+    {
+      "id": "diagnosis_anorectoplasty_sagittal",
+      "type": "diagnosis",
+      "label": "Заднесагитальная и переднесагитальная аноректопластика",
+      "icd_code": "48.792"
+    },
+    {
+      "id": "diagnosis_small_intestine_transplant",
+      "type": "diagnosis",
+      "label": "Трансплантация тонкой кишки при анальном недержании",
+      "icd_code": "49.74"
+    },
+    {
+      "id": "diagnosis_subcutaneous_electrical_stimulator",
+      "type": "diagnosis",
+      "label": "Введение подкожного электрического анального стимулятора",
+      "icd_code": "49.92"
+    },
+    {
+      "id": "symptom_fecal_incontinence_gas",
+      "type": "symptom",
+      "label": "Недержание газов"
+    },
+    {
+      "id": "symptom_fecal_incontinence_liquid",
+      "type": "symptom",
+      "label": "Недержание жидкого кала"
+    },
+    {
+      "id": "symptom_fecal_incontinence_solid",
+      "type": "symptom",
+      "label": "Недержание твердого кала"
+    },
+    {
+      "id": "symptom_anus_gap",
+      "type": "symptom",
+      "label": "Зияние анального отверстия"
+    },
+    {
+      "id": "symptom_anorectal_reflex_increased",
+      "type": "symptom",
+      "label": "Повышенный анальный рефлекс"
+    },
+    {
+      "id": "symptom_anorectal_reflex_decreased",
+      "type": "symptom",
+      "label": "Ослабленный анальный рефлекс"
+    },
+    {
+      "id": "symptom_anorectal_reflex_normal",
+      "type": "symptom",
+      "label": "Нормальный анальный рефлекс"
+    },
+    {
+      "id": "symptom_diarrhea",
+      "type": "symptom",
+      "label": "Диарея"
+    },
+    {
+      "id": "symptom_liquid_stool",
+      "type": "symptom",
+      "label": "Жидкий стул"
+    },
+    {
+      "id": "symptom_solid_stool",
+      "type": "symptom",
+      "label": "Твердый стул"
+    },
+    {
+      "id": "symptom_hemorrhoids",
+      "type": "symptom",
+      "label": "Геморрой"
+    },
+    {
+      "id": "symptom_proctitis",
+      "type": "symptom",
+      "label": "Проктит"
+    },
+    {
+      "id": "symptom_sphincter_atony",
+      "type": "symptom",
+      "label": "Атония сфинктера"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fecal_incontinence_gas",
+      "target": "symptom_fecal_incontinence_liquid",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "недержание жидкого, твердого кала, газов или все три симптома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fecal_incontinence_gas",
+      "target": "symptom_fecal_incontinence_solid",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "недержание жидкого, твердого кала, газов или все три симптома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fecal_incontinence_liquid",
+      "target": "symptom_fecal_incontinence_solid",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "недержание жидкого, твердого кала, газов или все три симптома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anus_gap",
+      "target": "symptom_anorectal_reflex_normal",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Определяют, сомкнут ли анус или зияет... Оценка анального рефлекса: Нормальный рефлекс …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anus_gap",
+      "target": "symptom_anorectal_reflex_increased",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Определяют, сомкнут ли анус или зияет... Оценка анального рефлекса: повышенный …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anus_gap",
+      "target": "symptom_anorectal_reflex_decreased",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Определяют, сомкнут ли анус или зияет... Оценка анального рефлекса: ослабленный …",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_temporary_colostomy",
+      "target": "diagnosis_closure_stoma",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Наложение колостомы ... Закрытие стомы проводят через 3-4 месяца",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_anorectoplasty_sagittal",
+      "target": "diagnosis_other_restorative_operations",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "В зависимости от степени поражения ... применяются следующие операции: ... аноректопластика",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_small_intestine_transplant",
+      "target": "diagnosis_subcutaneous_electrical_stimulator",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Трансплантация тонкой кишки при анальном недержании 49.74 ... Введение подкожного электрического анального стимулятора 49.92",
+      "properties": {}
+    }
+  ]
+}

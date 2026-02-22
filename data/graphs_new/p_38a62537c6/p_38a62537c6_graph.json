@@ -1,0 +1,234 @@
+{
+  "protocol_id": "p_38a62537c6",
+  "nodes": [
+    {
+      "id": "diagnosis_short_stature",
+      "type": "diagnosis",
+      "label": "Низкорослость (карликовость)",
+      "icd_code": "E34.3"
+    },
+    {
+      "id": "diagnosis_hypopituitarism",
+      "type": "diagnosis",
+      "label": "Гипопитуитаризм",
+      "icd_code": "E23.0"
+    },
+    {
+      "id": "symptom_growth_retardation",
+      "type": "symptom",
+      "label": "отставание в росте"
+    },
+    {
+      "id": "symptom_growth_slowdown",
+      "type": "symptom",
+      "label": "замедление роста"
+    },
+    {
+      "id": "symptom_proportional_body_length_delay",
+      "type": "symptom",
+      "label": "пропорциональное отставание длины тела"
+    },
+    {
+      "id": "symptom_doll_face",
+      "type": "symptom",
+      "label": "кукольное лицо"
+    },
+    {
+      "id": "symptom_hypoglycemia_tendency",
+      "type": "symptom",
+      "label": "склонность к гипогликемиям"
+    },
+    {
+      "id": "symptom_central_obesity",
+      "type": "symptom",
+      "label": "центральное ожирение"
+    },
+    {
+      "id": "symptom_hypoglycemia",
+      "type": "symptom",
+      "label": "гипогликемия"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "гипертензия"
+    },
+    {
+      "id": "symptom_somnolence",
+      "type": "symptom",
+      "label": "сонливость"
+    },
+    {
+      "id": "symptom_facial_flushing",
+      "type": "symptom",
+      "label": "покраснение лица"
+    },
+    {
+      "id": "symptom_hyperglycemia",
+      "type": "symptom",
+      "label": "гипергликемия"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_late_hypoglycemia",
+      "type": "symptom",
+      "label": "поздняя гипогликемия"
+    },
+    {
+      "id": "symptom_emotional_deprivation",
+      "type": "symptom",
+      "label": "эмоциональная депривация"
+    },
+    {
+      "id": "symptom_neurotic_anorexia",
+      "type": "symptom",
+      "label": "нервная анорексия"
+    },
+    {
+      "id": "symptom_depression",
+      "type": "symptom",
+      "label": "депрессия"
+    },
+    {
+      "id": "symptom_chronic_anemia",
+      "type": "symptom",
+      "label": "хроническая анемия"
+    },
+    {
+      "id": "symptom_malnutrition",
+      "type": "symptom",
+      "label": "недоедание"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_proportional_body_length_delay",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "пропорциональное отставание длины тела ребенка от средних показателей более чем на 2 SDS",
+      "properties": {}
+    },
+    {
+      "source": "symptom_doll_face",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "«кукольное лицо»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoglycemia_tendency",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "склонность к гипогликемиям",
+      "properties": {}
+    },
+    {
+      "source": "symptom_central_obesity",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "центральное ожирение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_growth_retardation",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы родителей и/или ребенка на отставание в росте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_growth_slowdown",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "замедление роста",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_deprivation",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Психосоциальные причины: эмоциональная депривация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neurotic_anorexia",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Психосоциальные причины: нервная анорексия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_depression",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Психосоциальные причины: депрессия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_anemia",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Хроническая анемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malnutrition",
+      "target": "diagnosis_short_stature",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "недоедание",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_short_stature",
+      "target": "diagnosis_hypopituitarism",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: ... Е 34.3 Низкорослость (карликовость), ... Е 23.0 Гипопитуитаризм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_flushing",
+      "target": "symptom_hyperglycemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Аргинин ... Покраснение лица, легкая гипергликемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Глюкагон ... Тошнота, ... рвота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoglycemia",
+      "target": "symptom_late_hypoglycemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Глюкагон ... гипогликемия ... поздняя гипогликемия",
+      "properties": {}
+    }
+  ]
+}

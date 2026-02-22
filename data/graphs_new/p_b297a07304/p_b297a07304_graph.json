@@ -1,0 +1,136 @@
+{
+  "protocol_id": "p_b297a07304",
+  "nodes": [
+    {
+      "id": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "diagnosis",
+      "label": "Атрезия желчевыводящих путей",
+      "icd_code": "Q44.2"
+    },
+    {
+      "id": "symptom_zheltushnost_kozhnich_pokrovov",
+      "type": "symptom",
+      "label": "желтушность кожных покровов"
+    },
+    {
+      "id": "symptom_aholichnyj_stul",
+      "type": "symptom",
+      "label": "ахоличный (обесцвеченный) стул"
+    },
+    {
+      "id": "symptom_temnyj_cvet_mochi",
+      "type": "symptom",
+      "label": "темный (пивной) цвет мочи"
+    },
+    {
+      "id": "symptom_zheltuha",
+      "type": "symptom",
+      "label": "желтуха, сохраняющаяся длительно"
+    },
+    {
+      "id": "symptom_gipatomegaliya",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_spenomegaliya",
+      "type": "symptom",
+      "label": "спленомегалия"
+    },
+    {
+      "id": "symptom_absence_sterkobilin",
+      "type": "symptom",
+      "label": "отсутствие стеркобилина в кале"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zheltushnost_kozhnich_pokrovov",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "желтушность кожных покровов, ахоличный (обесцвеченный) стул и моча интенсивного темного («пивного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aholichnyj_stul",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "желтушность кожных покровов, ахоличный (обесцвеченный) стул и моча интенсивного темного («пивного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_temnyj_cvet_mochi",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "желтушность кожных покровов, ахоличный (обесцвеченный) стул и моча интенсивного темного («пивного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "желтуха при атрезии желчных ходов сохраняется длительно",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipatomegaliya",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "определение размеров печени ... (гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spenomegaliya",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "определение размеров печени и селезёнки ... (спленомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absence_sterkobilin",
+      "target": "diagnosis_atresia_zhelchevydavayushchikh_putey",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "в кале ребенка отсутствует стеркобилин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltushnost_kozhnich_pokrovov",
+      "target": "symptom_aholichnyj_stul",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "желтушность кожных покровов, ахоличный (обесцвеченный) стул и моча интенсивного темного («пивного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltushnost_kozhnich_pokrovov",
+      "target": "symptom_temnyj_cvet_mochi",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "желтушность кожных покровов, ахоличный (обесцвеченный) стул и моча интенсивного темного («пивного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aholichnyj_stul",
+      "target": "symptom_temnyj_cvet_mochi",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "желтушность кожных покровов, ахоличный (обесцвеченный) стул и моча интенсивного темного («пивного») цвета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipatomegaliya",
+      "target": "symptom_spenomegaliya",
+      "type": "co-occurs",
+      "weight": 0.8,
+      "evidence": "определение размеров печени и селезёнки ... (гепатомегалия, ... спленомегалия)",
+      "properties": {}
+    }
+  ]
+}

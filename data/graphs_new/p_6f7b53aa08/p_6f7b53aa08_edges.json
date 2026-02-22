@@ -1,0 +1,162 @@
+[
+  {
+    "source": "symptom_nizkoe_zrenie",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы на: низкое зрение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neperenosimost_ochkovoi_korrektcii",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "непереносимость очковой коррекции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anizometropia",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "в результате анизометропии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_travma_glaza",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "травма органа зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_opticheskogo_sreza_hrustalika",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "оптический срез хрусталика не определяется",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubets_rogovitsy",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Имеется рубец роговицы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rubets_limby",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рубец лимбы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nepravilnaya_forma_zritca",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие неправильной формы зрачка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ostatki_kapsuly_v_zritse",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в области зрачка могут быть остатки капсулы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gryzha_steklovidnogo_tela",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "грыжа стекловидного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_razryv_membrany_peredney_kamery",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "При разрыве мембраны в переднюю камеру",
+    "properties": {}
+  },
+  {
+    "source": "symptom_glubokaya_perednyaya_kamera",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "глубокая передняя камера",
+    "properties": {}
+  },
+  {
+    "source": "symptom_astigmatizm",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно наличие астигматизма",
+    "properties": {}
+  },
+  {
+    "source": "symptom_iridokornealnye_srashcheniya",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наличие иридокорнеальных сращений",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sinehi_perednikh_struktur",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "синехи передних структур",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dislokatsiya_iol",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дислокация ИОЛ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lyuktsiya_hrustalika",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "люксация хрусталика",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_hrustalikovoy_sumki",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "отсутствие хрусталиковой сумки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otstutstvie_kapsulnogo_meshka",
+    "target": "diagnosis_afakiya",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "отсутствие капсульного мешка",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_afakiya",
+    "target": "diagnosis_vrozhdennaya_afakiya",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "в редких случаях – врождённая аномалия развития; классификация: врожденные; приобретенные",
+    "properties": {}
+  }
+]

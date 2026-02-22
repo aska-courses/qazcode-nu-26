@@ -1,0 +1,280 @@
+{
+  "protocol_id": "p_a19d781b50",
+  "nodes": [
+    {
+      "id": "diagnosis_other_difficult_births",
+      "type": "diagnosis",
+      "label": "Другие виды затрудненных родов",
+      "icd_code": "O66"
+    },
+    {
+      "id": "diagnosis_shoulder_dystocia",
+      "type": "diagnosis",
+      "label": "Затрудненные роды (дистоция) вследствие предлежания плечика",
+      "icd_code": "O66.1"
+    },
+    {
+      "id": "symptom_turtle_sign",
+      "type": "symptom",
+      "label": "симптом черепахи (шея плода плотно охвачена вульвой)"
+    },
+    {
+      "id": "symptom_chin_retracts",
+      "type": "symptom",
+      "label": "подбородок втягивается и опускает промежность"
+    },
+    {
+      "id": "symptom_shoulder_not_delivered_one_minute",
+      "type": "symptom",
+      "label": "плечики не рождаются в течение минуты после рождения головки"
+    },
+    {
+      "id": "symptom_no_shoulder_with_traction",
+      "type": "symptom",
+      "label": "осторожное потягивание за головку не сопровождается рождением плечика"
+    },
+    {
+      "id": "symptom_vaginal_tears",
+      "type": "symptom",
+      "label": "разрывы влагалища, промежности, шейки матки"
+    },
+    {
+      "id": "symptom_uterine_rupture",
+      "type": "symptom",
+      "label": "разрыв матки, инволюция матки"
+    },
+    {
+      "id": "symptom_hypovolemic_shock",
+      "type": "symptom",
+      "label": "гиповолемический шок"
+    },
+    {
+      "id": "symptom_amniotic_embolism",
+      "type": "symptom",
+      "label": "эмболия околоплодными водами"
+    },
+    {
+      "id": "symptom_brachial_plexus_injury",
+      "type": "symptom",
+      "label": "повреждения плечевого сплетения"
+    },
+    {
+      "id": "symptom_hand_paresis",
+      "type": "symptom",
+      "label": "парез руки"
+    },
+    {
+      "id": "symptom_respiratory_paralysis",
+      "type": "symptom",
+      "label": "паралич дыхания"
+    },
+    {
+      "id": "symptom_clavicle_humerus_fracture",
+      "type": "symptom",
+      "label": "переломы плечевой кости и/или ключицы"
+    },
+    {
+      "id": "symptom_hypoxia",
+      "type": "symptom",
+      "label": "гипоксия"
+    },
+    {
+      "id": "symptom_cerebral_palsy",
+      "type": "symptom",
+      "label": "церебральный парез"
+    },
+    {
+      "id": "symptom_death",
+      "type": "symptom",
+      "label": "смерть"
+    },
+    {
+      "id": "symptom_ischemic_encephalopathy",
+      "type": "symptom",
+      "label": "ишемическая энцефалопатия"
+    },
+    {
+      "id": "symptom_asphyxia",
+      "type": "symptom",
+      "label": "асфиксия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_turtle_sign",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "головка плода родилась, но шея осталась плотно охваченной вульвой «симптом черепахи»",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chin_retracts",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "подбородок втягивается и опускает промежность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shoulder_not_delivered_one_minute",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "если плечики не рождаются в течение минуты после рождения головки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_no_shoulder_with_traction",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.9,
+      "evidence": "осторожное потягивание за головку не сопровождается рождением плечика",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vaginal_tears",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "разрывы влагалища, промежности, шейки матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uterine_rupture",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "разрыв матки, инволюция матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypovolemic_shock",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гиповолемический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_amniotic_embolism",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эмболия околоплодными водами",
+      "properties": {}
+    },
+    {
+      "source": "symptom_brachial_plexus_injury",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повреждения плечевого сплетения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hand_paresis",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "парез руки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_respiratory_paralysis",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "паралич дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_clavicle_humerus_fracture",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "переломы плечевой кости и/или ключицы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoxia",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипоксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cerebral_palsy",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "церебральный парез",
+      "properties": {}
+    },
+    {
+      "source": "symptom_death",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "смерть",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ischemic_encephalopathy",
+      "target": "diagnosis_shoulder_dystocia",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "ишемическая энцефалопатия, вызванная гипоксией, встречается редко",
+      "properties": {}
+    },
+    {
+      "source": "symptom_turtle_sign",
+      "target": "symptom_chin_retracts",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "головка плода родилась, но шея осталась плотно охваченной вульвой «симптом черепахи»; подбородок втягивается и опускает промежность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_turtle_sign",
+      "target": "symptom_shoulder_not_delivered_one_minute",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом черепахи; если плечики не рождаются в течение минуты после рождения головки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_turtle_sign",
+      "target": "symptom_no_shoulder_with_traction",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "симптом черепахи; осторожное потягивание за головку не сопровождается рождением плечика",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chin_retracts",
+      "target": "symptom_shoulder_not_delivered_one_minute",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "подбородок втягивается и опускает промежность; если плечики не рождаются в течение минуты после рождения головки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chin_retracts",
+      "target": "symptom_no_shoulder_with_traction",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "подбородок втягивается и опускает промежность; осторожное потягивание за головку не сопровождается рождением плечика",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shoulder_not_delivered_one_minute",
+      "target": "symptom_no_shoulder_with_traction",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "если плечики не рождаются в течение минуты после рождения головки; осторожное потягивание за головку не сопровождается рождением плечика",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "protocol_id": "p_f9662ee09b",
+  "nodes": [
+    {
+      "id": "diagnosis_t86_1",
+      "type": "diagnosis",
+      "label": "Отмирание и отторжение трансплантата почки",
+      "icd_code": "T86.1"
+    },
+    {
+      "id": "diagnosis_z94_0",
+      "type": "diagnosis",
+      "label": "Наличие трансплантированной почки",
+      "icd_code": "Z94.0"
+    },
+    {
+      "id": "diagnosis_n18_8",
+      "type": "diagnosis",
+      "label": "Хроническая почечная недостаточность",
+      "icd_code": "N18.8"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_swelling_transplant",
+      "type": "symptom",
+      "label": "Уплотнение/припухлость в области трансплантата"
+    },
+    {
+      "id": "symptom_pain_transplant",
+      "type": "symptom",
+      "label": "Боль в области трансплантата"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "Уменьшение количества мочи (олигоурия)"
+    },
+    {
+      "id": "symptom_anuria",
+      "type": "symptom",
+      "label": "Отсутствие мочи (анурия)"
+    },
+    {
+      "id": "symptom_general_malaise",
+      "type": "symptom",
+      "label": "Общее недомогание"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_hyperthermia",
+      "type": "symptom",
+      "label": "Гипертермия"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отёки"
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Повышение артериального давления"
+    },
+    {
+      "id": "symptom_thirst",
+      "type": "symptom",
+      "label": "Жажда"
+    },
+    {
+      "id": "symptom_hypercreatinemia",
+      "type": "symptom",
+      "label": "Гиперкреатининемия"
+    },
+    {
+      "id": "symptom_hyperuremia",
+      "type": "symptom",
+      "label": "Повышение мочевины"
+    },
+    {
+      "id": "symptom_hyperkalemia",
+      "type": "symptom",
+      "label": "Гиперкалиемия"
+    },
+    {
+      "id": "symptom_decreased_gfr",
+      "type": "symptom",
+      "label": "Снижение скорости клубочковой фильтрации"
+    },
+    {
+      "id": "symptom_elevated_ldh",
+      "type": "symptom",
+      "label": "Повышение лактатдегидрогеназы (ЛДГ)"
+    },
+    {
+      "id": "symptom_elevated_crp",
+      "type": "symptom",
+      "label": "Повышение С‑реактивного белка (СРБ)"
+    },
+    {
+      "id": "symptom_leukocytosis",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_leukopenia",
+      "type": "symptom",
+      "label": "Лейкопения"
+    },
+    {
+      "id": "symptom_eosinophilia",
+      "type": "symptom",
+      "label": "Эозинофилия"
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения"
+    },
+    {
+      "id": "symptom_elevated_esr",
+      "type": "symptom",
+      "label": "Повышение скорости оседания эритроцитов (СОЭ)"
+    },
+    {
+      "id": "symptom_proteinuria",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "symptom_leukocyturia",
+      "type": "symptom",
+      "label": "Лейкоцитурия"
+    },
+    {
+      "id": "symptom_microscopic_hematuria",
+      "type": "symptom",
+      "label": "Микрогематурия"
+    },
+    {
+      "id": "symptom_cylindruria",
+      "type": "symptom",
+      "label": "Цилиндрурия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling_transplant",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уплотнение/припухлость/боль в области трансплантата",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_transplant",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уплотнение/припухлость/боль в области трансплантата",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшение количества мочи/отсутствие мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_anuria",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшение количества мочи/отсутствие мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_malaise",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "общее недомогание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperthermia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.25,
+      "evidence": "Наличие гипертермии ... нечасто и указывает на тяжесть отторжения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отёки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertension",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение артериального давления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypercreatinemia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкреатининемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperuremia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение мочевины",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperkalemia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперкалиемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_gfr",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение СКФ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_ldh",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение ЛДГ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_crp",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение СРБ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocytosis",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukopenia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eosinophilia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эозинофилия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_thrombocytopenia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тромбоцитопения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_esr",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_proteinuria",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leukocyturia",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_microscopic_hematuria",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "микрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cylindruria",
+      "target": "diagnosis_t86_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цилиндрурия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_z94_0",
+      "target": "diagnosis_t86_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Отмирание и отторжение трансплантата почки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_swelling_transplant",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышение температуры тела; уплотнение/припухлость/боль в области трансплантата",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swelling_transplant",
+      "target": "symptom_pain_transplant",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уплотнение/припухлость/боль в области трансплантата",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "symptom_anuria",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "уменьшение количества мочи/отсутствие мочи",
+      "properties": {}
+    }
+  ]
+}

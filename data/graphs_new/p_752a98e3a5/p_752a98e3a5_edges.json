@@ -1,0 +1,554 @@
+[
+  {
+    "source": "lack_of_hearing_improvement_post_surgery",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие улучшения слуха после слухоулучшающих операций",
+    "properties": {}
+  },
+  {
+    "source": "lack_of_hearing_improvement_post_surgery",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие улучшения слуха после слухоулучшающих операций",
+    "properties": {}
+  },
+  {
+    "source": "hearing_loss",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря слуха при порогах костного звукопроведения",
+    "properties": {}
+  },
+  {
+    "source": "hearing_loss",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря слуха при порогах костного звукопроведения",
+    "properties": {}
+  },
+  {
+    "source": "speech_discrimination_low",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "низкий процент разборчивости речи (разборчивость речи менее 50% при интенсивности звука 65 дБ)",
+    "properties": {}
+  },
+  {
+    "source": "speech_discrimination_low",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "низкий процент разборчивости речи (разборчивость речи менее 50% при интенсивности звука 65 дБ)",
+    "properties": {}
+  },
+  {
+    "source": "vestibular_disorders_spontaneous",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (эндолимфатический гидропс, посттравматическая лабиринтопатия, экстралабиринтное нарушение слуха, вертебробазилярные нарушения кровообращения)",
+    "properties": {}
+  },
+  {
+    "source": "vestibular_disorders_spontaneous",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (эндолимфатический гидропс, посттравматическая лабиринтопатия, экстралабиринтное нарушение слуха, вертебробазилярные нарушения кровообращения)",
+    "properties": {}
+  },
+  {
+    "source": "endolymphatic_hydrops",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (эндолимфатический гидропс, ...)",
+    "properties": {}
+  },
+  {
+    "source": "endolymphatic_hydrops",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (эндолимфатический гидропс, ...)",
+    "properties": {}
+  },
+  {
+    "source": "posttraumatic_labyrinthopathy",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (... посттравматическая лабиринтопатия ...)",
+    "properties": {}
+  },
+  {
+    "source": "posttraumatic_labyrinthopathy",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (... посттравматическая лабиринтопатия ...)",
+    "properties": {}
+  },
+  {
+    "source": "extra_labyrinthine_hearing_disorder",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (... экстралабиринтное нарушение слуха ...)",
+    "properties": {}
+  },
+  {
+    "source": "extra_labyrinthine_hearing_disorder",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (... экстралабиринтное нарушение слуха ...)",
+    "properties": {}
+  },
+  {
+    "source": "vertebrobasilar_circulatory_disturbances",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (... вертебробазилярные нарушения кровообращения)",
+    "properties": {}
+  },
+  {
+    "source": "vertebrobasilar_circulatory_disturbances",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "спонтанные вестибулярные расстройства (... вертебробазилярные нарушения кровообращения)",
+    "properties": {}
+  },
+  {
+    "source": "cholesteatoma_recurrence",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "рецидив холестеатомы или гнойно-кариозного процесса в барабанной полости",
+    "properties": {}
+  },
+  {
+    "source": "cholesteatoma_recurrence",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "рецидив холестеатомы или гнойно-кариозного процесса в барабанной полости",
+    "properties": {}
+  },
+  {
+    "source": "acute_respiratory_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "наличие острой или тяжелой соматической патологии (острые заболевания дыхательных путей ...)",
+    "properties": {}
+  },
+  {
+    "source": "acute_respiratory_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "наличие острой или тяжелой соматической патологии (острые заболевания дыхательных путей ...)",
+    "properties": {}
+  },
+  {
+    "source": "acute_infectious_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "наличие острой или тяжелой соматической патологии (острые инфекционные заболевания ...)",
+    "properties": {}
+  },
+  {
+    "source": "acute_infectious_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "наличие острой или тяжелой соматической патологии (острые инфекционные заболевания ...)",
+    "properties": {}
+  },
+  {
+    "source": "unexplained_hyperthermia",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гипертермия неясной природы",
+    "properties": {}
+  },
+  {
+    "source": "unexplained_hyperthermia",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гипертермия неясной природы",
+    "properties": {}
+  },
+  {
+    "source": "acute_renal_failure",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "acute_renal_failure",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "острая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "chronic_renal_failure",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "хроническая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "chronic_renal_failure",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "хроническая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "severe_congenital_malformations_decompensated",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "тяжелые декомпенсированные или субкомпенсированные врожденные пороки развития",
+    "properties": {}
+  },
+  {
+    "source": "severe_congenital_malformations_decompensated",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "тяжелые декомпенсированные или субкомпенсированные врожденные пороки развития",
+    "properties": {}
+  },
+  {
+    "source": "tuberculosis",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "туберкулез",
+    "properties": {}
+  },
+  {
+    "source": "tuberculosis",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "туберкулез",
+    "properties": {}
+  },
+  {
+    "source": "shock_and_collapse",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "шок и коллапс",
+    "properties": {}
+  },
+  {
+    "source": "shock_and_collapse",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "шок и коллапс",
+    "properties": {}
+  },
+  {
+    "source": "severe_anemia",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "выраженная анемия с уровнем гемоглобина менее 80 г/л",
+    "properties": {}
+  },
+  {
+    "source": "severe_anemia",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "выраженная анемия с уровнем гемоглобина менее 80 г/л",
+    "properties": {}
+  },
+  {
+    "source": "generalized_seizures",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "генерализованные судороги различной этиологии",
+    "properties": {}
+  },
+  {
+    "source": "generalized_seizures",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "генерализованные судороги различной этиологии",
+    "properties": {}
+  },
+  {
+    "source": "malignant_neoplasms",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "злокачественные новообразования (III‑IV стадии)",
+    "properties": {}
+  },
+  {
+    "source": "malignant_neoplasms",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "злокачественные новообразования (III‑IV стадии)",
+    "properties": {}
+  },
+  {
+    "source": "respiratory_failure_stage_III",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "недостаточность функции дыхания более III степени",
+    "properties": {}
+  },
+  {
+    "source": "respiratory_failure_stage_III",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "недостаточность функции дыхания более III степени",
+    "properties": {}
+  },
+  {
+    "source": "uncorrectable_metabolic_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "некорректируемые метаболические болезни",
+    "properties": {}
+  },
+  {
+    "source": "uncorrectable_metabolic_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "некорректируемые метаболические болезни",
+    "properties": {}
+  },
+  {
+    "source": "active_rheumatic_process_stage_II_or_higher",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "активность ревматического процесса 2 степени и выше",
+    "properties": {}
+  },
+  {
+    "source": "active_rheumatic_process_stage_II_or_higher",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "активность ревматического процесса 2 степени и выше",
+    "properties": {}
+  },
+  {
+    "source": "purulent_skin_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи",
+    "properties": {}
+  },
+  {
+    "source": "purulent_skin_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи",
+    "properties": {}
+  },
+  {
+    "source": "contagious_skin_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "заразные болезни кожи (чесотка, грибковые заболевания и др.)",
+    "properties": {}
+  },
+  {
+    "source": "contagious_skin_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "заразные болезни кожи (чесотка, грибковые заболевания и др.)",
+    "properties": {}
+  },
+  {
+    "source": "diabetes_mellitus",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "сахарный диабет",
+    "properties": {}
+  },
+  {
+    "source": "diabetes_mellitus",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "сахарный диабет",
+    "properties": {}
+  },
+  {
+    "source": "blood_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "болезни крови",
+    "properties": {}
+  },
+  {
+    "source": "blood_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "болезни крови",
+    "properties": {}
+  },
+  {
+    "source": "severe_allergic_autoimmune_diseases",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "тяжелые аллергические и аутоиммунные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "severe_allergic_autoimmune_diseases",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "тяжелые аллергические и аутоиммунные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "psychiatric_disorders_desocialization",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "психические заболевания с десоциализацией личности",
+    "properties": {}
+  },
+  {
+    "source": "psychiatric_disorders_desocialization",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "психические заболевания с десоциализацией личности",
+    "properties": {}
+  },
+  {
+    "source": "retrocochlear_pathology",
+    "target": "conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "ретрокохлеарная патология",
+    "properties": {}
+  },
+  {
+    "source": "retrocochlear_pathology",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "ретрокохлеарная патология",
+    "properties": {}
+  },
+  {
+    "source": "vestibular_disorders_spontaneous",
+    "target": "endolymphatic_hydrops",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "спонтанные вестибулярные расстройства (эндолимфатический гидропс, ...)",
+    "properties": {}
+  },
+  {
+    "source": "vestibular_disorders_spontaneous",
+    "target": "posttraumatic_labyrinthopathy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "спонтанные вестибулярные расстройства (... посттравматическая лабиринтопатия ...)",
+    "properties": {}
+  },
+  {
+    "source": "vestibular_disorders_spontaneous",
+    "target": "extra_labyrinthine_hearing_disorder",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "спонтанные вестибулярные расстройства (... экстралабиринтное нарушение слуха ...)",
+    "properties": {}
+  },
+  {
+    "source": "vestibular_disorders_spontaneous",
+    "target": "vertebrobasilar_circulatory_disturbances",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "спонтанные вестибулярные расстройства (... вертебробазилярные нарушения кровообращения)",
+    "properties": {}
+  },
+  {
+    "source": "acute_respiratory_diseases",
+    "target": "acute_infectious_diseases",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "наличие острой или тяжелой соматической патологии (острые заболевания дыхательных путей, острые инфекционные заболевания)",
+    "properties": {}
+  },
+  {
+    "source": "acute_renal_failure",
+    "target": "chronic_renal_failure",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острая почечная недостаточность, хроническая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "conductive_hearing_loss_bilateral",
+    "target": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "двусторонняя кондуктивная или смешанная тугоухость",
+    "properties": {}
+  },
+  {
+    "source": "conductive_hearing_loss_bilateral",
+    "target": "congenital_absence_atresia_stricture_external_auditory_canal",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "при врожденных аномалиях уха ... Врожденное отсутствие, атрезия и стриктура наружного слухового прохода",
+    "properties": {}
+  },
+  {
+    "source": "mixed_conductive_sensorineural_hearing_loss_bilateral",
+    "target": "congenital_absence_atresia_stricture_external_auditory_canal",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "при врожденных аномалиях уха ... Врожденное отсутствие, атрезия и стриктура наружного слухового прохода",
+    "properties": {}
+  }
+]

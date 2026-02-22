@@ -1,0 +1,469 @@
+{
+  "protocol_id": "p_e0611cb210",
+  "nodes": [
+    {
+      "id": "lipodystrophy",
+      "type": "diagnosis",
+      "label": "Липодистрофия, не классифицированная в других рубриках",
+      "icd_code": "E88.1"
+    },
+    {
+      "id": "partial_or_complete_absence_of_subcutaneous_fat",
+      "type": "symptom",
+      "label": "Отсутствие или частичное отсутствие подкожной жировой клетчатки"
+    },
+    {
+      "id": "hyperphagia",
+      "type": "symptom",
+      "label": "Повышенный аппетит (гиперфагия)"
+    },
+    {
+      "id": "skin_darkening_in_folds",
+      "type": "symptom",
+      "label": "Потемнение кожи в складках"
+    },
+    {
+      "id": "acanthosis_nigricans",
+      "type": "symptom",
+      "label": "Черный акантоз (акантоз нигриканс)"
+    },
+    {
+      "id": "eruptive_xanthomas",
+      "type": "symptom",
+      "label": "Эруптивные ксантомы"
+    },
+    {
+      "id": "muscular_hypertrophy",
+      "type": "symptom",
+      "label": "Выступающая мышечная масса (мускулистый внешний вид)"
+    },
+    {
+      "id": "acromegaloid_appearance",
+      "type": "symptom",
+      "label": "Акромегалоидный внешний вид"
+    },
+    {
+      "id": "progeroid_appearance",
+      "type": "symptom",
+      "label": "Прогероидный (преждевременное старение) внешний вид"
+    },
+    {
+      "id": "delayed_physical_development",
+      "type": "symptom",
+      "label": "Задержка физического развития"
+    },
+    {
+      "id": "kushingoid_fat_distribution",
+      "type": "symptom",
+      "label": "Кушингоидное перераспределение подкожно‑жировой клетчатки"
+    },
+    {
+      "id": "pathological_tallness",
+      "type": "symptom",
+      "label": "Патологическая высокорослость"
+    },
+    {
+      "id": "umbilical_hernia",
+      "type": "symptom",
+      "label": "Выпячивание пупка или пупочная грыжа"
+    },
+    {
+      "id": "accelerated_bone_age",
+      "type": "symptom",
+      "label": "Ускорение костного возраста"
+    },
+    {
+      "id": "gynecomastia",
+      "type": "symptom",
+      "label": "Легкий гирсутизм"
+    },
+    {
+      "id": "phlebomegaly",
+      "type": "symptom",
+      "label": "Флебомегалия (выступающие вены)"
+    },
+    {
+      "id": "hypertension",
+      "type": "symptom",
+      "label": "Артериальная гипертензия"
+    },
+    {
+      "id": "hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "splenomegaly",
+      "type": "symptom",
+      "label": "Спленомегалия"
+    },
+    {
+      "id": "clitoromegaly",
+      "type": "symptom",
+      "label": "Клиторомегалия"
+    },
+    {
+      "id": "lytic_lesions_long_bones",
+      "type": "symptom",
+      "label": "Литические поражения длинных костей"
+    },
+    {
+      "id": "primary_or_secondary_amenorrhea",
+      "type": "symptom",
+      "label": "Первичная или вторичная аменорея"
+    },
+    {
+      "id": "irregular_menstruation",
+      "type": "symptom",
+      "label": "Нерегулярные менструации"
+    },
+    {
+      "id": "carbohydrate_metabolism_disorder",
+      "type": "symptom",
+      "label": "Нарушение углеводного обмена"
+    },
+    {
+      "id": "lipid_metabolism_disorder",
+      "type": "symptom",
+      "label": "Нарушение липидного обмена"
+    },
+    {
+      "id": "speech_and_cognitive_delay",
+      "type": "symptom",
+      "label": "Отставание в психо‑речевом развитии"
+    },
+    {
+      "id": "insulin_resistance",
+      "type": "symptom",
+      "label": "Инсулинорезистентность"
+    },
+    {
+      "id": "diabetes_mellitus",
+      "type": "symptom",
+      "label": "Сахарный диабет"
+    },
+    {
+      "id": "dyslipidemia",
+      "type": "symptom",
+      "label": "Дислипидемия"
+    },
+    {
+      "id": "non_alcoholic_fatty_liver_disease",
+      "type": "symptom",
+      "label": "Неалкогольная жировая болезнь печени (НАЖБП)"
+    },
+    {
+      "id": "steatohepatitis",
+      "type": "symptom",
+      "label": "Стеатогепатит"
+    },
+    {
+      "id": "cardiomyopathy",
+      "type": "symptom",
+      "label": "Кардиомиопатия"
+    },
+    {
+      "id": "polycystic_ovary_syndrome",
+      "type": "symptom",
+      "label": "Синдром поликистозных яичников"
+    }
+  ],
+  "edges": [
+    {
+      "source": "partial_or_complete_absence_of_subcutaneous_fat",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "частичное/порциальное или полное/генерализованное отсутствие жировой ткани",
+      "properties": {}
+    },
+    {
+      "source": "skin_darkening_in_folds",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "потемнение кожи, особенно в кожных складках",
+      "properties": {}
+    },
+    {
+      "source": "hyperphagia",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный аппетит",
+      "properties": {}
+    },
+    {
+      "source": "acanthosis_nigricans",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "черный акантоз",
+      "properties": {}
+    },
+    {
+      "source": "eruptive_xanthomas",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Эруптивные ксантомы",
+      "properties": {}
+    },
+    {
+      "source": "muscular_hypertrophy",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выступающая мышечная масса (мускулистый внешний вид)",
+      "properties": {}
+    },
+    {
+      "source": "acromegaloid_appearance",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "акромегалоидный внешний вид",
+      "properties": {}
+    },
+    {
+      "source": "progeroid_appearance",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогероидный (преждевременное старение) внешний вид",
+      "properties": {}
+    },
+    {
+      "source": "delayed_physical_development",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "задержка физического развития",
+      "properties": {}
+    },
+    {
+      "source": "kushingoid_fat_distribution",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кушингоидное перераспределение подкожно‑жировой клетчатки",
+      "properties": {}
+    },
+    {
+      "source": "pathological_tallness",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическая высокорослость",
+      "properties": {}
+    },
+    {
+      "source": "umbilical_hernia",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выпячивание пупка или наличие пупочной грыжи",
+      "properties": {}
+    },
+    {
+      "source": "accelerated_bone_age",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ускорение костного возраста",
+      "properties": {}
+    },
+    {
+      "source": "gynecomastia",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "легкий гирсутизм",
+      "properties": {}
+    },
+    {
+      "source": "phlebomegaly",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "флебомегалия (выступающие вены)",
+      "properties": {}
+    },
+    {
+      "source": "hypertension",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... артериальной гипертензией",
+      "properties": {}
+    },
+    {
+      "source": "hepatomegaly",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... жировым гепатозом и стеатогепатитом",
+      "properties": {}
+    },
+    {
+      "source": "splenomegaly",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "спленомегалия",
+      "properties": {}
+    },
+    {
+      "source": "clitoromegaly",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "клиторомегалия",
+      "properties": {}
+    },
+    {
+      "source": "lytic_lesions_long_bones",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "литические поражения длинных костей",
+      "properties": {}
+    },
+    {
+      "source": "primary_or_secondary_amenorrhea",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "первичная или вторичная аменорея",
+      "properties": {}
+    },
+    {
+      "source": "irregular_menstruation",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нерегулярные менструации",
+      "properties": {}
+    },
+    {
+      "source": "carbohydrate_metabolism_disorder",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение углеводного обмена",
+      "properties": {}
+    },
+    {
+      "source": "lipid_metabolism_disorder",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение липидного обмена",
+      "properties": {}
+    },
+    {
+      "source": "speech_and_cognitive_delay",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание в психо‑речевом развитии",
+      "properties": {}
+    },
+    {
+      "source": "insulin_resistance",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... инсулинорезистентностью",
+      "properties": {}
+    },
+    {
+      "source": "diabetes_mellitus",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... сахарным диабетом",
+      "properties": {}
+    },
+    {
+      "source": "dyslipidemia",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... дислипидемией",
+      "properties": {}
+    },
+    {
+      "source": "non_alcoholic_fatty_liver_disease",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... жировым гепатозом",
+      "properties": {}
+    },
+    {
+      "source": "steatohepatitis",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто сопровождающихся различными метаболическими нарушениями: ... стеатогепатитом",
+      "properties": {}
+    },
+    {
+      "source": "cardiomyopathy",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кардиомиопатия",
+      "properties": {}
+    },
+    {
+      "source": "polycystic_ovary_syndrome",
+      "target": "lipodystrophy",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "синдром поликистозных яичников",
+      "properties": {}
+    },
+    {
+      "source": "insulin_resistance",
+      "target": "diabetes_mellitus",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "инсулинорезистентностью и сахарным диабетом",
+      "properties": {}
+    },
+    {
+      "source": "non_alcoholic_fatty_liver_disease",
+      "target": "steatohepatitis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "жировым гепатозом и стеатогепатитом",
+      "properties": {}
+    },
+    {
+      "source": "dyslipidemia",
+      "target": "hypertension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дислипидемией, артериальной гипертензией",
+      "properties": {}
+    },
+    {
+      "source": "acanthosis_nigricans",
+      "target": "acromegaloid_appearance",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Черный акантоз; ... Акромегалоидный внешний вид",
+      "properties": {}
+    },
+    {
+      "source": "progeroid_appearance",
+      "target": "acromegaloid_appearance",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "прогероидный (преждевременное старение) внешний вид; ... Акромегалоидный внешний вид",
+      "properties": {}
+    }
+  ]
+}

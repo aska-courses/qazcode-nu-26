@@ -1,0 +1,282 @@
+{
+  "protocol_id": "p_216f6d00a6",
+  "nodes": [
+    {
+      "id": "diag_k40_2",
+      "type": "diagnosis",
+      "label": "двусторонняя паховая грыжа без непроходимости или гангрены",
+      "icd_code": "K40.2"
+    },
+    {
+      "id": "diag_k40_9",
+      "type": "diagnosis",
+      "label": "односторонняя паховая грыжа без непроходимости или гангрены",
+      "icd_code": "K40.9"
+    },
+    {
+      "id": "symptom_opuholovidnoe_vypachivanie_pahovaia_oblast",
+      "type": "symptom",
+      "label": "опухолевидное выпячивание в паховой области"
+    },
+    {
+      "id": "symptom_vypachivanie_uvelichivaetsia_pri_krike_i_bespokoistve",
+      "type": "symptom",
+      "label": "выпячивание увеличивается при крике и беспокойстве"
+    },
+    {
+      "id": "symptom_vypachivanie_umenshaetsia_v_spokoynom_sostoyanii",
+      "type": "symptom",
+      "label": "выпячивание уменьшается или исчезает в спокойном состоянии"
+    },
+    {
+      "id": "symptom_urchanie_pri_paltsovom_davlenii",
+      "type": "symptom",
+      "label": "урчание при пальцевом давлении"
+    },
+    {
+      "id": "symptom_elasticheskaya_konsistentsiya_vypachivania",
+      "type": "symptom",
+      "label": "эластическая консистенция выпячивания"
+    },
+    {
+      "id": "symptom_bezbolesnoe_vypachivanie",
+      "type": "symptom",
+      "label": "безболезненное выпячивание"
+    },
+    {
+      "id": "symptom_rasshirennoe_naruzhnoe_pahovoe_koltso",
+      "type": "symptom",
+      "label": "расширенное наружное паховое кольцо"
+    },
+    {
+      "id": "symptom_okruglaya_forma_vypachivania",
+      "type": "symptom",
+      "label": "округлая форма выпячивания"
+    },
+    {
+      "id": "symptom_ovalnaya_forma_vypachivania",
+      "type": "symptom",
+      "label": "овальная форма выпячивания"
+    },
+    {
+      "id": "symptom_vypachivanie_opuskaetsia_v_bolshuiu_polovu_gubu",
+      "type": "symptom",
+      "label": "выпячивание может опускаться в большую половую губу"
+    },
+    {
+      "id": "symptom_gidrocel",
+      "type": "symptom",
+      "label": "водянка (гидроцеле)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_opuholovidnoe_vypachivanie_pahovaia_oblast",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на опухолевидное выпячивание в паховой, пахово-мошоночной области.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opuholovidnoe_vypachivanie_pahovaia_oblast",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: на опухолевидное выпячивание в паховой, пахово-мошоночной области.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_uvelichivaetsia_pri_krike_i_bespokoistve",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "увеличивающееся при крике и беспокойстве",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_uvelichivaetsia_pri_krike_i_bespokoistve",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "увеличивающееся при крике и беспокойстве",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_umenshaetsia_v_spokoynom_sostoyanii",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "уменьшающееся или исчезающее в спокойном состоянии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_umenshaetsia_v_spokoynom_sostoyanii",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "уменьшающееся или исчезающее в спокойном состоянии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_okruglaya_forma_vypachivania",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Выпячивание имеет округлую (при паховой) форму",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ovalnaya_forma_vypachivania",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "овальную (при пахово-мошоночной грыже) форму",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elasticheskaya_konsistentsiya_vypachivania",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации эластической консистенции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elasticheskaya_konsistentsiya_vypachivania",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации эластической консистенции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bezbolesnoe_vypachivanie",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "безболезненное, грыжевое выпячивание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bezbolesnoe_vypachivanie",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "безболезненное, грыжевое выпячивание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urchanie_pri_paltsovom_davlenii",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "хорошо слышно характерное урчание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_urchanie_pri_paltsovom_davlenii",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "хорошо слышно характерное урчание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirennoe_naruzhnoe_pahovoe_koltso",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пальпируется расширенное наружное паховое кольцо",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirennoe_naruzhnoe_pahovoe_koltso",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "пальпируется расширенное наружное паховое кольцо",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_opuskaetsia_v_bolshuiu_polovu_gubu",
+      "target": "diag_k40_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выпячивание может опускаться в большую половую губу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_opuskaetsia_v_bolshuiu_polovu_gubu",
+      "target": "diag_k40_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выпячивание может опускаться в большую половую губу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gidrocel",
+      "target": "diag_k40_2",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Водянка ... дифференциальный диагноз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gidrocel",
+      "target": "diag_k40_9",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Водянка ... дифференциальный диагноз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_opuholovidnoe_vypachivanie_pahovaia_oblast",
+      "target": "symptom_vypachivanie_uvelichivaetsia_pri_krike_i_bespokoistve",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы: на опухолевидное выпячивание ... увеличивающееся при крике и беспокойстве",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vypachivanie_uvelichivaetsia_pri_krike_i_bespokoistve",
+      "target": "symptom_vypachivanie_umenshaetsia_v_spokoynom_sostoyanii",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "увеличивающееся при крике и беспокойстве и уменьшающееся или исчезающее в спокойном состоянии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elasticheskaya_konsistentsiya_vypachivania",
+      "target": "symptom_bezbolesnoe_vypachivanie",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "эластической консистенции, безболезненное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bezbolesnoe_vypachivanie",
+      "target": "symptom_urchanie_pri_paltsovom_davlenii",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "безболезненное ... При этом хорошо слышно характерное урчание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirennoe_naruzhnoe_pahovoe_koltso",
+      "target": "symptom_okruglaya_forma_vypachivania",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "После вправления грыжевого содержимого пальпируется расширенное наружное паховое кольцо. Выпячивание имеет округлую форму",
+      "properties": {}
+    },
+    {
+      "source": "diag_k40_2",
+      "target": "diag_k40_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: K40.2 ... K40.9 ...",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "protocol_id": "p_e30fa4599c",
+  "nodes": [
+    {
+      "id": "diagnosis_c48_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование забрюшинного пространства, нейробластома",
+      "icd_code": "C48.0"
+    },
+    {
+      "id": "diagnosis_c81",
+      "type": "diagnosis",
+      "label": "Болезнь Ходжкина",
+      "icd_code": "C81"
+    },
+    {
+      "id": "diagnosis_c40_41",
+      "type": "diagnosis",
+      "label": "Саркома Юинга",
+      "icd_code": "C40-41"
+    },
+    {
+      "id": "diagnosis_c82",
+      "type": "diagnosis",
+      "label": "Лимфомы",
+      "icd_code": "C82"
+    },
+    {
+      "id": "diagnosis_c83",
+      "type": "diagnosis",
+      "label": "Неходжкинская лимфома",
+      "icd_code": "C83"
+    },
+    {
+      "id": "diagnosis_c64",
+      "type": "diagnosis",
+      "label": "Нефрорбластома, опухоль Вильмса",
+      "icd_code": "C64"
+    },
+    {
+      "id": "diagnosis_c70_72",
+      "type": "diagnosis",
+      "label": "Медуллобластома",
+      "icd_code": "C70-72"
+    },
+    {
+      "id": "diagnosis_c75_1_75_5_c46_49",
+      "type": "diagnosis",
+      "label": "Мягкотканные саркомы, Рабомиосаркома",
+      "icd_code": "C75.1-75.5, C46-49"
+    },
+    {
+      "id": "diagnosis_c56",
+      "type": "diagnosis",
+      "label": "Негерминоматоз, злокачественная зародышевоклеточная опухоль",
+      "icd_code": "C56"
+    },
+    {
+      "id": "diagnosis_c69",
+      "type": "diagnosis",
+      "label": "Ретинобластома",
+      "icd_code": "C69"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Лихорадка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_mucositis",
+      "type": "symptom",
+      "label": "Мукозит III‑IV степени",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hemorrhagic_enterocolitis",
+      "type": "symptom",
+      "label": "Геморрагический энтероколит",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_pneumonia",
+      "type": "symptom",
+      "label": "Пневмония",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "Брадикардия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "Одышка",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "Кашель",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_erythema",
+      "type": "symptom",
+      "label": "Кожная реакция (эритема)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hypertension",
+      "type": "symptom",
+      "label": "Артериальная гипертензия",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hypersalivation",
+      "type": "symptom",
+      "label": "Гиперсаливация",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_anemia",
+      "type": "symptom",
+      "label": "Анемия (низкий гемоглобин)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_thrombocytopenia",
+      "type": "symptom",
+      "label": "Тромбоцитопения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_neutropenia",
+      "type": "symptom",
+      "label": "Нейтропения",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Утомляемость",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "Желтуха",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hyperbilirubinemia",
+      "type": "symptom",
+      "label": "Повышенный уровень печеночных ферментов",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hemolysis",
+      "type": "symptom",
+      "label": "Гемолиз",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_hematuria",
+      "type": "symptom",
+      "label": "Гемоглобинурия",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_mucositis",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Токсичность: Тошнота, рвота в течение терапии; III‑IV мукозит, геморрагический энтероколит;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucositis",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Токсичность: Тошнота, рвота в течение терапии; III‑IV мукозит, геморрагический энтероколит;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucositis",
+      "target": "symptom_hemorrhagic_enterocolitis",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Токсичность: Тошнота, рвота в течение терапии; III‑IV мукозит, геморрагический энтероколит;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mucositis",
+      "target": "symptom_pneumonia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Токсичность: ... Пневмония (при восстановление нейтрофилов).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_dyspnea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: одышка, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_cough",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... кашель, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_nausea",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... тошнота, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... рвота, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_erythema",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... кожная реакция по типу эритемы, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_hypertension",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... артериальная гипертензия, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_hypersalivation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "В большинстве случаев при введении охлажденной клеточной взвеси наблюдается брадикардия. В отдельных случаях наблюдаются следующие осложнения: ... гиперсаливация.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "symptom_hyperbilirubinemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Желтуха с повышенным уровнем печеночных ферментов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c81",
+      "target": "diagnosis_c82",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Неходжкинские лимфомы во второй ремиссии (при отсутствии донора); Болезнь Ходжкина - Резистентность к ХТ ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c81",
+      "target": "diagnosis_c83",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Неходжкинские лимфомы во второй ремиссии (при отсутствии донора); Болезнь Ходжкина - Резистентность к ХТ ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c40_41",
+      "target": "diagnosis_c75_1_75_5_c46_49",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Саркома Юинга - стадия IV ... мягкотканные саркомы - стадия IV ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c70_72",
+      "target": "diagnosis_c40_41",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Солидные опухоли: ... Саркома Юинга ... мягкотканные саркомы ... нейробластома ... ретинобластома ... опухоль Вильмса ... опухоли мозга - дети с медуллобластомой ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c70_72",
+      "target": "diagnosis_c56",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Солидные опухоли: ... опухоль Вильмса ... опухоли мозга - дети с медуллобластомой ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_c70_72",
+      "target": "diagnosis_c64",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Солидные опухоли: ... опухоль Вильмса ... опухоли мозга - дети с медуллобластомой ...",
+      "properties": {}
+    }
+  ]
+}

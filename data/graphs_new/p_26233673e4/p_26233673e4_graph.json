@@ -1,0 +1,886 @@
+{
+  "protocol_id": "p_26233673e4",
+  "nodes": [
+    {
+      "id": "symptom_uvelichenie_zhivota",
+      "type": "symptom",
+      "label": "Увеличение живота"
+    },
+    {
+      "id": "symptom_oshchushchenie_tjazhesti",
+      "type": "symptom",
+      "label": "Ощущение тяжести"
+    },
+    {
+      "id": "symptom_perepolnenie_zhivota",
+      "type": "symptom",
+      "label": "Переполнение в животе"
+    },
+    {
+      "id": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "type": "symptom",
+      "label": "Быстрое удовлетворение чувства голода"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "symptom_nizhenie_appetita",
+      "type": "symptom",
+      "label": "Снижение или отсутствие аппетита"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_rvoota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_izzhoga",
+      "type": "symptom",
+      "label": "Изжога"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "symptom",
+      "label": "Снижение толерантности к физической нагрузке"
+    },
+    {
+      "id": "symptom_otechnost_zhivota",
+      "type": "symptom",
+      "label": "Отечность живота"
+    },
+    {
+      "id": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "type": "symptom",
+      "label": "Выбухание боковых отделов живота"
+    },
+    {
+      "id": "symptom_shum_pleska",
+      "type": "symptom",
+      "label": "Шум плеска при аускультации"
+    },
+    {
+      "id": "symptom_ukorochenie_pertur_tona",
+      "type": "symptom",
+      "label": "Укорочение перкуторного тона в боковых отделах живота"
+    },
+    {
+      "id": "symptom_tupost_centra_zhivota",
+      "type": "symptom",
+      "label": "Тупость в центре живота"
+    },
+    {
+      "id": "symptom_volny",
+      "type": "symptom",
+      "label": "Симптом «волны»"
+    },
+    {
+      "id": "symptom_rasshirennaya_venoznaya_set",
+      "type": "symptom",
+      "label": "Расширенная венозная сеть на коже живота"
+    },
+    {
+      "id": "symptom_portalnaya_gipertenziya",
+      "type": "symptom",
+      "label": "Портальная гипертензия"
+    },
+    {
+      "id": "diagnosis_v20_v24",
+      "type": "diagnosis",
+      "label": "Диагноз В20-В24",
+      "icd_code": "В20-В24"
+    },
+    {
+      "id": "diagnosis_c00_c97",
+      "type": "diagnosis",
+      "label": "Диагноз С00-С97",
+      "icd_code": "С00-С97"
+    },
+    {
+      "id": "diagnosis_e10_e11",
+      "type": "diagnosis",
+      "label": "Диагноз Е10-Е11",
+      "icd_code": "Е10-Е11"
+    },
+    {
+      "id": "diagnosis_g20",
+      "type": "diagnosis",
+      "label": "Диагноз G20",
+      "icd_code": "G20"
+    },
+    {
+      "id": "diagnosis_g81_g83",
+      "type": "diagnosis",
+      "label": "Диагноз G81-G83",
+      "icd_code": "G81-G83"
+    },
+    {
+      "id": "diagnosis_g92_g93",
+      "type": "diagnosis",
+      "label": "Диагноз G92-G93",
+      "icd_code": "G92-G93"
+    },
+    {
+      "id": "diagnosis_i10_i13",
+      "type": "diagnosis",
+      "label": "Диагноз I10-I13",
+      "icd_code": "I10-I13"
+    },
+    {
+      "id": "diagnosis_i25",
+      "type": "diagnosis",
+      "label": "Диагноз I25",
+      "icd_code": "I25"
+    },
+    {
+      "id": "diagnosis_i27",
+      "type": "diagnosis",
+      "label": "Диагноз I27",
+      "icd_code": "I27"
+    },
+    {
+      "id": "diagnosis_i50",
+      "type": "diagnosis",
+      "label": "Диагноз I50",
+      "icd_code": "I50"
+    },
+    {
+      "id": "diagnosis_i69",
+      "type": "diagnosis",
+      "label": "Диагноз I69",
+      "icd_code": "I69"
+    },
+    {
+      "id": "diagnosis_j44",
+      "type": "diagnosis",
+      "label": "Диагноз J44",
+      "icd_code": "J44"
+    },
+    {
+      "id": "diagnosis_j90_j91",
+      "type": "diagnosis",
+      "label": "Диагноз J90-J91",
+      "icd_code": "J90-J91"
+    },
+    {
+      "id": "diagnosis_j96",
+      "type": "diagnosis",
+      "label": "Диагноз J96",
+      "icd_code": "J96"
+    },
+    {
+      "id": "diagnosis_k70_3_k70_4",
+      "type": "diagnosis",
+      "label": "Диагноз К70.3-К70.4",
+      "icd_code": "К70.3-К70.4"
+    },
+    {
+      "id": "diagnosis_k71_7",
+      "type": "diagnosis",
+      "label": "Диагноз К71.7",
+      "icd_code": "К71.7"
+    },
+    {
+      "id": "diagnosis_k72",
+      "type": "diagnosis",
+      "label": "Диагноз К72",
+      "icd_code": "К72"
+    },
+    {
+      "id": "diagnosis_k74",
+      "type": "diagnosis",
+      "label": "Диагноз К74",
+      "icd_code": "К74"
+    },
+    {
+      "id": "diagnosis_n18_n19",
+      "type": "diagnosis",
+      "label": "Диагноз N18-N19",
+      "icd_code": "N18-N19"
+    },
+    {
+      "id": "diagnosis_s72_0",
+      "type": "diagnosis",
+      "label": "Диагноз S72.0",
+      "icd_code": "S72.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_oshchushchenie_tjazhesti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... ощущение тяжести, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_perepolnenie_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... переполнения в животе, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... быстрое удовлетворение чувства голода во время еды, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... одышку, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_nizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... снижение или отсутствие аппетита, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_zhivota",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение живота ... снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_perepolnenie_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, переполнения в животе, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, быстрое удовлетворение чувства голода ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, одышку, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_nizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, снижение или отсутствие аппетита, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oshchushchenie_tjazhesti",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... ощущение тяжести, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, быстрое удовлетворение чувства голода ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, одышку, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_nizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, снижение или отсутствие аппетита, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_perepolnenie_zhivota",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... переполнения в животе, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_odyshka",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, одышку, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_nizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, снижение или отсутствие аппетита, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rannee_ustoychivoe_chuvstvo_goloda",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... быстрое удовлетворение чувства голода во время еды, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_nizhenie_appetita",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... одышку, снижение или отсутствие аппетита, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... одышку, тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... одышку, рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... одышку, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... одышку, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... одышку, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizhenie_appetita",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... снижение или отсутствие аппетита, тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizhenie_appetita",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... снижение или отсутствие аппетита, рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizhenie_appetita",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... снижение или отсутствие аппетита, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizhenie_appetita",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... снижение или отсутствие аппетита, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nizhenie_appetita",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... снижение или отсутствие аппетита, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvoota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... тошноту, рвоту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... тошноту, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... тошноту, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskoy_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... тошноту, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoota",
+      "target": "symptom_izzhoga",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... рвоту, изжогу, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoota",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... рвоту, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoota",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskой_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... рвоту, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izzhoga",
+      "target": "symptom_bol",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... изжогу, боль, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izzhoga",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskой_nagruzki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... изжогу, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_nizhenie_tolernantnosti_fizicheskой_nagruzки",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы ... боль, снижение толерантности к физической нагрузке.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: отечность или выбухание боковых отделов живота, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_shum_pleska",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: отечность ... симптом «шум плеска» при аускультации, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_ukorochenie_pertur_tona",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: отечность ... укорочение перкуторного тона в боковых отделах живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_tupost_centra_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... появление тупости в центре живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_volny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... симптом «волны» ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_rasshirennaya_venoznaya_set",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ... расширенная венозная сеть.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_zhivota",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "target": "symptom_shum_pleska",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: отечность или выбухание боковых отделов живота, симптом «шум плеска» ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "target": "symptom_ukorochenie_pertur_tona",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... выбухание боковых отделов живота, укорочение перкуторного тона ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "target": "symptom_tupost_centra_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... выбухание боковых отделов живота, появление тупости в центре живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "target": "symptom_volny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... выбухание боковых отделов живота, симптом «волны» ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "target": "symptom_rasshirennaya_venoznaya_set",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: ... выбухание боковых отделов живота, расширенная венозная сеть ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vybuhaie_bokovykh_otdelov_zhivota",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_pleska",
+      "target": "symptom_ukorochenie_pertur_tona",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: симптом «шум плеска», укорочение перкуторного тона ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_pleska",
+      "target": "symptom_tupost_centra_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: симптом «шум плеска», появление тупости в центре живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_pleska",
+      "target": "symptom_volny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: симптом «шум плеска», симптом «волны» ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_pleska",
+      "target": "symptom_rasshirennaya_venoznaya_set",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: симптом «шум плеска», расширенная венозная сеть ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shum_pleska",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochenie_pertur_tona",
+      "target": "symptom_tupost_centra_zhivota",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: укорочение перкуторного тона ... появление тупости в центре живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochenie_pertur_tona",
+      "target": "symptom_volny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: укорочение перкуторного тона ... симптом «волны» ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochenie_pertur_tona",
+      "target": "symptom_rasshirennaya_venoznaya_set",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: укорочение перкуторного тона ... расширенная венозная сеть ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorochenie_pertur_tona",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tupost_centra_zhivota",
+      "target": "symptom_volny",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: появление тупости в центре живота ... симптом «волны» ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tupost_centra_zhivota",
+      "target": "symptom_rasshirennaya_venoznaya_set",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: появление тупости в центре живота ... расширенная венозная сеть ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tupost_centra_zhivota",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_volny",
+      "target": "symptom_rasshirennaya_venoznaya_set",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: симптом «волны» ... расширенная венозная сеть ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_volny",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rasshirennaya_venoznaya_set",
+      "target": "symptom_portalnaya_gipertenziya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: При выраженной портальной гипертензии ... расширенная венозная сеть ...",
+      "properties": {}
+    }
+  ]
+}

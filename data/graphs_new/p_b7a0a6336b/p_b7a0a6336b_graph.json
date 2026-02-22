@@ -1,0 +1,326 @@
+{
+  "protocol_id": "p_b7a0a6336b",
+  "nodes": [
+    {
+      "id": "diagnosis_stenoz_gortani_detey",
+      "type": "diagnosis",
+      "label": "Стеноз гортани у детей",
+      "icd_code": "J38.6"
+    },
+    {
+      "id": "symptom_zatrudnennoe_dyhane",
+      "type": "symptom",
+      "label": "затрудненное дыхание"
+    },
+    {
+      "id": "symptom_shumnoe_dyhane",
+      "type": "symptom",
+      "label": "шумное дыхание"
+    },
+    {
+      "id": "symptom_bespokojnyj_son",
+      "type": "symptom",
+      "label": "беспокойный сон"
+    },
+    {
+      "id": "symptom_osiplost_golosa",
+      "type": "symptom",
+      "label": "осиплость голоса"
+    },
+    {
+      "id": "symptom_disfonija",
+      "type": "symptom",
+      "label": "дисфония"
+    },
+    {
+      "id": "symptom_afoniya",
+      "type": "symptom",
+      "label": "афония"
+    },
+    {
+      "id": "symptom_odyshka",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_razdrazhitelnost",
+      "type": "symptom",
+      "label": "раздражительность"
+    },
+    {
+      "id": "symptom_srygivanija",
+      "type": "symptom",
+      "label": "срыгивания"
+    },
+    {
+      "id": "symptom_disfagiya",
+      "type": "symptom",
+      "label": "дисфагия"
+    },
+    {
+      "id": "symptom_aspiraciya",
+      "type": "symptom",
+      "label": "аспирация"
+    },
+    {
+      "id": "symptom_kashhel",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_stridor",
+      "type": "symptom",
+      "label": "стридор"
+    },
+    {
+      "id": "symptom_inspriratornaya_odyshka",
+      "type": "symptom",
+      "label": "инспираторная одышка"
+    },
+    {
+      "id": "symptom_cianoz",
+      "type": "symptom",
+      "label": "цианоз"
+    },
+    {
+      "id": "symptom_dispnoe",
+      "type": "symptom",
+      "label": "диспноэ"
+    },
+    {
+      "id": "symptom_tahipnoe",
+      "type": "symptom",
+      "label": "тахипноэ"
+    },
+    {
+      "id": "symptom_licevoy_skelet",
+      "type": "symptom",
+      "label": "особенности строения лицевого скелета"
+    },
+    {
+      "id": "symptom_razduvanie_krilej_nosa",
+      "type": "symptom",
+      "label": "раздувание крыльев носа при дыхании"
+    },
+    {
+      "id": "symptom_vynuzhdennoe_polozhenie",
+      "type": "symptom",
+      "label": "вынужденное положение"
+    },
+    {
+      "id": "symptom_uchastie_v_dyhanii_vspomogatelnoy_muskulatury",
+      "type": "symptom",
+      "label": "участие в акте дыхания вспомогательной мускулатуры"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_zatrudnennoe_dyhane",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoe_dyhane",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bespokojnyj_son",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  беспокойный сон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osiplost_golosa",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  осиплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disfonija",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  дисфония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_afoniya",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  афония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_odyshka",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_srygivanija",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  срыгивания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_disfagiya",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  дисфагия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aspiraciya",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  аспирация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kashhel",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы:  кашель",
+      "properties": {}
+    },
+    {
+      "source": "symptom_stridor",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  признаки стридора",
+      "properties": {}
+    },
+    {
+      "source": "symptom_inspriratornaya_odyshka",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  инспираторная одышка",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispnoe",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  диспноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tahipnoe",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  тахипноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_licevoy_skelet",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  особенности строения лицевого скелета",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razduvanie_krilej_nosa",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  раздувание крыльев носа при дыхании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  вынужденное положение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchastie_v_dyhanii_vspomogatelnoy_muskulatury",
+      "target": "diagnosis_stenoz_gortani_detey",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: 4  участие в акте дыхания вспомогательной мускулатуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_dyhane",
+      "target": "symptom_shumnoe_dyhane",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  затрудненное дыхание;  шумное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shumnoe_dyhane",
+      "target": "symptom_bespokojnyj_son",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы:  шумное дыхание;  беспокойный сон",
+      "properties": {}
+    },
+    {
+      "source": "symptom_licevoy_skelet",
+      "target": "symptom_razduvanie_krilej_nosa",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: … особенности строения лицевого скелета; раздувание крыльев носа при дыхании",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie",
+      "target": "symptom_uchastie_v_dyhanii_vspomogatelnoy_muskulatury",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: … вынужденное положение; участие в акте дыхания вспомогательной мускулатуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cianoz",
+      "target": "symptom_dispnoe",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Физикальное обследование: … цианоз; диспноэ",
+      "properties": {}
+    }
+  ]
+}

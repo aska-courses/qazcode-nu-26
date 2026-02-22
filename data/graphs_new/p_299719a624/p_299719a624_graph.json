@@ -1,0 +1,604 @@
+{
+  "protocol_id": "p_299719a624",
+  "nodes": [
+    {
+      "id": "diagnosis_atopic_dermatitis",
+      "type": "diagnosis",
+      "label": "Атопический дерматит",
+      "icd_code": "L20.0"
+    },
+    {
+      "id": "diagnosis_other_atopic_dermatitis",
+      "type": "diagnosis",
+      "label": "Другие атопические дерматиты",
+      "icd_code": "L20.8"
+    },
+    {
+      "id": "diagnosis_unspecified_atopic_dermatitis",
+      "type": "diagnosis",
+      "label": "Атопический дерматит неуточненный",
+      "icd_code": "L20.9"
+    },
+    {
+      "id": "symptom_itch",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_seasonal_exacerbation",
+      "type": "symptom",
+      "label": "сезонность обострений (ухудшение в холодное время года и улучшение летом)"
+    },
+    {
+      "id": "symptom_lichenification_hyperlinearity",
+      "type": "symptom",
+      "label": "лихенификация и гиперлинеарность кожи в области сгибов"
+    },
+    {
+      "id": "symptom_provoking_factors_exacerbation",
+      "type": "symptom",
+      "label": "обострение процесса под влиянием провоцирующих факторов (аллергены, раздражающие вещества, пищевые продукты, эмоциональный стресс)"
+    },
+    {
+      "id": "symptom_face_and_flexible_surface_lesions",
+      "type": "symptom",
+      "label": "поражение кожи лица и гибких поверхностей"
+    },
+    {
+      "id": "symptom_xerosis",
+      "type": "symptom",
+      "label": "ксероз (сухость кожи)"
+    },
+    {
+      "id": "symptom_ichthyosis",
+      "type": "symptom",
+      "label": "ихтиоз"
+    },
+    {
+      "id": "symptom_hyperlinearity_palms_or_hairy_keratosis",
+      "type": "symptom",
+      "label": "гиперлинеарность ладоней или волосяной кератоз"
+    },
+    {
+      "id": "symptom_chronic_recurrent_course",
+      "type": "symptom",
+      "label": "хроническое рецидивирующее течение"
+    },
+    {
+      "id": "symptom_typical_morphology_distribution",
+      "type": "symptom",
+      "label": "типичная морфология и локализация кожных высыпаний"
+    },
+    {
+      "id": "symptom_allergic_anamnesis",
+      "type": "symptom",
+      "label": "аллергологический анамнез"
+    },
+    {
+      "id": "symptom_positive_skin_tests",
+      "type": "symptom",
+      "label": "положительные результаты кожных проб"
+    },
+    {
+      "id": "symptom_elevated_specific_IgE",
+      "type": "symptom",
+      "label": "повышенный уровень специфических IgE‑антител к ингаляционным/пищевым аллергенам"
+    },
+    {
+      "id": "symptom_immediate_type_reaction_skin_testing",
+      "type": "symptom",
+      "label": "реакция немедленного типа при кожном тестировании с аллергенами"
+    },
+    {
+      "id": "symptom_predisposition_hand_foot_dermatitis",
+      "type": "symptom",
+      "label": "склонность к дерматиту кистей и стоп"
+    },
+    {
+      "id": "symptom_hereditary_atopy_predisposition",
+      "type": "symptom",
+      "label": "наследственная предрасположенность к атопии"
+    },
+    {
+      "id": "symptom_nipple_eczema",
+      "type": "symptom",
+      "label": "экзема сосков"
+    },
+    {
+      "id": "symptom_susceptibility_to_skin_infections",
+      "type": "symptom",
+      "label": "восприимчивость к инфекционным поражениям кожи (Staphylococcus aureus, простой герпес)"
+    },
+    {
+      "id": "symptom_early_childhood_onset",
+      "type": "symptom",
+      "label": "начало заболевания в раннем детском возрасте (до 2 лет)"
+    },
+    {
+      "id": "symptom_recurrent_conjunctivitis",
+      "type": "symptom",
+      "label": "рецидивирующий конъюнктивит"
+    },
+    {
+      "id": "symptom_denys_line",
+      "type": "symptom",
+      "label": "инфраорбитальная складка Денни‑Моргана"
+    },
+    {
+      "id": "symptom_keratoconus",
+      "type": "symptom",
+      "label": "кератоконус"
+    },
+    {
+      "id": "symptom_subcapsular_cataract",
+      "type": "symptom",
+      "label": "передние субкапсулярные катаракты"
+    },
+    {
+      "id": "symptom_white_dermographism",
+      "type": "symptom",
+      "label": "белый дермографизм (отсроченное побледнение кожи)"
+    },
+    {
+      "id": "symptom_high_IgE_levels",
+      "type": "symptom",
+      "label": "высокий уровень общего и специфического IgE в сыворотке"
+    },
+    {
+      "id": "symptom_follicular_hyperkeratosis",
+      "type": "symptom",
+      "label": "фолликулярный гиперкератоз"
+    },
+    {
+      "id": "symptom_itch_with_sweating",
+      "type": "symptom",
+      "label": "зуд при повышенном потоотделении"
+    },
+    {
+      "id": "symptom_periorbital_hyperpigmentation",
+      "type": "symptom",
+      "label": "гиперпигментация кожи периорбитальной области"
+    },
+    {
+      "id": "symptom_neck_folds",
+      "type": "symptom",
+      "label": "складки на передней поверхности шеи"
+    },
+    {
+      "id": "symptom_erythema",
+      "type": "symptom",
+      "label": "эритема"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_oozing_crusts",
+      "type": "symptom",
+      "label": "мокнутие/корки"
+    },
+    {
+      "id": "symptom_excoriation",
+      "type": "symptom",
+      "label": "экскориация"
+    },
+    {
+      "id": "symptom_lichenification_scaling",
+      "type": "symptom",
+      "label": "лихенификация/шелушение"
+    },
+    {
+      "id": "symptom_dryness",
+      "type": "symptom",
+      "label": "сухость кожи"
+    },
+    {
+      "id": "symptom_hyperemia",
+      "type": "symptom",
+      "label": "гиперемия"
+    },
+    {
+      "id": "symptom_swelling",
+      "type": "symptom",
+      "label": "отёчность"
+    },
+    {
+      "id": "symptom_blisters",
+      "type": "symptom",
+      "label": "везикулы"
+    },
+    {
+      "id": "symptom_exudation",
+      "type": "symptom",
+      "label": "экссудация"
+    },
+    {
+      "id": "symptom_hyperthermia",
+      "type": "symptom",
+      "label": "гипертермия"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "озноб"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "лимфаденопатия"
+    },
+    {
+      "id": "symptom_bacterial_infection",
+      "type": "symptom",
+      "label": "бактериальная инфекция"
+    },
+    {
+      "id": "symptom_fungal_infection",
+      "type": "symptom",
+      "label": "микотическая инфекция"
+    },
+    {
+      "id": "symptom_viral_infection",
+      "type": "symptom",
+      "label": "вирусная инфекция"
+    },
+    {
+      "id": "symptom_streptodermia",
+      "type": "symptom",
+      "label": "стрептодермия"
+    },
+    {
+      "id": "symptom_staphylodermia",
+      "type": "symptom",
+      "label": "стафилодермия"
+    },
+    {
+      "id": "symptom_pyoderma",
+      "type": "symptom",
+      "label": "пиодермия"
+    },
+    {
+      "id": "symptom_osteofolliculitis",
+      "type": "symptom",
+      "label": "остеофолликулит"
+    },
+    {
+      "id": "symptom_folliculitis",
+      "type": "symptom",
+      "label": "фолликулит"
+    },
+    {
+      "id": "symptom_impetigo",
+      "type": "symptom",
+      "label": "импетиго"
+    },
+    {
+      "id": "symptom_furuncle",
+      "type": "symptom",
+      "label": "фурункул"
+    },
+    {
+      "id": "symptom_dermatophytes",
+      "type": "symptom",
+      "label": "дерматофиты"
+    },
+    {
+      "id": "symptom_mold_fungi",
+      "type": "symptom",
+      "label": "плесневые грибы"
+    },
+    {
+      "id": "symptom_cheilitis",
+      "type": "symptom",
+      "label": "заеды"
+    },
+    {
+      "id": "symptom_healitis",
+      "type": "symptom",
+      "label": "хейлит"
+    },
+    {
+      "id": "symptom_genital_lesions",
+      "type": "symptom",
+      "label": "поражения заушных, паховых складок, ногтевого ложа, гениталий"
+    },
+    {
+      "id": "symptom_herpetic_eczema_kaposi",
+      "type": "symptom",
+      "label": "герпетическая экзема Капоши"
+    },
+    {
+      "id": "symptom_lichenization",
+      "type": "symptom",
+      "label": "лихенизация"
+    },
+    {
+      "id": "symptom_burning",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_painful",
+      "type": "symptom",
+      "label": "болезненность"
+    },
+    {
+      "id": "symptom_ectropion",
+      "type": "symptom",
+      "label": "эктропион"
+    },
+    {
+      "id": "symptom_tearing",
+      "type": "symptom",
+      "label": "слезотечение"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_itch",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_seasonal_exacerbation",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сезонность обострений (ухудшение в холодное время года и улучшение летом);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lichenification_hyperlinearity",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "лихенификация и гиперлинеарность кожи в области сгибов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_face_and_flexible_surface_lesions",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "поражение кожи лица и гибких поверхностей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_xerosis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ксероз (сухость кожи);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ichthyosis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ихтиоз,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hyperlinearity_palms_or_hairy_keratosis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперлинеарность ладоней или волосяной кератоз;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chronic_recurrent_course",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "хроническое рецидивирующее течение;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_typical_morphology_distribution",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "типичная морфология и локализация кожных высыпаний;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_allergic_anamnesis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "аллергологический анамнез;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_positive_skin_tests",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "положительные результаты кожных проб;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elevated_specific_IgE",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный уровень специфических IgE‑антител к ингаляционным/пищевым аллергенам;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_immediate_type_reaction_skin_testing",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "реакция немедленного типа при кожном тестировании с аллергенами;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_predisposition_hand_foot_dermatitis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "склонность к дерматиту кистей и стоп;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hereditary_atopy_predisposition",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наследственная предрасположенность к атопии;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nipple_eczema",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "экзема сосков;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_susceptibility_to_skin_infections",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "восприимчивость к инфекционным поражениям кожи (Staphylococcus aureus, простой герпес);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_early_childhood_onset",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "начало заболевания в раннем детском возрасте (до 2 лет);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_recurrent_conjunctivitis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "рецидивирующий конъюнктивит;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_denys_line",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "инфраорбитальная складка Денни‑Моргана;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_keratoconus",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "кератоконус;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subcapsular_cataract",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "передние субкапсулярные катаракты;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_white_dermographism",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "белый дермографизм (отсроченное побледнение кожи);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_high_IgE_levels",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "высокий уровень общего и специфического IgE в сыворотке;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_follicular_hyperkeratosis",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "фолликулярный гиперкератоз;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_itch_with_sweating",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "зуд при повышенном потоотделении;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_periorbital_hyperpigmentation",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "гиперпигментация кожи периорбитальной области;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neck_folds",
+      "target": "diagnosis_atopic_dermatitis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "складки на передней поверхности шеи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bacterial_infection",
+      "target": "symptom_fungal_infection",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Течение АтД часто осложняется присоединением вторичной инфекции (бактериальной, микотической или вирусной).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bacterial_infection",
+      "target": "symptom_viral_infection",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Течение АтД часто осложняется присоединением вторичной инфекции (бактериальной, микотической или вирусной).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fungal_infection",
+      "target": "symptom_viral_infection",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Течение АтД часто осложняется присоединением вторичной инфекции (бактериальной, микотической или вирусной).",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_atopic_dermatitis",
+      "target": "diagnosis_other_atopic_dermatitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: L20.0 Атопический дерматит, L20.8 Другие атопические дерматиты, L20.9 Атопический дерматит неуточненный",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_atopic_dermatitis",
+      "target": "diagnosis_unspecified_atopic_dermatitis",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Код(ы) МКБ-10: L20.0 Атопический дерматит, L20.9 Атопический дерматит неуточненный",
+      "properties": {}
+    }
+  ]
+}

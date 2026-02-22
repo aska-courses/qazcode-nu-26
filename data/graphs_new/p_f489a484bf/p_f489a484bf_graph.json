@@ -1,0 +1,231 @@
+{
+  "protocol_id": "p_f489a484bf",
+  "nodes": [
+    {
+      "id": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+      "type": "diagnosis",
+      "label": "Последствия термических и химических ожогов и отморожений",
+      "icd_code": "Т95"
+    },
+    {
+      "id": "symptom_ogranichenie_podvizhnosti_sustavov",
+      "type": "symptom",
+      "label": "Ограничение подвижности суставов пораженной конечности"
+    },
+    {
+      "id": "symptom_ogranichenie_podvizhnosti_kozhnnyh_skaldok",
+      "type": "symptom",
+      "label": "Ограничение подвижности кожных складок"
+    },
+    {
+      "id": "symptom_kosmeticheskiy_i_esteticheskiy_defekt_kozhi",
+      "type": "symptom",
+      "label": "Косметический и эстетический дефект кожных покровов"
+    },
+    {
+      "id": "symptom_bol",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "Зуд"
+    },
+    {
+      "id": "symptom_gnojno_vospalitelny_protsess",
+      "type": "symptom",
+      "label": "Гнойно‑воспалительные процессы"
+    },
+    {
+      "id": "symptom_nekr_otich_protsess",
+      "type": "symptom",
+      "label": "Некротические процессы"
+    },
+    {
+      "id": "symptom_allergich_protsess",
+      "type": "symptom",
+      "label": "Аллергические процессы"
+    },
+    {
+      "id": "symptom_troficheskaya_yazva",
+      "type": "symptom",
+      "label": "Трофические язвы"
+    },
+    {
+      "id": "symptom_ankiloz",
+      "type": "symptom",
+      "label": "Анкилоз (неподвижность сустава)"
+    },
+    {
+      "id": "symptom_rubcova_deformaciya_kozhi",
+      "type": "symptom",
+      "label": "Рубцовая деформация кожных покровов"
+    },
+    {
+      "id": "symptom_rubcovy_defekt_tkanej",
+      "type": "symptom",
+      "label": "Рубцовый дефект тканей"
+    },
+    {
+      "id": "symptom_kontraktura_sustavov",
+      "type": "symptom",
+      "label": "Контрактура суставов"
+    },
+    {
+      "id": "symptom_posleozhkovaya_troficheskaya_yazva",
+      "type": "symptom",
+      "label": "Послеожоговая трофическая язва"
+    },
+    {
+      "id": "symptom_ogranichenie_amplitudy_dvizheniy",
+      "type": "symptom",
+      "label": "Ограничение амплитуды движений в суставе"
+    },
+    {
+      "id": "symptom_psihologicheskiy_status",
+      "type": "symptom",
+      "label": "Ухудшение психологического статуса"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_potrebnoj_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение функции пораженной конечности"
+    },
+    {
+      "id": "symptom_hronicheskiy_vospalitelny_protsess",
+      "type": "symptom",
+      "label": "Хронический воспалительный процесс"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_ogranichenie_podvizhnosti_sustavov",
+      "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение подвижности суставов пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_podvizhnosti_kozhnnyh_skaldok",
+      "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение подвижности кожных складок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kosmeticheskiy_i_esteticheskiy_defekt_kozhi",
+      "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "косметический и эстетический дефект кожных покровов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_potrebnoj_konechnosti",
+      "target": "diagnosis_posledstviya_termitcheskih_i_khimicheskih_ozhogov_i_otmorozhenii",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функции пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rubcova_deformaciya_kozhi",
+      "target": "symptom_gnojno_vospalitelny_protsess",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся гнойно‑воспалительными ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rubcova_deformaciya_kozhi",
+      "target": "symptom_nekr_otich_protsess",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся ... некротическими ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rubcova_deformaciya_kozhi",
+      "target": "symptom_allergich_protsess",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся ... аллергическими процессами ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rubcova_deformaciя_kozhi",
+      "target": "symptom_troficheskaya_yazva",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "наличие рубцовых изменений кожных покровов (нередко сопровождающиеся ... трофическими язвами)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol",
+      "target": "symptom_zud",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "это образование даёт резкую боль, часто сопровождающаяся зудом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_troficheskaya_yazva",
+      "target": "symptom_hronicheskiy_vospalitelny_protsess",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "поддерживают хронический воспалительный процесс",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_amplitudy_dvizheniy",
+      "target": "symptom_kontraktura_sustavov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ограничение амплитуды движений в суставе ... контрактура суставов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kontraktura_sustavov",
+      "target": "symptom_ankiloz",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "или имеется его неподвижность, обусловленная анкилозом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_podvizhnosti_sustavov",
+      "target": "symptom_ogranichenie_amplitudy_dvizheniy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ограничение подвижности суставов ... ограничение амплитуды движений в суставе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_podvizhnosti_kozhnnyh_skaldok",
+      "target": "symptom_ogranichenie_podвижности_sustavov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "ограничение подвижности кожных складок; ограничение подвижности суставов пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rubcovy_defekt_tkanej",
+      "target": "symptom_rubcova_deformaciya_kozhi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "рубцовая деформация кожных покровов; рубцовый дефект тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_posleozhkovaya_troficheskaya_yazva",
+      "target": "symptom_troficheskaya_yazva",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "послеожоговая трофическая язва",
+      "properties": {}
+    }
+  ]
+}

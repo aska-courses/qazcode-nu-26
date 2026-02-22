@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "diagnosis_kidney_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в соответствующей поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_kidney_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "diagnosis_kidney_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "периодическое и постоянное появление примеси крови в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_percussion_positive",
+    "target": "diagnosis_kidney_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный симптом поколачивания соответствующей поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness",
+    "target": "diagnosis_kidney_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enlarged_kidney",
+    "target": "diagnosis_kidney_cyst",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пальпируется увеличенная или смещенная почка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • боли в поясничной области; • повышение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_hematuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • боли в поясничной области; • периодическое и постоянное появление примеси крови в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_percussion_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • боли в поясничной области; • положительный симптом поколачивания соответствующей поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_tenderness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • боли в поясничной области; • болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_enlarged_kidney",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • боли в поясничной области; • пальпируется увеличенная или смещённая почка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "symptom_hematuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • повышение артериального давления; • периодическое и постоянное появление примеси крови в моче",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "symptom_percussion_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • повышение артериального давления; • положительный симптом поколачивания соответствующей поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "symptom_tenderness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • повышение артериального давления; • болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "symptom_enlarged_kidney",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • повышение артериального давления; • пальпируется увеличенная или смещённая почка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_percussion_positive",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • примесь крови в моче; • положительный симптом поколачивания соответствующей поясничной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_tenderness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • примесь крови в моче; • болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematuria",
+    "target": "symptom_enlarged_kidney",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • примесь крови в моче; • пальпируется увеличенная или смещённая почка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_percussion_positive",
+    "target": "symptom_tenderness",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • положительный симптом поколачивания; • болезненность при пальпации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_percussion_positive",
+    "target": "symptom_enlarged_kidney",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • положительный симптом поколачивания; • пальпируется увеличенная или смещённая почка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness",
+    "target": "symptom_enlarged_kidney",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Клинические проявления: • болезненность при пальпации; • пальпируется увеличенная или смещённая почка",
+    "properties": {}
+  }
+]

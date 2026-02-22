@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_bol_v_meste_povrezhdeniya",
+    "target": "diagnosis_sochitannaya_travma_u_detey",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: • боли в месте повреждения; • нарушение опороспособности поврежденного сегмента.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_oporosposobnosti",
+    "target": "diagnosis_sochitannaya_travma_u_detey",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жалобы: • боли в месте повреждения; • нарушение опороспособности поврежденного сегмента.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shirina_zhrchkov",
+    "target": "symptom_glazodvigatelnyie_narusheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "оценить ширину зрачков и выявить наличие глазодвигательных нарушений как признака внутричерепного объемного процесса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_grudnoj_kletki",
+    "target": "symptom_asimetriichnoe_uchastie_zhv",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "обратить внимание на видимую деформацию и асимметричное участие грудной клетки в акте дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_yhrennih_ven",
+    "target": "symptom_nizkoe_adi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Наличие набухания яремных вен на фоне низких показателей системного АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_yhrennih_ven",
+    "target": "symptom_deformaciya_grudnoj_kletki",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Наличие набухания яремных вен на фоне низких показателей системного АД ... в сочетании с деформацией грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nabuhanie_yhrennih_ven",
+    "target": "diagnosis_travma_serdca",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие набухания яремных вен ... позволяет заподозрить ранение сердца с развитием его тампонады",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizkoe_adi",
+    "target": "diagnosis_travma_serdca",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Наличие набухания яремных вен на фоне низких показателей системного АД ... позволяет заподозрить ранение сердца",
+    "properties": {}
+  },
+  {
+    "source": "symptom_deformaciya_grudnoj_kletki",
+    "target": "diagnosis_travma_organa_grudnoj_kletki",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обратить внимание на видимую деформацию ... свидетельствует о травме грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriichnoe_uchastie_zhv",
+    "target": "diagnosis_travma_organa_grudnoj_kletki",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обратить внимание на ... асимметричное участие грудной клетки в акте дыхания ... свидетельствует о травме грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shok",
+    "target": "symptom_spolnaya_organichnaya_nedostatochnost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Период острой реакции на травму: соответствует периоду травматического шока и раннему постшоковому периоду",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ugnetenie_soznaniya",
+    "target": "symptom_spolnaya_organichnaya_nedostatochnost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "угнетение сознания ... является показанием к переводу в отделение интенсивной терапии и реанимации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhiznenno_vazhnie_funkcii_narusheny",
+    "target": "symptom_spolnaya_organichnaya_nedostatochnost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "резкое нарушение жизненно важных функций ... является показанием к переводу в отделение интенсивной терапии и реанимации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epilepticheskij_status",
+    "target": "symptom_spolnaya_organichnaya_nedostatochnost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "некупируемый эпилептический статус ... является показанием к переводу в отделение интенсивной терапии и реанимации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sochitannaya_travma_u_detey",
+    "target": "diagnosis_travma_serdca",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Сочетанная травма у детей — повреждение внутренних органов различных полостей, совместные травмы внутренних органов и опорнодвигательной системы, совместная травма опорно-двигательного аппарата и магистральных сосудов и нервов.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_sochitannaya_travma_u_detey",
+    "target": "diagnosis_travma_organa_grudnoj_kletki",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Сочетанная травма у детей — повреждение внутренних органов различных полостей, совместные травмы внутренних органов и опорнодвигательной системы, совместная травма опорно-двигательного аппарата и магистральных сосудов и нервов.",
+    "properties": {}
+  }
+]

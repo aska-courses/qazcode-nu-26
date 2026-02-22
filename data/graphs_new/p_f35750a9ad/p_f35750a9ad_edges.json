@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exhaustion",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: разбитость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_appetite_decrease",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: ухудшение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metallic_taste",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: горечь во рту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_right_subcostal_pain",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боль в правом подреберье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epigastric_pain",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: боль в эпигастрии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_disturbance",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: нарушения сна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_pain",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "у 20–30% больных наблюдают боли в крупных суставах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticarial_rash",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_pruritus",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "реже кожный зуд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "symptom_fatigue",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "часто",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "часто",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_hepatitis_b",
+    "target": "diagnosis_acute_hepatitis_b_without_delta_no_coma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый вирусный гепатит В без дельта‑агента без печёночной комы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_hepatitis_b",
+    "target": "diagnosis_acute_hepatitis_b_without_delta_coma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый вирусный гепатит В без дельта‑агента с печёночной комой",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_hepatitis_b",
+    "target": "diagnosis_acute_hepatitis_b_delta_no_coma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый гепатит B с дельта‑агентом (коинфекция) без печёночной комы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_hepatitis_b",
+    "target": "diagnosis_acute_hepatitis_b_delta_coma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острый гепатит B с дельта‑агентом (коинфекция) и печёночной комой",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_hepatitis_b",
+    "target": "diagnosis_acute_delta_superinfection",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острая дельта‑(супер)‑инфекция вирусоносителя гепатита B",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_acute_hepatitis_c",
+    "target": "diagnosis_acute_hepatitis_b",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Острые вирусные гепатиты В, D и С",
+    "properties": {}
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_gryzh_evye_vypachivanie_krugl_oval_forma",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "грыжевое выпячивание круглой или овальной формы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ist_zhidkosti_iz_oblasti_gryzh",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "истечение жидкости из области грыжевого выпячивания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bespokoystvo",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "беспокойство",
+    "properties": {}
+  },
+  {
+    "source": "symptom_srygivanje",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "срыгивание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost_otsutstvie_dvizheniy_v_nogah",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость или отсутствие движений в ногах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_razmerov_golovy",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "увеличение размеров головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_akta_mocheispuskaniya_i_defekatsii",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение акта мочеиспускания и дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ziyanie_anusa",
+    "target": "diagnosis_q05",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зияние ануса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gryzh_evye_vypachivanie_krugl_oval_forma",
+    "target": "symptom_ist_zhidkosti_iz_oblasti_gryzh",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "грыжевое выпячивание круглой или овальной формы; истечение жидкости из области грыжевого выпячивания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ist_zhidkosti_iz_oblasti_gryzh",
+    "target": "symptom_bespokoystvo",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "истечение жидкости из области грыжевого выпячивания; беспокойство",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bespokoystvo",
+    "target": "symptom_srygivanje",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "беспокойство; срыгивание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_srygivanje",
+    "target": "symptom_slabost_otsutstvie_dvizheniy_v_nogah",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "срыгивание; слабость или отсутствие движений в ногах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost_otsutstvie_dvizheniy_v_nogah",
+    "target": "symptom_uvelichenie_razmerov_golovy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "слабость или отсутствие движений в ногах; увеличение размеров головы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_razmerov_golovy",
+    "target": "symptom_narushenie_akta_mocheispuskaniya_i_defekatsii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "увеличение размеров головы; нарушение акта мочеиспускания и дефекации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_akta_mocheispuskaniya_i_defekatsii",
+    "target": "symptom_ziyanie_anusa",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушение акта мочеиспускания и дефекации; зияние ануса",
+    "properties": {}
+  }
+]

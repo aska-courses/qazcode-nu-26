@@ -1,0 +1,374 @@
+{
+  "protocol_id": "p_b0f9acb4a5",
+  "nodes": [
+    {
+      "id": "diagnosis_persistent_fetal_circulation",
+      "type": "diagnosis",
+      "label": "стойкое фетальное кровообращение",
+      "icd_code": "R29.3"
+    },
+    {
+      "id": "symptom_central_cyanosis",
+      "type": "symptom",
+      "label": "стойкий центральный цианоз"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "тахипноэ"
+    },
+    {
+      "id": "symptom_arterial_hypotension",
+      "type": "symptom",
+      "label": "артериальная гипотензия"
+    },
+    {
+      "id": "symptom_systolic_click",
+      "type": "symptom",
+      "label": "систолический щелчок"
+    },
+    {
+      "id": "symptom_second_heart_sound_accent",
+      "type": "symptom",
+      "label": "акцент II тона над легочной артерией"
+    },
+    {
+      "id": "symptom_pulmonary_hypertensive_crisis",
+      "type": "symptom",
+      "label": "легочно‑гипертензивный криз"
+    },
+    {
+      "id": "symptom_polycythemia",
+      "type": "symptom",
+      "label": "полицитемия"
+    },
+    {
+      "id": "symptom_hypocalcemia",
+      "type": "symptom",
+      "label": "гипокальциемия"
+    },
+    {
+      "id": "symptom_hypoglycemia",
+      "type": "symptom",
+      "label": "гипогликемия"
+    },
+    {
+      "id": "symptom_reduced_stroke_volume",
+      "type": "symptom",
+      "label": "снижение ударного объёма сердца"
+    },
+    {
+      "id": "symptom_refractory_hypoxemia",
+      "type": "symptom",
+      "label": "рефрактерная гипоксемия"
+    },
+    {
+      "id": "symptom_metabolic_acidosis",
+      "type": "symptom",
+      "label": "метаболический ацидоз"
+    },
+    {
+      "id": "symptom_mixed_acidosis",
+      "type": "symptom",
+      "label": "смешанный ацидоз"
+    },
+    {
+      "id": "symptom_spo2_difference_gt_20",
+      "type": "symptom",
+      "label": "разница SpO2 более 20 %"
+    },
+    {
+      "id": "symptom_intrauterine_hypoxia",
+      "type": "symptom",
+      "label": "внутриутробная гипоксия"
+    },
+    {
+      "id": "symptom_acute_intranatal_asphyxia",
+      "type": "symptom",
+      "label": "острая интранатальная асфиксия"
+    },
+    {
+      "id": "symptom_maternal_nsaids_use",
+      "type": "symptom",
+      "label": "употребление матерью НПВС во время беременности"
+    },
+    {
+      "id": "symptom_congenital_diaphragmatic_hernia",
+      "type": "symptom",
+      "label": "врождённая диафрагмальная грыжа"
+    },
+    {
+      "id": "symptom_meconium_aspiration_syndrome",
+      "type": "symptom",
+      "label": "синдром аспирации мекония"
+    },
+    {
+      "id": "symptom_pneumonia",
+      "type": "symptom",
+      "label": "пневмония"
+    },
+    {
+      "id": "symptom_sepsis",
+      "type": "symptom",
+      "label": "сепсис"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_central_cyanosis",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • стойкий центральный цианоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • тахипноэ, часто не сопровождающееся втяжением уступчивых мест грудной клетки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypotension",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • нормотония, затем артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_click",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • систолический щелчок на ЛА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_second_heart_sound_accent",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • акцент II тона над легочной артерией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_hypertensive_crisis",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • легочно‑гипертензивный криз – острый подъем давления в ЛА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polycythemia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: • Общий анализ крови – полицитемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypocalcemia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: • Биохимический анализ крови – гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypoglycemia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: • гипокальциемия, при ее сочетании с гипогликемией – снижение ударного объема сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_stroke_volume",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: • гипокальциемия, при ее сочетании с гипогликемией – снижение ударного объема сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_refractory_hypoxemia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: – рефрактерная гипоксемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_acidosis",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: – метаболический или смешанный ацидоз (рН ˂ 7,25 и ВЕ ˃ − 10ммоль/л)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mixed_acidosis",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: – метаболический или смешанный ацидоз (рН ˂ 7,25 и ВЕ ˃ − 10ммоль/л)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spo2_difference_gt_20",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "При ПЛГН разница по пре/постдуктальный SpO2 более 20%",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intrauterine_hypoxia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • внутриутробная гипоксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acute_intranatal_asphyxia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • острая интранатальная асфиксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_nsaids_use",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • употребление матерью во время беременности нестероидных противовоспалительных препаратов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_congenital_diaphragmatic_hernia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • врожденная диафрагмальная грыжа (ВДГ) и другие формы легочной гипоплазии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_meconium_aspiration_syndrome",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • синдром аспирации мекония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pneumonia",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • пневмония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sepsis",
+      "target": "diagnosis_persistent_fetal_circulation",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • сепсис",
+      "properties": {}
+    },
+    {
+      "source": "symptom_central_cyanosis",
+      "target": "symptom_tachypnea",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • стойкий центральный цианоз; • тахипноэ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_central_cyanosis",
+      "target": "symptom_arterial_hypotension",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • стойкий центральный цианоз; • нормотония, затем артериальная гипотензия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_click",
+      "target": "symptom_second_heart_sound_accent",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • систолический щелчок на ЛА, акцент II тона над легочной артерией",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pulmonary_hypertensive_crisis",
+      "target": "symptom_refractory_hypoxemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Физикальное обследование: • легочно‑гипертензивный криз …; Лабораторные исследования: – рефрактерная гипоксемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_polycythemia",
+      "target": "symptom_hypocalcemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Лабораторные исследования: • Общий анализ крови – полицитемия; • Биохимический анализ крови – гипокальциемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypocalcemia",
+      "target": "symptom_hypoglycemia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "гипокальциемия, при ее сочетании с гипогликемией – снижение ударного объема сердца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metabolic_acidosis",
+      "target": "symptom_mixed_acidosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "метаболический или смешанный ацидоз (рН ˂ 7,25 и ВЕ ˃ − 10ммоль/л)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_intrauterine_hypoxia",
+      "target": "symptom_acute_intranatal_asphyxia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • внутриутробная гипоксия; • острая интранатальная асфиксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_maternal_nsaids_use",
+      "target": "symptom_congenital_diaphragmatic_hernia",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • употребление матерью ... НПВС; • врожденная диафрагмальная грыжа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_congenital_diaphragmatic_hernia",
+      "target": "symptom_meconium_aspiration_syndrome",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • врожденная диафрагмальная грыжа; • синдром аспирации мекония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pneumonia",
+      "target": "symptom_sepsis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "В анамнезе: • пневмония или сепсис",
+      "properties": {}
+    }
+  ]
+}

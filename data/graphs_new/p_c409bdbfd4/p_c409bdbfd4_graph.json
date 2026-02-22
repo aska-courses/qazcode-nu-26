@@ -1,0 +1,213 @@
+{
+  "protocol_id": "p_c409bdbfd4",
+  "nodes": [
+    {
+      "id": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "diagnosis",
+      "label": "Размозжение запястья и кисти",
+      "icd_code": "S67"
+    },
+    {
+      "id": "diagnosis_razmozhdenie_bolshogo_i_predplechia_zapjatija_ili_kisti",
+      "type": "diagnosis",
+      "label": "Размозжение большого и предплечья, запястья или кисти",
+      "icd_code": "S67.0"
+    },
+    {
+      "id": "diagnosis_razmozhdenie_drugogo",
+      "type": "diagnosis",
+      "label": "Размозжение другого",
+      "icd_code": "S67.8"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_na_urovne_zapjatija_i_kisti",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация на уровне запястья и кисти",
+      "icd_code": "S68"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_bolshogo_palca_ruki",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация большого пальца руки",
+      "icd_code": "S68.0"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_kisti_bolshogo_palca",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация кисти большого пальца",
+      "icd_code": "S68.1"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_drugogo_odnogo_palca_kisti",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация другого одного пальца кисти",
+      "icd_code": "S68.2"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_dvuh_i_bolee_palcov_kisti",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация двух и более пальцев кисти",
+      "icd_code": "S68.3"
+    },
+    {
+      "id": "diagnosis_sochitannaya_travmaticheskaya_amputatsiya_chasti_palca_i_drugih_chastey_zapjatija_i_kisti",
+      "type": "diagnosis",
+      "label": "Сочетанная травматическая ампутация части пальца и других частей запястья и кисти",
+      "icd_code": "S68.4"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_na_urovne_zapjatija",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация на уровне запястья",
+      "icd_code": "S68.8"
+    },
+    {
+      "id": "diagnosis_travmaticheskaya_amputatsiya_drugih_chastey_zapjatija_i_kisti",
+      "type": "diagnosis",
+      "label": "Травматическая ампутация других частей запястья и кисти",
+      "icd_code": "S68.8"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_potrapennogo_uchastka_kisti",
+      "type": "symptom",
+      "label": "Боль в области пораженного участка кисти",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_funkcii_kisti",
+      "type": "symptom",
+      "label": "Нарушение функции кисти (ограничение движений в суставах, снижение/отсутствие хватательной способности)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_deformatsiya_falang_kisti",
+      "type": "symptom",
+      "label": "Деформация фаланг кисти",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_krovootechenie_iz_oblasti_potrapennogo_uchastka_kisti",
+      "type": "symptom",
+      "label": "Кровотечение из области пораженного участка кисти",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bolye_na_palpatsii_slomannoi_kosti",
+      "type": "symptom",
+      "label": "Боль при пальпации сломанной кости",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_ogranichennye_dvizheniya_v_sustavah_kisti",
+      "type": "symptom",
+      "label": "Ограниченные движения в суставах кисти",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_traumaticheskiy_shok",
+      "type": "symptom",
+      "label": "Травматический шок",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_gemorragicheskiy_shok",
+      "type": "symptom",
+      "label": "Геморрагический шок",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_dyhanija_i_serdechnoi_deyatelnosti",
+      "type": "symptom",
+      "label": "Нарушение дыхательной и сердечной деятельности",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_bolevoi_sindrom",
+      "type": "symptom",
+      "label": "Болевой синдром",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_potrapennogo_uchastka_kisti",
+      "target": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Боли в области пораженного участка кисти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_kisti",
+      "target": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушения функции кисти (ограничения движения в суставах, снижение/отсутствие хватательной способности кисти)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya_falang_kisti",
+      "target": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "деформация фаланг кисти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovootechenie_iz_oblasti_potrapennogo_uchastka_kisti",
+      "target": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кровотечение из области пораженного участка кисти",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolye_na_palpatsii_slomannoi_kosti",
+      "target": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пальпация сломанной кости болезненна",
+      "properties": {}
+    },
+    {
+      "source": "symptom_traumaticheskiy_shok",
+      "target": "diagnosis_travmaticheskaya_amputatsiya_na_urovne_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "травматический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemorragicheskiy_shok",
+      "target": "diagnosis_travmaticheskaya_amputatsiya_na_urovne_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "геморрагический шок",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dyhanija_i_serdechnoi_deyatelnosti",
+      "target": "diagnosis_travmaticheskaya_amputatsiya_na_urovne_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушение дыхательной и сердечной деятельности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bolevoi_sindrom",
+      "target": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "выраженности болевого синдрома",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_razmozhdenie_zapjatija_i_kisti",
+      "target": "diagnosis_travmaticheskaya_amputatsiya_na_urovne_zapjatija_i_kisti",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Показания для экстренной госпитализации: размозжение запястья и кисти; травматическая ампутация на уровне запястья и кисти.",
+      "properties": {}
+    }
+  ]
+}

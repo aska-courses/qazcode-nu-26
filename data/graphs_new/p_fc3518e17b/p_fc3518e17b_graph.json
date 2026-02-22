@@ -1,0 +1,750 @@
+{
+  "protocol_id": "p_fc3518e17b",
+  "nodes": [
+    {
+      "id": "diagnosis_mitral_stenosis",
+      "type": "diagnosis",
+      "label": "Митральный стеноз",
+      "icd_code": "I05.0"
+    },
+    {
+      "id": "diagnosis_rheumatic_mitral_insufficiency",
+      "type": "diagnosis",
+      "label": "Ревматическая недостаточность митрального клапана",
+      "icd_code": "I05.1"
+    },
+    {
+      "id": "diagnosis_mitral_stenosis_with_insufficiency",
+      "type": "diagnosis",
+      "label": "Митральный стеноз с недостаточностью",
+      "icd_code": "I05.2"
+    },
+    {
+      "id": "diagnosis_other_mitral_valve_diseases",
+      "type": "diagnosis",
+      "label": "Другие болезни митрального клапана",
+      "icd_code": "I05.8"
+    },
+    {
+      "id": "diagnosis_unspecified_mitral_valve_disease",
+      "type": "diagnosis",
+      "label": "Неуточнённый порок митрального клапана",
+      "icd_code": "I05.9"
+    },
+    {
+      "id": "diagnosis_rheumatic_aortic_stenosis",
+      "type": "diagnosis",
+      "label": "Ревматический аортальный стеноз",
+      "icd_code": "I06.0"
+    },
+    {
+      "id": "diagnosis_rheumatic_aortic_insufficiency",
+      "type": "diagnosis",
+      "label": "Ревматическая недостаточность аортального клапана",
+      "icd_code": "I06.1"
+    },
+    {
+      "id": "diagnosis_aortic_stenosis_with_insufficiency",
+      "type": "diagnosis",
+      "label": "Ревматический аортальный стеноз с недостаточностью",
+      "icd_code": "I06.2"
+    },
+    {
+      "id": "diagnosis_other_rheumatic_aortic_valve_diseases",
+      "type": "diagnosis",
+      "label": "Другие ревматические болезни аортального клапана",
+      "icd_code": "I06.8"
+    },
+    {
+      "id": "diagnosis_unspecified_rheumatic_aortic_valve_disease",
+      "type": "diagnosis",
+      "label": "Неуточнённый ревматический порок аортального клапана",
+      "icd_code": "I06.9"
+    },
+    {
+      "id": "diagnosis_tricuspid_stenosis",
+      "type": "diagnosis",
+      "label": "Трикуспидальный стеноз",
+      "icd_code": "I07.0"
+    },
+    {
+      "id": "diagnosis_tricuspid_insufficiency",
+      "type": "diagnosis",
+      "label": "Трикуспидальная недостаточность",
+      "icd_code": "I07.1"
+    },
+    {
+      "id": "diagnosis_tricuspid_stenosis_with_insufficiency",
+      "type": "diagnosis",
+      "label": "Трикуспидальный стеноз с недостаточностью",
+      "icd_code": "I07.2"
+    },
+    {
+      "id": "diagnosis_other_tricuspid_valve_diseases",
+      "type": "diagnosis",
+      "label": "Другие ревматические болезни трехстворчатого клапана",
+      "icd_code": "I07.8"
+    },
+    {
+      "id": "diagnosis_unspecified_tricuspid_valve_disease",
+      "type": "diagnosis",
+      "label": "Неуточнённый ревматический порок трехстворчатого клапана",
+      "icd_code": "I07.9"
+    },
+    {
+      "id": "diagnosis_combined_mitral_aortic_valve_disease",
+      "type": "diagnosis",
+      "label": "Сочетанное поражение митрального и аортального клапанов",
+      "icd_code": "I08.0"
+    },
+    {
+      "id": "diagnosis_combined_mitral_tricuspid_valve_disease",
+      "type": "diagnosis",
+      "label": "Сочетанное поражение митрального и трехстворчатого клапанов",
+      "icd_code": "I08.1"
+    },
+    {
+      "id": "diagnosis_combined_aortic_tricuspid_valve_disease",
+      "type": "diagnosis",
+      "label": "Сочетанное поражение аортального и трехстворчатого клапанов",
+      "icd_code": "I08.2"
+    },
+    {
+      "id": "diagnosis_combined_mitral_aortic_tricuspid_valve_disease",
+      "type": "diagnosis",
+      "label": "Сочетанное поражение митрального, аортального и трехстворчатого клапанов",
+      "icd_code": "I08.3"
+    },
+    {
+      "id": "diagnosis_other_multiple_valve_diseases",
+      "type": "diagnosis",
+      "label": "Другие множественные болезни клапанов",
+      "icd_code": "I08.8"
+    },
+    {
+      "id": "diagnosis_unspecified_multiple_valve_disease",
+      "type": "diagnosis",
+      "label": "Неуточнённое множественное поражение клапанов сердца",
+      "icd_code": "I08.9"
+    },
+    {
+      "id": "diagnosis_unstable_angina",
+      "type": "diagnosis",
+      "label": "Нестабильная стенокардия",
+      "icd_code": "I20.0"
+    },
+    {
+      "id": "diagnosis_other_angina_forms",
+      "type": "diagnosis",
+      "label": "Другие формы стенокардии",
+      "icd_code": "I20.8"
+    },
+    {
+      "id": "diagnosis_unspecified_angina",
+      "type": "diagnosis",
+      "label": "Стенокардия неуточнённая",
+      "icd_code": "I20.9"
+    },
+    {
+      "id": "diagnosis_atherosclerotic_heart_disease",
+      "type": "diagnosis",
+      "label": "Атеросклеротическая болезнь сердца",
+      "icd_code": "I25.1"
+    },
+    {
+      "id": "diagnosis_past_myocardial_infarction",
+      "type": "diagnosis",
+      "label": "Перенесённый инфаркт миокарда",
+      "icd_code": "I25.2"
+    },
+    {
+      "id": "diagnosis_silent_myocardial_ischaemia",
+      "type": "diagnosis",
+      "label": "Бессимптомная ишемия миокарда",
+      "icd_code": "I25.6"
+    },
+    {
+      "id": "diagnosis_other_chronic_ischaemic_heart_disease",
+      "type": "diagnosis",
+      "label": "Другие формы хронической ишемической болезни сердца",
+      "icd_code": "I25.8"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "Боль в грудной клетке"
+    },
+    {
+      "id": "symptom_chest_discomfort",
+      "type": "symptom",
+      "label": "Дискомфорт в грудной клетке"
+    },
+    {
+      "id": "symptom_chest_pressure",
+      "type": "symptom",
+      "label": "Сжимающий/давящий характер боли"
+    },
+    {
+      "id": "symptom_radiation_left_arm",
+      "type": "symptom",
+      "label": "Иррадиация боли в левую руку"
+    },
+    {
+      "id": "symptom_radiation_scapula",
+      "type": "symptom",
+      "label": "Иррадиация боли в лопатку"
+    },
+    {
+      "id": "symptom_radiation_neck",
+      "type": "symptom",
+      "label": "Иррадиация боли в шею"
+    },
+    {
+      "id": "symptom_radiation_jaw",
+      "type": "symptom",
+      "label": "Иррадиация боли в нижнюю челюсть"
+    },
+    {
+      "id": "symptom_radiation_epigastric",
+      "type": "symptom",
+      "label": "Иррадиация боли в эпигастральную область"
+    },
+    {
+      "id": "symptom_physical_exertion_provoked",
+      "type": "symptom",
+      "label": "Боль провоцируется физической нагрузкой"
+    },
+    {
+      "id": "symptom_blood_pressure_rise_provoked",
+      "type": "symptom",
+      "label": "Боль провоцируется повышением АД"
+    },
+    {
+      "id": "symptom_cold_exposure_provoked",
+      "type": "symptom",
+      "label": "Боль провоцируется холодом"
+    },
+    {
+      "id": "symptom_heavy_meal_provoked",
+      "type": "symptom",
+      "label": "Боль провоцируется обильным приёмом пищи"
+    },
+    {
+      "id": "symptom_emotional_stress_provoked",
+      "type": "symptom",
+      "label": "Боль провоцируется эмоциональным стрессом"
+    },
+    {
+      "id": "symptom_pain_relief_rest",
+      "type": "symptom",
+      "label": "Боль проходит в покое"
+    },
+    {
+      "id": "symptom_pain_relief_nitroglycerin",
+      "type": "symptom",
+      "label": "Боль купируется нитроглицерином"
+    },
+    {
+      "id": "symptom_typical_angina",
+      "type": "symptom",
+      "label": "Типичная стенокардия"
+    },
+    {
+      "id": "symptom_atypical_angina",
+      "type": "symptom",
+      "label": "Атипичная стенокардия"
+    },
+    {
+      "id": "symptom_non_cardiac_chest_pain",
+      "type": "symptom",
+      "label": "Несердечная боль в груди"
+    },
+    {
+      "id": "symptom_exertional_dyspnea",
+      "type": "symptom",
+      "label": "Одышка при физической нагрузке"
+    },
+    {
+      "id": "symptom_rest_dyspnea",
+      "type": "symptom",
+      "label": "Одышка в покое"
+    },
+    {
+      "id": "symptom_rales",
+      "type": "symptom",
+      "label": "Хрипы в лёгких"
+    },
+    {
+      "id": "symptom_edema_lower_limbs",
+      "type": "symptom",
+      "label": "Отёки на ногах"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Гепатомегалия"
+    },
+    {
+      "id": "symptom_xanthoma",
+      "type": "symptom",
+      "label": "Ксантомы"
+    },
+    {
+      "id": "symptom_xanthelasma",
+      "type": "symptom",
+      "label": "Ксантелазмы"
+    },
+    {
+      "id": "symptom_corneal_arc",
+      "type": "symptom",
+      "label": "Помутнение роговицы (старческая дуга)"
+    },
+    {
+      "id": "symptom_pathological_pulsation_precardial",
+      "type": "symptom",
+      "label": "Патологическая пульсация в прекардиальной области"
+    },
+    {
+      "id": "symptom_presystolic_murmur",
+      "type": "symptom",
+      "label": "Пресистолический шум"
+    },
+    {
+      "id": "symptom_protodiastolic_murmur",
+      "type": "symptom",
+      "label": "Протодиастолический шум"
+    },
+    {
+      "id": "symptom_systolic_murmur",
+      "type": "symptom",
+      "label": "Систолический шум"
+    },
+    {
+      "id": "symptom_diastolic_murmur",
+      "type": "symptom",
+      "label": "Диастолический шум"
+    },
+    {
+      "id": "symptom_musical_murmur",
+      "type": "symptom",
+      "label": "Музыкальный оттенок шума"
+    },
+    {
+      "id": "symptom_palpitations",
+      "type": "symptom",
+      "label": "Сердцебиение"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Повышенная частота сердечных сокращений"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "Утомляемость"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чувство дискомфорта или боль в грудной клетке/за грудиной сжимающего и давящего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_other_angina_forms",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чувство дискомфорта или боль в грудной клетке/за грудиной сжимающего и давящего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_unspecified_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "чувство дискомфорта или боль в грудной клетке/за грудиной сжимающего и давящего характера",
+      "properties": {}
+    },
+    {
+      "source": "symptom_radiation_left_arm",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "могут иррадиировать в левую руку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_radiation_scapula",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "могут иррадиировать в лопатку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_radiation_neck",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "могут иррадиировать в шею",
+      "properties": {}
+    },
+    {
+      "source": "symptom_radiation_jaw",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "могут иррадиировать в нижнюю челюсть",
+      "properties": {}
+    },
+    {
+      "source": "symptom_radiation_epigastric",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "могут иррадиировать в эпигастральную область",
+      "properties": {}
+    },
+    {
+      "source": "symptom_physical_exertion_provoked",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "физическая нагрузка: быстрая ходьба, подъем в гору или по лестнице, перенос тяжестей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blood_pressure_rise_provoked",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышением АД",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_exposure_provoked",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "холод",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heavy_meal_provoked",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "обильным приемом пищи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotional_stress_provoked",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эмоциональным стрессом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_relief_rest",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Боль проходит в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pain_relief_nitroglycerin",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Боль купируется нитроглицерином",
+      "properties": {}
+    },
+    {
+      "source": "symptom_typical_angina",
+      "target": "diagnosis_unstable_angina",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Типичная стенокардия (определенная) при наличии трех признаков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_atypical_angina",
+      "target": "diagnosis_other_angina_forms",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Атипичная стенокардия (вероятная)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_non_cardiac_chest_pain",
+      "target": "diagnosis_unstable_angina",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "Несердечная боль (не связанная с ишемией миокарда)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_exertional_dyspnea",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Одышка при физической нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rest_dyspnea",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Одышка в покое",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rales",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Хрипы в лёгких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_lower_limbs",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Отёки на ногах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_xanthoma",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ксантомы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_xanthelasma",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ксантелазмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_corneal_arc",
+      "target": "diagnosis_mitral_stenosis",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "краевое помутнение роговицы глаза («старческая дуга»)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pathological_pulsation_precardial",
+      "target": "diagnosis_mitral_stenosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "наличие патологической пульсации в прекардиальной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_presystolic_murmur",
+      "target": "diagnosis_mitral_stenosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "пресистолический шум",
+      "properties": {}
+    },
+    {
+      "source": "symptom_protodiastolic_murmur",
+      "target": "diagnosis_mitral_stenosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "протодиастолический шум",
+      "properties": {}
+    },
+    {
+      "source": "symptom_systolic_murmur",
+      "target": "diagnosis_rheumatic_aortic_stenosis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "систолический шум",
+      "properties": {}
+    },
+    {
+      "source": "symptom_diastolic_murmur",
+      "target": "diagnosis_rheumatic_aortic_insufficiency",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "диастолический шум",
+      "properties": {}
+    },
+    {
+      "source": "symptom_musical_murmur",
+      "target": "diagnosis_combined_mitral_aortic_valve_disease",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "музыкальный оттенок шума",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpitations",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Сердцебиение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Повышенная частота сердечных сокращений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mitral_stenosis",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Распространенность КБС среди пациентов с митральным стенозом в среднем составляет 20%",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_rheumatic_aortic_stenosis",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У пациентов со стенозом АоК частота КБС составляет 40–50% при наличии типичной стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_rheumatic_mitral_insufficiency",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "МР (митральная регургитация) часто является симптомом КБС",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_combined_mitral_aortic_valve_disease",
+      "target": "diagnosis_atherosclerotic_heart_disease",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mitral_stenosis",
+      "target": "diagnosis_unstable_angina",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_rheumatic_aortic_stenosis",
+      "target": "diagnosis_unstable_angina",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_combined_mitral_aortic_valve_disease",
+      "target": "diagnosis_unstable_angina",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mitral_stenosis",
+      "target": "diagnosis_other_angina_forms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_rheumatic_aortic_stenosis",
+      "target": "diagnosis_other_angina_forms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_combined_mitral_aortic_valve_disease",
+      "target": "diagnosis_other_angina_forms",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "У многих пациентов с клапанными пороками сердца (КБС) основные проявления синдрома стенокардии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mitral_stenosis",
+      "target": "diagnosis_rheumatic_aortic_stenosis",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Сочетанное поражение митрального и аортального клапанов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_radiation_left_arm",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "могут иррадиировать в левую руку",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_physical_exertion_provoked",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "физическая нагрузка: быстрая ходьба, подъем в гору или по лестнице, перенос тяжестей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "symptom_pain_relief_nitroglycerin",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль купируется нитроглицерином",
+      "properties": {}
+    },
+    {
+      "source": "symptom_physical_exertion_provoked",
+      "target": "symptom_blood_pressure_rise_provoked",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Боль провоцируется физической нагрузкой ... повышением АД",
+      "properties": {}
+    }
+  ]
+}

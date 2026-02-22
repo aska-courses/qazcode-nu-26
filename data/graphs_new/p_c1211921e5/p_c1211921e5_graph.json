@@ -1,0 +1,593 @@
+{
+  "protocol_id": "p_c1211921e5",
+  "nodes": [
+    {
+      "id": "diagnosis_acute_myocarditis",
+      "type": "diagnosis",
+      "label": "Острый миокардит",
+      "icd_code": "I40"
+    },
+    {
+      "id": "diagnosis_infectious_myocarditis",
+      "type": "diagnosis",
+      "label": "Инфекционный миокардит",
+      "icd_code": "I40.0"
+    },
+    {
+      "id": "diagnosis_isolated_myocarditis",
+      "type": "diagnosis",
+      "label": "Изолированный миокардит",
+      "icd_code": "I40.1"
+    },
+    {
+      "id": "diagnosis_other_acute_myocarditis",
+      "type": "diagnosis",
+      "label": "Другие виды острого миокардита",
+      "icd_code": "I40.8"
+    },
+    {
+      "id": "diagnosis_unspecified_acute_myocarditis",
+      "type": "diagnosis",
+      "label": "Острый миокардит неуточненный",
+      "icd_code": "I40.9"
+    },
+    {
+      "id": "diagnosis_myocarditis_other_diseases",
+      "type": "diagnosis",
+      "label": "Миокардит при болезнях, классифицированных в других рубриках",
+      "icd_code": "I41"
+    },
+    {
+      "id": "diagnosis_myocarditis_bacterial",
+      "type": "diagnosis",
+      "label": "Миокардит при бактериальных болезнях",
+      "icd_code": "I41.0"
+    },
+    {
+      "id": "diagnosis_myocarditis_viral",
+      "type": "diagnosis",
+      "label": "Миокардит при вирусных болезнях",
+      "icd_code": "I41.1"
+    },
+    {
+      "id": "diagnosis_myocarditis_other_infectious_parasitic",
+      "type": "diagnosis",
+      "label": "Миокардит при других инфекционных и паразитарных болезнях",
+      "icd_code": "I41.2"
+    },
+    {
+      "id": "diagnosis_myocarditis_other",
+      "type": "diagnosis",
+      "label": "Миокардит при других болезнях",
+      "icd_code": "I41.8"
+    },
+    {
+      "id": "diagnosis_unspecified_myocarditis",
+      "type": "diagnosis",
+      "label": "Миокардит неуточненный",
+      "icd_code": "I51.4"
+    },
+    {
+      "id": "symptom_fatigue",
+      "type": "symptom",
+      "label": "вялость"
+    },
+    {
+      "id": "symptom_somnolence",
+      "type": "symptom",
+      "label": "сонливость"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_decreased_appetite",
+      "type": "symptom",
+      "label": "снижение аппетита"
+    },
+    {
+      "id": "symptom_sweating",
+      "type": "symptom",
+      "label": "потливость"
+    },
+    {
+      "id": "symptom_dyspnea",
+      "type": "symptom",
+      "label": "одышка"
+    },
+    {
+      "id": "symptom_palpitations",
+      "type": "symptom",
+      "label": "учащенное сердцебиение"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "повышение температуры"
+    },
+    {
+      "id": "symptom_subfebrile_temperature",
+      "type": "symptom",
+      "label": "субфебрильная температура"
+    },
+    {
+      "id": "symptom_agitation",
+      "type": "symptom",
+      "label": "возбужденность"
+    },
+    {
+      "id": "symptom_moderate_dyspnea",
+      "type": "symptom",
+      "label": "умеренная одышка"
+    },
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "боль в животе"
+    },
+    {
+      "id": "symptom_chest_pain",
+      "type": "symptom",
+      "label": "боль в области сердца"
+    },
+    {
+      "id": "symptom_syncope",
+      "type": "symptom",
+      "label": "синкопальные состояния"
+    },
+    {
+      "id": "symptom_edema_face_legs",
+      "type": "symptom",
+      "label": "отёки на ногах и лице"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "бледность кожных покровов"
+    },
+    {
+      "id": "symptom_cold_extremities",
+      "type": "symptom",
+      "label": "конечности холодные"
+    },
+    {
+      "id": "symptom_arterial_hypotension",
+      "type": "symptom",
+      "label": "артериальная гипотензия"
+    },
+    {
+      "id": "symptom_arterial_hypertension",
+      "type": "symptom",
+      "label": "артериальная гипертензия"
+    },
+    {
+      "id": "symptom_resting_tachycardia",
+      "type": "symptom",
+      "label": "тахикардия в покое"
+    },
+    {
+      "id": "symptom_arrhythmia",
+      "type": "symptom",
+      "label": "аритмия"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "брадикардия"
+    },
+    {
+      "id": "symptom_gallop_rhythm",
+      "type": "symptom",
+      "label": "ритм галопа"
+    },
+    {
+      "id": "symptom_mitral_regurgitation_systolic_murmur",
+      "type": "symptom",
+      "label": "систолический шум митральной регургитации"
+    },
+    {
+      "id": "symptom_hepatosplenomegaly",
+      "type": "symptom",
+      "label": "гепатоспленомегалия"
+    },
+    {
+      "id": "symptom_decreased_diuresis",
+      "type": "symptom",
+      "label": "снижение диуреза"
+    },
+    {
+      "id": "symptom_pleuritis_signs",
+      "type": "symptom",
+      "label": "признаки плеврита"
+    },
+    {
+      "id": "symptom_cough",
+      "type": "symptom",
+      "label": "кашель"
+    },
+    {
+      "id": "symptom_general_fatigue",
+      "type": "symptom",
+      "label": "усталость"
+    },
+    {
+      "id": "symptom_poor_weight_gain",
+      "type": "symptom",
+      "label": "плохая прибавка в весе"
+    },
+    {
+      "id": "symptom_feeding_difficulty",
+      "type": "symptom",
+      "label": "трудности при кормлении"
+    },
+    {
+      "id": "symptom_fever_general",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_oliguria",
+      "type": "symptom",
+      "label": "олигурия"
+    },
+    {
+      "id": "symptom_cold_extremities2",
+      "type": "symptom",
+      "label": "похолодание конечностей"
+    },
+    {
+      "id": "symptom_tachypnea",
+      "type": "symptom",
+      "label": "тахипноэ"
+    },
+    {
+      "id": "symptom_shock",
+      "type": "symptom",
+      "label": "шок"
+    },
+    {
+      "id": "symptom_pericardial_effusion",
+      "type": "symptom",
+      "label": "перикардиальный выпот"
+    },
+    {
+      "id": "symptom_heart_failure",
+      "type": "symptom",
+      "label": "сердечная недостаточность"
+    },
+    {
+      "id": "symptom_hypertrophy_left_ventricle",
+      "type": "symptom",
+      "label": "гипертрофия левого желудочка"
+    },
+    {
+      "id": "symptom_hypertrophy_right_ventricle",
+      "type": "symptom",
+      "label": "гипертрофия правого желудочка"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fatigue",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "вялость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_somnolence",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сонливость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тошнота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_appetite",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sweating",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потливость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dyspnea",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "одышка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_palpitations",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "учащенное сердцебиение;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение температуры.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebrile_temperature",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "субфебрильная температура;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_agitation",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "возбужденность;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_moderate_dyspnea",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "умеренная одышка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в животе;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chest_pain",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "боль в области сердца;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_syncope",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "синкопальные состояния;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema_face_legs",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёки на ногах и лице;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "бледность кожных покровов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_extremities",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "конечности холодные на ощупь;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypotension",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артериальная гипотензия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arterial_hypertension",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "артериальная гипертензия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_resting_tachycardia",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахикардия в покое;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_arrhythmia",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "аритмия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "брадикардия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gallop_rhythm",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ритм галопа;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mitral_regurgitation_systolic_murmur",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "систолический шум митральной регургитации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatosplenomegaly",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гепатоспленомегалия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_diuresis",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижение диуреза;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pleuritis_signs",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "признаки плеврита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cough",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кашель;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_general_fatigue",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "усталость;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poor_weight_gain",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "плохая прибавка в весе;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeding_difficulty",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "трудности при кормлении;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever_general",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лихорадка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oliguria",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "олигурия;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_extremities2",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "похолодание конечностей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachypnea",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "тахипноэ;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_shock",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "шок;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pericardial_effusion",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "перикардиальный выпот;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_heart_failure",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сердечная недостаточность;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertrophy_left_ventricle",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипертрофия левого желудочка;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypertrophy_right_ventricle",
+      "target": "diagnosis_acute_myocarditis",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гипертрофия правого желудочка;",
+      "properties": {}
+    }
+  ]
+}

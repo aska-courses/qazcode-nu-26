@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе признаки тяжелой анемии являются выраженными ... лихорадки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... головной боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... рвоты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria_anuria",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... олигурии и анурии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... шока",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Синдром гемолиза ... иктеричность кожи и слизистых (желтуха)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dark_urine",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Синдром гемолиза ... потемнение мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_left_subcostal_pain",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "появление чувствительности при давлении, чувства тяжести или боли в левом подреберье, связанные с увеличением селезенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... слабость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... одышка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... головокружение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatosplenomegaly",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... гепатоспленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... небольшая спленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_systolic_murmur",
+    "target": "diagnosis_d59_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... систолический шум",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... лихорадки; боли в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... лихорадки; головной боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... лихорадки; рвоты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_oliguria_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... лихорадки; олигурии и анурии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_shock",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при гемолитическом кризе ... лихорадки; шока",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d59_0",
+    "target": "diagnosis_d59_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Классификация ... D59.0 Медикаментозная аутоиммунная гемолитическая анемия; D59.1 Другие аутоиммунные гемолитические анемии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d69_3",
+    "target": "diagnosis_d59_0",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Исключены: синдром Эванса (D69.3)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_p55",
+    "target": "diagnosis_d59_0",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Исключены: гемолитическая болезнь плода и новорожденного (P55.-)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d59_6",
+    "target": "diagnosis_d59_0",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "Исключены: пароксизмальная холодовая гемоглобинурия (D59.6)",
+    "properties": {}
+  }
+]

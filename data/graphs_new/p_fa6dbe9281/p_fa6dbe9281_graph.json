@@ -1,0 +1,277 @@
+{
+  "protocol_id": "p_fa6dbe9281",
+  "nodes": [
+    {
+      "id": "symptom_povyshenie_temperatury_tela",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_slabotnost",
+      "type": "symptom",
+      "label": "Слабость"
+    },
+    {
+      "id": "symptom_poterja_apetita",
+      "type": "symptom",
+      "label": "Потеря аппетита"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_prichinnogo_zuba_i_chelyusti",
+      "type": "symptom",
+      "label": "Боль в области причинного зуба и челюсти"
+    },
+    {
+      "id": "symptom_pripuhlost_i_otek_myagkikh_tkanei",
+      "type": "symptom",
+      "label": "Припухлость и отек мягких тканей"
+    },
+    {
+      "id": "symptom_vospalitelnyj_otek_okolochjulyostnyh_myagkikh_tkanei",
+      "type": "symptom",
+      "label": "Воспалительный отек околочелюстных мягких тканей"
+    },
+    {
+      "id": "symptom_boleznoye_otkryvanie_rta",
+      "type": "symptom",
+      "label": "Болезненное открывание рта"
+    },
+    {
+      "id": "symptom_infiltratsiya_myagkikh_tkanei",
+      "type": "symptom",
+      "label": "Инфильтрация мягких тканей"
+    },
+    {
+      "id": "symptom_giperemiya",
+      "type": "symptom",
+      "label": "Гиперемия"
+    },
+    {
+      "id": "symptom_fluqtaciya",
+      "type": "symptom",
+      "label": "Флюктуация"
+    },
+    {
+      "id": "symptom_sglazhennost_perehodnoj_skladki",
+      "type": "symptom",
+      "label": "Сглаженность переходной складки"
+    },
+    {
+      "id": "symptom_boleznennost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Болезненность при пальпации"
+    },
+    {
+      "id": "symptom_neutrofiliyniy_leukotsitoz",
+      "type": "symptom",
+      "label": "Нейтрофильный лейкоцитоз"
+    },
+    {
+      "id": "symptom_lymfotsitoz",
+      "type": "symptom",
+      "label": "Относительный лимфоцитоз"
+    },
+    {
+      "id": "symptom_uскорennoye_soe",
+      "type": "symptom",
+      "label": "Ускоренное СОЭ"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_zhevaniya",
+      "type": "symptom",
+      "label": "Нарушение функции жевания"
+    },
+    {
+      "id": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "diagnosis",
+      "label": "Воспалительные заболевания челюстей",
+      "icd_code": "K10.2"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_povyshenie_temperatury_tela",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "повышение температуры тела до 38-38,5С.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabotnost",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "слабость, потеря аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_apetita",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "слабость, потеря аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_prichinnogo_zuba_i_chelyusti",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "боль в области причинного зуба и челюсти;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pripuhlost_i_otek_myagkikh_tkanei",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "припухлость и отек мягких тканей в области воспаления;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vospalitelnyj_otek_okolochjulyostnyh_myagkikh_tkanei",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "выраженный воспалительный отек околочелюстных мягких тканей.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznoye_otkryvanie_rta",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "открывание рта болезненное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_myagkikh_tkanei",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "инфильтрация мягких тканей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "гиперемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fluqtaciya",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "флюктуация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sglazhennost_perehodnoj_skladki",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "сглаженность переходной складки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "болезненность при пальпации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neutrofiliyniy_leukotsitoz",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "нейтрофильный лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymfotsitoz",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "относительный лимфоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uскорennое_soe",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "ускоренное СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_zhevaniya",
+      "target": "diagnosis_vospalitelnyie_zabolevaniya_chelyustey",
+      "type": "supports",
+      "weight": 0.8,
+      "evidence": "нарушение функции жевания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury_tela",
+      "target": "symptom_slabotnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "повышение температуры тела до 38-38,5С. • слабость, потеря аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slabotnost",
+      "target": "symptom_poterja_apetita",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "слабость, потеря аппетита;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_prichinnogo_zuba_i_chelyusti",
+      "target": "symptom_pripuhlost_i_otek_myagkikh_tkanei",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боль в области причинного зуба и челюсти; • припухлость и отек мягких тканей в области воспаления;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vospalitelnyj_otek_okolochjulyostnyh_myagkikh_tkanei",
+      "target": "symptom_boleznoye_otkryvanie_rta",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "выраженный воспалительный отек околочелюстных мягких тканей. ... открывание рта болезненное",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infiltratsiya_myagkikh_tkanei",
+      "target": "symptom_giperemiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "инфильтрация мягких тканей, гиперемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fluqtaciya",
+      "target": "symptom_sglazhennost_perehodnoj_skladki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "флюктуация, сглаженность переходной складки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_palpatsii",
+      "target": "symptom_narushenie_funkcii_zhevaniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "болезненность при пальпации ... нарушение функции жевания",
+      "properties": {}
+    }
+  ]
+}

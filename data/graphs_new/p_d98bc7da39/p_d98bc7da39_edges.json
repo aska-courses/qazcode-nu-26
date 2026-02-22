@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_zud_razlichnoi_stepeni_vyrazhennosti",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зуд различной степени выраженности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokrasnenie_kraia_vek",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "покраснение края век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zharenie",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жжение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_vek",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheshuyki_u_kornya_resnic",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "чешуйки у корня ресниц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otdeliamoe_iz_konjunktivalnoi_polosti",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отделяемое из конъюнктивальной полости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oshuschenie_inorodnogo_tela",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущение инородного тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slezotchenie",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnoinye_korochki_u_kornya_resnic",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гнойные корочки у основания ресниц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_penistyj_sekret",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пенистый секрет",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_konjunktivy",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отек конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_vek",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_konjunktivy",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперемия конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utolshenie_marginalnogo_kraia_vek",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "утолщение маргинального края век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vypadeniye_resnic",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выпадение ресниц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nepravilnyj_rost_resnic",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неправильный рост ресниц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_defekt_epitelija_rogovitsy",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дефект эпителия роговицы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_ostrosti_zreniya",
+    "target": "diagnosis_blefarit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение остроты зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zud_razlichnoi_stepeni_vyrazhennosti",
+    "target": "symptom_pokrasnenie_kraia_vek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "зуд различной степени выраженности, покраснение края век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zharenie",
+    "target": "symptom_otek_vek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "жжение, отек век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oshuschenie_inorodnogo_tela",
+    "target": "symptom_slezotchenie",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ощущение инородного тела и слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_vek",
+    "target": "symptom_giperemiya_vek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек век; гиперемия век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otek_vek",
+    "target": "symptom_cheshuyki_u_kornya_resnic",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек век, возможны наличие чешуек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cheshuyki_u_kornya_resnic",
+    "target": "symptom_gnoinye_korochki_u_kornya_resnic",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "чешуйки у корня ресниц, гнойные корочки у основания ресниц",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gnoinye_korochki_u_kornya_resnic",
+    "target": "symptom_penistyj_sekret",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гнойные корочки у основания ресниц, пенистый секрет",
+    "properties": {}
+  },
+  {
+    "source": "symptom_penistyj_sekret",
+    "target": "symptom_otek_konjunktivy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пенистый секрет и отек конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemiya_konjunktivy",
+    "target": "symptom_otek_konjunktivy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "отек и гиперемия конъюнктивы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_utolshenie_marginalnogo_kraia_vek",
+    "target": "symptom_giperemiya_vek",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "утолщение и гиперемия маргинального края век",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vypadeniye_resnic",
+    "target": "symptom_nepravilnyj_rost_resnic",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выпадение, неправильный рост ресниц",
+    "properties": {}
+  }
+]

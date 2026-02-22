@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_infrawezikalnaya_obstruktsiya",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Устранение ДГПЖ как причины инфравезикальной обструкции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obstruktsiya_nizhnih_mochevykh_putey",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Устранение ДГПЖ как причины инфравезикальной обструкции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gematuriya",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "выраженной гематурией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13_5",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "взрослые пациенты с опущением почек ... у которых наблюдается боли в боку",
+    "properties": {}
+  },
+  {
+    "source": "symptom_refluks",
+    "target": "diagnosis_k21_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Рефлюкс-эзофагит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_efagit",
+    "target": "diagnosis_k21_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Эзофагит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_refluks",
+    "target": "diagnosis_k21_9",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гастроэзофагеальный рефлюкс без эзофагита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gryzha_pischevogo_otverstiya_diafragmy",
+    "target": "diagnosis_k21_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "грыжа пищевого отверстия диафрагмы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d29_1",
+    "target": "diagnosis_n40",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: D29.1 ... N40 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c64_0",
+    "target": "diagnosis_c64_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: C64.0 ... C64.9 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n13",
+    "target": "diagnosis_n13_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: N13 ... N13.0 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n13",
+    "target": "diagnosis_n13_5",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: N13 ... N13.5 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62",
+    "target": "diagnosis_q62_2",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: Q62 ... Q62.2 ... Q62.8 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62",
+    "target": "diagnosis_q62_8",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: Q62 ... Q62.2 ... Q62.8 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q64_6",
+    "target": "diagnosis_n32_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: N32.3 ... Q64.6 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d30_0",
+    "target": "diagnosis_d41_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: D30.0 ... D41.0 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d35_0",
+    "target": "diagnosis_c74",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: D35.0 ... C74 ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k21_0",
+    "target": "diagnosis_k21_9",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код(ы) МКБ-10: K21.0 ... K21.9 ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_refluks",
+    "target": "symptom_efagit",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Рефлюкс-эзофагит",
+    "properties": {}
+  }
+]

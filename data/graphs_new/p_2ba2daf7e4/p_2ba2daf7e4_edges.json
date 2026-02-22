@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_svobodnoe_mocheispuskaniye",
+    "target": "d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«свободное мочеиспускание»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svobodnoe_mocheispuskaniye",
+    "target": "n40",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«свободное мочеиспускание»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetlaya_mocha",
+    "target": "d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«светлая моча»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svetlaya_mocha",
+    "target": "n40",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«светлая моча»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gematuriya",
+    "target": "d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«выраженной гематурией»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gematuriya",
+    "target": "n40",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«выраженной гематурией»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "n13_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«взрослые пациенты с опущением почек или блуждающей почкой, у которых наблюдаются боли в боку»",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "n13_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "«взрослые пациенты с опущением почек или блуждающей почкой, у которых наблюдаются боли в боку»",
+    "properties": {}
+  },
+  {
+    "source": "d29_1",
+    "target": "n40",
+    "type": "appear-with",
+    "weight": 0.85,
+    "evidence": "«Код(ы) МКБ-10: D29.1 Доброкачественное новообразование предстательной железы N40 Гиперплазия предстательной железы»",
+    "properties": {}
+  },
+  {
+    "source": "c64_0",
+    "target": "c64_9",
+    "type": "appear-with",
+    "weight": 0.85,
+    "evidence": "«Код(ы) МКБ-10: C64.0 Злокачественное образование почки кроме почечной лоханки C64.9 неуточненной локализации»",
+    "properties": {}
+  },
+  {
+    "source": "d30_0",
+    "target": "n28_1",
+    "type": "appear-with",
+    "weight": 0.85,
+    "evidence": "«Код(ы) МКБ-10: D30.0 Доброкачественное новообразование почки» и «Код(ы) МКБ-10: N28.1 Киста почки»",
+    "properties": {}
+  },
+  {
+    "source": "n13_0",
+    "target": "n13",
+    "type": "appear-with",
+    "weight": 0.85,
+    "evidence": "«Код(ы) МКБ-10: N13.0 Гидронефроз, обусловленный стриктурой лоханочно‑мочеточникового сегмента N13 Обструктивная уропатия и рефлюкс‑уропатия»",
+    "properties": {}
+  },
+  {
+    "source": "n13_5",
+    "target": "n13",
+    "type": "appear-with",
+    "weight": 0.85,
+    "evidence": "«Код(ы) МКБ-10: N13.5 Перегиб и стриктура мочеточника без гидронефроза» и «N13 Обструктивная уропатия и рефлюкс‑уропатия»",
+    "properties": {}
+  }
+]

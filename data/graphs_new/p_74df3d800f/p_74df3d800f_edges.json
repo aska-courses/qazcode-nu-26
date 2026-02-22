@@ -1,0 +1,274 @@
+[
+  {
+    "source": "diagnosis_conductive_hearing_loss_bilateral",
+    "target": "diagnosis_congenital_absence_of_auricle",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "двусторонняя кондуктивная/смешанная тугоухость при врожденных аномалиях уха",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_conductive_hearing_loss_unilateral",
+    "target": "diagnosis_congenital_absence_of_auricle",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "двусторонняя кондуктивная/смешанная тугоухость при врожденных аномалиях уха",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mixed_conductive_neurosensory_hearing_loss_bilateral",
+    "target": "diagnosis_congenital_malformation_of_ossicles",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "двусторонняя кондуктивная/смешанная тугоухость при врожденных аномалиях уха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hearing_loss",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "потеря слуха при порогах костного звукопроведения на 500 Гц не более 55 дБ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_discrimination_above_50_percent",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "разборчивость речи более 50 % на 65 дБ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_speech_discrimination_below_50_percent",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "низкий процент разборчивости речи (разборчивость речи менее 50% при интенсивности звука 65 дБ)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spontaneous_vertigo_disorders",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "спонтанные вестибулярные расстройства",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_respiratory_tract_infections",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острые заболевания дыхательных путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_infectious_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_hypotrophy",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "выраженная гипотрофия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recent_vaccination",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "состояние после вакцинации (менее 10‑14 дней)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unexplained_hyperthermia",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "гипертермия неясной природы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_renal_failure",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "острая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_renal_failure",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "хроническая почечная недостаточность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decompensated_congenital_anomalies",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "тяжелые декомпенсированные или субкомпенсированные врожденные пороки развития",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tuberculosis",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "туберкулёз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock_and_collapse",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "шок и коллапс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liver_and_kidney_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "заболевания печени и почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_anemia",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "выраженная анемия (Гемоглобин < 80 г/л)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_generalized_seizures",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "генерализованные судороги различной этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malignant_neoplasms_stage_iii_iv",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "злокачественные новообразования (III‑IV стадии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_failure_stage_iii_or_higher",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "недостаточность функции дыхания более III степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uncorrectable_metabolic_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "некорректируемые метаболические болезни",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_rheumatic_process",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "активность ревматического процесса 2 степени и выше",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hormonal_therapy",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "наличие гормональной терапии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_purulent_skin_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "гнойные болезни кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_contagious_skin_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "заразные болезни кожи (чесотка, грибковые заболевания и др.)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diabetes_mellitus",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "сахарный диабет",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematologic_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "болезни крови",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_allergic_autoimmune_diseases",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "тяжелые аллергические и аутоиммунные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mental_disorders_with_desocialization",
+    "target": "diagnosis_conductive_hearing_loss_bilateral",
+    "type": "contradicts",
+    "weight": 0.95,
+    "evidence": "психические заболевания с десоциализацией личности",
+    "properties": {}
+  },
+  {
+    "source": "symptom_unsatisfactory_air_conduction_hearing_aid_use",
+    "target": "symptom_bone_conduction_implant_on_soft_bandage_under_5_years",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "неудовлетворенность при их длительном ношении ... или аппаратом костной проводимости на мягком бандаже до 5 лет",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stable_hearing_function_6_months",
+    "target": "symptom_no_exacerbation_of_middle_ear_inflammation",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "стабильность слуховой функции в течение 6 мес.; отсутствие обострения воспалительного процесса в среднем ухе в течение 6 мес.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conductive_or_mixed_hearing_loss_post_middle_ear_surgery",
+    "target": "diagnosis_other_congenital_middle_ear_anomalies",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "наличие кондуктивной/смешанной тугоухости после проведения оперативного лечения на среднем ухе или аномалиях развития среднего уха",
+    "properties": {}
+  }
+]

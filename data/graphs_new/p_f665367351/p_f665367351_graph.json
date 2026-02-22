@@ -1,0 +1,970 @@
+{
+  "protocol_id": "p_f665367351",
+  "nodes": [
+    {
+      "id": "symptom_pristupobraznye_boli_v_poyasnichnoj_oblasti",
+      "type": "symptom",
+      "label": "Приступообразные боли в поясничной области"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_uchashchennoe_mocheispuskaniye",
+      "type": "symptom",
+      "label": "Учащенное мочеиспускание"
+    },
+    {
+      "id": "symptom_zatrudnennoe_mocheispuskaniye",
+      "type": "symptom",
+      "label": "Затрудненное мочеиспускание"
+    },
+    {
+      "id": "symptom_povyshenie_temperatury",
+      "type": "symptom",
+      "label": "Повышение температуры"
+    },
+    {
+      "id": "symptom_oznob",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_pozitivnyy_simptom_pasternatskogo",
+      "type": "symptom",
+      "label": "Положительный симптом Пастернацкого"
+    },
+    {
+      "id": "symptom_leykotsitoz",
+      "type": "symptom",
+      "label": "Лейкоцитоз"
+    },
+    {
+      "id": "symptom_sdvig_leykotsitarnoy_formuly_vlevo",
+      "type": "symptom",
+      "label": "Сдвиг лейкоцитарной формулы влево"
+    },
+    {
+      "id": "symptom_uvelichenie_soe",
+      "type": "symptom",
+      "label": "Увеличение СОЭ"
+    },
+    {
+      "id": "symptom_mikrogematuriya",
+      "type": "symptom",
+      "label": "Микрогематурия"
+    },
+    {
+      "id": "symptom_makrogematuriya",
+      "type": "symptom",
+      "label": "Макрогематурия"
+    },
+    {
+      "id": "symptom_kristallouriya",
+      "type": "symptom",
+      "label": "Кристаллоурия"
+    },
+    {
+      "id": "symptom_izmenenie_ph_mochi",
+      "type": "symptom",
+      "label": "Изменение pH мочи"
+    },
+    {
+      "id": "symptom_leykotsity_v_moche",
+      "type": "symptom",
+      "label": "Лейкоциты в моче"
+    },
+    {
+      "id": "symptom_bakteriuriya",
+      "type": "symptom",
+      "label": "Бактериурия"
+    },
+    {
+      "id": "symptom_solya_v_moche",
+      "type": "symptom",
+      "label": "Соли в моче"
+    },
+    {
+      "id": "symptom_povyshenie_kreatinina",
+      "type": "symptom",
+      "label": "Повышение креатинина"
+    },
+    {
+      "id": "symptom_povyshenie_mocheviny",
+      "type": "symptom",
+      "label": "Повышение мочевины"
+    },
+    {
+      "id": "symptom_gematuriya",
+      "type": "symptom",
+      "label": "Гематурия"
+    },
+    {
+      "id": "symptom_leykotsituria",
+      "type": "symptom",
+      "label": "Лейкоцитурия"
+    },
+    {
+      "id": "symptom_infektsiya_mochevykh_putey",
+      "type": "symptom",
+      "label": "Инфекция мочевых путей"
+    },
+    {
+      "id": "diagnosis_kamni_pochk",
+      "type": "diagnosis",
+      "label": "Камни почек",
+      "icd_code": "N20.0"
+    },
+    {
+      "id": "diagnosis_kamni_mochetochnika",
+      "type": "diagnosis",
+      "label": "Камни мочеточника",
+      "icd_code": "N20.1"
+    },
+    {
+      "id": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "diagnosis",
+      "label": "Камни в мочевом пузыре",
+      "icd_code": "N21.0"
+    },
+    {
+      "id": "diagnosis_kamni_v_uretre",
+      "type": "diagnosis",
+      "label": "Камни в уретре",
+      "icd_code": "N21.1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_pristupobraznye_boli_v_poyasnichnoj_oblasti",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: приступообразные боли в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznye_boli_v_poyasnichnoj_oblasti",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: приступообразные боли в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznye_boli_v_poyasnichnoj_oblasti",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: приступообразные боли в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznye_boli_v_poyasnichnoj_oblasti",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: приступообразные боли в поясничной области",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchashchennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: учащенное ... мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchashchennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: учащенное ... мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchashchennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: учащенное ... мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uchashchennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: учащенное ... мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: затрудненное мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: затрудненное мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: затрудненное мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zatrudnennoe_mocheispuskaniye",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: затрудненное мочеиспускание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_temperatury",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: повышение температуры",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oznob",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oznob",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oznоб",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oznоб",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: озноб",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyy_simptom_pasternatskogo",
+      "target": "diagnosis_kamni_pochk",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: положительный симптом Пастернацкого",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyy_simptom_pasternatskogo",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: положительный симптом Пастернацкого",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyy_simptom_pasternatskogo",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: положительный симптом Пастернацкого",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pozitivnyy_simptom_pasternatskogo",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на: положительный симптом Пастернацкого",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsitoz",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leyкotsitoз",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leyкotsitoз",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leyкotsitoз",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: лейкоцитоз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sdvig_leykotsitarnoy_formuly_vlevo",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sdvig_leyкotsitarnой_formулы_vlevo",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sdvig_leyкotsitarnой_formулы_vlevo",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sdvig_leyкotsitarnой_formулы_vlevo",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: увеличение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: увеличение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: увеличение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_soe",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: увеличение СОЭ",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikrogematuriya",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: микро ... гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikrogematuriya",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: микро ... гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikrogемaturiya",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: микро ... гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikрogematuriya",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: микро ... гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrogematuriya",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: макрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrogematuriya",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: макрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrogematuriya",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: макрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_makrogematuriya",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: макрогематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kristallouriya",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: кристаллоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kristallouriya",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: кристаллоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kristallouriya",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: кристаллоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kristallouriya",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: кристаллоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_ph_mochi",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: изменение pH мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_ph_mochi",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: изменение pH мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_ph_mochi",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: изменение pH мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_ph_mochi",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: изменение pH мочи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsity_v_moche",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: лейкоциты в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsity_v_moche",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: лейкоциты в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsity_v_moche",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: лейкоциты в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsity_v_moche",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: лейкоциты в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bakteriuriya",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_solya_v_moche",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: соли в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_solya_v_moche",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: соли в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_solya_v_moche",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: соли в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_solya_v_moche",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: соли в моче",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_kreatinina",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение креатинина ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_kreatinina",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение креатинина ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_kreatinina",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение креатинина ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_kreatinina",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение креатинина ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_mocheviny",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение мочевины ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_mocheviny",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение мочевины ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_mocheviny",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение мочевины ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshenie_mocheviny",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышение мочевины ... при обструкции конкрементом мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuriya",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuriya",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuriya",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gematuriya",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "гематурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsituria",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsituria",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsituria",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsituria",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лейкоцитурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infektsiya_mochevykh_putey",
+      "target": "diagnosis_kamni_pochк",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекция мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infektsiya_mochevykh_putey",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекция мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infektsiya_mochevykh_putey",
+      "target": "diagnosis_kamni_v_mochevom_puzharyе",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекция мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_infektsiya_mochevykh_putey",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "инфекция мочевых путей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pristupobraznye_boli_v_poyasnichnoj_oblasti",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: приступообразные боли в поясничной области; тошноту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на: тошноту; рвоту",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsitoz",
+      "target": "symptom_sdvig_leykotsitarnoy_formuly_vlevo",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "общий анализ крови: лейкоцитоз, сдвиг лейкоцитарной формулы влево",
+      "properties": {}
+    },
+    {
+      "source": "symptom_mikrogematuriya",
+      "target": "symptom_kristallouriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: микро ... гематурия, кристаллоурия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_leykotsity_v_moche",
+      "target": "symptom_bakteriuriya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "общий анализ мочи: лейкоциты, бактериурия",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kamni_pochк",
+      "target": "diagnosis_kamni_mochetochnika",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N 20.0 Камни почек N 20.1 Камни мочеточника",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kamni_pochк",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N 20.0 Камни почек N 21.0 Камни в мочевом пузыре",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kamni_pochк",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N 20.0 Камни почек N 21.1 Камни в уретре",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kamni_mochetochnika",
+      "target": "diagnosis_kamni_v_mochevom_puzharye",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N 20.1 Камни мочеточника N 21.0 Камни в мочевом пузыре",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kamni_mochetochnika",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N 20.1 Камни мочеточника N 21.1 Камни в уретре",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kamni_v_mochevom_puzharye",
+      "target": "diagnosis_kamni_v_uretre",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: N 21.0 Камни в мочевом пузыре N 21.1 Камни в уретре",
+      "properties": {}
+    }
+  ]
+}

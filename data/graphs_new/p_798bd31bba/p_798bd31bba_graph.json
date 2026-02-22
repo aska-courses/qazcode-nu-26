@@ -1,0 +1,298 @@
+{
+  "protocol_id": "p_798bd31bba",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_oblasti_proksimalnogo_ili_distalnogo_konta_plecha",
+      "type": "symptom",
+      "label": "Боль в области проксимального или дистального конца плеча"
+    },
+    {
+      "id": "symptom_narushenie_funkcii_verhney_konechnosti",
+      "type": "symptom",
+      "label": "Нарушение функции верхней конечности"
+    },
+    {
+      "id": "symptom_otek_v_meste_pereloma",
+      "type": "symptom",
+      "label": "Отёк в месте перелома"
+    },
+    {
+      "id": "symptom_deformatsiya",
+      "type": "symptom",
+      "label": "Деформация"
+    },
+    {
+      "id": "symptom_krovoizliyanie_v_okruzhayushchie_tkany",
+      "type": "symptom",
+      "label": "Кровоизлияние в окружающие ткани"
+    },
+    {
+      "id": "symptom_ukorocheniye_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение конечности"
+    },
+    {
+      "id": "symptom_boleznennost_pri_oshevoy_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность при осевой нагрузке"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Патологическая подвижность"
+    },
+    {
+      "id": "symptom_kreptaciya_kostnyh_otlomkov",
+      "type": "symptom",
+      "label": "Крепитация костных отломков"
+    },
+    {
+      "id": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "type": "symptom",
+      "label": "Вынужденное положение конечности"
+    },
+    {
+      "id": "symptom_nalichie_travmy",
+      "type": "symptom",
+      "label": "Наличие травмы"
+    },
+    {
+      "id": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "diagnosis",
+      "label": "Перелом проксимального конца плеча",
+      "icd_code": "S42.2"
+    },
+    {
+      "id": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "diagnosis",
+      "label": "Перелом дистального конца плеча",
+      "icd_code": "S42.4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_proksimalnogo_ili_distalnogo_konta_plecha",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в области проксимального или дистального конца плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_proksimalnogo_ili_distalnogo_konta_plecha",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в области проксимального или дистального конца плеча",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_verhney_konechnosti",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_funkcii_verhney_konechnosti",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Жалобы: нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_travmy",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Анамнез: наличие травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_travmy",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Анамнез: наличие травмы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformatsiya",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkany",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: кровоизлияние в окружающие ткани",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ukorocheniye_konechnosti",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации: болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshevoy_nagruzke",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации: болезненность, усиливающая при осевой нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации: патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации: патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации: крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kreptaciya_kostnyh_otlomkov",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При пальпации: крепитация костных отломков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При осмотре: вынужденное положение конечности больного",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "При осмотре: вынужденное положение конечности больного",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_proksimalnogo_ili_distalnogo_konta_plecha",
+      "target": "symptom_narushenie_funkcii_verhney_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Жалобы: боли в области ...; нарушение функции верхней конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_v_meste_pereloma",
+      "target": "symptom_deformatsiya",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: отек в месте перелома; деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovoizliyanie_v_okruzhayushchie_tkany",
+      "target": "symptom_ukorocheniye_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Физикальное обследование: кровоизлияние в окружающие ткани; укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_pri_oshevoy_nagruzke",
+      "target": "symptom_patologicheskaya_podvizhnost",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "При пальпации: болезненность, усиливающая при осевой нагрузке; патологическая подвижность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vynuzhdennoe_polozhenie_konechnosti",
+      "target": "symptom_otek_v_meste_pereloma",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "При осмотре: вынужденное положение конечности больного; отек в месте перелома",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_perelom_proksimalnogo_konta_plecha",
+      "target": "diagnosis_perelom_distalnogo_konta_plecha",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "переломы проксимального и дистального конца плечевой кости",
+      "properties": {}
+    }
+  ]
+}

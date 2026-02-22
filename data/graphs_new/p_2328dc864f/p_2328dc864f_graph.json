@@ -1,0 +1,130 @@
+{
+  "protocol_id": "p_2328dc864f",
+  "nodes": [
+    {
+      "id": "symptom_erosii",
+      "type": "symptom",
+      "label": "эрозии"
+    },
+    {
+      "id": "symptom_yazvochki",
+      "type": "symptom",
+      "label": "язвочки"
+    },
+    {
+      "id": "symptom_papillomy",
+      "type": "symptom",
+      "label": "папилломы"
+    },
+    {
+      "id": "symptom_uzelki",
+      "type": "symptom",
+      "label": "узелки"
+    },
+    {
+      "id": "symptom_treshiny",
+      "type": "symptom",
+      "label": "трещины"
+    },
+    {
+      "id": "symptom_upolneniya",
+      "type": "symptom",
+      "label": "уплотнения"
+    },
+    {
+      "id": "symptom_krovootechenie",
+      "type": "symptom",
+      "label": "кровотечение"
+    },
+    {
+      "id": "symptom_otek",
+      "type": "symptom",
+      "label": "отёк"
+    },
+    {
+      "id": "symptom_lymphadenopathy",
+      "type": "symptom",
+      "label": "увеличение паховых лимфатических узлов"
+    },
+    {
+      "id": "diagnosis_penile_cancer",
+      "type": "diagnosis",
+      "label": "злокачественные новообразования полового члена",
+      "icd_code": "C60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_erosii",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозий, язвочек, папиллом, узелков, трещин или уплотнений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_yazvochki",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозий, язвочек, папиллом, узелков, трещин или уплотнений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papillomy",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозий, язвочек, папиллом, узелков, трещин или уплотнений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uzelki",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозий, язвочек, папиллом, узелков, трещин или уплотнений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_treshiny",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозий, язвочек, папиллом, узелков, трещин или уплотнений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolneniya",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эрозий, язвочек, папиллом, узелков, трещин или уплотнений",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovootechenie",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Распад опухоли и кровотечение из образования полового члена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие отека на нижней конечности, и/либо на мошонке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lymphadenopathy",
+      "target": "diagnosis_penile_cancer",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "N1 имеется подвижный пальпируемый паховый ЛУ с одной стороны",
+      "properties": {}
+    }
+  ]
+}

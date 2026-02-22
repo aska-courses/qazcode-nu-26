@@ -1,0 +1,114 @@
+[
+  {
+    "source": "i42",
+    "target": "i43",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Кардиомиопатии I42; I43",
+    "properties": {}
+  },
+  {
+    "source": "c38_0",
+    "target": "c45_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "пересадке сердца C 38.0; C 45.2; D 15.1; S 26; Z 95; Z 94.1",
+    "properties": {}
+  },
+  {
+    "source": "c38_0",
+    "target": "d15_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "пересадке сердца C 38.0; C 45.2; D 15.1; S 26; Z 95; Z 94.1",
+    "properties": {}
+  },
+  {
+    "source": "c38_0",
+    "target": "s26",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "пересадке сердца C 38.0; C 45.2; D 15.1; S 26; Z 95; Z 94.1",
+    "properties": {}
+  },
+  {
+    "source": "c38_0",
+    "target": "z95",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "пересадке сердца C 38.0; C 45.2; D 15.1; S 26; Z 95; Z 94.1",
+    "properties": {}
+  },
+  {
+    "source": "c38_0",
+    "target": "z94_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "пересадке сердца C 38.0; C 45.2; D 15.1; S 26; Z 95; Z 94.1",
+    "properties": {}
+  },
+  {
+    "source": "q21_0",
+    "target": "q21_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Вторичная легочная гипертензия Q21.0, 21.1, 25.0,25.8., 21.2",
+    "properties": {}
+  },
+  {
+    "source": "q25_0",
+    "target": "q25_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Вторичная легочная гипертензия Q21.0, 21.1, 25.0,25.8., 21.2",
+    "properties": {}
+  },
+  {
+    "source": "bleeding",
+    "target": "anemia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "часто повторяющиеся или обильные кровотечения различного происхождения, выраженная анемия",
+    "properties": {}
+  },
+  {
+    "source": "seizures",
+    "target": "acute_infection",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "частые генерализованные судороги различной этиологии; острые инфекционные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "fever",
+    "target": "subfebrile_fever",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "фебрильная лихорадка или субфебрильная лихорадка неизвестного происхождения",
+    "properties": {}
+  },
+  {
+    "source": "diabetes",
+    "target": "myxedema",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "некорректируемые метаболические болезни (сахарный диабет, микседема, тиреотоксикоз и другие)",
+    "properties": {}
+  },
+  {
+    "source": "syphilis",
+    "target": "gonorrhea",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "заболевания, передающие половым путем (сифилис, гонорея, трихомоноз и другие)",
+    "properties": {}
+  },
+  {
+    "source": "skin_infections",
+    "target": "scabies",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гнойные болезни кожи, заразные болезни кожи (чесотка, грибковые заболевания и другие)",
+    "properties": {}
+  }
+]

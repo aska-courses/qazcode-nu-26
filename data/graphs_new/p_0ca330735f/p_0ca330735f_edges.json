@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_high_blood_pressure",
+    "target": "diagnosis_preeclampsia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия; HELLP‑синдром; гестационная гипертензия; хроническая гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_blood_pressure",
+    "target": "diagnosis_eclampsia",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия; HELLP‑синдром; гестационная гипертензия; хроническая гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_blood_pressure",
+    "target": "diagnosis_hellp_syndrome",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия; HELLP‑синдром; гестационная гипертензия; хроническая гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_blood_pressure",
+    "target": "diagnosis_gestational_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия; HELLP‑синдром; гестационная гипертензия; хроническая гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_high_blood_pressure",
+    "target": "diagnosis_chronic_hypertension",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия; HELLP‑синдром; гестационная гипертензия; хроническая гипертензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uterine_hyperstimulation",
+    "target": "symptom_fetal_distress",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперстимуляцией матки (частые, продолжительные схватки и страдание плода)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uterine_hyperstimulation",
+    "target": "symptom_uterine_hypertonus",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперстимуляцией матки (частые, продолжительные схватки) ... гипертонусом (частые, продолжительные схватки)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uterine_hyperstimulation",
+    "target": "symptom_umbilical_cord_prolapse",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гиперстимуляцией матки ... выпадением петель пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_distress",
+    "target": "symptom_meconium_in_amniotic_fluid",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "нарушением состояния плода; ... появлению мекония в водах",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_preeclampsia",
+    "target": "diagnosis_eclampsia",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_preeclampsia",
+    "target": "diagnosis_hellp_syndrome",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – преэклампсия; эклампсия; HELLP‑синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_gestational_hypertension",
+    "target": "diagnosis_chronic_hypertension",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "гипертонические расстройства – ... гестационная гипертензия; хроническая гипертензия",
+    "properties": {}
+  }
+]

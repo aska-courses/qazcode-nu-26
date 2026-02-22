@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_nesposobnost",
+    "target": "symptom_dyhalnyaya_nedostatochnost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "невозможность самостоятельного передвижения; патология внешнего дыхания с хронической дыхательной недостаточностью 23 степени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nesposobnost",
+    "target": "symptom_vospalitelnyj_process",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "невозможность самостоятельного передвижения; воспалительный процесс в области коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nesposobnost",
+    "target": "symptom_gemiparez",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "невозможность самостоятельного передвижения; гемипарез на стороне планируемой операции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nesposobnost",
+    "target": "symptom_osteopeniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "невозможность самостоятельного передвижения; выраженная остеопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyhalnyaya_nedostatochnost",
+    "target": "symptom_vospalitelnyj_process",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "патология внешнего дыхания с хронической дыхательной недостаточностью 23 степени; воспалительный процесс в области коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyhalnyaya_nedostatochnost",
+    "target": "symptom_gemiparez",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "патология внешнего дыхания с хронической дыхательной недостаточностью 23 степени; гемипарез на стороне планируемой операции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyhalnyaya_nedostatochnost",
+    "target": "symptom_osteopeniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "патология внешнего дыхания с хронической дыхательной недостаточностью 23 степени; выраженная остеопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vospalitelnyj_process",
+    "target": "symptom_gemiparez",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "воспалительный процесс в области коленного сустава; гемипарез на стороне планируемой операции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vospalitelnyj_process",
+    "target": "symptom_osteopeniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "воспалительный процесс в области коленного сустава; выраженная остеопения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemiparez",
+    "target": "symptom_osteopeniya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гемипарез на стороне планируемой операции; выраженная остеопения",
+    "properties": {}
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "source": "symptom_recidiviruyushchaya_infekciya_mochevydavayushchikh_putey",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующей инфекцией мочевыводящих путей ... при аденомэктомии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kamni_v_mochevom_puzyre",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "камнями в мочевом пузыре ... при аденомэктомии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_divertikul_mochevogo_puzyra",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дивертикулом мочевого пузыря ... при аденомэктомии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pochechnaya_nedostatochnost",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "почечной недостаточностью ... при аденомэктомии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gematuriya",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "выраженной гематурией ... при аденомэктомии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_trudnosti_mocheispuskaniya",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "различные трудности при мочеиспускании ... при аденомэктомии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в боку ... при обструкции лохано‑мочеточникового сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gidronefroz",
+    "target": "diagnosis_n13_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гидронефроз, обусловленный стриктурой лоханочно‑мочеточникового сегмента",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simptomy_nizhnih_mochevydavashchikh_putey",
+    "target": "diagnosis_n13",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Обструктивная уропатия и рефлюкс‑уропатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_recidiviruyushchaya_infekciya_mochevydavayushchikh_putey",
+    "target": "diagnosis_n13",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рецидивирующая инфекция мочевыводящих путей ... показания к процедуре",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gidronefroz",
+    "target": "diagnosis_n13",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гидронефроз ... показания к процедуре",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боль в боку ... у пациентов с опущением почек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gidronefroz",
+    "target": "diagnosis_n13_5",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Перегиб и стриктура мочеточника без гидронефроза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gidronefroz",
+    "target": "symptom_bol_v_boku",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "боль в боку ... при обструкции лохано‑мочеточникового сегмента; Гидронефроз, обусловленный стриктурой ...",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d29_1",
+    "target": "diagnosis_n40",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: D29.1 Доброкачественное новообразование предстательной железы N40 Гиперплазия предстательной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c64_0",
+    "target": "diagnosis_c64_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: C64.0 Злокачественное образование почки кроме почечной лоханки C64.9 неуточненной локализации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d30_0",
+    "target": "diagnosis_d41_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: D30.0 Доброкачественное новообразование почки D41.0 Новообразование неопределенного или неизвестного характера почки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n13",
+    "target": "diagnosis_n13_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: N13 Обструктивная уропатия и рефлюкс‑уропатия; N13.0 Гидронефроз, обусловленный стриктурой лоханочно‑мочеточникового сегмента",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62",
+    "target": "diagnosis_q62_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Q62 Врожденные аномалии мочеточника; Q62.2 Врожденное расширение мочеточника (мегалоуретер)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q62",
+    "target": "diagnosis_q62_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Q62 Врожденные аномалии мочеточника; Q62.8 Другие врожденные аномалии мочеточника",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q64_6",
+    "target": "diagnosis_q62",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) МКБ-10: Q64.6 Врожденный дивертикул мочевого пузыря; Q62 Врожденные аномалии мочеточника",
+    "properties": {}
+  }
+]

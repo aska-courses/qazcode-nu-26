@@ -1,0 +1,138 @@
+[
+  {
+    "source": "low_apgar_score",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Оценка по шкале Апгар ≤ 5 на 10‑й минуте",
+    "properties": {}
+  },
+  {
+    "source": "ivl_requirement",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Сохраняющаяся потребность в ИВЛ на 10‑й минуте жизни",
+    "properties": {}
+  },
+  {
+    "source": "low_ph",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "рН <7.0",
+    "properties": {}
+  },
+  {
+    "source": "high_base_deficit",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дефицит оснований (ВЕ) ≥16 моль/л",
+    "properties": {}
+  },
+  {
+    "source": "clinical_seizures",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Клинически выраженные судороги (тонические, клонические, смешанные)",
+    "properties": {}
+  },
+  {
+    "source": "muscle_hypotonia",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Мышечная гипотония и гипорефлексии",
+    "properties": {}
+  },
+  {
+    "source": "hyporeflexia",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипорефлексии",
+    "properties": {}
+  },
+  {
+    "source": "hypertonia",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Выраженный гипертонус и гипорефлексии",
+    "properties": {}
+  },
+  {
+    "source": "pupil_reflex_abnormalities",
+    "target": "diagnosis_hypothermia_external_factors",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушения зрачкового рефлекса (сужен и не реагирует на затемнение, расширен и не реагирует на свет, слабая реакция зрачка на изменение освещения)",
+    "properties": {}
+  },
+  {
+    "source": "low_apgar_score",
+    "target": "ivl_requirement",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Критерии группы «А»: • Оценка по шкале Апгар ≤ 5 на 10‑й минуте или • Сохраняющаяся потребность в ИВЛ на 10‑й минуте жизни",
+    "properties": {}
+  },
+  {
+    "source": "low_apgar_score",
+    "target": "low_ph",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Критерии группы «А»: • Оценка по шкале Апгар ≤ 5 на 10‑й минуте ... • В первом анализе крови ... рН <7.0",
+    "properties": {}
+  },
+  {
+    "source": "low_apgar_score",
+    "target": "high_base_deficit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Критерии группы «А»: • Оценка по шкале Апгар ≤ 5 на 10‑й минуте ... • дефицит оснований (ВЕ) ≥16 моль/л",
+    "properties": {}
+  },
+  {
+    "source": "clinical_seizures",
+    "target": "muscle_hypotonia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Критерии группы «В»: • Клинически выраженные судороги ... или • Мышечная гипотония и гипорефлексии",
+    "properties": {}
+  },
+  {
+    "source": "clinical_seizures",
+    "target": "hypertonia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Критерии группы «В»: • Клинически выраженные судороги ... или • Выраженный гипертонус и гипорефлексии",
+    "properties": {}
+  },
+  {
+    "source": "clinical_seizures",
+    "target": "pupil_reflex_abnormalities",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Критерии группы «В»: • Клинически выраженные судороги ... или • Нарушения зрачкового рефлекса ...",
+    "properties": {}
+  },
+  {
+    "source": "muscle_hypotonia",
+    "target": "hyporeflexia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Мышечная гипотония и гипорефлексии",
+    "properties": {}
+  },
+  {
+    "source": "hypertonia",
+    "target": "hyporeflexia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Выраженный гипертонус и гипорефлексии",
+    "properties": {}
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Слабость, повышенная утомляемость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exhaustion",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Слабость, повышенная утомляемость;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_right_quadrant_discomfort",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Дискомфорт в правом квадранте живота;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sleep_apnea",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Синдром ночного апноэ;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pruritus",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кожный зуд",
+    "properties": {}
+  },
+  {
+    "source": "symptom_jaundice",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "желтуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_portal_hypertension",
+    "target": "diagnosis_k76_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "симптомы портальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_portal_hypertension",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки портальной гипертензии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_esophageal_varices",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Варикозно расширенные вены пищевода и желудка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ascites",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Асцит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatic_edema",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Отек печени",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hepatomegaly",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Гепатомегалия (часто)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Спленомегалия (не всегда свидетельствует о портальной гипертензии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombocytopenia",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАК может выявить тромбоцитопению",
+    "properties": {}
+  },
+  {
+    "source": "symptom_leukopenia",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ОАК может выявить лейкопению",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypersplenism",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперспленизм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoalbuminemia",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гипоальбуминемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_increased_pt",
+    "target": "diagnosis_k74_6",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение МНО",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_transaminases",
+    "target": "diagnosis_k73_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение активности трансаминаз",
+    "properties": {}
+  },
+  {
+    "source": "symptom_elevated_cholestasis_enzymes",
+    "target": "diagnosis_k73_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышенные ферменты холестаза",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k73_0",
+    "target": "diagnosis_k73_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К 73.0 – хронический персистирующий гепатит, К 73.9 – хронический гепатит неуточненный",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k76_0",
+    "target": "diagnosis_k74_6",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "К 76.0 – жировая дегенерация печени; К 74.6 – другой и неуточненный цирроз печени",
+    "properties": {}
+  }
+]

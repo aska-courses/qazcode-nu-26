@@ -1,0 +1,154 @@
+[
+  {
+    "source": "symptom_defitsit_massy_tela",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • симптомов интоксикации (дефицита массы тела (УД – GPP))",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoksikatsiya",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • симптомов интоксикации (дефицита массы тела (УД – GPP))",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednost",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • бледности (цианоза, периорбитального цианоза, акроцианоза)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cianoz",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • бледности (цианоза, периорбитального цианоза, акроцианоза)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_periorbitalnyy_cianoz",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • бледности (цианоза, периорбитального цианоза, акроцианоза)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_akrociyanoz",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • бледности (цианоза, периорбитального цианоза, акроцианоза)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_narushenie_elastichnosti_kozhi",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • нарушения эластичности кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_turgora_tkanki",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • снижения тургора ткани",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_kozhnogo_pokrova",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • сухости/потливости кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_potlivost_kozhnogo_pokrova",
+    "target": "diagnosis_anomalnaya_reakcia_na_tuberkulinovuyu_probu",
+    "type": "contradicts",
+    "weight": 0.75,
+    "evidence": "Отсутствие: • сухости/потливости кожных покровов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anoreksiya",
+    "target": "symptom_toshnota",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "symptom_rvota",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota",
+    "target": "symptom_diskomfort_v_zhivote",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diskomfort_v_zhivote",
+    "target": "symptom_postoyannaya_ustalost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postoyannaya_ustalost",
+    "target": "symptom_slabost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost",
+    "target": "symptom_temnyy_tsvet_mochi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_temnyy_tsvet_mochi",
+    "target": "symptom_blednyy_stul",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_blednyy_stul",
+    "target": "symptom_zheltushnost_kozhi",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zheltushnost_kozhi",
+    "target": "symptom_nevropatiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "симптомов (анорексия, тошнота, рвота, дискомфорт в животе, постоянная усталость, слабость, темный цвет мочи, бледный стул, желтушность кожи, нейропатии)",
+    "properties": {}
+  }
+]

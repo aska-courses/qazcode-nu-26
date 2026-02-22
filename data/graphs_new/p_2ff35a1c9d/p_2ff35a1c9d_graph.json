@@ -1,0 +1,689 @@
+{
+  "protocol_id": "p_2ff35a1c9d",
+  "nodes": [
+    {
+      "id": "diagnosis_ostryi_parodontit",
+      "type": "diagnosis",
+      "label": "Острый пародонтит",
+      "icd_code": "K05.2"
+    },
+    {
+      "id": "diagnosis_hronicheskii_parodontit",
+      "type": "diagnosis",
+      "label": "Хронический пародонтит",
+      "icd_code": "K05.3"
+    },
+    {
+      "id": "symptom_bol_pri_pitanii",
+      "type": "symptom",
+      "label": "Боль в полости рта при приеме пищи"
+    },
+    {
+      "id": "symptom_giperemiya_slizistoy",
+      "type": "symptom",
+      "label": "Гиперемия слизистой оболочки полости рта"
+    },
+    {
+      "id": "symptom_discomfort_iz_dessny_i_zud",
+      "type": "symptom",
+      "label": "Чувство дискомфорта в десне и зуд"
+    },
+    {
+      "id": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "type": "symptom",
+      "label": "Кровоточивость десны при приеме пищи и при чистке зубов"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost_zubov",
+      "type": "symptom",
+      "label": "Патологическая подвижность зубов"
+    },
+    {
+      "id": "symptom_otechnost_dessny",
+      "type": "symptom",
+      "label": "Отечность десны"
+    },
+    {
+      "id": "symptom_utolshennyi_krai_dessny",
+      "type": "symptom",
+      "label": "Утолщенный край десны"
+    },
+    {
+      "id": "symptom_deformirovannye_dessnevye_sosochki",
+      "type": "symptom",
+      "label": "Деформированные десневые сосочки"
+    },
+    {
+      "id": "symptom_krovotochivost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Кровоточивость при пальпации"
+    },
+    {
+      "id": "symptom_parodontalnye_kamny",
+      "type": "symptom",
+      "label": "Наличие парадонтальных карманов"
+    },
+    {
+      "id": "symptom_podvizhnost_zubov",
+      "type": "symptom",
+      "label": "Подвижность зубов"
+    },
+    {
+      "id": "symptom_giperemiya_dessny",
+      "type": "symptom",
+      "label": "Гиперемия десны"
+    },
+    {
+      "id": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "symptom",
+      "label": "Кровоточивость при зондировании"
+    },
+    {
+      "id": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "symptom",
+      "label": "Над- и поддесневые зубные отложения"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_pri_pitanii",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • боль в полости рта при приеме пищи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_pitanii",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • боль в полости рта при приеме пищи;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • гиперемия слизистой оболочки полости рта;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • гиперемия слизистой оболочки полости рта;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_iz_dessny_i_zud",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • чувство дискомфорта в десне и зуд;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_iz_dessny_i_zud",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • чувство дискомфорта в десне и зуд;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • кровоточивость десны при приеме пищи и при чистке зубов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • кровоточивость десны при приеме пищи и при чистке зубов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_zubov",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • патологическая подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost_zubov",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.85,
+      "evidence": "Жалобы: • патологическая подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parodontalnye_kamny",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие парадонтальных карманов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parodontalnye_kamny",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие парадонтальных карманов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podvizhnost_zubov",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podvizhnost_zubov",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_dessny",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_dessny",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_zondirovanii",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_zondirovanii",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nadpod_dentalnye_otlozheniya",
+      "target": "diagnosis_ostryi_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nadpod_dentalnye_otlozheniya",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_pitanii",
+      "target": "symptom_giperemiya_slizistoy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боль в полости рта при приеме пищи; • гиперемия слизистой оболочки полости рта;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_pitanii",
+      "target": "symptom_discomfort_iz_dessny_i_zud",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боль в полости рта при приеме пищи; • чувство дискомфорта в десне и зуд;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_pitanii",
+      "target": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боль в полости рта при приеме пищи; • кровоточивость десны при приеме пищи и при чистке зубов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_pri_pitanii",
+      "target": "symptom_patologicheskaya_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • боль в полости рта при приеме пищи; • патологическая подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy",
+      "target": "symptom_discomfort_iz_dessny_i_zud",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • гиперемия слизистой оболочки полости рта; • чувство дискомфорта в десне и зуд;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy",
+      "target": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • гиперемия слизистой оболочки полости рта; • кровоточивость десны при приеме пищи и при чистке зубов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_slizistoy",
+      "target": "symptom_patologicheskaya_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • гиперемия слизистой оболочки полости рта; • патологическая подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_iz_dessny_i_zud",
+      "target": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • чувство дискомфорта в десне и зуд; • кровоточивость десны при приеме пищи и при чистке зубов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_discomfort_iz_dessny_i_zud",
+      "target": "symptom_patologicheskaya_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • чувство дискомфорта в десне и зуд; • патологическая подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_dessny_pri_pitanii_i_chistke",
+      "target": "symptom_patologicheskaya_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы: • кровоточивость десны при приеме пищи и при чистке зубов; • патологическая подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_utolshennyi_krai_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • край десны утолщен;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_deformirovannye_dessnevye_sosochki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • десневые сосочки деформированы;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • кровоточивость при пальпации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_parodontalnye_kamny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • наличие парадонтальных карманов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_giperemiya_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_dessny",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_deformirovannye_dessnevye_sosochki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • десневые сосочки деформированы;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • кровоточивость при пальпации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_parodontalnye_kamny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • наличие парадонтальных карманов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_giperemiya_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utolshennyi_krai_dessny",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • край десны утолщен; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "symptom_krovotochivost_pri_palpatsii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы; • кровоточивость при пальпации;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "symptom_parodontalnye_kamny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы; • наличие парадонтальных карманов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "symptom_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы; • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "symptom_giperemiya_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы; • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deformirovannye_dessnevye_sosochki",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • десневые сосочки деформированы; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "symptom_parodontalnye_kamny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации; • наличие парадонтальных карманов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "symptom_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации; • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "symptom_giperemiya_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации; • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_palpatsii",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • кровоточивость при пальпации; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parodontalnye_kamny",
+      "target": "symptom_podvizhnost_zubov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие парадонтальных карманов; • подвижность зубов.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parodontalnye_kamny",
+      "target": "symptom_giperemiya_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие парадонтальных карманов; • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parodontalnye_kamny",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие парадонтальных карманов; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_parodontalnye_kamny",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие парадонтальных карманов; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podvizhnost_zubov",
+      "target": "symptom_giperemiya_dessny",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • подвижность зубов; • слизистая десны гиперемирована, отечна;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podvizhnost_zubov",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • подвижность зубов; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_podvizhnost_zubov",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • подвижность зубов; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_dessny",
+      "target": "symptom_krovotochivost_pri_zondirovanii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • наличие кровоточивости при зондировании;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperemiya_dessny",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • слизистая десны гиперемирована, отечна; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovotochivost_pri_zondirovanii",
+      "target": "symptom_nadpod_dentalnye_otlozheniya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Осмотр полости рта: • наличие кровоточивости при зондировании; • выявление над- и поддесневых зубных отложений;",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_ostryi_parodontit",
+      "target": "diagnosis_hronicheskii_parodontit",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код (ы) по МКБ-10: К 05.2 Острый пародонтит K05.3 Хронический пародонтит",
+      "properties": {}
+    }
+  ]
+}

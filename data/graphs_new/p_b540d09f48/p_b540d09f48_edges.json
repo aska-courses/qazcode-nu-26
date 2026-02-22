@@ -1,0 +1,74 @@
+[
+  {
+    "source": "symptom_tearing",
+    "target": "diagnosis_keratitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • слезотечение;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "diagnosis_keratitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • светобоязнь;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_foreign_body_sensation",
+    "target": "diagnosis_keratitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • чувство инородного тела;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_acuity_decrease",
+    "target": "diagnosis_keratitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • снижение зрения;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_syndrome",
+    "target": "diagnosis_keratitis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: • болевой синдром.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "symptom_photophobia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • слезотечение; • светобоязнь;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tearing",
+    "target": "symptom_foreign_body_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • слезотечение; • чувство инородного тела;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_photophobia",
+    "target": "symptom_foreign_body_sensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • светобоязнь; • чувство инородного тела;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_acuity_decrease",
+    "target": "symptom_pain_syndrome",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Жалобы: • снижение зрения; • болевой синдром.",
+    "properties": {}
+  }
+]

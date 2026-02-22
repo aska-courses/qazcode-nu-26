@@ -1,0 +1,274 @@
+[
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "symptom_golovnaya_bol",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможные побочные эффекты и осложнения процедуры ... головокружение, головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_grudi",
+    "target": "symptom_bolestvennye_oshusheniya_grudi",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможные побочные эффекты и осложнения процедуры ... болезненные ощущения внутри или на поверхности грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashl",
+    "target": "symptom_aktsivaciya_kashlya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможные побочные эффекты и осложнения процедуры ... чрезмерная активация кашля в момент воздействия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_mokroti",
+    "target": "symptom_othozhdenie_mokroti",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "индикаторы эффективности процедуры ... улучшение отхождения/уменьшение количества мокроты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratornaya_nedostatochnost",
+    "target": "diagnosis_j80",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "клинические показания к проведению процедуры: респираторная недостаточность на фоне любой патологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_spo2",
+    "target": "diagnosis_j80",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: устойчивое снижение SpO2 менее 92% более 1 часа",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j12",
+    "target": "diagnosis_j13",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j12",
+    "target": "diagnosis_j14",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j12",
+    "target": "diagnosis_j15",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j12",
+    "target": "diagnosis_j16",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j12",
+    "target": "diagnosis_j17",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j12",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j14",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j15",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j16",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j17",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j13",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j14",
+    "target": "diagnosis_j15",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j14",
+    "target": "diagnosis_j16",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j14",
+    "target": "diagnosis_j17",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j14",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j15",
+    "target": "diagnosis_j16",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j15",
+    "target": "diagnosis_j17",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j15",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j16",
+    "target": "diagnosis_j17",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j16",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j17",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "показания к проведению ВАЛТ: пневмонии различного генеза и степени тяжести",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j12",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j13",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j14",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j15",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j16",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j17",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j80",
+    "target": "diagnosis_j18",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "показания к проведению ВАЛТ: острый респираторный дистресс-синдром",
+    "properties": {}
+  }
+]

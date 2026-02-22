@@ -1,0 +1,253 @@
+{
+  "protocol_id": "p_79c8a30d5c",
+  "nodes": [
+    {
+      "id": "diagnosis_infarct_brain",
+      "type": "diagnosis",
+      "label": "Инфаркт мозга",
+      "icd_code": "I63"
+    },
+    {
+      "id": "symptom_progressive_consciousness_impairment",
+      "type": "symptom",
+      "label": "Прогрессирующее угнетение сознания"
+    },
+    {
+      "id": "symptom_gcs_less_12",
+      "type": "symptom",
+      "label": "Шкала комы Глазго < 12 баллов"
+    },
+    {
+      "id": "symptom_high_nihss_score",
+      "type": "symptom",
+      "label": "Шкала NIHSS > 20 баллов"
+    },
+    {
+      "id": "symptom_midline_shift",
+      "type": "symptom",
+      "label": "Смещение срединных структур головного мозга > 4 мм"
+    },
+    {
+      "id": "symptom_raised_icp",
+      "type": "symptom",
+      "label": "Повышение внутричерепного давления > 20‑25 мм рт. ст."
+    },
+    {
+      "id": "symptom_extensive_mca_infarct",
+      "type": "symptom",
+      "label": "Обширный инсульт в бассейне средней мозговой артерии с паренхиматозной ишемией и отеком"
+    },
+    {
+      "id": "symptom_brainstem_shift",
+      "type": "symptom",
+      "label": "Латеральное/аксиальное смещение ствола головного мозга > 7,5 мм"
+    },
+    {
+      "id": "symptom_low_density_50_percent",
+      "type": "symptom",
+      "label": "Область пониженной плотности > 50 % бассейна средней мозговой артерии (≤ 5 ч от инсульта)"
+    },
+    {
+      "id": "symptom_low_density_whole_mca",
+      "type": "symptom",
+      "label": "Область пониженной плотности – весь бассейн средней мозговой артерии (≤ 48 ч от инсульта)"
+    },
+    {
+      "id": "symptom_large_unilateral_infarct",
+      "type": "symptom",
+      "label": "Односторонний инсульт объёмом > 145 см³ или ≥ 2/3 бассейна СМА"
+    },
+    {
+      "id": "symptom_gcs_less_6",
+      "type": "symptom",
+      "label": "Шкала комы Глазго < 6 баллов"
+    },
+    {
+      "id": "symptom_coagulopathy",
+      "type": "symptom",
+      "label": "Некорригируемая коагулопатия"
+    },
+    {
+      "id": "symptom_extensive_brainstem_infarct",
+      "type": "symptom",
+      "label": "Обширный ишемический инсульт в стволе головного мозга"
+    },
+    {
+      "id": "symptom_dislocation_syndrome",
+      "type": "symptom",
+      "label": "Дислокационный синдром"
+    },
+    {
+      "id": "symptom_brain_edema",
+      "type": "symptom",
+      "label": "Отёк мозга"
+    },
+    {
+      "id": "symptom_intracranial_hypertension",
+      "type": "symptom",
+      "label": "Внутричерепная гипертензия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_progressive_consciousness_impairment",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "прогрессирующее угнетение сознания ... менее 12 баллов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gcs_less_12",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Шкала комы Глазго < 12 баллов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_high_nihss_score",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "по шкале NIHSS более 20 баллов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_midline_shift",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "смещение срединных структур головного мозга более 4 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_raised_icp",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "стойкое повышение ВЧД более 20-25 мм.рт.ст.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensive_mca_infarct",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "обширный (злокачественный) инсульт в бассейне средней мозговой артерии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_brainstem_shift",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "латеральное и/или аксиальное смещение ствола головного мозга более 7,5 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_density_50_percent",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "область пониженной плотности - более 50% бассейна средней мозговой артерии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_density_whole_mca",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "область пониженной плотности – весь бассейн средней мозговой артерии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_large_unilateral_infarct",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "односторонний инсульт объёмом более 145 см³ или ≥ 2/3 бассейна СМА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dislocation_syndrome",
+      "target": "diagnosis_infarct_brain",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "с дислокационным синдромом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_coagulopathy",
+      "target": "diagnosis_infarct_brain",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "некорригируемая коагулопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gcs_less_6",
+      "target": "diagnosis_infarct_brain",
+      "type": "contradicts",
+      "weight": 0.95,
+      "evidence": "угнетение уровня сознания по ШКГ менее 6 баллов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensive_brainstem_infarct",
+      "target": "diagnosis_infarct_brain",
+      "type": "contradicts",
+      "weight": 0.75,
+      "evidence": "обширный ишемический инсульт в стволе головного мозга",
+      "properties": {}
+    },
+    {
+      "source": "symptom_progressive_consciousness_impairment",
+      "target": "symptom_gcs_less_12",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "прогрессирующее угнетение сознания ... менее 12 баллов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_high_nihss_score",
+      "target": "symptom_midline_shift",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "по шкале NIHSS более 20 баллов, ... смещение срединных структур ... более 4 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_extensive_mca_infarct",
+      "target": "symptom_brainstem_shift",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "обширный ... инсульт в бассейне средней мозговой артерии ... смещение ствола головного мозга более 7,5 мм",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_density_50_percent",
+      "target": "symptom_low_density_whole_mca",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "область пониженной плотности - более 50% ...; область пониженной плотности – весь бассейн СМА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_large_unilateral_infarct",
+      "target": "symptom_extensive_mca_infarct",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "односторонний инсульт объёмом более 145 см³ ...; обширный инсульт в бассейне средней мозговой артерии",
+      "properties": {}
+    },
+    {
+      "source": "symptom_brain_edema",
+      "target": "symptom_intracranial_hypertension",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "повышение ВЧД ...; отёк мозга",
+      "properties": {}
+    }
+  ]
+}

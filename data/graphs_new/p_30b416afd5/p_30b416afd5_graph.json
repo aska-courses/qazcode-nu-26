@@ -1,0 +1,141 @@
+{
+  "protocol_id": "p_30b416afd5",
+  "nodes": [
+    {
+      "id": "k03_1_clinical_defect",
+      "type": "diagnosis",
+      "label": "Клиновидный дефект",
+      "icd_code": "K03.1"
+    },
+    {
+      "id": "cosmetic_defect",
+      "type": "symptom",
+      "label": "косметический дефект"
+    },
+    {
+      "id": "pain_on_stimuli",
+      "type": "symptom",
+      "label": "боль от различных раздражителей"
+    },
+    {
+      "id": "slow_hard_tissue_loss",
+      "type": "symptom",
+      "label": "медленная убыль твердых тканей зуба"
+    },
+    {
+      "id": "increased_sensitivity_external",
+      "type": "symptom",
+      "label": "повышенная чувствительность к внешним раздражителям"
+    },
+    {
+      "id": "hyperesthesia_tooth_necks",
+      "type": "symptom",
+      "label": "гиперестезия шеек зубов"
+    },
+    {
+      "id": "non_painful_percussion",
+      "type": "symptom",
+      "label": "перкуссия зубов безболезненная"
+    },
+    {
+      "id": "probe_slides",
+      "type": "symptom",
+      "label": "зонд скользит при зондировании стенок дефекта"
+    },
+    {
+      "id": "short_term_thermal_reaction",
+      "type": "symptom",
+      "label": "кратковременная реакция на температурный раздражитель"
+    }
+  ],
+  "edges": [
+    {
+      "source": "cosmetic_defect",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: косметический дефект, при углублении дефекта появляются боли от различных раздражителей.",
+      "properties": {}
+    },
+    {
+      "source": "pain_on_stimuli",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: косметический дефект, при углублении дефекта появляются боли от различных раздражителей.",
+      "properties": {}
+    },
+    {
+      "source": "slow_hard_tissue_loss",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Анамнез: Медленная убыль твердых тканей зуба в течение десятка ряда лет.",
+      "properties": {}
+    },
+    {
+      "source": "increased_sensitivity_external",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Однако чувствительность к внешним раздражителям повышена.",
+      "properties": {}
+    },
+    {
+      "source": "hyperesthesia_tooth_necks",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Характерно усиление гиперестезии шеек зубов.",
+      "properties": {}
+    },
+    {
+      "source": "probe_slides",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "при зондировании стенок клиновидного дефекта зонд скользит.",
+      "properties": {}
+    },
+    {
+      "source": "non_painful_percussion",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Перкуссия зубов безболезненная.",
+      "properties": {}
+    },
+    {
+      "source": "short_term_thermal_reaction",
+      "target": "k03_1_clinical_defect",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Имеется кратковременная реакция на температурный раздражитель.",
+      "properties": {}
+    },
+    {
+      "source": "cosmetic_defect",
+      "target": "pain_on_stimuli",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы: косметический дефект, при углублении дефекта появляются боли от различных раздражителей.",
+      "properties": {}
+    },
+    {
+      "source": "increased_sensitivity_external",
+      "target": "hyperesthesia_tooth_necks",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Однако чувствительность к внешним раздражителям повышена. Характерно усиление гиперестезии шеек зубов.",
+      "properties": {}
+    },
+    {
+      "source": "probe_slides",
+      "target": "non_painful_percussion",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "при зондировании стенок клиновидного дефекта зонд скользит. Перкуссия зубов безболезненная.",
+      "properties": {}
+    }
+  ]
+}

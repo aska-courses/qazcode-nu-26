@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_povysennaya_krovotochivost",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "проявляющееся повышенной кровоточивостью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotochivost",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "проявляющееся повышенной кровоточивостью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "проявляющееся повышенной кровоточивостью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnyye_gemoragii",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кожных геморрагий, внутричерепных кровоизлияний, кефалогематомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutricherepnyye_krovoyavleniya",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кожных геморрагий, внутричерепных кровоизлияний, кефалогематомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kefalogematomy",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "кожных геморрагий, внутричерепных кровоизлияний, кефалогематомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_melena",
+    "target": "diagnosis_r540_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "характерно появление мелены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_geratomyezis",
+    "target": "diagnosis_r540_0",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "гематомезис",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exhimozy",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кожные геморрагии (экхимозы, петехии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petehii",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кожные геморрагии (экхимозы, петехии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nosovye_krovotecheniya",
+    "target": "diagnosis_r53",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovotechenie_iz_pryamoy_kishki",
+    "target": "diagnosis_r540_2",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Кровотечение из прямой кишки у новорожденного",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zheludochnosintazhechnoye_krovotechenie",
+    "target": "diagnosis_r540_3",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Желудочно-кишечное кровотечение у новорожденного",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnyye_gemoragii",
+    "target": "symptom_exhimozy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожные геморрагии (экхимозы, петехии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnyye_gemoragii",
+    "target": "symptom_petehii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожные геморрагии (экхимозы, петехии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exhimozy",
+    "target": "symptom_petehii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожные геморрагии (экхимозы, петехии)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_melena",
+    "target": "symptom_geratomyezis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мелены, гематомезис, кожные геморрагии (экхимозы, петехии), носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_melena",
+    "target": "symptom_kozhnyye_gemoragii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мелены, гематомезис, кожные геморрагии (экхимозы, петехии), носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_geratomyezis",
+    "target": "symptom_kozhnyye_gemoragii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мелены, гематомезис, кожные геморрагии (экхимозы, петехии), носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnyye_gemoragii",
+    "target": "symptom_nosovye_krovotecheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мелены, гематомезис, кожные геморрагии (экхимозы, петехии), носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exhimozy",
+    "target": "symptom_nosovye_krovotecheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мелены, гематомезис, кожные геморрагии (экхимозы, петехии), носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_petehii",
+    "target": "symptom_nosovye_krovotecheniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "мелены, гематомезис, кожные геморрагии (экхимозы, петехии), носовые кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnyye_gemoragii",
+    "target": "symptom_vnutricherepnyye_krovoyavleniya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожных геморрагий, внутричерепных кровоизлияний, кефалогематомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kozhnyye_gemoragii",
+    "target": "symptom_kefalogematomy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожных геморрагий, внутричерепных кровоизлияний, кефалогематомы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vnutricherepnyye_krovoyavleniya",
+    "target": "symptom_kefalogematomy",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кожных геморрагий, внутричерепных кровоизлияний, кефалогематомы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_r53",
+    "target": "diagnosis_r540_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "КодМКБ Х: Р53 ... Р54.0 Гематомезис новорожденного",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_r53",
+    "target": "diagnosis_r540_1",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "КодМКБ Х: Р53 ... Р54.1 Мелена новорожденного",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_r53",
+    "target": "diagnosis_r540_2",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "КодМКБ Х: Р53 ... Р54.2 Кровотечение из прямой кишки у новорожденного",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_r53",
+    "target": "diagnosis_r540_3",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "КодМКБ Х: Р53 ... Р54.3 Желудочно-кишечное кровотечение у новорожденного",
+    "properties": {}
+  }
+]

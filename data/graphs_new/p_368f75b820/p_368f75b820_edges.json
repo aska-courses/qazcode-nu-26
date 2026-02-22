@@ -1,0 +1,58 @@
+[
+  {
+    "source": "symptom_bleeding",
+    "target": "diagnosis_hemorrhoids_k64",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исключить/выявить источник кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bleeding",
+    "target": "diagnosis_hemorrhoids_first_degree_k64_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "исключить/выявить источник кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "diagnosis_hemorrhoids_k64",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие или минимизация болевого синдрома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_prolapse",
+    "target": "diagnosis_hemorrhoids_third_degree_k64_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при геморрое третьей и четвертой степени ... методикой мукопексии ... пролапсом слизистой прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucosal_prolapse",
+    "target": "diagnosis_hemorrhoids_fourth_degree_k64_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при геморрое третьей и четвертой степени ... методикой мукопексии ... пролапсом слизистой прямой кишки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hemorrhoids_first_degree_k64_0",
+    "target": "diagnosis_hemorrhoids_second_degree_k64_1",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "трансанальная доплер-контролируемая дезартеризация геморроидальных узлов (при геморрое первой и второй степени)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_hemorrhoids_third_degree_k64_2",
+    "target": "diagnosis_hemorrhoids_fourth_degree_k64_3",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "трансанальная доплер-контролируемая дезартеризация геморроидальных узлов с мукопексией (при геморрое третьей и четвертой степени)",
+    "properties": {}
+  }
+]

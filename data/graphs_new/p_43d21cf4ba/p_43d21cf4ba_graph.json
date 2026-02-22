@@ -1,0 +1,173 @@
+{
+  "protocol_id": "p_43d21cf4ba",
+  "nodes": [
+    {
+      "id": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "diagnosis",
+      "label": "Органический амнестический синдром",
+      "icd_code": "F04"
+    },
+    {
+      "id": "symptom_uhuchrenie_pamyati",
+      "type": "symptom",
+      "label": "ухудшение памяти",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_snizhenie_sposobnosti_zapominat_novyj_material",
+      "type": "symptom",
+      "label": "снижение способности к запоминанию нового материала",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_deficit_pamyati_na_nedavnye_sobytiya",
+      "type": "symptom",
+      "label": "дефицит памяти на недавние события",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_snizhenie_sposobnosti_vosproizvedeniya_proshlogo_opyta",
+      "type": "symptom",
+      "label": "снижение способности к воспроизведению прошлого опыта",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_narushenie_orientatsii_vo_vremeni",
+      "type": "symptom",
+      "label": "нарушение ориентации во времени",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_konfabulyatsii",
+      "type": "symptom",
+      "label": "конфабуляции",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_emotsionalnye_izmeneniya_apatiya_otricatelnost_iniciativy",
+      "type": "symptom",
+      "label": "эмоциональные изменения (апатия, отсутствие инициативы)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nekritichnost",
+      "type": "symptom",
+      "label": "некритичность",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_uhuchrenie_pamyati",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "характеризующийся выраженным ухудшением памяти на недавние и давние события",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sposobnosti_zapominat_novyj_material",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "снижением способности изучать новый материал",
+      "properties": {}
+    },
+    {
+      "source": "symptom_deficit_pamyati_na_nedavnye_sobytiya",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "выраженным ухудшением памяти на недавние ... события",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sposobnosti_vosproizvedeniya_proshlogo_opyta",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "сниженной способностью к воспроизведению прошлого опыта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_orientatsii_vo_vremeni",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "нарушением ориентации во времени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konfabulyatsii",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Характерной особенностью могут быть конфабуляции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotsionalnye_izmeneniya_apatiya_otricatelnost_iniciativy",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эмоциональные изменения (апатия, отсутствие инициативы) ... но они присутствуют не всегда",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nekritichnost",
+      "target": "diagnosis_organicheskiy_amnesticheskiy_sindrom",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "некритичность ... но они присутствуют не всегда",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuchrenie_pamyati",
+      "target": "symptom_deficit_pamyati_na_nedavnye_sobytiya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "характеризующийся выраженным ухудшением памяти на недавние и давние события",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuchrenie_pamyati",
+      "target": "symptom_snizhenie_sposobnosti_zapominat_novyj_material",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "характеризующийся ... ухудшением памяти ... снижением способности изучать новый материал",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_sposobnosti_zapominat_novyj_material",
+      "target": "symptom_narushenie_orientatsii_vo_vremeni",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "снижением способности изучать новый материал и нарушением ориентации во времени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konfabulyatsii",
+      "target": "symptom_emotsionalnye_izmeneniya_apatiya_otricatelnost_iniciativy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дополнительное диагностическое значение могут иметь сопутствующие признаки, включая конфабуляции, эмоциональные изменения (апатия, отсутствие инициативы)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konfabulyatsii",
+      "target": "symptom_nekritichnost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дополнительное диагностическое значение могут иметь сопутствующие признаки, включая конфабуляции, ... и некритичность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotsionalnye_izmeneniya_apatiya_otricatelnost_iniciativy",
+      "target": "symptom_nekritichnost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дополнительное диагностическое значение могут иметь сопутствующие признаки, включая ... эмоциональные изменения ... и некритичность",
+      "properties": {}
+    }
+  ]
+}

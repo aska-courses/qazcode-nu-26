@@ -1,0 +1,642 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: головная боль, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: головная боль, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: головокружение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: головокружение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: шум в ушах, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: шум в ушах, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: тошнота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: рвота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: рвота, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: учащенное сердцебиение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: учащенное сердцебиение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_weakness",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: мышечная слабость, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_weakness",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: мышечная слабость, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: учащение и углубление дыхания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: учащение и углубление дыхания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: кашель.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: кашель.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_erythema",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гиперемия лица, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_erythema",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гиперемия лица, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pallor",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: бледность кожных покровов, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pallor",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: бледность кожных покровов, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucous_irritation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: раздражение слизистых оболочек, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucous_irritation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: раздражение слизистых оболочек, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychomotor_agitation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: психомоторное возбуждение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychomotor_agitation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: психомоторное возбуждение, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_depression",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: угнетение сознания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_depression",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: угнетение сознания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clonic_tonic_seizures",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: клонико-тонические судороги, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_clonic_tonic_seizures",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: клонико-тонические судороги, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mydriasis",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: мидриаз, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mydriasis",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: мидриаз, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гипертензия или гипотензия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гипертензия или гипотензия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гипертензия или гипотензия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гипертензия или гипотензия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гипертермия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: гипертермия, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_distress",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: нарушение дыхания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_distress",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: нарушение дыхания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rales",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: хрипы в легких, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rales",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: хрипы в легких, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_disturbance",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: нарушение сознания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_consciousness_disturbance",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: нарушение сознания, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urea_elevation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение мочевины, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urea_elevation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение мочевины, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_creatinine_elevation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение креатинина, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_creatinine_elevation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение креатинина, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ALT_elevation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение АЛТ, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ALT_elevation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение АЛТ, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_AST_elevation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение АСТ, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_AST_elevation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: повышение АСТ, ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematocrit_increase",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: увеличение гематокрита (при гиповолемии), ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hematocrit_increase",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: увеличение гематокрита (при гиповолемии), ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coagulation_change",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: изменение в коагулограмме.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_coagulation_change",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: изменение в коагулограмме.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxia",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: гипоксия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxia",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: гипоксия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: брадикардия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: брадикардия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea_high",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: тахипноэ (частота дыхания >35 в/мин).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea_high",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: тахипноэ (частота дыхания >35 в/мин).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_miosis",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: миоз.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_miosis",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: миоз.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnea",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: апноэ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apnea",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: апноэ.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acid_base_disorder",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: нарушение КЩС.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acid_base_disorder",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: нарушение КЩС.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: гипервентиляция.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Инструментальные исследования: гипервентиляция.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: увеличение гематокрита (при гиповолемии).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypovolemia",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Лабораторные исследования: увеличение гематокрита (при гиповолемии).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_carbon_monoxide_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: клонико-тонические судороги; также отдельный пункт «судороги».",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: клонико-тонические судороги; также отдельный пункт «судороги».",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_carbon_monoxide_toxic_effect",
+    "target": "diagnosis_other_gases_toxic_effect",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Т58 Токсическое действие окиси углерода T59 Токсическое действие других газов, дымов и паров",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_dizziness",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: головная боль, головокружение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_hypertension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: тахикардия, гипертензия или гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: тахикардия, гипертензия или гипотензия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "symptom_hypoxia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Инструментальные исследования: гипоксия; гипервентиляция",
+    "properties": {}
+  }
+]

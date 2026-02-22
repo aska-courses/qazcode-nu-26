@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_local_pain",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разрыв минимального числа волокон связки с локальной болезненностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_swelling",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "с выраженной реакцией сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_reduced_function",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижением его функции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "протекающий более болезненно",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anterior_instability",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повреждение передней крестообразной связки сопровождается передней нестабильностью коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anterior_instability",
+    "target": "diagnosis_m23_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повреждение передней крестообразной связки сопровождается передней нестабильностью коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_instability",
+    "target": "diagnosis_s83_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острую – возникшую сразу после травмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chronic_instability",
+    "target": "diagnosis_m23_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "хроническую – возникающую периодически в отдаленном периоде травмы коленного сустава",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_laxity",
+    "target": "diagnosis_m23_5",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "суставные поверхности расходятся не более 5 мм",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s83_5",
+    "target": "diagnosis_s83_7",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "повреждения передней крестообразной связки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s83_5",
+    "target": "diagnosis_m23_5",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "повреждение передней крестообразной связки сопровождается передней нестабильностью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_swelling",
+    "target": "symptom_reduced_function",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "с выраженной реакцией сустава, снижением его функции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anterior_instability",
+    "target": "symptom_acute_instability",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "острую – возникшую сразу после травмы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anterior_instability",
+    "target": "symptom_chronic_instability",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "хроническую – возникающую периодически в отдаленном периоде травмы",
+    "properties": {}
+  }
+]

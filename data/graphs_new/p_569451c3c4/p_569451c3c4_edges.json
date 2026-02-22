@@ -1,0 +1,146 @@
+[
+  {
+    "source": "symptom_paroksizm_bol_innervacia",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Пароксизмальные приступы боли в области иннервации одной или нескольких ветвей тройничного нерва.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_postoyannaya_bol_innervacia",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Пароксизмальная или постоянная боль в области иннервации тройничного нерва, соответствующая критериям невралгии тройничного нерва.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strilyayushchaya_bol",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тригеминальная невралгия 1 типа (острая, стреляющая, как удар электрического тока, пароксизмальная боль).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhguchaya_bol",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущается в виде жжения или прохождения электрического тока.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulsiruyushchaya_bol",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тригеминальная невралгия 2 типа (ноющая, пульсирующая, обжигающая, постоянная боль >50%).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obzhigayushchaya_bol",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тригеминальная невралгия 2 типа (ноющая, пульсирующая, обжигающая, постоянная боль >50%).",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koljushchaya_bol",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пароксизмальная колющая боль продолжительностью несколько секунд.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_lica",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пароксизмальные приступы боли в области лица.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_lba",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "пароксизмальные приступы боли в области лба.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priosty_boli_nekot_sec_2_min",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "приступы боли длительностью от нескольких секунд до 2 минут.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stereotipnyy_harakter_priostov",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стереотипный характер приступов боли у каждого пациента.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_provokatsiya_trigernye_zony",
+    "target": "diagnosis_nevralgiya_trojichnogo_nerva",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "может вызываться с триггерных зон, а также при еде, разговоре, умывании лица, чистке зубов.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_strilyayushchaya_bol",
+    "target": "symptom_paroksizm_bol_innervacia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "стреляющая, как удар электрического тока, пароксизмальная боль.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulsiruyushchaya_bol",
+    "target": "symptom_obzhigayushchaya_bol",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ноющая, пульсирующая, обжигающая.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_koljushchaya_bol",
+    "target": "symptom_paroksizm_bol_innervacia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "пароксизмальная колющая боль.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_priosty_boli_nekot_sec_2_min",
+    "target": "symptom_paroksizm_bol_innervacia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "приступы боли длительностью от нескольких секунд до 2 минут.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stereotipnyy_harakter_priostov",
+    "target": "symptom_paroksizm_bol_innervacia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "стереотипный характер приступов боли.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_provokatsiya_trigernye_zony",
+    "target": "symptom_paroksizm_bol_innervacia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "может вызываться с триггерных зон, а также при еде, разговоре, умывании лица, чистке зубов.",
+    "properties": {}
+  }
+]

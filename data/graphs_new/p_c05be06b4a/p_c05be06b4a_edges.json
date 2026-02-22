@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_zhazha",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "умеренные жажда и полиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poliyuri",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "умеренные жажда и полиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visceral_obesity",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "висцеральное ожирение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acanthosis_nigricans",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "акантоз нигриканс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "изредка повышение АД",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки дегидратации (сухость слизистых, кожи, снижение тургора кожи, гипотония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucous_membrane_dryness",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки дегидратации (сухость слизистых, кожи, снижение тургора кожи, гипотония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_turgor_decrease",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки дегидратации (сухость слизистых, кожи, снижение тургора кожи, гипотония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "признаки дегидратации (сухость слизистых, кожи, снижение тургора кожи, гипотония)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperglycemia",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипергликемия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_glucosuria",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "глюкозурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ketoneuria",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кетонурия (иногда)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ketoacidosis",
+    "target": "diagnosis_type2_diabetes_with_ketosis",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "У 30-40 % подростков СД 2 типа манифестирует с кетоза/кетоацидоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ketoacidosis",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "У 30-40 % подростков СД 2 типа манифестирует с кетоза/кетоацидоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemic_coma",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипогликемическая кома",
+    "properties": {}
+  },
+  {
+    "source": "symptom_decompensation",
+    "target": "diagnosis_type2_diabetes",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "декомпенсация заболевания с развитием кетоацидоза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhazha",
+    "target": "symptom_poliyuri",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "умеренные жажда и полиурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visceral_obesity",
+    "target": "symptom_acanthosis_nigricans",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "висцеральное ожирение, аcantosis nigricans (черный акантоз)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucous_membrane_dryness",
+    "target": "symptom_skin_turgor_decrease",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухость слизистых, кожи, снижение тургора кожи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mucous_membrane_dryness",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухость слизистых, кожи, снижение тургора кожи, гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_turgor_decrease",
+    "target": "symptom_hypotension",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухость слизистых, кожи, снижение тургора кожи, гипотония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperglycemia",
+    "target": "symptom_glucosuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипергликемия; общий анализ мочи: глюкозурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperglycemia",
+    "target": "symptom_ketoneuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "гипергликемия; кетонурия (иногда)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ketoacidosis",
+    "target": "symptom_decompensation",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "декомпенсация заболевания с развитием кетоацидоза",
+    "properties": {}
+  }
+]

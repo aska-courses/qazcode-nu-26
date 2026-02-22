@@ -1,0 +1,226 @@
+[
+  {
+    "source": "sym_involuntary_movements",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "насильственные (непроизвольные) движения различных частей тела (в зависимости от формы дистонии).",
+    "properties": {}
+  },
+  {
+    "source": "sym_muscle_pain",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характерно наличие боли в пораженной группе мышц",
+    "properties": {}
+  },
+  {
+    "source": "sym_tremor",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дистонический тремор",
+    "properties": {}
+  },
+  {
+    "source": "sym_psychological_stress",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психический стресс (острый и хронический)",
+    "properties": {}
+  },
+  {
+    "source": "sym_eye_closure",
+    "target": "g24_5_blepharospasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "зажмуривание глаз",
+    "properties": {}
+  },
+  {
+    "source": "sym_tearing",
+    "target": "g24_5_blepharospasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "sym_dry_eye",
+    "target": "g24_5_blepharospasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухость глаз",
+    "properties": {}
+  },
+  {
+    "source": "sym_sand_feeling_eye",
+    "target": "g24_5_blepharospasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ощущение «песка» в глазах",
+    "properties": {}
+  },
+  {
+    "source": "sym_eye_discomfort",
+    "target": "g24_5_blepharospasm",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дискомфорт в глазах",
+    "properties": {}
+  },
+  {
+    "source": "sym_writing_spasm",
+    "target": "g24_8_other_dystonias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Писчий спазм (брахиальная дистония) G24.8",
+    "properties": {}
+  },
+  {
+    "source": "sym_voice_disorder",
+    "target": "g24_8_other_dystonias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спастическая дисфония (ларингеальная дистония) G24.2",
+    "properties": {}
+  },
+  {
+    "source": "sym_swallowing_difficulty",
+    "target": "g24_8_other_dystonias",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "затруднения при глотании",
+    "properties": {}
+  },
+  {
+    "source": "sym_paroxysmal_episodes",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Пароксизмальная - внезапные самостоятельно разрешающиеся эпизоды дистонии",
+    "properties": {}
+  },
+  {
+    "source": "sym_fatigue",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Утомление",
+    "properties": {}
+  },
+  {
+    "source": "sym_depression",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Депрессия",
+    "properties": {}
+  },
+  {
+    "source": "sym_anxiety",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тревожность",
+    "properties": {}
+  },
+  {
+    "source": "sym_social_phobia",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Социальные фобии",
+    "properties": {}
+  },
+  {
+    "source": "sym_hyperkinetic_movements",
+    "target": "g24_dystonia",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гиперкинез – синдром с изменением мышечного тонуса",
+    "properties": {}
+  },
+  {
+    "source": "sym_eye_closure",
+    "target": "sym_tearing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "зажмуривание глаз ... слезотечение",
+    "properties": {}
+  },
+  {
+    "source": "sym_eye_closure",
+    "target": "sym_dry_eye",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "зажмуривание глаз ... сухость глаз",
+    "properties": {}
+  },
+  {
+    "source": "sym_tearing",
+    "target": "sym_dry_eye",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "слезотечение ... сухость глаз",
+    "properties": {}
+  },
+  {
+    "source": "sym_sand_feeling_eye",
+    "target": "sym_eye_discomfort",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "ощущение «песка» в глазах ... дискомфорт в глазах",
+    "properties": {}
+  },
+  {
+    "source": "sym_fatigue",
+    "target": "sym_depression",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Утомление ... Депрессия",
+    "properties": {}
+  },
+  {
+    "source": "sym_depression",
+    "target": "sym_anxiety",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Депрессия ... Тревожность",
+    "properties": {}
+  },
+  {
+    "source": "sym_anxiety",
+    "target": "sym_social_phobia",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тревожность ... Социальные фобии",
+    "properties": {}
+  },
+  {
+    "source": "g24_5_blepharospasm",
+    "target": "g24_3_spastic_torticollis",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "спастическая кривошея ... блефароспазм",
+    "properties": {}
+  },
+  {
+    "source": "g80_3_cerebral_palsy_dystonic_variant",
+    "target": "g26_neurological_anomalies",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "ДЦП (дистонический вариант) ... Аномалии и заболевания нервной системы",
+    "properties": {}
+  },
+  {
+    "source": "g24_0_drug_induced_dystonia",
+    "target": "g24_dystonia",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Дистония, вызванная лекарственными средствами – подтип Дистонии",
+    "properties": {}
+  }
+]

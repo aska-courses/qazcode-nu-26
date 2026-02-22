@@ -1,0 +1,309 @@
+{
+  "protocol_id": "p_f220ddfb0c",
+  "nodes": [
+    {
+      "id": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "type": "symptom",
+      "label": "наличие образования в молочной железе"
+    },
+    {
+      "id": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "type": "symptom",
+      "label": "увеличение подмышечных лимфатических узлов"
+    },
+    {
+      "id": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "type": "symptom",
+      "label": "увеличение надключичных лимфатических узлов"
+    },
+    {
+      "id": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "type": "symptom",
+      "label": "увеличение подключичных лимфатических узлов"
+    },
+    {
+      "id": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "type": "symptom",
+      "label": "кожные изменения на молочной железе"
+    },
+    {
+      "id": "symptom_otechnost_molochej_zhelezi",
+      "type": "symptom",
+      "label": "отечность молочной железы"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_molochej_zhelezi",
+      "type": "symptom",
+      "label": "боль в области молочной железы"
+    },
+    {
+      "id": "symptom_patologicheskie_vydeleiniya_iz_soska",
+      "type": "symptom",
+      "label": "патологические выделения из соска"
+    },
+    {
+      "id": "symptom_otek_ruki_na_storone_porazheniya",
+      "type": "symptom",
+      "label": "отек руки на стороне поражения"
+    },
+    {
+      "id": "symptom_otek_kozhi_molochej_zhelezi",
+      "type": "symptom",
+      "label": "отек кожи молочной железы (лимонная корочка, изъязвление)"
+    },
+    {
+      "id": "diagnosis_c50",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование молочной железы",
+      "icd_code": "C50"
+    },
+    {
+      "id": "diagnosis_c50_0",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование соска и околососкового кружка молочной железы",
+      "icd_code": "C50.0"
+    },
+    {
+      "id": "diagnosis_c50_1",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование центральной части молочной железы",
+      "icd_code": "C50.1"
+    },
+    {
+      "id": "diagnosis_c50_2",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование верхне-внутреннего квадранта молочной железы",
+      "icd_code": "C50.2"
+    },
+    {
+      "id": "diagnosis_c50_3",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование нижне-внутреннего квадранта молочной железы",
+      "icd_code": "C50.3"
+    },
+    {
+      "id": "diagnosis_c50_4",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование верхне-наружного квадранта молочной железы",
+      "icd_code": "C50.4"
+    },
+    {
+      "id": "diagnosis_c50_5",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование нижне-наружного квадранта молочной железы",
+      "icd_code": "C50.5"
+    },
+    {
+      "id": "diagnosis_c50_6",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование подмышечной задней части молочной железы",
+      "icd_code": "C50.6"
+    },
+    {
+      "id": "diagnosis_c50_8",
+      "type": "diagnosis",
+      "label": "Поражение молочной железы, выходящее за пределы одной и более вышеуказанных локализаций",
+      "icd_code": "C50.8"
+    },
+    {
+      "id": "diagnosis_c50_9",
+      "type": "diagnosis",
+      "label": "Злокачественное новообразование молочной железы неуточненной части",
+      "icd_code": "C50.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие образования в молочной железе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение подмышечных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение надключичных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "увеличение подключичных лимфатических узлов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие кожных изменений на молочной железе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_molochej_zhelezi",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отечность молочной железы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskie_vydeleiniya_iz_soska",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологические выделения из соска",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_ruki_na_storone_porazheniya",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек руки на стороне поражения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_kozhi_molochej_zhelezi",
+      "target": "diagnosis_c50",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек кожи молочной железы (лимонная корочка, изъязвление)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "target": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "target": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "target": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "target": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nalichie_obrazovaniya_v_molochej_zhelezi",
+      "target": "symptom_otechnost_molochej_zhelezi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "target": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "target": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "target": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podmyshhnyh_limfaticheskih_uzlov",
+      "target": "symptom_otechnost_molochej_zhelezi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "target": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "target": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_nadkljuchnyh_limfaticheskih_uzlov",
+      "target": "symptom_otechnost_molochej_zhelezi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "target": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_podkljuchnyh_limfaticheskih_uzlov",
+      "target": "symptom_otechnost_molochej_zhelezi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_kozhnye_izmeneniya_na_molochej_zheleze",
+      "target": "symptom_otechnost_molochej_zhelezi",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Жалобы:  наличие образования в молочной железе;  увеличение подмышечных, над- и подключичных лимфатических узлов;  наличие кожных изменений на молочной железе;  отечность молочной железы.",
+      "properties": {}
+    }
+  ]
+}

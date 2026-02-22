@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_cough_without_sputum",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Кашель без выделения мокроты – возникает за счет сдавления дыхательных путей увеличенными лимфоузлами средостения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_edema",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отёк лица… возникают за счет сдавления верхней полой вены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_edema",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отёк шеи… возникают за счет сдавления верхней полой вены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arm_edema",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отёк рук… возникают за счет сдавления верхней полой вены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mediastinal_mass",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Первичная медиастинальная В‑крупноклеточная лимфома … с первичным очагом заболевания в переднем средостении",
+    "properties": {}
+  },
+  {
+    "source": "symptom_syndrome_superior_vena_cava",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Клинические симптомы могут быть связаны с быстрым ростом новообразования средостения, включая синдром верхней полой вены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "В‑симптомы: повышение температуры тела, преимущественно в вечернее и ночное время",
+    "properties": {}
+  },
+  {
+    "source": "symptom_night_sweats",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "В‑симптомы: повышение температуры тела, преимущественно в вечернее и ночное время; снижение массы тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "В‑симптомы: снижение массы тела (более 10‑15 кг в течение 2‑3 месяцев)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "общая слабость, повышенная утомляемость",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "увеличение лимфоузлов (чаще безболезненное)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_heaviness",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тяжесть в левом подреберье – за счет увеличения селезенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_splenomegaly",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "тяжесть в левом подреберье – за счет увеличения селезенки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anemia",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Анемия наблюдается редко и является независимым неблагоприятным прогностическим признаком",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemorrhagic_syndrome",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тяжелой анемический/геморрагический синдром, требующий заместительной терапии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_mass",
+    "target": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение шейных лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "В‑симптомы: повышение температуры тела, преимущественно в вечернее и ночное время",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_edema",
+    "target": "symptom_neck_edema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёк лица… возникают за счет сдавления верхней полой вены; отёк шеи…",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_edema",
+    "target": "symptom_arm_edema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отёк лица… отёк рук… возникают за счет сдавления верхней полой вены",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_without_sputum",
+    "target": "symptom_mediastinal_mass",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кашель без выделения мокроты – возникает за счет сдавления дыхательных путей увеличенными лимфоузлами средостения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В‑симптомы: повышение температуры тела…; снижение массы тела (более 10‑15 кг)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_night_sweats",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В‑симптомы: повышение температуры тела, преимущественно в вечернее и ночное время",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "target": "diagnosis_primary_mediastinal_large_b_cell_lymphoma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "В‑клеточные крупноклеточные лимфомы … 2А81.0 Первичная медиастинальная В‑крупноклеточная лимфома … 2А81.7 … ДВККЛ",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_diffuse_large_b_cell_lymphoma",
+    "target": "diagnosis_burkitt_lymphoma",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "В‑клеточные крупноклеточные лимфомы … Лимфома Беркитта",
+    "properties": {}
+  }
+]

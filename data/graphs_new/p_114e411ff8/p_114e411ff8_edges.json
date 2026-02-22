@@ -1,0 +1,82 @@
+[
+  {
+    "source": "symptom_infravezikalnaia_obstrukciia",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Устранение ДГПЖ как причины инфравезикальной обструкции",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zatrudnennoe_mocheispuskaniie",
+    "target": "diagnosis_d29_1",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "различные трудности при мочеиспускании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gemat",
+    "target": "diagnosis_c61",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "выраженной гематурией ... показания к процедуре и вмешательству",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_v_boku",
+    "target": "diagnosis_n13",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "взрослые пациенты с опущением почек ... наблюдаются боли в боку",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d29_1",
+    "target": "diagnosis_n40",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вводная часть ... D29.1 Доброкачественное новообразование предстательной железы N40 Гиперплазия предстательной железы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c53",
+    "target": "diagnosis_c54",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вводная часть ... C53 Злокачественное новообразование шейки матки C54 Злокачественное новообразование тела матки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_c53",
+    "target": "diagnosis_c55",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вводная часть ... C53 Злокачественное новообразование шейки матки C55 Злокачественное новообразование матки неуточненной локализации",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d25",
+    "target": "diagnosis_d26",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вводная часть ... D25 Лейомиома матки D26 Другие доброкачественные новообразования матки",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_d27",
+    "target": "diagnosis_n83_0",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Вводная часть ... D27 Доброкачественное новообразование яичника N83.0 Геморрагическая фолликулярная киста яичника",
+    "properties": {}
+  },
+  {
+    "source": "symptom_svobodnoe_mocheispuskaniie",
+    "target": "symptom_svetlaia_moch",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Уменьшение или отсутствие объема остаточной мочи, свободное мочеиспускание, светлая моча",
+    "properties": {}
+  }
+]

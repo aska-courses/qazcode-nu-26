@@ -1,0 +1,226 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinorrhea",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: насморк",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weakness",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_malaise",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: слабость, вялость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение лимфоузлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "высыпания на коже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "интоксикационный синдром – отсутствует или умеренный",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrile",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "субфебрильная температура",
+    "properties": {}
+  },
+  {
+    "source": "symptom_exanthem",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "синдром экзантемы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cataral_syndrome",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "катаральный синдром – редкий сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dry_cough",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "редкий сухой кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinitis",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "явления ринита появляются одновременно с высыпанием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_enanthem",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Энантема на слизистых оболочках",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pharyngeal_hyperemia",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "легкая гиперемия зева",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonsil_erythema",
+    "target": "diagnosis_rubella_uncomplicated",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "разрыхленность миндалин",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_rubella_other",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "редко артралгии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthritis",
+    "target": "diagnosis_rubella_other",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "артриты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure",
+    "target": "diagnosis_rubella_neurological",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "энцефалит, менингоэнцефалит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymphadenopathy",
+    "target": "symptom_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличение лимфоуздов; высыпания на коже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_rash",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела … высыпания на коже",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "symptom_rhinitis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "катаральный синдром – редкий сухой кашель, явления ринита появляются одновременно с высыпанием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "symptom_arthritis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "артралгия … артриты",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rubella_uncomplicated",
+    "target": "diagnosis_rubella_other",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Краснуха с другими осложнениями",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rubella_uncomplicated",
+    "target": "diagnosis_rubella_neurological",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Краснуха с неврологическими осложнениями",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_rubella_other",
+    "target": "diagnosis_rubella_neurological",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Краснуха с другими осложнениями; Краснуха с неврологическими осложнениями",
+    "properties": {}
+  }
+]

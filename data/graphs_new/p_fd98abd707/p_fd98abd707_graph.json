@@ -1,0 +1,235 @@
+{
+  "protocol_id": "p_fd98abd707",
+  "nodes": [
+    {
+      "id": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "diagnosis",
+      "label": "Дегенеративные состояния глазного яблока",
+      "icd_code": "H44.5"
+    },
+    {
+      "id": "diagnosis_drugie_degenerativnye_sostoyaniya",
+      "type": "diagnosis",
+      "label": "Другие дегенеративные состояния",
+      "icd_code": "H44.3"
+    },
+    {
+      "id": "symptom_absence_of_vision",
+      "type": "symptom",
+      "label": "Отсутствие зрения"
+    },
+    {
+      "id": "symptom_cosmetic_defect_upper_eyelid",
+      "type": "symptom",
+      "label": "Косметический дефект – опущение верхнего века"
+    },
+    {
+      "id": "symptom_tearing",
+      "type": "symptom",
+      "label": "Слезотечение"
+    },
+    {
+      "id": "symptom_photophobia",
+      "type": "symptom",
+      "label": "Светобоязнь"
+    },
+    {
+      "id": "symptom_eye_trauma",
+      "type": "symptom",
+      "label": "Перенесённая травма глаза"
+    },
+    {
+      "id": "symptom_eye_burn",
+      "type": "symptom",
+      "label": "Ожог глаза"
+    },
+    {
+      "id": "symptom_uveitis",
+      "type": "symptom",
+      "label": "Тяжелое воспаление глаза (увеит)"
+    },
+    {
+      "id": "symptom_decreased_vision",
+      "type": "symptom",
+      "label": "Снижение зрения"
+    },
+    {
+      "id": "symptom_corneal_edema",
+      "type": "symptom",
+      "label": "Отёк роговицы"
+    },
+    {
+      "id": "symptom_corneal_infiltration",
+      "type": "symptom",
+      "label": "Инфильтрация роговицы"
+    },
+    {
+      "id": "symptom_pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "symptom_retinal_detachment",
+      "type": "symptom",
+      "label": "Отслойка сетчатки"
+    },
+    {
+      "id": "symptom_fibrosis_of_membranes",
+      "type": "symptom",
+      "label": "Фиброз оболочек"
+    },
+    {
+      "id": "symptom_sympathetic_irritation",
+      "type": "symptom",
+      "label": "Симпатическое раздражение на парном глазу"
+    },
+    {
+      "id": "symptom_narrowing_of_palpebral_fissure",
+      "type": "symptom",
+      "label": "Сужение глазной щели"
+    },
+    {
+      "id": "symptom_signs_of_sympathetic_irritation",
+      "type": "symptom",
+      "label": "Признаки симпатического воспаления"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_absence_of_vision",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "жалобы: отсутствие зрения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cosmetic_defect_upper_eyelid",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "косметический дефект в виде опущения верхнего века",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слезотечение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_photophobia",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "светобоязнь на парном глазу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_trauma",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "перенесенная травма",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_burn",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ожог",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveitis",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжелое воспаление глаза (увеит)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fibrosis_of_membranes",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "фиброз оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_retinal_detachment",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отслойка сетчатки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sympathetic_irritation",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симпатическое раздражение на парном глазу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narrowing_of_palpebral_fissure",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "опущение верхнего века, сужение глазной щели",
+      "properties": {}
+    },
+    {
+      "source": "symptom_signs_of_sympathetic_irritation",
+      "target": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаки симпатического раздражения на парном глазу",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_degenerativnye_sostoyaniya_glaznogo_yabloka",
+      "target": "diagnosis_drugie_degenerativnye_sostoyaniya",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Классификация ... Дегенеративные состояния глазного яблока – ... Другие дегенеративные состояния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_absence_of_vision",
+      "target": "symptom_cosmetic_defect_upper_eyelid",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жалобы: отсутствие зрения; косметический дефект в виде опущения верхнего века",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tearing",
+      "target": "symptom_photophobia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жалобы: ... слезотечение; светобоязнь",
+      "properties": {}
+    },
+    {
+      "source": "symptom_eye_trauma",
+      "target": "symptom_eye_burn",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "перенесенная травма, ожог",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveitis",
+      "target": "symptom_sympathetic_irritation",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "симпатическое раздражение ... тяжёлое воспаление глаза (увеит)",
+      "properties": {}
+    }
+  ]
+}

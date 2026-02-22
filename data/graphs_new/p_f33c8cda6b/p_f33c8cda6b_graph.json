@@ -1,0 +1,282 @@
+{
+  "protocol_id": "p_f33c8cda6b",
+  "nodes": [
+    {
+      "id": "gonarthrosis_primary_bilateral",
+      "type": "diagnosis",
+      "label": "Первичный гонартроз двусторонний",
+      "icd_code": "M17.0"
+    },
+    {
+      "id": "gonarthrosis_primary_other",
+      "type": "diagnosis",
+      "label": "Другой первичный гонартроз",
+      "icd_code": "M17.1"
+    },
+    {
+      "id": "gonarthrosis_posttraumatic_bilateral",
+      "type": "diagnosis",
+      "label": "Посттравматический гонартроз двусторонний",
+      "icd_code": "M17.2"
+    },
+    {
+      "id": "gonarthrosis_posttraumatic_other",
+      "type": "diagnosis",
+      "label": "Другие посттравматические гонартрозы",
+      "icd_code": "M17.3"
+    },
+    {
+      "id": "gonarthrosis_secondary_bilateral",
+      "type": "diagnosis",
+      "label": "Другие вторичные гонартрозы двусторонние",
+      "icd_code": "M17.4"
+    },
+    {
+      "id": "gonarthrosis_secondary_other",
+      "type": "diagnosis",
+      "label": "Другие вторичные гонартрозы",
+      "icd_code": "M17.5"
+    },
+    {
+      "id": "gonarthrosis_unspecified",
+      "type": "diagnosis",
+      "label": "Гонартроз неуточнённый",
+      "icd_code": "M17.9"
+    },
+    {
+      "id": "pain",
+      "type": "symptom",
+      "label": "Боль"
+    },
+    {
+      "id": "limping",
+      "type": "symptom",
+      "label": "Хромота"
+    },
+    {
+      "id": "movement_limitation",
+      "type": "symptom",
+      "label": "Ограничение движений в коленном суставе"
+    },
+    {
+      "id": "edema",
+      "type": "symptom",
+      "label": "Отёчность сустава"
+    },
+    {
+      "id": "deformation",
+      "type": "symptom",
+      "label": "Деформация сустава"
+    },
+    {
+      "id": "crepitus",
+      "type": "symptom",
+      "label": "Хруст в суставе"
+    },
+    {
+      "id": "gait_disturbance",
+      "type": "symptom",
+      "label": "Нарушение походки"
+    },
+    {
+      "id": "periodic_dull_pain",
+      "type": "symptom",
+      "label": "Периодические тупые боли"
+    },
+    {
+      "id": "constant_pain",
+      "type": "symptom",
+      "label": "Постоянные боли"
+    },
+    {
+      "id": "severe_movement_restriction",
+      "type": "symptom",
+      "label": "Выраженное ограничение подвижности"
+    },
+    {
+      "id": "functional_impairment",
+      "type": "symptom",
+      "label": "Нарушение функций конечности"
+    },
+    {
+      "id": "pain_syndrome",
+      "type": "symptom",
+      "label": "Болевой синдром"
+    },
+    {
+      "id": "limited_range_of_motion",
+      "type": "symptom",
+      "label": "Ограничение объёма движений в коленном суставе"
+    }
+  ],
+  "edges": [
+    {
+      "source": "periodic_dull_pain",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Характерны периодические тупые боли, после значительной нагрузки на сустав.",
+      "properties": {}
+    },
+    {
+      "source": "edema",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Возможна небольшая, самостоятельно исчезающая отечность суставов.",
+      "properties": {}
+    },
+    {
+      "source": "deformation",
+      "target": "gonarthrosis_unspecified",
+      "type": "contradicts",
+      "weight": 0.5,
+      "evidence": "Деформации отсутствует.",
+      "properties": {}
+    },
+    {
+      "source": "crepitus",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Часто появляется хруст.",
+      "properties": {}
+    },
+    {
+      "source": "movement_limitation",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "незначительное или умеренное ограничение движений",
+      "properties": {}
+    },
+    {
+      "source": "deformation",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "небольшая деформация сустава.",
+      "properties": {}
+    },
+    {
+      "source": "constant_pain",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "боли практически постоянные",
+      "properties": {}
+    },
+    {
+      "source": "gait_disturbance",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "походка нарушена",
+      "properties": {}
+    },
+    {
+      "source": "severe_movement_restriction",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "выраженное ограничение подвижности",
+      "properties": {}
+    },
+    {
+      "source": "deformation",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "заметная деформация суставов",
+      "properties": {}
+    },
+    {
+      "source": "pain",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на ... боли ...",
+      "properties": {}
+    },
+    {
+      "source": "limping",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: на хромоту",
+      "properties": {}
+    },
+    {
+      "source": "movement_limitation",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы: ... ограничение движений в коленном суставе",
+      "properties": {}
+    },
+    {
+      "source": "limited_range_of_motion",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение объёма движений в коленном суставе",
+      "properties": {}
+    },
+    {
+      "source": "pain_syndrome",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болевой синдром",
+      "properties": {}
+    },
+    {
+      "source": "functional_impairment",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение функций конечности",
+      "properties": {}
+    },
+    {
+      "source": "limping",
+      "target": "gonarthrosis_unspecified",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "хромота",
+      "properties": {}
+    },
+    {
+      "source": "pain",
+      "target": "movement_limitation",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "боли и ограничение движений",
+      "properties": {}
+    },
+    {
+      "source": "pain",
+      "target": "limping",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на хромоту, боли",
+      "properties": {}
+    },
+    {
+      "source": "limping",
+      "target": "gait_disturbance",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "хромота... нарушение походки",
+      "properties": {}
+    },
+    {
+      "source": "edema",
+      "target": "periodic_dull_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "периодические тупые боли... Возможна небольшая отечность суставов",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "source": "symptom_ascit",
+    "target": "diagnosis_k74",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Критерии: асцит умеренно выраженный ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "diagnosis_k74",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Критерии: энцефалопатия отсутствует ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_g11_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спино-церебеллярная атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_g11_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спино-церебеллярная атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_g12_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спино-церебеллярная атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ataxia",
+    "target": "diagnosis_g95_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спино-церебеллярная атаксия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_paresis",
+    "target": "diagnosis_t91_3",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парезы различной степени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g35",
+    "target": "diagnosis_g37_8",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "демиелинизирующие заболевания ЦНС (РС, рассеянный энцефаломиелит)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e10",
+    "target": "diagnosis_e11",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Сахарный диабет 1 тип ... Сахарный диабет 2 тип",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74",
+    "target": "diagnosis_k74_3",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: K74. – Фиброз и цирроз печени K74.3 – Первичный билиарный цирроз печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k74",
+    "target": "diagnosis_k74_6",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: K74. – Фиброз и цирроз печени K74.6 – Другой и неуточненный цирроз печени",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n18",
+    "target": "diagnosis_n18_9",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: N18 – Хроническая почечная недостаточность N18.9 – Хроническая почечная недостаточность неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_n03",
+    "target": "diagnosis_n04",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: N03 – Хронический нефритический синдром N04 – Нефротический синдром",
+    "properties": {}
+  }
+]

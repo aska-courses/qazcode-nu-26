@@ -1,0 +1,666 @@
+[
+  {
+    "source": "symptom_repeat_epileptic_seizures",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Эпилептический статус - наличие повторных эпизодов эпилептических приступов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_no_consciousness_recovery",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Эпилептический статус - наличие ... без периодов восстановления сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_duration_over_30min",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Эпилептический статус - ... продолжающихся более 30 минут",
+    "properties": {}
+  },
+  {
+    "source": "symptom_convulsive",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "С клиническими моторными проявлениями: Судорожный ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nonconvulsive",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Без клинических моторных проявлений: Бессудорожный ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absence_status",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Статус типичных абсансов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tonic_clonic_seizures",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Тонико‑клонный статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_consciousness",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки ... с утратой сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_altered_consciousness",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "с нарушением сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperventilation",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипервентиляция ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toxicomania",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "токсикомания ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_physical_overload",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "физические перегрузки ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_psychological_overload",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "психические перегрузки ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_irregular_antiepileptic_intake",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушения режима приема противосудорожных препаратов ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neonatal_seizures",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ЭПС новорожденных ... Неонатальный эпилептический статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_febrile_seizures",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Фебрильный эпилептический статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_family_history_epilepsy",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "наследственная предрасположенность к эпилепсии ... как провоцирующие факторы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toxic_brain_injury",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "токсическое поражение мозга ... в классификации по этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxic_ischemic_brain_injury",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипоксически‑ишемическое поражение мозга ... в классификации по этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_traumatic_brain_injury",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "травматическое поражение мозга ... в классификации по этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_infectious_brain_injury",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "инфекционное поражение мозга ... в классификации по этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cerebrospinal_fluid_dynamics_disorder",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нарушение церебральной ликвородинамики ... в классификации по этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_metabolic_disorder",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дисметаболические состояния ... в классификации по этиологии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diabetes",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диабет ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_porphyria",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "порфирия ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_adrenal_insufficiency",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "надпочечниковая недостаточность ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyroid_insufficiency",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тиреоидная недостаточность ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uremia",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уремия ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_eclampsia",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "эклампсия ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoglycemia",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипогликемия ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_intoxication",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "острая интоксикация ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_intoxication",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тяжелая интоксикация ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperthermia",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гипертермия ... как часть дисметаболических состояний",
+    "properties": {}
+  },
+  {
+    "source": "symptom_viral_infection",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "вирусные инфекции ... как часть инфекционных факторов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_HIV_infection",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ВИЧ‑инфекция ... как часть инфекционных факторов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bacterial_infection",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бактериальные инфекции ... как часть инфекционных факторов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mixed_infection",
+    "target": "diagnosis_g41",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "смешанные инфекции ... как часть инфекционных факторов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_brain_edema",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек головного мозга ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_excitotoxic_damage",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "эксайтотоксическое повреждение мозга ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intracranial_hypertension",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "интракраниальная гипертензия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cerebral_venous_thrombosis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "церебральный венозный тромбоз ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cerebral_circulation_disorder",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушение мозгового кровообращения ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотония ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypertension",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипертензия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_heart_failure",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сердечная недостаточность ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachyarrhythmia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тахиаритмия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradyarrhythmia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "брадиярмия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiac_arrest",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "остановка сердца ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cardiogenic_shock",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кардиогенный шок ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_arrest",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "остановка дыхания ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_rate_disorder",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "нарушения частоты и ритма дыхания ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lung_edema",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отек легкого ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pulmonary_hypertension",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "легочная гипертензия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_embolism",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "эмболия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pneumonia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "пневмония ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aspiration",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "аспирация ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperpyrexia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперпирексия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperhidrosis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипергидроз ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypersecretion",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперсекреция ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tracheobronchial_obstruction",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "трахеобронхиальная обструкция ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_ischemia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "периферическая ишемия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dehydration",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дегидратация ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_electrolyte_disorder",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "электролитные нарушения ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyponatremia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипонатриемия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypokalemia",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипокалиемия ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_renal_failure",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острая почечная недостаточность ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_tubular_necrosis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острый тубулярный некроз ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_hepatic_failure",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острая печеночная недостаточность ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_acute_pancreatitis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "острый панкреатит ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_DIC",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "диссеминированное внутрисосудистое свертывание (ДВС) ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhabdomyolysis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рабдомиолиз ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fracture",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "переломы ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_infection",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "инфекционные заболевания кожи ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_infection",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "инфекционные заболевания мочевыводящих путей ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sepsis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "сепсис ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thrombophlebitis",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "тромбофлебит ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skin_lesion",
+    "target": "diagnosis_g41",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "повреждения кожи (раны, кровоподтеки) ... осложнение тонико‑клонического ЭС",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g41_0",
+    "target": "diagnosis_g41",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Эпилептический статус grand – подвид Эпилептического статуса G41",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g41_1",
+    "target": "diagnosis_g41",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Эпилептический статус petit mal – подвид Эпилептического статуса G41",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g41_2",
+    "target": "diagnosis_g41",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Сложный парциальный эпилептический статус – подвид Эпилептического статуса G41",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g41_8",
+    "target": "diagnosis_g41",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Другой уточненный эпилептический статус – подвид Эпилептического статуса G41",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g41_9",
+    "target": "diagnosis_g41",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Эпилептический статус неуточненный – подвид Эпилептического статуса G41",
+    "properties": {}
+  }
+]

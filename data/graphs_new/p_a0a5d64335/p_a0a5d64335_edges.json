@@ -1,0 +1,130 @@
+[
+  {
+    "source": "symptom_excessive_vomiting_morning",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Чрезмерная рвота по утрам (более3-5раз)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vaginal_bleeding",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Кровянистые выделения из половых путей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liquid_vaginal_discharge",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Обильные жидкие выделения из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Постоянная головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_visual_disturbance",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "нарушение зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_or_hand_edema",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Внезапный отек рук или лица",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Повышение температуры до 38°C и более",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vaginal_itching",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Зуд и жжение во влагалище",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_burning",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Жжение и боль при мочеиспускании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Сильная не стихающая боль в животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_contractions",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Более 4‑5 схваток в течение часа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fetal_movement_decrease",
+    "target": "diagnosis_z35_range",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "Менее 10 движений плода за 12 часов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_visual_disturbance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Постоянная головная боль, нарушение зрения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vaginal_bleeding",
+    "target": "symptom_liquid_vaginal_discharge",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кровянистые выделения из половых путей; Обильные жидкие выделения из влагалища",
+    "properties": {}
+  },
+  {
+    "source": "symptom_excessive_vomiting_morning",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Чрезмерная рвота по утрам (более3-5раз) ... Рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_contractions",
+    "target": "symptom_fetal_movement_decrease",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Более 4‑5 схваток в течение часа ... Менее 10 движений плода за 12 часов",
+    "properties": {}
+  }
+]

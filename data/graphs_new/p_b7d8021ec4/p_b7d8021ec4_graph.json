@@ -1,0 +1,1273 @@
+{
+  "protocol_id": "p_b7d8021ec4",
+  "nodes": [
+    {
+      "id": "diagnosis_i48_0",
+      "type": "diagnosis",
+      "label": "Пароксизмальная форма фибрилляции предсердий",
+      "icd_code": "I48.0"
+    },
+    {
+      "id": "diagnosis_i48_1",
+      "type": "diagnosis",
+      "label": "Персистирующая форма фибрилляции предсердий",
+      "icd_code": "I48.1"
+    },
+    {
+      "id": "diagnosis_i48_2",
+      "type": "diagnosis",
+      "label": "Хроническая форма фибрилляции предсердий",
+      "icd_code": "I48.2"
+    },
+    {
+      "id": "diagnosis_i48_3",
+      "type": "diagnosis",
+      "label": "Типичная форма трепетания предсердий",
+      "icd_code": "I48.3"
+    },
+    {
+      "id": "diagnosis_i48_4",
+      "type": "diagnosis",
+      "label": "Атипичная форма трепетания предсердий",
+      "icd_code": "I48.4"
+    },
+    {
+      "id": "diagnosis_i48_9",
+      "type": "diagnosis",
+      "label": "Фибрилляция и трепетание предсердий неуточненное",
+      "icd_code": "I48.9"
+    },
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "ощущение неправильного ритма"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "сердцебиение"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "одышка в покое"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "одышка при нагрузке"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "отеки на ногах"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "хрипы в легких"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "гепатомегалия"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "слабость"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "утомляемость"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "затрудненное дыхание"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "боль в груди"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "дискомфорт"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "пресинкопе"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "синкопе"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "брадикардия"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "гипотензия"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "гипоксемия"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "ацидоз"
+    },
+    {
+      "id": "symptom_19",
+      "type": "symptom",
+      "label": "желудочно-кишечное кровотечение"
+    },
+    {
+      "id": "symptom_20",
+      "type": "symptom",
+      "label": "геморрагические осложнения"
+    },
+    {
+      "id": "symptom_21",
+      "type": "symptom",
+      "label": "нерегулярный пульс"
+    },
+    {
+      "id": "symptom_22",
+      "type": "symptom",
+      "label": "тахикардия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалбы и анамнез – ощущение неправильного ритма, сердцебиения, одышки в покое и при нагрузке",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Наиболее частыми симптомами, связанными с ФП являются слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "или несколько реже встречающееся сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "признаков сердечной недостаточности (хрипы в легких, отеки на ногах, гепатомегалия)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ФП с симптомами пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_19",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_20",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: брадикардия, гипотензия, гипоксемия, ацидоз, желудочно-кишечное кровотечение, геморрагические осложнения, нерегулярный пульс, тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... нерегулярный пульс ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... нерегулярный пульс ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... нерегулярный пульс ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... нерегулярный пульс ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_21",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... нерегулярный пульс ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_i48_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_i48_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_i48_2",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_i48_3",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_i48_4",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_22",
+      "target": "diagnosis_i48_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "симптомы: ... тахикардия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "symptom_9",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "слабость/утомляемость",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "symptom_10",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_10",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "слабость/утомляемость и затрудненное дыхание",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_11",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "сердцебиение и боль в груди",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "symptom_14",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "пресинкопе, синкопе",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_6",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отеки на ногах, хрипы в легких",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отеки на ногах, гепатомегалия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_7",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хрипы в легких, гепатомегалия",
+      "properties": {}
+    }
+  ]
+}

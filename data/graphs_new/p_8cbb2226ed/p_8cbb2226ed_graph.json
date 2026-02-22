@@ -1,0 +1,94 @@
+{
+  "protocol_id": "p_8cbb2226ed",
+  "nodes": [
+    {
+      "id": "diagnosis_hronicheskie_vospalitelnye_bolezni_matki",
+      "type": "diagnosis",
+      "label": "Хронические воспалительные болезни матки",
+      "icd_code": "N71.1"
+    },
+    {
+      "id": "symptom_bespodlivie",
+      "type": "symptom",
+      "label": "Бесплодие"
+    },
+    {
+      "id": "symptom_nevynashivanie",
+      "type": "symptom",
+      "label": "Невынашивание беременности"
+    },
+    {
+      "id": "symptom_bol_v_nizu_zhivota",
+      "type": "symptom",
+      "label": "Боль внизу живота"
+    },
+    {
+      "id": "symptom_boleznennost_matki",
+      "type": "symptom",
+      "label": "Болезненность матки"
+    },
+    {
+      "id": "symptom_narushenie_menstrualnoi_funkcii",
+      "type": "symptom",
+      "label": "Нарушение менструальной функции"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bespodlivie",
+      "target": "diagnosis_hronicheskie_vospalitelnye_bolezni_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "женщины с бесплодием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevynashivanie",
+      "target": "diagnosis_hronicheskie_vospalitelnye_bolezni_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "женщины с привычным невынашиванием",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_menstrualnoi_funkcii",
+      "target": "diagnosis_hronicheskie_vospalitelnye_bolezni_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "женщины с нарушением менструальной функции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_nizu_zhivota",
+      "target": "diagnosis_hronicheskie_vospalitelnye_bolezni_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_boleznennost_matki",
+      "target": "diagnosis_hronicheskie_vospalitelnye_bolezni_matki",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "болезненность матки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bespodlivie",
+      "target": "symptom_nevynashivanie",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение репродуктивной функции: бесплодие, невынашивание беременности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_nizu_zhivota",
+      "target": "symptom_boleznennost_matki",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Боли внизу живота ... болезненность матки",
+      "properties": {}
+    }
+  ]
+}

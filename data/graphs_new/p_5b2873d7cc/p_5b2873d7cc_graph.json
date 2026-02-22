@@ -1,0 +1,78 @@
+{
+  "protocol_id": "p_5b2873d7cc",
+  "nodes": [
+    {
+      "id": "symptom_abdominal_pain",
+      "type": "symptom",
+      "label": "Боль внизу живота"
+    },
+    {
+      "id": "symptom_back_pain",
+      "type": "symptom",
+      "label": "Боль в пояснице"
+    },
+    {
+      "id": "symptom_irregular_contractions",
+      "type": "symptom",
+      "label": "Нерегулярные схваткообразные боли"
+    },
+    {
+      "id": "diagnosis_false_contractions",
+      "type": "diagnosis",
+      "label": "Ложные схватки",
+      "icd_code": "O47"
+    },
+    {
+      "id": "diagnosis_false_contractions_pre37",
+      "type": "diagnosis",
+      "label": "Ложные схватки в период до 37 полных недель беременности",
+      "icd_code": "O47.0"
+    },
+    {
+      "id": "diagnosis_false_contractions_post37",
+      "type": "diagnosis",
+      "label": "Ложные схватки начиная с 37 полных недель беременности",
+      "icd_code": "O47.1"
+    },
+    {
+      "id": "diagnosis_false_contractions_unspecified",
+      "type": "diagnosis",
+      "label": "Ложные схватки, неутонченные",
+      "icd_code": "O47.9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "diagnosis_false_contractions",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на болезненные тянущие боли внизу живота ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_back_pain",
+      "target": "diagnosis_false_contractions",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "на болезненные тянущие боли ... в пояснице",
+      "properties": {}
+    },
+    {
+      "source": "symptom_irregular_contractions",
+      "target": "diagnosis_false_contractions",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прекращение нерегулярных схваткообразных болей внизу живота",
+      "properties": {}
+    },
+    {
+      "source": "symptom_abdominal_pain",
+      "target": "symptom_back_pain",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "на болезненные тянущие боли внизу живота и пояснице",
+      "properties": {}
+    }
+  ]
+}

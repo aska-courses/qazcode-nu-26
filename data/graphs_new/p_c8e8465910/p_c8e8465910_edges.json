@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_zaderzhka_psihomotornogo_razvitiya",
+    "target": "diagnosis_f84",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дети, с подозрением на наследственные заболевания, с задержкой психомоторного развития, расстройства аутистического спектра, неврологических расстройств",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rasstroystva_autisticheskogo_spektra",
+    "target": "diagnosis_f84",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "расстройства аутистического спектра",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nevrologicheskie_rasstroystva",
+    "target": "diagnosis_g40",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неврологических расстройств (эпилепсия, спиноцеребральная атаксия, нервно-мышечные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nevrologicheskie_rasstroystva",
+    "target": "diagnosis_g70_g73",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "неврологических расстройств (… нервно-мышечные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nerovno_myshechnye_zabolevaniya",
+    "target": "diagnosis_g70_g73",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "нервно-мышечные заболевания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_spinozcerbalnaya_ataksiya",
+    "target": "diagnosis_g70_g73",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "спиноцеребральная атаксия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q85_0",
+    "target": "diagnosis_q85_1",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Нейрофиброматоз (незлокачественный) ... Туберозный склероз",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q85_0",
+    "target": "diagnosis_q78_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "нейрофиброматоз ... незавершенный остеогенез",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_q85_1",
+    "target": "diagnosis_q78_0",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Туберозный склероз ... незавершенный остеогенез",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f84",
+    "target": "diagnosis_f88",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "F84 Общие расстройства развития F88 Другие расстройства психологического развития",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f84",
+    "target": "diagnosis_f89",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "F84 ... F89 Неуточненное расстройство психологического развития",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_f88",
+    "target": "diagnosis_f89",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "F88 ... F89",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40",
+    "target": "diagnosis_g70_g73",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Эпилепсия ... Болезни нервно-мышечного синапса и мышц",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g40",
+    "target": "diagnosis_g60",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Эпилепсия ... Наследственная и идиопатическая невропатия",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_g60",
+    "target": "diagnosis_g70_g73",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Наследственная и идиопатическая невропатия ... Болезни нервно-мышечного синапса и мышц",
+    "properties": {}
+  }
+]

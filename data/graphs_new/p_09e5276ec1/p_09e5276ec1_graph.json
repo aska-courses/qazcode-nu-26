@@ -1,0 +1,384 @@
+{
+  "protocol_id": "p_09e5276ec1",
+  "nodes": [
+    {
+      "id": "diagnosis_n95_0",
+      "type": "diagnosis",
+      "label": "Рецидивирующая холестеатома полости после мастоидэктомии",
+      "icd_code": "N95.0"
+    },
+    {
+      "id": "diagnosis_n95_1",
+      "type": "diagnosis",
+      "label": "Другие поражения после мастоидэктомии",
+      "icd_code": "N95.1"
+    },
+    {
+      "id": "diagnosis_n95_8",
+      "type": "diagnosis",
+      "label": "Другие поражения уха и сосцевидного отростка после медицинских процедур",
+      "icd_code": "N95.8"
+    },
+    {
+      "id": "diagnosis_n95_9",
+      "type": "diagnosis",
+      "label": "Поражение уха и сосцевидного отростка после медицинских процедур неуточненные",
+      "icd_code": "N95.9"
+    },
+    {
+      "id": "symptom_sni_1",
+      "type": "symptom",
+      "label": "Снижение слуха"
+    },
+    {
+      "id": "symptom_sni_2",
+      "type": "symptom",
+      "label": "Выделения из оперированного уха"
+    },
+    {
+      "id": "symptom_sni_3",
+      "type": "symptom",
+      "label": "Частые обострения воспаления в ухе"
+    },
+    {
+      "id": "symptom_sni_4",
+      "type": "symptom",
+      "label": "Шум в ухе"
+    },
+    {
+      "id": "symptom_sni_5",
+      "type": "symptom",
+      "label": "Боли в ухе"
+    },
+    {
+      "id": "symptom_sni_6",
+      "type": "symptom",
+      "label": "Чувство тяжести в ухе"
+    },
+    {
+      "id": "symptom_sni_7",
+      "type": "symptom",
+      "label": "Парестезии в околоушной области"
+    },
+    {
+      "id": "symptom_sni_8",
+      "type": "symptom",
+      "label": "Вестибулярные нарушения"
+    },
+    {
+      "id": "symptom_sni_9",
+      "type": "symptom",
+      "label": "Наличие свища в заушной области"
+    },
+    {
+      "id": "symptom_sni_10",
+      "type": "symptom",
+      "label": "Нарушение вкуса"
+    },
+    {
+      "id": "symptom_sni_11",
+      "type": "symptom",
+      "label": "Парез лицевого нерва"
+    },
+    {
+      "id": "symptom_sni_12",
+      "type": "symptom",
+      "label": "Неврит слухового нерва"
+    },
+    {
+      "id": "symptom_sni_13",
+      "type": "symptom",
+      "label": "Лабиринтопатия"
+    },
+    {
+      "id": "symptom_sni_14",
+      "type": "symptom",
+      "label": "Холестеатома"
+    },
+    {
+      "id": "symptom_sni_15",
+      "type": "symptom",
+      "label": "Непрекращающееся гноетечение"
+    },
+    {
+      "id": "symptom_sni_16",
+      "type": "symptom",
+      "label": "Внутричерепные осложнения"
+    },
+    {
+      "id": "symptom_sni_17",
+      "type": "symptom",
+      "label": "Нейропатия лицевого нерва"
+    },
+    {
+      "id": "symptom_sni_18",
+      "type": "symptom",
+      "label": "Острое нарушение слуха"
+    },
+    {
+      "id": "symptom_sni_19",
+      "type": "symptom",
+      "label": "Боли в заушной области"
+    },
+    {
+      "id": "symptom_sni_20",
+      "type": "symptom",
+      "label": "Головные боли"
+    },
+    {
+      "id": "symptom_sni_21",
+      "type": "symptom",
+      "label": "Хроническое воспаление в среднем ухе"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_sni_1",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение слуха.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_2",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Выделения из оперированного уха: постоянные периодические.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_3",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Частые обострения воспаления в ухе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_4",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Шум в ухе, голове.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_5",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Боли в ухе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_6",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "чувство тяжести в ухе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_7",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "явления парестезии в околоушной области.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_8",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Вестибулярные нарушения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_9",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Наличие свища в заушной области.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_10",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Нарушение вкуса.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_14",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Холестеатома.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_15",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Непрекращающееся гноетечение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_11",
+      "target": "diagnosis_n95_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Парез лицевого нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_12",
+      "target": "diagnosis_n95_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "неврит слухового нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_13",
+      "target": "diagnosis_n95_8",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Лабиринтопатия.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_16",
+      "target": "diagnosis_n95_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "внутричерепные осложнения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_17",
+      "target": "diagnosis_n95_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нейропатия лицевого нерва.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_18",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "острое нарушение слуха.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_19",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в заушной области.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_20",
+      "target": "diagnosis_n95_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "головные боли.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_21",
+      "target": "diagnosis_n95_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "хроническое воспаление в среднем ухе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_1",
+      "target": "symptom_sni_2",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Снижение слуха. Выделения из оперированного уха: постоянные периодические.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_1",
+      "target": "symptom_sni_3",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Снижение слуха. ... Частые обострения воспаления в ухе.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_3",
+      "target": "symptom_sni_8",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Частые обострения воспаления в ухе. ... Вестибулярные нарушения.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sni_9",
+      "target": "symptom_sni_10",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Наличие свища в заушной области. Нарушение вкуса.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n95_0",
+      "target": "diagnosis_n95_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N95.0 Рецидивирующая холестеатома полости … N95.1 Другие поражения после мастоидэктомии.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n95_0",
+      "target": "diagnosis_n95_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N95.0 … N95.8 Другие поражения уха и сосцевидного отростка после медицинских процедур.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n95_0",
+      "target": "diagnosis_n95_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N95.0 … N95.9 Поражение уха и сосцевидного отростка после медицинских процедур неуточненные.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n95_1",
+      "target": "diagnosis_n95_8",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N95.1 Другие поражения после мастоидэктомии … N95.8 Другие поражения уха и сосцевидного отростка после медицинских процедур.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n95_1",
+      "target": "diagnosis_n95_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N95.1 … N95.9 Поражение уха и сосцевидного отростка после медицинских процедур неуточненные.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_n95_8",
+      "target": "diagnosis_n95_9",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "N95.8 … N95.9 Поражение уха и сосцевидного отростка после медицинских процедур неуточненные.",
+      "properties": {}
+    }
+  ]
+}

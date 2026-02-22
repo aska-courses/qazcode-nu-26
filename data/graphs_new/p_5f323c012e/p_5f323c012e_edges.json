@@ -1,0 +1,218 @@
+[
+  {
+    "source": "symptom_severe_acute_gvhd",
+    "target": "symptom_extensive_chronic_gvhd",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тяжелая (grade III-IV) острая РТПХ; • Экстенсивная хроническая РТПХ;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_acute_gvhd",
+    "target": "symptom_septic_shock",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тяжелая (grade III-IV) острая РТПХ; • Септический шок;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_severe_acute_gvhd",
+    "target": "symptom_systemic_mycoses",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Тяжелая (grade III-IV) острая РТПХ; • Системные микозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_extensive_chronic_gvhd",
+    "target": "symptom_septic_shock",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Экстенсивная хроническая РТПХ; • Септический шок;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_extensive_chronic_gvhd",
+    "target": "symptom_systemic_mycoses",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Экстенсивная хроническая РТПХ; • Системные микозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_septic_shock",
+    "target": "symptom_systemic_mycoses",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Септический шок; • Системные микозы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythrocyturia",
+    "target": "symptom_hemolysis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В случае выявления эритроцитурии, клинических признаках гемолиза (боли в поясничной области, животе, озноб, олигурия, анурия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythrocyturia",
+    "target": "symptom_lumbar_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В случае выявления эритроцитурии, клинических признаках гемолиза (боли в поясничной области, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythrocyturia",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В случае выявления эритроцитурии, клинических признаках гемолиза (..., животе, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythrocyturia",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В случае выявления эритроцитурии, клинических признаках гемолиза (..., озноб, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythrocyturia",
+    "target": "symptom_oliguria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В случае выявления эритроцитурии, клинических признаках гемолиза (..., олигурия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythrocyturia",
+    "target": "symptom_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "В случае выявления эритроцитурии, клинических признаках гемолиза (..., анурия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemolysis",
+    "target": "symptom_lumbar_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клинических признаках гемолиза (боли в поясничной области, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemolysis",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клинических признаках гемолиза (..., животе, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemolysis",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клинических признаках гемолиза (..., озноб, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemolysis",
+    "target": "symptom_oliguria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клинических признаках гемолиза (..., олигурия, ...)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemolysis",
+    "target": "symptom_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "клинических признаках гемолиза (..., анурия)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_abdominal_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в поясничной области, животе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в поясничной области, ... озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_oliguria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в поясничной области, ... олигурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lumbar_pain",
+    "target": "symptom_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в поясничной области, ... анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "животе, озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_oliguria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "животе, олигурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "symptom_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "животе, анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "symptom_oliguria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "озноб, олигурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "symptom_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "озноб, анурия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oliguria",
+    "target": "symptom_anuria",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "олигурия, анурия",
+    "properties": {}
+  }
+]

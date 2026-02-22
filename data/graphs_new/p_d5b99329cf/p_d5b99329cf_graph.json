@@ -1,0 +1,184 @@
+{
+  "protocol_id": "p_d5b99329cf",
+  "nodes": [
+    {
+      "id": "diagnosis_d16_0",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование лопатки и длинных костей верхней конечности",
+      "icd_code": "D16.0"
+    },
+    {
+      "id": "diagnosis_d16_1",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование коротких костей верхней конечности",
+      "icd_code": "D16.1"
+    },
+    {
+      "id": "diagnosis_d16_2",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование длинных костей нижней конечности",
+      "icd_code": "D16.2"
+    },
+    {
+      "id": "diagnosis_d16_3",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование коротких костей нижней конечности",
+      "icd_code": "D16.3"
+    },
+    {
+      "id": "diagnosis_d16_7",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование ребер, грудины и ключицы",
+      "icd_code": "D16.7"
+    },
+    {
+      "id": "diagnosis_d16_8",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование костей таза, крестца и копчика",
+      "icd_code": "D16.8"
+    },
+    {
+      "id": "diagnosis_d16_9",
+      "type": "diagnosis",
+      "label": "Доброкачественное новообразование костей и суставных хрящей неуточненной локализации",
+      "icd_code": "D16.9"
+    },
+    {
+      "id": "symptom_bol_v_oblasti_kosti",
+      "type": "symptom",
+      "label": "Боль в области пораженного участка кости или сустава"
+    },
+    {
+      "id": "symptom_patologicheskaya_podvizhnost",
+      "type": "symptom",
+      "label": "Патологическая подвижность в пораженном сегменте"
+    },
+    {
+      "id": "symptom_narushenie_dvigatelnoj_funkcii",
+      "type": "symptom",
+      "label": "Нарушение двигательной функции"
+    },
+    {
+      "id": "symptom_narushenie_opornoy_funkcii",
+      "type": "symptom",
+      "label": "Нарушение опорной функции"
+    },
+    {
+      "id": "symptom_vtorichnaya_deformatsiya",
+      "type": "symptom",
+      "label": "Вторичная деформация конечности или сустава"
+    },
+    {
+      "id": "symptom_vynuzdennoe_polozhenie_konechnosti",
+      "type": "symptom",
+      "label": "Вынужденное положение пораженной конечности"
+    },
+    {
+      "id": "symptom_otek_mekhkih_tkanei",
+      "type": "symptom",
+      "label": "Отек мягких тканей пораженной конечности"
+    },
+    {
+      "id": "symptom_bolestnost_pri_palpatsii",
+      "type": "symptom",
+      "label": "Болезненность при пальпации"
+    },
+    {
+      "id": "symptom_uvelichivayushchayasya_pri_oshevoy_nagruzke",
+      "type": "symptom",
+      "label": "Болезненность, усиливающаяся при осевой нагрузке"
+    },
+    {
+      "id": "symptom_osovye_deformatsii",
+      "type": "symptom",
+      "label": "Осевая деформация"
+    },
+    {
+      "id": "symptom_ukorocheniye_konechnosti",
+      "type": "symptom",
+      "label": "Укорочение конечности"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_oblasti_kosti",
+      "target": "diagnosis_d16_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "боли в области пораженного участка кости или сустава",
+      "properties": {}
+    },
+    {
+      "source": "symptom_patologicheskaya_podvizhnost",
+      "target": "diagnosis_d16_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "патологическую подвижность в пораженном сегменте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_dvigatelnoj_funkcii",
+      "target": "diagnosis_d16_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение двигательной функции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_mekhkih_tkanei",
+      "target": "diagnosis_d16_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отек мягких тканей пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osovye_deformatsii",
+      "target": "diagnosis_d16_9",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "осевая деформация",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_oblasti_kosti",
+      "target": "symptom_patologicheskaya_podvizhnost",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "боли в области пораженного участка кости или сустава; патологическую подвижность в пораженном сегменте",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_mekhkih_tkanei",
+      "target": "symptom_vynuzdennoe_polozhenie_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отек мягких тканей пораженной конечности; вынужденное положение пораженной конечности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_osovye_deformatsii",
+      "target": "symptom_ukorocheniye_konechnosti",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "осевая деформация; укорочение конечности",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d16_0",
+      "target": "diagnosis_d16_1",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Коды по МКБ-10: D 16.0 ... D 16.1 ...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_d16_2",
+      "target": "diagnosis_d16_3",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Коды по МКБ-10: D 16.2 ... D 16.3 ...",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "protocol_id": "p_62cb51d838",
+  "nodes": [
+    {
+      "id": "diagnosis_nrb",
+      "type": "diagnosis",
+      "label": "неукротимая рвота беременных",
+      "icd_code": "O21"
+    },
+    {
+      "id": "diagnosis_nrb_tiazhenaya",
+      "type": "diagnosis",
+      "label": "чрезмерная или тяжёлая рвота беременных с нарушениями обмена веществ",
+      "icd_code": "O21.1"
+    },
+    {
+      "id": "diagnosis_nrb_pozdnyaya",
+      "type": "diagnosis",
+      "label": "поздняя рвота беременных",
+      "icd_code": "O21.2"
+    },
+    {
+      "id": "diagnosis_vhb",
+      "type": "diagnosis",
+      "label": "внутрипеченочный холестаз беременных",
+      "icd_code": "O26.6"
+    },
+    {
+      "id": "diagnosis_hellp",
+      "type": "diagnosis",
+      "label": "HELLP‑синдром",
+      "icd_code": "O14.2"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_degidratatsiya",
+      "type": "symptom",
+      "label": "дегидратация"
+    },
+    {
+      "id": "symptom_poteria_massy_tela",
+      "type": "symptom",
+      "label": "потеря массы тела"
+    },
+    {
+      "id": "symptom_elektrolitny_disbalans",
+      "type": "symptom",
+      "label": "электролитный дисбаланс"
+    },
+    {
+      "id": "symptom_ketatsidoz",
+      "type": "symptom",
+      "label": "кетацидоз"
+    },
+    {
+      "id": "symptom_povyshennaya_aktivnost_transaminaz",
+      "type": "symptom",
+      "label": "повышение активности трансаминаз"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_zheltuha",
+      "type": "symptom",
+      "label": "желтуха"
+    },
+    {
+      "id": "symptom_giperbilirubinemia",
+      "type": "symptom",
+      "label": "гипербилирубинемия"
+    },
+    {
+      "id": "symptom_gipoglikemija",
+      "type": "symptom",
+      "label": "гипогликемия"
+    },
+    {
+      "id": "symptom_leukocitoz",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_vysokiy_uroven_mochevoy_kisloty",
+      "type": "symptom",
+      "label": "повышенный уровень мочевой кислоты"
+    },
+    {
+      "id": "symptom_vysokiy_uroven_ammoniya",
+      "type": "symptom",
+      "label": "повышенный уровень аммония"
+    },
+    {
+      "id": "symptom_aszit",
+      "type": "symptom",
+      "label": "асцит"
+    },
+    {
+      "id": "symptom_koagulopatiya",
+      "type": "symptom",
+      "label": "коагулопатия"
+    },
+    {
+      "id": "symptom_gemoliz",
+      "type": "symptom",
+      "label": "гемолиз"
+    },
+    {
+      "id": "symptom_trombocytopeniya",
+      "type": "symptom",
+      "label": "тромбоцитопения"
+    },
+    {
+      "id": "symptom_oteki",
+      "type": "symptom",
+      "label": "отеки"
+    },
+    {
+      "id": "symptom_golovokruzhenie",
+      "type": "symptom",
+      "label": "головокружение"
+    },
+    {
+      "id": "symptom_subfebriliytet",
+      "type": "symptom",
+      "label": "субфебрилитет"
+    },
+    {
+      "id": "symptom_sukhost_kozhi",
+      "type": "symptom",
+      "label": "сухость кожи"
+    },
+    {
+      "id": "symptom_chastota_rvoty",
+      "type": "symptom",
+      "label": "частая рвота"
+    },
+    {
+      "id": "symptom_chastota_pulsa",
+      "type": "symptom",
+      "label": "учащенный пульс"
+    },
+    {
+      "id": "symptom_sistolicheskoe_ad",
+      "type": "symptom",
+      "label": "повышенное систолическое артериальное давление"
+    },
+    {
+      "id": "symptom_narushenie_uderzhaniya_pishchi",
+      "type": "symptom",
+      "label": "нарушение удержания пищи"
+    },
+    {
+      "id": "symptom_snizhenie_apetita",
+      "type": "symptom",
+      "label": "снижение аппетита"
+    },
+    {
+      "id": "symptom_bol_v_pravom_podrebere",
+      "type": "symptom",
+      "label": "боль в правом подреберье"
+    },
+    {
+      "id": "symptom_bol_v_pravom_kvadrante_pecheni",
+      "type": "symptom",
+      "label": "боль в правом квадранте печени"
+    },
+    {
+      "id": "symptom_gipokalemiya",
+      "type": "symptom",
+      "label": "гипокалиемия"
+    },
+    {
+      "id": "symptom_giponatremiya",
+      "type": "symptom",
+      "label": "гипонатриемия"
+    },
+    {
+      "id": "symptom_gipohloremiya",
+      "type": "symptom",
+      "label": "гипохлоремия"
+    },
+    {
+      "id": "symptom_gipomagneziya",
+      "type": "symptom",
+      "label": "гипомагниемия"
+    },
+    {
+      "id": "symptom_metabolicheskiy_atsidoz",
+      "type": "symptom",
+      "label": "метаболический ацидоз"
+    },
+    {
+      "id": "symptom_povyshennye_ferezy_alaninotransferazy",
+      "type": "symptom",
+      "label": "повышенные АЛТ/АСТ"
+    },
+    {
+      "id": "symptom_povyshennaya_shf",
+      "type": "symptom",
+      "label": "повышенная щелочная фосфатаза"
+    },
+    {
+      "id": "symptom_povyshennyy_ggtp",
+      "type": "symptom",
+      "label": "повышенный ГГТП"
+    },
+    {
+      "id": "symptom_snizhenie_albumin",
+      "type": "symptom",
+      "label": "снижение альбумин"
+    },
+    {
+      "id": "symptom_povyshennyy_bilirubin",
+      "type": "symptom",
+      "label": "повышенный билирубин"
+    },
+    {
+      "id": "symptom_povyshennyy_kreatinin",
+      "type": "symptom",
+      "label": "повышенный креатинин"
+    },
+    {
+      "id": "symptom_povyshennaya_mochevina",
+      "type": "symptom",
+      "label": "повышенная мочевина"
+    },
+    {
+      "id": "symptom_povyshennaya_glukoza",
+      "type": "symptom",
+      "label": "повышенная глюкоза"
+    },
+    {
+      "id": "symptom_povyshennyy_ldg",
+      "type": "symptom",
+      "label": "повышенный лактатдегидрогеназа (ЛДГ)"
+    },
+    {
+      "id": "symptom_povyshennoye_ptv",
+      "type": "symptom",
+      "label": "повышенное протромбиновое время"
+    },
+    {
+      "id": "symptom_snizhenie_fibrinogena",
+      "type": "symptom",
+      "label": "снижение фибриногена"
+    },
+    {
+      "id": "symptom_povyshennaya_amylaza",
+      "type": "symptom",
+      "label": "повышенная амилаза"
+    },
+    {
+      "id": "symptom_povyshennyy_amoniak",
+      "type": "symptom",
+      "label": "повышенный аммиак"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "характеризующейся тошнотой и рвотой тяжелой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "характеризующейся тошнотой и рвотой тяжелой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poteria_massy_tela",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "потере массы тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_degidratatsiya",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "дегидратации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_elektrolitny_disbalans",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "электролитному дисбалансу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ketatsidoz",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "кетацидозу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_aktivnost_transaminaz",
+      "target": "diagnosis_nrb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "часто – повышению активности трансаминаз",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "характеризующийся зудом, который ощущается на любых участках тела",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "желтуха (в 17-75% случаев)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_giperbilirubinemia",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "повышенный общий билирубин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennye_ferezy_alaninotransferazy",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышение активности печеночных ферментов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_shf",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная щелочная фосфатаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennyy_ggtp",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный ГГТП",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_albumin",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение альбумин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_koagulopatiya",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "коагулопатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_oteki",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отеки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_subfebriliytet",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "субфебрилитет",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sukhost_kozhi",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "сухость кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vysokiy_uroven_mochevoy_kisloty",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный уровень мочевой кислоты",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vysokiy_uroven_ammoniya",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный уровень аммония",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aszit",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асцит",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennyy_bilirubin",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный билирубин",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennyy_ldg",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный лактатдегидрогеназа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennoye_ptv",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенное протромбиновое время",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_fibrinogena",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "снижение фибриногена",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennaya_amylaza",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная амилаза",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennyy_amoniak",
+      "target": "diagnosis_vhb",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенный аммиак",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemoliz",
+      "target": "diagnosis_hellp",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "характеризующееся гемолизом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennye_ferezy_alaninotransferazy",
+      "target": "diagnosis_hellp",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышением активности печеночных ферментов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_trombocytopeniya",
+      "target": "diagnosis_hellp",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "уменьшением количества тромбоцитов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "symptom_rvota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "характеризующейся тошнотой и рвотой тяжелой степени",
+      "properties": {}
+    },
+    {
+      "source": "symptom_degidratatsiya",
+      "target": "symptom_elektrolitny_disbalans",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "дегидратации, электролитному дисбалансу",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_zheltuha",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "характеризующийся зудом... желтуха",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltuha",
+      "target": "symptom_giperbilirubinemia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "желтуха... гипербилирубинемия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gemoliz",
+      "target": "symptom_povyshennye_ferezy_alaninotransferazy",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "характеризующееся гемолизом, повышением активности печеночных ферментов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povyshennye_ferezy_alaninotransferazy",
+      "target": "symptom_trombocytopeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышением активности печеночных ферментов, уменьшением количества тромбоцитов",
+      "properties": {}
+    }
+  ]
+}

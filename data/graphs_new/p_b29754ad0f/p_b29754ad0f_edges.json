@@ -1,0 +1,194 @@
+[
+  {
+    "source": "symptom_belyi_nalet",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "появляются белый точечный творожистый налет... под ним обнаруживается гиперемированный участок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemirovannyi_uchastok",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "появляются белый точечный творожистый налет... под ним обнаруживается гиперемированный участок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plotny_trudno_snimayushchiysya_nalet",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "трудно снимающийся беловатый налет... обнажается гиперемированная поверхность слизистой оболочки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ugrozhdennye_podchelyustnye_linf_uzly",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Подчелюстные лимфатические узлы увеличены, болезненны",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erozivnaya_krovotochashchaya_poverkhnost",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при снятии налета обнажается кровоточащая поверхность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_treshiny_ugolkov_rta",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "В углах рта часто образуются заеды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regionarnyi_linfadenit",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Регионарный лимфаденит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_voruta",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сухая, ярко гиперемированная слизистая",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pokrasnenie_slivistoy",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ярко гиперемированная слизистая",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "типична сильная болезненность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhzhenie",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жжение при ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_izvrashenie_vkusa",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "извращение вкуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povyshenie_temp",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры до 38°C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nedomoganie",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_oteck_slivistoy",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отечна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nalet",
+    "target": "diagnosis_kandidoznyj_stomatit",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "налет сохраняется в глубине складок языка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_belyi_nalet",
+    "target": "symptom_giperemirovannyi_uchastok",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "появляются белый точечный творожистый налет... под ним обнаруживается гиперемированный участок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plotny_trudno_snimayushchiysya_nalet",
+    "target": "symptom_erozivnaya_krovotochashchaya_poverkhnost",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "плотный, трудно снимающийся обширный налет... при снятии налета обнажается кровоточащая поверхность",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plotny_trudno_snimayushchiysya_nalet",
+    "target": "symptom_oteck_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Слизистая оболочка слегка гиперемирована, отечна",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plotny_trudno_snimayushchiysya_nalet",
+    "target": "symptom_treshiny_ugolkov_rta",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "В углах рта часто образуются заеды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_plotny_trudno_snimayushchiysya_nalet",
+    "target": "symptom_regionarnyi_linfadenit",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Регионарный лимфаденит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_voruta",
+    "target": "symptom_pokrasnenie_slivistoy",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухая, ярко гиперемированная слизистая",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sukhost_voruta",
+    "target": "symptom_nalet",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "сухая... налет сохраняется в глубине складок языка",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperemirovannyi_uchastok",
+    "target": "symptom_ugrozhdennye_podchelyustnye_linf_uzly",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "трудно снимающийся... гиперемированная поверхность... Подчелюстные лимфатические узлы увеличены, болезненны",
+    "properties": {}
+  }
+]

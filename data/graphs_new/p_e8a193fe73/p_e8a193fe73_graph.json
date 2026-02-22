@@ -1,0 +1,313 @@
+{
+  "protocol_id": "p_e8a193fe73",
+  "nodes": [
+    {
+      "id": "diagnosis_hepatoblastoma",
+      "type": "diagnosis",
+      "label": "Гепатобластома",
+      "icd_code": "C22.2"
+    },
+    {
+      "id": "diagnosis_hepatocellular_carcinoma",
+      "type": "diagnosis",
+      "label": "Гепатоцеллюлярная карцинома",
+      "icd_code": "C22.0"
+    },
+    {
+      "id": "symptom_uvelichenie_obema_zhivota",
+      "type": "symptom",
+      "label": "увеличение объёма живота"
+    },
+    {
+      "id": "symptom_upolotnenie_v_pravom_podrebere",
+      "type": "symptom",
+      "label": "уплотнение в правом подреберье"
+    },
+    {
+      "id": "symptom_bol_v_pravom_podrebere",
+      "type": "symptom",
+      "label": "боль в правом подреберье"
+    },
+    {
+      "id": "symptom_poterja_appetita",
+      "type": "symptom",
+      "label": "потеря аппетита"
+    },
+    {
+      "id": "symptom_toshnota",
+      "type": "symptom",
+      "label": "тошнота"
+    },
+    {
+      "id": "symptom_nedomoganie",
+      "type": "symptom",
+      "label": "недомогание"
+    },
+    {
+      "id": "symptom_povysenie_temperatury",
+      "type": "symptom",
+      "label": "повышение температуры"
+    },
+    {
+      "id": "symptom_rvoa",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_zheltushnost_kozhnogo_pokrova",
+      "type": "symptom",
+      "label": "желтушность кожных покровов"
+    },
+    {
+      "id": "symptom_snizhenie_massy_tela",
+      "type": "symptom",
+      "label": "снижение массы тела"
+    },
+    {
+      "id": "symptom_anemiya",
+      "type": "symptom",
+      "label": "анемия"
+    },
+    {
+      "id": "symptom_leukocitoz",
+      "type": "symptom",
+      "label": "лейкоцитоз"
+    },
+    {
+      "id": "symptom_povysennaya_soe",
+      "type": "symptom",
+      "label": "повышенная скорость оседания эритроцитов"
+    },
+    {
+      "id": "symptom_trombotsitoz",
+      "type": "symptom",
+      "label": "тромбоцитоз"
+    },
+    {
+      "id": "symptom_povysennye_pechenochniye_fertiliz",
+      "type": "symptom",
+      "label": "повышенные печёночные ферменты"
+    },
+    {
+      "id": "symptom_povysennyi_afp",
+      "type": "symptom",
+      "label": "повышенный уровень альфа‑фетопротеина"
+    },
+    {
+      "id": "symptom_razvitie_podkozhnyh_ven",
+      "type": "symptom",
+      "label": "развитие подкожных вен"
+    },
+    {
+      "id": "symptom_metastazy_v_legkih",
+      "type": "symptom",
+      "label": "метастазы в лёгких"
+    },
+    {
+      "id": "symptom_metastazy_v_kostyah",
+      "type": "symptom",
+      "label": "метастазы в костях"
+    },
+    {
+      "id": "symptom_metastazy_v_linf_uzlah",
+      "type": "symptom",
+      "label": "метастазы в региональных лимфоузлах"
+    },
+    {
+      "id": "symptom_sindrom_ostrogo_lizisa_opukholi",
+      "type": "symptom",
+      "label": "синдром острого лизиса опухоли"
+    },
+    {
+      "id": "symptom_cytopenicheskij_sindrom",
+      "type": "symptom",
+      "label": "цитопенический синдром"
+    },
+    {
+      "id": "symptom_glubokaya_anemiya",
+      "type": "symptom",
+      "label": "глубокая анемия"
+    },
+    {
+      "id": "symptom_gemorragicheskij_sindrom",
+      "type": "symptom",
+      "label": "геморрагический синдром"
+    },
+    {
+      "id": "symptom_infekcionnye_osklyucheniya",
+      "type": "symptom",
+      "label": "инфекционные осложнения"
+    },
+    {
+      "id": "symptom_neuropaticheskij_bolevoi_sindrom",
+      "type": "symptom",
+      "label": "нейропатический болевой синдром"
+    },
+    {
+      "id": "symptom_sudorogi",
+      "type": "symptom",
+      "label": "судороги"
+    },
+    {
+      "id": "symptom_ototoksichnost",
+      "type": "symptom",
+      "label": "ототоксичность (потеря слуха)"
+    },
+    {
+      "id": "symptom_mukozit",
+      "type": "symptom",
+      "label": "мукозит"
+    },
+    {
+      "id": "symptom_kahexiya",
+      "type": "symptom",
+      "label": "кахексия"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_uvelichenie_obema_zhivota",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolotnenie_v_pravom_podrebere",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_pravom_podrebere",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_toshnota",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_povysenie_temperatury",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zheltushnost_kozhnogo_pokrova",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_massy_tela",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, потерю аппетита, тошноту, недомогание, повышение температуры, рвоту, желтушность кожных покровов, снижение массы тела.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastazy_v_legkih",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастатическое поражение легочной ткани, которое встречается в 20% случаев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastazy_v_kostyah",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастатическое поражение легочной ткани, которое встречается в 20% случаев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_metastazy_v_linf_uzlah",
+      "target": "diagnosis_hepatoblastoma",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "метастатическое поражение легочной ткани, которое встречается в 20% случаев.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uvelichenie_obema_zhivota",
+      "target": "symptom_upolotnenie_v_pravom_podrebere",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_upolotnenie_v_pravom_podrebere",
+      "target": "symptom_bol_v_pravom_podrebere",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на увеличение объёма живота, уплотнение и боли в правом подреберье, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_poterja_appetita",
+      "target": "symptom_toshnota",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на ... потерю аппетита, тошноту, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nedomoganie",
+      "target": "symptom_povysenie_temperatury",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на ... недомогание, повышение температуры, ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvoa",
+      "target": "symptom_zheltushnost_kozhnogo_pokrova",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на ... рвоту, желтушность кожных покровов, ...",
+      "properties": {}
+    }
+  ]
+}

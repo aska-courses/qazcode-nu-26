@@ -1,0 +1,138 @@
+[
+  {
+    "source": "symptom_pain_shoulder_joint",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: На боль в области плечевого сустава, нарушение функции сустава.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_joint_function_impairment",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: На боль в области плечевого сустава, нарушение функции сустава.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_painful_arc",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при малых повреждениях возможно сохранение объёма движений, но появляется болезненная дуга.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swelling",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в острых случаях отек в области сустава;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_atrophy",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "в хронических случаях гипотрофия мышц плечевого пояса.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tenderness_palpation",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "болезненность в области плечевого сустава;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_muscle_tone_decrease",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение тонуса мышц вращательной манжеты плеча;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_active_movement_absence",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при массивных повреждениях вращательной манжеты плеча отсутствуют или ослаблены активные движения в плечевом суставе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abduction_limitation",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при повреждении надостной мышцы отсутствует или ослаблено отведение плеча;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_internal_rotation_limitation",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при повреждении подлопаточной мышцы отсутствует или ослаблена внутренняя ротация плеча;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_external_rotation_limitation",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при повреждении подостной и/или малой круглой мышц отсутствует или ослаблена наружная ротация плеча.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_range_of_motion_limitation",
+    "target": "diagnosis_s46_0",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при малых повреждениях возможно сохранение объёма движений, но появляется болезненная дуга.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pain_shoulder_joint",
+    "target": "symptom_joint_function_impairment",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: На боль в области плечевого сустава, нарушение функции сустава.",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_m75_8",
+    "target": "diagnosis_s46_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) по МКБ-10: M75.8 Другие поражения плеча S46.0 Травма сухожилия вращательной манжеты плеча",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s46_0",
+    "target": "diagnosis_t92_5",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) по МКБ-10: ... S46.0 Травма сухожилия вращательной манжеты плеча T92.5 Последствие травмы мышцы и сухожилия верхней конечности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_s46_0",
+    "target": "diagnosis_t92_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) по МКБ-10: ... S46.0 Травма сухожилия вращательной манжеты плеча T92.8 Последствие других уточненных травм верхней конечности",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_t92_5",
+    "target": "diagnosis_t92_8",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Код(ы) по МКБ-10: ... T92.5 Последствие травмы мышцы и сухожилия верхней конечности T92.8 Последствие других уточненных травм верхней конечности",
+    "properties": {}
+  }
+]

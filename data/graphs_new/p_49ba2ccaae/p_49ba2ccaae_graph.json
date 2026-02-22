@@ -1,0 +1,252 @@
+{
+  "protocol_id": "p_49ba2ccaae",
+  "nodes": [
+    {
+      "id": "tetralogy_fallo",
+      "type": "diagnosis",
+      "label": "Тетрада Фалло",
+      "icd_code": "Q21.3"
+    },
+    {
+      "id": "cyanosis",
+      "type": "symptom",
+      "label": "Цианоз"
+    },
+    {
+      "id": "dyspnea",
+      "type": "symptom",
+      "label": "Одышка"
+    },
+    {
+      "id": "cyanotic_spells",
+      "type": "symptom",
+      "label": "Одышечно-цианотические приступы"
+    },
+    {
+      "id": "heart_murmur",
+      "type": "symptom",
+      "label": "Систолический/диастолический шум (сердечный шум)"
+    },
+    {
+      "id": "tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "heart_failure",
+      "type": "symptom",
+      "label": "Сердечная недостаточность"
+    },
+    {
+      "id": "hypoxemia",
+      "type": "symptom",
+      "label": "Гипоксемия"
+    },
+    {
+      "id": "anemia",
+      "type": "symptom",
+      "label": "Железодефицитная анемия"
+    },
+    {
+      "id": "vitamin_deficiency",
+      "type": "symptom",
+      "label": "Гиповитаминоз"
+    },
+    {
+      "id": "brain_abscess",
+      "type": "symptom",
+      "label": "Абсцессы головного мозга"
+    },
+    {
+      "id": "infectious_endocarditis",
+      "type": "symptom",
+      "label": "Инфекционный эндокардит"
+    },
+    {
+      "id": "edema",
+      "type": "symptom",
+      "label": "Отёки"
+    },
+    {
+      "id": "low_diuresis",
+      "type": "symptom",
+      "label": "Снижение диуреза"
+    },
+    {
+      "id": "proteinuria",
+      "type": "symptom",
+      "label": "Протеинурия"
+    },
+    {
+      "id": "seizures",
+      "type": "symptom",
+      "label": "Судороги"
+    },
+    {
+      "id": "paralysis",
+      "type": "symptom",
+      "label": "Парез, гемипарез"
+    },
+    {
+      "id": "pericarditis",
+      "type": "symptom",
+      "label": "Перикардит"
+    },
+    {
+      "id": "pneumonia",
+      "type": "symptom",
+      "label": "Госпитальная пневмония"
+    },
+    {
+      "id": "arrhythmia",
+      "type": "symptom",
+      "label": "Аритмия (пароксизмальная предсердная тахикардия, фибрилляция предсердий)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "cyanosis",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "является наиболее часто встречаемым врожденным «цианотическим» пороком сердца",
+      "properties": {}
+    },
+    {
+      "source": "dyspnea",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Одышка в покое ... встречаются у более старших детей",
+      "properties": {}
+    },
+    {
+      "source": "cyanotic_spells",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие одышечно-цианотических приступов",
+      "properties": {}
+    },
+    {
+      "source": "heart_murmur",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "продолжительный громкий (3-5/6) систолический шум стеноза СЛА",
+      "properties": {}
+    },
+    {
+      "source": "heart_failure",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарастающая сердечно-сосудистая недостаточность",
+      "properties": {}
+    },
+    {
+      "source": "hypoxemia",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "тяжелой гипоксемии",
+      "properties": {}
+    },
+    {
+      "source": "anemia",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Железодефицитная анемия",
+      "properties": {}
+    },
+    {
+      "source": "vitamin_deficiency",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Гиповитаминоз",
+      "properties": {}
+    },
+    {
+      "source": "brain_abscess",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Абсцессы головного мозга",
+      "properties": {}
+    },
+    {
+      "source": "infectious_endocarditis",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Инфекционный эндокардит",
+      "properties": {}
+    },
+    {
+      "source": "edema",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Отёки",
+      "properties": {}
+    },
+    {
+      "source": "low_diuresis",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Снижение диуреза",
+      "properties": {}
+    },
+    {
+      "source": "proteinuria",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Протеинурия",
+      "properties": {}
+    },
+    {
+      "source": "seizures",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Судороги",
+      "properties": {}
+    },
+    {
+      "source": "paralysis",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Парез, гемипарез",
+      "properties": {}
+    },
+    {
+      "source": "pericarditis",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Перикардит",
+      "properties": {}
+    },
+    {
+      "source": "pneumonia",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Госпитальная пневмония",
+      "properties": {}
+    },
+    {
+      "source": "arrhythmia",
+      "target": "tetralogy_fallo",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Аритмии: полная АВ-блокада ...",
+      "properties": {}
+    }
+  ]
+}

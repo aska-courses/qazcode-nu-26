@@ -1,0 +1,642 @@
+{
+  "protocol_id": "p_c67383136d",
+  "nodes": [
+    {
+      "id": "diagnosis_f00_0",
+      "type": "diagnosis",
+      "label": "Деменция при болезни Альцгеймера с ранним началом (до 65 лет)",
+      "icd_code": "F00.0"
+    },
+    {
+      "id": "diagnosis_f00_1",
+      "type": "diagnosis",
+      "label": "Деменция при болезни Альцгеймера с поздним началом (65 лет и старше)",
+      "icd_code": "F00.1"
+    },
+    {
+      "id": "diagnosis_f00_2",
+      "type": "diagnosis",
+      "label": "Деменция при болезни Альцгеймера, атипичная или смешанного типа",
+      "icd_code": "F00.2"
+    },
+    {
+      "id": "diagnosis_f00_9",
+      "type": "diagnosis",
+      "label": "Деменция при болезни Альцгеймера неуточненная",
+      "icd_code": "F00.9"
+    },
+    {
+      "id": "symptom_uhuch_mem",
+      "type": "symptom",
+      "label": "ухудшение памяти"
+    },
+    {
+      "id": "symptom_dezorientaciya",
+      "type": "symptom",
+      "label": "дезориентировка в собственной личности"
+    },
+    {
+      "id": "symptom_utratabytovykh_navykov",
+      "type": "symptom",
+      "label": "утрата бытовых навыков"
+    },
+    {
+      "id": "symptom_narushenie_usvoeniya_novoy_informatsii",
+      "type": "symptom",
+      "label": "нарушение усвоения новой информации"
+    },
+    {
+      "id": "symptom_narushenie_vosproizvedeniya",
+      "type": "symptom",
+      "label": "нарушение воспроизведения ранее усвоенной информации"
+    },
+    {
+      "id": "symptom_narushenie_verb_materiala",
+      "type": "symptom",
+      "label": "нарушение вербального материала"
+    },
+    {
+      "id": "symptom_narushenie_neverb_materiala",
+      "type": "symptom",
+      "label": "нарушение невербального материала"
+    },
+    {
+      "id": "symptom_snizhenie_kognitivnyh_sposobnostey",
+      "type": "symptom",
+      "label": "снижение когнитивных способностей"
+    },
+    {
+      "id": "symptom_snizhenie_kritiki_i_myshleniya",
+      "type": "symptom",
+      "label": "снижение критики и мышления"
+    },
+    {
+      "id": "symptom_narushenie_planirovaniya",
+      "type": "symptom",
+      "label": "нарушение планирования"
+    },
+    {
+      "id": "symptom_narushenie_organizatsii",
+      "type": "symptom",
+      "label": "нарушение организации"
+    },
+    {
+      "id": "symptom_emotsionalnaya_labilnost",
+      "type": "symptom",
+      "label": "эмоциональная лабильность"
+    },
+    {
+      "id": "symptom_razdrazhitelnost",
+      "type": "symptom",
+      "label": "раздражительность"
+    },
+    {
+      "id": "symptom_apatiya",
+      "type": "symptom",
+      "label": "апатия"
+    },
+    {
+      "id": "symptom_ogrubenie_socialnogo_povedeniya",
+      "type": "symptom",
+      "label": "огрубение социального поведения"
+    },
+    {
+      "id": "symptom_afaziya",
+      "type": "symptom",
+      "label": "афазия (амнестическая или сенсорная)"
+    },
+    {
+      "id": "symptom_agrafiya",
+      "type": "symptom",
+      "label": "аграфия"
+    },
+    {
+      "id": "symptom_aleksiya",
+      "type": "symptom",
+      "label": "алексия"
+    },
+    {
+      "id": "symptom_akalkuliya",
+      "type": "symptom",
+      "label": "акалькулия"
+    },
+    {
+      "id": "symptom_apraksiya",
+      "type": "symptom",
+      "label": "апраксия"
+    },
+    {
+      "id": "symptom_psihopatologicheskie_rasstroystva",
+      "type": "symptom",
+      "label": "психопатологические расстройства"
+    },
+    {
+      "id": "symptom_psihoticheskie_proyavleniya",
+      "type": "symptom",
+      "label": "психотические проявления"
+    },
+    {
+      "id": "symptom_nepsihoticheskie_proyavleniya",
+      "type": "symptom",
+      "label": "непсихотические проявления"
+    },
+    {
+      "id": "symptom_desotsializiruyushchie_proyavleniya",
+      "type": "symptom",
+      "label": "десоциализирующие проявления"
+    },
+    {
+      "id": "symptom_neposredstvennaya_opasnost",
+      "type": "symptom",
+      "label": "непосредственная опасность для себя и окружающих"
+    },
+    {
+      "id": "symptom_bespomoshnost",
+      "type": "symptom",
+      "label": "беспомощность"
+    },
+    {
+      "id": "symptom_uhuch_psihicheskogo_sostoyaniya",
+      "type": "symptom",
+      "label": "ухудшение психического состояния"
+    },
+    {
+      "id": "symptom_epilepticheskie_paroksizmy",
+      "type": "symptom",
+      "label": "эпилептические пароксизмы"
+    },
+    {
+      "id": "symptom_epileptiformnye_paroksizmy",
+      "type": "symptom",
+      "label": "эпилептиформные пароксизмы"
+    },
+    {
+      "id": "symptom_ugnetenie_soznaniya",
+      "type": "symptom",
+      "label": "симптомы угнетения сознания"
+    },
+    {
+      "id": "symptom_narushenie_krovoobrashcheniya_golovnogo_mozga",
+      "type": "symptom",
+      "label": "признаки нарушения кровообращения в головном мозге"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_uhuch_mem",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuch_mem",
+      "target": "diagnosis_f00_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuch_mem",
+      "target": "diagnosis_f00_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuch_mem",
+      "target": "diagnosis_f00_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dezorientaciya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "дезориентировка в собственной личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dezorientaciya",
+      "target": "diagnosis_f00_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "дезориентировка в собственной личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dezorientaciya",
+      "target": "diagnosis_f00_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "дезориентировка в собственной личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dezorientaciya",
+      "target": "diagnosis_f00_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "дезориентировка в собственной личности",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utratabytovykh_navykov",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "утрата бытовых навыков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utratabytovykh_navykov",
+      "target": "diagnosis_f00_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "утрата бытовых навыков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utratabytovykh_navykov",
+      "target": "diagnosis_f00_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "утрата бытовых навыков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utratabytovykh_navykov",
+      "target": "diagnosis_f00_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "утрата бытовых навыков",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_usvoeniya_novoy_informatsii",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_usvoeniya_novoy_informatsii",
+      "target": "diagnosis_f00_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_usvoeniya_novoy_informatsii",
+      "target": "diagnosis_f00_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_usvoeniя_novoy_informatsii",
+      "target": "diagnosis_f00_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_vosproizvedeniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "в более тяжелых случаях может нарушаться и воспроизведение ранее усвоенной информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_vosproizvedeniya",
+      "target": "diagnosis_f00_1",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "в более тяжелых случаях может нарушаться и воспроизведение ранее усвоенной информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_vosproizvedeniya",
+      "target": "diagnosis_f00_2",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "в более тяжелых случаях может нарушаться и воспроизведение ранее усвоенной информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_vosproizvedeniya",
+      "target": "diagnosis_f00_9",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "в более тяжелых случаях может нарушаться и воспроизведение ранее усвоенной информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_verb_materiala",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Расстройство касается как вербального, так и невербального материала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_neverb_materiala",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Расстройство касается как вербального, так и невербального материала",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_kognitivnyh_sposobnostey",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Снижение когнитивных способностей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_snizhenie_kritiki_i_myshleniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Снижение критики и мышления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_planirovaniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нарушение планирования",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_organizatsii",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "нарушение организации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotsionalnaya_labilnost",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "эмоциональная лабильность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_razdrazhitelnost",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apatiya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "апатия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogrubenie_socialnogo_povedeniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_afaziya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дополнение к нарушению памяти должны отмечаться афазия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_agrafiya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дополнение к нарушению памяти должны отмечаться ... аграфия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aleksiya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дополнение к нарушению памяти должны отмечаться ... алексия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_akalkuliya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дополнение к нарушению памяти должны отмечаться ... акалькулия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apraksiya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в дополнение к нарушению памяти должны отмечаться ... апраксия",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihopatologicheskie_rasstroystva",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "психопатологические расстройства психотического и/или непсихотического уровня",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psihoticheskie_proyavleniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "психопатологические расстройства психотического и/или непсихотического уровня",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nepsihoticheskie_proyavleniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "психопатологические расстройства психотического и/или непсихотического уровня",
+      "properties": {}
+    },
+    {
+      "source": "symptom_desotsializiruyushchie_proyavleniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "десоциализирующие проявления",
+      "properties": {}
+    },
+    {
+      "source": "symptom_neposredstvennaya_opasnost",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "непосредственная опасность для себя и окружающих",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bespomoshnost",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "беспомощность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuch_psihicheskogo_sostoyaniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "ухудшение психического состояния",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepticheskie_paroksizmy",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭЭГ – при эпилептических и эпилептиформных пароксизмах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epileptiformnye_paroksizmy",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭЭГ – при эпилептических и эпилептиформных пароксизмах",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ugnetenie_soznaniya",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ЭхоЭГ – при появлении симптомов угнетения сознания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_krovoobrashcheniya_golovnogo_mozga",
+      "target": "diagnosis_f00_0",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "РЭГ – при признаках нарушения кровообращения в головном мозге",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uhuch_mem",
+      "target": "symptom_narushenie_usvoeniya_novoy_informatsii",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ухудшение памяти, наиболее заметное в области усвоения новой информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_narushenie_usvoeniya_novoy_informatsii",
+      "target": "symptom_narushenie_vosproizvedeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "в более тяжелых случаях может нарушаться и воспроизведение ранее усвоенной информации",
+      "properties": {}
+    },
+    {
+      "source": "symptom_emotsionalnaya_labilnost",
+      "target": "symptom_razdrazhitelnost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "эмоциональная лабильность; раздражительность",
+      "properties": {}
+    },
+    {
+      "source": "symptom_apatiya",
+      "target": "symptom_ogrubenie_socialnogo_povedeniya",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "апатия; огрубение социального поведения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_epilepticheskie_paroksizmy",
+      "target": "symptom_epileptiformnye_paroksizmy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "ЭЭГ – при эпилептических и эпилептиформных пароксизмах",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f00_0",
+      "target": "diagnosis_f00_1",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Коды МКБ-10: F00.0... F00.1...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f00_0",
+      "target": "diagnosis_f00_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Коды МКБ-10: F00.0... F00.2...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f00_0",
+      "target": "diagnosis_f00_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Коды МКБ-10: F00.0... F00.9...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f00_1",
+      "target": "diagnosis_f00_2",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Коды МКБ-10: F00.1... F00.2...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f00_1",
+      "target": "diagnosis_f00_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Коды МКБ-10: F00.1... F00.9...",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_f00_2",
+      "target": "diagnosis_f00_9",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Коды МКБ-10: F00.2... F00.9...",
+      "properties": {}
+    }
+  ]
+}

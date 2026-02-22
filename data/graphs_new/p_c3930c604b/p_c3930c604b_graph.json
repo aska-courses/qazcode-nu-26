@@ -1,0 +1,473 @@
+{
+  "protocol_id": "p_c3930c604b",
+  "nodes": [
+    {
+      "id": "diagnosis_kravivnica",
+      "type": "diagnosis",
+      "label": "крапивница",
+      "icd_code": "L50.0"
+    },
+    {
+      "id": "diagnosis_idiopatik_kravivnica",
+      "type": "diagnosis",
+      "label": "идиопатическая крапивница",
+      "icd_code": "L50.1"
+    },
+    {
+      "id": "diagnosis_kravivnica_temp",
+      "type": "diagnosis",
+      "label": "крапивница, вызванная воздействием низкой или высокой температуры",
+      "icd_code": "L50.2"
+    },
+    {
+      "id": "diagnosis_dermatograficheskaya_kravivnica",
+      "type": "diagnosis",
+      "label": "дерматографическая крапивница",
+      "icd_code": "L50.3"
+    },
+    {
+      "id": "diagnosis_vibratsionnaya_kravivnica",
+      "type": "diagnosis",
+      "label": "вибрационная крапивница",
+      "icd_code": "L50.4"
+    },
+    {
+      "id": "diagnosis_kholinergicheskaya_kravivnica",
+      "type": "diagnosis",
+      "label": "холинергическая крапивница",
+      "icd_code": "L50.5"
+    },
+    {
+      "id": "diagnosis_kontakt_naya_kravivnica",
+      "type": "diagnosis",
+      "label": "контактная крапивница",
+      "icd_code": "L50.6"
+    },
+    {
+      "id": "diagnosis_drugaya_kravivnica",
+      "type": "diagnosis",
+      "label": "другая крапивница",
+      "icd_code": "L50.8"
+    },
+    {
+      "id": "diagnosis_kravivnica_neutochnaya",
+      "type": "diagnosis",
+      "label": "крапивница неуточненная",
+      "icd_code": "L50.9"
+    },
+    {
+      "id": "symptom_voldyr",
+      "type": "symptom",
+      "label": "волдыри"
+    },
+    {
+      "id": "symptom_blyashki",
+      "type": "symptom",
+      "label": "бляшки"
+    },
+    {
+      "id": "symptom_papuly",
+      "type": "symptom",
+      "label": "папулы"
+    },
+    {
+      "id": "symptom_zud",
+      "type": "symptom",
+      "label": "зуд"
+    },
+    {
+      "id": "symptom_zharenie",
+      "type": "symptom",
+      "label": "жжение"
+    },
+    {
+      "id": "symptom_ozdob",
+      "type": "symptom",
+      "label": "озноб"
+    },
+    {
+      "id": "symptom_chuvstvo_zhara",
+      "type": "symptom",
+      "label": "чувство жара"
+    },
+    {
+      "id": "symptom_udushye",
+      "type": "symptom",
+      "label": "удушье"
+    },
+    {
+      "id": "symptom_lihorodka",
+      "type": "symptom",
+      "label": "лихорадка"
+    },
+    {
+      "id": "symptom_ohrypnost_golosa",
+      "type": "symptom",
+      "label": "охриплость голоса"
+    },
+    {
+      "id": "symptom_nevroticheskie_reaktsii",
+      "type": "symptom",
+      "label": "невротические реакции"
+    },
+    {
+      "id": "symptom_dispepsiya",
+      "type": "symptom",
+      "label": "диспепсия"
+    },
+    {
+      "id": "symptom_otek_kozhi",
+      "type": "symptom",
+      "label": "отёк кожи"
+    },
+    {
+      "id": "symptom_otek_podkinozhirovoy_kletchatki",
+      "type": "symptom",
+      "label": "отёк подкожно-жировой клетчатки"
+    },
+    {
+      "id": "symptom_otek_kvinke",
+      "type": "symptom",
+      "label": "отёк Квинке"
+    },
+    {
+      "id": "symptom_otek_slivistykh_obolochok",
+      "type": "symptom",
+      "label": "отёк слизистых оболочек"
+    },
+    {
+      "id": "symptom_otek_lica",
+      "type": "symptom",
+      "label": "отёк лица"
+    },
+    {
+      "id": "symptom_otek_polovyh_organov",
+      "type": "symptom",
+      "label": "отёк половых органов"
+    },
+    {
+      "id": "symptom_pokrashenije",
+      "type": "symptom",
+      "label": "покраснение"
+    },
+    {
+      "id": "symptom_angionevroticheskiy_otek",
+      "type": "symptom",
+      "label": "ангионевротический отёк"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_voldyr",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характеризуется ... волдырей ... сопровождающихся зудом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "характеризуется ... волдырей ... сопровождающихся зудом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_angionevroticheskiy_otek",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Крапивница может сопровождаться ангионевротическим отеком",
+      "properties": {}
+    },
+    {
+      "source": "symptom_blyashki",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "в виде отечных ярко-красного цвета волдырей, ... сливающихся в крупные бляшки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_papuly",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "папулы (при хронической крапивнице)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_kvinke",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление ограниченного отека кожи и подкожно-жировой клетчатки (отек Квинке)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_kozhi",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление ограниченного отека кожи",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_podkinozhirovoy_kletchatki",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление ограниченного отека кожи и подкожно-жировой клетчатки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_slivistykh_obolochok",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк слизистых оболочек",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_lica",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_polovyh_organov",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк половых органов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrashenije",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "отёк кожи ... покраснение",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление зуда, жжения, озноба или чувства жара, удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ozdob",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление зуда, жжения, озноба или чувства жара, удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chuvstvo_zhara",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление зуда, жжения, озноба или чувства жара, удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_udushye",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "внезапное появление зуда, жжения, озноба или чувства жара, удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_lihorodka",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "лихорадка (крапивная лихорадка)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ohrypnost_golosa",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "охриплость голоса",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nevroticheskie_reaktsii",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "невротические реакции",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dispepsiya",
+      "target": "diagnosis_kravivnica",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "диспепсии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_idiopatik_kravivnica",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Код(ы) МКБ-10: L50.0 Крапивница L50.1 Идиопатическая крапивница",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_kravivnica_temp",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.2 Крапивница, вызванная воздействием низкой или высокой температуры",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_dermatograficheskaya_kravivnica",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.3 Дерматографическая крапивница",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_vibratsionnaya_kravivnica",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.4 Вибрационная крапивница",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_kholinergicheskaya_kravivnica",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.5 Холинергическая крапивница",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_kontakt_naya_kravivnica",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.6 Контактная крапивница",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_drugaya_kravivnica",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.8 Другая крапивница",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_kravivnica",
+      "target": "diagnosis_kravivnica_neutochnaya",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "L50.9 Крапивница неуточненная",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_zharenie",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуда, жжения",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_ozdob",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуда, ... озноба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_chuvstvo_zhara",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуда, ... чувства жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zud",
+      "target": "symptom_udushye",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "зуда, ... удушья",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "symptom_ozdob",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жжения, озноба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_zharenie",
+      "target": "symptom_chuvstvo_zhara",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "жжения, чувства жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ozdob",
+      "target": "symptom_chuvstvo_zhara",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "озноба, чувства жара",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_kozhi",
+      "target": "symptom_otek_podkinozhirovoy_kletchatki",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "отёк кожи и подкожно-жировой клетчатки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_slivistykh_obolochok",
+      "target": "symptom_otek_lica",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отёк слизистых оболочек ... отёк лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_slivistykh_obolochok",
+      "target": "symptom_otek_polovyh_organov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отёк слизистых оболочек ... отёк половых органов",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otek_lica",
+      "target": "symptom_otek_polovyh_organov",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "отёк лица ... отёк половых органов",
+      "properties": {}
+    }
+  ]
+}

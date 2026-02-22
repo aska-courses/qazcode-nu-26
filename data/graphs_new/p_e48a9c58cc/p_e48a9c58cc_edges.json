@@ -1,0 +1,98 @@
+[
+  {
+    "source": "symptom_neproizvolnoe_vydelenie_mochi",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "стрессовое недержание мочи ... сопровождаются непроизвольным и неконтролируемым выделением мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_mochi_pri_kashle",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение мочи ... происходит при кашле",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_mochi_pri_fiz_nagruzke",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение мочи ... при физической нагрузке (бег, ходьба, занятия спортом)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_mochi_pri_izmenenii_pozicii",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение мочи ... при резком изменении положения тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pozitivnyj_kashlevyj_test",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный кашлевой тест–проба Вальсальвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pozitivnyj_test_valsalvy",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "положительный кашлевой тест–проба Вальсальвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_imperativnye_pozivy",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Императивные позывы ... нет (в таблице дифференциального диагноза для стрессового недержания мочи)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chastye_pozivy",
+    "target": "diagnosis_stressovoe_nederganie_mochi",
+    "type": "contradicts",
+    "weight": 0.5,
+    "evidence": "Частые позывы ... нет (в таблице дифференциального диагноза для стрессового недержания мочи)",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_stressovoe_nederganie_mochi",
+    "target": "diagnosis_neproizvolnoe_nederganie_mochi",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Код 10 N39.3 Непроизвольное недержание мочи; Код 10 N39.4 Стрессовое недержание мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_mochi_pri_kashle",
+    "target": "symptom_pozitivnyj_kashlevyj_test",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выделение мочи ... происходит при кашле; положительный кашлевой тест–проба Вальсальвы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_mochi_pri_fiz_nagruzke",
+    "target": "symptom_poteria_mochi_pri_kashle",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выделение мочи ... происходит при кашле, физической нагрузке, резком изменении положения тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_mochi_pri_izmenenii_pozicii",
+    "target": "symptom_poteria_mochi_pri_fiz_nagruzke",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выделение мочи ... происходит при физической нагрузке, резком изменении положения тела",
+    "properties": {}
+  }
+]

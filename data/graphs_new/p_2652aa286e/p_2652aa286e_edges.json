@@ -1,0 +1,106 @@
+[
+  {
+    "source": "bradikardiya",
+    "target": "i49_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Термин синдром слабости синусового узла (СССУ) является равноценным ДСУ, но предполагает наличие клинической симптоматики брадикардии",
+    "properties": {}
+  },
+  {
+    "source": "sinusova_bradikardiya",
+    "target": "i49_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Синусовая брадикардия - снижение ЧСС менее на 20% ниже допустимой по возрасту",
+    "properties": {}
+  },
+  {
+    "source": "sinusova_bradikardiya",
+    "target": "bradikardiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Синусовая брадикардия ... брадикардией",
+    "properties": {}
+  },
+  {
+    "source": "golovokruzhenie",
+    "target": "i44_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при АВ блокаде II степени ... появляются головокружение",
+    "properties": {}
+  },
+  {
+    "source": "potemnenie_v_glazah",
+    "target": "i44_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при АВ блокаде II степени ... потемнение в глазах",
+    "properties": {}
+  },
+  {
+    "source": "golovokruzhenie",
+    "target": "potemnenie_v_glazah",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при АВ блокаде II степени ... появляются головокружение или потемнение в глазах",
+    "properties": {}
+  },
+  {
+    "source": "kardiomegaliya",
+    "target": "i44_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "постоянная кардиостимуляция рекомендована при АВ блокаде 3 степени ... у пациентов с кардиомегалией",
+    "properties": {}
+  },
+  {
+    "source": "hronicheskaya_serdechnaya_nedostatochnost",
+    "target": "i44_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "постоянная кардиостимуляция рекомендована при АВ блокаде 3 степени ... сочетающаяся с симптоматической брадикардией (включая сердечную недостаточность)",
+    "properties": {}
+  },
+  {
+    "source": "asistoliya",
+    "target": "i44_2",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "постоянная кардиостимуляция рекомендована при АВ блокаде 3 степени ... с документированными периодами асистолии более или равными 3.0 секундам",
+    "properties": {}
+  },
+  {
+    "source": "vnutrizheludochkovaya_blokada",
+    "target": "i45_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Неспецифическая внутрижелудочковая блокада",
+    "properties": {}
+  },
+  {
+    "source": "sinkopa",
+    "target": "i44",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "постоянная кардиостимуляция рекомендована при синкопе (потере сознания) ... при АВ блокаде 3 степени",
+    "properties": {}
+  },
+  {
+    "source": "sindrom_karotidnogo_sinusa",
+    "target": "sinkopa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "рецидивирующих синкопе, вызванных стимуляцией каротидного синуса",
+    "properties": {}
+  },
+  {
+    "source": "giperchuvstvitelnost_masazh_karotidnogo_sinusa",
+    "target": "sindrom_karotidnogo_sinusa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперчувствительная реакция на массаж каротидного синуса",
+    "properties": {}
+  }
+]

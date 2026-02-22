@@ -1,0 +1,298 @@
+[
+  {
+    "source": "zaderzhka_razvitiya_dvigatelnyh_funktsiy",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "основной жалобой является задержка развития двигательных функций (не держит голову, не сидит, не переворачивается, не стоит)",
+    "properties": {}
+  },
+  {
+    "source": "ne_derzhit_golovu",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "основной жалобой является задержка развития двигательных функций (не держит голову, не сидит, не переворачивается, не стоит)",
+    "properties": {}
+  },
+  {
+    "source": "ne_sidit",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "основной жалобой является задержка развития двигательных функций (не держит голову, не сидит, не переворачивается, не стоит)",
+    "properties": {}
+  },
+  {
+    "source": "ne_perevorachivaetsya",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "основной жалобой является задержка развития двигательных функций (не держит голову, не сидит, не переворачивается, не стоит)",
+    "properties": {}
+  },
+  {
+    "source": "ne_stoit",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "основной жалобой является задержка развития двигательных функций (не держит голову, не сидит, не переворачивается, не стоит)",
+    "properties": {}
+  },
+  {
+    "source": "gipotonija_myshts",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анормальный тонус, включающий гипотонию, спастичность или дистонию",
+    "properties": {}
+  },
+  {
+    "source": "spastichnost",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анормальный тонус, включающий гипотонию, спастичность или дистонию",
+    "properties": {}
+  },
+  {
+    "source": "distonicheskie_ataki",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "анормальный тонус, включающий гипотонию, спастичность или дистонию",
+    "properties": {}
+  },
+  {
+    "source": "klonus",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: клонус",
+    "properties": {}
+  },
+  {
+    "source": "patologichnyy_reflex_babinskogo",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: патологический рефлекс Бабинского",
+    "properties": {}
+  },
+  {
+    "source": "rasshirenie_refleksogennykh_zon",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: расширение рефлексогенных зон",
+    "properties": {}
+  },
+  {
+    "source": "povyschenie_sukhozhilnyh_refleksov",
+    "target": "spasticheskiy_cerebralny_paralich_kvadriplegiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: повышение сухожильных рефлексов",
+    "properties": {}
+  },
+  {
+    "source": "sudorogi",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Двигательные расстройства часто сопровождаются ... судорожными нарушениями",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_zreniya",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Двигательные расстройства часто сопровождаются ... нарушениями зрения",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_slusha",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Двигательные расстройства часто сопровождаются ... нарушениями слуха",
+    "properties": {}
+  },
+  {
+    "source": "musculo_skeletnye_anomalii",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Двигательные расстройства часто сопровождаются ... мышечно‑скелетными аномалиями",
+    "properties": {}
+  },
+  {
+    "source": "kontraktury",
+    "target": "musculo_skeletnye_anomalii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Мышечно‑скелетные аномалии: Контрактуры, Сколиоз",
+    "properties": {}
+  },
+  {
+    "source": "skolioz",
+    "target": "musculo_skeletnye_anomalii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Мышечно‑скелетные аномалии: Контрактуры, Сколиоз",
+    "properties": {}
+  },
+  {
+    "source": "asimetriya_myshtsogo_tonusa",
+    "target": "asimetriya_funktsii_ruki",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Асимметрия мышечного тонуса; Асимметрия функции руки",
+    "properties": {}
+  },
+  {
+    "source": "anomalii_dvizheniy",
+    "target": "asimetriya_myshtsogo_tonusa",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Аномальные движения (асимметрия, скудность)",
+    "properties": {}
+  },
+  {
+    "source": "poterya_priobretih_navykov",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Потеря приобретенных навыков",
+    "properties": {}
+  },
+  {
+    "source": "ataksiya",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания для госпитализации: гипотония мышц, потеря приобретенных навыков, асимметрия мышечного тонуса, движений, атаксия",
+    "properties": {}
+  },
+  {
+    "source": "fokalnaya_distoniya",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания для госпитализации: фокальная дистония и хореоатетоза",
+    "properties": {}
+  },
+  {
+    "source": "khoreoatetozy",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показания для госпитализации: фокальная дистония и хореоатетоза",
+    "properties": {}
+  },
+  {
+    "source": "bednyy_repertuar_dvizheniy_do_50_nedel",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Оценка общих движений: бедный репертуар до 50 недель",
+    "properties": {}
+  },
+  {
+    "source": "otsutstvie_fidzheta_48_56_nedeli",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Оценка общих движений: отсутствие фиджетов к 48‑56 неделе",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_funktsii_verhnih_konechnostey",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение функции верхних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_funktsii_nizhnih_konechnostey",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение функции нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_melkoy_motoriki",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение мелкой моторики",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_rechi",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение речи",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_samoobsluzhivaniya",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение самообслуживания",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_nezavisimosti",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение независимости",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_povedeniya",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Двигательные расстройства часто сопровождаются ... поведенческими нарушениями",
+    "properties": {}
+  },
+  {
+    "source": "bol",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Показатели эффективности лечения: отсутствие боли",
+    "properties": {}
+  },
+  {
+    "source": "narushenie_sna",
+    "target": "cerebralny_paralich_neutochnyi",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Нарушение сна",
+    "properties": {}
+  },
+  {
+    "source": "spastichnost",
+    "target": "klonus",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: спастичность, клонус",
+    "properties": {}
+  },
+  {
+    "source": "spastichnost",
+    "target": "patologichnyy_reflex_babinskogo",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование: спастичность, патологический рефлекс Бабинского",
+    "properties": {}
+  }
+]

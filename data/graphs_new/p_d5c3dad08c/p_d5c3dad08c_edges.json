@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела выше 38 °C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chills",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_of_appetite",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_weight_loss",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение массы тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в грудной клетке",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_nonproductive",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "болезненные непродуктивные кашли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hemoptysis",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "возможно кровохарканье в виде прожилок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gross_sputum",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выделение большого количества гнойной мокроты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_palpation_pain",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли при пальпации грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_percussion_dullness",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "притупление перкуторного звука",
+    "properties": {}
+  },
+  {
+    "source": "symptom_absent_breath_sounds",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "отсутствие дыхательных шумов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_intoxication",
+    "target": "diagnosis_j85",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в клинической картине абсцесса легкого наблюдается более выраженные симптомы интоксикации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_chills",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела выше 38 °C, озноб",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_loss_of_appetite",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела выше 38 °C; снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_weight_loss",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела выше 38 °C; снижение массы тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_chest_pain",
+    "target": "symptom_palpation_pain",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "боли в грудной клетке ... боли при пальпации грудной клетки",
+    "properties": {}
+  },
+  {
+    "source": "symptom_percussion_dullness",
+    "target": "symptom_absent_breath_sounds",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "притупление перкуторного звука и отсутствие дыхательных шумов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_nonproductive",
+    "target": "symptom_hemoptysis",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "болезненные непродуктивные кашли; возможно кровохарканье",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_nonproductive",
+    "target": "symptom_gross_sputum",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "болезненные непродуктивные кашли; выделение большого количества гнойной мокроты",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j85_1",
+    "target": "diagnosis_j85_2",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Абсцесс легкого с пневмонией; Абсцесс легкого без пневмонии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j85_1",
+    "target": "diagnosis_j85",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Абсцесс легкого с пневмонией; Абсцесс легкого и средостения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j85_2",
+    "target": "diagnosis_j85",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Абсцесс легкого без пневмонии; Абсцесс легкого и средостения",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_j85_0",
+    "target": "diagnosis_j85",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Гангрена и некроз легкого; Абсцесс легкого и средостения",
+    "properties": {}
+  }
+]

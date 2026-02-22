@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_change_of_voice",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "жалобы на изменение голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_discomfort_swallowing",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дискомфорт и поперхивание при приёме пищи и жидкости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_disturbance",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушения дыхания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_swallowing_disturbance",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "нарушения глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyroid_deformation",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "деформации в области щитовидной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyroid_enlargement",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение размеров ЩЖ, пальпируются узлы ЩЖ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cervical_lymphadenopathy",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обследование лимфатических узлов в области шеи (размер, плотность)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_lymph_node_density",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "обследование лимфатических узлов в области шеи (размер, плотность)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_deformation",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при узлах более 5 см – деформация шеи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_vein_swelling",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "при узлах более 5 см – набухание шейных вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_compression_of_organs",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "признаки компрессии окружающих органов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cosmetic_defect",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "косметический дефект при узловом (многоузловом) зобе",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asphyxia_signs",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отсутствие роста узлов ЩЖ и признаков асфиксии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_change_of_voice",
+    "target": "symptom_discomfort_swallowing",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: изменение голоса; дискомфорт и поперхивание при приёме пищи и жидкости",
+    "properties": {}
+  },
+  {
+    "source": "symptom_respiratory_disturbance",
+    "target": "symptom_swallowing_disturbance",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "жалобы: нарушения дыхания и глотания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_thyroid_deformation",
+    "target": "symptom_thyroid_enlargement",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Физикальное обследование: увеличение размеров ЩЖ, деформации в области щитовидной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_neck_deformation",
+    "target": "symptom_neck_vein_swelling",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "при узлах более 5 см – деформация шеи, набухание шейных вен",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fast_growing_nodule",
+    "target": "symptom_very_dense_nodule",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "быстрорастущий узел; очень плотный узел",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nodule_fixation",
+    "target": "symptom_vocal_fold_paralysis",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "фиксация к близлежащим органам; паралич голосовых связок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regional_lymphadenopathy",
+    "target": "symptom_invasion_signs",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "увеличенные регионарные лимфатические узлы; признаки инвазии в структуры шеи",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e04_other_forms_nontoxic_goiter",
+    "target": "diagnosis_e04_diffuse_nontoxic_goiter",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: E04 Другие формы нетоксического зоба E04 Нетоксический диффузный зоб",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e04_other_forms_nontoxic_goiter",
+    "target": "diagnosis_e04_1_nontoxic_solitary_goiter",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: E04 Другие формы нетоксического зоба E04.1 Нетоксический одноузловой зоб",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e04_other_forms_nontoxic_goiter",
+    "target": "diagnosis_e04_2_nontoxic_multinodular_goiter",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: E04 Другие формы нетоксического зоба E04.2 Нетоксический многоузловой зоб",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e04_other_forms_nontoxic_goiter",
+    "target": "diagnosis_e04_8_other_specified_nontoxic_goiter",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: E04 Другие формы нетоксического зоба E04.8 Другие уточненные формы нетоксического зоба",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_e04_other_forms_nontoxic_goiter",
+    "target": "diagnosis_e04_9_unspecified_nontoxic_goiter",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код(ы) МКБ-10: E04 Другие формы нетоксического зоба E04.9 Нетоксический зоб неуточненный",
+    "properties": {}
+  }
+]

@@ -1,0 +1,790 @@
+{
+  "protocol_id": "p_05575be09d",
+  "nodes": [
+    {
+      "id": "symptom_bol_v_sustavah",
+      "type": "symptom",
+      "label": "Боль в суставах"
+    },
+    {
+      "id": "symptom_otechnost_sustavov",
+      "type": "symptom",
+      "label": "Отёчность суставов"
+    },
+    {
+      "id": "symptom_pokrashenie_sustavov",
+      "type": "symptom",
+      "label": "Покраснение суставов"
+    },
+    {
+      "id": "symptom_gipertermia_mestnaya",
+      "type": "symptom",
+      "label": "Местная гипертермия"
+    },
+    {
+      "id": "symptom_ogranichenie_obema_dvizheniy",
+      "type": "symptom",
+      "label": "Ограничение объёма движений"
+    },
+    {
+      "id": "symptom_utrennyaya_skovanost",
+      "type": "symptom",
+      "label": "Утренняя скованность"
+    },
+    {
+      "id": "symptom_podvyvikhy",
+      "type": "symptom",
+      "label": "Подвывихи в мелких суставах"
+    },
+    {
+      "id": "symptom_koksit",
+      "type": "symptom",
+      "label": "Коксит (боль в паху)"
+    },
+    {
+      "id": "symptom_ogranichenie_dvizheniy_nizhnie_konechnosti",
+      "type": "symptom",
+      "label": "Ограничение движений нижних конечностей"
+    },
+    {
+      "id": "symptom_izmenenie_pokhodki",
+      "type": "symptom",
+      "label": "Изменение походки"
+    },
+    {
+      "id": "symptom_daktilit",
+      "type": "symptom",
+      "label": "Дактилит"
+    },
+    {
+      "id": "symptom_entezit",
+      "type": "symptom",
+      "label": "Энтезит"
+    },
+    {
+      "id": "symptom_spondilit",
+      "type": "symptom",
+      "label": "Спондилит"
+    },
+    {
+      "id": "symptom_sakroilit",
+      "type": "symptom",
+      "label": "Сакроилиит"
+    },
+    {
+      "id": "symptom_psoriaz",
+      "type": "symptom",
+      "label": "Псориаз"
+    },
+    {
+      "id": "symptom_porazheniya_nogtey",
+      "type": "symptom",
+      "label": "Поражение ногтей"
+    },
+    {
+      "id": "symptom_konjunktivit",
+      "type": "symptom",
+      "label": "Конъюнктивит"
+    },
+    {
+      "id": "symptom_uveit",
+      "type": "symptom",
+      "label": "Увеит"
+    },
+    {
+      "id": "symptom_vz_k",
+      "type": "symptom",
+      "label": "Воспалительные заболевания кишечника"
+    },
+    {
+      "id": "symptom_subfebrilnaya_temperatura",
+      "type": "symptom",
+      "label": "Субфебрильная температура"
+    },
+    {
+      "id": "symptom_snizhenie_massy_tela",
+      "type": "symptom",
+      "label": "Снижение массы тела"
+    },
+    {
+      "id": "symptom_obshchaya_slabost",
+      "type": "symptom",
+      "label": "Общая слабость"
+    },
+    {
+      "id": "symptom_otek_kostnogo_mozga",
+      "type": "symptom",
+      "label": "Отёк костного мозга"
+    },
+    {
+      "id": "symptom_vospalitelnaia_bol_v_spine",
+      "type": "symptom",
+      "label": "Воспалительная боль в спине"
+    },
+    {
+      "id": "symptom_ogranichenie_podvizhnosti_vertebri",
+      "type": "symptom",
+      "label": "Ограничение подвижности позвоночника"
+    },
+    {
+      "id": "symptom_ahillodiniya",
+      "type": "symptom",
+      "label": "Ахиллодиния"
+    },
+    {
+      "id": "symptom_tenosinovit",
+      "type": "symptom",
+      "label": "Теносиновит"
+    },
+    {
+      "id": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "diagnosis",
+      "label": "Дистальная межфаланговая псориатическая артропатия",
+      "icd_code": "M07.0"
+    },
+    {
+      "id": "diagnosis_mutliruyushchiy_artirit",
+      "type": "diagnosis",
+      "label": "Мутилирующий артрит",
+      "icd_code": "M07.1"
+    },
+    {
+      "id": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "diagnosis",
+      "label": "Псориатический спондилит",
+      "icd_code": "M07.2"
+    },
+    {
+      "id": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "diagnosis",
+      "label": "Другие псориатические артропатии",
+      "icd_code": "M07.3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ограничение объёма движений, утренняя скованность ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ограничение объёма движений, утренняя скованность ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ограничение объёма движений, утренняя скованность ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ограничение объёма движений, утренняя скованность ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_sustavov",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_sustavov",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_sustavov",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_otechnost_sustavov",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrashenie_sustavov",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrashenie_sustavov",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrashenie_sustavov",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pokrashenie_sustavov",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertermia_mestnaya",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertermia_mestnaya",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertermia_mestnaya",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_gipertermia_mestnaya",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_obema_dvizheniy",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (ограничение объёма движений, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_obema_dvizheniy",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (ограничение объёма движений, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_obema_dvizheniy",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (ограничение объёма движений, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ogranichenie_obema_dvizheniy",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (ограничение объёма движений, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennyaya_skovanost",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (утренняя скованность в суставах, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennyaya_skovanost",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (утренняя скованность в суставах, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennyaya_skovanost",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (утренняя скованность в суставах, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_utrennyaya_skovanost",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (утренняя скованность в суставах, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_daktilit",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... дактилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_daktilit",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... дактилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_daktilit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... дактилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_daktilit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... дактилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entezit",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... энтезит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entezit",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... энтезит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entezit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... энтезит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_entezit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... энтезит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spondilit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Клинической картине ... спондилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spondilit",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... спондилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spondilit",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... спондилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spondilit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... спондилит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sakroilit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Клинической картине ... сакроилиит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sakroilit",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... сакроилиит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sakroilit",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... сакроилиит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_sakroilit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... сакроилиит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psoriaz",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Псориатический артрит часто развивается у пациентов с кожным псориазом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psoriaz",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Псориатический артрит часто развивается у пациентов с кожным псориазом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psoriaz",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Псориатический артрит часто развивается у пациентов с кожным псориазом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psoriaz",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Псориатический артрит часто развивается у пациентов с кожным псориазом",
+      "properties": {}
+    },
+    {
+      "source": "symptom_porazheniya_nogtey",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение ногтей является одним из клинических проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_porazheniya_nogtey",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение ногтей является одним из клинических проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_porazheniya_nogtey",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение ногтей является одним из клинических проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_porazheniya_nogtey",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение ногтей является одним из клинических проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konjunktivit",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konjunktivit",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konjunktivit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konjunktivit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveit",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveit",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.95,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_uveit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vz_k",
+      "target": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Воспалительные заболевания кишечника (ВЗК) – одно из внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vz_k",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Воспалительные заболевания кишечника (ВЗК) – одно из внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vz_k",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Воспалительные заболевания кишечника (ВЗК) – одно из внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vz_k",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Воспалительные заболевания кишечника (ВЗК) – одно из внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "symptom_otechnost_sustavov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "symptom_pokrashenie_sustavov",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "symptom_gipertermia_mestnaya",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (боль, отечность, покраснение суставов, местная гипертермия, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "symptom_ogranichenie_obema_dvizheniy",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (ограничение объёма движений, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bol_v_sustavah",
+      "target": "symptom_utrennyaya_skovanost",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Жалобы на наличие признаков: - артрита (утренняя скованность в суставах, ...)",
+      "properties": {}
+    },
+    {
+      "source": "symptom_daktilit",
+      "target": "symptom_entezit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... дактилит ... энтезит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_spondilit",
+      "target": "symptom_sakroilit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Клинической картине ... спондилит, сакроилиит ... часто в сочетании с ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psoriaz",
+      "target": "symptom_porazheniya_nogtey",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Псориаз ... поражение ногтей ... являются клиническими проявлениями ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_konjunktivit",
+      "target": "symptom_uveit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Поражение глаз (конъюнктивит, увеит) входит в перечень внесуставных проявлений ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vz_k",
+      "target": "symptom_subfebrilnaya_temperatura",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Конституциональные изменения (субфебрильная температура, снижение массы тела, общая слабость) перечислены как признаки ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_obshchaya_slabost",
+      "target": "symptom_snizhenie_massy_tela",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Конституциональные изменения (субфебрильная температура, снижение массы тела, общая слабость) перечислены как признаки ПсА",
+      "properties": {}
+    },
+    {
+      "source": "symptom_ahillodiniya",
+      "target": "symptom_tenosinovit",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Ахиллодиния и теносиновит указаны как проявления энтезисов",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "target": "diagnosis_mutliruyushchiy_artirit",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Выделяют 5 основных клинических вариантов ПсА, включая ДМПА и Мутилирующий артрит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Выделяют 5 основных клинических вариантов ПсА, включая ДМПА и Псориатический спондилит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_distalnaya_mezhfalangovaya_psoriaticheskaya_artropatiya",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Выделяют 5 основных клинических вариантов ПсА, включая ДМПА и Другие псориатические артропатии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mutliruyushchiy_artirit",
+      "target": "diagnosis_psoriaticheskiy_spondilit",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Выделяют 5 основных клинических вариантов ПсА, включая Мутилирующий артрит и Псориатический спондилит",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_mutliruyushchiy_artirit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Выделяют 5 основных клинических вариантов ПсА, включая Мутилирующий артрит и Другие псориатические артропатии",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_psoriaticheskiy_spondilit",
+      "target": "diagnosis_drugie_psoriaticheskie_artropatii",
+      "type": "appear-with",
+      "weight": 0.95,
+      "evidence": "Выделяют 5 основных клинических вариантов ПсА, включая Псориатический спондилит и Другие псориатические артропатии",
+      "properties": {}
+    }
+  ]
+}

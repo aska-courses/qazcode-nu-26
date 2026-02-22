@@ -1,0 +1,122 @@
+[
+  {
+    "source": "symptom_headache",
+    "target": "symptom_nausea",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможны головная боль, тошнота, рвота, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможны головная боль, тошнота, рвота, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "symptom_vomiting",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможны головная боль, тошнота, рвота, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "symptom_headache",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "возможны головная боль, тошнота, рвота, повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_puncture_pain",
+    "target": "symptom_inflammatory_process",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "Возможные осложнения в области пункции, такие как воспалительный процесс тканей и спинного мозга",
+    "properties": {}
+  },
+  {
+    "source": "symptom_encephalopathy",
+    "target": "k74_0_fibrosis_cirrhosis_liver",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Критерии: ... легкая энцефалопатия ...",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "d65_disseminated_coagulation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахикардия >100 ударов в минуту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachypnea",
+    "target": "d65_disseminated_coagulation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тахипноэ >26 в минуту",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fever",
+    "target": "d65_disseminated_coagulation",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "повышение температуры тела",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subarachnoid_hemorrhage",
+    "target": "i60_i69_cerebrovascular_diseases",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ЦВБ с выраженной коагулопатией, судорожным синдромом и субарахноидальным кровоизлиянием",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizure_syndrome",
+    "target": "i60_i69_cerebrovascular_diseases",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "ЦВБ с выраженной коагулопатией, судорожным синдромом и субарахноидальным кровоизлиянием",
+    "properties": {}
+  },
+  {
+    "source": "g95_0_syringomyelia",
+    "target": "g12_2_motor_neuron_disease",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "БАС, сирингомиелия, спиноцеребральная атаксия",
+    "properties": {}
+  },
+  {
+    "source": "k74_0_fibrosis_cirrhosis_liver",
+    "target": "k74_4_secondary_biliary_cirrhosis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "K74.0 – Фиброз и цирроз печени; K74.4 – Вторичный билиарный цирроз",
+    "properties": {}
+  },
+  {
+    "source": "k74_4_secondary_biliary_cirrhosis",
+    "target": "k74_5_unspecified_biliary_cirrhosis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "K74.4 – Вторичный билиарный цирроз; K74.5 – Билиарный цирроз неуточненный",
+    "properties": {}
+  },
+  {
+    "source": "k74_5_unspecified_biliary_cirrhosis",
+    "target": "k74_6_other_unspecified_cirrhosis",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "K74.5 – Билиарный цирроз неуточненный; K74.6 – Другой и неуточненный цирроз печени",
+    "properties": {}
+  }
+]

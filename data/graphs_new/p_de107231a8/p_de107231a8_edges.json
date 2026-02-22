@@ -1,0 +1,90 @@
+[
+  {
+    "source": "symptom_bol_i_oteok_myagkikh_tkanej_lica",
+    "target": "diagnosis_perelom_skulovoi_kosti_i_verhnei_chelyusti_zakrytyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Боль и припухлость в области мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovo_tochenie_iz_polosti_rita",
+    "target": "diagnosis_perelom_skulovoi_kosti_i_verhnei_chelyusti_zakrytyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кровотечение из полости рта и/или носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_golovokruzhenie",
+    "target": "diagnosis_perelom_nizhnei_chelyusti_otkrytyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение, тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shok",
+    "target": "diagnosis_mnozhestvennye_perelomy_kostey_cherpa_i_licevyh_kostey_otkrytyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Шок, кома, асфиксия, кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_asimetriya_lica",
+    "target": "diagnosis_perelomy_drugikh_licevyh_kostey_i_kostey_cherpa_zakrytyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асимметрия лица за счет отека мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovo_izlianie_v_konjunktivu",
+    "target": "diagnosis_perelom_neutochnennoy_chasti_kostey_cherpa_i_licevyh_kostey_otkrytyy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом «очков» - кровоизлияния в конъюнктиву, кровоподтек и гематома вокруг глаза",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_i_oteok_myagkikh_tkanej_lica",
+    "target": "symptom_asimetriya_lica",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Боль и припухлость в области мягких тканей; асимметрия лица за счет отека мягких тканей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovo_tochenie_iz_polosti_rita",
+    "target": "symptom_krovo_tochenie_iz_nosa",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "кровотечение из полости рта и/или носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shok",
+    "target": "symptom_koma",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Шок, кома, асфиксия, кровотечение",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_perelom_skulovoi_kosti_i_verhnei_chelyusti_zakrytyy",
+    "target": "diagnosis_perelom_nizhnei_chelyusti_zakrytyy",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Множественные (сочетанные) переломы лицевых костей и костей черепа",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mnozhestvennye_perelomy_kostey_cherpa_i_licevyh_kostey_zakrytyy",
+    "target": "diagnosis_perelomy_drugikh_licevyh_kostey_i_kostey_cherpa_zakrytyy",
+    "type": "appear-with",
+    "weight": 0.75,
+    "evidence": "Множественные (сочетанные) переломы лицевых костей и костей черепа",
+    "properties": {}
+  }
+]

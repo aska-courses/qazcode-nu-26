@@ -1,0 +1,327 @@
+{
+  "protocol_id": "p_2565581be9",
+  "nodes": [
+    {
+      "id": "symptom_1",
+      "type": "symptom",
+      "label": "повышенная ломкость костей скелета"
+    },
+    {
+      "id": "symptom_2",
+      "type": "symptom",
+      "label": "деформация и укорочение конечностей"
+    },
+    {
+      "id": "symptom_3",
+      "type": "symptom",
+      "label": "деформации позвоночника"
+    },
+    {
+      "id": "symptom_4",
+      "type": "symptom",
+      "label": "изменение цвета склер"
+    },
+    {
+      "id": "symptom_5",
+      "type": "symptom",
+      "label": "деформация грудной клетки и ребер"
+    },
+    {
+      "id": "symptom_6",
+      "type": "symptom",
+      "label": "хрупкость и ломкость зубов"
+    },
+    {
+      "id": "symptom_7",
+      "type": "symptom",
+      "label": "прогрессирующее снижение слуха"
+    },
+    {
+      "id": "symptom_8",
+      "type": "symptom",
+      "label": "отставание физического развития"
+    },
+    {
+      "id": "symptom_9",
+      "type": "symptom",
+      "label": "слабость мышц"
+    },
+    {
+      "id": "symptom_10",
+      "type": "symptom",
+      "label": "множественные переломы костей скелета"
+    },
+    {
+      "id": "symptom_11",
+      "type": "symptom",
+      "label": "позднее прорезывание зубов у детей"
+    },
+    {
+      "id": "symptom_12",
+      "type": "symptom",
+      "label": "крошение зубов и раннее проявление кариеса"
+    },
+    {
+      "id": "symptom_13",
+      "type": "symptom",
+      "label": "желтый цвет зубов (янтарные зубы)"
+    },
+    {
+      "id": "symptom_14",
+      "type": "symptom",
+      "label": "гипотоничные, слаборазвитые мышцы"
+    },
+    {
+      "id": "symptom_15",
+      "type": "symptom",
+      "label": "высокая частота развития паховых и пупочных грыж"
+    },
+    {
+      "id": "symptom_16",
+      "type": "symptom",
+      "label": "голубые склеры"
+    },
+    {
+      "id": "symptom_17",
+      "type": "symptom",
+      "label": "гиперэластичность связочного аппарата суставов"
+    },
+    {
+      "id": "symptom_18",
+      "type": "symptom",
+      "label": "низкий рост, укорочение и деформация костей"
+    },
+    {
+      "id": "diagnosis_1",
+      "type": "diagnosis",
+      "label": "Несовершенный остеогенез",
+      "icd_code": "Q78.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_1",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "повышенная ломкость костей скелета;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация и укорочение конечностей;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_3",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформации позвоночника;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "изменение цвета склер;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_5",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация грудной клетки и ребер;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "хрупкость и ломкость зубов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_7",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "прогрессирующее снижение слуха;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_8",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "отставание физического развития;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость мышц;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_10",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "наличие множественных переломов и деформаций костей скелета;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "позднее прорезывание зубов у детей (позже 1,5 лет), крошение зубов, раннее проявление кариеса;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "крошение зубов, раннее проявление кариеса;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_13",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "цвет зубов желтый («янтарные» зубы);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_14",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слаборазвитые мышцы (гипотоничные, значительно уменьшены в объеме);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_15",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "высокая частота развития паховых, пупочных грыж;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_16",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "голубые склеры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_17",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "слабость и гиперэластичность связочного аппарата суставов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_18",
+      "target": "diagnosis_1",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "низкий рост, укорочение и деформация костей, чаще верхние и нижние конечности.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_4",
+      "target": "symptom_16",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "изменение цвета склер; ... голубые склеры;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_9",
+      "target": "symptom_14",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "слабость мышц. ... слаборазвитые мышцы (гипотоничные...);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_11",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хрупкость и ломкость зубов; ... позднее прорезывание зубов у детей (позже 1,5 лет), крошение зубов, раннее проявление кариеса;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_12",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хрупкость и ломкость зубов; ... крошение зубов, раннее проявление кариеса;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_6",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "хрупкость и ломкость зубов; ... цвет зубов желтый («янтарные» зубы);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_12",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "позднее прорезывание зубов у детей (позже 1,5 лет), крошение зубов, раннее проявление кариеса;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_11",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "позднее прорезывание зубов у детей (позже 1,5 лет), крошение зубов, раннее проявление кариеса; цвет зубов желтый («янтарные» зубы);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_12",
+      "target": "symptom_13",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "крошение зубов, раннее проявление кариеса; цвет зубов желтый («янтарные» зубы);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_1",
+      "target": "symptom_10",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "повышенная ломкость костей скелета; ... наличие множественных переломов и деформаций костей скелета;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_2",
+      "target": "symptom_18",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "деформация и укорочение конечностей; ... низкий рост, укорочение и деформация костей, чаще верхние и нижние конечности.",
+      "properties": {}
+    }
+  ]
+}

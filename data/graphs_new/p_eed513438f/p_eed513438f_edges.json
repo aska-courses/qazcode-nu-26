@@ -1,0 +1,154 @@
+[
+  {
+    "source": "c81_bolezn_hodzhkina",
+    "target": "c81_0_limfoidnoe_preobladanie",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C81.0 Лимфоидное преобладание",
+    "properties": {}
+  },
+  {
+    "source": "c81_bolezn_hodzhkina",
+    "target": "c81_1_nodularnyj_skleroz",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C81.1 Нодулярный склероз",
+    "properties": {}
+  },
+  {
+    "source": "c81_bolezn_hodzhkina",
+    "target": "c81_2_smeshanno_kletocnyj_variant",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C81.2 Смешанно‑клеточный вариант",
+    "properties": {}
+  },
+  {
+    "source": "c81_bolezn_hodzhkina",
+    "target": "c81_3_limfoidnoe_isteschnie",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C81.3 Лимфоидное истощение",
+    "properties": {}
+  },
+  {
+    "source": "c81_bolezn_hodzhkina",
+    "target": "c81_7_drugie_formy_hodzhkina",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C81.7 Другие формы болезни Ходжкина",
+    "properties": {}
+  },
+  {
+    "source": "c81_bolezn_hodzhkina",
+    "target": "c81_9_hodzhkina_neutochnennaya",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C81.9 Болезнь Ходжкина неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_0_melkokletocna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.0 Мелкоклеточная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_1_melkokletocna_s_rascheplennymi_jaderami",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.1 Мелкоклеточная с расщепленными ядрами (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_2_smeshannaja_melkokletocna_i_krupnokletocna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.2 Смешанная мелко‑ и крупноклеточная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_3_krupnokletocna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.3 Крупноклеточная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_4_immunoblastna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.4 Иммунобластная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_5_limfoblastna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.5 Лимфобластная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_6_nedifferencirovanna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.6 Недифференцированная (диффузная)",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_7_opuhol_berkitta",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.7 Опухоль Беркитта",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_8_drugie_tipy_diffuznyh_nehodzhkinskih_limfom",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.8 Другие типы диффузных неходжкинских лимфом",
+    "properties": {}
+  },
+  {
+    "source": "c83_difuzna_nehodzhkinskaja_limfoma",
+    "target": "c83_9_neutochnennaja_diffuzna",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "C83.9 Диффузная неходжкинская лимфома неуточненная",
+    "properties": {}
+  },
+  {
+    "source": "symptom_liyhoforka",
+    "target": "symptom_kashl",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Лихорадка является наиболее частым системным проявлением инфекционных осложнений... Кашель, сухой или с мокротой, кровохарканье, боль в грудной клетке, одышка.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_toshnota",
+    "target": "symptom_rvota",
+    "type": "co-occurs",
+    "weight": 0.95,
+    "evidence": "Тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashl",
+    "target": "symptom_krovokharkanie",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Кашель, сухой или с мокротой, кровохарканье",
+    "properties": {}
+  }
+]

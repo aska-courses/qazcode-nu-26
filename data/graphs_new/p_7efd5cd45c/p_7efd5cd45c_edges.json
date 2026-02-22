@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_onemenie_koncov_nog_stop",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "онемение кончиков пальцев ног, стоп",
+    "properties": {}
+  },
+  {
+    "source": "symptom_parestezii",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "парэстезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zhzhenie_nog_podoshvy_ikry",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "жжение в пальцах ног, подошвах, икрах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_boli_nog_podoshvy_ikry",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в пальцах ног, подошвах, икрах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slabost_nizhnih_konechnostey",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "слабость в нижних конечностях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krampi",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "крампи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_simmetrichnaya_distalnaya_lokalizatsiya",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симметричная дистальная локализация неврологических симптомов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nochnoye_uvelichenie_simptomov",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "характерно усиление симптоматики в ночное время",
+    "properties": {}
+  },
+  {
+    "source": "symptom_yazvy_v_stopah",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "длительно незаживающие язвенные дефекты в стопах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bolevaya_gipostezia",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение/отсутствие болевой чувствительности в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_temperaturnaya_gipostezia",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение/отсутствие температурной чувствительности в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_allodiniya",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "аллодиния (синдром, при котором человек чувствует боль от факторов, которые обычно боли не вызывают)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_giperestaziya",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "гиперэстезия (повышенная чувствительность к раздражителям) в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizhenie_vibratsionnoy_chuvstvitelnosti",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение/отсутствие вибрационной чувствительности в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizhenie_myshechno_sustavnogo_chuvstva",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение/отсутствие мышечно-суставного чувства в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizhenie_ahillovykh_i_kolennykh_refleksov",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение/выпадение ахилловых и коленных рефлексов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizhenie_sily_myshts",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение силы мышц в дистальных отделах конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sensitivnaya_ataksiya",
+    "target": "diagnosis_diabeticheskaya_polineuropatiya",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сенситивная атаксия (нарушение координации при закрытых глазах)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_onemenie_koncov_nog_stop",
+    "target": "symptom_parestezii",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "онемение кончиков пальцев ног, стоп; парэстезии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_allodiniya",
+    "target": "symptom_giperestaziya",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "аллодиния ... гиперэстезия в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizhenie_vibratsionnoy_chuvstvitelnosti",
+    "target": "symptom_nizhenie_myshechno_sustavnogo_chuvstva",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение/отсутствие вибрационной чувствительности и мышечно-суставного чувства в дистальных отделах нижних конечностей",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nizhenie_ahillovykh_i_kolennykh_refleksov",
+    "target": "symptom_nizhenie_sily_myshts",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение/выпадение ахилловых и коленных рефлексов; снижение силы мышц в дистальных отделах конечностей",
+    "properties": {}
+  }
+]

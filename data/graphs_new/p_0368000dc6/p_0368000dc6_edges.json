@@ -1,0 +1,258 @@
+[
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.95,
+    "evidence": "В остром периоде у большинства заболевших температура тела повышается до 39–40 °C",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "diagnosis_paratif_a",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "diagnosis_paratif_b",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "diagnosis_paratif_c",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела; …",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vjalost",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Жалобы: вялость, адинамия, анорексия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bred",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "бред, галлюцинации, потеря сознания",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diareicheskij_sindrom",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "чем моложе ребенок, тем чаще регистрируется диарейный синдром",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kishechnye_krovotechenija",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "contradicts",
+    "weight": 0.25,
+    "evidence": "редко наблюдаются кишечные кровотечения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_perforatsija_kishechnika",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "contradicts",
+    "weight": 0.25,
+    "evidence": "редко наблюдаются ... перфорации",
+    "properties": {}
+  },
+  {
+    "source": "symptom_pnevmonija",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто развиваются ... пневмония",
+    "properties": {}
+  },
+  {
+    "source": "symptom_its",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "часто развиваются ... ИТШ",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angina_duge",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "contradicts",
+    "weight": 0.25,
+    "evidence": "ангина Дюге не встречается",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angina_duge",
+    "target": "diagnosis_paratif_a",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Физикальное обследование ... ангина Дюге",
+    "properties": {}
+  },
+  {
+    "source": "symptom_meteorizm",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "метеоризм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gepatosplenomegaliya",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гепатоспленомегалия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_uvelichenie_mezenterialnyh_linf_uzlov",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "увеличение мезентериальных лимфатических узлов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otnositelnaia_bradiakardiia",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "относительная брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dikrotija_pulsa",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "дикротия пульса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_arterialnogo_davlenija",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение артериального давления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_skudnaia_rozeloznaja_syp",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "скудная розеолезная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_zheltyshnoe_okrashivanie_kozhi_ladon_i_poshvi",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "желтушное окрашивание кожи ладоней и подошв",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tifoznyj_status",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тифозный статус",
+    "properties": {}
+  },
+  {
+    "source": "symptom_subfebrilnye_temperatury",
+    "target": "diagnosis_paratif_a",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в атипичной форме ... субфебрильные цифры",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kratkovremennoe_razzhizhenie_stula",
+    "target": "diagnosis_paratif_a",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "кратковременное разжижение стула",
+    "properties": {}
+  },
+  {
+    "source": "symptom_parotit",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто развиваются ... паротит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_holecistit",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто развиваются ... холецистит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tromboflebiti",
+    "target": "diagnosis_brushnoj_tif",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "часто развиваются ... тромбофлебит",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_brushnoj_tif",
+    "target": "diagnosis_paratif_a",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Брюшной тиф … Паратифы – инфекции тифо‑паратифозной группы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_brushnoj_tif",
+    "target": "diagnosis_paratif_b",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Брюшной тиф … Паратифы – инфекции тифо‑паратифозной группы",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_brushnoj_tif",
+    "target": "diagnosis_paratif_c",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "Брюшной тиф … Паратифы – инфекции тифо‑паратифозной группы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_povysenie_temperatury_tela",
+    "target": "symptom_vjalost",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Жалобы: повышение температуры тела; вялость, адинамия, анорексия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bred",
+    "target": "symptom_galjukinacii",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "бред, галлюцинации, потеря сознания",
+    "properties": {}
+  }
+]

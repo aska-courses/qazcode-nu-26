@@ -1,0 +1,186 @@
+[
+  {
+    "source": "symptom_mass_oral",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_sublingual",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в подъязычной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_submandibular",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в поднижнечелюстной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_preauricular",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "в околоушной области",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slow_painless_growth",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "медленный безболезненный рост образования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "асимметрия лица за счет образования округлой формы в области околоушной, поднижнечелюстной, подъязычной слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bluish_hue",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при размерах кисты полости рта ... она имеет голубоватый оттенок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fluctuation",
+    "target": "diagnosis_mucocele_salivary_gland",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "симптом флюктуации характерен при размерах кисты",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_oral",
+    "target": "symptom_mass_sublingual",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта, в подъязычной, поднижнечелюстной или околоушной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_oral",
+    "target": "symptom_mass_submandibular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта, в подъязычной, поднижнечелюстной или околоушной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_oral",
+    "target": "symptom_mass_preauricular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта, в подъязычной, поднижнечелюстной или околоушной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_sublingual",
+    "target": "symptom_mass_submandibular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта, в подъязычной, поднижнечелюстной или околоушной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_sublingual",
+    "target": "symptom_mass_preauricular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта, в подъязычной, поднижнечелюстной или околоушной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mass_submandibular",
+    "target": "symptom_mass_preauricular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "на образование в области слизистой оболочки полости рта, в подъязычной, поднижнечелюстной или околоушной областях",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slow_painless_growth",
+    "target": "symptom_mass_oral",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "медленный безболезненный рост образования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slow_painless_growth",
+    "target": "symptom_mass_sublingual",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "медленный безболезненный рост образования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slow_painless_growth",
+    "target": "symptom_mass_submandibular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "медленный безболезненный рост образования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_slow_painless_growth",
+    "target": "symptom_mass_preauricular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "медленный безболезненный рост образования",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "symptom_mass_sublingual",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "асимметрия лица за счет образования округлой формы в области околоушной, поднижнечелюстной, подъязычной слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "symptom_mass_submandibular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "асимметрия лица за счет образования округлой формы в области околоушной, поднижнечелюстной, подъязычной слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_facial_asymmetry",
+    "target": "symptom_mass_preauricular",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "асимметрия лица за счет образования округлой формы в области околоушной, поднижнечелюстной, подъязычной слюнной железы",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bluish_hue",
+    "target": "symptom_mass_oral",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "при размерах кисты полости рта ... она имеет голубоватый оттенок",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fluctuation",
+    "target": "symptom_mass_oral",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "симптом флюктуации характерен при размерах кисты",
+    "properties": {}
+  }
+]

@@ -1,0 +1,416 @@
+{
+  "protocol_id": "p_03c76ddd04",
+  "nodes": [
+    {
+      "id": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "diagnosis",
+      "label": "Камни желчного протока с холангитом",
+      "icd_code": "K80.3"
+    },
+    {
+      "id": "diagnosis_holangit",
+      "type": "diagnosis",
+      "label": "Холангит",
+      "icd_code": "K83.0"
+    },
+    {
+      "id": "symptom_fever",
+      "type": "symptom",
+      "label": "Повышение температуры тела"
+    },
+    {
+      "id": "symptom_chills",
+      "type": "symptom",
+      "label": "Озноб"
+    },
+    {
+      "id": "symptom_right_upper_quadrant_pain",
+      "type": "symptom",
+      "label": "Боль в правом подреберье и/или эпигастрии"
+    },
+    {
+      "id": "symptom_nausea",
+      "type": "symptom",
+      "label": "Тошнота"
+    },
+    {
+      "id": "symptom_vomiting",
+      "type": "symptom",
+      "label": "Рвота"
+    },
+    {
+      "id": "symptom_hypotension",
+      "type": "symptom",
+      "label": "Артериальная гипотензия"
+    },
+    {
+      "id": "symptom_jaundice",
+      "type": "symptom",
+      "label": "Желтуха"
+    },
+    {
+      "id": "symptom_pruritus",
+      "type": "symptom",
+      "label": "Кожный зуд"
+    },
+    {
+      "id": "symptom_dark_urine",
+      "type": "symptom",
+      "label": "Потемнение мочи"
+    },
+    {
+      "id": "symptom_acholic_stool",
+      "type": "symptom",
+      "label": "Ахоличный стул"
+    },
+    {
+      "id": "symptom_dry_mouth",
+      "type": "symptom",
+      "label": "Сухость во рту"
+    },
+    {
+      "id": "symptom_weakness",
+      "type": "symptom",
+      "label": "Выраженная слабость"
+    },
+    {
+      "id": "symptom_altered_consciousness",
+      "type": "symptom",
+      "label": "Изменение сознания вплоть до сопора"
+    },
+    {
+      "id": "symptom_psychic_disturbances",
+      "type": "symptom",
+      "label": "Нарушения психики"
+    },
+    {
+      "id": "symptom_tachycardia",
+      "type": "symptom",
+      "label": "Тахикардия"
+    },
+    {
+      "id": "symptom_hepatomegaly",
+      "type": "symptom",
+      "label": "Увеличение печени"
+    },
+    {
+      "id": "symptom_splenomegaly",
+      "type": "symptom",
+      "label": "Увеличение селезенки"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Повышение температуры тела (лихорадка); озноб; боль в правом подреберье и/или эпигастрии; тошнота; рвота; артериальная гипотензия; желтуха; кожный зуд; потемнение мочи; ахоличный стул; сухость во рту; выраженная слабость; изменение сознания вплоть до сопора; возможны нарушения психики.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Повышение температуры тела (лихорадка); озноб; боль в правом подреберье и/или эпигастрии; тошнота; рвота; артериальная гипотензия; желтуха; кожный зуд; потемнение мочи; ахоличный стул; сухость во рту; выраженная слабость; изменение сознания вплоть до сопора; возможны нарушения психики.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Повышение температуры тела (лихорадка); озноб; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_chills",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Повышение температуры тела (лихорадка); озноб; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_right_upper_quadrant_pain",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Боль в правом подреберье и/или эпигастрии; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_right_upper_quadrant_pain",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Боль в правом подреберье и/или эпигастрии; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тошнота; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тошнота; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Рвота; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vomiting",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Рвота; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Артериальная гипотензия; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Артериальная гипотензия; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Желтуха; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_jaundice",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Желтуха; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pruritus",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кожный зуд; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pruritus",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Кожный зуд; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dark_urine",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Потемнение мочи; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dark_urine",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Потемнение мочи; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acholic_stool",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Ахоличный стул; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_acholic_stool",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Ахоличный стул; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_mouth",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Сухость во рту; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_dry_mouth",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Сухость во рту; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Выраженная слабость; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weakness",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Выраженная слабость; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_altered_consciousness",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Изменение сознания вплоть до сопора; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_altered_consciousness",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Изменение сознания вплоть до сопора; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychic_disturbances",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Возможны нарушения психики; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_psychic_disturbances",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Возможны нарушения психики; ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тахикардия (отмечена при физикальном обследовании); ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_tachycardia",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Тахикардия (отмечена при физикальном обследовании); ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Увеличение печени (отмечено при пальпации); ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hepatomegaly",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Увеличение печени (отмечено при пальпации); ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_holangit",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Увеличение селезенки (отмечено при пальпации); ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_splenomegaly",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "supports",
+      "weight": 0.75,
+      "evidence": "Увеличение селезенки (отмечено при пальпации); ...",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_chills",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Повышение температуры тела (лихорадка); озноб;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_fever",
+      "target": "symptom_right_upper_quadrant_pain",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Повышение температуры тела (лихорадка); ... боль в правом подреберье и/или эпигастрии;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nausea",
+      "target": "symptom_vomiting",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Тошнота; рвота;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_hypotension",
+      "target": "symptom_tachycardia",
+      "type": "co-occurs",
+      "weight": 0.75,
+      "evidence": "Артериальная гипотензия; тахикардия;",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_holangit",
+      "target": "diagnosis_kamni_zhelchnogo_protoka_s_holangitom",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код(ы) МКБ-10: К80.3 Камни желчного протока с холангитом К83.0 Холангит",
+      "properties": {}
+    }
+  ]
+}

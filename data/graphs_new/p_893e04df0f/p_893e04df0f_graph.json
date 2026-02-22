@@ -1,0 +1,131 @@
+{
+  "protocol_id": "p_893e04df0f",
+  "nodes": [
+    {
+      "id": "elective_mutism",
+      "type": "diagnosis",
+      "label": "Элективный мутизм",
+      "icd_code": "F94.0"
+    },
+    {
+      "id": "non_organic_enuresis",
+      "type": "diagnosis",
+      "label": "Энурез неорганической природы",
+      "icd_code": "F98.0"
+    },
+    {
+      "id": "non_organic_encopresis",
+      "type": "diagnosis",
+      "label": "Энкопрез неорганической природы",
+      "icd_code": "F98.1"
+    },
+    {
+      "id": "feeding_disorder_childhood",
+      "type": "diagnosis",
+      "label": "Расстройство приема пищи в детском возрасте",
+      "icd_code": "F98.2"
+    },
+    {
+      "id": "stereotypic_movement_disorder",
+      "type": "diagnosis",
+      "label": "Стереотипные двигательные расстройства",
+      "icd_code": "F98.4"
+    },
+    {
+      "id": "sleep_disturbances",
+      "type": "symptom",
+      "label": "Нарушения сна"
+    },
+    {
+      "id": "anxiety",
+      "type": "symptom",
+      "label": "Тревога"
+    },
+    {
+      "id": "epileptic_paroxysms",
+      "type": "symptom",
+      "label": "Эпилептические и эпилептиформные пароксизмы"
+    },
+    {
+      "id": "depressive_manifestations",
+      "type": "symptom",
+      "label": "Депрессивные проявления"
+    },
+    {
+      "id": "anxiety_disorders",
+      "type": "symptom",
+      "label": "Тревожные расстройства"
+    },
+    {
+      "id": "behavioral_disturbances",
+      "type": "symptom",
+      "label": "Поведенческие нарушения"
+    },
+    {
+      "id": "biological_rhythm_disturbances",
+      "type": "symptom",
+      "label": "Нарушения биологических ритмов"
+    },
+    {
+      "id": "somatic_diseases",
+      "type": "symptom",
+      "label": "Соматические заболевания"
+    },
+    {
+      "id": "neurological_disorders",
+      "type": "symptom",
+      "label": "Неврологические расстройства"
+    },
+    {
+      "id": "gynecological_disorders",
+      "type": "symptom",
+      "label": "Гинекологические расстройства"
+    },
+    {
+      "id": "desocializing_manifestations",
+      "type": "symptom",
+      "label": "Десоциализирующие проявления"
+    },
+    {
+      "id": "psychopathological_disorders",
+      "type": "symptom",
+      "label": "Психопатологические расстройства"
+    },
+    {
+      "id": "psychotrauma",
+      "type": "symptom",
+      "label": "Психотравма"
+    },
+    {
+      "id": "frustration",
+      "type": "symptom",
+      "label": "Фрустрация"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sleep_disturbances",
+      "target": "anxiety",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "появление симптомов наряду с нарушениями сна, тревогой",
+      "properties": {}
+    },
+    {
+      "source": "psychotrauma",
+      "target": "frustration",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "содержательная связь между характером психотравмы ... патологической фиксацией на фрустрации",
+      "properties": {}
+    },
+    {
+      "source": "psychopathological_disorders",
+      "target": "desocializing_manifestations",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "психопатологические расстройства с десоциализирующими проявлениями",
+      "properties": {}
+    }
+  ]
+}

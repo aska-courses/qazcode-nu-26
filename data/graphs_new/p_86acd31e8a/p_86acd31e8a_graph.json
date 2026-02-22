@@ -1,0 +1,231 @@
+{
+  "protocol_id": "p_86acd31e8a",
+  "nodes": [
+    {
+      "id": "diagnosis_hypothermia_newborns",
+      "type": "diagnosis",
+      "label": "Гипотермия новорожденных",
+      "icd_code": "Р80"
+    },
+    {
+      "id": "diagnosis_cold_trauma_syndrome",
+      "type": "diagnosis",
+      "label": "Синдром холодовой травмы",
+      "icd_code": "Р80.0"
+    },
+    {
+      "id": "diagnosis_mild_hypothermia",
+      "type": "diagnosis",
+      "label": "Легкая гипотермия",
+      "icd_code": "Р80.8"
+    },
+    {
+      "id": "diagnosis_unspecified_hypothermia",
+      "type": "diagnosis",
+      "label": "Гипотермия новорожденного неуточненная",
+      "icd_code": "Р80.9"
+    },
+    {
+      "id": "diagnosis_environmental_hypothermia",
+      "type": "diagnosis",
+      "label": "Гипотермия новорожденного, вызванная факторами внешней среды",
+      "icd_code": "Р81.0"
+    },
+    {
+      "id": "symptom_cold_extremities",
+      "type": "symptom",
+      "label": "Холодные конечности"
+    },
+    {
+      "id": "symptom_reluctant_sucking",
+      "type": "symptom",
+      "label": "Неохотное сосание"
+    },
+    {
+      "id": "symptom_decreased_motor_activity",
+      "type": "symptom",
+      "label": "Снижение двигательной активности"
+    },
+    {
+      "id": "symptom_weak_cry",
+      "type": "symptom",
+      "label": "Слабый плач"
+    },
+    {
+      "id": "symptom_slow_shallow_irregular_breathing",
+      "type": "symptom",
+      "label": "Замедленное, поверхностное, неравномерное дыхание"
+    },
+    {
+      "id": "symptom_bradycardia",
+      "type": "symptom",
+      "label": "Брадикардия"
+    },
+    {
+      "id": "symptom_pallor",
+      "type": "symptom",
+      "label": "Бледность"
+    },
+    {
+      "id": "symptom_cyanosis",
+      "type": "symptom",
+      "label": "Цианоз кожных покровов"
+    },
+    {
+      "id": "symptom_edema",
+      "type": "symptom",
+      "label": "Отёк (склередема)"
+    },
+    {
+      "id": "symptom_low_body_temperature",
+      "type": "symptom",
+      "label": "Пониженная температура тела (<36,5°C)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_cold_extremities",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • холодные конечности (стопы);",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reluctant_sucking",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • неохотное сосание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_decreased_motor_activity",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • снижение двигательной активности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_weak_cry",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • слабый плач.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_slow_shallow_irregular_breathing",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • замедляется дыхание, оно становится поверхностным, неравномерным;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • развивается брадикардия,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • бледность,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cyanosis",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • цианоз кожных покровов;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_edema",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • склередема.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_low_body_temperature",
+      "target": "diagnosis_hypothermia_newborns",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "Определение: Гипотермия - состояние ... при котором температура тела младенца падает ниже нормального уровня, менее 36,5ºС.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hypothermia_newborns",
+      "target": "diagnosis_cold_trauma_syndrome",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (ы) МКБ-10: Р80 Гипотермия новорожденных. Р80.0 Синдром холодовой травмы.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hypothermia_newborns",
+      "target": "diagnosis_mild_hypothermia",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (ы) МКБ-10: Р80.8 Легкая гипотермия.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hypothermia_newborns",
+      "target": "diagnosis_unspecified_hypothermia",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (ы) МКБ-10: Р80.9 Гипотермия новорожденного неуточненная.",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_hypothermia_newborns",
+      "target": "diagnosis_environmental_hypothermia",
+      "type": "appear-with",
+      "weight": 0.75,
+      "evidence": "Код (ы) МКБ-10: Р81.0 Гипотермия новорожденного, вызванная факторами внешней среды.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_extremities",
+      "target": "symptom_reluctant_sucking",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • холодные конечности (стопы); • неохотное сосание;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_cold_extremities",
+      "target": "symptom_decreased_motor_activity",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • холодные конечности (стопы); • снижение двигательной активности;",
+      "properties": {}
+    },
+    {
+      "source": "symptom_bradycardia",
+      "target": "symptom_pallor",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • развивается брадикардия, • бледность,",
+      "properties": {}
+    },
+    {
+      "source": "symptom_pallor",
+      "target": "symptom_cyanosis",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "12.1 Жалобы и анамнез: • бледность, цианоз кожных покровов;",
+      "properties": {}
+    }
+  ]
+}

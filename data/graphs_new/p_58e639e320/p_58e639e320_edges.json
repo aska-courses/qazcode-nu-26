@@ -1,0 +1,114 @@
+[
+  {
+    "source": "symptom_podtekaniye_okoloplodnyh_vod",
+    "target": "diagnosis_o69_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: возможно на подтекание околоплодных вод.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_sheveleniya_ploda",
+    "target": "diagnosis_o69_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Жалобы: снижение шевеления плода;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anormalnye_serdechnye_ritmy_ploda",
+    "target": "diagnosis_o69_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "при выслушивании сердцебиения плода сразу после разрыва плодных оболочек аномальные сердечные ритмы плода;",
+    "properties": {}
+  },
+  {
+    "source": "symptom_predlezhanie_sosudov_pupoviny",
+    "target": "diagnosis_o69_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Наложение щипцов на предлежанием сосуда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_krovootechenie_predlezhashchego_sosuda",
+    "target": "diagnosis_o69_4",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Кровотечение из предлежащего сосуда",
+    "properties": {}
+  },
+  {
+    "source": "symptom_obvite_pupoviny_vokrug_sheni",
+    "target": "diagnosis_o69_1",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "обвитие пуповины вокруг шеи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_gematoma_pupoviny",
+    "target": "diagnosis_o69_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Гематома пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tromboz_sosudov_pupoviny",
+    "target": "diagnosis_o69_5",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "Тромбоз сосудов пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vypadenie_pupoviny",
+    "target": "diagnosis_o69_0",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "выпадение пуповины",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ugrozhauschee_sostoyanie_ploda",
+    "target": "diagnosis_o69_8",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "угрожающее состояние плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ugrozhauschee_sostoyanie_ploda",
+    "target": "diagnosis_o69_9",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "угрожающее состояние плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vypadenie_pupoviny",
+    "target": "symptom_snizhenie_sheveleniya_ploda",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выпадение пуповины … снижение шевеления плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vypadenie_pupoviny",
+    "target": "symptom_anormalnye_serdechnye_ritmy_ploda",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "выпадение пуповины … аномальные сердечные ритмы плода",
+    "properties": {}
+  },
+  {
+    "source": "symptom_predlezhanie_pupoviny",
+    "target": "symptom_predlezhanie_sosudov_pupoviny",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "предлежание пуповины … предлежание сосудов пуповины",
+    "properties": {}
+  }
+]

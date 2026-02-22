@@ -1,0 +1,202 @@
+[
+  {
+    "source": "symptom_hypotension",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение систолического артериального давления ниже 90 мм. рт. ст.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tachycardia",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "быстро нарастающая тахикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bradycardia",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "выраженная брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypoxia",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гипоксия во всех жизненно важных органах",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cyanosis",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "цианоз – поздний симптом обструкции.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticarial_rash",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_erythema",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "эритема",
+    "properties": {}
+  },
+  {
+    "source": "symptom_angioedema",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "ангионевротический отек",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchospasm",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "бронхоспазм",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "кашель",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hyperreactive_bronchi",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "гиперреактивность бронхов (кашель, нарушение вентиляции)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_collapse",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "коллапс",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arrhythmia",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "аритмии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_shock",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "Шок чаще всего связан с гиповолемией",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "symptom_tachycardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Первым признаком гипотонии у детей может быть быстро нарастающая тахикардия.",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hypotension",
+    "target": "symptom_bradycardia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гипотензия, выраженная брадикардия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urticarial_rash",
+    "target": "symptom_erythema",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "Эритема, уртикарная сыпь",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bronchospasm",
+    "target": "symptom_cough",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "гиперреактивность бронхов (кашель, нарушение вентиляции)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_collapse",
+    "target": "symptom_arrhythmia",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "коллапс, тахикардия или брадикардия, аритмии",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anaphylactic_shock_food",
+    "target": "diagnosis_anaphylactic_shock_unspecified",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 ... T78.0 ... T78.2 ... T80.5 ... T88.6",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anaphylactic_shock_food",
+    "target": "diagnosis_anaphylactic_shock_serum",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 ... T78.0 ... T78.2 ... T80.5 ... T88.6",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anaphylactic_shock_food",
+    "target": "diagnosis_anaphylactic_shock_drug",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 ... T78.0 ... T78.2 ... T80.5 ... T88.6",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anaphylactic_shock_unspecified",
+    "target": "diagnosis_anaphylactic_shock_serum",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 ... T78.0 ... T78.2 ... T80.5 ... T88.6",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anaphylactic_shock_unspecified",
+    "target": "diagnosis_anaphylactic_shock_drug",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 ... T78.0 ... T78.2 ... T80.5 ... T88.6",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_anaphylactic_shock_serum",
+    "target": "diagnosis_anaphylactic_shock_drug",
+    "type": "appear-with",
+    "weight": 0.5,
+    "evidence": "Код МКБ-10 ... T78.0 ... T78.2 ... T80.5 ... T88.6",
+    "properties": {}
+  }
+]

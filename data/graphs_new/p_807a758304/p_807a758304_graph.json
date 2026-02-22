@@ -1,0 +1,213 @@
+{
+  "protocol_id": "p_807a758304",
+  "nodes": [
+    {
+      "id": "symptom_rvota",
+      "type": "symptom",
+      "label": "рвота"
+    },
+    {
+      "id": "symptom_vzdutie_zhivota",
+      "type": "symptom",
+      "label": "вздутие живота"
+    },
+    {
+      "id": "symptom_zhelchnoe_okrashivanie_aspirata",
+      "type": "symptom",
+      "label": "желчью окрашенный аспират"
+    },
+    {
+      "id": "symptom_povyshenniy_ostatochnyi_obem_zh",
+      "type": "symptom",
+      "label": "повышенный остаточный желудочный объём (>50%)"
+    },
+    {
+      "id": "symptom_oslablenie_peristaltiki",
+      "type": "symptom",
+      "label": "ослабление перистальтики при аускультации"
+    },
+    {
+      "id": "symptom_neravnovernaya_defekatsiya",
+      "type": "symptom",
+      "label": "нерегулярная дефекация"
+    },
+    {
+      "id": "symptom_krov_v_kale",
+      "type": "symptom",
+      "label": "кровь в кале"
+    },
+    {
+      "id": "symptom_krov_v_zh",
+      "type": "symptom",
+      "label": "кровь в желудочном содержимом"
+    },
+    {
+      "id": "symptom_krovavyj_vodianistyj_stul",
+      "type": "symptom",
+      "label": "кровавый/водянистый стул"
+    },
+    {
+      "id": "symptom_ostryj_zhivot",
+      "type": "symptom",
+      "label": "острый живот"
+    },
+    {
+      "id": "symptom_plohaya_perenosimost_ep",
+      "type": "symptom",
+      "label": "плохая переносимость энтерального питания"
+    },
+    {
+      "id": "symptom_aspiraty_zhelchi_i_svezhei_krovi",
+      "type": "symptom",
+      "label": "аспираты желчи и свежей крови"
+    },
+    {
+      "id": "symptom_izmenenie_cveta_zhivota",
+      "type": "symptom",
+      "label": "изменение цвета живота"
+    },
+    {
+      "id": "symptom_vizualnye_petli_kishechnika",
+      "type": "symptom",
+      "label": "визуальные петли кишечника"
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_vzdutie_zhivota",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Вздутие живота.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_zhelchnoe_okrashivanie_aspirata",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Сильное окрашивание желудком желчи …",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_povyshenniy_ostatochnyi_obem_zh",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Увеличение остаточного объёма желудочного содержимого более чем на 50%.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_oslablenie_peristaltiki",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Ослабление перистальтики при аускультации.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_neravnovernaya_defekatsiya",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Нерегулярная дефекация (задержка стула).",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_krov_v_kale",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Кровь в кале.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_rvota",
+      "target": "symptom_krov_v_zh",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Признаки непереносимости: … Рвота … Кровь в желудочном содержимом.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aspiraty_zhelchi_i_svezhei_krovi",
+      "target": "symptom_vizualnye_petli_kishechnika",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 1. Аспираты желчи/свежей крови. 2. Визуальные петли кишечника/изменение цвета живота.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aspiraty_zhelchi_i_svezhei_krovi",
+      "target": "symptom_izmenenie_cveta_zhivota",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 1. Аспираты желчи/свежей крови. 2. Визуальные петли кишечника/изменение цвета живота.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aspiraty_zhelchi_i_svezhei_krovi",
+      "target": "symptom_krovavyj_vodianistyj_stul",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 3. Сильно кровавый/водянистый или ненормальный стул.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aspiraty_zhelchi_i_svezhei_krovi",
+      "target": "symptom_ostryj_zhivot",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 3. Сильно кровавый/водянистый или ненормальный стул клинически нестабильный или острое ухудшение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vizualnye_petli_kishechnika",
+      "target": "symptom_izmenenie_cveta_zhivota",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 2. Визуальные петли кишечника/изменение цвета живота.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vizualnye_petli_kishechnika",
+      "target": "symptom_krovavyj_vodianistyj_stul",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 3. Сильно кровавый/водянистый или ненормальный стул.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_vizualnye_petli_kishechnika",
+      "target": "symptom_ostryj_zhivot",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): ... острое ухудшение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_cveta_zhivota",
+      "target": "symptom_krovavyj_vodianistyj_stul",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): 3. Сильно кровавый/водянистый или ненормальный стул.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_izmenenie_cveta_zhivota",
+      "target": "symptom_ostryj_zhivot",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): ... острое ухудшение.",
+      "properties": {}
+    },
+    {
+      "source": "symptom_krovavyj_vodianistyj_stul",
+      "target": "symptom_ostryj_zhivot",
+      "type": "co-occurs",
+      "weight": 0.95,
+      "evidence": "Возможные признаки некротизирующего энтероколита (НЭК): ... острое ухудшение.",
+      "properties": {}
+    }
+  ]
+}

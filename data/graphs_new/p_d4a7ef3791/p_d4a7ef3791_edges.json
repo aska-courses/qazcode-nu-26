@@ -1,0 +1,26 @@
+[
+  {
+    "source": "symptom_seizures",
+    "target": "diagnosis_epilepsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "снижение частоты/купирование судорог",
+    "properties": {}
+  },
+  {
+    "source": "symptom_epileptic_attacks",
+    "target": "diagnosis_epilepsy",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "уменьшение частоты приступов в динамике",
+    "properties": {}
+  },
+  {
+    "source": "symptom_seizures",
+    "target": "symptom_epileptic_attacks",
+    "type": "co-occurs",
+    "weight": 0.5,
+    "evidence": "снижение частоты/купирование судорог ... уменьшение частоты приступов",
+    "properties": {}
+  }
+]

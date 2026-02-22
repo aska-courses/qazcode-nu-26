@@ -1,0 +1,178 @@
+[
+  {
+    "source": "symptom_izjoga",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "изжога – чувство жжения",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otryzhka",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отрыжка кислым после еды",
+    "properties": {}
+  },
+  {
+    "source": "symptom_regurgitatsiya",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "срыгивание пищи (регургитация)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfagiya",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дисфагия и одинофагия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_odinofagiya",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "дисфагия и одинофагия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_bol_za_grudinoi",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "боли за грудиной",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashel",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "приступы кашля и/или ... удушья",
+    "properties": {}
+  },
+  {
+    "source": "symptom_udushye",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "приступы кашля и/или ... удушья",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otolaringologicheskie_proyavleniya",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "отоларингологические проявления",
+    "properties": {}
+  },
+  {
+    "source": "symptom_stomatologicheskie_erozii",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "эрозии эмали зубов",
+    "properties": {}
+  },
+  {
+    "source": "symptom_aritmii",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "аритмии",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_vesa",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "потеря веса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_snizhenie_appetita",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rvota_krovyu",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "рвота кровью",
+    "properties": {}
+  },
+  {
+    "source": "symptom_osiplost_golosa",
+    "target": "diagnosis_k21",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "осиплость голоса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_kashel",
+    "target": "symptom_udushye",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "приступы кашля и/или ... удушья",
+    "properties": {}
+  },
+  {
+    "source": "symptom_otryzhka",
+    "target": "symptom_regurgitatsiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "отрыжка кислым после еды; срыгивание пищи (регургитация)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_disfagiya",
+    "target": "symptom_odinofagiya",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "дисфагия и одинофагия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_poteria_vesa",
+    "target": "symptom_snizhenie_appetita",
+    "type": "co-occurs",
+    "weight": 0.75,
+    "evidence": "потеря веса; снижение аппетита",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k21",
+    "target": "diagnosis_k21_0",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К 21.0 Гастроэзофагеальный рефлюкс с эзофагитом",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k21",
+    "target": "diagnosis_k21_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К 21.9 Гастроэзофагеальный рефлюкс без эзофагита",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_k21_0",
+    "target": "diagnosis_k21_9",
+    "type": "appear-with",
+    "weight": 0.95,
+    "evidence": "К 21.0 ...; К 21.9 ... (оба перечислены в классификации)",
+    "properties": {}
+  }
+]

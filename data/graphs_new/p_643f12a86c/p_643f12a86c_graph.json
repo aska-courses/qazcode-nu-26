@@ -1,0 +1,413 @@
+{
+  "protocol_id": "p_643f12a86c",
+  "nodes": [
+    {
+      "id": "diagnosis_cleft_palate",
+      "type": "diagnosis",
+      "label": "Расщелина неба",
+      "icd_code": "Q35"
+    },
+    {
+      "id": "diagnosis_cleft_lip",
+      "type": "diagnosis",
+      "label": "Расщелина губы",
+      "icd_code": "Q36"
+    },
+    {
+      "id": "diagnosis_cleft_lip_and_palate",
+      "type": "diagnosis",
+      "label": "Расщелина неба и губы",
+      "icd_code": "Q37"
+    },
+    {
+      "id": "symptom_defect_upper_lip_alveolar_palate",
+      "type": "symptom",
+      "label": "Дефект верхней губы, альвеолярного отростка и (или) твердого и мягкого неба",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_aesthetic_face_disorder",
+      "type": "symptom",
+      "label": "Эстетическое нарушение лица",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_feeding_difficulty",
+      "type": "symptom",
+      "label": "Нарушение приема пищи",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_speech_gnusavost",
+      "type": "symptom",
+      "label": "Нарушение речи (гнусавость)",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_facial_asymmetry",
+      "type": "symptom",
+      "label": "Асимметрия лица",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_short_middle_upper_lip",
+      "type": "symptom",
+      "label": "Укорочение среднего отдела верхней губы",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_nasal_cartilage_deformation",
+      "type": "symptom",
+      "label": "Деформация кожно‑хрящевого отдела носа",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_short_soft_palate",
+      "type": "symptom",
+      "label": "Укорочение мягкого неба",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_widened_pharyngeal_middle_section",
+      "type": "symptom",
+      "label": "Расширение среднего отдела глотки",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_reduced_naso_pharyngeal_ring_mobility",
+      "type": "symptom",
+      "label": "Ограничение подвижности мышц небно‑глоточного кольца",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_defect_alveolar_and_hard_palate",
+      "type": "symptom",
+      "label": "Дефект альвеолярного отростка и твердого неба",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_malocclusion_relationship_jaws",
+      "type": "symptom",
+      "label": "Нарушение взаимоотношения челюстей",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_breathing_difficulty",
+      "type": "symptom",
+      "label": "Нарушение дыхания",
+      "icd_code": null
+    },
+    {
+      "id": "symptom_swallowing_difficulty",
+      "type": "symptom",
+      "label": "Нарушение глотания",
+      "icd_code": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "symptom_defect_upper_lip_alveolar_palate",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дефект верхней губы, альвеолярного отростка и (или) твердого и мягкого неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aesthetic_face_disorder",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эстетическое нарушение лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeding_difficulty",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение приема пищи за счет наличия дефекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_speech_gnusavost",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение речи (гнусавость) при расщелинах неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_asymmetry",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асимметрия лица за счет дефекта в области верхней губы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_short_middle_upper_lip",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение среднего отдела верхней губы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_cartilage_deformation",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация кожно‑хрящевого отдела носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_short_soft_palate",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение мягкого неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_widened_pharyngeal_middle_section",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение среднего отдела глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_naso_pharyngeal_ring_mobility",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение подвижности мышц небно‑глоточного кольца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defect_alveolar_and_hard_palate",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дефект альвеолярного отростка и твердого неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_malocclusion_relationship_jaws",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение взаимоотношения челюстей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_breathing_difficulty",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swallowing_difficulty",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение глотания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defect_upper_lip_alveolar_palate",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дефект верхней губы, альвеолярного отростка и (или) твердого и мягкого неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_asymmetry",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "асимметрия лица за счет дефекта в области верхней губы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_short_middle_upper_lip",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение среднего отдела верхней губы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_nasal_cartilage_deformation",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "деформация кожно‑хрящевого отдела носа",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defect_alveolar_and_hard_palate",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "дефект альвеолярного отростка и твердого неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_short_soft_palate",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "укорочение мягкого неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_widened_pharyngeal_middle_section",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "расширение среднего отдела глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_reduced_naso_pharyngeal_ring_mobility",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "ограничение подвижности мышц небно‑глоточного кольца",
+      "properties": {}
+    },
+    {
+      "source": "symptom_breathing_difficulty",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_swallowing_difficulty",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение глотания",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aesthetic_face_disorder",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эстетическое нарушение лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aesthetic_face_disorder",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "эстетическое нарушение лица",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeding_difficulty",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение приема пищи за счет наличия дефекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_feeding_difficulty",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение приема пищи за счет наличия дефекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_speech_gnusavost",
+      "target": "diagnosis_cleft_palate",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение речи (гнусавость) при расщелинах неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_speech_gnusavost",
+      "target": "diagnosis_cleft_lip",
+      "type": "supports",
+      "weight": 0.5,
+      "evidence": "нарушение речи (гнусавость) при расщелинах неба",
+      "properties": {}
+    },
+    {
+      "source": "symptom_aesthetic_face_disorder",
+      "target": "symptom_feeding_difficulty",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "Эстетическое нарушение лица; нарушение приема пищи за счет наличия дефекта",
+      "properties": {}
+    },
+    {
+      "source": "symptom_facial_asymmetry",
+      "target": "symptom_short_middle_upper_lip",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "асимметрия лица за счет дефекта в области верхней губы; укорочение среднего отдела верхней губы",
+      "properties": {}
+    },
+    {
+      "source": "symptom_short_soft_palate",
+      "target": "symptom_widened_pharyngeal_middle_section",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "укорочение мягкого неба; расширение среднего отдела глотки",
+      "properties": {}
+    },
+    {
+      "source": "symptom_defect_alveolar_and_hard_palate",
+      "target": "symptom_malocclusion_relationship_jaws",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "дефект альвеолярного отростка и твердого неба; нарушение взаимоотношения челюстей",
+      "properties": {}
+    },
+    {
+      "source": "symptom_breathing_difficulty",
+      "target": "symptom_swallowing_difficulty",
+      "type": "co-occurs",
+      "weight": 0.5,
+      "evidence": "нарушение дыхания; нарушение глотания",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_cleft_lip",
+      "target": "diagnosis_cleft_palate",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Q.35 Расщелина неба; Q.36 Расщелина губы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_cleft_lip",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Q.36 Расщелина губы; Q.37 Расщелина неба и губы",
+      "properties": {}
+    },
+    {
+      "source": "diagnosis_cleft_palate",
+      "target": "diagnosis_cleft_lip_and_palate",
+      "type": "appear-with",
+      "weight": 0.5,
+      "evidence": "Q.35 Расщелина неба; Q.37 Расщелина неба и губы",
+      "properties": {}
+    }
+  ]
+}

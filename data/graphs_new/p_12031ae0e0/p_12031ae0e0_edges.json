@@ -1,0 +1,234 @@
+[
+  {
+    "source": "symptom_fever",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.75,
+    "evidence": "повышение температуры тела (или без повышения температуры)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_fatigue",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "общая слабость, недомогание",
+    "properties": {}
+  },
+  {
+    "source": "symptom_headache",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головная боль",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sweating",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потливость (может быть выраженная)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_loss_appetite",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "потеря аппетита",
+    "properties": {}
+  },
+  {
+    "source": "symptom_mental_status_change",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "изменение психического статуса",
+    "properties": {}
+  },
+  {
+    "source": "symptom_agitation",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "беспокойное поведение (ажитация)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_apathy",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "апатия",
+    "properties": {}
+  },
+  {
+    "source": "symptom_myalgia",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в мышцах, костях и суставах, ломота в теле (иногда интенсивные)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_arthralgia",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "боли в мышцах, костях и суставах, ломота в теле (иногда интенсивные)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_cough_dry",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "кашель (редкий сухой или с небольшим количеством трудноотделяемой мокроты)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_sore_throat",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "першение и боли в горле при глотании",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nasal_congestion",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "заложенность носа",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rhinitis",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "ринит",
+    "properties": {}
+  },
+  {
+    "source": "symptom_conjunctivitis",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.25,
+    "evidence": "конъюнктивит (редко)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_anosmia",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "аносмия (потеря обоняния)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_ageusia",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "агевзия (потеря вкуса)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_tinnitus",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "звон в ушах, нарушения слуха",
+    "properties": {}
+  },
+  {
+    "source": "symptom_nausea",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_vomiting",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "тошнота, рвота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_hiccups",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "икота",
+    "properties": {}
+  },
+  {
+    "source": "symptom_abdominal_pain",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "абдоминальные боли",
+    "properties": {}
+  },
+  {
+    "source": "symptom_diarrhea",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "диарея",
+    "properties": {}
+  },
+  {
+    "source": "symptom_rash",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "сыпь (требуется уточнение причины)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dyspnea",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "одышка (на момент осмотра или в динамике заболевания)",
+    "properties": {}
+  },
+  {
+    "source": "symptom_dizziness",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "головокружение",
+    "properties": {}
+  },
+  {
+    "source": "symptom_urinary_retention",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "задержка мочи",
+    "properties": {}
+  },
+  {
+    "source": "symptom_peripheral_collapse",
+    "target": "diagnosis_covid19_confirmed",
+    "type": "supports",
+    "weight": 0.5,
+    "evidence": "периферический коллапс",
+    "properties": {}
+  },
+  {
+    "source": "diagnosis_mis_c",
+    "target": "diagnosis_kawasaki",
+    "type": "contradicts",
+    "weight": 0.0,
+    "evidence": "Исключено: слизисто‑кожный лимфонодулярный синдром [Кавасаки] (M30.3)",
+    "properties": {}
+  }
+]
